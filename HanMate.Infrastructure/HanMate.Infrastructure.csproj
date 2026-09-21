@@ -4,6 +4,7 @@
     <EmbeddedResource Include="Dictionary\xinhua.sqlite.gz" LogicalName="Dictionary.xinhua.sqlite.gz" />
     <EmbeddedResource Include="Dictionary\XINHUA-NOTICE.json" LogicalName="Dictionary.XINHUA-NOTICE.json" />
     <EmbeddedResource Include="Dictionary\XINHUA-README.txt" LogicalName="Dictionary.XINHUA-README.txt" />
+    <EmbeddedResource Include="Dictionary\XINHUA-LICENSE.txt" LogicalName="Dictionary.XINHUA-LICENSE.txt" />
     <EmbeddedResource Include="Dictionary\PYPINYIN-LICENSE.txt" LogicalName="Dictionary.PYPINYIN-LICENSE.txt" />
     <EmbeddedResource Include="Dictionary\JIEBA-LICENSE.txt" LogicalName="Dictionary.JIEBA-LICENSE.txt" />
     <EmbeddedResource Include="Dictionary\OPENCC-LICENSE.txt" LogicalName="Dictionary.OPENCC-LICENSE.txt" />

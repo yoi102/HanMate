@@ -4,7 +4,9 @@
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
-**0.1.0 预览版准备中** · [版本说明与发布准备](docs/releases/0.1.0.md)
+**[下载 0.1.0 预览版](https://github.com/yoi102/HanMate/releases/tag/v0.1.0)** · [版本说明](docs/releases/0.1.0.md) · [隐私政策](PRIVACY.md)
+
+免费，无内购。GitHub 已提供 Windows / Android 预览包；Microsoft Store 与 Google Play 尚未上架。
 
 面向中文学习的离线应用，基于 **.NET 10 / .NET MAUI**，将拼音、词语、课文、语法、诗词、字典和朗读放在一起。界面支持简体中文、日语和英语，教学中文与拼音保持原样。
 
@@ -132,7 +134,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 许可证与第三方资源
 
-当前仓库未指定项目整体的开源许可证，不应据此假定源码可按 MIT 等许可证使用。第三方代码、字典、模型和录音分别遵循各自的许可与署名要求：
+HanMate 自有源码与原创文档采用 [MIT 许可证](LICENSE)。第三方代码、字典、录音、模型、字体和衍生数据不因此改为 MIT，仍遵循各自的许可与署名要求；来源许可未明确的素材也不因此获得再分发授权。详见[第三方许可核查](docs/THIRD_PARTY_LICENSES.md)。
 
 - [语音模型及运行库说明](HanMate.App/Resources/Raw/Voices/NOTICE.txt)
 - [拼音录音说明](HanMate.App/Resources/Raw/Pinyin/NOTICE.txt)

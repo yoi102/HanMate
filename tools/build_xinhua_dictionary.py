@@ -123,7 +123,10 @@ def build(source, output):
     (output / 'xinhua.sqlite.gz').write_bytes(compressed)
     info = dict(name='简体汉语字典（chinese-xinhua）', version=REVISION[:12], entries=len(groups),
         source='https://github.com/pwxcoo/chinese-xinhua', revision=REVISION, sourceHashes=HASHES,
-        license='NOASSERTION', usage='User-selected local use; upstream content rights are not verified.',
+        license='NOASSERTION',
+        upstreamRepositoryLicense='MIT; Copyright (c) 2018 PWXCOO; see XINHUA-LICENSE.txt',
+        rightsReview='2026-09-21: pinned repository LICENSE verified. README says data was scraped from multiple websites; underlying dictionary content rights remain unverified. Repository MIT does not clear third-party source rights.',
+        usage='User-selected local use; upstream content rights are not verified.',
         transformations='Simplified display; merged duplicate headwords; normalized IPA-shaped g/a; original records preserved.',
         pinyin='Original readings indexed; pypinyin 0.55.0 automatic supplements are unreviewed and not indexed.',
         ranking='jieba 0.42.1 word frequency; exact/prefix match tiers take precedence',
@@ -132,6 +135,7 @@ def build(source, output):
         sqliteSha256=hashlib.sha256(payload).hexdigest(), gzipSha256=hashlib.sha256(compressed).hexdigest())
     (output / 'XINHUA-NOTICE.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (output / 'XINHUA-README.txt').write_bytes((source / 'README.md').read_bytes())
+    (output / 'XINHUA-LICENSE.txt').write_bytes((source / 'LICENSE').read_bytes())
     (output / 'JIEBA-LICENSE.txt').write_bytes((source / 'JIEBA-LICENSE.txt').read_bytes())
     license_files = distribution('pypinyin').files
     license_path = next(p for p in license_files if str(p).endswith('/LICENSE.txt'))

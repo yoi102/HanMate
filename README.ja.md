@@ -4,7 +4,9 @@
 
 [简体中文](README.md) · [English](README.en.md) · **日本語**
 
-**0.1.0 プレビュー版を準備中** · [リリースノートと公開準備](docs/releases/0.1.0.md)
+**[0.1.0 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.0)** · [リリースノート](docs/releases/0.1.0.md) · [プライバシーポリシー](PRIVACY.md)
+
+無料・アプリ内課金なし。Windows / Android のプレビュー版を GitHub で公開しています。Microsoft Store と Google Play ではまだ配信していません。
 
 HanMate は **.NET 10 / .NET MAUI** で開発している、オフラインで使える中国語学習アプリです。ピンイン、単語、課文、文法、詩、辞書、読み上げを一つのアプリにまとめています。画面の言語は簡体字中国語・日本語・英語に対応し、切り替えても学習用の中国語本文とピンインは変わりません。
 
@@ -132,7 +134,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## ライセンスと第三者のリソース
 
-現時点では、プロジェクト全体のオープンソースライセンスは指定していません。MIT などのライセンスが適用されるとは限りません。第三者のコード、辞書、モデル、録音には、それぞれのライセンスとクレジット表記の条件が適用されます。
+HanMate の独自ソースコードとオリジナル文書には [MIT ライセンス](LICENSE)を適用します。第三者のコード、辞書、録音、モデル、フォントおよび派生データには、それぞれのライセンスとクレジット表記の条件が適用されます。出典や許諾が未確認の素材に MIT による再配布許諾を与えるものではありません。[第三者ライセンスの確認記録](docs/THIRD_PARTY_LICENSES.md)を参照してください。
 
 - [音声モデルとランタイム](HanMate.App/Resources/Raw/Voices/NOTICE.txt)
 - [ピンイン録音](HanMate.App/Resources/Raw/Pinyin/NOTICE.txt)

@@ -4,7 +4,9 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-**0.1.0 preview in preparation** · [Release notes and preparation](docs/releases/0.1.0.md)
+**[Download the 0.1.0 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.0)** · [Release notes](docs/releases/0.1.0.md) · [Privacy policy](PRIVACY.md)
+
+Free, with no in-app purchases. Windows / Android preview builds are available on GitHub; Microsoft Store and Google Play releases are not yet available.
 
 HanMate is an offline Chinese learning app built with **.NET 10 / .NET MAUI**. It brings together pinyin, vocabulary, reading passages, grammar, poetry, a dictionary and read-aloud playback. The interface supports Simplified Chinese, Japanese and English; Chinese learning text and pinyin remain unchanged when switching languages.
 
@@ -132,7 +134,7 @@ These documents include historical records: check dates and validation scope. Te
 
 ## Licenses and third-party resources
 
-The repository does not currently specify an overall open-source license. Do not assume that the project is licensed under MIT or another license. Third-party code, dictionaries, models and recordings retain their own license and attribution requirements:
+HanMate's original source code and documentation are licensed under the [MIT License](LICENSE). Third-party code, dictionaries, recordings, models, fonts and derived data retain their respective licenses and attribution requirements; the MIT license does not grant redistribution rights to assets with unresolved provenance. See the [third-party license review](docs/THIRD_PARTY_LICENSES.md).
 
 - [Speech models and runtime libraries](HanMate.App/Resources/Raw/Voices/NOTICE.txt)
 - [Pinyin recordings](HanMate.App/Resources/Raw/Pinyin/NOTICE.txt)

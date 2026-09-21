@@ -10,6 +10,8 @@
     "idiom": "1d4b4f454ce1c416d6a1ab2369d6e66c0ff99e04390172eef70790499e21ce19"
   },
   "license": "NOASSERTION",
+  "upstreamRepositoryLicense": "MIT; Copyright (c) 2018 PWXCOO; see XINHUA-LICENSE.txt",
+  "rightsReview": "2026-09-21: pinned repository LICENSE verified. README says data was scraped from multiple websites; underlying dictionary content rights remain unverified. Repository MIT does not clear third-party source rights.",
   "usage": "User-selected local use; upstream content rights are not verified.",
   "transformations": "Simplified display; merged duplicate headwords; normalized IPA-shaped g/a; original records preserved.",
   "pinyin": "Original readings indexed; pypinyin 0.55.0 automatic supplements are unreviewed and not indexed.",

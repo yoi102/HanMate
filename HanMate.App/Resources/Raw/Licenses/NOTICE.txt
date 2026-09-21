@@ -1,0 +1,7 @@
+HanMate font attribution
+
+OpenSans-Regular.ttf and OpenSans-Semibold.ttf
+Digitized data copyright (c) 2010-2011, Google Corporation.
+The bundled font files declare Apache License, Version 2.0 in their name tables.
+See OpenSans-Apache-2.0.txt for the license text.
+No modifications to the bundled font files were made in this license review.
