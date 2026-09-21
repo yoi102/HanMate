@@ -8,6 +8,7 @@ using HanMate.Core.Content;
 using HanMate.Core.Localization;
 using HanMate.Core.Reading;
 using HanMate.Infrastructure.Database;
+using HanMate.Infrastructure.Pinyin;
 
 namespace HanMate.App.Pages;
 
@@ -35,6 +36,11 @@ public sealed class LessonDetailPage : ContentPage
     private string? _renderedCulture;
     private long _generation, _request;
     private CancellationTokenSource? _lifetime;
+    private readonly ContentView _titleView = new();
+    private readonly ContentView _authorView = new();
+    private LessonHeading? _titleHeading, _authorHeading;
+    private string? Author => _reading.Content.Kind == ContentKind.Poem &&
+        _reading.Content.Source.SourceId == "hanmate-common-lessons" ? _reading.Content.Source.AuthorProvider : null;
 
     public LessonDetailPage(ReadingDocument reading, LocalizationService language, IServiceProvider services)
     {
@@ -48,6 +54,7 @@ public sealed class LessonDetailPage : ContentPage
             _showPinyin = !_showPinyin; Preferences.Default.Set("lesson.show-pinyin", _showPinyin);
             _pinyin.Text = _language["Reader." + (_showPinyin ? "HidePinyin" : "ShowPinyin")];
             foreach (var block in _blocks) block.Pinyin = _showPinyin;
+            RenderHeadings();
         };
         _favorite.Clicked += async (_, _) => await OpenAsync(() => Navigation.PushAsync(
             new FavoritePickerPage(_services.GetRequiredService<FavoriteStore>(), _language, _reading.Content.Id)));
@@ -76,6 +83,7 @@ public sealed class LessonDetailPage : ContentPage
             _showPinyin = showPinyin;
             _pinyin.Text = _language["Reader." + (_showPinyin ? "HidePinyin" : "ShowPinyin")];
             foreach (var block in _blocks) block.Pinyin = _showPinyin;
+            RenderHeadings();
         }
         if (_renderedCulture != _language.CurrentCultureName) Render();
         try
@@ -93,6 +101,15 @@ public sealed class LessonDetailPage : ContentPage
             {
                 _reading = changed;
                 Render();
+            }
+            var title = _reading.Content.Title; var author = Author;
+            if (_titleHeading?.Text != title || _authorHeading?.Text != author)
+            {
+                var headings = await Task.Run(() => (Title: LessonHeadingAnnotation.Create(title, token),
+                    Author: author is null ? null : LessonHeadingAnnotation.Create(author, token)), token);
+                if (!_active || generation != _generation) return;
+                _titleHeading = headings.Title; _authorHeading = headings.Author;
+                RenderHeadings();
             }
             var selection = await _services.GetRequiredService<FavoriteStore>().GetSelectionAsync(current.Id, token);
             if (!_active || generation != _generation) return;
@@ -123,9 +140,11 @@ public sealed class LessonDetailPage : ContentPage
         _reserved.Text = _language["DictionaryDetail.SpeechPending"];
         _status.Text = "";
         var header = new VerticalStackLayout { Padding = new Thickness(24, 22, 24, 12), Spacing = 14 };
-        header.Add(new Label { Text = Title, FontSize = 28, FontAttributes = FontAttributes.Bold });
-        if (_reading.Content.Kind == ContentKind.Poem && _reading.Content.Source.SourceId == "hanmate-common-lessons")
-            header.Add(LibraryLayout.Muted(_reading.Content.Source.AuthorProvider));
+        // Detach reusable heading hosts before replacing the collection header.
+        if (_list.Header is Layout previousHeader) previousHeader.Children.Clear();
+        RenderHeadings();
+        header.Add(_titleView);
+        if (Author is not null) header.Add(_authorView);
         header.Add(LibraryLayout.Muted(T("Hint")));
         var read = LibraryLayout.Quiet(new Button { Text = T("ReadAll"),
             AutomationId = "Lesson.Play", HorizontalOptions = LayoutOptions.Start, LineBreakMode = LineBreakMode.WordWrap });
@@ -138,6 +157,51 @@ public sealed class LessonDetailPage : ContentPage
     }
 
     private Task ActivateAsync(ReadingTarget target) => SpeakAsync(target);
+
+    private void RenderHeadings()
+    {
+        _titleView.Content = HeadingView(_reading.Content.Title, _titleHeading, "Title", 1.08);
+        _authorView.Content = Author is { } author ? HeadingView(author, _authorHeading, "Author", .7) : null;
+    }
+
+    private View HeadingView(string text, LessonHeading? heading, string kind, double scale)
+    {
+        var body = new VerticalStackLayout { Spacing = 0, InputTransparent = true, CascadeInputTransparent = true };
+        if (heading?.Text == text)
+            foreach (var chunk in heading.Atoms.Chunk(ReadingDocument.PageAtomLimit))
+                body.Add(new RubyTextView(chunk, _showPinyin, scale, null, dictionaryStyle: true));
+        else body.Add(new Label { Text = text, FontSize = 26 * scale, LineBreakMode = LineBreakMode.WordWrap });
+        body.SetValue(AutomationProperties.ExcludedWithChildrenProperty, true);
+        var tap = new Button { BackgroundColor = Colors.Transparent, BorderWidth = 0, Padding = 0,
+            AutomationId = "Lesson." + kind + ".Speak", ZIndex = 1 };
+        SemanticProperties.SetDescription(tap, text);
+        SemanticProperties.SetHint(tap, T("SpeakSegment"));
+        tap.Clicked += async (_, _) => await SpeakHeadingAsync(text, kind);
+        var area = new Grid { MinimumHeightRequest = 48 }; area.Add(body); area.Add(tap); return area;
+    }
+
+    private async Task SpeakHeadingAsync(string text, string kind)
+    {
+        if (!_active || _opening) return;
+        var request = ++_request; string? problem = null;
+        _status.Text = _language["DictionaryDetail.SpeechPending"];
+        var outcome = await _playback.PlayOperationAsync(_owner, $"lesson-heading:{_reading.Content.Id}:{kind}:{text}", async token =>
+        {
+            var heading = kind == "Title" ? _titleHeading : _authorHeading;
+            if (heading?.Text != text) heading = await Task.Run(() => LessonHeadingAnnotation.Create(text, token), token);
+            try { await _services.GetRequiredService<TextSpeechService>().SpeakAsync(text,
+                heading.Phonemes is { } phones ? () => phones : null, token); }
+            catch (SpeechUnavailableException e) { problem = _language[e.SystemVoice ? "Speech.Unavailable" : "DictionaryDetail.NoVoice"]; throw; }
+            catch (UnsupportedVoiceTextException) { problem = _language["Voice.UnsupportedText"]; throw; }
+        });
+        if (!_active || request != _request) return;
+        _status.Text = outcome switch
+        {
+            PlaybackOutcome.Busy => _language["Audio.Busy"],
+            PlaybackOutcome.Failed => problem ?? _language["Audio.Failed"],
+            _ => ""
+        };
+    }
 
     private async Task SpeakAsync(ReadingTarget? selected = null)
     {
