@@ -3,6 +3,7 @@ param(
     [Parameter(Mandatory=$true)][string]$OutputDirectory,
     [string]$Python = 'python',
     [string]$AndroidSdk = 'C:/Program Files (x86)/Android/android-sdk',
+    [string]$JavaSdk = 'C:/Program Files/Android/openjdk/jdk-21.0.8',
     [string]$BuildToolsVersion = '36.0.0'
 )
 $ErrorActionPreference = 'Stop'
@@ -13,8 +14,11 @@ $androidTools = Join-Path $AndroidSdk "build-tools/$BuildToolsVersion"
 foreach ($tool in @('aapt.exe', 'apksigner.bat')) {
     if (-not (Test-Path -LiteralPath (Join-Path $androidTools $tool))) { throw "Missing Android tool: $tool" }
 }
+if (-not (Test-Path -LiteralPath (Join-Path $JavaSdk 'bin/java.exe'))) { throw 'Specify a valid -JavaSdk directory.' }
+$previousJavaHome = $env:JAVA_HOME
 Push-Location $repo
 try {
+    $env:JAVA_HOME = $JavaSdk
     $changes = & git status --porcelain
     if ($LASTEXITCODE -ne 0 -or $changes) { throw 'Commit or resolve working-tree changes before preparing a candidate.' }
     $sourceCommit = & git rev-parse HEAD
@@ -89,4 +93,4 @@ try {
     } | Set-Content -LiteralPath (Join-Path $assets 'SHA256SUMS.txt') -Encoding utf8
     Write-Output "Prepared local candidate: $assets"
     Write-Output "Public release ready: $($preflight.releaseReady). No installation, tag creation or publication performed."
-} finally { Pop-Location }
+} finally { $env:JAVA_HOME = $previousJavaHome; Pop-Location }
