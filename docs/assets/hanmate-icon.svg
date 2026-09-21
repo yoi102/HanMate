@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="456" height="456" viewBox="0 0 456 456">
+  <title>HanMate · 汉语小伴</title>
+  <rect width="456" height="456" rx="100" fill="#512BD4"/>
   <path d="M164 116H292Q336 116 336 160V266Q336 310 292 310H208L154 340V308Q120 302 120 266V160Q120 116 164 116Z" fill="#FFF9EF"/>
   <path d="M170 182H286V248H170Z" fill="none" stroke="#512BD4" stroke-width="22" stroke-linejoin="round"/>
   <path d="M228 158V279" fill="none" stroke="#512BD4" stroke-width="22" stroke-linecap="round"/>

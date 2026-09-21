@@ -1,4 +1,10 @@
+<p align="center"><img src="docs/assets/hanmate-icon.svg" width="112" height="112" alt="HanMate 图标" /></p>
+
 # HanMate · 汉语小伴
+
+**简体中文** · [English](README.en.md) · [日本語](README.ja.md)
+
+**0.1.0 预览版准备中** · [版本说明与发布准备](docs/releases/0.1.0.md)
 
 面向中文学习的离线应用，基于 **.NET 10 / .NET MAUI**，将拼音、词语、课文、语法、诗词、字典和朗读放在一起。界面支持简体中文、日语和英语，教学中文与拼音保持原样。
 
