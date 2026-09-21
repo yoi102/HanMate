@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "245e0085-edae-577c-aa3b-f41a74de5f94",
+  "catalogVersion": "fixture-1",
+  "items": [
+    {
+      "id": "d26e9af7-272e-55a5-aea2-0db6f34a3394",
+      "groupCode": "initial",
+      "display": "m",
+      "sortOrder": 0,
+      "demoAudioAssetId": null,
+      "reviewStatus": "draft",
+      "examples": [
+        {
+          "tone": 1,
+          "status": "available",
+          "contentId": "226bbb2a-93f0-50a4-aa5a-97d96c00454d",
+          "highlight": {
+            "contentId": "226bbb2a-93f0-50a4-aa5a-97d96c00454d",
+            "unitId": "a600443e-de9d-5e6d-ae7d-a36233015e14",
+            "tokenId": "b2657dc0-56f2-53c5-82e4-d17d0ec2004e",
+            "pinyinElementStart": 0,
+            "pinyinElementLength": 1
+          },
+          "note": "文本高亮示例，尚无教学音频，待内容审核"
+        },
+        {
+          "tone": 2,
+          "status": "available",
+          "contentId": "c86c4420-efce-5da3-be32-47a3894fe6c5",
+          "highlight": {
+            "contentId": "c86c4420-efce-5da3-be32-47a3894fe6c5",
+            "unitId": "57004640-7f29-53b1-82b8-a7f10d04dc93",
+            "tokenId": "ec04e58e-6959-59f5-961b-06ac981fc65e",
+            "pinyinElementStart": 0,
+            "pinyinElementLength": 1
+          },
+          "note": "文本高亮示例，尚无教学音频，待内容审核"
+        },
+        {
+          "tone": 3,
+          "status": "available",
+          "contentId": "8d0a92f0-f478-5242-933c-bc5ebc4de935",
+          "highlight": {
+            "contentId": "8d0a92f0-f478-5242-933c-bc5ebc4de935",
+            "unitId": "2630a3f8-8db3-5146-88e6-25fae30d7a2c",
+            "tokenId": "872f241a-5744-5e2c-b5c0-6cdce478348b",
+            "pinyinElementStart": 0,
+            "pinyinElementLength": 1
+          },
+          "note": "文本高亮示例，尚无教学音频，待内容审核"
+        },
+        {
+          "tone": 4,
+          "status": "available",
+          "contentId": "d6e8df22-a1d9-5147-b2df-40e73b5caca9",
+          "highlight": {
+            "contentId": "d6e8df22-a1d9-5147-b2df-40e73b5caca9",
+            "unitId": "e5216dc4-af95-52df-9e8f-cd5fe3317c47",
+            "tokenId": "e452b3c4-a611-511b-86cf-25e4c99aab55",
+            "pinyinElementStart": 0,
+            "pinyinElementLength": 1
+          },
+          "note": "文本高亮示例，尚无教学音频，待内容审核"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+  "version": "1.0.0",
+  "resourceKind": "learning",
+  "names": {
+    "zh-Hans": "入门语法示例包",
+    "ja": "文法サンプル",
+    "en": "Grammar samples"
+  },
+  "publisherId": "hanmate-planning-fixtures",
+  "publisherName": "HanMate 工程样例",
+  "descriptionZh": "仅用于结构与引用验证，不是可发行词库。",
+  "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+  "permissionNotes": "原创工程样例；使用说明见 examples/README.md。教学与译文待复核。",
+  "canShare": true,
+  "backupPolicy": "allowed",
+  "reviewStatus": "draft",
+  "entries": [
+    {
+      "entryId": "entry-1",
+      "contentId": "f7d967d2-9c45-5eeb-b8d4-19d4939dc60d"
+    },
+    {
+      "entryId": "entry-2",
+      "contentId": "b7f6b0a3-4a5b-5de3-a7c7-1f8be7735b10"
+    },
+    {
+      "entryId": "entry-3",
+      "contentId": "de13ed86-06ee-53c1-be85-151e85c16b3c"
+    },
+    {
+      "entryId": "entry-4",
+      "contentId": "abce87d2-3137-5514-a42b-48a3632c9673"
+    }
+  ],
+  "audioBindingIds": [],
+  "audioDefaults": []
+}

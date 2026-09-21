@@ -1,0 +1,12 @@
+{
+  "checkedAtUtc": "2026-09-20T12:01:30.325869+00:00",
+  "scope": "document/fixture validation only",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "packages": {
+    "jsonschema": "4.26.0",
+    "regex": "2026.9.10"
+  },
+  "mauiBuilt": false,
+  "platformTestsExecuted": false
+}

@@ -1,0 +1,53 @@
+{
+  "decision": "ADR-106",
+  "originalFormalCriteria": [
+    {
+      "taskId": "W0-06",
+      "title": "锁定技术决策",
+      "dependencies": "W0-02..05",
+      "acceptance": "ADR、版本锁、阻塞与替代路线",
+      "status": "IN_PROGRESS",
+      "owner": "Codex",
+      "evidence": "tracking/evidence/W0-W5-local-platform-readiness.md"
+    },
+    {
+      "taskId": "W5-02",
+      "title": "正式内容生产与审核",
+      "dependencies": "W2-01..04,W2-07,W2-09",
+      "acceptance": "四类内容、基础字典、拼音示范、音频/译文/许可终审；素材准备自 M0 开始",
+      "status": "IN_PROGRESS",
+      "owner": "Codex",
+      "evidence": "tracking/evidence/W3-W4-compressed-speech-migration.md"
+    },
+    {
+      "taskId": "W5-03",
+      "title": "各平台发布构建",
+      "dependencies": "W0-06,M1..M4",
+      "acceptance": "签名包和实际安装升级测试",
+      "status": "IN_PROGRESS",
+      "owner": "Codex",
+      "evidence": "tracking/evidence/W0-W5-local-platform-readiness.md"
+    },
+    {
+      "taskId": "W5-04",
+      "title": "隐私和商店资料核对",
+      "dependencies": "W5-02..03",
+      "acceptance": "真实数据行为、权限与声明一致",
+      "status": "IN_PROGRESS",
+      "owner": "Codex",
+      "evidence": "tracking/evidence/W0-W5-local-platform-readiness.md"
+    },
+    {
+      "taskId": "W5-06",
+      "title": "发布与交接归档",
+      "dependencies": "W5-05",
+      "acceptance": "可复现说明、已知限制、恢复指南",
+      "status": "TODO",
+      "owner": "UNASSIGNED",
+      "evidence": ""
+    }
+  ],
+  "deferredGateLedger": "tracking/deferred-release-gates.json",
+  "applicationTestsThisRound": "NOT RUN by user request",
+  "ios": "excluded by ADR-105"
+}

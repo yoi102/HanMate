@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resource-descriptor.schema.json",
+  "title": "HanMate resource-descriptor.schema.json — design contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "resourceId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "resourceKind": {
+      "enum": [
+        "learning",
+        "dictionary"
+      ]
+    },
+    "names": {
+      "type": "object",
+      "properties": {
+        "zh-Hans": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "ja": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 500
+        }
+      },
+      "required": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "publisherId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "publisherName": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "descriptionZh": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "licenseIdentifier": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "permissionNotes": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "canShare": {
+      "type": "boolean"
+    },
+    "backupPolicy": {
+      "enum": [
+        "allowed",
+        "restricted",
+        "unverified"
+      ]
+    },
+    "reviewStatus": {
+      "enum": [
+        "draft",
+        "needsReview",
+        "approved"
+      ]
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "entryId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9._-]{1,128}$"
+          },
+          "contentId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "entryId",
+          "contentId"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 10000
+    },
+    "audioBindingIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "uniqueItems": true,
+      "maxItems": 10000
+    },
+    "audioDefaults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "targetId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bindingId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "targetId",
+          "bindingId"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 10000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "resourceId",
+    "version",
+    "resourceKind",
+    "names",
+    "publisherId",
+    "publisherName",
+    "descriptionZh",
+    "licenseIdentifier",
+    "permissionNotes",
+    "canShare",
+    "backupPolicy",
+    "reviewStatus",
+    "entries",
+    "audioBindingIds",
+    "audioDefaults"
+  ],
+  "additionalProperties": false
+}

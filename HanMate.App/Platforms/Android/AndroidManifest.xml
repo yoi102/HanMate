@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Shell/native controls can resolve the application context during startup.
+	     Give it the same Material-derived theme as the activity after its splash. -->
+	<application android:theme="@style/Maui.MainTheme.NoActionBar" android:allowBackup="false" android:fullBackupContent="@xml/backup_rules" android:dataExtractionRules="@xml/data_extraction_rules" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true"></application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <queries><intent><action android:name="android.intent.action.TTS_SERVICE" /></intent></queries>
+</manifest>

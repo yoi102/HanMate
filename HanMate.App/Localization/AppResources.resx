@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav.Pinyin" xml:space="preserve">
+    <value>Pinyin</value>
+  </data>
+  <data name="Nav.Learn" xml:space="preserve">
+    <value>Learn</value>
+  </data>
+  <data name="Nav.Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Nav.Favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="Nav.Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Kind.Word" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="Kind.Text" xml:space="preserve">
+    <value>Texts</value>
+  </data>
+  <data name="Kind.Poem" xml:space="preserve">
+    <value>Poems</value>
+  </data>
+  <data name="Source.All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Source.Mine" xml:space="preserve">
+    <value>My content</value>
+  </data>
+  <data name="Action.Play" xml:space="preserve">
+    <value>Read aloud</value>
+  </data>
+  <data name="Action.Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Action.Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Action.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Action.ImportText" xml:space="preserve">
+    <value>Import text</value>
+  </data>
+  <data name="Action.New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Action.Record" xml:space="preserve">
+    <value>Start recording</value>
+  </data>
+  <data name="Action.Preview" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="Action.Rerecord" xml:space="preserve">
+    <value>Record again</value>
+  </data>
+  <data name="Action.ShareContent" xml:space="preserve">
+    <value>Share learning pack</value>
+  </data>
+  <data name="Action.ExportBackup" xml:space="preserve">
+    <value>Export full backup</value>
+  </data>
+  <data name="Action.ImportBackup" xml:space="preserve">
+    <value>Import backup</value>
+  </data>
+  <data name="Action.ReadAll" xml:space="preserve">
+    <value>Read full text</value>
+  </data>
+  <data name="Action.Previous" xml:space="preserve">
+    <value>Previous segment</value>
+  </data>
+  <data name="Action.Next" xml:space="preserve">
+    <value>Next segment</value>
+  </data>
+  <data name="Folder.Default" xml:space="preserve">
+    <value>Default favorites</value>
+  </data>
+  <data name="State.NoResults" xml:space="preserve">
+    <value>No saved entries found</value>
+  </data>
+  <data name="State.NoTranslation" xml:space="preserve">
+    <value>No translation in this language yet</value>
+  </data>
+  <data name="State.AudioMissing" xml:space="preserve">
+    <value>No audio available</value>
+  </data>
+  <data name="State.AudioReview" xml:space="preserve">
+    <value>Check that this audio matches the pronunciation</value>
+  </data>
+  <data name="State.Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="State.Saved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="Privacy.MicDenied" xml:space="preserve">
+    <value>Microphone access denied. You can still keep learning.</value>
+  </data>
+  <data name="Backup.NotEncrypted" xml:space="preserve">
+    <value>Backups are not encrypted by default. Store them safely.</value>
+  </data>
+  <data name="Search.Placeholder" xml:space="preserve">
+    <value>Enter Chinese characters or pinyin</value>
+  </data>
+  <data name="Action.KeepBoth" xml:space="preserve">
+    <value>Keep both</value>
+  </data>
+  <data name="Action.Merge" xml:space="preserve">
+    <value>Merge import</value>
+  </data>
+  <data name="Action.Replace" xml:space="preserve">
+    <value>Replace current user data</value>
+  </data>
+  <data name="App.Name" xml:space="preserve">
+    <value>HanMate</value>
+  </data>
+  <data name="Learn.Grammar" xml:space="preserve">
+    <value>Grammar</value>
+  </data>
+  <data name="Grammar.Pattern" xml:space="preserve">
+    <value>Sentence pattern</value>
+  </data>
+  <data name="Grammar.Explanation" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="Grammar.Examples" xml:space="preserve">
+    <value>Examples</value>
+  </data>
+  <data name="Grammar.Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Resource.Manage" xml:space="preserve">
+    <value>Manage learning resources</value>
+  </data>
+  <data name="Dictionary.Manage" xml:space="preserve">
+    <value>Manage dictionaries</value>
+  </data>
+  <data name="Resource.InstallLocal" xml:space="preserve">
+    <value>Install from file</value>
+  </data>
+  <data name="Resource.Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="Resource.Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Resource.Uninstall" xml:space="preserve">
+    <value>Uninstall resource pack</value>
+  </data>
+  <data name="Resource.RemoveEntry" xml:space="preserve">
+    <value>Remove from lists</value>
+  </data>
+  <data name="Resource.RestoreEntry" xml:space="preserve">
+    <value>Restore to lists</value>
+  </data>
+  <data name="Resource.Retained" xml:space="preserve">
+    <value>Retained content</value>
+  </data>
+  <data name="Resource.Missing" xml:space="preserve">
+    <value>Resource not installed</value>
+  </data>
+  <data name="Dictionary.Priority" xml:space="preserve">
+    <value>Dictionary priority</value>
+  </data>
+  <data name="Share.Selection" xml:space="preserve">
+    <value>Share selected content</value>
+  </data>
+  <data name="Share.AudioOnly" xml:space="preserve">
+    <value>Share recording only</value>
+  </data>
+  <data name="Share.NoAudio" xml:space="preserve">
+    <value>Exclude audio</value>
+  </data>
+  <data name="Share.SelectedTracks" xml:space="preserve">
+    <value>Select audio tracks</value>
+  </data>
+  <data name="Backup.PartialResources" xml:space="preserve">
+    <value>Some resources are not included</value>
+  </data>
+  <data name="Delete.KeepDependencies" xml:space="preserve">
+    <value>Keep content needed by favorites and recordings</value>
+  </data>
+  <data name="Resource.SourceRemoved" xml:space="preserve">
+    <value>Original resource removed</value>
+  </data>
+  <data name="Install.Title" xml:space="preserve">
+    <value>Installed resources</value>
+  </data>
+  <data name="Install.Pick" xml:space="preserve">
+    <value>Install a resource package</value>
+  </data>
+  <data name="Install.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Install.Previous" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Install.Next" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="Install.Hint" xml:space="preserve">
+    <value>Install learning or dictionary packages (.hanresource, .handict or .zip) with text and PCM16 WAV audio. Preview changes before updating an external resource.</value>
+  </data>
+  <data name="Install.Cancelled" xml:space="preserve">
+    <value>Installation cancelled.</value>
+  </data>
+  <data name="Install.Validating" xml:space="preserve">
+    <value>Checking the package…</value>
+  </data>
+  <data name="Install.Preview" xml:space="preserve">
+    <value>Name: {0}
+Version: {1}
+Publisher: {2}
+Entries: {3}</value>
+  </data>
+  <data name="Install.Unverified" xml:space="preserve">
+    <value>Publisher and review information is supplied by the package author and has not been independently verified.</value>
+  </data>
+  <data name="Install.ConfirmTitle" xml:space="preserve">
+    <value>Install this package?</value>
+  </data>
+  <data name="Install.Confirm" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="Install.Saving" xml:space="preserve">
+    <value>Installing…</value>
+  </data>
+  <data name="Install.AlreadyInstalled" xml:space="preserve">
+    <value>This package is already installed ({0} entries).</value>
+  </data>
+  <data name="Install.Installed" xml:space="preserve">
+    <value>Installed {0} entries.</value>
+  </data>
+  <data name="Install.Failed" xml:space="preserve">
+    <value>The operation could not be completed. Please try again.</value>
+  </data>
+  <data name="Install.TextOnly" xml:space="preserve">
+    <value>Unsupported package files or audio format. PCM16 WAV is currently supported.</value>
+  </data>
+  <data name="Install.UpdateUnavailable" xml:space="preserve">
+    <value>This resource cannot be updated with this package.</value>
+  </data>
+  <data name="Install.Stale" xml:space="preserve">
+    <value>Saved data changed. Select the package again to refresh the preview.</value>
+  </data>
+  <data name="Install.Conflict" xml:space="preserve">
+    <value>This package conflicts with saved content and was not installed.</value>
+  </data>
+  <data name="Install.TooLarge" xml:space="preserve">
+    <value>The package or installed resource count exceeds the current limit.</value>
+  </data>
+  <data name="Install.Invalid" xml:space="preserve">
+    <value>The package is invalid or incomplete. No content was installed.</value>
+  </data>
+  <data name="Install.Empty" xml:space="preserve">
+    <value>No installed content on this page.</value>
+  </data>
+  <data name="Install.Page" xml:space="preserve">
+    <value>Showing entries {0}–{1}</value>
+  </data>
+  <data name="Install.ReadOnlyPreview" xml:space="preserve">
+    <value>Content preview. Editing and audio playback are not available here yet.</value>
+  </data>
+  <data name="Pinyin.Title" xml:space="preserve"><value>Pinyin studio</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>Tap to hear the teaching pronunciation. Hold or right-click for examples.</value></data>
+  <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} items · {1} offline recordings · development preview</value></data>
+  <data name="Pinyin.Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="Pinyin.Sources" xml:space="preserve"><value>Audio sources</value></data>
+  <data name="Pinyin.Examples" xml:space="preserve"><value>Examples</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>No matching recording. Enable the bundled AI voice pack in Settings for pinyin reading.</value></data>
+  <data name="Pinyin.Playing" xml:space="preserve"><value>Playing example</value></data>
+  <data name="Pinyin.Completed" xml:space="preserve"><value>Playback finished</value></data>
+  <data name="Pinyin.Stopped" xml:space="preserve"><value>Stopped</value></data>
+  <data name="Pinyin.PlayFailed" xml:space="preserve"><value>Playback failed. Check the audio output and try again.</value></data>
+  <data name="Pinyin.LoadFailed" xml:space="preserve"><value>The offline course could not be loaded.</value></data>
+  <data name="Pinyin.DraftNotice" xml:space="preserve"><value>Teaching examples and translations are drafts. Licensed recordings demonstrate the syllable and tone; homophones may differ from the original recorded word. Teaching review is still pending.</value></data>
+  <data name="Pinyin.InitialNote" xml:space="preserve"><value>These are tones of example syllables, not tones added to the consonant itself. The red underlined part marks the selected initial or spelling letter.</value></data>
+  <data name="Pinyin.ToneNote" xml:space="preserve"><value>Read the example characters. The red underline marks the selected final or complete syllable.</value></data>
+  <data name="Pinyin.SpellingNote" xml:space="preserve"><value>In yu / yue / yun, the dots of ü are omitted in standard spelling. The highlighted u represents that spelling.</value></data>
+  <data name="Pinyin.Tone1" xml:space="preserve"><value>First tone · high level</value></data>
+  <data name="Pinyin.Tone2" xml:space="preserve"><value>Second tone · rising</value></data>
+  <data name="Pinyin.Tone3" xml:space="preserve"><value>Third tone · dipping</value></data>
+  <data name="Pinyin.Tone4" xml:space="preserve"><value>Fourth tone · falling</value></data>
+  <data name="Pinyin.NoExample" xml:space="preserve"><value>No example selected for this tone.</value></data>
+  <data name="Pinyin.Play" xml:space="preserve"><value>Play example</value></data>
+  <data name="Pinyin.Group.initial" xml:space="preserve"><value>Initials</value></data>
+  <data name="Pinyin.Group.spelling" xml:space="preserve"><value>Spelling letters y / w</value></data>
+  <data name="Pinyin.Group.simple" xml:space="preserve"><value>Simple finals</value></data>
+  <data name="Pinyin.Group.compound" xml:space="preserve"><value>Compound / special finals</value></data>
+  <data name="Pinyin.Group.nasal" xml:space="preserve"><value>Nasal finals</value></data>
+  <data name="Pinyin.Group.whole" xml:space="preserve"><value>Whole syllables</value></data>
+<data name="Pinyin.StarterReady" xml:space="preserve"><value>Bundled development examples are available. Select a type to browse; teaching and translations still need review.</value></data>
+  <data name="Reader.HidePinyin" xml:space="preserve"><value>Hide pinyin</value></data>
+  <data name="Reader.ShowPinyin" xml:space="preserve"><value>Show pinyin</value></data>
+  <data name="Reader.Smaller" xml:space="preserve"><value>Smaller reading text</value></data>
+  <data name="Reader.Larger" xml:space="preserve"><value>Larger reading text</value></data>
+  <data name="Reader.Previous" xml:space="preserve"><value>Previous</value></data>
+  <data name="Reader.Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Reader.Page" xml:space="preserve"><value>Go to page</value></data>
+  <data name="Reader.NoAudio" xml:space="preserve"><value>No matching offline recording is available for this content.</value></data>
+  <data name="Reader.Selection" xml:space="preserve"><value>Selection {0} / {1}</value></data>
+  <data name="Reader.PreviousSegment" xml:space="preserve"><value>Previous selection</value></data>
+  <data name="Reader.NextSegment" xml:space="preserve"><value>Next selection</value></data>
+  <data name="Reader.Hint" xml:space="preserve"><value>Tap a word or example to play its whole unit. Tap a text or poem segment to enlarge and play only that segment. Previous/next changes the view without autoplay.</value></data>
+  <data name="Reader.Empty" xml:space="preserve"><value>No reading text is available.</value></data>
+  <data name="Reader.Continued" xml:space="preserve"><value>continued</value></data>
+  <data name="Reader.Expand" xml:space="preserve"><value>Read enlarged</value></data>
+  <data name="Reader.Draft" xml:space="preserve"><value>Source and teaching review is still pending.</value></data>
+  <data name="Reader.Source" xml:space="preserve"><value>Content source</value></data>
+  <data name="Reader.Role.Headword" xml:space="preserve"><value>Word</value></data>
+  <data name="Reader.Role.Definition" xml:space="preserve"><value>Meaning</value></data>
+  <data name="Reader.Role.Example" xml:space="preserve"><value>Example</value></data>
+  <data name="Reader.Role.Body" xml:space="preserve"><value>Text</value></data>
+  <data name="Reader.Role.GrammarExplanation" xml:space="preserve"><value>Explanation</value></data>
+  <data name="Reader.Role.GrammarNote" xml:space="preserve"><value>Note</value></data>
+  <data name="Search.AllSources" xml:space="preserve"><value>All enabled sources</value></data>
+  <data name="Search.Count" xml:space="preserve"><value>{0}–{1} of {2} results</value></data>
+  <data name="Search.Failed" xml:space="preserve"><value>Search failed. Please try again.</value></data>
+  <data name="Search.Hint" xml:space="preserve"><value>Search Chinese or pinyin: 你好 · nihao · nǐ hǎo</value></data>
+  <data name="Search.Personal" xml:space="preserve"><value>Personal words</value></data>
+  <data name="Search.Searching" xml:space="preserve"><value>Searching…</value></data>
+  <data name="Search.Sources" xml:space="preserve"><value>Search sources</value></data>
+  <data name="Search.IndexHint" xml:space="preserve"><value>Pinyin searches confirmed readings only. Bundled material is still draft.</value></data>
+  <data name="Manage.Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Manage.ConfirmUninstall" xml:space="preserve"><value>Uninstall {0} and its {1} unreferenced text entries?
+Your removal preferences will be kept. Bundled resources can be restored here; external resources need the same original file.</value></data>
+  <data name="Manage.Dependencies" xml:space="preserve"><value>Favorites: {0}; audio: {1}; drafts: {2}; other protections or incomplete data: {3}.
+Keep this resource or disable it. Removing referenced content is not yet available.</value></data>
+  <data name="Manage.Disable" xml:space="preserve"><value>Disable resource</value></data>
+  <data name="Manage.Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Manage.Empty" xml:space="preserve"><value>No resources in this list.</value></data>
+  <data name="Manage.Enable" xml:space="preserve"><value>Enable resource</value></data>
+  <data name="Manage.Enabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="Manage.InvalidPriority" xml:space="preserve"><value>Enter a whole number from 0 to 2147483647.</value></data>
+  <data name="Manage.Missing" xml:space="preserve"><value>Uninstalled / missing</value></data>
+  <data name="Manage.PriorityHint" xml:space="preserve"><value>Source priority: smaller numbers come first within the same match level.</value></data>
+  <data name="Manage.Protected" xml:space="preserve"><value>This resource must be kept</value></data>
+  <data name="Manage.Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Manage.ReinstallFile" xml:space="preserve"><value>Reinstall from original file</value></data>
+  <data name="Manage.Restore" xml:space="preserve"><value>Restore bundled resource</value></data>
+  <data name="Manage.SavePriority" xml:space="preserve"><value>Save priority</value></data>
+  <data name="Manage.Size" xml:space="preserve"><value>Text data: {0:N0} bytes. This is not the space reclaimed from the app package.</value></data>
+  <data name="Manage.Source" xml:space="preserve"><value>Publisher: {0}
+License: {1}</value></data>
+  <data name="Manage.Stale" xml:space="preserve"><value>Resources changed. Refresh and try again.</value></data>
+  <data name="Manage.Summary" xml:space="preserve"><value>Version {0} · {1} entries · {2} hidden
+{3} · Priority {4}</value></data>
+  <data name="Manage.Uninstall" xml:space="preserve"><value>Uninstall resource</value></data>
+  <data name="Manage.Working" xml:space="preserve"><value>Updating resources…</value></data>
+  <data name="Manage.Details" xml:space="preserve"><value>Details and actions</value></data>
+  <data name="Library.Filters" xml:space="preserve"><value>Filters</value></data>
+  <data name="Library.FilterRule" xml:space="preserve"><value>Match any selected scene; combine dimensions.</value></data>
+  <data name="Library.Difficulty" xml:space="preserve"><value>Difficulty</value></data>
+  <data name="Library.Stage" xml:space="preserve"><value>School stage</value></data>
+  <data name="Library.Grade" xml:space="preserve"><value>Grade</value></data>
+  <data name="Library.GradeValue" xml:space="preserve"><value>Grade {0}</value></data>
+  <data name="Library.Source" xml:space="preserve"><value>Source</value></data>
+  <data name="Library.Personal" xml:space="preserve"><value>My content</value></data>
+  <data name="Library.All" xml:space="preserve"><value>All</value></data>
+  <data name="Library.Beginner" xml:space="preserve"><value>Beginner</value></data>
+  <data name="Library.Basic" xml:space="preserve"><value>Basic</value></data>
+  <data name="Library.Intermediate" xml:space="preserve"><value>Intermediate</value></data>
+  <data name="Library.Advanced" xml:space="preserve"><value>Advanced</value></data>
+  <data name="Library.Primary" xml:space="preserve"><value>Primary</value></data>
+  <data name="Library.Junior" xml:space="preserve"><value>Junior secondary</value></data>
+  <data name="Library.Senior" xml:space="preserve"><value>Senior secondary</value></data>
+  <data name="Library.Apply" xml:space="preserve"><value>Apply filters</value></data>
+  <data name="Library.Clear" xml:space="preserve"><value>Clear filters</value></data>
+  <data name="Library.NoContent" xml:space="preserve"><value>No learning content of this type.</value></data>
+  <data name="Library.NoMatches" xml:space="preserve"><value>No matches. Try clearing filters.</value></data>
+  <data name="Library.Count" xml:space="preserve"><value>{0}–{1} of {2}</value></data>
+  <data name="Library.Previous" xml:space="preserve"><value>Previous</value></data>
+  <data name="Library.Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Library.Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Library.Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Library.Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Library.Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Library.Read" xml:space="preserve"><value>Read</value></data>
+  <data name="Library.Failed" xml:space="preserve"><value>Could not save or load. Check duplicate names and input limits, or refresh.</value></data>
+  <data name="Library.Stale" xml:space="preserve"><value>Data changed. Refresh and try again.</value></data>
+  <data name="Library.NewFolder" xml:space="preserve"><value>New folder</value></data>
+  <data name="Library.EditFolder" xml:space="preserve"><value>Edit folder</value></data>
+  <data name="Library.DeleteFolder" xml:space="preserve"><value>Delete folder</value></data>
+  <data name="Library.DeleteFolderHint" xml:space="preserve"><value>Only the folder and memberships are removed. Content and recordings remain.</value></data>
+  <data name="Library.Up" xml:space="preserve"><value>Move up</value></data>
+  <data name="Library.Down" xml:space="preserve"><value>Move down</value></data>
+  <data name="Library.FolderName" xml:space="preserve"><value>Folder name</value></data>
+  <data name="Library.FolderNameHint" xml:space="preserve"><value>1–40 text elements; names must be unique.</value></data>
+  <data name="Library.Description" xml:space="preserve"><value>Description</value></data>
+  <data name="Library.DescriptionHint" xml:space="preserve"><value>Optional, up to 300 text elements.</value></data>
+  <data name="Library.EmptyFavorites" xml:space="preserve"><value>This folder is empty. Add content from a reading page.</value></data>
+  <data name="Library.ChooseFolders" xml:space="preserve"><value>Choose favorite folders</value></data>
+  <data name="Library.ChooseHint" xml:space="preserve"><value>Choose multiple folders. Clear all to remove memberships while keeping content.</value></data>
+  <data name="Library.Disabled" xml:space="preserve"><value>Source disabled; favorite remains readable.</value></data>
+  <data name="Library.Hidden" xml:space="preserve"><value>Entry hidden; favorite remains readable.</value></data>
+  <data name="Library.Retained" xml:space="preserve"><value>Showing old content retained after uninstall or update.</value></data>
+  <data name="Library.Missing" xml:space="preserve"><value>Source missing; showing available local content.</value></data>
+  <data name="Library.Drafts" xml:space="preserve"><value>New / TXT import and drafts</value></data>
+  <data name="Library.NewDraft" xml:space="preserve"><value>New text draft</value></data>
+  <data name="Library.DraftHint" xml:space="preserve"><value>Type, paste or import TXT: up to 20,000 text elements and 1 MiB. Drafts save automatically. Add a title, generate pinyin, review and save to your personal library.</value></data>
+  <data name="Library.EmptyDrafts" xml:space="preserve"><value>No text drafts yet.</value></data>
+  <data name="Library.Untitled" xml:space="preserve"><value>Untitled draft</value></data>
+  <data name="Library.EditDraft" xml:space="preserve"><value>Edit draft</value></data>
+  <data name="Library.DeleteDraft" xml:space="preserve"><value>Delete draft</value></data>
+  <data name="Library.DeleteDraftHint" xml:space="preserve"><value>Delete this text draft? Saved content is unaffected.</value></data>
+  <data name="Library.Title" xml:space="preserve"><value>Title (up to 120 text elements)</value></data>
+  <data name="Library.Text" xml:space="preserve"><value>Type or paste your text here</value></data>
+  <data name="Library.SaveDraft" xml:space="preserve"><value>Save draft</value></data>
+  <data name="Library.SaveCopy" xml:space="preserve"><value>Save as new draft</value></data>
+  <data name="Library.ImportTxt" xml:space="preserve"><value>Import TXT</value></data>
+  <data name="Library.Paste" xml:space="preserve"><value>Paste</value></data>
+  <data name="Library.Unsaved" xml:space="preserve"><value>Unsaved…</value></data>
+  <data name="Library.SavedDraft" xml:space="preserve"><value>Draft saved</value></data>
+  <data name="Library.DraftConflict" xml:space="preserve"><value>Draft changed elsewhere. Your input is kept; save as a new draft.</value></data>
+  <data name="Library.DraftFailed" xml:space="preserve"><value>Could not save; your input is kept. Check length and try again.</value></data>
+  <data name="Library.Replace" xml:space="preserve"><value>Replace text</value></data>
+  <data name="Library.ReplaceHint" xml:space="preserve"><value>Replace the current text with the imported or pasted text?</value></data>
+  <data name="Library.ImportChanged" xml:space="preserve"><value>Input changed while reading. Current text was not replaced.</value></data>
+  <data name="Library.ImportCancelled" xml:space="preserve"><value>Reading cancelled. Current text is kept.</value></data>
+  <data name="Library.EncodingError" xml:space="preserve"><value>Not imported. Use UTF-8 or BOM-marked UTF-16 TXT within the size limits. Current text is kept.</value></data>
+  <data name="Library.Annotate" xml:space="preserve"><value>Annotate and review</value></data>
+  <data name="Library.Annotating" xml:space="preserve"><value>Generating offline annotations…</value></data>
+  <data name="Library.AnnotationCancelled" xml:space="preserve"><value>Annotation cancelled. Your draft is kept.</value></data>
+  <data name="Library.AnnotationInputError" xml:space="preserve"><value>Provide a title and text (words: up to 64 characters). Grammar also needs a pattern and example. Use {subject} for slots. Limit: 20,000 text elements.</value></data>
+  <data name="Library.ReviewPinyin" xml:space="preserve"><value>Review pinyin</value></data>
+  <data name="Library.AnnotationHint" xml:space="preserve"><value>Automatic readings are unreviewed. Tap a character to choose, enter pinyin or mark unknown. Manual changes lock this occurrence only; recordings do not change.</value></data>
+  <data name="Library.ReviewCount" xml:space="preserve"><value>To review: {0} / Hanzi: {1}</value></data>
+  <data name="Library.SavePersonal" xml:space="preserve"><value>Save to personal library</value></data>
+  <data name="Library.PreviewContent" xml:space="preserve"><value>Preview layout</value></data>
+  <data name="Library.UndoAnnotation" xml:space="preserve"><value>Undo last annotation change</value></data>
+  <data name="Library.ReviewFilter" xml:space="preserve"><value>Toggle all / to review</value></data>
+  <data name="Library.NeedsReviewOnly" xml:space="preserve"><value>To review only</value></data>
+  <data name="Library.AllTokens" xml:space="preserve"><value>All Hanzi</value></data>
+  <data name="Library.ManualLocked" xml:space="preserve"><value>Manually locked</value></data>
+  <data name="Library.Confirmed" xml:space="preserve"><value>Confirmed</value></data>
+  <data name="Library.NeedsReview" xml:space="preserve"><value>Needs review</value></data>
+  <data name="Library.EnterPinyin" xml:space="preserve"><value>Enter pinyin</value></data>
+  <data name="Library.UnknownPinyin" xml:space="preserve"><value>Mark unknown and lock</value></data>
+  <data name="Library.CandidateHint" xml:space="preserve"><value>Unicode candidates; please review</value></data>
+  <data name="Library.ToneHint" xml:space="preserve"><value>Enter a tone: ni3, nǐ or lv4. Use 0 or 5 for neutral tone. Untoned input is not treated as neutral.</value></data>
+  <data name="Library.ToneRequired" xml:space="preserve"><value>Not saved. Enter a valid syllable and explicit tone (neutral: 0/5), or choose unknown.</value></data>
+  <data name="Library.SaveUnreviewed" xml:space="preserve"><value>{0} characters remain unreviewed or unknown. Keep these states and save?</value></data>
+  <data name="Library.UnmappedManual" xml:space="preserve"><value>{0} manual readings cannot be uniquely matched to the new text. Reannotate these positions? The previous version remains available for undo.</value></data>
+  <data name="Library.ContinueAnnotation" xml:space="preserve"><value>Continue</value></data>
+  <data name="Library.PatternHint" xml:space="preserve"><value>Pattern, e.g. {subject} 是 {noun}</value></data>
+  <data name="Library.ExampleHint" xml:space="preserve"><value>Grammar example (required)</value></data>
+  <data name="Library.EditPinyin" xml:space="preserve"><value>Edit pinyin</value></data>
+  <data name="Library.CopyAndEdit" xml:space="preserve"><value>Copy to personal library and edit</value></data>
+  <data name="Library.AudioProtected" xml:space="preserve"><value>Changed segments have audio. Nothing was committed. Save as a personal copy to continue; original audio is kept.</value></data>
+  <data name="Audio.Manage" xml:space="preserve"><value>Audio &amp; recording</value></data>
+  <data name="Audio.WholeUnit" xml:space="preserve"><value>Target: complete text unit</value></data>
+  <data name="Audio.Segment" xml:space="preserve"><value>Target: selected segment</value></data>
+  <data name="Audio.Hint" xml:space="preserve"><value>Audio stays on this device. Supports PCM16 WAV, common MP3 and single-track AAC-LC M4A. Compressed audio is decoded to WAV; your source file is unchanged. Input and decoded output are each limited to 100 MiB; recording stops at 20 minutes. Whole-unit audio has no segment timing.</value></data>
+  <data name="Audio.Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="Audio.Finalizing" xml:space="preserve"><value>Stopping and saving the recording draft…</value></data>
+  <data name="Audio.Stopped" xml:space="preserve"><value>Stopped</value></data>
+  <data name="Audio.PlayDefault" xml:space="preserve"><value>Play applicable track</value></data>
+  <data name="Audio.Record" xml:space="preserve"><value>Start recording</value></data>
+  <data name="Audio.Import" xml:space="preserve"><value>Import WAV / MP3 / M4A</value></data>
+  <data name="Audio.Settings" xml:space="preserve"><value>Microphone permission settings</value></data>
+  <data name="Audio.Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Audio.Drafts" xml:space="preserve"><value>Audio drafts</value></data>
+  <data name="Audio.Ready" xml:space="preserve"><value>Draft ready for preview</value></data>
+  <data name="Audio.Incomplete" xml:space="preserve"><value>Incomplete draft: try recovering a complete file, or discard it.</value></data>
+  <data name="Audio.Name" xml:space="preserve"><value>Track name</value></data>
+  <data name="Audio.Recording" xml:space="preserve"><value>Recording</value></data>
+  <data name="Audio.Imported" xml:space="preserve"><value>Imported audio</value></data>
+  <data name="Audio.SetDefault" xml:space="preserve"><value>Set as default for this target</value></data>
+  <data name="Audio.NeedsReview" xml:space="preserve"><value>Text or pronunciation changed; review required</value></data>
+  <data name="Audio.Confirm" xml:space="preserve"><value>Confirm still applicable</value></data>
+  <data name="Audio.Save" xml:space="preserve"><value>Save track</value></data>
+  <data name="Audio.Recover" xml:space="preserve"><value>Try recovery</value></data>
+  <data name="Audio.Discard" xml:space="preserve"><value>Discard draft</value></data>
+  <data name="Audio.DiscardHint" xml:space="preserve"><value>Discard this audio draft? Other drafts and saved tracks are unaffected.</value></data>
+  <data name="Audio.Tracks" xml:space="preserve"><value>Saved tracks</value></data>
+  <data name="Audio.NoTracks" xml:space="preserve"><value>This target has no tracks yet.</value></data>
+  <data name="Audio.Standard" xml:space="preserve"><value>Standard track</value></data>
+  <data name="Audio.Default" xml:space="preserve"><value>Default and applicable</value></data>
+  <data name="Audio.Confirmed" xml:space="preserve"><value>Confirmed applicable</value></data>
+  <data name="Audio.Remove" xml:space="preserve"><value>Remove this track</value></data>
+  <data name="Audio.RemoveHint" xml:space="preserve"><value>Remove this target's track binding? The text stays, and shared audio files are not immediately deleted.</value></data>
+  <data name="Audio.ConfirmHint" xml:space="preserve"><value>Listen first and check the current text and pinyin above. Does this audio still match?</value></data>
+  <data name="Audio.Preview" xml:space="preserve"><value>Preview</value></data>
+  <data name="Audio.Playing" xml:space="preserve"><value>Playing…</value></data>
+  <data name="Audio.Played" xml:space="preserve"><value>Playback finished</value></data>
+  <data name="Audio.Busy" xml:space="preserve"><value>Recording or finalizing. Stop recording first.</value></data>
+  <data name="Audio.NoPlayback" xml:space="preserve"><value>No applicable local track, or audio could not play.</value></data>
+  <data name="Audio.PermissionDenied" xml:space="preserve"><value>Microphone permission was denied. Enable it in system settings, then record again.</value></data>
+  <data name="Audio.InvalidFile" xml:space="preserve"><value>Audio is damaged, unsupported or too large. Use PCM16 WAV, common MP3 or unencrypted single-track AAC-LC M4A. Input and decoded output must each fit within 100 MiB. Your source file is unchanged.</value></data>
+  <data name="Audio.Failed" xml:space="preserve"><value>The operation did not finish; drafts are preserved. Refresh and retry. If text or pinyin changed, preview and confirm applicability first.</value></data>
+  <data name="GrammarEdit.Title" xml:space="preserve"><value>Edit grammar structure</value></data>
+  <data name="GrammarEdit.Hint" xml:space="preserve"><value>Edit explanations, examples and notes separately. Save the draft, review pinyin, then finalize.</value></data>
+  <data name="GrammarEdit.Invalid" xml:space="preserve"><value>Check required fields, counts and lengths. Keep at least one explanation and one example.</value></data>
+  <data name="GrammarEdit.Unsaved" xml:space="preserve"><value>Unsaved changes. Save or discard before leaving.</value></data>
+  <data name="GrammarEdit.Save" xml:space="preserve"><value>Save grammar draft</value></data>
+  <data name="GrammarEdit.DiscardChanges" xml:space="preserve"><value>Discard unsaved changes</value></data>
+  <data name="GrammarEdit.DiscardHint" xml:space="preserve"><value>Return to the last saved draft?</value></data>
+  <data name="GrammarEdit.Review" xml:space="preserve"><value>Review pinyin and save</value></data>
+  <data name="GrammarEdit.Name" xml:space="preserve"><value>Title</value></data>
+  <data name="GrammarEdit.Pattern" xml:space="preserve"><value>Pattern parts</value></data>
+  <data name="GrammarEdit.Literal" xml:space="preserve"><value>Literal</value></data>
+  <data name="GrammarEdit.Slot" xml:space="preserve"><value>Placeholder</value></data>
+  <data name="GrammarEdit.Operator" xml:space="preserve"><value>Operator</value></data>
+  <data name="GrammarEdit.PartUp" xml:space="preserve"><value>Move part up</value></data>
+  <data name="GrammarEdit.RemovePart" xml:space="preserve"><value>Remove part</value></data>
+  <data name="GrammarEdit.AddPart" xml:space="preserve"><value>Add part</value></data>
+  <data name="GrammarEdit.Translation.ja" xml:space="preserve"><value>Japanese translation (optional)</value></data>
+  <data name="GrammarEdit.Translation.en" xml:space="preserve"><value>English translation (optional)</value></data>
+  <data name="GrammarEdit.Topics" xml:space="preserve"><value>Grammar topics</value></data>
+  <data name="GrammarEdit.Topic.negation" xml:space="preserve"><value>Negation</value></data>
+  <data name="GrammarEdit.Topic.question" xml:space="preserve"><value>Questions</value></data>
+  <data name="GrammarEdit.Topic.comparison" xml:space="preserve"><value>Comparison</value></data>
+  <data name="GrammarEdit.Topic.time" xml:space="preserve"><value>Time</value></data>
+  <data name="GrammarEdit.Topic.location" xml:space="preserve"><value>Location</value></data>
+  <data name="GrammarEdit.Topic.progressive" xml:space="preserve"><value>Progressive</value></data>
+  <data name="GrammarEdit.Units" xml:space="preserve"><value>Explanations, examples and notes</value></data>
+  <data name="GrammarEdit.UnitUp" xml:space="preserve"><value>Move up within role</value></data>
+  <data name="GrammarEdit.RemoveUnit" xml:space="preserve"><value>Remove unit</value></data>
+  <data name="GrammarEdit.RemoveUnitHint" xml:space="preserve"><value>Remove this unit? Units with audio or recording drafts cannot be removed at final save. Keep the original or save a copy.</value></data>
+  <data name="GrammarEdit.AddGrammarExplanation" xml:space="preserve"><value>Add explanation</value></data>
+  <data name="GrammarEdit.AddExample" xml:space="preserve"><value>Add example</value></data>
+  <data name="GrammarEdit.AddGrammarNote" xml:space="preserve"><value>Add note</value></data>
+  <data name="Library.Trash" xml:space="preserve"><value>Personal content trash</value></data>
+  <data name="Library.TrashHint" xml:space="preserve"><value>Trash preserves text, pinyin, favorites, audio and drafts without freeing disk space. Reopen editing after restore; older edit drafts can be saved as copies.</value></data>
+  <data name="Library.TrashEmpty" xml:space="preserve"><value>Trash is empty</value></data>
+  <data name="Library.RestoreContent" xml:space="preserve"><value>Restore content</value></data>
+  <data name="Library.MoveToTrash" xml:space="preserve"><value>Move to trash</value></data>
+  <data name="Library.TrashPreview" xml:space="preserve"><value>References: {0} favorites, {1} audio tracks, {2} drafts, {3} others. Hidden from learning, search and favorites; all references are preserved. Restore from Drafts → Personal content trash.</value></data>
+  <data name="Library.RetainedContents" xml:space="preserve"><value>Retained old content</value></data>
+  <data name="Library.RetainedHint" xml:space="preserve"><value>These entries were retained because of favorites, audio, modifications or other references. You can read, manage audio or copy them for editing. Unchanged uninstall remnants can rejoin the same version; update snapshots stay separate.</value></data>
+  <data name="Library.Ready" xml:space="preserve"><value>Available</value></data>
+  <data name="Manage.Entries" xml:space="preserve"><value>Manage resource entries</value></data>
+  <data name="Manage.EntriesHint" xml:space="preserve"><value>Withdrawn entries are hidden from learning and search; favorites remain readable. Withdrawal persists across reinstall.</value></data>
+  <data name="Manage.RestoreEntry" xml:space="preserve"><value>Restore entry</value></data>
+  <data name="Manage.WithdrawEntry" xml:space="preserve"><value>Withdraw entry</value></data>
+  <data name="Manage.WithdrawHint" xml:space="preserve"><value>Withdraw this entry? Text, favorites and audio remain. Restore it here at any time.</value></data>
+  <data name="Manage.RetainingUninstall" xml:space="preserve"><value>Uninstall “{0}”? Keep {1} referenced or modified entries and delete {2} unreferenced entries. Favorites, user audio and drafts remain. Open retained content from Drafts. Audio files are not reclaimed.</value></data>
+  <data name="Library.ContentTransfer" xml:space="preserve"><value>Import and share content</value></data>
+  <data name="Transfer.Title" xml:space="preserve"><value>Import and share content</value></data>
+  <data name="Transfer.Hint" xml:space="preserve"><value>Select up to 100 complete entries. Saved pinyin and translations are included; optionally select personal WAV recordings. Drafts, favorites and settings are excluded. Package limit: 32 MiB; each file: 16 MiB.</value></data>
+  <data name="Transfer.Import" xml:space="preserve"><value>Import content package</value></data>
+  <data name="Transfer.Preview" xml:space="preserve"><value>Preview selection</value></data>
+  <data name="Transfer.Export" xml:space="preserve"><value>Generate package</value></data>
+  <data name="Transfer.Share" xml:space="preserve"><value>Open system share</value></data>
+  <data name="Transfer.Clear" xml:space="preserve"><value>Clear selection</value></data>
+  <data name="Transfer.Previous" xml:space="preserve"><value>Previous</value></data>
+  <data name="Transfer.Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Transfer.Attest" xml:space="preserve"><value>For personal input without a rights declaration, I confirm I may share its text and translations. This does not override resource restrictions.</value></data>
+  <data name="Transfer.Selected" xml:space="preserve"><value>{0} selected</value></data>
+  <data name="Transfer.Changed" xml:space="preserve"><value>Selection changed. Preview again.</value></data>
+  <data name="Transfer.PreviewInfo" xml:space="preserve"><value>Snapshot: {0} entries; {1} tracks excluded by default and {2} related drafts excluded. {3} restricted entries; {4} require personal rights confirmation.</value></data>
+  <data name="Transfer.PreviewFirst" xml:space="preserve"><value>Preview the selection first.</value></data>
+  <data name="Transfer.ExportFirst" xml:space="preserve"><value>Generate a package first.</value></data>
+  <data name="Transfer.Exported" xml:space="preserve"><value>Package generated and validated. Open system share when ready. Temporary copies last seven days; the OS may clear its cache sooner.</value></data>
+  <data name="Transfer.ShareOpened" xml:space="preserve"><value>System sharing was requested. This does not confirm delivery.</value></data>
+  <data name="Transfer.ImportPreview" xml:space="preserve"><value>Add {0}, reuse {1}, save {2} conflicting copies (included in additions). Local content is preserved; no favorites or settings are imported. Supports v2 text and WAV content packages.</value></data>
+  <data name="Transfer.Imported" xml:space="preserve"><value>Imported: {0} added, {1} reused. Open entries from Learning.</value></data>
+  <data name="Transfer.Allowed" xml:space="preserve"><value>Source declares sharing allowed</value></data>
+  <data name="Transfer.NeedsRights" xml:space="preserve"><value>Personal sharing rights need confirmation</value></data>
+  <data name="Transfer.Restricted" xml:space="preserve"><value>Sharing restricted by source</value></data>
+  <data name="Transfer.Rights" xml:space="preserve"><value>Restricted entries or unconfirmed personal rights. Review the preview and adjust your selection.</value></data>
+  <data name="Transfer.Stale" xml:space="preserve"><value>Data changed. Preview again and retry.</value></data>
+  <data name="Transfer.Collision" xml:space="preserve"><value>Package ID refers to different content. Import refused.</value></data>
+  <data name="Transfer.Invalid" xml:space="preserve"><value>Invalid, oversized or unsupported file. Accepts v2 content packages with complete PCM16 WAV files. Install resource packages from resource management.</value></data>
+  <data name="Transfer.Failed" xml:space="preserve"><value>Could not finish. Existing data remains intact. Please retry.</value></data>
+  <data name="Transfer.Cancelled" xml:space="preserve"><value>Cancelled.</value></data>
+  <data name="Transfer.CacheFull" xml:space="preserve"><value>Temporary share storage is full. Retry after older copies expire.</value></data>
+  <data name="Audio.ShareRecording" xml:space="preserve"><value>Share this recording</value></data>
+  <data name="Audio.ShareRecordingHint" xml:space="preserve"><value>Shares the actual WAV recording, which may identify your voice. Excludes text, pinyin and associations. Confirm you have rights to share it; recipients can only play the audio.</value></data>
+  <data name="Transfer.ChooseAudio" xml:space="preserve"><value>Choose recordings</value></data>
+  <data name="Transfer.AudioHint" xml:space="preserve"><value>Audio is excluded by default. Select saved personal WAV recordings; imported and standard tracks cannot be shared in a package yet. Tracks needing review keep that state.</value></data>
+  <data name="Transfer.AudioPage" xml:space="preserve"><value>Audio page {0}/{1} · {2} selected</value></data>
+  <data name="Transfer.AudioApply" xml:space="preserve"><value>Use selected recordings</value></data>
+  <data name="Transfer.AudioNone" xml:space="preserve"><value>Exclude all audio</value></data>
+  <data name="Transfer.AudioDetails" xml:space="preserve"><value>{0:0.0} s · {1:0.0} KiB</value></data>
+  <data name="Transfer.AudioRestricted" xml:space="preserve"><value>Unavailable for package sharing</value></data>
+  <data name="Transfer.AudioReview" xml:space="preserve"><value>Needs review</value></data>
+  <data name="Transfer.AudioReady" xml:space="preserve"><value>Confirmed match</value></data>
+  <data name="Transfer.AudioPreferred" xml:space="preserve"><value>Local default</value></data>
+  <data name="Transfer.AudioSelected" xml:space="preserve"><value>{0} recordings included; {1} excluded; selected track files total {2:0.0} KiB (identical bytes are stored once).</value></data>
+  <data name="Transfer.AudioConsent" xml:space="preserve"><value>Recordings may identify your voice. Confirm your right to share these recordings together with the selected text. The recipient will see them as imported audio.</value></data>
+  <data name="Transfer.AudioImport" xml:space="preserve"><value>Audio: {0} added, {1} reused, {2} need review; {3:0.0} KiB. Existing local defaults take priority.</value></data>
+  <data name="Install.UpdatePreview" xml:space="preserve"><value>Version {0} → {1}
+Added {2}, changed {3}, removed {4}, unchanged {5}
+Keep {6} old entries.</value></data>
+  <data name="Install.PublisherChanged" xml:space="preserve"><value>The publisher declaration has changed. It is not independently verified; check the file source.</value></data>
+  <data name="Install.UpdateProtected" xml:space="preserve"><value>An unfinished recording, unknown draft format or unverified teaching reference prevents this update. Stop recording and recover complete drafts, or resolve the references first. The old version is unchanged.</value></data>
+  <data name="Install.Downgrade" xml:space="preserve"><value>Older versions cannot be installed. Select a newer version.</value></data>
+  <data name="Install.UpdateMissing" xml:space="preserve"><value>This resource is uninstalled. Reinstall its original version before updating.</value></data>
+  <data name="Install.WrongResource" xml:space="preserve"><value>The selected file has a different resource identity or type.</value></data>
+  <data name="Install.Updated" xml:space="preserve"><value>Update complete: {0} entries in the current version. Open Drafts to view retained content.</value></data>
+  <data name="Install.UpdateReview" xml:space="preserve"><value>Review resource update</value></data>
+  <data name="Install.UpdateContinue" xml:space="preserve"><value>Continue to confirmation</value></data>
+  <data name="Install.UpdatePreservation" xml:space="preserve"><value>Referenced old content is retained separately when changed or removed, together with its favorites and audio. New entries do not inherit old recordings. Enabled state, priority and hidden entries are preserved.</value></data>
+  <data name="Install.Change.added" xml:space="preserve"><value>Added</value></data>
+  <data name="Install.Change.changed" xml:space="preserve"><value>Changed</value></data>
+  <data name="Install.Change.removed" xml:space="preserve"><value>Removed</value></data>
+  <data name="Install.Change.unchanged" xml:space="preserve"><value>Unchanged</value></data>
+  <data name="Install.RetainOld" xml:space="preserve"><value>Retain old content and references</value></data>
+  <data name="Install.UpdatePick" xml:space="preserve"><value>Select resource update file</value></data>
+  <data name="Install.UpdateReferences" xml:space="preserve"><value>Keep with old content: {0} finalized audio drafts and {1} teaching example references.</value></data>
+  <data name="Reader.PlayAll" xml:space="preserve"><value>Play all</value></data>
+  <data name="Reader.PlaySelection" xml:space="preserve"><value>Play selection</value></data>
+  <data name="Reader.PlayUnit" xml:space="preserve"><value>Play whole unit</value></data>
+  <data name="Reader.LocalPlayback" xml:space="preserve"><value>Matching recordings take priority; the enabled bundled AI voice can read text without a recording.</value></data>
+  <data name="Reader.PreparingAudio" xml:space="preserve"><value>Checking audio…</value></data>
+  <data name="Reader.MissingAudio" xml:space="preserve"><value>{0} targets have no recording. Enable a voice in Settings → AI offline voice pack, or add matching recordings.</value></data>
+  <data name="Reader.StaleAudio" xml:space="preserve"><value>Text or pronunciation changed. Go back and reopen the content.</value></data>
+  <data name="Reader.PlayingUnit" xml:space="preserve"><value>Playing whole unit {0}/{1} (no segment timeline)</value></data>
+  <data name="Reader.PlayingSegment" xml:space="preserve"><value>Playing segment {0}/{1}</value></data>
+  <data name="Reader.PlaybackFailed" xml:space="preserve"><value>Playback stopped: audio could not be read, no longer matches, or failed to play. Check the recording and retry.</value></data>
+  <data name="Pinyin.ClickExample" xml:space="preserve"><value>Example for {0}: {1} · {2} (plays the complete example syllable)</value></data>
+  <data name="Pinyin.Busy" xml:space="preserve"><value>Recording is active. Stop recording first.</value></data>
+  <data name="Backup.Title" xml:space="preserve"><value>Backup and merge restore</value></data>
+  <data name="Backup.Hint" xml:space="preserve"><value>Back up saved content, audio, favorites, teaching catalogs, settings and portable resources. Drafts and trash are excluded. Merge keeps local data; replacement requires a verified safety copy and two confirmations.</value></data>
+  <data name="Backup.Preview" xml:space="preserve"><value>Preview backup</value></data>
+  <data name="Backup.Partial" xml:space="preserve"><value>I accept that the listed resources are not included and may need to be reinstalled after restore.</value></data>
+  <data name="Backup.Export" xml:space="preserve"><value>Create backup file</value></data>
+  <data name="Backup.Share" xml:space="preserve"><value>Save or share backup</value></data>
+  <data name="Backup.ApplySettings" xml:space="preserve"><value>Apply backed-up language, reading and audio settings on restore (off keeps local settings)</value></data>
+  <data name="Backup.Import" xml:space="preserve"><value>Select backup and merge</value></data>
+  <data name="Backup.Working" xml:space="preserve"><value>Reading saved data and audio…</value></data>
+  <data name="Backup.PreviewInfo" xml:space="preserve"><value>Content {0}; folders {1}; favorites {2}; tracks {3} ({4:N1} KiB). Included resources {5}; omitted resources {6}. Excluded drafts {7}, trash {8}.</value></data>
+  <data name="Backup.Exported" xml:space="preserve"><value>Verified backup created in private app storage. Use Save or share backup to hand it to the system.</value></data>
+  <data name="Backup.ImportInfo" xml:space="preserve"><value>Add {0} contents, reuse {1}, keep {2} conflicts as copies, add {3} tracks and {4} folders; {5} favorite memberships. Install {6} resources, keep {7} local resources; {8} missing or snapshot-only resources; {9} kept names or folder conflicts. Local content will not be deleted or overwritten.</value></data>
+  <data name="Backup.SettingsWillApply" xml:space="preserve"><value>Backup settings will be applied. Existing resource enablement, priority and hidden entries keep local choices.</value></data>
+  <data name="Backup.SettingsKept" xml:space="preserve"><value>Local settings and existing resource state will be kept.</value></data>
+  <data name="Backup.Imported" xml:space="preserve"><value>Merge complete: added {0}, reused {1}; {2} resources remain missing or snapshot-only.</value></data>
+  <data name="Backup.Rights" xml:space="preserve"><value>Required content has restricted or unverified backup permission. No backup was created. Check source permissions first.</value></data>
+  <data name="Backup.RecordingBusy" xml:space="preserve"><value>An unfinished recording exists. Save or discard it first.</value></data>
+  <data name="Backup.Limit" xml:space="preserve"><value>The current package limit is 32 MiB and each audio file is limited to 16 MiB. The operation stopped without truncating or dropping audio.</value></data>
+  <data name="Backup.Replace" xml:space="preserve"><value>Replace saved data</value></data>
+  <data name="Backup.ReplaceInfo" xml:space="preserve"><value>Remove {0} personal/snapshot entries, {1} audio tracks, {2} folders and {3} favorites; restore {4} entries. {5} resources unavailable. Installed catalogs remain. Settings will be restored.</value></data>
+  <data name="Backup.PrepareSafety" xml:space="preserve"><value>Create safety copy</value></data>
+  <data name="Backup.ReplaceConfirm" xml:space="preserve"><value>The database and audio safety copy has been verified. Replace the saved user data now? This includes trash. Unsaved drafts must be handled first.</value></data>
+  <data name="Backup.Recovery" xml:space="preserve"><value>View safety snapshots</value></data>
+  <data name="Backup.NoRecovery" xml:space="preserve"><value>No replacement records.</value></data>
+  <data name="Backup.RecoveryCommitted" xml:space="preserve"><value>A matching commit is present in the current database. Safety copy retained.</value></data>
+  <data name="Backup.RecoveryUncommitted" xml:space="preserve"><value>No matching commit in the current database. Safety copy retained.</value></data>
+  <data name="Backup.DraftsBlock" xml:space="preserve"><value>Save or discard unsaved drafts before replacement.</value></data>
+  <data name="Backup.ReferencesBlock" xml:space="preserve"><value>A teaching catalog references personal snapshots. Use merge to preserve these references.</value></data>
+  <data name="Backup.SafetyRequired" xml:space="preserve"><value>A verified safety copy is required. Prepare a new preview.</value></data>
+  <data name="Pinyin.ImportCatalog" xml:space="preserve"><value>Import teaching catalog</value></data>
+  <data name="Pinyin.ImportCatalogInfo" xml:space="preserve"><value>Import {0} teaching items linked to locally installed content. Audio must match each example.</value></data>
+  <data name="Install.ReinstallDisabled" xml:space="preserve"><value>This reinstalls the removed resource at the new version and keeps it disabled. Enable it separately after review.</value></data>
+  <data name="Transfer.SaveFile" xml:space="preserve"><value>Save file</value></data>
+  <data name="Transfer.SaveZip" xml:space="preserve"><value>Save as ZIP (compatibility)</value></data>
+  <data name="Backup.SaveFile" xml:space="preserve"><value>Save backup file</value></data>
+  <data name="Backup.SaveZip" xml:space="preserve"><value>Save as ZIP (compatibility)</value></data>
+  <data name="Audio.SaveFile" xml:space="preserve"><value>Save recording file</value></data>
+  <data name="Transfer.FileSaved" xml:space="preserve"><value>File written to the selected location. Cloud synchronization is managed by that provider.</value></data>
+  <data name="Speech.Title" xml:space="preserve"><value>Reading voice</value></data>
+  <data name="Speech.Voice" xml:space="preserve"><value>Mandarin voice</value></data>
+  <data name="Speech.Refresh" xml:space="preserve"><value>Check installed voices</value></data>
+  <data name="Speech.Preview" xml:space="preserve"><value>Preview this Chinese sentence</value></data>
+  <data name="Speech.Hint" xml:space="preserve"><value>Check or preview voices explicitly; this page uses only the fixed sentence below. Android excludes voices marked network-required or not installed; actual offline availability still needs verification. Reading defaults to local audio and passes missing targets to system speech only after explicit selection and confirmation. Manual pinyin does not control system speech.</value></data>
+  <data name="Speech.Unavailable" xml:space="preserve"><value>No available Mandarin voice, or the speech provider is not ready. Check installed voices in system settings.</value></data>
+  <data name="Speech.Available" xml:space="preserve"><value>Installed Mandarin candidates found. A successful preview does not certify offline availability or teaching pronunciation.</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>Local data and privacy</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>Content, pinyin corrections, favorites, settings and recordings are stored in private app storage. There are currently no accounts, ads, analytics uploads or content/audio upload interfaces. The microphone is used only after you start recording and grant permission. Leaving or backgrounding stops capture and attempts to retain a draft.</value></data>
+  <data name="Privacy.Speech" xml:space="preserve"><value>When system text-to-speech is selected, tapped dictionary or reading text is sent to the device voice provider. Android excludes voices requiring a network; actual offline behavior depends on the device. Bundled MeloTTS and Kokoro synthesize locally without uploading text.</value></data>
+  <data name="Privacy.Export" xml:space="preserve"><value>You choose the scope and destination for sharing and saving. Backups contain personal text, favorites and voices and are not encrypted. Cloud destinations and receiving apps apply their own policies. Android app auto-backup and device transfer are excluded; other platforms retain their system backup policies. Use the full backup feature to keep your own copy.</value></data>
+  <data name="Privacy.Delete" xml:space="preserve"><value>Removing a track or moving content to trash does not erase physical files. Old audio, recovery safety copies and some temporary files may remain to protect references and recovery; automatic disk reclamation is not implemented. Creating a new sharing copy cleans up copies older than seven days; the system may clear them earlier. The app cannot delete copies you exported elsewhere.</value></data>
+  <data name="Transfer.SaveFailed" xml:space="preserve"><value>The save did not complete. A partial file may remain at the destination. The private original is unchanged; you can save again to another location.</value></data>
+  <data name="Audio.Decoding" xml:space="preserve"><value>Validating and decoding audio. Choose Stop to cancel…</value></data>
+  <data name="Reader.SpeechFallback" xml:space="preserve"><value>Use system speech for missing recordings</value></data>
+  <data name="Reader.SpeechConsent" xml:space="preserve"><value>{0} targets have no matching recording. Send their displayed Chinese text to the system Mandarin voice? System speech does not follow manual pinyin and cannot verify corrections. The provider is managed by your device; installation does not prove offline availability. Matching recordings remain preferred.</value></data>
+  <data name="Reader.SpeechDisabled" xml:space="preserve"><value>Local audio only is enabled. Allow reading speech in Settings → System voice before using this action.</value></data>
+  <data name="Speech.AllowReading" xml:space="preserve"><value>Allow system speech while reading (off by default; confirm each time)</value></data>
+  <data name="Pinyin.Resources" xml:space="preserve"><value>Pinyin resources and audio credits</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>Tap to listen. Hold or right-click for the dictionary definition.</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>Bundled pinyin recordings come from audio-cmn, independently of the dictionary. An enabled AI voice can synthesize the annotated pinyin and tones offline, including bo, po, mo, fo and standalone ong. Disable AI preference here to compare recordings. Audio-cmn states CC BY-SA without a version. Teaching listening review of recordings and synthesis is still pending.</value></data>
+  <data name="Voice.Title" xml:space="preserve"><value>Offline AI voices</value></data>
+  <data name="Voice.Hint" xml:space="preserve"><value>Voice packs are bundled. Preview, choose voices or restore their cache. Use this voice also switches the reading provider. Recordings take priority.</value></data>
+  <data name="Voice.Info" xml:space="preserve"><value>Bundled Chinese · {0:F1} MiB · {1} voices</value></data>
+  <data name="Voice.Download" xml:space="preserve"><value>Restore bundled voice pack</value></data>
+  <data name="Voice.DownloadConfirm" xml:space="preserve"><value>Download about {0:F1} MiB of model files from Hugging Face? Mobile data may be used. Your text is not uploaded.</value></data>
+  <data name="Voice.Progress" xml:space="preserve"><value>Preparing and verifying: {0:P0}</value></data>
+  <data name="Voice.Preview" xml:space="preserve"><value>Preview the text above</value></data>
+  <data name="Voice.Use" xml:space="preserve"><value>Use this voice for reading</value></data>
+  <data name="Voice.Disable" xml:space="preserve"><value>Disable AI reading</value></data>
+  <data name="Voice.Remove" xml:space="preserve"><value>Clear voice pack cache</value></data>
+  <data name="Voice.RemoveConfirm" xml:space="preserve"><value>Clear the extracted model and disable AI reading. Text, favorites and recordings remain. The bundled model stays in the app and can be restored offline.</value></data>
+  <data name="Voice.Cancel" xml:space="preserve"><value>Cancel preparation / stop</value></data>
+  <data name="Voice.Speaker" xml:space="preserve"><value>Mandarin voice {0:000}</value></data>
+  <data name="Voice.Generating" xml:space="preserve"><value>Generating speech on this device. The first run may take a moment…</value></data>
+  <data name="Voice.Installed" xml:space="preserve"><value>The bundled voice pack is ready. Preview a voice, then choose “Use this voice for reading”.</value></data>
+  <data name="Voice.Selected" xml:space="preserve"><value>Selected AI voice enabled. Return to your content and tap to read.</value></data>
+  <data name="Voice.Disabled" xml:space="preserve"><value>AI reading is disabled. The bundled voice pack is retained.</value></data>
+  <data name="Voice.NotInstalled" xml:space="preserve"><value>The voice cache is missing or incomplete. Restore the bundled pack offline.</value></data>
+  <data name="Voice.Unsupported" xml:space="preserve"><value>The offline AI engine is not yet supported on this platform.</value></data>
+  <data name="Voice.Failed" xml:space="preserve"><value>Could not complete the operation. Check storage or restore the bundled pack. Learning data is unchanged.</value></data>
+  <data name="Voice.DownloadTimeout" xml:space="preserve"><value>Voice pack preparation timed out. Try again; learning data is unchanged.</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>Both models are bundled and run locally; text and recordings are not uploaded. Clearing voice caches keeps learning data. Pinyin lessons prefer recordings and use MeloTTS with explicit readings when missing. Dictionary and reading text use the selected provider.</value></data>
+  <data name="Voice.License" xml:space="preserve"><value>MeloTTS: MyShell.ai, MIT. Kokoro: hexgrad, Apache-2.0. Engine: sherpa-onnx, Apache-2.0. Audio is synthesized; licenses and attribution are included.</value></data>
+<data name="Voice.ChooseSpeaker" xml:space="preserve"><value>Choose a voice</value></data>
+<data name="Voice.Sample" xml:space="preserve"><value>Text to preview</value></data>
+<data name="Voice.UnsupportedText" xml:space="preserve"><value>This voice pack cannot read some characters, English or emoji in this text. Please edit the text or use a recording or system voice. Nothing was skipped or uploaded.</value></data>
+  <data name="Backup.SnapshotTotal" xml:space="preserve"><value>{0} snapshots; verified copies use {1:F1} MB.</value></data>
+  <data name="Backup.SnapshotValid" xml:space="preserve"><value>Verified · {0:F1} MB</value></data>
+  <data name="Backup.SnapshotIncompatible" xml:space="preserve"><value>Incompatible version; cannot restore. Copy retained.</value></data>
+  <data name="Backup.SnapshotDamaged" xml:space="preserve"><value>Damaged or incomplete; cannot restore. Will not be pruned.</value></data>
+  <data name="Backup.RestoreSnapshot" xml:space="preserve"><value>Restore this snapshot</value></data>
+  <data name="Backup.SnapshotImpact" xml:space="preserve"><value>Replace {0} current items with {1} items, {2} audio assets, {3} folders and {4} trash records from this snapshot. Settings, resources and pinyin data will also be restored. Next, save the current state.</value></data>
+  <data name="Backup.SnapshotConfirm" xml:space="preserve"><value>The current state has been saved to a new safety snapshot. Replace content, favorites, settings and resource state with the selected snapshot? AI voice model files are unaffected.</value></data>
+  <data name="Backup.SnapshotRestored" xml:space="preserve"><value>Restored. Operation: {0}. The previous state is available in safety snapshots.</value></data>
+  <data name="Backup.RetainRecent" xml:space="preserve"><value>Manage snapshots (keep latest 3)</value></data>
+  <data name="Backup.RetentionInfo" xml:space="preserve"><value>Delete {0} older verified snapshots to reclaim {1:F1} MB. Keep the latest 3 verified copies and all damaged or unknown copies. Previously confirmed interrupted pruning will also resume. This cannot be undone.</value></data>
+  <data name="Backup.ScanAudio" xml:space="preserve"><value>Scan unused audio</value></data>
+  <data name="Backup.CleanupProtected" xml:space="preserve"><value>Protected data exists. No audio was deleted.</value></data>
+  <data name="Backup.CleanupDrafts" xml:space="preserve"><value>Resolve unsaved drafts or trash records, then scan again.</value></data>
+  <data name="Backup.CleanupInfo" xml:space="preserve"><value>Found {0} orphan files; {1} can be removed ({2:F1} MB); {3} are in the grace period. Files are kept for at least 7 days after first detection. Referenced recordings and snapshot audio are protected.</value></data>
+  <data name="Backup.CleanupConfirm" xml:space="preserve"><value>References will be checked again. Permanently delete these orphan files past their grace period?</value></data>
+  <data name="Backup.Clean" xml:space="preserve"><value>Confirm cleanup</value></data>
+  <data name="Backup.CleanupResult" xml:space="preserve"><value>Deleted {0} files, reclaimed {1:F1} MB; skipped {2} changed or already removed files.</value></data>
+  <data name="Backup.Invalid" xml:space="preserve"><value>The backup is invalid, damaged or unsupported. Choose a .hanbackup or .hanbackup.zip backup created by HanMate. Open content packages from content import.</value></data>
+  <data name="Backup.ExportFirst" xml:space="preserve"><value>Preview and generate a backup file first.</value></data>
+  <data name="Search.TextMode" xml:space="preserve"><value>Text</value></data>
+  <data name="Search.HandwritingMode" xml:space="preserve"><value>Write</value></data>
+  <data name="Handwriting.Hint" xml:space="preserve"><value>Write one character in stroke order. Lift your pen to update matches.</value></data>
+  <data name="Handwriting.Pad" xml:space="preserve"><value>Single-character handwriting grid</value></data>
+  <data name="Handwriting.Empty" xml:space="preserve"><value>Write a Chinese character in the grid below</value></data>
+  <data name="Handwriting.Writing" xml:space="preserve"><value>Writing…</value></data>
+  <data name="Handwriting.Recognizing" xml:space="preserve"><value>Recognizing…</value></data>
+  <data name="Handwriting.Count" xml:space="preserve"><value>{0} strokes · Tap a character or word for its definition</value></data>
+  <data name="Handwriting.Undo" xml:space="preserve"><value>Undo stroke</value></data>
+  <data name="Handwriting.Clear" xml:space="preserve"><value>Clear</value></data>
+  <data name="Handwriting.Credits" xml:space="preserve"><value>Credits</value></data>
+  <data name="Handwriting.NoExamples" xml:space="preserve"><value>No related words available</value></data>
+  <data name="Handwriting.NoDefinition" xml:space="preserve"><value>This character has no definition in your local dictionaries yet. Try a related word or install more dictionary entries.</value></data>
+  <data name="Handwriting.Failed" xml:space="preserve"><value>Recognition or lookup failed. Undo a stroke or clear the grid and retry.</value></data>
+  <data name="Dictionary.About" xml:space="preserve"><value>Default dictionary and source</value></data>
+  <data name="Dictionary.Summary" xml:space="preserve"><value>{0} entries · Version {1} · Offline</value></data>
+  <data name="Dictionary.Enabled" xml:space="preserve"><value>Enable the default dictionary</value></data>
+  <data name="Dictionary.Description" xml:space="preserve"><value>Simplified Chinese headwords and definitions for characters, words and idioms; traditional lookup is supported. The chinese-xinhua web compilation includes older definitions and is not an official licensed Xinhua edition. Missing pinyin is generated, marked unreviewed and excluded from confirmed-reading search. The read-only data and enable setting are excluded from personal backups.</value></data>
+  <data name="Pinyin.PreferAi" xml:space="preserve"><value>Prefer the enabled AI voice for pinyin</value></data>
+  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>Original pinyin and example recordings are used by default; the enabled voice fills missing complete recordings. Enable this option to prefer synthesis. Imported recordings and recordings for known pronunciation errors still take priority. Dictionary definitions and examples are independent of this switch.</value></data>
+  <data name="DictionaryDetail.Title" xml:space="preserve"><value>Dictionary</value></data>
+  <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>Definitions</value></data>
+  <data name="DictionaryDetail.Examples" xml:space="preserve"><value>Usage &amp; examples</value></data>
+  <data name="DictionaryDetail.HidePinyin" xml:space="preserve"><value>Hide pinyin</value></data>
+  <data name="DictionaryDetail.ShowPinyin" xml:space="preserve"><value>Show pinyin</value></data>
+  <data name="DictionaryDetail.Speak" xml:space="preserve"><value>Read headword; tap again to stop</value></data>
+  <data name="DictionaryDetail.More" xml:space="preserve"><value>More</value></data>
+  <data name="DictionaryDetail.Source" xml:space="preserve"><value>Entry information &amp; sources</value></data>
+  <data name="DictionaryDetail.Manage" xml:space="preserve"><value>Edit &amp; manage</value></data>
+  <data name="DictionaryDetail.NoExamples" xml:space="preserve"><value>No example sentences available</value></data>
+  <data name="DictionaryDetail.Automatic" xml:space="preserve"><value>Definition pinyin is automatic; check context-dependent readings.</value></data>
+  <data name="DictionaryDetail.Supplement" xml:space="preserve"><value>Includes supplemental learning examples pending review.</value></data>
+  <data name="DictionaryDetail.PinyinSource" xml:space="preserve"><value>Pinyin: pypinyin 0.55.0 (MIT), generated offline. Existing headword readings are preserved.</value></data>
+  <data name="DictionaryDetail.NoVoice" xml:space="preserve"><value>The selected voice pack is disabled or unavailable. Choose a voice or restore the pack in Reading voice.</value></data>
+  <data name="DictionaryDetail.Failed" xml:space="preserve"><value>Could not display this entry. Go back and try again.</value></data>
+  <data name="DictionaryDetail.Expand" xml:space="preserve"><value>Show full definitions ⌄</value></data>
+  <data name="DictionaryDetail.Collapse" xml:space="preserve"><value>Collapse definitions ⌃</value></data>
+  <data name="DictionaryDetail.Original" xml:space="preserve"><value>View original text</value></data>
+  <data name="Learn.WordHint" xml:space="preserve"><value>Explore everyday words, numbers, weight and more</value></data>
+  <data name="Learn.TextHint" xml:space="preserve"><value>Read in context</value></data>
+  <data name="Learn.GrammarHint" xml:space="preserve"><value>Patterns and examples</value></data>
+  <data name="Learn.PoemHint" xml:space="preserve"><value>Poetry and recitation</value></data>
+  <data name="Learn.DraftsTitle" xml:space="preserve"><value>Create and drafts</value></data>
+  <data name="Learn.DraftsHint" xml:space="preserve"><value>Import TXT or continue writing</value></data>
+  <data name="Library.More" xml:space="preserve"><value>More actions</value></data>
+  <data name="Library.FolderActions" xml:space="preserve"><value>Manage folder</value></data>
+  <data name="Settings.LanguageGroup" xml:space="preserve"><value>Language</value></data>
+  <data name="Settings.ContentGroup" xml:space="preserve"><value>Learning materials</value></data>
+  <data name="Settings.AudioGroup" xml:space="preserve"><value>Voice and pronunciation</value></data>
+  <data name="Settings.DataGroup" xml:space="preserve"><value>Data and privacy</value></data>
+  <data name="Library.DictionaryFavorites" xml:space="preserve"><value>Dictionary favorites</value></data>
+  <data name="DictionaryDetail.AddFavorite" xml:space="preserve"><value>Add to favorites</value></data>
+  <data name="DictionaryDetail.SavedFavorite" xml:space="preserve"><value>Saved to favorites</value></data>
+  <data name="DictionaryDetail.RemoveFavorite" xml:space="preserve"><value>Remove from favorites</value></data>
+  <data name="DictionaryDetail.FavoriteFailed" xml:space="preserve"><value>Could not update favorites. Please try again.</value></data>
+  <data name="DictionaryDetail.FavoriteMissing" xml:space="preserve"><value>This entry is not in the installed dictionary version. You can remove the saved reference.</value></data>
+  <data name="DictionaryDetail.SpeakPassage" xml:space="preserve"><value>Read this passage; tap again to stop</value></data>
+  <data name="DictionaryDetail.SpeechPending" xml:space="preserve"><value>Preparing or reading. Tap the text again to stop.</value></data>
+  <data name="Speech.Engine" xml:space="preserve"><value>Text-to-speech</value></data>
+  <data name="Speech.System" xml:space="preserve"><value>System text-to-speech</value></data>
+  <data name="Speech.ManagePack" xml:space="preserve"><value>Manage this voice pack</value></data>
+  <data name="Speech.SystemHint" xml:space="preserve"><value>Use an installed Mandarin system voice. Android lists installed voices that do not require a network. System speech follows text, not edited pinyin. Existing recordings take priority.</value></data>
+  <data name="Speech.MeloHint" xml:space="preserve"><value>MeloTTS · built-in Chinese female voice · 44.1 kHz. Used for dictionary and reading text, with recordings taking priority.</value></data>
+  <data name="Speech.KokoroHint" xml:space="preserve"><value>Kokoro · built-in Chinese male and female voices · 24 kHz. Choose a voice to preview. Recordings take priority.</value></data>
+  <data name="Voice.Female" xml:space="preserve"><value>Female</value></data>
+  <data name="Voice.Male" xml:space="preserve"><value>Male</value></data>
+  <data name="Pinyin.Guide.Title" xml:space="preserve"><value>Pinyin guide</value></data>
+  <data name="Pinyin.Guide.Step" xml:space="preserve"><value>Step {0} of 4</value></data>
+  <data name="Pinyin.Guide.TapTitle" xml:space="preserve"><value>Tap the pinyin to listen</value></data>
+  <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>Tap the highlighted “{0}” to hear its pronunciation.</value></data>
+  <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>Hold the pinyin for examples</value></data>
+  <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>Press and hold “{0}” for about half a second to open its examples.</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>With a mouse, right-click. With a keyboard, focus the button and press F10.</value></data>
+  <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>Skip guide</value></data>
+  <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>Tap the character to listen</value></data>
+  <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>Tap the highlighted “{0}” to hear its pronunciation.</value></data>
+  <data name="Pinyin.Guide.ExampleHoldTitle" xml:space="preserve"><value>Hold the character for its meaning</value></data>
+  <data name="Pinyin.Guide.ExampleHoldBody" xml:space="preserve"><value>Press and hold “{0}” for about half a second to open the dictionary entry.</value></data>
+  <data name="WordCategories.Title" xml:space="preserve"><value>Learn words by category</value></data>
+  <data name="WordCategories.Hint" xml:space="preserve"><value>Choose a category to start learning.</value></data>
+  <data name="WordCategories.Count" xml:space="preserve"><value>{0} words</value></data>
+  <data name="WordCategories.all" xml:space="preserve"><value>All words</value></data>
+  <data name="WordCategories.common" xml:space="preserve"><value>Everyday</value></data>
+  <data name="WordCategories.numbers" xml:space="preserve"><value>Numbers</value></data>
+  <data name="WordCategories.weight" xml:space="preserve"><value>Weight</value></data>
+  <data name="WordCategories.time" xml:space="preserve"><value>Time</value></data>
+  <data name="WordCategories.family" xml:space="preserve"><value>Family</value></data>
+  <data name="WordCategories.food" xml:space="preserve"><value>Food &amp; drink</value></data>
+  <data name="WordCategories.colors" xml:space="preserve"><value>Colors</value></data>
+  <data name="WordCategories.travel" xml:space="preserve"><value>Getting around</value></data>
+  <data name="WordCategories.study" xml:space="preserve"><value>Study</value></data>
+  <data name="WordCategories.nature" xml:space="preserve"><value>Nature</value></data>
+  <data name="WordCategories.other" xml:space="preserve"><value>Other words</value></data>
+  <data name="WordCategories.address" xml:space="preserve"><value>Forms of address</value></data>
+  <data name="WordCategories.greetings" xml:space="preserve"><value>Greetings</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>Tap to play, tap again to stop. Hold or right-click for the meaning.</value></data>
+  <data name="LearningWords.Meaning" xml:space="preserve"><value>Word meaning</value></data>
+  <data name="LearningWords.NoMeaning" xml:space="preserve"><value>No meaning has been added for this word yet.</value></data>
+  <data name="GrammarDetail.Hint" xml:space="preserve"><value>Tap an explanation or example to listen. Tap again to stop.</value></data>
+  <data name="GrammarDetail.Speak" xml:space="preserve"><value>Read the whole sentence; tap again to stop</value></data>
+  <data name="GrammarDetail.Manage" xml:space="preserve"><value>Recordings, editing and sharing</value></data>
+  <data name="GrammarDetail.Source" xml:space="preserve"><value>Content information and source</value></data>
+  <data name="WordCategories.quantifiers" xml:space="preserve"><value>Quantity expressions</value></data>
+  <data name="WordCategories.length" xml:space="preserve"><value>Length</value></data>
+  <data name="LessonDetail.Hint" xml:space="preserve"><value>Tap a passage to listen; tap it again to stop. Use Read all for the complete text.</value></data>
+  <data name="LessonDetail.ReadAll" xml:space="preserve"><value>Read all</value></data>
+  <data name="LessonDetail.SpeakSegment" xml:space="preserve"><value>Read this passage; tap again to stop</value></data>
+  <data name="LessonDetail.Manage" xml:space="preserve"><value>Recordings, editing and sharing</value></data>
+  <data name="LessonDetail.Source" xml:space="preserve"><value>Content information and source</value></data>
+  <data name="WordCategories.seasonings" xml:space="preserve"><value>Seasonings</value></data>
+  <data name="WordCategories.kitchenware" xml:space="preserve"><value>Kitchenware</value></data>
+  <data name="WordCategories.household" xml:space="preserve"><value>Household items</value></data>
+</root>

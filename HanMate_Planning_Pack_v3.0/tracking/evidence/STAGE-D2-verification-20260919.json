@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-19",
+  "done": 35,
+  "total": 48,
+  "tests": {
+    "status": "PASS",
+    "infrastructure": 95,
+    "preservationFaultInjections": 6
+  },
+  "builds": {
+    "Windows": "PASS",
+    "Android": "PASS",
+    "warnings": 0,
+    "errors": 0
+  },
+  "artifacts": {
+    "apk": {
+      "path": "HanMate.App\\bin\\Release\\net10.0-android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "4eebafe84d19b636b4c5a7ffeb5d32b42e6874fbda96d8cbb084378df4f6efcc"
+    },
+    "windowsApp": {
+      "path": "HanMate.App\\bin\\Release\\net10.0-windows10.0.19041.0\\win-x64\\HanMate.App.dll",
+      "sha256": "8a6850b8013422a25933268cf5483ee9603d95beb9b317d2b61c08d56b75f670"
+    },
+    "tests": {
+      "path": "HanMate.Infrastructure.Tests\\bin\\Release\\net10.0\\HanMate.Infrastructure.Tests.dll",
+      "sha256": "9f690fcdc896ab5b33b50ba89f3282fb05f62fa7ea0ef03bb51310882bdfa61f"
+    },
+    "migrationProbe": {
+      "path": "tools\\HanMate.MediaProbe\\bin\\Release\\net10.0-windows10.0.19041.0\\HanMate.MediaProbe.dll",
+      "sha256": "41f6f581bc6cfbf98f1497526c8139517bfda2084577da5e79d4b6a66710f965"
+    }
+  },
+  "localizationKeys": 537,
+  "preservation": {
+    "status": "PASS",
+    "originalContents": 118,
+    "addedContents": 5,
+    "folders": 3,
+    "favorites": 8,
+    "audio": {
+      "assets": 11,
+      "bindings": 30,
+      "preferences": 26
+    },
+    "settingsUnchanged": true,
+    "resourcesAndTeachingUnchanged": true
+  },
+  "returnBackup": {
+    "sha256": "ab303a3a48d89c0fc07698ebeb48c4b8be1b0857b3290b34952fda9d8029835a",
+    "bytes": 1480345,
+    "zipFallbackIdentical": true
+  },
+  "android": {
+    "device": "emulator-5554 API36",
+    "pid": 17776,
+    "language": "zh-Hans",
+    "readingScale": 1.5,
+    "showPinyin": true,
+    "aiSpeaker": 67,
+    "voiceEnabled": true,
+    "backupSaveCancelRetry": "PASS",
+    "shareSheetOpenDismiss": "PASS",
+    "invalidBackupThenRetry": "PASS",
+    "repeatAdded": 0,
+    "repeatReused": 5,
+    "staleContentExportRejected": "PASS"
+  },
+  "hostBackupVerification": {
+    "status": "PASS",
+    "verifiedContents": 5,
+    "kinds": 4,
+    "tracks": 5,
+    "exactDocumentJson": true,
+    "trackIdsHashesAndDefaults": true,
+    "favoriteReferences": true,
+    "repeat": true,
+    "totalRestored": 123,
+    "privateDatabase": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-d2-probe-647821902ffd400f975721bb8867dcd3"
+  },
+  "hostContentVerification": {
+    "status": "PASS",
+    "content": 1,
+    "exactTextUnits": true,
+    "unselectedAudioExcluded": true,
+    "noPrivateBackupFiles": true,
+    "repeat": true,
+    "privateDatabase": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-d2-probe-05a7836645a24d97847a52f4685228ba"
+  },
+  "notRun": [
+    "Windows native UI",
+    "device provider write failure",
+    "real device microphone and audio route",
+    "device destructive replacement",
+    "screen reader",
+    "system font 200 percent",
+    "iOS deferred"
+  ],
+  "releaseReady": false,
+  "rawEvidence": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-d2-20260919",
+  "planning": {
+    "status": "PASS",
+    "groups": 16,
+    "executionRows": 37,
+    "hashes": 194,
+    "originalAggregateCasesUnchanged": 176
+  }
+}

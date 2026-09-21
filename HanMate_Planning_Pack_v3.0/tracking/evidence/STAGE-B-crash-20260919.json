@@ -1,0 +1,33 @@
+{
+  "scenarios": [
+    {
+      "stage": "restore-after-safety",
+      "status": "PASS"
+    },
+    {
+      "stage": "restore-after-clear",
+      "status": "PASS"
+    },
+    {
+      "stage": "restore-before-commit",
+      "status": "PASS"
+    },
+    {
+      "stage": "restore-after-commit",
+      "status": "PASS"
+    },
+    {
+      "stage": "restore-sqlite-full",
+      "status": "PASS"
+    },
+    {
+      "stage": "gc-after-metadata",
+      "status": "PASS"
+    },
+    {
+      "stage": "gc-after-delete",
+      "status": "PASS"
+    }
+  ],
+  "scope": "isolated host process kill and real SQLite SQLITE_FULL; not device volume exhaustion"
+}

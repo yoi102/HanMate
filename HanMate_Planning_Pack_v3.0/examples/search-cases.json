@@ -1,0 +1,66 @@
+{
+  "purpose": "最小召回预期；未列出的词可按真实索引召回，不把数组顺序视为完整排序断言",
+  "cases": [
+    {
+      "query": "你好",
+      "mustInclude": [
+        "你好"
+      ]
+    },
+    {
+      "query": "nihao",
+      "mustInclude": [
+        "你好"
+      ]
+    },
+    {
+      "query": "nǐ hǎo",
+      "mustInclude": [
+        "你好"
+      ]
+    },
+    {
+      "query": "ni3hao3",
+      "mustInclude": [
+        "你好"
+      ]
+    },
+    {
+      "query": "nv er",
+      "mustInclude": [
+        "女儿"
+      ]
+    },
+    {
+      "query": "nu: er",
+      "mustInclude": [
+        "女儿"
+      ]
+    },
+    {
+      "query": "xi'an",
+      "mustInclude": [
+        "西安"
+      ]
+    },
+    {
+      "query": "xian",
+      "mustInclude": [
+        "先",
+        "西安"
+      ]
+    },
+    {
+      "query": "yin2hang2",
+      "mustInclude": [
+        "银行"
+      ]
+    }
+  ],
+  "negativeCases": [
+    {
+      "query": "nu",
+      "mustNotTreatAsExactPinyin": "nü"
+    }
+  ]
+}

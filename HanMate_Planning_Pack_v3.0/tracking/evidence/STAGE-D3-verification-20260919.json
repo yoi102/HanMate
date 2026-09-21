@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-19",
+  "done": 35,
+  "total": 48,
+  "tests": { "status": "PASS", "reading": 13, "projectionFixtures": 3 },
+  "builds": { "Windows": "PASS", "Android": "PASS", "warnings": 0, "errors": 0 },
+  "artifacts": {
+    "apk": { "sha256": "45b5e67c5f63d796ff047ca3ed75d9336a7ea5b60f1118fe3ad6e8e7d65caff7" },
+    "windowsApp": { "sha256": "5cae08a98fe30192fae41ec0e403430223776163c91200b013984fa52c21cfcf" },
+    "readingProbe": { "sha256": "fb5ab4d1f2e2d018b7ea9983860300b81456a150e630e9b41b127a20b8ffa66d" }
+  },
+  "android": {
+    "device": "emulator-5554 API36 1080x2400",
+    "systemFont200Reading": "PASS",
+    "longPages": 209,
+    "mixedPages": 9,
+    "poemPages": 4,
+    "languageReturn": "PASS",
+    "restored": { "language": "zh-Hans", "systemFontScale": 1.0, "readingScale": 1.5, "showPinyin": true, "aiSpeaker": 67, "voiceEnabled": true },
+    "largeFontTabLabelsAndListCount": "FAIL"
+  },
+  "windows": {
+    "actualOwnedUiRoute": "PASS",
+    "longPageEnterAndEnd": "PASS",
+    "mixedReading200": "PASS",
+    "restored": { "language": "en", "readingScale": 1.0, "showPinyin": true },
+    "systemFont200": "NOT RUN",
+    "fullAcceptance": "NOT RUN"
+  },
+  "screenReader": "NOT RUN",
+  "physicalDeviceAudio": "NOT RUN",
+  "ios": "NOT RUN",
+  "releaseReadiness": "BLOCKED",
+  "originalDataReplacementOrDeletion": false,
+  "newEngineeringDocumentsMergedPerPlatform": 3,
+  "completeDataPreservationComparison": "NOT RUN",
+  "newAndroidCrashSince1600": false,
+  "nextStage": "D4: large-font navigation/list layout and Windows interaction acceptance",
+  "rawEvidenceRoot": "C:/Users/yoiri/AppData/Local/Temp/HanMate-stage-d3-20260919"
+}

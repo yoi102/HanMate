@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 2,
+  "id": "f7d967d2-9c45-5eeb-b8d4-19d4939dc60d",
+  "kind": "grammar",
+  "origin": "resource",
+  "title": "“在”表示位置",
+  "contentRevision": 1,
+  "annotationRevision": 1,
+  "metadataRevision": 1,
+  "difficulty": "basic",
+  "schoolStage": null,
+  "grade": null,
+  "scenes": [
+    "daily"
+  ],
+  "source": {
+    "sourceId": "grammar-location",
+    "type": "testFixture",
+    "authorProvider": "HanMate 文档工程样例",
+    "reference": "本次规划创建的草稿",
+    "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+    "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+    "canDistribute": true,
+    "canShare": true,
+    "backupPolicy": "allowed",
+    "reviewStatus": "draft",
+    "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+    "resourceVersion": "1.0.0",
+    "entryId": "entry-1"
+  },
+  "textUnits": [
+    {
+      "id": "036b2167-231b-50d6-a0de-65f2a4410021",
+      "role": "grammarExplanation",
+      "text": "在表示位置。",
+      "offsetUnit": "textElement",
+      "elementBoundariesUtf16": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tokens": [
+        {
+          "id": "fe23ef39-ab2c-5391-ac63-eb5dbd4096bc",
+          "start": 0,
+          "length": 1,
+          "text": "在",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zai",
+            "tone": 4,
+            "erhua": false,
+            "display": "zài"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "a0db846d-36ab-593d-90d0-28893354e229",
+          "start": 1,
+          "length": 1,
+          "text": "表",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "biao",
+            "tone": 3,
+            "erhua": false,
+            "display": "biǎo"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "415318fb-6879-5d78-b2af-70c959af69e1",
+          "start": 2,
+          "length": 1,
+          "text": "示",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "shi",
+            "tone": 4,
+            "erhua": false,
+            "display": "shì"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "11326960-a70c-53b0-88e9-33cae634bcef",
+          "start": 3,
+          "length": 1,
+          "text": "位",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "wei",
+            "tone": 4,
+            "erhua": false,
+            "display": "wèi"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "6c64a2d2-baff-5d4b-a45b-66a0bfba4286",
+          "start": 4,
+          "length": 1,
+          "text": "置",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zhi",
+            "tone": 4,
+            "erhua": false,
+            "display": "zhì"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "0952d17a-7d81-5955-849c-22552bb4b0b6",
+          "start": 5,
+          "length": 1,
+          "text": "。",
+          "kind": "punctuation",
+          "pinyin": null,
+          "annotationSource": "none",
+          "locked": false,
+          "reviewState": "notApplicable"
+        }
+      ],
+      "segments": [
+        {
+          "id": "aa72b93d-9969-5583-8667-83c93c99eec2",
+          "start": 0,
+          "length": 6,
+          "text": "在表示位置。",
+          "kind": "speech",
+          "boundarySource": "auto",
+          "translations": {},
+          "tokenIds": [
+            "fe23ef39-ab2c-5391-ac63-eb5dbd4096bc",
+            "a0db846d-36ab-593d-90d0-28893354e229",
+            "415318fb-6879-5d78-b2af-70c959af69e1",
+            "11326960-a70c-53b0-88e9-33cae634bcef",
+            "6c64a2d2-baff-5d4b-a45b-66a0bfba4286",
+            "0952d17a-7d81-5955-849c-22552bb4b0b6"
+          ]
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "id": "7ffca496-a8b5-5c57-ae2b-2f3620851121",
+      "role": "example",
+      "text": "我在学校学习。",
+      "offsetUnit": "textElement",
+      "elementBoundariesUtf16": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "tokens": [
+        {
+          "id": "16dc6b8a-978c-5255-8041-477c5d8aed7b",
+          "start": 0,
+          "length": 1,
+          "text": "我",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "wo",
+            "tone": 3,
+            "erhua": false,
+            "display": "wǒ"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "6fcaaec1-1785-5c12-a4fe-c23a569176a4",
+          "start": 1,
+          "length": 1,
+          "text": "在",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zai",
+            "tone": 4,
+            "erhua": false,
+            "display": "zài"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "f11d293f-3365-59bd-a80b-747bf939d131",
+          "start": 2,
+          "length": 1,
+          "text": "学",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "xue",
+            "tone": 2,
+            "erhua": false,
+            "display": "xué"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "1d0ccad8-542b-5b11-bbe3-d7d32ee43ab4",
+          "start": 3,
+          "length": 1,
+          "text": "校",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "xiao",
+            "tone": 4,
+            "erhua": false,
+            "display": "xiào"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "d54e461b-9ed7-5e29-b275-27764a9a8703",
+          "start": 4,
+          "length": 1,
+          "text": "学",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "xue",
+            "tone": 2,
+            "erhua": false,
+            "display": "xué"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "a900eca0-5911-53bc-8231-024f9bfd231d",
+          "start": 5,
+          "length": 1,
+          "text": "习",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "xi",
+            "tone": 2,
+            "erhua": false,
+            "display": "xí"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "e0328703-5c82-5aa1-b9c0-2aad80233752",
+          "start": 6,
+          "length": 1,
+          "text": "。",
+          "kind": "punctuation",
+          "pinyin": null,
+          "annotationSource": "none",
+          "locked": false,
+          "reviewState": "notApplicable"
+        }
+      ],
+      "segments": [
+        {
+          "id": "f11e5c24-2b48-5b04-9ce8-cf0e9e3f525a",
+          "start": 0,
+          "length": 7,
+          "text": "我在学校学习。",
+          "kind": "speech",
+          "boundarySource": "auto",
+          "translations": {},
+          "tokenIds": [
+            "16dc6b8a-978c-5255-8041-477c5d8aed7b",
+            "6fcaaec1-1785-5c12-a4fe-c23a569176a4",
+            "f11d293f-3365-59bd-a80b-747bf939d131",
+            "1d0ccad8-542b-5b11-bbe3-d7d32ee43ab4",
+            "d54e461b-9ed7-5e29-b275-27764a9a8703",
+            "a900eca0-5911-53bc-8231-024f9bfd231d",
+            "e0328703-5c82-5aa1-b9c0-2aad80233752"
+          ]
+        }
+      ],
+      "translations": {
+        "ja": "私は学校で勉強します。",
+        "en": "I study at school."
+      }
+    },
+    {
+      "id": "9a33ef90-7245-56f6-afe2-97927f5e3146",
+      "role": "example",
+      "text": "他在家看书。",
+      "offsetUnit": "textElement",
+      "elementBoundariesUtf16": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tokens": [
+        {
+          "id": "871042f9-0507-5398-b751-21a27cb59c42",
+          "start": 0,
+          "length": 1,
+          "text": "他",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "ta",
+            "tone": 1,
+            "erhua": false,
+            "display": "tā"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "89a9c04c-bf96-5b2f-bcdc-dc3abb1a68c2",
+          "start": 1,
+          "length": 1,
+          "text": "在",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zai",
+            "tone": 4,
+            "erhua": false,
+            "display": "zài"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "ae3074d3-a76d-5dd3-8326-dd4effd15b66",
+          "start": 2,
+          "length": 1,
+          "text": "家",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "jia",
+            "tone": 1,
+            "erhua": false,
+            "display": "jiā"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "541b625d-6ff2-5f27-b51b-ff15f653d254",
+          "start": 3,
+          "length": 1,
+          "text": "看",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "kan",
+            "tone": 4,
+            "erhua": false,
+            "display": "kàn"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "0b286dab-5ed2-5fd3-ab4e-a765865210cb",
+          "start": 4,
+          "length": 1,
+          "text": "书",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "shu",
+            "tone": 1,
+            "erhua": false,
+            "display": "shū"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "f65b92c7-0dec-5b9a-acaa-3e8a81b122d2",
+          "start": 5,
+          "length": 1,
+          "text": "。",
+          "kind": "punctuation",
+          "pinyin": null,
+          "annotationSource": "none",
+          "locked": false,
+          "reviewState": "notApplicable"
+        }
+      ],
+      "segments": [
+        {
+          "id": "0b94b60b-ca77-5afd-8757-357548198637",
+          "start": 0,
+          "length": 6,
+          "text": "他在家看书。",
+          "kind": "speech",
+          "boundarySource": "auto",
+          "translations": {},
+          "tokenIds": [
+            "871042f9-0507-5398-b751-21a27cb59c42",
+            "89a9c04c-bf96-5b2f-bcdc-dc3abb1a68c2",
+            "ae3074d3-a76d-5dd3-8326-dd4effd15b66",
+            "541b625d-6ff2-5f27-b51b-ff15f653d254",
+            "0b286dab-5ed2-5fd3-ab4e-a765865210cb",
+            "f65b92c7-0dec-5b9a-acaa-3e8a81b122d2"
+          ]
+        }
+      ],
+      "translations": {
+        "ja": "彼は家で本を読みます。",
+        "en": "He reads at home."
+      }
+    }
+  ],
+  "createdAtUtc": "2026-09-14T00:00:00Z",
+  "updatedAtUtc": "2026-09-14T00:00:00Z",
+  "grammar": {
+    "patternParts": [
+      {
+        "kind": "slot",
+        "text": "主语"
+      },
+      {
+        "kind": "operator",
+        "text": "+"
+      },
+      {
+        "kind": "literal",
+        "text": "在"
+      },
+      {
+        "kind": "operator",
+        "text": "+"
+      },
+      {
+        "kind": "slot",
+        "text": "地点"
+      },
+      {
+        "kind": "operator",
+        "text": "+"
+      },
+      {
+        "kind": "slot",
+        "text": "动作"
+      }
+    ],
+    "patternTranslations": {
+      "ja": "主語＋在＋場所＋動作",
+      "en": "Subject + 在 + place + action"
+    },
+    "explanationUnitIds": [
+      "036b2167-231b-50d6-a0de-65f2a4410021"
+    ],
+    "exampleUnitIds": [
+      "7ffca496-a8b5-5c57-ae2b-2f3620851121",
+      "9a33ef90-7245-56f6-afe2-97927f5e3146"
+    ],
+    "noteUnitIds": [],
+    "topicCodes": [
+      "location"
+    ]
+  }
+}

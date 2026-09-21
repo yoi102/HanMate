@@ -1,0 +1,10 @@
+HanMate audio-cmn headword recordings
+Speakers: Chen Wang (syllables); Yue Tan / SWAC (words). Curation: Hugo Lopez / audio-cmn.
+Audio license: CC BY-SA; the pinned source does not specify a version. https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+New MP3 assets preserve the original bytes. Reused Pinyin WAV conversions are detailed in Pinyin/NOTICE.txt.
+Reading index: CC-CEDICT, MDBG and contributors, CC BY-SA 4.0.
+https://www.mdbg.net/chinese/dictionary?page=cedict | https://creativecommons.org/licenses/by-sa/4.0/
+Reading source SHA256: cafb6f52f35166bef07e0a9e671ba77286b8528a3cbe4979597be0e04a5c7883
+Words with multiple lexicon readings are excluded unless already bound in the teaching course.
+Matching is based on lexicon metadata; independent listening/pronunciation and license review remain pending.
+Per-recording source, hash, speaker and changes: catalog.json. No speaker endorsement is implied.

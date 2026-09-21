@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-20",
+  "artifacts": {
+    "androidApk": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\bin\\Release\\net10.0-android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "a4c1ff8f552bc003f4e66129a0d6afdc4bdba7f8a3dbe3a295b56e60fd39c4ff"
+    },
+    "windowsApp": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-pinyin-fix-windows\\HanMate.App.dll",
+      "sha256": "6ca1316771d745391c07008080de0a83c150680090e49924ca3505bf85fe3857"
+    },
+    "course": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\Resources\\Raw\\Pinyin\\course.json",
+      "sha256": "fcfee3cd1dcbcfce88f0106e93a305e37d75200475108db8070e05706ffcee97"
+    },
+    "coverage": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\tools\\resource-audit\\audio-cmn\\tone-coverage.json",
+      "sha256": "faa6229426c83894d088f8405758bb1d089098eae09a3ab462a19f46f2c025ba"
+    }
+  },
+  "tests": {
+    "core": 77,
+    "infrastructure": 2,
+    "python": 11
+  },
+  "windowsBuild": "PASS",
+  "androidBuild": "PASS",
+  "androidUi": "PASS - p/ch four-tone layout and actual playback routes",
+  "listening": "NOT RUN",
+  "windowsUi": "NOT RUN",
+  "ios": "NOT RUN",
+  "examples": 375,
+  "recordings": 394,
+  "toneGroupsWithCharactersAndWords": 236,
+  "totalToneGroups": 252,
+  "playbackTracks": [
+    {
+      "track": 72,
+      "sampleRate": 24000
+    },
+    {
+      "track": 73,
+      "sampleRate": 8000
+    },
+    {
+      "track": 74,
+      "sampleRate": 24000
+    },
+    {
+      "track": 75,
+      "sampleRate": 24000
+    },
+    {
+      "track": 76,
+      "sampleRate": 24000
+    },
+    {
+      "track": 77,
+      "sampleRate": 24000
+    },
+    {
+      "track": 78,
+      "sampleRate": 24000
+    }
+  ],
+  "original176Aggregate": "NOT RUN",
+  "completedWorkPackages": "35/48"
+}

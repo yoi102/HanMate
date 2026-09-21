@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-20",
+  "workPackagesDone": 45,
+  "target": 48,
+  "platformDebugging": "PAUSED_BY_USER: 先不调试",
+  "tests": {
+    "core-full": {
+      "total": "277",
+      "executed": "277",
+      "passed": "271",
+      "failed": "6",
+      "error": "0",
+      "timeout": "0",
+      "aborted": "0",
+      "inconclusive": "0",
+      "passedButRunAborted": "0",
+      "notRunnable": "0",
+      "notExecuted": "0",
+      "disconnected": "0",
+      "warning": "0",
+      "completed": "0",
+      "inProgress": "0",
+      "pending": "0"
+    },
+    "infrastructure-full": {
+      "total": "301",
+      "executed": "301",
+      "passed": "300",
+      "failed": "1",
+      "error": "0",
+      "timeout": "0",
+      "aborted": "0",
+      "inconclusive": "0",
+      "passedButRunAborted": "0",
+      "notRunnable": "0",
+      "notExecuted": "0",
+      "disconnected": "0",
+      "warning": "0",
+      "completed": "0",
+      "inProgress": "0",
+      "pending": "0"
+    },
+    "core-verified": {
+      "total": "283",
+      "executed": "283",
+      "passed": "283",
+      "failed": "0",
+      "error": "0",
+      "timeout": "0",
+      "aborted": "0",
+      "inconclusive": "0",
+      "passedButRunAborted": "0",
+      "notRunnable": "0",
+      "notExecuted": "0",
+      "disconnected": "0",
+      "warning": "0",
+      "completed": "0",
+      "inProgress": "0",
+      "pending": "0"
+    },
+    "backup-final": {
+      "total": "1",
+      "executed": "1",
+      "passed": "1",
+      "failed": "0",
+      "error": "0",
+      "timeout": "0",
+      "aborted": "0",
+      "inconclusive": "0",
+      "passedButRunAborted": "0",
+      "notRunnable": "0",
+      "notExecuted": "0",
+      "disconnected": "0",
+      "warning": "0",
+      "completed": "0",
+      "inProgress": "0",
+      "pending": "0"
+    }
+  },
+  "uniquePassingTests": 584,
+  "sourceChanges": [
+    {
+      "path": "HanMate.Core.Tests/HanMate.Core.Tests.csproj",
+      "sha256": "5f6f2a77b83ea08470803211e26771c0fffa63928605b50e25dfda0a635cc15a"
+    },
+    {
+      "path": "HanMate.Core.Tests/Pinyin/PinyinCourseTests.cs",
+      "sha256": "ed05586887dae00fce2a69f0efd4026eb03c57afc52573d23d1754a3eb0c7a7a"
+    },
+    {
+      "path": "HanMate.Infrastructure.Tests/Database/BackupTests.PinyinDefinitions.cs",
+      "sha256": "772572323555939bc627da825ab7f7dde082a928dd7176f679222a916f2425f8"
+    }
+  ],
+  "applicationSourceChanges": false,
+  "deviceOperations": false,
+  "uiInputOperations": false,
+  "defectHmD019": "OPEN",
+  "applicationBuild": "NOT RUN; application code/resources unchanged since D8",
+  "originalAcceptanceStatuses": "NOT CHANGED",
+  "deliveryNote": "D8 immutable source archive retains its historical test snapshot. D9 provides updated test sources and regression logs; app binaries unchanged.",
+  "files": [
+    {
+      "path": "backup-final.log",
+      "sha256": "fdfc48440e7aa67ada24b497be9992eecf499b9ac24c81fb6c6fbbe9d9400f50"
+    },
+    {
+      "path": "backup-final.trx",
+      "sha256": "a5f0b1143bbc91bb87420b6676046f685e71dbdd89116821fd9f51dc5aa18e7e"
+    },
+    {
+      "path": "core-full.log",
+      "sha256": "80f99abd3e6b74f234cbad560e2efbabef99a5c2c00f0dc0c0c9957b51ce3a41"
+    },
+    {
+      "path": "core-full.trx",
+      "sha256": "7923c8631220b9919d5b3c4acbdff04f686fb5adfbcd65ba43b06fd0d2f5dbd3"
+    },
+    {
+      "path": "core-verified.log",
+      "sha256": "0ac1c94e717038f8262ad3eaba5e2f63a8d030a93584701b38464dbe2f18643b"
+    },
+    {
+      "path": "core-verified.trx",
+      "sha256": "6772755aa68a7ef0c492a55c2704b873d62d471f2c464c8e0d87d54ac4c4aabd"
+    },
+    {
+      "path": "infrastructure-full.log",
+      "sha256": "32e4f34f15be4163cd1f1b5a077ece1012b22478de10f006aa99451f978f8b60"
+    },
+    {
+      "path": "infrastructure-full.trx",
+      "sha256": "119a6ed6d2b26f34246bb874100fa72aa2da724a46a07e2d89e052bd3e66bbd4"
+    },
+    {
+      "path": "source/HanMate.Core.Tests/HanMate.Core.Tests.csproj",
+      "sha256": "5f6f2a77b83ea08470803211e26771c0fffa63928605b50e25dfda0a635cc15a"
+    },
+    {
+      "path": "source/HanMate.Core.Tests/Pinyin/PinyinCourseTests.cs",
+      "sha256": "ed05586887dae00fce2a69f0efd4026eb03c57afc52573d23d1754a3eb0c7a7a"
+    },
+    {
+      "path": "source/HanMate.Infrastructure.Tests/Database/BackupTests.PinyinDefinitions.cs",
+      "sha256": "772572323555939bc627da825ab7f7dde082a928dd7176f679222a916f2425f8"
+    }
+  ]
+}

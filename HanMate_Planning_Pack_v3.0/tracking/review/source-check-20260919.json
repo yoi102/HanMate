@@ -1,0 +1,40 @@
+[
+  {
+    "name": "audio-readme",
+    "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/hugolpz/audio-cmn/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md",
+    "bytes": 3015,
+    "sha256": "dc2d92441be58c9c6fa8892b8dd5ed7d628eec046f408b0ab8db4bdd9fd24200"
+  },
+  {
+    "name": "swac-readme",
+    "url": "https://packs.shtooka.net/cmn-caen-tan/readme.txt",
+    "status": "UNAVAILABLE",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "swac-site",
+    "url": "https://shtooka.net/collections/eng/cmn-caen-tan/",
+    "status": 200,
+    "finalUrl": "https://xoilaczzf.cc/",
+    "bytes": 1249138,
+    "sha256": "e9d019618734fcc5c6614fe7de5a45e1740e2ab783d4ad05cf79150358128f9b"
+  },
+  {
+    "name": "openslr-aishell3",
+    "url": "https://www.openslr.org/93/",
+    "status": 200,
+    "finalUrl": "https://www.openslr.org/93/",
+    "bytes": 3858,
+    "sha256": "e6266a2e0b7784efedf4ce45756553640e75c5edeca0cc6f6ae2d1e3158afd26"
+  },
+  {
+    "name": "commons-ong",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AZh-ong.ogg%7CFile%3AZh-%C5%8Dng.ogg%7CFile%3AZh-ong1.ogg&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1",
+    "status": 200,
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AZh-ong.ogg%7CFile%3AZh-%C5%8Dng.ogg%7CFile%3AZh-ong1.ogg&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1",
+    "bytes": 268,
+    "sha256": "c3727c9c205ae40469636a29b4242ee3d365352e1e7155bfb77fe3b817dd0eee"
+  }
+]

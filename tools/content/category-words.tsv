@@ -1,0 +1,111 @@
+# Original AI-assisted teaching draft; Chinese, pinyin and translations pending independent review.
+# category;word;headword pinyin;definition;definition pinyin;English;Japanese
+common,greetings;谢谢;xie4 xie0;表示感谢的用语。;biao3 shi4 gan3 xie4 de0 yong4 yu3;Thank you.;ありがとう。
+common,greetings;再见;zai4 jian4;分别时说的告别用语。;fen1 bie2 shi2 shuo1 de0 gao4 bie2 yong4 yu3;Goodbye.;さようなら。
+numbers;零;ling2;表示没有数量，也表示数位上的空位。;biao3 shi4 mei2 you3 shu4 liang4 ye3 biao3 shi4 shu4 wei4 shang4 de0 kong4 wei4;Zero.;ゼロ。
+numbers;一;yi1;最小的正整数。;zui4 xiao3 de0 zheng4 zheng3 shu4;One.;一。
+numbers;二;er4;一加一得到的数。;yi1 jia1 yi1 de2 dao4 de0 shu4;Two.;二。
+numbers;三;san1;二加一得到的数。;er4 jia1 yi1 de2 dao4 de0 shu4;Three.;三。
+numbers;四;si4;三加一得到的数。;san1 jia1 yi1 de2 dao4 de0 shu4;Four.;四。
+numbers;五;wu3;四加一得到的数。;si4 jia1 yi1 de2 dao4 de0 shu4;Five.;五。
+numbers;六;liu4;五加一得到的数。;wu3 jia1 yi1 de2 dao4 de0 shu4;Six.;六。
+numbers;七;qi1;六加一得到的数。;liu4 jia1 yi1 de2 dao4 de0 shu4;Seven.;七。
+numbers;八;ba1;七加一得到的数。;qi1 jia1 yi1 de2 dao4 de0 shu4;Eight.;八。
+numbers;九;jiu3;八加一得到的数。;ba1 jia1 yi1 de2 dao4 de0 shu4;Nine.;九。
+numbers;十;shi2;九加一得到的数。;jiu3 jia1 yi1 de2 dao4 de0 shu4;Ten.;十。
+numbers;百;bai3;十个十的数量。;shi2 ge4 shi2 de0 shu4 liang4;One hundred.;百。
+numbers;千;qian1;十个一百的数量。;shi2 ge4 yi4 bai3 de0 shu4 liang4;One thousand.;千。
+numbers;万;wan4;十个一千的数量。;shi2 ge4 yi4 qian1 de0 shu4 liang4;Ten thousand.;一万。
+weight;克;ke4;质量单位，千克的千分之一。;zhi4 liang4 dan1 wei4 qian1 ke4 de0 qian1 fen1 zhi1 yi1;Gram, one thousandth of a kilogram.;グラム。キログラムの千分の一。
+weight;千克;qian1 ke4;质量单位，通常也叫公斤。;zhi4 liang4 dan1 wei4 tong1 chang2 ye3 jiao4 gong1 jin1;Kilogram, equal to one thousand grams.;キログラム。千グラム。
+weight;公斤;gong1 jin1;千克的通称，一公斤等于一千克。;qian1 ke4 de0 tong1 cheng1 yi4 gong1 jin1 deng3 yu2 yi4 qian1 ke4;A common Chinese name for kilogram.;キログラムの中国語での一般的な呼び方。
+weight;斤;jin1;中国大陆常用的市制质量单位，一斤等于五百克。;zhong1 guo2 da4 lu4 chang2 yong4 de0 shi4 zhi4 zhi4 liang4 dan1 wei4 yi4 jin1 deng3 yu2 wu3 bai3 ke4;Jin, a customary unit equal to 500 grams in mainland China.;斤。中国大陸では五百グラムに相当する単位。
+weight;两;liang3;用作市制质量单位时，中国大陆的一两等于五十克。;yong4 zuo4 shi4 zhi4 zhi4 liang4 dan1 wei4 shi2 zhong1 guo2 da4 lu4 de0 yi4 liang3 deng3 yu2 wu3 shi2 ke4;Liang, a customary unit equal to 50 grams in mainland China.;両。中国大陸では五十グラムに相当する単位。
+weight;吨;dun1;质量单位，一吨等于一千千克。;zhi4 liang4 dan1 wei4 yi2 dun1 deng3 yu2 yi4 qian1 qian1 ke4;Tonne, equal to one thousand kilograms.;トン。千キログラム。
+time;今天;jin1 tian1;说话时的这一天。;shuo1 hua4 shi2 de0 zhe4 yi4 tian1;Today.;今日。
+time;明天;ming2 tian1;今天的后一天。;jin1 tian1 de0 hou4 yi4 tian1;Tomorrow.;明日。
+time;昨天;zuo2 tian1;今天的前一天。;jin1 tian1 de0 qian2 yi4 tian1;Yesterday.;昨日。
+time;分钟;fen1 zhong1;时间单位，一分钟等于六十秒。;shi2 jian1 dan1 wei4 yi4 fen1 zhong1 deng3 yu2 liu4 shi2 miao3;Minute, equal to sixty seconds.;分。六十秒。
+family,address;爸爸;ba4 ba0;对父亲的称呼。;dui4 fu4 qin1 de0 cheng1 hu0;Dad, father.;お父さん。
+family;孩子;hai2 zi0;儿童，也指父母的子女。;er2 tong2 ye3 zhi3 fu4 mu3 de0 zi3 nv3;Child.;子供。
+food;水;shui3;日常饮用的无色液体。;ri4 chang2 yin3 yong4 de0 wu2 se4 ye4 ti3;Water.;水。
+food;米饭;mi3 fan4;用大米煮成的主食。;yong4 da4 mi3 zhu3 cheng2 de0 zhu3 shi2;Cooked rice.;ご飯。
+food;苹果;ping2 guo3;一种常见的水果。;yi4 zhong3 chang2 jian4 de0 shui3 guo3;Apple.;りんご。
+food;面包;mian4 bao1;用面粉等原料烘烤制成的食品。;yong4 mian4 fen3 deng3 yuan2 liao4 hong1 kao3 zhi4 cheng2 de0 shi2 pin3;Bread.;パン。
+colors;红色;hong2 se4;像鲜血那样的颜色。;xiang4 xian1 xue4 na4 yang4 de0 yan2 se4;Red.;赤色。
+colors;蓝色;lan2 se4;像晴天天空那样的颜色。;xiang4 qing2 tian1 tian1 kong1 na4 yang4 de0 yan2 se4;Blue.;青色。
+colors;黄色;huang2 se4;像成熟柠檬果皮那样的颜色。;xiang4 cheng2 shu2 ning2 meng2 guo3 pi2 na4 yang4 de0 yan2 se4;Yellow.;黄色。
+travel;车站;che1 zhan4;车辆停靠、乘客上下车的地方。;che1 liang4 ting2 kao4 cheng2 ke4 shang4 xia4 che1 de0 di4 fang0;Station or stop for vehicles and passengers.;駅や停留所。
+travel;公交车;gong1 jiao1 che1;按固定线路行驶的公共汽车。;an4 gu4 ding4 xian4 lu4 xing2 shi3 de0 gong1 gong4 qi4 che1;Public bus.;路線バス。
+study,address;老师;lao3 shi1;教学生知识或技能的人。;jiao1 xue2 sheng1 zhi1 shi0 huo4 ji4 neng2 de0 ren2;Teacher.;先生。
+study;学生;xue2 sheng1;在学校等地方学习的人。;zai4 xue2 xiao4 deng3 di4 fang0 xue2 xi2 de0 ren2;Student.;学生。
+nature;太阳;tai4 yang0;为地球提供光和热的恒星。;wei4 di4 qiu2 ti2 gong1 guang1 he2 re4 de0 heng2 xing1;Sun.;太陽。
+nature;月亮;yue4 liang0;围绕地球运行的天然卫星。;wei2 rao4 di4 qiu2 yun4 xing2 de0 tian1 ran2 wei4 xing1;Moon.;月。
+greetings;您好;nin2 hao3;向对方表示尊敬的问候语。;xiang4 dui4 fang1 biao3 shi4 zun1 jing4 de0 wen4 hou4 yu3;Hello, a respectful greeting.;こんにちは。丁寧な挨拶。
+greetings;早上好;zao3 shang0 hao3;早晨见面时的问候语。;zao3 chen2 jian4 mian4 shi2 de0 wen4 hou4 yu3;Good morning.;おはようございます。
+greetings;晚上好;wan3 shang0 hao3;晚上见面时的问候语。;wan3 shang0 jian4 mian4 shi2 de0 wen4 hou4 yu3;Good evening.;こんばんは。
+common,greetings;对不起;dui4 bu0 qi3;向别人表示歉意的用语。;xiang4 bie2 ren2 biao3 shi4 qian4 yi4 de0 yong4 yu3;Sorry.;すみません。
+common,greetings;没关系;mei2 guan1 xi0;表示不介意或不必担心的用语。;biao3 shi4 bu2 jie4 yi4 huo4 bu2 bi4 dan1 xin1 de0 yong4 yu3;It's all right. No problem.;大丈夫です。気にしないで。
+address;先生;xian1 sheng0;对成年男性的一种礼貌称呼。;dui4 cheng2 nian2 nan2 xing4 de0 yi4 zhong3 li3 mao4 cheng1 hu0;Mr. or sir, a polite form of address.;男性への丁寧な呼び方。
+address;女士;nv3 shi4;对成年女性的一种礼貌称呼。;dui4 cheng2 nian2 nv3 xing4 de0 yi4 zhong3 li3 mao4 cheng1 hu0;Ms. or madam, a polite form of address.;女性への丁寧な呼び方。
+address,family;叔叔;shu1 shu0;父亲的弟弟，也用于称呼与父亲同辈的男性。;fu4 qin1 de0 di4 di0 ye3 yong4 yu2 cheng1 hu0 yu3 fu4 qin1 tong2 bei4 de0 nan2 xing4;Father's younger brother, also a familiar address for a man of the father's generation.;父の弟。また、父と同世代の男性への呼び方。
+address,family;阿姨;a1 yi2;母亲的姐妹，也用于称呼与母亲同辈的女性。;mu3 qin1 de0 jie3 mei4 ye3 yong4 yu2 cheng1 hu0 yu3 mu3 qin1 tong2 bei4 de0 nv3 xing4;Mother's sister, also a familiar address for a woman of the mother's generation.;母の姉妹。また、母と同世代の女性への呼び方。
+address,family;爷爷;ye2 ye0;父亲的父亲。;fu4 qin1 de0 fu4 qin1;Paternal grandfather.;父方の祖父。
+address,family;奶奶;nai3 nai0;父亲的母亲。;fu4 qin1 de0 mu3 qin1;Paternal grandmother.;父方の祖母。
+address,family;哥哥;ge1 ge0;同辈中比自己年长的男性手足。;tong2 bei4 zhong1 bi3 zi4 ji3 nian2 zhang3 de0 nan2 xing4 shou3 zu2;Older brother.;兄。
+address,family;姐姐;jie3 jie0;同辈中比自己年长的女性手足。;tong2 bei4 zhong1 bi3 zi4 ji3 nian2 zhang3 de0 nv3 xing4 shou3 zu2;Older sister.;姉。
+address;朋友;peng2 you0;彼此有友好关系的人。;bi3 ci3 you3 you3 hao3 guan1 xi4 de0 ren2;Friend.;友達。
+quantifiers;一个;yi2 ge4;用于计算人或许多种事物。;yong4 yu2 ji4 suan4 ren2 huo4 xu3 duo1 zhong3 shi4 wu4;one (general classifier);一つ（一般的な数え方）
+quantifiers;一只;yi4 zhi1;常用于计算鸟、猫等动物。;chang2 yong4 yu2 ji4 suan4 niao3 mao1 deng3 dong4 wu4;one (classifier for many animals);一匹・一羽（動物の数え方）
+quantifiers;一条;yi4 tiao2;常用于计算鱼等细长的动物或物体。;chang2 yong4 yu2 ji4 suan4 yu2 deng3 xi4 chang2 de0 dong4 wu4 huo4 wu4 ti3;one (classifier for fish and long objects);一匹・一本（魚や細長い物の数え方）
+quantifiers;一本;yi4 ben3;用于计算书、本子等。;yong4 yu2 ji4 suan4 shu1 ben3 zi0 deng3;one (classifier for books);一冊（本やノートの数え方）
+quantifiers;一张;yi4 zhang1;常用于计算纸等平面的物体。;chang2 yong4 yu2 ji4 suan4 zhi3 deng3 ping2 mian4 de0 wu4 ti3;one (classifier for flat objects);一枚（平たい物の数え方）
+quantifiers;一支;yi4 zhi1;常用于计算笔等细长的物体。;chang2 yong4 yu2 ji4 suan4 bi3 deng3 xi4 chang2 de0 wu4 ti3;one (classifier for pens and similar objects);一本（ペンなどの数え方）
+quantifiers;一把;yi4 ba3;常用于计算伞、刀等有把手的物品。;chang2 yong4 yu2 ji4 suan4 san3 dao1 deng3 you3 ba3 shou3 de0 wu4 pin3;one (classifier for objects with handles);一本・一丁（柄のある物の数え方）
+quantifiers;一件;yi2 jian4;常用于计算衣服、事情等。;chang2 yong4 yu2 ji4 suan4 yi1 fu0 shi4 qing0 deng3;one (classifier for clothing and matters);一着・一件（服や事柄の数え方）
+quantifiers;一双;yi4 shuang1;用于计算成对的鞋、袜子等。;yong4 yu2 ji4 suan4 cheng2 dui4 de0 xie2 wa4 zi0 deng3;one pair;一足・一組（対になる物の数え方）
+quantifiers;一杯;yi4 bei1;表示一杯的量，常用于水、茶等。;biao3 shi4 yi4 bei1 de0 liang4 chang2 yong4 yu2 shui3 cha2 deng3;one cup or glass;一杯（飲み物などの量）
+quantifiers;一碗;yi4 wan3;表示一碗的量，常用于饭、汤等。;biao3 shi4 yi4 wan3 de0 liang4 chang2 yong4 yu2 fan4 tang1 deng3;one bowl;一杯（ご飯やスープなどの量）
+quantifiers;一辆;yi2 liang4;用于计算汽车、自行车等车辆。;yong4 yu2 ji4 suan4 qi4 che1 zi4 xing2 che1 deng3 che1 liang4;one (classifier for vehicles);一台（車両の数え方）
+length;毫米;hao2 mi3;长度单位。十毫米等于一厘米。;chang2 du4 dan1 wei4 shi2 hao2 mi3 deng3 yu2 yi4 li2 mi3;millimeter;ミリメートル
+length;厘米;li2 mi3;长度单位。一百厘米等于一米。;chang2 du4 dan1 wei4 yi4 bai3 li2 mi3 deng3 yu2 yi4 mi3;centimeter;センチメートル
+length;分米;fen1 mi3;长度单位。一分米等于十厘米。;chang2 du4 dan1 wei4 yi4 fen1 mi3 deng3 yu2 shi2 li2 mi3;decimeter;デシメートル
+length;米;mi3;长度单位。一米等于十分米。;chang2 du4 dan1 wei4 yi4 mi3 deng3 yu2 shi2 fen1 mi3;meter;メートル
+length;千米;qian1 mi3;长度单位，也叫公里。;chang2 du4 dan1 wei4 ye3 jiao4 gong1 li3;kilometer;キロメートル
+length;公里;gong1 li3;长度单位。公里就是千米。;chang2 du4 dan1 wei4 gong1 li3 jiu4 shi4 qian1 mi3;kilometer;キロメートル
+seasonings;盐;yan2;有咸味的调味品。;you3 xian2 wei4 de0 tiao2 wei4 pin3;salt;塩
+seasonings;糖;tang2;有甜味的食品，也可用来调味。;you3 tian2 wei4 de0 shi2 pin3 ye3 ke3 yong4 lai2 tiao2 wei4;sugar;砂糖
+seasonings;酱油;jiang4 you2;用大豆等原料酿制的咸味调味汁。;yong4 da4 dou4 deng3 yuan2 liao4 niang4 zhi4 de0 xian2 wei4 tiao2 wei4 zhi1;soy sauce;醤油
+seasonings;醋;cu4;带酸味的液体调味品。;dai4 suan1 wei4 de0 ye4 ti3 tiao2 wei4 pin3;vinegar;酢
+seasonings;食用油;shi2 yong4 you2;可以用来烹调食物的油。;ke3 yi3 yong4 lai2 peng1 tiao2 shi2 wu4 de0 you2;cooking oil;食用油
+seasonings;香油;xiang1 you2;通常指用芝麻制成的油。;tong1 chang2 zhi3 yong4 zhi1 ma0 zhi4 cheng2 de0 you2;sesame oil;ごま油
+seasonings;胡椒粉;hu2 jiao1 fen3;用胡椒磨成的调味粉。;yong4 hu2 jiao1 mo2 cheng2 de0 tiao2 wei4 fen3;ground pepper;こしょう
+seasonings;花椒;hua1 jiao1;带香味和麻味的香料。;dai4 xiang1 wei4 he2 ma2 wei4 de0 xiang1 liao4;Sichuan pepper;花椒（ホアジャオ）
+seasonings;八角;ba1 jiao3;形状像星星的一种香料。;xing2 zhuang4 xiang4 xing1 xing0 de0 yi4 zhong3 xiang1 liao4;star anise;八角（スターアニス）
+seasonings;料酒;liao4 jiu3;烹调时用来去腥和增香的酒。;peng1 tiao2 shi2 yong4 lai2 qu4 xing1 he2 zeng1 xiang1 de0 jiu3;cooking wine;料理酒
+seasonings;蚝油;hao2 you2;用牡蛎等原料制成的鲜味调味汁。;yong4 mu3 li4 deng3 yuan2 liao4 zhi4 cheng2 de0 xian1 wei4 tiao2 wei4 zhi1;oyster sauce;オイスターソース
+seasonings;辣椒酱;la4 jiao1 jiang4;用辣椒等原料制成的酱。;yong4 la4 jiao1 deng3 yuan2 liao4 zhi4 cheng2 de0 jiang4;chili sauce;チリソース
+kitchenware;锅;guo1;用来煮、炒等烹调食物的器具。;yong4 lai2 zhu3 chao3 deng3 peng1 tiao2 shi2 wu4 de0 qi4 ju4;pot or pan;鍋
+kitchenware;平底锅;ping2 di3 guo1;底部平坦，常用来煎食物的锅。;di3 bu4 ping2 tan3 chang2 yong4 lai2 jian1 shi2 wu4 de0 guo1;frying pan;フライパン
+kitchenware;菜刀;cai4 dao1;厨房里用来切食材的刀。;chu2 fang2 li3 yong4 lai2 qie1 shi2 cai2 de0 dao1;kitchen knife;包丁
+kitchenware;砧板;zhen1 ban3;切食材时垫在下面的板。;qie1 shi2 cai2 shi2 dian4 zai4 xia4 mian4 de0 ban3;cutting board;まな板
+kitchenware;锅铲;guo1 chan3;炒菜时用来翻动食物的工具。;chao3 cai4 shi2 yong4 lai2 fan1 dong4 shi2 wu4 de0 gong1 ju4;cooking spatula;調理用へら
+kitchenware;漏勺;lou4 shao2;有孔，能滤去液体的勺子。;you3 kong3 neng2 lv4 qu4 ye4 ti3 de0 shao2 zi0;slotted spoon or skimmer;穴あきおたま
+kitchenware;碗;wan3;用来盛饭、汤等食物的器皿。;yong4 lai2 cheng2 fan4 tang1 deng3 shi2 wu4 de0 qi4 min3;bowl;茶碗・ボウル
+kitchenware;盘子;pan2 zi0;用来盛放菜肴等的浅底器皿。;yong4 lai2 cheng2 fang4 cai4 yao2 deng3 de0 qian3 di3 qi4 min3;plate;皿
+kitchenware;筷子;kuai4 zi0;用来夹取食物的一对细棍。;yong4 lai2 jia1 qu3 shi2 wu4 de0 yi2 dui4 xi4 gun4;chopsticks;箸
+kitchenware;勺子;shao2 zi0;用来舀取食物或液体的用具。;yong4 lai2 yao3 qu3 shi2 wu4 huo4 ye4 ti3 de0 yong4 ju4;spoon;スプーン
+kitchenware;电饭锅;dian4 fan4 guo1;用电加热，主要用来煮饭的锅。;yong4 dian4 jia1 re4 zhu3 yao4 yong4 lai2 zhu3 fan4 de0 guo1;rice cooker;炊飯器
+kitchenware;水壶;shui3 hu2;用来装水或烧水的壶。;yong4 lai2 zhuang1 shui3 huo4 shao1 shui3 de0 hu2;kettle or water flask;やかん・水筒
+household;牙刷;ya2 shua1;用来清洁牙齿的刷子。;yong4 lai2 qing1 jie2 ya2 chi3 de0 shua1 zi0;toothbrush;歯ブラシ
+household;牙膏;ya2 gao1;刷牙时用来清洁牙齿的膏状用品。;shua1 ya2 shi2 yong4 lai2 qing1 jie2 ya2 chi3 de0 gao1 zhuang4 yong4 pin3;toothpaste;歯磨き粉
+household;毛巾;mao2 jin1;用来擦脸、擦手等的织物。;yong4 lai2 ca1 lian3 ca1 shou3 deng3 de0 zhi1 wu4;towel;タオル
+household;肥皂;fei2 zao4;常用于洗手、洗衣等的清洁用品。;chang2 yong4 yu2 xi3 shou3 xi3 yi1 deng3 de0 qing1 jie2 yong4 pin3;soap;石けん
+household;洗发水;xi3 fa4 shui3;用来清洗头发的液体用品。;yong4 lai2 qing1 xi3 tou2 fa0 de0 ye4 ti3 yong4 pin3;shampoo;シャンプー
+household;沐浴露;mu4 yu4 lu4;洗澡时用来清洁身体的液体用品。;xi3 zao3 shi2 yong4 lai2 qing1 jie2 shen1 ti3 de0 ye4 ti3 yong4 pin3;body wash;ボディソープ
+household;卫生纸;wei4 sheng1 zhi3;如厕等日常卫生清洁用的纸。;ru2 ce4 deng3 ri4 chang2 wei4 sheng1 qing1 jie2 yong4 de0 zhi3;toilet paper;トイレットペーパー
+household;纸巾;zhi3 jin1;用来擦嘴、擦手等的柔软纸品。;yong4 lai2 ca1 zui3 ca1 shou3 deng3 de0 rou2 ruan3 zhi3 pin3;tissue;ティッシュ
+household;洗衣液;xi3 yi1 ye4;用来洗衣服的液体清洁用品。;yong4 lai2 xi3 yi1 fu0 de0 ye4 ti3 qing1 jie2 yong4 pin3;liquid laundry detergent;液体洗濯洗剤
+household;扫帚;sao4 zhou0;用来扫地、清理灰尘的工具。;yong4 lai2 sao3 di4 qing1 li3 hui1 chen2 de0 gong1 ju4;broom;ほうき
+household;拖把;tuo1 ba3;用来擦洗地面的清洁工具。;yong4 lai2 ca1 xi3 di4 mian4 de0 qing1 jie2 gong1 ju4;mop;モップ
+household;垃圾桶;la1 ji1 tong3;用来盛放垃圾的容器。;yong4 lai2 cheng2 fang4 la1 ji1 de0 rong2 qi4;trash can;ごみ箱

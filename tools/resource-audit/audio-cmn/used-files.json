@@ -1,0 +1,3171 @@
+{
+  "revision": "ff9ed3d0c631195bd2c06f39450f3264c7124040",
+  "files": {
+    "64k/syllabs/cmn-ba1.mp3": {
+      "path": "64k/syllabs/cmn-ba1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29db47cb53f866c7a222b2af81ec339c0040fcc7",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/29db47cb53f866c7a222b2af81ec339c0040fcc7"
+    },
+    "64k/syllabs/cmn-ba2.mp3": {
+      "path": "64k/syllabs/cmn-ba2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0a4ccb1db5805d54e9542086dd7cdf0f4836aa",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/df0a4ccb1db5805d54e9542086dd7cdf0f4836aa"
+    },
+    "64k/syllabs/cmn-ba3.mp3": {
+      "path": "64k/syllabs/cmn-ba3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed774b028778252e3ee251c904472af2a84f949e",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ed774b028778252e3ee251c904472af2a84f949e"
+    },
+    "64k/syllabs/cmn-ba4.mp3": {
+      "path": "64k/syllabs/cmn-ba4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cc599ab78f499935883ea2d89062771619de52",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f1cc599ab78f499935883ea2d89062771619de52"
+    },
+    "64k/hsk/cmn-趴.mp3": {
+      "path": "64k/hsk/cmn-趴.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23fd8fc58730a00787fe9037ba04d1252bd4143b",
+      "size": 7940,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/23fd8fc58730a00787fe9037ba04d1252bd4143b"
+    },
+    "64k/syllabs/cmn-po1.mp3": {
+      "path": "64k/syllabs/cmn-po1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe3287e0fe2ff012997e7d7c53900389949b12be",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fe3287e0fe2ff012997e7d7c53900389949b12be"
+    },
+    "64k/syllabs/cmn-pa2.mp3": {
+      "path": "64k/syllabs/cmn-pa2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f651f4a32e7d0873f5de6f596f877775ffee17",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a7f651f4a32e7d0873f5de6f596f877775ffee17"
+    },
+    "64k/syllabs/cmn-po2.mp3": {
+      "path": "64k/syllabs/cmn-po2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d47ff1d38a73a1b353c9724af5dc29e2b1aa716",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9d47ff1d38a73a1b353c9724af5dc29e2b1aa716"
+    },
+    "64k/syllabs/cmn-pao3.mp3": {
+      "path": "64k/syllabs/cmn-pao3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd3dce014af68db9144a0590d1d7c5a935b8c27a",
+      "size": 12062,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fd3dce014af68db9144a0590d1d7c5a935b8c27a"
+    },
+    "64k/hsk/cmn-怕.mp3": {
+      "path": "64k/hsk/cmn-怕.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5771f2a3fc33b08cd2945db0dc07e3c975b3d2",
+      "size": 8358,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ed5771f2a3fc33b08cd2945db0dc07e3c975b3d2"
+    },
+    "64k/syllabs/cmn-po4.mp3": {
+      "path": "64k/syllabs/cmn-po4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2409a8037ede7b769c588704839542b74a433858",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2409a8037ede7b769c588704839542b74a433858"
+    },
+    "64k/syllabs/cmn-ma1.mp3": {
+      "path": "64k/syllabs/cmn-ma1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2b070d297c3f4987cceec8c9355386cf7a6710",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7b2b070d297c3f4987cceec8c9355386cf7a6710"
+    },
+    "64k/syllabs/cmn-ma2.mp3": {
+      "path": "64k/syllabs/cmn-ma2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997053b4781a80a67e0f382e21af0342748456dd",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/997053b4781a80a67e0f382e21af0342748456dd"
+    },
+    "64k/syllabs/cmn-ma3.mp3": {
+      "path": "64k/syllabs/cmn-ma3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e20b152f47b0c1ff8b360329c4c9f9e968a03b5",
+      "size": 12060,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6e20b152f47b0c1ff8b360329c4c9f9e968a03b5"
+    },
+    "64k/syllabs/cmn-ma4.mp3": {
+      "path": "64k/syllabs/cmn-ma4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f537d357c63dd46740dbfb00afe6cf826e74afc",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7f537d357c63dd46740dbfb00afe6cf826e74afc"
+    },
+    "64k/syllabs/cmn-fa1.mp3": {
+      "path": "64k/syllabs/cmn-fa1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9ad3a4c65139075ee8692eba2d3f7263d13fa6",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ca9ad3a4c65139075ee8692eba2d3f7263d13fa6"
+    },
+    "64k/syllabs/cmn-fa2.mp3": {
+      "path": "64k/syllabs/cmn-fa2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc95f87876f2b1ba6f60b66484a25ccbfc2428a",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9cc95f87876f2b1ba6f60b66484a25ccbfc2428a"
+    },
+    "64k/syllabs/cmn-fei2.mp3": {
+      "path": "64k/syllabs/cmn-fei2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb94efed4455e6683a3867e4c1f25e51c53c64b",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/bdb94efed4455e6683a3867e4c1f25e51c53c64b"
+    },
+    "64k/syllabs/cmn-fa3.mp3": {
+      "path": "64k/syllabs/cmn-fa3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d6881422a89072bf9d0a42d406040f63987842",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a8d6881422a89072bf9d0a42d406040f63987842"
+    },
+    "64k/syllabs/cmn-fa4.mp3": {
+      "path": "64k/syllabs/cmn-fa4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3068509a31643026790c16383c38291149016b9a",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3068509a31643026790c16383c38291149016b9a"
+    },
+    "64k/syllabs/cmn-da1.mp3": {
+      "path": "64k/syllabs/cmn-da1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5999b9500b06417290b3d02770e7d6d0d64096a",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b5999b9500b06417290b3d02770e7d6d0d64096a"
+    },
+    "64k/syllabs/cmn-da2.mp3": {
+      "path": "64k/syllabs/cmn-da2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebbc57de72b669c1413fa5fce80c4cf65437f5f9",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ebbc57de72b669c1413fa5fce80c4cf65437f5f9"
+    },
+    "64k/syllabs/cmn-da3.mp3": {
+      "path": "64k/syllabs/cmn-da3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ad1954624143b386876a6a2cce5bf3ba6e9091",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/69ad1954624143b386876a6a2cce5bf3ba6e9091"
+    },
+    "64k/syllabs/cmn-da4.mp3": {
+      "path": "64k/syllabs/cmn-da4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e3ad7a122ea29a9d8abe02546563dc158db5a2b",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4e3ad7a122ea29a9d8abe02546563dc158db5a2b"
+    },
+    "64k/syllabs/cmn-ta1.mp3": {
+      "path": "64k/syllabs/cmn-ta1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d33d957c72a713dfc1b85424fe2c14fab4b50d2d",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d33d957c72a713dfc1b85424fe2c14fab4b50d2d"
+    },
+    "64k/syllabs/cmn-tun1.mp3": {
+      "path": "64k/syllabs/cmn-tun1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b396dcec7e7174c51637c22afcc361c879fe7d",
+      "size": 9950,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e5b396dcec7e7174c51637c22afcc361c879fe7d"
+    },
+    "64k/syllabs/cmn-tai2.mp3": {
+      "path": "64k/syllabs/cmn-tai2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4651849a84a7c6ced91ee8b1bed45b7322d97de6",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4651849a84a7c6ced91ee8b1bed45b7322d97de6"
+    },
+    "64k/syllabs/cmn-ta3.mp3": {
+      "path": "64k/syllabs/cmn-ta3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec737385516271e08eb1fb392f5f7c68616d6192",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ec737385516271e08eb1fb392f5f7c68616d6192"
+    },
+    "64k/syllabs/cmn-ta4.mp3": {
+      "path": "64k/syllabs/cmn-ta4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "426628b1751015eb3b71b3d098a42ce374f46fd5",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/426628b1751015eb3b71b3d098a42ce374f46fd5"
+    },
+    "64k/syllabs/cmn-nie1.mp3": {
+      "path": "64k/syllabs/cmn-nie1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217e82961b157021773d3bd4c3821911117f27b4",
+      "size": 8030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/217e82961b157021773d3bd4c3821911117f27b4"
+    },
+    "64k/syllabs/cmn-na2.mp3": {
+      "path": "64k/syllabs/cmn-na2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805c208e79432cfdee3ead1f2b3486f41cb52e70",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/805c208e79432cfdee3ead1f2b3486f41cb52e70"
+    },
+    "64k/syllabs/cmn-neng2.mp3": {
+      "path": "64k/syllabs/cmn-neng2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da11436d051cdcaeb5b5d9fbdf5e5db0c62453b",
+      "size": 8800,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5da11436d051cdcaeb5b5d9fbdf5e5db0c62453b"
+    },
+    "64k/syllabs/cmn-nan2.mp3": {
+      "path": "64k/syllabs/cmn-nan2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9707f0b1ce077234ba3aa31a68f1f9054e4f4396",
+      "size": 9950,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9707f0b1ce077234ba3aa31a68f1f9054e4f4396"
+    },
+    "64k/syllabs/cmn-na3.mp3": {
+      "path": "64k/syllabs/cmn-na3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898554e9b6ed73ca162a639adb6335713b1ed51d",
+      "size": 10716,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/898554e9b6ed73ca162a639adb6335713b1ed51d"
+    },
+    "64k/syllabs/cmn-na4.mp3": {
+      "path": "64k/syllabs/cmn-na4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac4f14ea03f712539b05cb9ea8c9d3e42bd069ca",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ac4f14ea03f712539b05cb9ea8c9d3e42bd069ca"
+    },
+    "64k/syllabs/cmn-la1.mp3": {
+      "path": "64k/syllabs/cmn-la1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d3d6f6931d881b38931c4ff6351b068c9c13736",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0d3d6f6931d881b38931c4ff6351b068c9c13736"
+    },
+    "64k/syllabs/cmn-lou2.mp3": {
+      "path": "64k/syllabs/cmn-lou2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0a77c9df608cb413365b09245c433c1305c7e4",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4e0a77c9df608cb413365b09245c433c1305c7e4"
+    },
+    "64k/syllabs/cmn-la3.mp3": {
+      "path": "64k/syllabs/cmn-la3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75103b97592d84bcf68696b6d93970c5e321795d",
+      "size": 11676,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/75103b97592d84bcf68696b6d93970c5e321795d"
+    },
+    "64k/syllabs/cmn-la4.mp3": {
+      "path": "64k/syllabs/cmn-la4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "669af7b8945167fe3f20358e5c2dc3dfe3cb5346",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/669af7b8945167fe3f20358e5c2dc3dfe3cb5346"
+    },
+    "64k/syllabs/cmn-ge1.mp3": {
+      "path": "64k/syllabs/cmn-ge1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b294906fa335ea5f3dea846c9e268cfae4ee0f81",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b294906fa335ea5f3dea846c9e268cfae4ee0f81"
+    },
+    "64k/syllabs/cmn-ge2.mp3": {
+      "path": "64k/syllabs/cmn-ge2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9d8248ca1b6979296bbd9bb1389786624c1d07",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8d9d8248ca1b6979296bbd9bb1389786624c1d07"
+    },
+    "64k/syllabs/cmn-ge3.mp3": {
+      "path": "64k/syllabs/cmn-ge3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af6e4ef319861a2841844a32f13cbe88059c93ab",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/af6e4ef319861a2841844a32f13cbe88059c93ab"
+    },
+    "64k/syllabs/cmn-ge4.mp3": {
+      "path": "64k/syllabs/cmn-ge4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a77c67115089755c7209a00bcea3b443c3b5fd6",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9a77c67115089755c7209a00bcea3b443c3b5fd6"
+    },
+    "64k/syllabs/cmn-ke1.mp3": {
+      "path": "64k/syllabs/cmn-ke1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e399a673b69851e5246cc2c4ccbf5d3e81a79e",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/05e399a673b69851e5246cc2c4ccbf5d3e81a79e"
+    },
+    "64k/syllabs/cmn-ke2.mp3": {
+      "path": "64k/syllabs/cmn-ke2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa446f2b46b90ff7955a3e902ff94d4a94e0598c",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/aa446f2b46b90ff7955a3e902ff94d4a94e0598c"
+    },
+    "64k/syllabs/cmn-ke3.mp3": {
+      "path": "64k/syllabs/cmn-ke3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e182c2b18020119b5035e35f705da543b22a5aa9",
+      "size": 11676,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e182c2b18020119b5035e35f705da543b22a5aa9"
+    },
+    "64k/syllabs/cmn-ke4.mp3": {
+      "path": "64k/syllabs/cmn-ke4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e5faef0b38d30d70636fa4bfdd064b7fda50d7",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/99e5faef0b38d30d70636fa4bfdd064b7fda50d7"
+    },
+    "64k/syllabs/cmn-he1.mp3": {
+      "path": "64k/syllabs/cmn-he1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd58019cef3eb21fe51da1d5290bebf4854d1b4d",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dd58019cef3eb21fe51da1d5290bebf4854d1b4d"
+    },
+    "64k/syllabs/cmn-he2.mp3": {
+      "path": "64k/syllabs/cmn-he2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83becd3831fab396edc9860902426564be6a0e3f",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/83becd3831fab396edc9860902426564be6a0e3f"
+    },
+    "64k/syllabs/cmn-hong2.mp3": {
+      "path": "64k/syllabs/cmn-hong2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caeec49f1f5fe46cdf7cf0c3c18795d180f71ae2",
+      "size": 9568,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/caeec49f1f5fe46cdf7cf0c3c18795d180f71ae2"
+    },
+    "64k/syllabs/cmn-hui2.mp3": {
+      "path": "64k/syllabs/cmn-hui2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34299b3bb250341524728ac20d2644d6f2dfd3f",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e34299b3bb250341524728ac20d2644d6f2dfd3f"
+    },
+    "64k/syllabs/cmn-huo3.mp3": {
+      "path": "64k/syllabs/cmn-huo3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a35e34457e53c2726b597f874c201efea60014",
+      "size": 12062,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/55a35e34457e53c2726b597f874c201efea60014"
+    },
+    "64k/syllabs/cmn-he4.mp3": {
+      "path": "64k/syllabs/cmn-he4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b671b17a8d625e3dd8fad24f459f7e2cfab5648d",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b671b17a8d625e3dd8fad24f459f7e2cfab5648d"
+    },
+    "64k/syllabs/cmn-ji1.mp3": {
+      "path": "64k/syllabs/cmn-ji1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6729106ffd84f8f67d1a28b9d4c8d8434ee5f58",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c6729106ffd84f8f67d1a28b9d4c8d8434ee5f58"
+    },
+    "64k/syllabs/cmn-ji2.mp3": {
+      "path": "64k/syllabs/cmn-ji2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db6f472179ed99b37943bbf6967f667dfa97443",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8db6f472179ed99b37943bbf6967f667dfa97443"
+    },
+    "64k/syllabs/cmn-ji3.mp3": {
+      "path": "64k/syllabs/cmn-ji3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0fb95417c64e8fff8440de76f55ff01d505bae5",
+      "size": 12444,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f0fb95417c64e8fff8440de76f55ff01d505bae5"
+    },
+    "64k/syllabs/cmn-ji4.mp3": {
+      "path": "64k/syllabs/cmn-ji4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29d3437955a953d316892af9057c2ede9ff6252",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f29d3437955a953d316892af9057c2ede9ff6252"
+    },
+    "64k/syllabs/cmn-qi1.mp3": {
+      "path": "64k/syllabs/cmn-qi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1f8f932a9f4ffc69111bb74942511a04d92748",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9e1f8f932a9f4ffc69111bb74942511a04d92748"
+    },
+    "64k/syllabs/cmn-qi2.mp3": {
+      "path": "64k/syllabs/cmn-qi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96072d183de15a5b3abbff5994e27f343a09fbae",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/96072d183de15a5b3abbff5994e27f343a09fbae"
+    },
+    "64k/syllabs/cmn-qi3.mp3": {
+      "path": "64k/syllabs/cmn-qi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d53ca04e2bccc7657d050bf993ce48d5267d491",
+      "size": 12828,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0d53ca04e2bccc7657d050bf993ce48d5267d491"
+    },
+    "64k/syllabs/cmn-qi4.mp3": {
+      "path": "64k/syllabs/cmn-qi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07b6434bf7b2bd524538986c5059c88e1069fab4",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/07b6434bf7b2bd524538986c5059c88e1069fab4"
+    },
+    "64k/syllabs/cmn-xi1.mp3": {
+      "path": "64k/syllabs/cmn-xi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dd43714a9247f8612e7e8d80a9107592f50dcaf",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2dd43714a9247f8612e7e8d80a9107592f50dcaf"
+    },
+    "64k/syllabs/cmn-xue1.mp3": {
+      "path": "64k/syllabs/cmn-xue1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a5bc16a5a0583f0adca916e2cc5d7baf1567f40",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1a5bc16a5a0583f0adca916e2cc5d7baf1567f40"
+    },
+    "64k/syllabs/cmn-xi2.mp3": {
+      "path": "64k/syllabs/cmn-xi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c82ef59b7a63165b1fbf0e39fbf71bda8aad9bb",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1c82ef59b7a63165b1fbf0e39fbf71bda8aad9bb"
+    },
+    "64k/syllabs/cmn-xue2.mp3": {
+      "path": "64k/syllabs/cmn-xue2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea267a5c502518ce9d6b6c6f908a4f2cbdb90ee5",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ea267a5c502518ce9d6b6c6f908a4f2cbdb90ee5"
+    },
+    "64k/syllabs/cmn-xi3.mp3": {
+      "path": "64k/syllabs/cmn-xi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6f3a5c222b761b2ad8aa9c3efe63098e8fe6db",
+      "size": 13980,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0d6f3a5c222b761b2ad8aa9c3efe63098e8fe6db"
+    },
+    "64k/syllabs/cmn-xue3.mp3": {
+      "path": "64k/syllabs/cmn-xue3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a63ed2127d35686c40a33ef06b749b5367179ef",
+      "size": 12830,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3a63ed2127d35686c40a33ef06b749b5367179ef"
+    },
+    "64k/syllabs/cmn-xi4.mp3": {
+      "path": "64k/syllabs/cmn-xi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e29680924eab5edd578b561b89c846d5143e043",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6e29680924eab5edd578b561b89c846d5143e043"
+    },
+    "64k/syllabs/cmn-zhi1.mp3": {
+      "path": "64k/syllabs/cmn-zhi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866c029299c03c230454f6a88a7be043afc93c0f",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/866c029299c03c230454f6a88a7be043afc93c0f"
+    },
+    "64k/syllabs/cmn-zhi2.mp3": {
+      "path": "64k/syllabs/cmn-zhi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf9071c7f89c5f08390e394566e77e4d958b302d",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/bf9071c7f89c5f08390e394566e77e4d958b302d"
+    },
+    "64k/syllabs/cmn-zhi3.mp3": {
+      "path": "64k/syllabs/cmn-zhi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ba775f1d26b8de1a7969ec30f50b6f5c810af1",
+      "size": 11294,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b8ba775f1d26b8de1a7969ec30f50b6f5c810af1"
+    },
+    "64k/syllabs/cmn-zhun3.mp3": {
+      "path": "64k/syllabs/cmn-zhun3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085d96d3d9d94dff760673c3672658b30aa06ea7",
+      "size": 12448,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/085d96d3d9d94dff760673c3672658b30aa06ea7"
+    },
+    "64k/syllabs/cmn-zhi4.mp3": {
+      "path": "64k/syllabs/cmn-zhi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb5e8a63e71808f6e2c240d9e87f5dceeaa6d74",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/eeb5e8a63e71808f6e2c240d9e87f5dceeaa6d74"
+    },
+    "64k/hsk/cmn-吃.mp3": {
+      "path": "64k/hsk/cmn-吃.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e4f5fa7d5d07211272dcf69ce09ee9e2f7ad18",
+      "size": 8776,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/31e4f5fa7d5d07211272dcf69ce09ee9e2f7ad18"
+    },
+    "64k/syllabs/cmn-chi2.mp3": {
+      "path": "64k/syllabs/cmn-chi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c800d27511ef815faa586b30568c8a7888129785",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c800d27511ef815faa586b30568c8a7888129785"
+    },
+    "64k/syllabs/cmn-chang2.mp3": {
+      "path": "64k/syllabs/cmn-chang2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c7d2f74d7c123f9666dea81d390a0ab92df740",
+      "size": 9186,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b1c7d2f74d7c123f9666dea81d390a0ab92df740"
+    },
+    "64k/syllabs/cmn-chi3.mp3": {
+      "path": "64k/syllabs/cmn-chi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a23a667800812847ff5269443852585067e1159d",
+      "size": 11294,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a23a667800812847ff5269443852585067e1159d"
+    },
+    "64k/syllabs/cmn-chi4.mp3": {
+      "path": "64k/syllabs/cmn-chi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6018a34d176861ecbc9139912c3252cbe71b3ac",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c6018a34d176861ecbc9139912c3252cbe71b3ac"
+    },
+    "64k/syllabs/cmn-shi1.mp3": {
+      "path": "64k/syllabs/cmn-shi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55463e55f45913237bbf45a942e435754fd3eb01",
+      "size": 9950,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/55463e55f45913237bbf45a942e435754fd3eb01"
+    },
+    "64k/syllabs/cmn-shi2.mp3": {
+      "path": "64k/syllabs/cmn-shi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1031cd3d1fe2bc9702eb56174f948f49d73b21f6",
+      "size": 10718,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1031cd3d1fe2bc9702eb56174f948f49d73b21f6"
+    },
+    "64k/syllabs/cmn-shi3.mp3": {
+      "path": "64k/syllabs/cmn-shi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3acd3265c39e51cf421f9791319b9333b3eed8",
+      "size": 12062,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7d3acd3265c39e51cf421f9791319b9333b3eed8"
+    },
+    "64k/syllabs/cmn-shi4.mp3": {
+      "path": "64k/syllabs/cmn-shi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0844509f9c08a9cc638a5c8229e7b053ef62a4ab",
+      "size": 9950,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0844509f9c08a9cc638a5c8229e7b053ef62a4ab"
+    },
+    "64k/syllabs/cmn-ren2.mp3": {
+      "path": "64k/syllabs/cmn-ren2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25427527b8864929e6e908e02372cdc4a3dba64f",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/25427527b8864929e6e908e02372cdc4a3dba64f"
+    },
+    "64k/syllabs/cmn-ren3.mp3": {
+      "path": "64k/syllabs/cmn-ren3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffbdab21f3e08841cc39c378d7257ff5b52a7ed0",
+      "size": 13598,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ffbdab21f3e08841cc39c378d7257ff5b52a7ed0"
+    },
+    "64k/syllabs/cmn-ri4.mp3": {
+      "path": "64k/syllabs/cmn-ri4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f4d7a3346361b8121a905699f300373dda2aaa",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/65f4d7a3346361b8121a905699f300373dda2aaa"
+    },
+    "64k/syllabs/cmn-ren4.mp3": {
+      "path": "64k/syllabs/cmn-ren4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96380e89eaf2b2520ce075e6a1884a94584e0e2",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d96380e89eaf2b2520ce075e6a1884a94584e0e2"
+    },
+    "64k/syllabs/cmn-zi1.mp3": {
+      "path": "64k/syllabs/cmn-zi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6234f95e0eb08c8d87fcc6c6c9a86b6c477d9dc9",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6234f95e0eb08c8d87fcc6c6c9a86b6c477d9dc9"
+    },
+    "64k/syllabs/cmn-zi3.mp3": {
+      "path": "64k/syllabs/cmn-zi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de5fe0f9c0084f767a5c80445699efd37b8d1b8",
+      "size": 12444,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4de5fe0f9c0084f767a5c80445699efd37b8d1b8"
+    },
+    "64k/syllabs/cmn-zi4.mp3": {
+      "path": "64k/syllabs/cmn-zi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4525372e7f3c03b0414ac9bf2b04011ef67c403e",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4525372e7f3c03b0414ac9bf2b04011ef67c403e"
+    },
+    "64k/syllabs/cmn-cong1.mp3": {
+      "path": "64k/syllabs/cmn-cong1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aba8ce38aabb59041e54febaeae786e689698fa",
+      "size": 10336,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5aba8ce38aabb59041e54febaeae786e689698fa"
+    },
+    "64k/syllabs/cmn-ci2.mp3": {
+      "path": "64k/syllabs/cmn-ci2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50074a14fb2157a0a980ccd12f8a1dbfd70478ad",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/50074a14fb2157a0a980ccd12f8a1dbfd70478ad"
+    },
+    "64k/syllabs/cmn-ci3.mp3": {
+      "path": "64k/syllabs/cmn-ci3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fc2f70e6e37498d72485b06b9022d2c68fa51c",
+      "size": 12060,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a4fc2f70e6e37498d72485b06b9022d2c68fa51c"
+    },
+    "64k/syllabs/cmn-ci4.mp3": {
+      "path": "64k/syllabs/cmn-ci4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd0505e2b8758fd5abf4cea57990b2fe637d755",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/bfd0505e2b8758fd5abf4cea57990b2fe637d755"
+    },
+    "64k/syllabs/cmn-si1.mp3": {
+      "path": "64k/syllabs/cmn-si1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a757816df67303afce6ec50ef9b23838f9ca4d24",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a757816df67303afce6ec50ef9b23838f9ca4d24"
+    },
+    "64k/syllabs/cmn-si3.mp3": {
+      "path": "64k/syllabs/cmn-si3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4619c62bec5121d686b613bffec04e11325726a",
+      "size": 12444,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a4619c62bec5121d686b613bffec04e11325726a"
+    },
+    "64k/syllabs/cmn-san3.mp3": {
+      "path": "64k/syllabs/cmn-san3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d6840246a02e57979a3ac0a7f72132e0b78e7b",
+      "size": 12830,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/42d6840246a02e57979a3ac0a7f72132e0b78e7b"
+    },
+    "64k/syllabs/cmn-si4.mp3": {
+      "path": "64k/syllabs/cmn-si4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c65301742a35462e02f8f2977b2abff3062843a",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5c65301742a35462e02f8f2977b2abff3062843a"
+    },
+    "64k/syllabs/cmn-yi1.mp3": {
+      "path": "64k/syllabs/cmn-yi1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27abd2fa158a8fe30b55583d8b8d9408bfbe6eb0",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/27abd2fa158a8fe30b55583d8b8d9408bfbe6eb0"
+    },
+    "64k/syllabs/cmn-yi2.mp3": {
+      "path": "64k/syllabs/cmn-yi2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28cc6e0f1794d9eccc117b0bd51218a651d14155",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/28cc6e0f1794d9eccc117b0bd51218a651d14155"
+    },
+    "64k/syllabs/cmn-yi3.mp3": {
+      "path": "64k/syllabs/cmn-yi3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc450f078e56e93492ed7384ce176623939b7d4",
+      "size": 11292,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fdc450f078e56e93492ed7384ce176623939b7d4"
+    },
+    "64k/syllabs/cmn-yi4.mp3": {
+      "path": "64k/syllabs/cmn-yi4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c1ba1cf7e8c355a9c36787016e3733d3e824ba",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/81c1ba1cf7e8c355a9c36787016e3733d3e824ba"
+    },
+    "64k/syllabs/cmn-wu1.mp3": {
+      "path": "64k/syllabs/cmn-wu1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb470b9ab13bb45970ea4a36feff79926b64a4c",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cdb470b9ab13bb45970ea4a36feff79926b64a4c"
+    },
+    "64k/syllabs/cmn-wu2.mp3": {
+      "path": "64k/syllabs/cmn-wu2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d95962c04cf8f9b455889c1455c32c7ca6335de",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4d95962c04cf8f9b455889c1455c32c7ca6335de"
+    },
+    "64k/syllabs/cmn-wu3.mp3": {
+      "path": "64k/syllabs/cmn-wu3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb167fea95877c88c119f05a82f5aa3f004bf92",
+      "size": 12444,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cdb167fea95877c88c119f05a82f5aa3f004bf92"
+    },
+    "64k/syllabs/cmn-wu4.mp3": {
+      "path": "64k/syllabs/cmn-wu4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d46097eb989d240cd5a43e7984a7a5b121715bf",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1d46097eb989d240cd5a43e7984a7a5b121715bf"
+    },
+    "64k/syllabs/cmn-a1.mp3": {
+      "path": "64k/syllabs/cmn-a1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "825b6c2c4cb99d021a92074933d07bf620d3dd36",
+      "size": 8794,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/825b6c2c4cb99d021a92074933d07bf620d3dd36"
+    },
+    "64k/syllabs/cmn-o1.mp3": {
+      "path": "64k/syllabs/cmn-o1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "066ab71b95e03ef55ca6c50c36785a8535c01913",
+      "size": 8026,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/066ab71b95e03ef55ca6c50c36785a8535c01913"
+    },
+    "64k/syllabs/cmn-o2.mp3": {
+      "path": "64k/syllabs/cmn-o2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86796acc83475b9f8c840137e095887ccc69b5d1",
+      "size": 8410,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/86796acc83475b9f8c840137e095887ccc69b5d1"
+    },
+    "64k/syllabs/cmn-o4.mp3": {
+      "path": "64k/syllabs/cmn-o4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05396837f81cbc3562a37f10f96b4b4bbfa7acaf",
+      "size": 8026,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/05396837f81cbc3562a37f10f96b4b4bbfa7acaf"
+    },
+    "64k/syllabs/cmn-e2.mp3": {
+      "path": "64k/syllabs/cmn-e2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4df940b23ab1a2d581389e1cb16a3b126d56039",
+      "size": 8794,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e4df940b23ab1a2d581389e1cb16a3b126d56039"
+    },
+    "64k/syllabs/cmn-e3.mp3": {
+      "path": "64k/syllabs/cmn-e3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65ac53d1e3a89b96adad381c889e8e43ba923ef7",
+      "size": 10330,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/65ac53d1e3a89b96adad381c889e8e43ba923ef7"
+    },
+    "64k/syllabs/cmn-e4.mp3": {
+      "path": "64k/syllabs/cmn-e4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97131fbdefda906cac6f3de2c6597684583a9701",
+      "size": 8410,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/97131fbdefda906cac6f3de2c6597684583a9701"
+    },
+    "64k/syllabs/cmn-yu1.mp3": {
+      "path": "64k/syllabs/cmn-yu1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8742ed5400e81493c4a743a3e2570b881a4f104a",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8742ed5400e81493c4a743a3e2570b881a4f104a"
+    },
+    "64k/syllabs/cmn-yu2.mp3": {
+      "path": "64k/syllabs/cmn-yu2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7431814b3b101dd2f53d209a06e8bcdf8acfc86",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b7431814b3b101dd2f53d209a06e8bcdf8acfc86"
+    },
+    "64k/syllabs/cmn-yu3.mp3": {
+      "path": "64k/syllabs/cmn-yu3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80e2c4aa20579428105f14f2778386b72fb08035",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/80e2c4aa20579428105f14f2778386b72fb08035"
+    },
+    "64k/syllabs/cmn-yu4.mp3": {
+      "path": "64k/syllabs/cmn-yu4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dc564a9c430cde9abda0644d3ddb940444490a8",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6dc564a9c430cde9abda0644d3ddb940444490a8"
+    },
+    "64k/syllabs/cmn-ai1.mp3": {
+      "path": "64k/syllabs/cmn-ai1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df2643a0d654b20286712298ef60db48656ce24",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0df2643a0d654b20286712298ef60db48656ce24"
+    },
+    "64k/syllabs/cmn-ai2.mp3": {
+      "path": "64k/syllabs/cmn-ai2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2c55cd302456cdf594381361f821c5b1fc7cbd",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6c2c55cd302456cdf594381361f821c5b1fc7cbd"
+    },
+    "64k/syllabs/cmn-ai3.mp3": {
+      "path": "64k/syllabs/cmn-ai3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "409a42ba555a4d6ee93e1703c49dd4368a16bf36",
+      "size": 9948,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/409a42ba555a4d6ee93e1703c49dd4368a16bf36"
+    },
+    "64k/syllabs/cmn-ai4.mp3": {
+      "path": "64k/syllabs/cmn-ai4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0fcf5c5422d6d5861ee1247224642f34e69fc1",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4b0fcf5c5422d6d5861ee1247224642f34e69fc1"
+    },
+    "64k/syllabs/cmn-bei1.mp3": {
+      "path": "64k/syllabs/cmn-bei1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f2e499b234ca7cc4ce5340a8cd7bcc480e2d1c",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/17f2e499b234ca7cc4ce5340a8cd7bcc480e2d1c"
+    },
+    "64k/syllabs/cmn-bei3.mp3": {
+      "path": "64k/syllabs/cmn-bei3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fcdc4390b1d73c96b8988f7d877904bbd616109",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3fcdc4390b1d73c96b8988f7d877904bbd616109"
+    },
+    "64k/syllabs/cmn-bei4.mp3": {
+      "path": "64k/syllabs/cmn-bei4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab8a1028d043e5f48c108fc24937add849694b5",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5ab8a1028d043e5f48c108fc24937add849694b5"
+    },
+    "64k/syllabs/cmn-gui1.mp3": {
+      "path": "64k/syllabs/cmn-gui1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c6d72c60971481d4d80b16c09d85e66a07cef7",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c4c6d72c60971481d4d80b16c09d85e66a07cef7"
+    },
+    "64k/syllabs/cmn-gui3.mp3": {
+      "path": "64k/syllabs/cmn-gui3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bf6856cf9423b000c12d8fb72feddec8f5c3cba",
+      "size": 11294,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0bf6856cf9423b000c12d8fb72feddec8f5c3cba"
+    },
+    "64k/syllabs/cmn-gui4.mp3": {
+      "path": "64k/syllabs/cmn-gui4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d89ad6827fb12d12d5dfad94672abbef692b3c",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c5d89ad6827fb12d12d5dfad94672abbef692b3c"
+    },
+    "64k/syllabs/cmn-bao1.mp3": {
+      "path": "64k/syllabs/cmn-bao1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5cf46156b1bae1639080ccf70446be29ea524ff",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b5cf46156b1bae1639080ccf70446be29ea524ff"
+    },
+    "64k/syllabs/cmn-bao2.mp3": {
+      "path": "64k/syllabs/cmn-bao2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671a81491c7565b38632347a9ba56339a9d412af",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/671a81491c7565b38632347a9ba56339a9d412af"
+    },
+    "64k/syllabs/cmn-bao3.mp3": {
+      "path": "64k/syllabs/cmn-bao3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b618860d181165a2e9655923d3a6732050de3e0a",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b618860d181165a2e9655923d3a6732050de3e0a"
+    },
+    "64k/syllabs/cmn-bao4.mp3": {
+      "path": "64k/syllabs/cmn-bao4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515fe79b6b6a4be9d6f746672ed208273ee0311a",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/515fe79b6b6a4be9d6f746672ed208273ee0311a"
+    },
+    "64k/syllabs/cmn-gou1.mp3": {
+      "path": "64k/syllabs/cmn-gou1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "995f253d6785e28426e8af62bab9db157cabcb61",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/995f253d6785e28426e8af62bab9db157cabcb61"
+    },
+    "64k/syllabs/cmn-gou3.mp3": {
+      "path": "64k/syllabs/cmn-gou3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8a7a1a00d63400c6944d2bc18820aa9f8283fb",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1f8a7a1a00d63400c6944d2bc18820aa9f8283fb"
+    },
+    "64k/syllabs/cmn-gou4.mp3": {
+      "path": "64k/syllabs/cmn-gou4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a8391ba62a494f3ec0e4288fa5ffe8e6d505418",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7a8391ba62a494f3ec0e4288fa5ffe8e6d505418"
+    },
+    "64k/syllabs/cmn-liu1.mp3": {
+      "path": "64k/syllabs/cmn-liu1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270d8d92331a7992a2157d300443f57a4b630d6c",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/270d8d92331a7992a2157d300443f57a4b630d6c"
+    },
+    "64k/syllabs/cmn-liu2.mp3": {
+      "path": "64k/syllabs/cmn-liu2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdf6ce519c33281e5e1ab45e1f13cabb9bc77e3",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3fdf6ce519c33281e5e1ab45e1f13cabb9bc77e3"
+    },
+    "64k/syllabs/cmn-liu3.mp3": {
+      "path": "64k/syllabs/cmn-liu3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "924e0f0a8ff847f8b383b3b00422d40b126c0cd0",
+      "size": 12446,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/924e0f0a8ff847f8b383b3b00422d40b126c0cd0"
+    },
+    "64k/syllabs/cmn-liu4.mp3": {
+      "path": "64k/syllabs/cmn-liu4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88148e73e9e08d9c42c72042e639ea9ff942dcef",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/88148e73e9e08d9c42c72042e639ea9ff942dcef"
+    },
+    "64k/syllabs/cmn-jie1.mp3": {
+      "path": "64k/syllabs/cmn-jie1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813b33ea59f873e1b2ade6e45593379652eb24a3",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/813b33ea59f873e1b2ade6e45593379652eb24a3"
+    },
+    "64k/syllabs/cmn-jie2.mp3": {
+      "path": "64k/syllabs/cmn-jie2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718f5e96966b7743d8d37109dd79ddf7029b1f53",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/718f5e96966b7743d8d37109dd79ddf7029b1f53"
+    },
+    "64k/syllabs/cmn-jie3.mp3": {
+      "path": "64k/syllabs/cmn-jie3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72aa46471e8e9ba5c75324906fa5a4d7fd0e07a8",
+      "size": 11678,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/72aa46471e8e9ba5c75324906fa5a4d7fd0e07a8"
+    },
+    "64k/syllabs/cmn-jie4.mp3": {
+      "path": "64k/syllabs/cmn-jie4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c20e32f302b8adb6cc39dcb47c4946cd0de",
+      "size": 8030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/deab3c20e32f302b8adb6cc39dcb47c4946cd0de"
+    },
+    "64k/syllabs/cmn-yue1.mp3": {
+      "path": "64k/syllabs/cmn-yue1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e27e3d010228c09988dccfa275fae97256f666",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/05e27e3d010228c09988dccfa275fae97256f666"
+    },
+    "64k/syllabs/cmn-yue4.mp3": {
+      "path": "64k/syllabs/cmn-yue4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e916078f7b27836f81b350beb5b992485acc1aa3",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e916078f7b27836f81b350beb5b992485acc1aa3"
+    },
+    "64k/syllabs/cmn-er2.mp3": {
+      "path": "64k/syllabs/cmn-er2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ca5b6895f0eb1c9b87c9cf133e86ab36c32df9",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a4ca5b6895f0eb1c9b87c9cf133e86ab36c32df9"
+    },
+    "64k/syllabs/cmn-er3.mp3": {
+      "path": "64k/syllabs/cmn-er3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09f7dbcc2388b87ac4107aca54fc18554eabc75c",
+      "size": 10332,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/09f7dbcc2388b87ac4107aca54fc18554eabc75c"
+    },
+    "64k/syllabs/cmn-er4.mp3": {
+      "path": "64k/syllabs/cmn-er4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d8571876d49bcb2ccdf0828d0dc0944d4dbb76",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f7d8571876d49bcb2ccdf0828d0dc0944d4dbb76"
+    },
+    "64k/syllabs/cmn-an1.mp3": {
+      "path": "64k/syllabs/cmn-an1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5dd73d1ad8994129325bda20b0f02e00641722",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4e5dd73d1ad8994129325bda20b0f02e00641722"
+    },
+    "64k/syllabs/cmn-an4.mp3": {
+      "path": "64k/syllabs/cmn-an4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb63765a3ecd08f9f25840297a50066131ec4bc",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ecb63765a3ecd08f9f25840297a50066131ec4bc"
+    },
+    "64k/syllabs/cmn-ben1.mp3": {
+      "path": "64k/syllabs/cmn-ben1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be53747b55ffee4d7d9e591274296b513635ba7",
+      "size": 8030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0be53747b55ffee4d7d9e591274296b513635ba7"
+    },
+    "64k/syllabs/cmn-ben3.mp3": {
+      "path": "64k/syllabs/cmn-ben3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b5e94eaff20202462c0b10591bb2a352c9e98f5",
+      "size": 11294,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6b5e94eaff20202462c0b10591bb2a352c9e98f5"
+    },
+    "64k/syllabs/cmn-ben4.mp3": {
+      "path": "64k/syllabs/cmn-ben4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c2cdfa6d76cbf92fcb53abb16daa1dca3c4c09",
+      "size": 8414,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/87c2cdfa6d76cbf92fcb53abb16daa1dca3c4c09"
+    },
+    "64k/syllabs/cmn-yin1.mp3": {
+      "path": "64k/syllabs/cmn-yin1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c94b682edec3cb63f3a5543aab731843651b64",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d6c94b682edec3cb63f3a5543aab731843651b64"
+    },
+    "64k/syllabs/cmn-yin2.mp3": {
+      "path": "64k/syllabs/cmn-yin2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f79af2c79decb004f0be438f59fcd094aaf2f54",
+      "size": 9950,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5f79af2c79decb004f0be438f59fcd094aaf2f54"
+    },
+    "64k/syllabs/cmn-yin3.mp3": {
+      "path": "64k/syllabs/cmn-yin3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9ea39e316dd84dec6f8e86b245c4cc62e636d0",
+      "size": 11678,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7f9ea39e316dd84dec6f8e86b245c4cc62e636d0"
+    },
+    "64k/syllabs/cmn-yin4.mp3": {
+      "path": "64k/syllabs/cmn-yin4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae6e51c7cf2223cae57d02c6b58b3a2d5bd3ea8a",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ae6e51c7cf2223cae57d02c6b58b3a2d5bd3ea8a"
+    },
+    "64k/syllabs/cmn-lun2.mp3": {
+      "path": "64k/syllabs/cmn-lun2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75be5a5da0f463251241e025f3dca53f1e081e28",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/75be5a5da0f463251241e025f3dca53f1e081e28"
+    },
+    "64k/syllabs/cmn-lun4.mp3": {
+      "path": "64k/syllabs/cmn-lun4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4085eda0a0d3eb99c2a0fe0687fec3653609fc5f",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4085eda0a0d3eb99c2a0fe0687fec3653609fc5f"
+    },
+    "64k/syllabs/cmn-yun1.mp3": {
+      "path": "64k/syllabs/cmn-yun1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4486f09f302b3cd6b9ccaf8be344231efd1d46a",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a4486f09f302b3cd6b9ccaf8be344231efd1d46a"
+    },
+    "64k/syllabs/cmn-yun2.mp3": {
+      "path": "64k/syllabs/cmn-yun2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb38c76598d33fc94b1f67c673b86ab5f1223da",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2bb38c76598d33fc94b1f67c673b86ab5f1223da"
+    },
+    "64k/syllabs/cmn-yun3.mp3": {
+      "path": "64k/syllabs/cmn-yun3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b227f97fec44cc8a6c6e519395da4187e8129d",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/24b227f97fec44cc8a6c6e519395da4187e8129d"
+    },
+    "64k/syllabs/cmn-yun4.mp3": {
+      "path": "64k/syllabs/cmn-yun4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e21e40047568785b0ab51a521952dcc18dcc94",
+      "size": 9182,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/67e21e40047568785b0ab51a521952dcc18dcc94"
+    },
+    "64k/syllabs/cmn-bang1.mp3": {
+      "path": "64k/syllabs/cmn-bang1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e494c24daff8531777b2fa962ddba9ae52c96e1a",
+      "size": 8800,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e494c24daff8531777b2fa962ddba9ae52c96e1a"
+    },
+    "64k/syllabs/cmn-bang3.mp3": {
+      "path": "64k/syllabs/cmn-bang3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a2eec1df764b159d989c81eb771f193e22916a6",
+      "size": 10720,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8a2eec1df764b159d989c81eb771f193e22916a6"
+    },
+    "64k/syllabs/cmn-bang4.mp3": {
+      "path": "64k/syllabs/cmn-bang4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94eeb821a7a08cf7c3f7ba576e81789037407db",
+      "size": 8032,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a94eeb821a7a08cf7c3f7ba576e81789037407db"
+    },
+    "64k/syllabs/cmn-deng1.mp3": {
+      "path": "64k/syllabs/cmn-deng1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6316991c439f522b41f118df85eb84a82bdc86b8",
+      "size": 8416,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6316991c439f522b41f118df85eb84a82bdc86b8"
+    },
+    "64k/syllabs/cmn-deng3.mp3": {
+      "path": "64k/syllabs/cmn-deng3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be3dec3cdcffb48f545ce85fdec053eb38281be",
+      "size": 10720,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5be3dec3cdcffb48f545ce85fdec053eb38281be"
+    },
+    "64k/syllabs/cmn-deng4.mp3": {
+      "path": "64k/syllabs/cmn-deng4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7794591d83e66960ec55911bdf984487e9e13d47",
+      "size": 8416,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7794591d83e66960ec55911bdf984487e9e13d47"
+    },
+    "64k/syllabs/cmn-ding1.mp3": {
+      "path": "64k/syllabs/cmn-ding1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97346b9c2dae620a54eb3dadc3ac625dbaa275b3",
+      "size": 8032,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/97346b9c2dae620a54eb3dadc3ac625dbaa275b3"
+    },
+    "64k/syllabs/cmn-ying2.mp3": {
+      "path": "64k/syllabs/cmn-ying2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36d8abc9927ae1f2b9eccc9349ae7fc79835a991",
+      "size": 10336,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/36d8abc9927ae1f2b9eccc9349ae7fc79835a991"
+    },
+    "64k/syllabs/cmn-ding3.mp3": {
+      "path": "64k/syllabs/cmn-ding3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a26c7e5711b3dd7bd61633564d42e4986563ce",
+      "size": 10336,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/26a26c7e5711b3dd7bd61633564d42e4986563ce"
+    },
+    "64k/syllabs/cmn-ding4.mp3": {
+      "path": "64k/syllabs/cmn-ding4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8b56611109d3e3b37eac192bc60e5c5dfaac64",
+      "size": 8800,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2a8b56611109d3e3b37eac192bc60e5c5dfaac64"
+    },
+    "64k/syllabs/cmn-dong1.mp3": {
+      "path": "64k/syllabs/cmn-dong1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbdec5c4c8f2d22c50446e7afbbbd6b142b66ad",
+      "size": 8800,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1dbdec5c4c8f2d22c50446e7afbbbd6b142b66ad"
+    },
+    "64k/syllabs/cmn-dong3.mp3": {
+      "path": "64k/syllabs/cmn-dong3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ded2012c4083a31f7ccb5a2c930fdb7bcedc9887",
+      "size": 10720,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ded2012c4083a31f7ccb5a2c930fdb7bcedc9887"
+    },
+    "64k/syllabs/cmn-dong4.mp3": {
+      "path": "64k/syllabs/cmn-dong4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f455aada42dc1a70d187de40063fd6135f94ef0f",
+      "size": 8416,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f455aada42dc1a70d187de40063fd6135f94ef0f"
+    },
+    "64k/syllabs/cmn-ci1.mp3": {
+      "path": "64k/syllabs/cmn-ci1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb79bbc3c689526d1b2cb5260add71d71a212181",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cb79bbc3c689526d1b2cb5260add71d71a212181"
+    },
+    "64k/syllabs/cmn-ye1.mp3": {
+      "path": "64k/syllabs/cmn-ye1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1a998432cc366a2a93c0264cb82c0cc9749dc0",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cc1a998432cc366a2a93c0264cb82c0cc9749dc0"
+    },
+    "64k/syllabs/cmn-ye2.mp3": {
+      "path": "64k/syllabs/cmn-ye2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1febc33965be1274ec82bb1f8e14d9d095832c",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/db1febc33965be1274ec82bb1f8e14d9d095832c"
+    },
+    "64k/syllabs/cmn-ye3.mp3": {
+      "path": "64k/syllabs/cmn-ye3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07d342263f7278595fe5e16d0d1dd69b86f56b8",
+      "size": 10716,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a07d342263f7278595fe5e16d0d1dd69b86f56b8"
+    },
+    "64k/syllabs/cmn-ye4.mp3": {
+      "path": "64k/syllabs/cmn-ye4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7e33b636813a8d44601666eab1f69e241b5c0a3",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c7e33b636813a8d44601666eab1f69e241b5c0a3"
+    },
+    "64k/syllabs/cmn-yuan1.mp3": {
+      "path": "64k/syllabs/cmn-yuan1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db58b3edf5aeaf6ed7b991b3bbb7723c37e25e5f",
+      "size": 9952,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/db58b3edf5aeaf6ed7b991b3bbb7723c37e25e5f"
+    },
+    "64k/syllabs/cmn-yuan2.mp3": {
+      "path": "64k/syllabs/cmn-yuan2.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d7c87026a1fb148296425b9b68fa9e290bcdcc",
+      "size": 10336,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f9d7c87026a1fb148296425b9b68fa9e290bcdcc"
+    },
+    "64k/syllabs/cmn-yuan3.mp3": {
+      "path": "64k/syllabs/cmn-yuan3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a063d7915ef5d4ebceac2223b89e206accdab633",
+      "size": 12448,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a063d7915ef5d4ebceac2223b89e206accdab633"
+    },
+    "64k/syllabs/cmn-yuan4.mp3": {
+      "path": "64k/syllabs/cmn-yuan4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3579c545536014b19100b1782d581e998161fc92",
+      "size": 8416,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3579c545536014b19100b1782d581e998161fc92"
+    },
+    "64k/syllabs/cmn-ying1.mp3": {
+      "path": "64k/syllabs/cmn-ying1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c47ab72e1b83d7b22666ed825859ddc5c2ff4f5",
+      "size": 10336,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5c47ab72e1b83d7b22666ed825859ddc5c2ff4f5"
+    },
+    "64k/syllabs/cmn-ying3.mp3": {
+      "path": "64k/syllabs/cmn-ying3.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bf3d020082dd76b0a23e2cd82a13869ba1c7c43",
+      "size": 10720,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7bf3d020082dd76b0a23e2cd82a13869ba1c7c43"
+    },
+    "64k/syllabs/cmn-ying4.mp3": {
+      "path": "64k/syllabs/cmn-ying4.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54259a650d8878691d159d9b70db1e3914c10b5f",
+      "size": 8800,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/54259a650d8878691d159d9b70db1e3914c10b5f"
+    },
+    "64k/syllabs/cmn-bo1.mp3": {
+      "path": "64k/syllabs/cmn-bo1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384c34f480579f89357b793ee5f3d21e41efc808",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/384c34f480579f89357b793ee5f3d21e41efc808"
+    },
+    "64k/syllabs/cmn-mo1.mp3": {
+      "path": "64k/syllabs/cmn-mo1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d6b78c284a0b4f4fb757e5396303dafb05fb2ca",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8d6b78c284a0b4f4fb757e5396303dafb05fb2ca"
+    },
+    "64k/syllabs/cmn-fo1.mp3": {
+      "path": "64k/syllabs/cmn-fo1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48717e00c3de2e691745d0d916e2749d22f070f4",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/48717e00c3de2e691745d0d916e2749d22f070f4"
+    },
+    "64k/syllabs/cmn-de1.mp3": {
+      "path": "64k/syllabs/cmn-de1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6b9b8998e463d5618d06be641755c32e86cab5",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9d6b9b8998e463d5618d06be641755c32e86cab5"
+    },
+    "64k/syllabs/cmn-te1.mp3": {
+      "path": "64k/syllabs/cmn-te1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5136ba219dbed6f6f47c34d88c8678497640d355",
+      "size": 9564,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5136ba219dbed6f6f47c34d88c8678497640d355"
+    },
+    "64k/syllabs/cmn-ne1.mp3": {
+      "path": "64k/syllabs/cmn-ne1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb424386052f24c2e7b96d10f36008ff7cdc385f",
+      "size": 8028,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cb424386052f24c2e7b96d10f36008ff7cdc385f"
+    },
+    "64k/syllabs/cmn-le1.mp3": {
+      "path": "64k/syllabs/cmn-le1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d3da45b7e9ce72e4fc1d14c8a822231aeaf599",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d1d3da45b7e9ce72e4fc1d14c8a822231aeaf599"
+    },
+    "64k/syllabs/cmn-ri1.mp3": {
+      "path": "64k/syllabs/cmn-ri1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ffe2f51683e6dae7786904365538c1bc18e14a",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/11ffe2f51683e6dae7786904365538c1bc18e14a"
+    },
+    "64k/syllabs/cmn-e1.mp3": {
+      "path": "64k/syllabs/cmn-e1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb79dbde83dd568524b23a1638a1a6f27f57f2f2",
+      "size": 8026,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cb79dbde83dd568524b23a1638a1a6f27f57f2f2"
+    },
+    "64k/syllabs/cmn-ei1.mp3": {
+      "path": "64k/syllabs/cmn-ei1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6a80f152092b984706ad794bcebf003a02f14c",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8a6a80f152092b984706ad794bcebf003a02f14c"
+    },
+    "64k/syllabs/cmn-wei1.mp3": {
+      "path": "64k/syllabs/cmn-wei1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c48cc3f42b27cb21814dc93dfa20a35cda5baf",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c5c48cc3f42b27cb21814dc93dfa20a35cda5baf"
+    },
+    "64k/syllabs/cmn-ao1.mp3": {
+      "path": "64k/syllabs/cmn-ao1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec517c0c209d18481b79c73e768233037afc4aa3",
+      "size": 8412,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ec517c0c209d18481b79c73e768233037afc4aa3"
+    },
+    "64k/syllabs/cmn-ou1.mp3": {
+      "path": "64k/syllabs/cmn-ou1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bbe14e0a2c6764b5e8fbd568508b5f3dd70eab2",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3bbe14e0a2c6764b5e8fbd568508b5f3dd70eab2"
+    },
+    "64k/syllabs/cmn-you1.mp3": {
+      "path": "64k/syllabs/cmn-you1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e418dff5fe003e19cfd852e8462e52c321289e2",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0e418dff5fe003e19cfd852e8462e52c321289e2"
+    },
+    "64k/syllabs/cmn-er1.mp3": {
+      "path": "64k/syllabs/cmn-er1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6621372584d96c143d8b8c044935df34bef916ef",
+      "size": 8796,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6621372584d96c143d8b8c044935df34bef916ef"
+    },
+    "64k/syllabs/cmn-en1.mp3": {
+      "path": "64k/syllabs/cmn-en1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be29e10f832220f8b8e130bb136c19ea9f7e077f",
+      "size": 9180,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/be29e10f832220f8b8e130bb136c19ea9f7e077f"
+    },
+    "64k/syllabs/cmn-wen1.mp3": {
+      "path": "64k/syllabs/cmn-wen1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e7bac1b965faaed5beb83ca536b70889e9d766",
+      "size": 10334,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b6e7bac1b965faaed5beb83ca536b70889e9d766"
+    },
+    "64k/syllabs/cmn-ang1.mp3": {
+      "path": "64k/syllabs/cmn-ang1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7496d5630dade49158efdc328a2a8ba64d1cdc74",
+      "size": 8798,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7496d5630dade49158efdc328a2a8ba64d1cdc74"
+    },
+    "64k/syllabs/cmn-eng1.mp3": {
+      "path": "64k/syllabs/cmn-eng1.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0789cb92930fcfe6699bf6aecab24e77e844be85",
+      "size": 9566,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0789cb92930fcfe6699bf6aecab24e77e844be85"
+    },
+    "64k/hsk/cmn-波浪.mp3": {
+      "path": "64k/hsk/cmn-波浪.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe1d7c673013de7e4918b1252f5cdc08dd8133a",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dbe1d7c673013de7e4918b1252f5cdc08dd8133a"
+    },
+    "64k/hsk/cmn-播放.mp3": {
+      "path": "64k/hsk/cmn-播放.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "976682425d064b3a317def33974686452c85a2b3",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/976682425d064b3a317def33974686452c85a2b3"
+    },
+    "64k/hsk/cmn-悲哀.mp3": {
+      "path": "64k/hsk/cmn-悲哀.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d75e4773d44057ae7cd4cc48fbbc1828108e000",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9d75e4773d44057ae7cd4cc48fbbc1828108e000"
+    },
+    "64k/hsk/cmn-杯子.mp3": {
+      "path": "64k/hsk/cmn-杯子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a34c373f9e1dd7f1942a2974cee55fafc02e30c2",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a34c373f9e1dd7f1942a2974cee55fafc02e30c2"
+    },
+    "64k/hsk/cmn-包子.mp3": {
+      "path": "64k/hsk/cmn-包子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f75e6c8b2430d7536fadc22c1ea8ed06029eae43",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f75e6c8b2430d7536fadc22c1ea8ed06029eae43"
+    },
+    "64k/hsk/cmn-帮助.mp3": {
+      "path": "64k/hsk/cmn-帮助.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d65e04db580709c845bf2a13f1f7ba50c9705f63",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d65e04db580709c845bf2a13f1f7ba50c9705f63"
+    },
+    "64k/hsk/cmn-雹子.mp3": {
+      "path": "64k/hsk/cmn-雹子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40af09ad2dfa85d14f075a58a75857d78ddf7e02",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/40af09ad2dfa85d14f075a58a75857d78ddf7e02"
+    },
+    "64k/hsk/cmn-提拔.mp3": {
+      "path": "64k/hsk/cmn-提拔.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19725f64c29b44f842bf3fca4ab651cfeb62d683",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/19725f64c29b44f842bf3fca4ab651cfeb62d683"
+    },
+    "64k/hsk/cmn-彼此.mp3": {
+      "path": "64k/hsk/cmn-彼此.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c0cb5b9eaf39d97503ecc3b2e75d1265f252b34",
+      "size": 12746,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4c0cb5b9eaf39d97503ecc3b2e75d1265f252b34"
+    },
+    "64k/hsk/cmn-把手.mp3": {
+      "path": "64k/hsk/cmn-把手.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d581dbda3f0e241f24c9599adedbcc5b04c415a5",
+      "size": 9194,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d581dbda3f0e241f24c9599adedbcc5b04c415a5"
+    },
+    "64k/hsk/cmn-北方.mp3": {
+      "path": "64k/hsk/cmn-北方.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6180e83211f9842339ae0c5ca7203e549cbce9e3",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6180e83211f9842339ae0c5ca7203e549cbce9e3"
+    },
+    "64k/hsk/cmn-宝贝.mp3": {
+      "path": "64k/hsk/cmn-宝贝.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b005843817148918315c5a9e720c3d990fef5a19",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b005843817148918315c5a9e720c3d990fef5a19"
+    },
+    "64k/hsk/cmn-绑架.mp3": {
+      "path": "64k/hsk/cmn-绑架.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e85368a5ae57918a760262abf4a935d5ff84ad",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b8e85368a5ae57918a760262abf4a935d5ff84ad"
+    },
+    "64k/hsk/cmn-爸爸.mp3": {
+      "path": "64k/hsk/cmn-爸爸.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0b35a708974c7085178913a3823d587b3c6111",
+      "size": 9194,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/4b0b35a708974c7085178913a3823d587b3c6111"
+    },
+    "64k/hsk/cmn-不够.mp3": {
+      "path": "64k/hsk/cmn-不够.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d5fb2675ad3958906ac3137fe8fe8610681944f",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1d5fb2675ad3958906ac3137fe8fe8610681944f"
+    },
+    "64k/hsk/cmn-抱歉.mp3": {
+      "path": "64k/hsk/cmn-抱歉.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6313cd67ffe640c5c3f826bc15d620102c58cf96",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6313cd67ffe640c5c3f826bc15d620102c58cf96"
+    },
+    "64k/hsk/cmn-棒球.mp3": {
+      "path": "64k/hsk/cmn-棒球.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c80f409116309f870efad82d51dbdb3245d4955",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6c80f409116309f870efad82d51dbdb3245d4955"
+    },
+    "64k/hsk/cmn-批评.mp3": {
+      "path": "64k/hsk/cmn-批评.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e0931637cb14ac2d738a894ff63dc919e575a95",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3e0931637cb14ac2d738a894ff63dc919e575a95"
+    },
+    "64k/hsk/cmn-婆婆.mp3": {
+      "path": "64k/hsk/cmn-婆婆.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d25ec5b14729b62244920aa7e398140e5b642e",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c5d25ec5b14729b62244920aa7e398140e5b642e"
+    },
+    "64k/hsk/cmn-苹果.mp3": {
+      "path": "64k/hsk/cmn-苹果.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbdbe310bddfc387efc0d0c381b267d24ce9777",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2fbdbe310bddfc387efc0d0c381b267d24ce9777"
+    },
+    "64k/hsk/cmn-朋友.mp3": {
+      "path": "64k/hsk/cmn-朋友.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56982f47ee7d5b8b6e15eda53f21f6c564f3c28b",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/56982f47ee7d5b8b6e15eda53f21f6c564f3c28b"
+    },
+    "64k/hsk/cmn-跑步.mp3": {
+      "path": "64k/hsk/cmn-跑步.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cc8dcf2cf266831bc87ad7d919363efb949460",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/36cc8dcf2cf266831bc87ad7d919363efb949460"
+    },
+    "64k/hsk/cmn-破坏.mp3": {
+      "path": "64k/hsk/cmn-破坏.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec0bc9f3cc9031f19cd2f2bd4c464c6880dd42d",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/aec0bc9f3cc9031f19cd2f2bd4c464c6880dd42d"
+    },
+    "64k/hsk/cmn-害怕.mp3": {
+      "path": "64k/hsk/cmn-害怕.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2329cec243a5fba9695945fd48578883c1ebea4",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e2329cec243a5fba9695945fd48578883c1ebea4"
+    },
+    "64k/hsk/cmn-妈妈.mp3": {
+      "path": "64k/hsk/cmn-妈妈.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a9902735686353c2fca211d2cc914e94f356d3",
+      "size": 8776,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/79a9902735686353c2fca211d2cc914e94f356d3"
+    },
+    "64k/hsk/cmn-抹布.mp3": {
+      "path": "64k/hsk/cmn-抹布.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e10fdaefd6fed40df7428833d91e15e0ddcadad4",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e10fdaefd6fed40df7428833d91e15e0ddcadad4"
+    },
+    "64k/hsk/cmn-麻木.mp3": {
+      "path": "64k/hsk/cmn-麻木.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ea30b4feaed83a248c9b66aaa4b4e612f036e1",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/00ea30b4feaed83a248c9b66aaa4b4e612f036e1"
+    },
+    "64k/hsk/cmn-蘑菇.mp3": {
+      "path": "64k/hsk/cmn-蘑菇.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b152f0ac5d516db0bd5ef395192c0a7711594d1c",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b152f0ac5d516db0bd5ef395192c0a7711594d1c"
+    },
+    "64k/hsk/cmn-魔鬼.mp3": {
+      "path": "64k/hsk/cmn-魔鬼.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4539304eeb7eb631322b1a08f72ed6810811d5c",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c4539304eeb7eb631322b1a08f72ed6810811d5c"
+    },
+    "64k/hsk/cmn-马车.mp3": {
+      "path": "64k/hsk/cmn-马车.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270fded7bf2db60a9211d4410cdee0effeba7453",
+      "size": 12328,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/270fded7bf2db60a9211d4410cdee0effeba7453"
+    },
+    "64k/hsk/cmn-美好.mp3": {
+      "path": "64k/hsk/cmn-美好.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec11c2b303fc868d00fba788a8b475b0d58bd024",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ec11c2b303fc868d00fba788a8b475b0d58bd024"
+    },
+    "64k/hsk/cmn-帽子.mp3": {
+      "path": "64k/hsk/cmn-帽子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae08de271149de4986723cb21715e0964ca646f",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2ae08de271149de4986723cb21715e0964ca646f"
+    },
+    "64k/hsk/cmn-飞机.mp3": {
+      "path": "64k/hsk/cmn-飞机.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361604a4852632d3dbc97c8fac992d53f6ca49b5",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/361604a4852632d3dbc97c8fac992d53f6ca49b5"
+    },
+    "64k/hsk/cmn-发票.mp3": {
+      "path": "64k/hsk/cmn-发票.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c224dc99fad10a8b27ebd63f6f9c28fef5174b10",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c224dc99fad10a8b27ebd63f6f9c28fef5174b10"
+    },
+    "64k/hsk/cmn-佛教.mp3": {
+      "path": "64k/hsk/cmn-佛教.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116d350915cec65ea0ef3d8742f9d40f51802cc9",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/116d350915cec65ea0ef3d8742f9d40f51802cc9"
+    },
+    "64k/hsk/cmn-罚款.mp3": {
+      "path": "64k/hsk/cmn-罚款.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d0f55ed0a53d0e75db1fbd614878d059838a9a",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d3d0f55ed0a53d0e75db1fbd614878d059838a9a"
+    },
+    "64k/hsk/cmn-肥皂.mp3": {
+      "path": "64k/hsk/cmn-肥皂.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b076aae49abdd27f3555a6bd36418fbb800a26e",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7b076aae49abdd27f3555a6bd36418fbb800a26e"
+    },
+    "64k/hsk/cmn-办法.mp3": {
+      "path": "64k/hsk/cmn-办法.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "680d2f9d615dde6ba45ee960481c768aae21ea3f",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/680d2f9d615dde6ba45ee960481c768aae21ea3f"
+    },
+    "64k/hsk/cmn-法律.mp3": {
+      "path": "64k/hsk/cmn-法律.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2852394c6a092e359589c4393a2928f2ddc8fb",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0f2852394c6a092e359589c4393a2928f2ddc8fb"
+    },
+    "64k/hsk/cmn-理发.mp3": {
+      "path": "64k/hsk/cmn-理发.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4de890d8076222e4a123793d17e3c5eed8cbd8a",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d4de890d8076222e4a123793d17e3c5eed8cbd8a"
+    },
+    "64k/hsk/cmn-冬天.mp3": {
+      "path": "64k/hsk/cmn-冬天.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e7130ae20bf40d600c39427a51f67e59988eeb1",
+      "size": 13582,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0e7130ae20bf40d600c39427a51f67e59988eeb1"
+    },
+    "64k/hsk/cmn-搭配.mp3": {
+      "path": "64k/hsk/cmn-搭配.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19fdee1332d5f90e32f607cd174b50efb114319b",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/19fdee1332d5f90e32f607cd174b50efb114319b"
+    },
+    "64k/hsk/cmn-叮嘱.mp3": {
+      "path": "64k/hsk/cmn-叮嘱.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d5f874dc5cb413ae78609f3242ccf5be5d31a82",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0d5f874dc5cb413ae78609f3242ccf5be5d31a82"
+    },
+    "64k/hsk/cmn-达到.mp3": {
+      "path": "64k/hsk/cmn-达到.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a1a84ee1450d07ac4faafe547c3ceea4f8c1b70",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7a1a84ee1450d07ac4faafe547c3ceea4f8c1b70"
+    },
+    "64k/hsk/cmn-打扫.mp3": {
+      "path": "64k/hsk/cmn-打扫.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df299b0122de1230d9ade8e4329e1ead346b4d8",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1df299b0122de1230d9ade8e4329e1ead346b4d8"
+    },
+    "64k/hsk/cmn-顶点.mp3": {
+      "path": "64k/hsk/cmn-顶点.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf97ceaefbf50d4d221b4a934a23f73e9a3bf53",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/acf97ceaefbf50d4d221b4a934a23f73e9a3bf53"
+    },
+    "64k/hsk/cmn-等待.mp3": {
+      "path": "64k/hsk/cmn-等待.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97c40de3d88a2fe3062f302c9151757fd6055db5",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/97c40de3d88a2fe3062f302c9151757fd6055db5"
+    },
+    "64k/hsk/cmn-懂得.mp3": {
+      "path": "64k/hsk/cmn-懂得.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d81ab782a51d552a6fca68ee41a29af56f08df",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/39d81ab782a51d552a6fca68ee41a29af56f08df"
+    },
+    "64k/hsk/cmn-地图.mp3": {
+      "path": "64k/hsk/cmn-地图.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789734c0c5a41872598862a0d8936a3e0295bc3a",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/789734c0c5a41872598862a0d8936a3e0295bc3a"
+    },
+    "64k/hsk/cmn-电灯.mp3": {
+      "path": "64k/hsk/cmn-电灯.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0a2e5946b151692d05f6b526e78763eede1fc2",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ac0a2e5946b151692d05f6b526e78763eede1fc2"
+    },
+    "64k/hsk/cmn-凳子.mp3": {
+      "path": "64k/hsk/cmn-凳子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbdeb7dcc2de3ced7f50b38c2eebbcec141be24e",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fbdeb7dcc2de3ced7f50b38c2eebbcec141be24e"
+    },
+    "64k/hsk/cmn-动物.mp3": {
+      "path": "64k/hsk/cmn-动物.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713b94c310730cf45be5605f563375b6e617ec6f",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/713b94c310730cf45be5605f563375b6e617ec6f"
+    },
+    "64k/hsk/cmn-电影.mp3": {
+      "path": "64k/hsk/cmn-电影.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6311436adf6ef42479a0dcc6c0c5b1a246a20a",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3e6311436adf6ef42479a0dcc6c0c5b1a246a20a"
+    },
+    "64k/hsk/cmn-天空.mp3": {
+      "path": "64k/hsk/cmn-天空.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c1f30ca0f6283f6e32d8035d46d480d6fd469d",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/38c1f30ca0f6283f6e32d8035d46d480d6fd469d"
+    },
+    "64k/hsk/cmn-谈话.mp3": {
+      "path": "64k/hsk/cmn-谈话.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74ad302089f6e19068d84c2ea5e2f4b1dfe618e",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c74ad302089f6e19068d84c2ea5e2f4b1dfe618e"
+    },
+    "64k/hsk/cmn-停止.mp3": {
+      "path": "64k/hsk/cmn-停止.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c087397d63c8c3bd431b829d01109b812a4c7bf7",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c087397d63c8c3bd431b829d01109b812a4c7bf7"
+    },
+    "64k/hsk/cmn-讨论.mp3": {
+      "path": "64k/hsk/cmn-讨论.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec59928597d3372011089de23f4a7a1530ab2a63",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ec59928597d3372011089de23f4a7a1530ab2a63"
+    },
+    "64k/hsk/cmn-兔子.mp3": {
+      "path": "64k/hsk/cmn-兔子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b595176058f62ebe26b6ea926bd28d9ba36ad1dd",
+      "size": 9194,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b595176058f62ebe26b6ea926bd28d9ba36ad1dd"
+    },
+    "64k/hsk/cmn-太阳.mp3": {
+      "path": "64k/hsk/cmn-太阳.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223fea418e30ae1dc42cf6e96652dbd5b0ac518f",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/223fea418e30ae1dc42cf6e96652dbd5b0ac518f"
+    },
+    "64k/hsk/cmn-捏造.mp3": {
+      "path": "64k/hsk/cmn-捏造.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6d3c1ed5e89428a032c1a216e0a88433ca8922",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9c6d3c1ed5e89428a032c1a216e0a88433ca8922"
+    },
+    "64k/hsk/cmn-牛奶.mp3": {
+      "path": "64k/hsk/cmn-牛奶.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdec9ae19f08166210e9cdaffdb79e0ea0edd7fe",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fdec9ae19f08166210e9cdaffdb79e0ea0edd7fe"
+    },
+    "64k/hsk/cmn-南方.mp3": {
+      "path": "64k/hsk/cmn-南方.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d703305d142b0b94d5dbec9726c499847f1b5ed",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1d703305d142b0b94d5dbec9726c499847f1b5ed"
+    },
+    "64k/hsk/cmn-能够.mp3": {
+      "path": "64k/hsk/cmn-能够.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0865581ef6e092eda6d8b4155a0731e7eeb4d7ad",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0865581ef6e092eda6d8b4155a0731e7eeb4d7ad"
+    },
+    "64k/hsk/cmn-奶奶.mp3": {
+      "path": "64k/hsk/cmn-奶奶.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f11888e8e4446f6d341eb29a21d07d809a443a",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/71f11888e8e4446f6d341eb29a21d07d809a443a"
+    },
+    "64k/hsk/cmn-扭转.mp3": {
+      "path": "64k/hsk/cmn-扭转.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9200439c1c5a778da2f3e9cca4a95c082a35ca",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/db9200439c1c5a778da2f3e9cca4a95c082a35ca"
+    },
+    "64k/hsk/cmn-那边.mp3": {
+      "path": "64k/hsk/cmn-那边.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9311f6ebfd7a4c1f638dc084f348b6068eb35610",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9311f6ebfd7a4c1f638dc084f348b6068eb35610"
+    },
+    "64k/hsk/cmn-垃圾.mp3": {
+      "path": "64k/hsk/cmn-垃圾.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35ac39b447a61580743f6feaa49bd462dbfe7f3",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e35ac39b447a61580743f6feaa49bd462dbfe7f3"
+    },
+    "64k/hsk/cmn-来往.mp3": {
+      "path": "64k/hsk/cmn-来往.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f7e51315d2ce234e139f375bc43ba92ee77fb8",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e0f7e51315d2ce234e139f375bc43ba92ee77fb8"
+    },
+    "64k/hsk/cmn-楼房.mp3": {
+      "path": "64k/hsk/cmn-楼房.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7319b915b37dd9d03488de067b84d0f276a86f07",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7319b915b37dd9d03488de067b84d0f276a86f07"
+    },
+    "64k/hsk/cmn-轮船.mp3": {
+      "path": "64k/hsk/cmn-轮船.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f42a8d23a8ec998d82c66d7543f8935aec54892",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5f42a8d23a8ec998d82c66d7543f8935aec54892"
+    },
+    "64k/hsk/cmn-老师.mp3": {
+      "path": "64k/hsk/cmn-老师.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a3b66aafd2e035025c9d27b2e875a72ec90b02",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/44a3b66aafd2e035025c9d27b2e875a72ec90b02"
+    },
+    "64k/hsk/cmn-礼物.mp3": {
+      "path": "64k/hsk/cmn-礼物.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce08a2a2a6338de43608f2fa863a4e5e1ef6bc3",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dce08a2a2a6338de43608f2fa863a4e5e1ef6bc3"
+    },
+    "64k/hsk/cmn-柳树.mp3": {
+      "path": "64k/hsk/cmn-柳树.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62d6a8fc5f9361473e6d345e8cc4b3f88be78793",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/62d6a8fc5f9361473e6d345e8cc4b3f88be78793"
+    },
+    "64k/hsk/cmn-了解.mp3": {
+      "path": "64k/hsk/cmn-了解.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "950c31002ffc9b85e8871351e68dba41b824ca31",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/950c31002ffc9b85e8871351e68dba41b824ca31"
+    },
+    "64k/hsk/cmn-辣椒.mp3": {
+      "path": "64k/hsk/cmn-辣椒.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb84422fda117691df6172329da6146ea3d693aa",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fb84422fda117691df6172329da6146ea3d693aa"
+    },
+    "64k/hsk/cmn-历史.mp3": {
+      "path": "64k/hsk/cmn-历史.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a289af2ae0176a76ed752cc8fc717efd29e946",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/50a289af2ae0176a76ed752cc8fc717efd29e946"
+    },
+    "64k/hsk/cmn-哥哥.mp3": {
+      "path": "64k/hsk/cmn-哥哥.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3335f53742944a2e81bfff4de18a47308f38101b",
+      "size": 9194,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3335f53742944a2e81bfff4de18a47308f38101b"
+    },
+    "64k/hsk/cmn-归还.mp3": {
+      "path": "64k/hsk/cmn-归还.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2294d66eccaf80658c744e5d1d695f7bd3470c9f",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/2294d66eccaf80658c744e5d1d695f7bd3470c9f"
+    },
+    "64k/hsk/cmn-沟通.mp3": {
+      "path": "64k/hsk/cmn-沟通.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c984fb64c29699ff7fce1746292eebdd25c251a8",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c984fb64c29699ff7fce1746292eebdd25c251a8"
+    },
+    "64k/hsk/cmn-根本.mp3": {
+      "path": "64k/hsk/cmn-根本.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99aac58984777e54bd8a6fd34f03fa2c2504eeb",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b99aac58984777e54bd8a6fd34f03fa2c2504eeb"
+    },
+    "64k/hsk/cmn-格式.mp3": {
+      "path": "64k/hsk/cmn-格式.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e23eff151b2c26ca9071a9076fb3cfa625094d",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/64e23eff151b2c26ca9071a9076fb3cfa625094d"
+    },
+    "64k/hsk/cmn-告诉.mp3": {
+      "path": "64k/hsk/cmn-告诉.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7064686f1355622a8df6e977dfff1c18437368bc",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7064686f1355622a8df6e977dfff1c18437368bc"
+    },
+    "64k/hsk/cmn-贵重.mp3": {
+      "path": "64k/hsk/cmn-贵重.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a66cdbee271e049330b3296aa5318f62210355e",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1a66cdbee271e049330b3296aa5318f62210355e"
+    },
+    "64k/hsk/cmn-科学.mp3": {
+      "path": "64k/hsk/cmn-科学.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661bbd06dc56b9f7e3b1fddd3d9fc5c37ce2fa44",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/661bbd06dc56b9f7e3b1fddd3d9fc5c37ce2fa44"
+    },
+    "64k/hsk/cmn-咳嗽.mp3": {
+      "path": "64k/hsk/cmn-咳嗽.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "794dffb63b4f38cbd4b5311a3268490d4ede8bbe",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/794dffb63b4f38cbd4b5311a3268490d4ede8bbe"
+    },
+    "64k/hsk/cmn-可以.mp3": {
+      "path": "64k/hsk/cmn-可以.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f3f276c5858221e32d2b8d290d80e4793bceba",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/63f3f276c5858221e32d2b8d290d80e4793bceba"
+    },
+    "64k/hsk/cmn-快乐.mp3": {
+      "path": "64k/hsk/cmn-快乐.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6965c1f03c48983793ee716bfdcd826d9457d21c",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6965c1f03c48983793ee716bfdcd826d9457d21c"
+    },
+    "64k/hsk/cmn-课本.mp3": {
+      "path": "64k/hsk/cmn-课本.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b13e2baecf9e0e7aa1b10272522ce64d088908",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b3b13e2baecf9e0e7aa1b10272522ce64d088908"
+    },
+    "64k/hsk/cmn-花朵.mp3": {
+      "path": "64k/hsk/cmn-花朵.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf951ad1727f2fca3124ecefae4b8c73a4661cd",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cbf951ad1727f2fca3124ecefae4b8c73a4661cd"
+    },
+    "64k/hsk/cmn-欢迎.mp3": {
+      "path": "64k/hsk/cmn-欢迎.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca72ff5ca5a5f1e788acdb62f60c9f23b9c6c16",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/bca72ff5ca5a5f1e788acdb62f60c9f23b9c6c16"
+    },
+    "64k/hsk/cmn-河流.mp3": {
+      "path": "64k/hsk/cmn-河流.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c0dc7b78902f06cbb63741bf20676485ef7a2f",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/22c0dc7b78902f06cbb63741bf20676485ef7a2f"
+    },
+    "64k/hsk/cmn-回来.mp3": {
+      "path": "64k/hsk/cmn-回来.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223a940da5e5fc3cf52a15bcdf704027e9e93b8c",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/223a940da5e5fc3cf52a15bcdf704027e9e93b8c"
+    },
+    "64k/hsk/cmn-红旗.mp3": {
+      "path": "64k/hsk/cmn-红旗.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16eea40bb38878feb73f7bf0269f46e8a64b53d1",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/16eea40bb38878feb73f7bf0269f46e8a64b53d1"
+    },
+    "64k/hsk/cmn-寒冷.mp3": {
+      "path": "64k/hsk/cmn-寒冷.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02a69abfadd008d8666055e0c3e8d2caa725d95",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d02a69abfadd008d8666055e0c3e8d2caa725d95"
+    },
+    "64k/hsk/cmn-好吃.mp3": {
+      "path": "64k/hsk/cmn-好吃.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d90828e2c021249fcc8814c22fa46d62a1878c9f",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d90828e2c021249fcc8814c22fa46d62a1878c9f"
+    },
+    "64k/hsk/cmn-海岸.mp3": {
+      "path": "64k/hsk/cmn-海岸.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c45ea39877d08213d528ddb0b97325d2d7fbe385",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c45ea39877d08213d528ddb0b97325d2d7fbe385"
+    },
+    "64k/hsk/cmn-祝贺.mp3": {
+      "path": "64k/hsk/cmn-祝贺.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dff5439cf779ece9a6252f39311cd585e6172f2c",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dff5439cf779ece9a6252f39311cd585e6172f2c"
+    },
+    "64k/hsk/cmn-居住.mp3": {
+      "path": "64k/hsk/cmn-居住.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbfad3aad4ecdcf1d3d52f81a7e9b7df51a341e",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6fbfad3aad4ecdcf1d3d52f81a7e9b7df51a341e"
+    },
+    "64k/hsk/cmn-军队.mp3": {
+      "path": "64k/hsk/cmn-军队.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec7d331d54d74a5e1abdf3fa48b73f6c64bdb9c3",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ec7d331d54d74a5e1abdf3fa48b73f6c64bdb9c3"
+    },
+    "64k/hsk/cmn-纠正.mp3": {
+      "path": "64k/hsk/cmn-纠正.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e611e1e19bc296fb68b948a0ec9d6d0e3e90dd",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a7e611e1e19bc296fb68b948a0ec9d6d0e3e90dd"
+    },
+    "64k/hsk/cmn-鸡蛋.mp3": {
+      "path": "64k/hsk/cmn-鸡蛋.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8774bd958e5d67bcec14bff1df3bc6c3a3a0c00a",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8774bd958e5d67bcec14bff1df3bc6c3a3a0c00a"
+    },
+    "64k/hsk/cmn-金鱼.mp3": {
+      "path": "64k/hsk/cmn-金鱼.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "482b75f32d4df9e1de7d8c2c36a953635ad29b1c",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/482b75f32d4df9e1de7d8c2c36a953635ad29b1c"
+    },
+    "64k/hsk/cmn-饥饿.mp3": {
+      "path": "64k/hsk/cmn-饥饿.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4dadcc7d47a8df94170493672d7c9104736a84",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9e4dadcc7d47a8df94170493672d7c9104736a84"
+    },
+    "64k/hsk/cmn-街道.mp3": {
+      "path": "64k/hsk/cmn-街道.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "005b4fdde0d6090ef3a6b97fbd9eef31c98b14db",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/005b4fdde0d6090ef3a6b97fbd9eef31c98b14db"
+    },
+    "64k/hsk/cmn-坚硬.mp3": {
+      "path": "64k/hsk/cmn-坚硬.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c154b43c3ba81a02729910824cd1b9ff2172bac2",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c154b43c3ba81a02729910824cd1b9ff2172bac2"
+    },
+    "64k/hsk/cmn-急忙.mp3": {
+      "path": "64k/hsk/cmn-急忙.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40615b5b4c6120c8fa5efa02d0a1fcea29bcc42f",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/40615b5b4c6120c8fa5efa02d0a1fcea29bcc42f"
+    },
+    "64k/hsk/cmn-节日.mp3": {
+      "path": "64k/hsk/cmn-节日.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c711d75305ff90340b150cba95368673a9a1a1c4",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c711d75305ff90340b150cba95368673a9a1a1c4"
+    },
+    "64k/hsk/cmn-决定.mp3": {
+      "path": "64k/hsk/cmn-决定.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b832b5770b2341d57626945783a51b84a249730d",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b832b5770b2341d57626945783a51b84a249730d"
+    },
+    "64k/hsk/cmn-姐姐.mp3": {
+      "path": "64k/hsk/cmn-姐姐.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d466add436d83f20f5bf0e02b54382dc183b09",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c1d466add436d83f20f5bf0e02b54382dc183b09"
+    },
+    "64k/hsk/cmn-锦绣.mp3": {
+      "path": "64k/hsk/cmn-锦绣.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e40d21a10d92d8a250bc79028c9546b08a2db3",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/68e40d21a10d92d8a250bc79028c9546b08a2db3"
+    },
+    "64k/hsk/cmn-记得.mp3": {
+      "path": "64k/hsk/cmn-记得.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7218cb9060f3bd875623bd497f049259850f966",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c7218cb9060f3bd875623bd497f049259850f966"
+    },
+    "64k/hsk/cmn-借口.mp3": {
+      "path": "64k/hsk/cmn-借口.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abcdf8fe7a374623da51220dc31c4470db4a229a",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/abcdf8fe7a374623da51220dc31c4470db4a229a"
+    },
+    "64k/hsk/cmn-起来.mp3": {
+      "path": "64k/hsk/cmn-起来.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5344665043f364140c9f201218331ae9de16a613",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5344665043f364140c9f201218331ae9de16a613"
+    },
+    "64k/hsk/cmn-气球.mp3": {
+      "path": "64k/hsk/cmn-气球.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d745c1955ad3641586db9a72aab6e961b6eb0c",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/99d745c1955ad3641586db9a72aab6e961b6eb0c"
+    },
+    "64k/hsk/cmn-西瓜.mp3": {
+      "path": "64k/hsk/cmn-西瓜.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b15a59259e96e60af9a6b89b997e23cf4f84b8",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f5b15a59259e96e60af9a6b89b997e23cf4f84b8"
+    },
+    "64k/hsk/cmn-靴子.mp3": {
+      "path": "64k/hsk/cmn-靴子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a983c708340f36eea83dc35e547476e67c3c99ed",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a983c708340f36eea83dc35e547476e67c3c99ed"
+    },
+    "64k/hsk/cmn-学习.mp3": {
+      "path": "64k/hsk/cmn-学习.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d1808503012b55f16bea83e0e03b441d7c00c6",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/19d1808503012b55f16bea83e0e03b441d7c00c6"
+    },
+    "64k/hsk/cmn-洗澡.mp3": {
+      "path": "64k/hsk/cmn-洗澡.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99a225333fa5f6fe6004dd0dfa95999a932b8d4",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f99a225333fa5f6fe6004dd0dfa95999a932b8d4"
+    },
+    "64k/hsk/cmn-雪花.mp3": {
+      "path": "64k/hsk/cmn-雪花.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd43a83f8541c60767a2a6533f03b269364407b7",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dd43a83f8541c60767a2a6533f03b269364407b7"
+    },
+    "64k/hsk/cmn-细心.mp3": {
+      "path": "64k/hsk/cmn-细心.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b93cea56f7a77016e6fe8a79365f61d419f97a7",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/7b93cea56f7a77016e6fe8a79365f61d419f97a7"
+    },
+    "64k/hsk/cmn-蜘蛛.mp3": {
+      "path": "64k/hsk/cmn-蜘蛛.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4572244bc28d1004bf102091ad716afe4d1d3f5",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f4572244bc28d1004bf102091ad716afe4d1d3f5"
+    },
+    "64k/hsk/cmn-直接.mp3": {
+      "path": "64k/hsk/cmn-直接.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d36da46010da590ab963340963fe3565bc6d39f0",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d36da46010da590ab963340963fe3565bc6d39f0"
+    },
+    "64k/hsk/cmn-纸张.mp3": {
+      "path": "64k/hsk/cmn-纸张.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd04b617bc55fd82979b60fdbb4eeb54b1568fd6",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fd04b617bc55fd82979b60fdbb4eeb54b1568fd6"
+    },
+    "64k/hsk/cmn-展览.mp3": {
+      "path": "64k/hsk/cmn-展览.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f285270267cb8f4ece4002c9fb03b30241878ee1",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f285270267cb8f4ece4002c9fb03b30241878ee1"
+    },
+    "64k/hsk/cmn-准确.mp3": {
+      "path": "64k/hsk/cmn-准确.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a14ae773abd4910c274d1f223244bc8f3a86dd",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/87a14ae773abd4910c274d1f223244bc8f3a86dd"
+    },
+    "64k/hsk/cmn-至少.mp3": {
+      "path": "64k/hsk/cmn-至少.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb939047a2d1e03fbfa681c3efa1e55c1f9ae18",
+      "size": 12328,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9bb939047a2d1e03fbfa681c3efa1e55c1f9ae18"
+    },
+    "64k/hsk/cmn-春天.mp3": {
+      "path": "64k/hsk/cmn-春天.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7c0865c055229917cb90f96fb841c7087cd226b",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c7c0865c055229917cb90f96fb841c7087cd226b"
+    },
+    "64k/hsk/cmn-长期.mp3": {
+      "path": "64k/hsk/cmn-长期.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b98566ca6ff86db97a94b923a6b64f9a550c4b",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/99b98566ca6ff86db97a94b923a6b64f9a550c4b"
+    },
+    "64k/hsk/cmn-迟到.mp3": {
+      "path": "64k/hsk/cmn-迟到.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f01f0411becb6349259a73251ce1bed195a570",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/40f01f0411becb6349259a73251ce1bed195a570"
+    },
+    "64k/hsk/cmn-尺子.mp3": {
+      "path": "64k/hsk/cmn-尺子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7c47070846fd366092a189f64150c078d29238",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fa7c47070846fd366092a189f64150c078d29238"
+    },
+    "64k/hsk/cmn-翅膀.mp3": {
+      "path": "64k/hsk/cmn-翅膀.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c60daf36bfbcae999f42708fa6ba798d2fb13b9",
+      "size": 12328,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/5c60daf36bfbcae999f42708fa6ba798d2fb13b9"
+    },
+    "64k/hsk/cmn-狮子.mp3": {
+      "path": "64k/hsk/cmn-狮子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "712c1016a9332c34cc112f5d832ddc7ba7f6a58b",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/712c1016a9332c34cc112f5d832ddc7ba7f6a58b"
+    },
+    "64k/hsk/cmn-诗人.mp3": {
+      "path": "64k/hsk/cmn-诗人.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddf6bd385b1b900f98d72a0d093def497eeeb1c",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/dddf6bd385b1b900f98d72a0d093def497eeeb1c"
+    },
+    "64k/hsk/cmn-时间.mp3": {
+      "path": "64k/hsk/cmn-时间.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85e1a5df29bc7bf267b9967dff1b9dc50f44e33",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e85e1a5df29bc7bf267b9967dff1b9dc50f44e33"
+    },
+    "64k/hsk/cmn-水果.mp3": {
+      "path": "64k/hsk/cmn-水果.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e3c7b05b33e973941d9db3ae63ce8ac9962af9",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/96e3c7b05b33e973941d9db3ae63ce8ac9962af9"
+    },
+    "64k/hsk/cmn-事情.mp3": {
+      "path": "64k/hsk/cmn-事情.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74d58894dd6bf62da43a18e10394c8e1b4b1817",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c74d58894dd6bf62da43a18e10394c8e1b4b1817"
+    },
+    "64k/hsk/cmn-人民.mp3": {
+      "path": "64k/hsk/cmn-人民.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1932e8c4b7384c4e3f70e322054d3a33c800ea8d",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1932e8c4b7384c4e3f70e322054d3a33c800ea8d"
+    },
+    "64k/hsk/cmn-容易.mp3": {
+      "path": "64k/hsk/cmn-容易.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d9beeb08382f0930e1059f48fc4b1a363320a7a",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0d9beeb08382f0930e1059f48fc4b1a363320a7a"
+    },
+    "64k/hsk/cmn-忍耐.mp3": {
+      "path": "64k/hsk/cmn-忍耐.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95fae45833bb019138cad9ed66ec61f7fc488e31",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/95fae45833bb019138cad9ed66ec61f7fc488e31"
+    },
+    "64k/hsk/cmn-日记.mp3": {
+      "path": "64k/hsk/cmn-日记.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ab4e7cf3b6d61e3ec0cd1fc204af4f5d7b5f80",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b8ab4e7cf3b6d61e3ec0cd1fc204af4f5d7b5f80"
+    },
+    "64k/hsk/cmn-认真.mp3": {
+      "path": "64k/hsk/cmn-认真.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e607d9fb4f5949e2130212a609f6a30736c8e5b1",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e607d9fb4f5949e2130212a609f6a30736c8e5b1"
+    },
+    "64k/hsk/cmn-资源.mp3": {
+      "path": "64k/hsk/cmn-资源.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aef1397c977665336426049c929f5bdac178c1c",
+      "size": 12328,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3aef1397c977665336426049c929f5bdac178c1c"
+    },
+    "64k/hsk/cmn-子孙.mp3": {
+      "path": "64k/hsk/cmn-子孙.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c8a4b943333ac78c03c3cbc3ffacc8a24c36a0",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/61c8a4b943333ac78c03c3cbc3ffacc8a24c36a0"
+    },
+    "64k/hsk/cmn-自己.mp3": {
+      "path": "64k/hsk/cmn-自己.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ace2e4d3f2ddc104609e80cc5c75b96799bec33f",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ace2e4d3f2ddc104609e80cc5c75b96799bec33f"
+    },
+    "64k/hsk/cmn-匆忙.mp3": {
+      "path": "64k/hsk/cmn-匆忙.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0893db574d35f6fe52fdf611312091ee8f25b40c",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/0893db574d35f6fe52fdf611312091ee8f25b40c"
+    },
+    "64k/hsk/cmn-词典.mp3": {
+      "path": "64k/hsk/cmn-词典.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43f071ac7e5ccae29d8b874f6cc879f2ad59daeb",
+      "size": 12328,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/43f071ac7e5ccae29d8b874f6cc879f2ad59daeb"
+    },
+    "64k/hsk/cmn-从来.mp3": {
+      "path": "64k/hsk/cmn-从来.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd2eed1b50b4ac672d9c195be1bd9a77126287b",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ebd2eed1b50b4ac672d9c195be1bd9a77126287b"
+    },
+    "64k/hsk/cmn-草地.mp3": {
+      "path": "64k/hsk/cmn-草地.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04321682a7108e3ebacd69ccf03f7be76cdd4f84",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/04321682a7108e3ebacd69ccf03f7be76cdd4f84"
+    },
+    "64k/hsk/cmn-刺激.mp3": {
+      "path": "64k/hsk/cmn-刺激.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b72ec550e3607964e3084300d5725b493222f0f",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8b72ec550e3607964e3084300d5725b493222f0f"
+    },
+    "64k/hsk/cmn-森林.mp3": {
+      "path": "64k/hsk/cmn-森林.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9a79e302070296aeaea8b83501038031764e4e5",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b9a79e302070296aeaea8b83501038031764e4e5"
+    },
+    "64k/hsk/cmn-丝毫.mp3": {
+      "path": "64k/hsk/cmn-丝毫.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1bf3e7e08c954dbc5ef74fbc1fe2086182ad46a",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c1bf3e7e08c954dbc5ef74fbc1fe2086182ad46a"
+    },
+    "64k/hsk/cmn-死亡.mp3": {
+      "path": "64k/hsk/cmn-死亡.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d4d506cdbcf73bc77111bc528e7d82ec21610a9",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/9d4d506cdbcf73bc77111bc528e7d82ec21610a9"
+    },
+    "64k/hsk/cmn-雨伞.mp3": {
+      "path": "64k/hsk/cmn-雨伞.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade91d0828960aa0b0ee36acae0ece09018d4c5a",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ade91d0828960aa0b0ee36acae0ece09018d4c5a"
+    },
+    "64k/hsk/cmn-四季.mp3": {
+      "path": "64k/hsk/cmn-四季.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db8f835deeb11e549cf84aa493d7a090aaed4de",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8db8f835deeb11e549cf84aa493d7a090aaed4de"
+    },
+    "64k/hsk/cmn-衣服.mp3": {
+      "path": "64k/hsk/cmn-衣服.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c8cff8f74178759b70566a25c5f37b346bbe02",
+      "size": 9194,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/36c8cff8f74178759b70566a25c5f37b346bbe02"
+    },
+    "64k/hsk/cmn-约会.mp3": {
+      "path": "64k/hsk/cmn-约会.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25be5f212e3798340b1da6eb0f23fe1ee4bc4a9e",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/25be5f212e3798340b1da6eb0f23fe1ee4bc4a9e"
+    },
+    "64k/hsk/cmn-音乐.mp3": {
+      "path": "64k/hsk/cmn-音乐.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f73f9a3d00bfd29f432655cec3881338766a23cc",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f73f9a3d00bfd29f432655cec3881338766a23cc"
+    },
+    "64k/hsk/cmn-冤枉.mp3": {
+      "path": "64k/hsk/cmn-冤枉.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8860c3f92b47cbaaae096f5d1ad57b0be2766cd2",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/8860c3f92b47cbaaae096f5d1ad57b0be2766cd2"
+    },
+    "64k/hsk/cmn-医院.mp3": {
+      "path": "64k/hsk/cmn-医院.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94e244b80af35f3ac8af13ae8ff81703481a0806",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/94e244b80af35f3ac8af13ae8ff81703481a0806"
+    },
+    "64k/hsk/cmn-英雄.mp3": {
+      "path": "64k/hsk/cmn-英雄.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c385ef2d3577c047f846ede96cdb919f0dfcf7ad",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c385ef2d3577c047f846ede96cdb919f0dfcf7ad"
+    },
+    "64k/hsk/cmn-云彩.mp3": {
+      "path": "64k/hsk/cmn-云彩.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13b0ff989a1b38ac40b9d2d5a1e51b92ed9a2378",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/13b0ff989a1b38ac40b9d2d5a1e51b92ed9a2378"
+    },
+    "64k/hsk/cmn-移动.mp3": {
+      "path": "64k/hsk/cmn-移动.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2687c631083631e1ebebde7b892371e16e4721a",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b2687c631083631e1ebebde7b892371e16e4721a"
+    },
+    "64k/hsk/cmn-银行.mp3": {
+      "path": "64k/hsk/cmn-银行.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebdb2dd47771e47fe5441edd14e56ba62735471b",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ebdb2dd47771e47fe5441edd14e56ba62735471b"
+    },
+    "64k/hsk/cmn-爷爷.mp3": {
+      "path": "64k/hsk/cmn-爷爷.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ceaa943620cebd0b84585afac130d0de2942de",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/52ceaa943620cebd0b84585afac130d0de2942de"
+    },
+    "64k/hsk/cmn-元旦.mp3": {
+      "path": "64k/hsk/cmn-元旦.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e446d4ff9fc3a7e6c8d613fcce638130fbb06d1e",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/e446d4ff9fc3a7e6c8d613fcce638130fbb06d1e"
+    },
+    "64k/hsk/cmn-椅子.mp3": {
+      "path": "64k/hsk/cmn-椅子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88be61f7ee4c2d4fbb72db02c600e893cbe475b4",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/88be61f7ee4c2d4fbb72db02c600e893cbe475b4"
+    },
+    "64k/hsk/cmn-引导.mp3": {
+      "path": "64k/hsk/cmn-引导.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae2914409e922cab3ed39af3540c1f84fedcf94",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fae2914409e922cab3ed39af3540c1f84fedcf94"
+    },
+    "64k/hsk/cmn-允许.mp3": {
+      "path": "64k/hsk/cmn-允许.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8811e1995ac6af76ce796f86c0bd612372a0404",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/a8811e1995ac6af76ce796f86c0bd612372a0404"
+    },
+    "64k/hsk/cmn-野外.mp3": {
+      "path": "64k/hsk/cmn-野外.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3646b8ab9c82f8bd73dbc3af640beb35468ebd",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ac3646b8ab9c82f8bd73dbc3af640beb35468ebd"
+    },
+    "64k/hsk/cmn-远方.mp3": {
+      "path": "64k/hsk/cmn-远方.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cce1e3eb4bb96ee3926d605771284756bc897c0",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3cce1e3eb4bb96ee3926d605771284756bc897c0"
+    },
+    "64k/hsk/cmn-月亮.mp3": {
+      "path": "64k/hsk/cmn-月亮.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98447f46553cf00d571cabe9a054294271cb25ac",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/98447f46553cf00d571cabe9a054294271cb25ac"
+    },
+    "64k/hsk/cmn-意思.mp3": {
+      "path": "64k/hsk/cmn-意思.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbdaac43cf416dd1776ea3aab41ff5d2c689b871",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/bbdaac43cf416dd1776ea3aab41ff5d2c689b871"
+    },
+    "64k/hsk/cmn-玉米.mp3": {
+      "path": "64k/hsk/cmn-玉米.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46c6bfa842dd9ed2c992e78246e670f78a8edac0",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/46c6bfa842dd9ed2c992e78246e670f78a8edac0"
+    },
+    "64k/hsk/cmn-印象.mp3": {
+      "path": "64k/hsk/cmn-印象.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4a7f4c20c2598753e0ba18d238f43fb3c99b5be",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/d4a7f4c20c2598753e0ba18d238f43fb3c99b5be"
+    },
+    "64k/hsk/cmn-运动.mp3": {
+      "path": "64k/hsk/cmn-运动.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25fef06b8d7f2e269e853433ef32327272c10bd4",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/25fef06b8d7f2e269e853433ef32327272c10bd4"
+    },
+    "64k/hsk/cmn-夜晚.mp3": {
+      "path": "64k/hsk/cmn-夜晚.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc2c2d31cec45d3e07644ccda0cda1a85d6c36f4",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/fc2c2d31cec45d3e07644ccda0cda1a85d6c36f4"
+    },
+    "64k/hsk/cmn-屋子.mp3": {
+      "path": "64k/hsk/cmn-屋子.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f014473b240e448f38463d836ee753b45cf20c96",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/f014473b240e448f38463d836ee753b45cf20c96"
+    },
+    "64k/hsk/cmn-温暖.mp3": {
+      "path": "64k/hsk/cmn-温暖.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f39963d90911682459169d68bac666c813dbcfc",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6f39963d90911682459169d68bac666c813dbcfc"
+    },
+    "64k/hsk/cmn-无数.mp3": {
+      "path": "64k/hsk/cmn-无数.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "882a63bea129fa1e409c965ccc86172bfd2da57c",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/882a63bea129fa1e409c965ccc86172bfd2da57c"
+    },
+    "64k/hsk/cmn-我们.mp3": {
+      "path": "64k/hsk/cmn-我们.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef93aed85da4c655bc3be85c4356bfe0b184bc4d",
+      "size": 9612,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/ef93aed85da4c655bc3be85c4356bfe0b184bc4d"
+    },
+    "64k/hsk/cmn-午饭.mp3": {
+      "path": "64k/hsk/cmn-午饭.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1abbfacbf29521bf7f01e72d946f5f7940135752",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/1abbfacbf29521bf7f01e72d946f5f7940135752"
+    },
+    "64k/hsk/cmn-物品.mp3": {
+      "path": "64k/hsk/cmn-物品.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09791d6f9bf80de9d93b24656ca37349f6f7694f",
+      "size": 11074,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/09791d6f9bf80de9d93b24656ca37349f6f7694f"
+    },
+    "64k/hsk/cmn-阿姨.mp3": {
+      "path": "64k/hsk/cmn-阿姨.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdf17ed081ad209a72aaec35f86cfc056ddad75e",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/cdf17ed081ad209a72aaec35f86cfc056ddad75e"
+    },
+    "64k/hsk/cmn-额外.mp3": {
+      "path": "64k/hsk/cmn-额外.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ed58d97e693618c9f9d1189ef6eeac416f3934",
+      "size": 10239,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/c4ed58d97e693618c9f9d1189ef6eeac416f3934"
+    },
+    "64k/hsk/cmn-恶心.mp3": {
+      "path": "64k/hsk/cmn-恶心.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa1b3c3be6be2544b6e57d872fdc8cf63d39348",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/3fa1b3c3be6be2544b6e57d872fdc8cf63d39348"
+    },
+    "64k/hsk/cmn-爱好.mp3": {
+      "path": "64k/hsk/cmn-爱好.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747e0f11636b9b5fa5469f06f2dae8ab6c2e84c3",
+      "size": 10656,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/747e0f11636b9b5fa5469f06f2dae8ab6c2e84c3"
+    },
+    "64k/hsk/cmn-儿童.mp3": {
+      "path": "64k/hsk/cmn-儿童.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6744a58a00f1aaab9507db7ccfb56f9999253559",
+      "size": 11910,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/6744a58a00f1aaab9507db7ccfb56f9999253559"
+    },
+    "64k/hsk/cmn-耳朵.mp3": {
+      "path": "64k/hsk/cmn-耳朵.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b921ce127a8735378ab16c217b93fe07c60b2846",
+      "size": 10030,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/b921ce127a8735378ab16c217b93fe07c60b2846"
+    },
+    "64k/hsk/cmn-二氧化碳.mp3": {
+      "path": "64k/hsk/cmn-二氧化碳.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72daf99765f0a3960640f69c06c5722e43af791a",
+      "size": 15881,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/72daf99765f0a3960640f69c06c5722e43af791a"
+    },
+    "64k/hsk/cmn-安全.mp3": {
+      "path": "64k/hsk/cmn-安全.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617497a3983ffef9af1dd5b39fbfbddcf05400da",
+      "size": 11492,
+      "url": "https://api.github.com/repos/hugolpz/audio-cmn/git/blobs/617497a3983ffef9af1dd5b39fbfbddcf05400da"
+    }
+  },
+  "missingDemos": [
+    {
+      "item": "ong",
+      "reason": "No exact standalone recording; example audio remains available"
+    }
+  ]
+}

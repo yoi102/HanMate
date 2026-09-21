@@ -1,0 +1,36 @@
+{
+  "characterSlots": 256,
+  "pairedSlots": 251,
+  "unpaired": [
+    {
+      "item": "g",
+      "character": "葛",
+      "reading": "ge3"
+    },
+    {
+      "item": "x",
+      "character": "习",
+      "reading": "xi2"
+    },
+    {
+      "item": "o",
+      "character": "噢",
+      "reading": "o1"
+    },
+    {
+      "item": "o",
+      "character": "哦",
+      "reading": "o2"
+    },
+    {
+      "item": "o",
+      "character": "哦",
+      "reading": "o4"
+    }
+  ],
+  "newWords": 42,
+  "courseContents": 417,
+  "audioAssets": 394,
+  "applicationTests": "NOT RUN per user",
+  "pairRule": "highlighted token matches exact character/base/tone"
+}

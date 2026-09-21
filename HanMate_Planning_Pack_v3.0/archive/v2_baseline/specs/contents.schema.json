@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contents.schema.json",
+  "title": "HanMate contents.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "contents": {
+      "type": "array",
+      "items": {
+        "$ref": "content.schema.json"
+      },
+      "maxItems": 10000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "contents"
+  ],
+  "additionalProperties": false
+}

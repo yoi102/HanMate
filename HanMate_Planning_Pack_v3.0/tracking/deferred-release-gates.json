@@ -1,0 +1,79 @@
+{
+  "scope": "PUBLIC_RELEASE_GATE_LEDGER",
+  "decision": "ADR-106",
+  "internalCompletionDoesNotApproveRelease": true,
+  "gates": [
+    {
+      "id": "RG-01",
+      "title": "正式内容/拼音/释义/译文终审",
+      "workPackages": [
+        "W5-02",
+        "W5-07"
+      ],
+      "status": "DEFERRED",
+      "required": "真实独立审核人及当前哈希对应证据",
+      "evidence": null
+    },
+    {
+      "id": "RG-02",
+      "title": "默认词库及录音许可/分发权利",
+      "workPackages": [
+        "W5-02"
+      ],
+      "status": "DEFERRED",
+      "required": "词库授权与CC BY-SA确切版本；独立ong录音授权",
+      "evidence": null
+    },
+    {
+      "id": "RG-03",
+      "title": "正式身份与签名、安装升级",
+      "workPackages": [
+        "W5-03"
+      ],
+      "status": "DEFERRED",
+      "required": "发布者提供真实身份和签名；新装/升级保数据证据",
+      "evidence": null
+    },
+    {
+      "id": "RG-04",
+      "title": "商店资料与最终隐私声明",
+      "workPackages": [
+        "W5-04"
+      ],
+      "status": "DEFERRED",
+      "required": "发布者联系/地区/分级/政策URL；最终实际包核对",
+      "evidence": null
+    },
+    {
+      "id": "RG-05",
+      "title": "设备性能与访问性",
+      "workPackages": [
+        "W5-01"
+      ],
+      "status": "DEFERRED",
+      "required": "参考设备性能、键盘/读屏、大字体与音频路由压力",
+      "evidence": null
+    },
+    {
+      "id": "RG-06",
+      "title": "全量回归及缺陷闭环",
+      "workPackages": [
+        "W5-05",
+        "W5-07"
+      ],
+      "status": "DEFERRED",
+      "required": "适用P0平台执行；HM-D019关闭；原176完整矩阵",
+      "evidence": null
+    },
+    {
+      "id": "RG-07",
+      "title": "正式发布与归档",
+      "workPackages": [
+        "W5-06"
+      ],
+      "status": "DEFERRED",
+      "required": "上述门禁闭合、最终可复现包和恢复交付记录；公开提交另行明确授权",
+      "evidence": null
+    }
+  ]
+}

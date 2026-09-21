@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:HanMate.App.Controls"
+             x:Class="HanMate.App.Pages.SettingsPage"
+             Style="{StaticResource LibraryPage}"
+             Title="{Binding NavSettings}">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10" MaximumWidthRequest="760">
+            <Label Text="{Binding SettingsLanguageGroup}" Style="{StaticResource LibrarySection}" />
+            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="0" Text="简体中文" Clicked="OnChineseClicked" />
+                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="1" Text="日本語" Clicked="OnJapaneseClicked" />
+                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="2" Text="English" Clicked="OnEnglishClicked" />
+            </Grid>
+            <Label x:Name="SaveStatusLabel" IsVisible="False" Style="{StaticResource LibraryMuted}" />
+            <Label Text="{Binding SettingsContentGroup}" Style="{StaticResource LibrarySection}" />
+            <controls:NavigationTile Compact="True" Title="{Binding ManageResources}" Clicked="OnResourcesClicked" ActionId="Settings.Resources" />
+            <controls:NavigationTile Compact="True" Title="{Binding ManageDictionaries}" Clicked="OnDictionariesClicked" ActionId="Settings.Dictionaries" />
+            <Label Text="{Binding SettingsAudioGroup}" Style="{StaticResource LibrarySection}" />
+            <controls:NavigationTile Compact="True" Title="{Binding SpeechSettings}" Clicked="OnSpeechClicked" ActionId="Settings.Speech" />
+            <controls:NavigationTile Compact="True" Title="{Binding PinyinResources}" Clicked="OnPinyinResourcesClicked" ActionId="Settings.PinyinResources" />
+            <Label Text="{Binding SettingsDataGroup}" Style="{StaticResource LibrarySection}" />
+            <controls:NavigationTile Compact="True" Title="{Binding ExportBackup}" Clicked="OnBackupClicked" ActionId="Settings.Backup" />
+            <controls:NavigationTile Compact="True" Title="{Binding PrivacyNotice}" Clicked="OnPrivacyClicked" ActionId="Settings.Privacy" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,4387 @@
+{
+  "schemaVersion": 2,
+  "contents": [
+    {
+      "schemaVersion": 2,
+      "id": "aad9efcc-f575-5938-b112-eb763921a2d1",
+      "kind": "word",
+      "origin": "personal",
+      "title": "你好",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "3c0317ba-11c2-5638-a6aa-46875e9635f7",
+          "role": "headword",
+          "text": "你好",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "7dc2d79e-eccd-5605-9d22-7637fce93eb5",
+              "start": 0,
+              "length": 1,
+              "text": "你",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ni",
+                "tone": 3,
+                "erhua": false,
+                "display": "nǐ"
+              },
+              "annotationSource": "manual",
+              "locked": true,
+              "reviewState": "confirmed"
+            },
+            {
+              "id": "ee2ad501-07c1-538c-b877-25cbef48c6ef",
+              "start": 1,
+              "length": 1,
+              "text": "好",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hao",
+                "tone": 3,
+                "erhua": false,
+                "display": "hǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "36eca7e7-449e-5cbe-8922-0fae236147ec",
+              "start": 0,
+              "length": 2,
+              "text": "你好",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "7dc2d79e-eccd-5605-9d22-7637fce93eb5",
+                "ee2ad501-07c1-538c-b877-25cbef48c6ef"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "こんにちは",
+            "en": "hello"
+          }
+        },
+        {
+          "id": "2637d9e0-eb2a-5317-891b-00d4791f2d1d",
+          "role": "example",
+          "text": "你好，欢迎。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "tokens": [
+            {
+              "id": "afea319b-b2bd-59dd-a44f-1d3a7914fd94",
+              "start": 0,
+              "length": 1,
+              "text": "你",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ni",
+                "tone": 3,
+                "erhua": false,
+                "display": "nǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "540f3ce5-36df-5f02-9bb9-ab202f5223c5",
+              "start": 1,
+              "length": 1,
+              "text": "好",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hao",
+                "tone": 3,
+                "erhua": false,
+                "display": "hǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "d36e7ea2-6bbe-5361-b01e-419e635a9e02",
+              "start": 2,
+              "length": 1,
+              "text": "，",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            },
+            {
+              "id": "0b922e26-0261-5f13-8c05-8ea03a25064a",
+              "start": 3,
+              "length": 1,
+              "text": "欢",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "huan",
+                "tone": 1,
+                "erhua": false,
+                "display": "huān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "e2b6411f-7fc4-5c12-8f96-f45ef4576cef",
+              "start": 4,
+              "length": 1,
+              "text": "迎",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ying",
+                "tone": 2,
+                "erhua": false,
+                "display": "yíng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "182e9872-b400-550b-8524-66006970ac48",
+              "start": 5,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "b8b88308-7578-5b06-b936-3e36d35930ec",
+              "start": 0,
+              "length": 3,
+              "text": "你好，",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "afea319b-b2bd-59dd-a44f-1d3a7914fd94",
+                "540f3ce5-36df-5f02-9bb9-ab202f5223c5",
+                "d36e7ea2-6bbe-5361-b01e-419e635a9e02"
+              ]
+            },
+            {
+              "id": "3ad94117-f683-592e-88cd-0c1f9ee0f2b5",
+              "start": 3,
+              "length": 3,
+              "text": "欢迎。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "0b922e26-0261-5f13-8c05-8ea03a25064a",
+                "e2b6411f-7fc4-5c12-8f96-f45ef4576cef",
+                "182e9872-b400-550b-8524-66006970ac48"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "こんにちは。ようこそ。",
+            "en": "Hello, welcome."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "88eca1f4-5e2e-5be5-ae3b-7fac3081fc06",
+      "kind": "word",
+      "origin": "personal",
+      "title": "学习",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "88780d73-5150-50b4-8092-40a4a055b8ba",
+          "role": "headword",
+          "text": "学习",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "142f8652-638a-5ad7-a42d-eb79f1c2fdda",
+              "start": 0,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "9a1abab0-7cc6-5240-9a85-7f7667ed90fe",
+              "start": 1,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "4808209b-9249-5884-83da-d478135c896d",
+              "start": 0,
+              "length": 2,
+              "text": "学习",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "142f8652-638a-5ad7-a42d-eb79f1c2fdda",
+                "9a1abab0-7cc6-5240-9a85-7f7667ed90fe"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "学ぶ",
+            "en": "to learn"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "cfc0e94d-b118-56fc-9472-350acfacaf62",
+      "kind": "word",
+      "origin": "personal",
+      "title": "银行",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "89f232de-ed01-5726-a4f5-531b749b58ba",
+          "role": "headword",
+          "text": "银行",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "150403bb-bbd8-5d42-a292-a65841a88000",
+              "start": 0,
+              "length": 1,
+              "text": "银",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "yin",
+                "tone": 2,
+                "erhua": false,
+                "display": "yín"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "5321ecb8-9105-59cb-9187-55f7ac0fbcd4",
+              "start": 1,
+              "length": 1,
+              "text": "行",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hang",
+                "tone": 2,
+                "erhua": false,
+                "display": "háng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "be996cba-9499-5482-af56-9d7a8ea551b4",
+              "start": 0,
+              "length": 2,
+              "text": "银行",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "150403bb-bbd8-5d42-a292-a65841a88000",
+                "5321ecb8-9105-59cb-9187-55f7ac0fbcd4"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "銀行",
+            "en": "bank"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "0c7330d0-938c-57a0-8d14-2dd6048fe74c",
+      "kind": "word",
+      "origin": "personal",
+      "title": "行走",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "04dd3f1f-bfb9-5f20-b0f6-a82d0d8bbc8e",
+          "role": "headword",
+          "text": "行走",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "4dce1b56-e19b-5ae4-8331-eb0d2bff3d41",
+              "start": 0,
+              "length": 1,
+              "text": "行",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xing",
+                "tone": 2,
+                "erhua": false,
+                "display": "xíng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "d23ea3d6-0f6c-57a4-80d2-15a389a7cc55",
+              "start": 1,
+              "length": 1,
+              "text": "走",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zou",
+                "tone": 3,
+                "erhua": false,
+                "display": "zǒu"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "92a7a9b0-fd33-5b0c-a7a2-92df560a3721",
+              "start": 0,
+              "length": 2,
+              "text": "行走",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "4dce1b56-e19b-5ae4-8331-eb0d2bff3d41",
+                "d23ea3d6-0f6c-57a4-80d2-15a389a7cc55"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "歩く",
+            "en": "to walk"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "e3226df1-2d40-5d32-9ca0-c322220a379a",
+      "kind": "word",
+      "origin": "personal",
+      "title": "音乐",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "36fdb700-e7c4-58e3-bebf-c4f110f7cd36",
+          "role": "headword",
+          "text": "音乐",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "1c048a39-7d4b-5817-bbce-12a5d0239992",
+              "start": 0,
+              "length": 1,
+              "text": "音",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "yin",
+                "tone": 1,
+                "erhua": false,
+                "display": "yīn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f0ad8ef6-ef36-5783-99b2-9f1f5699da72",
+              "start": 1,
+              "length": 1,
+              "text": "乐",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "yue",
+                "tone": 4,
+                "erhua": false,
+                "display": "yuè"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "8195b47b-83b2-5169-8b29-a01b09b08d5f",
+              "start": 0,
+              "length": 2,
+              "text": "音乐",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "1c048a39-7d4b-5817-bbce-12a5d0239992",
+                "f0ad8ef6-ef36-5783-99b2-9f1f5699da72"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "音楽",
+            "en": "music"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "83e828ee-abac-52ec-a83a-8ec15b23963e",
+      "kind": "word",
+      "origin": "personal",
+      "title": "快乐",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "971936c9-0062-54d2-8e98-5e4e563ec0ab",
+          "role": "headword",
+          "text": "快乐",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "86cff866-875d-54a5-bf57-66762a0cb49e",
+              "start": 0,
+              "length": 1,
+              "text": "快",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "kuai",
+                "tone": 4,
+                "erhua": false,
+                "display": "kuài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6922dd8b-63db-59e1-a98a-d42d022919bb",
+              "start": 1,
+              "length": 1,
+              "text": "乐",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "le",
+                "tone": 4,
+                "erhua": false,
+                "display": "lè"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "5e296f3e-23c4-5266-b14a-e389523fc02b",
+              "start": 0,
+              "length": 2,
+              "text": "快乐",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "86cff866-875d-54a5-bf57-66762a0cb49e",
+                "6922dd8b-63db-59e1-a98a-d42d022919bb"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "楽しい",
+            "en": "happy"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "cf6a1d61-b2cf-5329-9ac8-36287a1c2f58",
+      "kind": "word",
+      "origin": "personal",
+      "title": "女儿",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "d6047fb1-2103-5d87-ad77-692a151e8fc6",
+          "role": "headword",
+          "text": "女儿",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "abba0ded-e02b-50f2-8951-7fabefd886fb",
+              "start": 0,
+              "length": 1,
+              "text": "女",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "nü",
+                "tone": 3,
+                "erhua": false,
+                "display": "nǚ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6b32b6ee-7ff0-57de-893d-552b7018585f",
+              "start": 1,
+              "length": 1,
+              "text": "儿",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "er",
+                "tone": 2,
+                "erhua": false,
+                "display": "ér"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "eca52e58-673b-5833-b41c-89fd277b3d2d",
+              "start": 0,
+              "length": 2,
+              "text": "女儿",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "abba0ded-e02b-50f2-8951-7fabefd886fb",
+                "6b32b6ee-7ff0-57de-893d-552b7018585f"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "娘",
+            "en": "daughter"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "13ec59e6-f210-5513-939b-59ef6c597c21",
+      "kind": "word",
+      "origin": "personal",
+      "title": "绿色",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "4cdf0f16-02ee-59b5-b4a3-b9e0f9ceeb26",
+          "role": "headword",
+          "text": "绿色",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "790c56bc-51f3-56be-9aef-d549eb948208",
+              "start": 0,
+              "length": 1,
+              "text": "绿",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "lü",
+                "tone": 4,
+                "erhua": false,
+                "display": "lǜ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "fa693a3c-b359-5f94-954c-11e7b94ad275",
+              "start": 1,
+              "length": 1,
+              "text": "色",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "se",
+                "tone": 4,
+                "erhua": false,
+                "display": "sè"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "540601da-043d-5e6c-8a0b-60dde98482cb",
+              "start": 0,
+              "length": 2,
+              "text": "绿色",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "790c56bc-51f3-56be-9aef-d549eb948208",
+                "fa693a3c-b359-5f94-954c-11e7b94ad275"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "緑色",
+            "en": "green"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "7a593e75-304c-583f-88ae-10d07cc61bbd",
+      "kind": "word",
+      "origin": "personal",
+      "title": "西安",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "af626924-e21b-5e9e-a0fb-f8db924be04c",
+          "role": "headword",
+          "text": "西安",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "2a9e816e-1f5e-553f-a87a-0276faa12a52",
+              "start": 0,
+              "length": 1,
+              "text": "西",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 1,
+                "erhua": false,
+                "display": "xī"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "4260a094-b04a-5476-af82-dc596fe5ddff",
+              "start": 1,
+              "length": 1,
+              "text": "安",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "an",
+                "tone": 1,
+                "erhua": false,
+                "display": "ān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "4634ec51-5578-5a8b-855c-e1c4175f8cd8",
+              "start": 0,
+              "length": 2,
+              "text": "西安",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "2a9e816e-1f5e-553f-a87a-0276faa12a52",
+                "4260a094-b04a-5476-af82-dc596fe5ddff"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "西安",
+            "en": "Xi’an"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "4d8dcfa7-2c21-5b0d-bbfe-5f0a6b6c7677",
+      "kind": "word",
+      "origin": "personal",
+      "title": "先",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "d222259a-4eb3-589a-9101-092d1e8a17bc",
+          "role": "headword",
+          "text": "先",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1
+          ],
+          "tokens": [
+            {
+              "id": "6486abb0-de61-5e1b-836d-da0dc322179b",
+              "start": 0,
+              "length": 1,
+              "text": "先",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xian",
+                "tone": 1,
+                "erhua": false,
+                "display": "xiān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "94eb87d6-f988-5c8c-9f89-8a01bae50dbe",
+              "start": 0,
+              "length": 1,
+              "text": "先",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "6486abb0-de61-5e1b-836d-da0dc322179b"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "先に",
+            "en": "first"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "226bbb2a-93f0-50a4-aa5a-97d96c00454d",
+      "kind": "word",
+      "origin": "personal",
+      "title": "妈妈",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "a600443e-de9d-5e6d-ae7d-a36233015e14",
+          "role": "headword",
+          "text": "妈妈",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "b2657dc0-56f2-53c5-82e4-d17d0ec2004e",
+              "start": 0,
+              "length": 1,
+              "text": "妈",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ma",
+                "tone": 1,
+                "erhua": false,
+                "display": "mā"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1bfbf9d0-73ac-511e-bab8-d3f112093db5",
+              "start": 1,
+              "length": 1,
+              "text": "妈",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ma",
+                "tone": 0,
+                "erhua": false,
+                "display": "ma"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "f3bdff54-e255-5dd1-9300-83d3ecd7c078",
+              "start": 0,
+              "length": 2,
+              "text": "妈妈",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "b2657dc0-56f2-53c5-82e4-d17d0ec2004e",
+                "1bfbf9d0-73ac-511e-bab8-d3f112093db5"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "お母さん",
+            "en": "mom"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "38c2e2f9-d0f7-5167-813a-6e397ace6d13",
+      "kind": "word",
+      "origin": "personal",
+      "title": "花儿",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "835e5c5b-62ca-5a4c-9dcc-3b2c7c287d15",
+          "role": "headword",
+          "text": "花儿",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "4cc3fdf4-d61c-58e8-b2b3-ca04ee2c1f35",
+              "start": 0,
+              "length": 2,
+              "text": "花儿",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hua",
+                "tone": 1,
+                "erhua": true,
+                "display": "huār"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "12c3c5f6-d7b7-5251-8b22-3ca86aa77e07",
+              "start": 0,
+              "length": 2,
+              "text": "花儿",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "4cc3fdf4-d61c-58e8-b2b3-ca04ee2c1f35"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "花",
+            "en": "flower"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "c86c4420-efce-5da3-be32-47a3894fe6c5",
+      "kind": "word",
+      "origin": "personal",
+      "title": "麻木",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "57004640-7f29-53b1-82b8-a7f10d04dc93",
+          "role": "headword",
+          "text": "麻木",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "ec04e58e-6959-59f5-961b-06ac981fc65e",
+              "start": 0,
+              "length": 1,
+              "text": "麻",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ma",
+                "tone": 2,
+                "erhua": false,
+                "display": "má"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "574a9fc9-c9de-5f50-bc7f-559c1a3f8332",
+              "start": 1,
+              "length": 1,
+              "text": "木",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "mu",
+                "tone": 4,
+                "erhua": false,
+                "display": "mù"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "2659e9d7-b503-5381-9c8c-3591b0e47b86",
+              "start": 0,
+              "length": 2,
+              "text": "麻木",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "ec04e58e-6959-59f5-961b-06ac981fc65e",
+                "574a9fc9-c9de-5f50-bc7f-559c1a3f8332"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "しびれる",
+            "en": "numb"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "8d0a92f0-f478-5242-933c-bc5ebc4de935",
+      "kind": "word",
+      "origin": "personal",
+      "title": "马上",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "2630a3f8-8db3-5146-88e6-25fae30d7a2c",
+          "role": "headword",
+          "text": "马上",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "872f241a-5744-5e2c-b5c0-6cdce478348b",
+              "start": 0,
+              "length": 1,
+              "text": "马",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ma",
+                "tone": 3,
+                "erhua": false,
+                "display": "mǎ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f1b31ff3-cd67-5072-a85a-8e68f9bc10e4",
+              "start": 1,
+              "length": 1,
+              "text": "上",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shang",
+                "tone": 4,
+                "erhua": false,
+                "display": "shàng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "00b5da2c-e427-590b-bccf-04ee26fb47a5",
+              "start": 0,
+              "length": 2,
+              "text": "马上",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "872f241a-5744-5e2c-b5c0-6cdce478348b",
+                "f1b31ff3-cd67-5072-a85a-8e68f9bc10e4"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "すぐに",
+            "en": "immediately"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "d6e8df22-a1d9-5147-b2df-40e73b5caca9",
+      "kind": "word",
+      "origin": "personal",
+      "title": "骂人",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "e5216dc4-af95-52df-9e8f-cd5fe3317c47",
+          "role": "headword",
+          "text": "骂人",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "e452b3c4-a611-511b-86cf-25e4c99aab55",
+              "start": 0,
+              "length": 1,
+              "text": "骂",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ma",
+                "tone": 4,
+                "erhua": false,
+                "display": "mà"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "ce1b09ae-afe7-5143-a346-0c33f7e4177b",
+              "start": 1,
+              "length": 1,
+              "text": "人",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ren",
+                "tone": 2,
+                "erhua": false,
+                "display": "rén"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "e870fc75-245a-56a1-b026-47a3bebdc710",
+              "start": 0,
+              "length": 2,
+              "text": "骂人",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "e452b3c4-a611-511b-86cf-25e4c99aab55",
+                "ce1b09ae-afe7-5143-a346-0c33f7e4177b"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "人をののしる",
+            "en": "to insult someone"
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "9fc65df4-78d4-5d16-b5ea-4b3d3a40751e",
+      "kind": "text",
+      "origin": "personal",
+      "title": "一起学习",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "60de0a11-e7e6-5187-925f-4c4a516ed3c6",
+          "role": "body",
+          "text": "你好！欢迎学习中文。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "tokens": [
+            {
+              "id": "83be553a-774e-5d54-9a9a-3da4817690d6",
+              "start": 0,
+              "length": 1,
+              "text": "你",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ni",
+                "tone": 3,
+                "erhua": false,
+                "display": "nǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "75854454-4ee2-5c8b-8bfa-c479cbcf0832",
+              "start": 1,
+              "length": 1,
+              "text": "好",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hao",
+                "tone": 3,
+                "erhua": false,
+                "display": "hǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "71b26af7-cea3-5f52-a7c0-8cba5d8ff80a",
+              "start": 2,
+              "length": 1,
+              "text": "！",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            },
+            {
+              "id": "ae15a135-6aa2-58a7-a6c0-35c61a3ab71c",
+              "start": 3,
+              "length": 1,
+              "text": "欢",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "huan",
+                "tone": 1,
+                "erhua": false,
+                "display": "huān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "97d1e61b-573f-5929-afc6-43b7b78be63e",
+              "start": 4,
+              "length": 1,
+              "text": "迎",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ying",
+                "tone": 2,
+                "erhua": false,
+                "display": "yíng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1fd0ca11-c562-53f6-82f0-a5173eb931c5",
+              "start": 5,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "4e3212e2-449c-5823-9230-d664dd878cf7",
+              "start": 6,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "a89df59e-a896-5a99-ba2f-3629ba480979",
+              "start": 7,
+              "length": 1,
+              "text": "中",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhong",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhōng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "48a65204-7ddc-5e17-94e7-8a6ddc80185d",
+              "start": 8,
+              "length": 1,
+              "text": "文",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wen",
+                "tone": 2,
+                "erhua": false,
+                "display": "wén"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "19313610-e154-587c-9ec0-006468cd4d2e",
+              "start": 9,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "652712c1-41c0-56ee-9cfe-88c19cf0c793",
+              "start": 0,
+              "length": 3,
+              "text": "你好！",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "83be553a-774e-5d54-9a9a-3da4817690d6",
+                "75854454-4ee2-5c8b-8bfa-c479cbcf0832",
+                "71b26af7-cea3-5f52-a7c0-8cba5d8ff80a"
+              ]
+            },
+            {
+              "id": "85afe004-e30f-5ff9-ac3a-5cda55725762",
+              "start": 3,
+              "length": 7,
+              "text": "欢迎学习中文。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "ae15a135-6aa2-58a7-a6c0-35c61a3ab71c",
+                "97d1e61b-573f-5929-afc6-43b7b78be63e",
+                "1fd0ca11-c562-53f6-82f0-a5173eb931c5",
+                "4e3212e2-449c-5823-9230-d664dd878cf7",
+                "a89df59e-a896-5a99-ba2f-3629ba480979",
+                "48a65204-7ddc-5e17-94e7-8a6ddc80185d",
+                "19313610-e154-587c-9ec0-006468cd4d2e"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "こんにちは。一緒に中国語を学びましょう。",
+            "en": "Hello! Welcome to learning Chinese."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "2383fe34-9063-525d-be5d-4ac059347a31",
+      "kind": "poem",
+      "origin": "personal",
+      "title": "读书小句（原创测试）",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "beginner",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "hanmate-planning-fixture-v2",
+        "type": "testFixture",
+        "authorProvider": "AI-assisted project test fixture",
+        "reference": "HanMate planning package v2.0 examples",
+        "licenseIdentifier": "Project-test-fixture",
+        "permissionNotes": "本次创建的工程测试输入；不含第三方整篇教材或录音。并非正式内容终审，发布前仍需校对。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft"
+      },
+      "textUnits": [
+        {
+          "id": "169e7ba5-7ec8-53fa-9c37-b0ab3fe9a78e",
+          "role": "body",
+          "text": "今天读好书，\n明天学新知。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "tokens": [
+            {
+              "id": "31d70606-380d-5bb7-b15e-3295168a88ef",
+              "start": 0,
+              "length": 1,
+              "text": "今",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "jin",
+                "tone": 1,
+                "erhua": false,
+                "display": "jīn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f9f46f78-0b02-5827-8535-1802121c21f2",
+              "start": 1,
+              "length": 1,
+              "text": "天",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "tian",
+                "tone": 1,
+                "erhua": false,
+                "display": "tiān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "aa8cc61f-9e4f-5c97-9f4e-89e687159119",
+              "start": 2,
+              "length": 1,
+              "text": "读",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "du",
+                "tone": 2,
+                "erhua": false,
+                "display": "dú"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6b7d9260-91f8-586a-92b6-f782a4873503",
+              "start": 3,
+              "length": 1,
+              "text": "好",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "hao",
+                "tone": 3,
+                "erhua": false,
+                "display": "hǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8d9a42e1-23d2-5d17-b49e-dc9a3fc82e25",
+              "start": 4,
+              "length": 1,
+              "text": "书",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shu",
+                "tone": 1,
+                "erhua": false,
+                "display": "shū"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6792a869-df8c-5473-b7b2-6776271a654e",
+              "start": 5,
+              "length": 1,
+              "text": "，",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            },
+            {
+              "id": "60639775-5ad4-5f4b-8c0a-443b890cc8af",
+              "start": 6,
+              "length": 1,
+              "text": "\n",
+              "kind": "whitespace",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            },
+            {
+              "id": "46f1907a-817b-5ccf-96b9-551136ca224f",
+              "start": 7,
+              "length": 1,
+              "text": "明",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ming",
+                "tone": 2,
+                "erhua": false,
+                "display": "míng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6d996d66-2791-56fc-aa40-738cc859d043",
+              "start": 8,
+              "length": 1,
+              "text": "天",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "tian",
+                "tone": 1,
+                "erhua": false,
+                "display": "tiān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8202d681-5359-5e2c-8233-15ad8c81eee1",
+              "start": 9,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "82570e2c-f2f5-5dbf-a233-99399821fba3",
+              "start": 10,
+              "length": 1,
+              "text": "新",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xin",
+                "tone": 1,
+                "erhua": false,
+                "display": "xīn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f09e6d54-d558-58fe-ae8c-a874a88c982a",
+              "start": 11,
+              "length": 1,
+              "text": "知",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhi",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhī"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "2a8a7a5f-4d0a-5f15-8769-1352bb50e8ff",
+              "start": 12,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "9342fca2-24e6-533a-9b13-037054aaf056",
+              "start": 0,
+              "length": 6,
+              "text": "今天读好书，",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "31d70606-380d-5bb7-b15e-3295168a88ef",
+                "f9f46f78-0b02-5827-8535-1802121c21f2",
+                "aa8cc61f-9e4f-5c97-9f4e-89e687159119",
+                "6b7d9260-91f8-586a-92b6-f782a4873503",
+                "8d9a42e1-23d2-5d17-b49e-dc9a3fc82e25",
+                "6792a869-df8c-5473-b7b2-6776271a654e"
+              ]
+            },
+            {
+              "id": "73a9b998-313a-5f9c-b755-a1e7bf68eefe",
+              "start": 6,
+              "length": 1,
+              "text": "\n",
+              "kind": "layout",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "60639775-5ad4-5f4b-8c0a-443b890cc8af"
+              ]
+            },
+            {
+              "id": "7d7c1145-5dc8-5ebe-a1b8-14ee14dd9ba1",
+              "start": 7,
+              "length": 6,
+              "text": "明天学新知。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "46f1907a-817b-5ccf-96b9-551136ca224f",
+                "6d996d66-2791-56fc-aa40-738cc859d043",
+                "8202d681-5359-5e2c-8233-15ad8c81eee1",
+                "82570e2c-f2f5-5dbf-a233-99399821fba3",
+                "f09e6d54-d558-58fe-ae8c-a874a88c982a",
+                "2a8a7a5f-4d0a-5f15-8769-1352bb50e8ff"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "今日はよい本を読み、明日は新しいことを学ぶ。",
+            "en": "Read a good book today; learn something new tomorrow."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "f7d967d2-9c45-5eeb-b8d4-19d4939dc60d",
+      "kind": "grammar",
+      "origin": "resource",
+      "title": "“在”表示位置",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "grammar-location",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-1"
+      },
+      "textUnits": [
+        {
+          "id": "036b2167-231b-50d6-a0de-65f2a4410021",
+          "role": "grammarExplanation",
+          "text": "在表示位置。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "tokens": [
+            {
+              "id": "fe23ef39-ab2c-5391-ac63-eb5dbd4096bc",
+              "start": 0,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "a0db846d-36ab-593d-90d0-28893354e229",
+              "start": 1,
+              "length": 1,
+              "text": "表",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "biao",
+                "tone": 3,
+                "erhua": false,
+                "display": "biǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "415318fb-6879-5d78-b2af-70c959af69e1",
+              "start": 2,
+              "length": 1,
+              "text": "示",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shi",
+                "tone": 4,
+                "erhua": false,
+                "display": "shì"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "11326960-a70c-53b0-88e9-33cae634bcef",
+              "start": 3,
+              "length": 1,
+              "text": "位",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wei",
+                "tone": 4,
+                "erhua": false,
+                "display": "wèi"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6c64a2d2-baff-5d4b-a45b-66a0bfba4286",
+              "start": 4,
+              "length": 1,
+              "text": "置",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhi",
+                "tone": 4,
+                "erhua": false,
+                "display": "zhì"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "0952d17a-7d81-5955-849c-22552bb4b0b6",
+              "start": 5,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "aa72b93d-9969-5583-8667-83c93c99eec2",
+              "start": 0,
+              "length": 6,
+              "text": "在表示位置。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "fe23ef39-ab2c-5391-ac63-eb5dbd4096bc",
+                "a0db846d-36ab-593d-90d0-28893354e229",
+                "415318fb-6879-5d78-b2af-70c959af69e1",
+                "11326960-a70c-53b0-88e9-33cae634bcef",
+                "6c64a2d2-baff-5d4b-a45b-66a0bfba4286",
+                "0952d17a-7d81-5955-849c-22552bb4b0b6"
+              ]
+            }
+          ],
+          "translations": {}
+        },
+        {
+          "id": "7ffca496-a8b5-5c57-ae2b-2f3620851121",
+          "role": "example",
+          "text": "我在学校学习。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "tokens": [
+            {
+              "id": "16dc6b8a-978c-5255-8041-477c5d8aed7b",
+              "start": 0,
+              "length": 1,
+              "text": "我",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wo",
+                "tone": 3,
+                "erhua": false,
+                "display": "wǒ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6fcaaec1-1785-5c12-a4fe-c23a569176a4",
+              "start": 1,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f11d293f-3365-59bd-a80b-747bf939d131",
+              "start": 2,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1d0ccad8-542b-5b11-bbe3-d7d32ee43ab4",
+              "start": 3,
+              "length": 1,
+              "text": "校",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xiao",
+                "tone": 4,
+                "erhua": false,
+                "display": "xiào"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "d54e461b-9ed7-5e29-b275-27764a9a8703",
+              "start": 4,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "a900eca0-5911-53bc-8231-024f9bfd231d",
+              "start": 5,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "e0328703-5c82-5aa1-b9c0-2aad80233752",
+              "start": 6,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "f11e5c24-2b48-5b04-9ce8-cf0e9e3f525a",
+              "start": 0,
+              "length": 7,
+              "text": "我在学校学习。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "16dc6b8a-978c-5255-8041-477c5d8aed7b",
+                "6fcaaec1-1785-5c12-a4fe-c23a569176a4",
+                "f11d293f-3365-59bd-a80b-747bf939d131",
+                "1d0ccad8-542b-5b11-bbe3-d7d32ee43ab4",
+                "d54e461b-9ed7-5e29-b275-27764a9a8703",
+                "a900eca0-5911-53bc-8231-024f9bfd231d",
+                "e0328703-5c82-5aa1-b9c0-2aad80233752"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "私は学校で勉強します。",
+            "en": "I study at school."
+          }
+        },
+        {
+          "id": "9a33ef90-7245-56f6-afe2-97927f5e3146",
+          "role": "example",
+          "text": "他在家看书。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "tokens": [
+            {
+              "id": "871042f9-0507-5398-b751-21a27cb59c42",
+              "start": 0,
+              "length": 1,
+              "text": "他",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ta",
+                "tone": 1,
+                "erhua": false,
+                "display": "tā"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "89a9c04c-bf96-5b2f-bcdc-dc3abb1a68c2",
+              "start": 1,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "ae3074d3-a76d-5dd3-8326-dd4effd15b66",
+              "start": 2,
+              "length": 1,
+              "text": "家",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "jia",
+                "tone": 1,
+                "erhua": false,
+                "display": "jiā"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "541b625d-6ff2-5f27-b51b-ff15f653d254",
+              "start": 3,
+              "length": 1,
+              "text": "看",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "kan",
+                "tone": 4,
+                "erhua": false,
+                "display": "kàn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "0b286dab-5ed2-5fd3-ab4e-a765865210cb",
+              "start": 4,
+              "length": 1,
+              "text": "书",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shu",
+                "tone": 1,
+                "erhua": false,
+                "display": "shū"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f65b92c7-0dec-5b9a-acaa-3e8a81b122d2",
+              "start": 5,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "0b94b60b-ca77-5afd-8757-357548198637",
+              "start": 0,
+              "length": 6,
+              "text": "他在家看书。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "871042f9-0507-5398-b751-21a27cb59c42",
+                "89a9c04c-bf96-5b2f-bcdc-dc3abb1a68c2",
+                "ae3074d3-a76d-5dd3-8326-dd4effd15b66",
+                "541b625d-6ff2-5f27-b51b-ff15f653d254",
+                "0b286dab-5ed2-5fd3-ab4e-a765865210cb",
+                "f65b92c7-0dec-5b9a-acaa-3e8a81b122d2"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "彼は家で本を読みます。",
+            "en": "He reads at home."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z",
+      "grammar": {
+        "patternParts": [
+          {
+            "kind": "slot",
+            "text": "主语"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "literal",
+            "text": "在"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "slot",
+            "text": "地点"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "slot",
+            "text": "动作"
+          }
+        ],
+        "patternTranslations": {
+          "ja": "主語＋在＋場所＋動作",
+          "en": "Subject + 在 + place + action"
+        },
+        "explanationUnitIds": [
+          "036b2167-231b-50d6-a0de-65f2a4410021"
+        ],
+        "exampleUnitIds": [
+          "7ffca496-a8b5-5c57-ae2b-2f3620851121",
+          "9a33ef90-7245-56f6-afe2-97927f5e3146"
+        ],
+        "noteUnitIds": [],
+        "topicCodes": [
+          "location"
+        ]
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "id": "b7f6b0a3-4a5b-5de3-a7c7-1f8be7735b10",
+      "kind": "grammar",
+      "origin": "resource",
+      "title": "“正在”表示进行",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "grammar-progressive",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-2"
+      },
+      "textUnits": [
+        {
+          "id": "20931786-005f-5d81-b37e-c0bf2ae36f60",
+          "role": "grammarExplanation",
+          "text": "正在表示动作进行。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "tokens": [
+            {
+              "id": "efbd0516-d901-56b1-9fa8-8e1129526a6a",
+              "start": 0,
+              "length": 1,
+              "text": "正",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zheng",
+                "tone": 4,
+                "erhua": false,
+                "display": "zhèng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "120a9d8c-e579-50d6-9c90-d9b901b60141",
+              "start": 1,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "5f54b1e2-960c-547c-b4d1-39224f087a79",
+              "start": 2,
+              "length": 1,
+              "text": "表",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "biao",
+                "tone": 3,
+                "erhua": false,
+                "display": "biǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "c2bc66cf-e082-5565-a7db-272283e5f5ed",
+              "start": 3,
+              "length": 1,
+              "text": "示",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shi",
+                "tone": 4,
+                "erhua": false,
+                "display": "shì"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "ce558ba9-a7f7-59fe-bc8a-a53c1f410778",
+              "start": 4,
+              "length": 1,
+              "text": "动",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "dong",
+                "tone": 4,
+                "erhua": false,
+                "display": "dòng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "e57a4e68-ab25-56ab-87ff-e70514141019",
+              "start": 5,
+              "length": 1,
+              "text": "作",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zuo",
+                "tone": 4,
+                "erhua": false,
+                "display": "zuò"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "051a75fc-7d47-549c-a5bd-9dfe51402b91",
+              "start": 6,
+              "length": 1,
+              "text": "进",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "jin",
+                "tone": 4,
+                "erhua": false,
+                "display": "jìn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "2d1f1970-00f5-5186-9f71-5b3096b92dd4",
+              "start": 7,
+              "length": 1,
+              "text": "行",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xing",
+                "tone": 2,
+                "erhua": false,
+                "display": "xíng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "61b2113a-9dab-5f29-9558-2d97fe5045cc",
+              "start": 8,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "35fa43a0-ba48-5c5f-b52e-fad020c4b9a7",
+              "start": 0,
+              "length": 9,
+              "text": "正在表示动作进行。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "efbd0516-d901-56b1-9fa8-8e1129526a6a",
+                "120a9d8c-e579-50d6-9c90-d9b901b60141",
+                "5f54b1e2-960c-547c-b4d1-39224f087a79",
+                "c2bc66cf-e082-5565-a7db-272283e5f5ed",
+                "ce558ba9-a7f7-59fe-bc8a-a53c1f410778",
+                "e57a4e68-ab25-56ab-87ff-e70514141019",
+                "051a75fc-7d47-549c-a5bd-9dfe51402b91",
+                "2d1f1970-00f5-5186-9f71-5b3096b92dd4",
+                "61b2113a-9dab-5f29-9558-2d97fe5045cc"
+              ]
+            }
+          ],
+          "translations": {}
+        },
+        {
+          "id": "cf9af896-6f6b-5fc3-a5b8-9f9c2c80a285",
+          "role": "example",
+          "text": "我正在吃饭。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "tokens": [
+            {
+              "id": "7ef5d157-3278-5efa-b40e-6064c3d7eb99",
+              "start": 0,
+              "length": 1,
+              "text": "我",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wo",
+                "tone": 3,
+                "erhua": false,
+                "display": "wǒ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "05fe7e94-1d4c-50e2-9671-b9d54002e20f",
+              "start": 1,
+              "length": 1,
+              "text": "正",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zheng",
+                "tone": 4,
+                "erhua": false,
+                "display": "zhèng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "17ed2155-2099-55d3-a85a-d9a31122229e",
+              "start": 2,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "b79456a9-bdb1-5c82-a3e9-f1137bd4be71",
+              "start": 3,
+              "length": 1,
+              "text": "吃",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "chi",
+                "tone": 1,
+                "erhua": false,
+                "display": "chī"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "381430a2-0b8d-5433-9922-6f2575cab0ff",
+              "start": 4,
+              "length": 1,
+              "text": "饭",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "fan",
+                "tone": 4,
+                "erhua": false,
+                "display": "fàn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "9dcd67a8-c7c3-58ae-b254-17dd26fadc97",
+              "start": 5,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "dcfce370-1d0f-5243-81ad-7ad6af501e7e",
+              "start": 0,
+              "length": 6,
+              "text": "我正在吃饭。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "7ef5d157-3278-5efa-b40e-6064c3d7eb99",
+                "05fe7e94-1d4c-50e2-9671-b9d54002e20f",
+                "17ed2155-2099-55d3-a85a-d9a31122229e",
+                "b79456a9-bdb1-5c82-a3e9-f1137bd4be71",
+                "381430a2-0b8d-5433-9922-6f2575cab0ff",
+                "9dcd67a8-c7c3-58ae-b254-17dd26fadc97"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "私は食事をしているところです。",
+            "en": "I am eating."
+          }
+        },
+        {
+          "id": "ca72d2ce-150c-5073-85a1-b285e2021473",
+          "role": "example",
+          "text": "他们正在学习。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "tokens": [
+            {
+              "id": "76a97255-ad55-5110-9a5d-62fc39d30fc6",
+              "start": 0,
+              "length": 1,
+              "text": "他",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ta",
+                "tone": 1,
+                "erhua": false,
+                "display": "tā"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "d7ef334b-7cf0-5c93-918d-c5cd35defbd0",
+              "start": 1,
+              "length": 1,
+              "text": "们",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "men",
+                "tone": 0,
+                "erhua": false,
+                "display": "men"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1d939e9a-cfc5-572f-9fac-5814223d1c45",
+              "start": 2,
+              "length": 1,
+              "text": "正",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zheng",
+                "tone": 4,
+                "erhua": false,
+                "display": "zhèng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "4f24db04-861f-5f91-9e04-41d2c6ec6035",
+              "start": 3,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8e0c7bf6-0d3a-5002-9ce3-35bc101bc5c5",
+              "start": 4,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "43fc2797-eb30-5c91-88cd-2cd4fbbd8255",
+              "start": 5,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6713e1c4-f60c-555e-9d5a-4841df69877c",
+              "start": 6,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "76f2c478-bab8-5b29-b4f8-d698b5b3f3a0",
+              "start": 0,
+              "length": 7,
+              "text": "他们正在学习。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "76a97255-ad55-5110-9a5d-62fc39d30fc6",
+                "d7ef334b-7cf0-5c93-918d-c5cd35defbd0",
+                "1d939e9a-cfc5-572f-9fac-5814223d1c45",
+                "4f24db04-861f-5f91-9e04-41d2c6ec6035",
+                "8e0c7bf6-0d3a-5002-9ce3-35bc101bc5c5",
+                "43fc2797-eb30-5c91-88cd-2cd4fbbd8255",
+                "6713e1c4-f60c-555e-9d5a-4841df69877c"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "彼らは勉強しています。",
+            "en": "They are studying."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z",
+      "grammar": {
+        "patternParts": [
+          {
+            "kind": "slot",
+            "text": "主语"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "literal",
+            "text": "正在"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "slot",
+            "text": "动作"
+          }
+        ],
+        "patternTranslations": {
+          "ja": "主語＋正在＋動作",
+          "en": "Subject + 正在 + action"
+        },
+        "explanationUnitIds": [
+          "20931786-005f-5d81-b37e-c0bf2ae36f60"
+        ],
+        "exampleUnitIds": [
+          "cf9af896-6f6b-5fc3-a5b8-9f9c2c80a285",
+          "ca72d2ce-150c-5073-85a1-b285e2021473"
+        ],
+        "noteUnitIds": [],
+        "topicCodes": [
+          "progressive"
+        ]
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "id": "de13ed86-06ee-53c1-be85-151e85c16b3c",
+      "kind": "grammar",
+      "origin": "resource",
+      "title": "“比”用于比较",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "grammar-comparison",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-3"
+      },
+      "textUnits": [
+        {
+          "id": "0b0cad0a-8db8-5874-ae5b-6f1590843629",
+          "role": "grammarExplanation",
+          "text": "比表示比较。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "tokens": [
+            {
+              "id": "5ec7b829-edf9-5721-b59d-ca03be1503ca",
+              "start": 0,
+              "length": 1,
+              "text": "比",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "bi",
+                "tone": 3,
+                "erhua": false,
+                "display": "bǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "dcd63b98-c1d2-5e12-9cc1-876140ad44ff",
+              "start": 1,
+              "length": 1,
+              "text": "表",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "biao",
+                "tone": 3,
+                "erhua": false,
+                "display": "biǎo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "e26618a1-caeb-5ec3-9abc-2ca706c707e0",
+              "start": 2,
+              "length": 1,
+              "text": "示",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shi",
+                "tone": 4,
+                "erhua": false,
+                "display": "shì"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "0939bfa7-dbf5-5ea2-9b49-53fb81f866ac",
+              "start": 3,
+              "length": 1,
+              "text": "比",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "bi",
+                "tone": 3,
+                "erhua": false,
+                "display": "bǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1251dab9-b867-50aa-b4c3-3939992d5d46",
+              "start": 4,
+              "length": 1,
+              "text": "较",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "jiao",
+                "tone": 4,
+                "erhua": false,
+                "display": "jiào"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "fb284513-b387-51ad-9486-bda069dde78a",
+              "start": 5,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "2b8d8147-227b-5674-8bb0-b8d33847890d",
+              "start": 0,
+              "length": 6,
+              "text": "比表示比较。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "5ec7b829-edf9-5721-b59d-ca03be1503ca",
+                "dcd63b98-c1d2-5e12-9cc1-876140ad44ff",
+                "e26618a1-caeb-5ec3-9abc-2ca706c707e0",
+                "0939bfa7-dbf5-5ea2-9b49-53fb81f866ac",
+                "1251dab9-b867-50aa-b4c3-3939992d5d46",
+                "fb284513-b387-51ad-9486-bda069dde78a"
+              ]
+            }
+          ],
+          "translations": {}
+        },
+        {
+          "id": "f89a7fa4-52b3-55fe-8238-23e77ccd6544",
+          "role": "example",
+          "text": "我比他高。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "tokens": [
+            {
+              "id": "fb8034b3-4ff8-5b09-a8ee-5d4dba76c265",
+              "start": 0,
+              "length": 1,
+              "text": "我",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wo",
+                "tone": 3,
+                "erhua": false,
+                "display": "wǒ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "94f3ee66-ffba-5927-9e12-296da3fcd3d4",
+              "start": 1,
+              "length": 1,
+              "text": "比",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "bi",
+                "tone": 3,
+                "erhua": false,
+                "display": "bǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8d94e15b-dfbe-5128-8b82-b778c7deb88e",
+              "start": 2,
+              "length": 1,
+              "text": "他",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "ta",
+                "tone": 1,
+                "erhua": false,
+                "display": "tā"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "61723c17-0f43-5fb9-913a-be067642ac94",
+              "start": 3,
+              "length": 1,
+              "text": "高",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "gao",
+                "tone": 1,
+                "erhua": false,
+                "display": "gāo"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "6a4847f1-debe-5759-998f-dc727f2b7739",
+              "start": 4,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "337421f5-a636-52a6-8b6f-b1e99250094f",
+              "start": 0,
+              "length": 5,
+              "text": "我比他高。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "fb8034b3-4ff8-5b09-a8ee-5d4dba76c265",
+                "94f3ee66-ffba-5927-9e12-296da3fcd3d4",
+                "8d94e15b-dfbe-5128-8b82-b778c7deb88e",
+                "61723c17-0f43-5fb9-913a-be067642ac94",
+                "6a4847f1-debe-5759-998f-dc727f2b7739"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "私は彼より背が高いです。",
+            "en": "I am taller than him."
+          }
+        },
+        {
+          "id": "9b09fc56-f61d-5351-8af0-b4611ba34ddc",
+          "role": "example",
+          "text": "今天比昨天热。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "tokens": [
+            {
+              "id": "86830b66-1d7e-5595-89f5-dade3ff43a49",
+              "start": 0,
+              "length": 1,
+              "text": "今",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "jin",
+                "tone": 1,
+                "erhua": false,
+                "display": "jīn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "2d676873-18c0-514b-951e-3e556f0ce30d",
+              "start": 1,
+              "length": 1,
+              "text": "天",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "tian",
+                "tone": 1,
+                "erhua": false,
+                "display": "tiān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "0a8e6048-83f0-5bc2-9020-50011710c732",
+              "start": 2,
+              "length": 1,
+              "text": "比",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "bi",
+                "tone": 3,
+                "erhua": false,
+                "display": "bǐ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "98622729-8caf-59db-b93f-6e49a3da18cf",
+              "start": 3,
+              "length": 1,
+              "text": "昨",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zuo",
+                "tone": 2,
+                "erhua": false,
+                "display": "zuó"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8081574e-e55e-5056-9625-f4aac02d2881",
+              "start": 4,
+              "length": 1,
+              "text": "天",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "tian",
+                "tone": 1,
+                "erhua": false,
+                "display": "tiān"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "d08afb5d-5d4c-54d2-9503-be085afbef71",
+              "start": 5,
+              "length": 1,
+              "text": "热",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "re",
+                "tone": 4,
+                "erhua": false,
+                "display": "rè"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "8fcb8eae-3f92-5b5e-a3b5-7a964485c29a",
+              "start": 6,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "c86b1bfa-8215-5893-b2a0-de56c9a09d21",
+              "start": 0,
+              "length": 7,
+              "text": "今天比昨天热。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "86830b66-1d7e-5595-89f5-dade3ff43a49",
+                "2d676873-18c0-514b-951e-3e556f0ce30d",
+                "0a8e6048-83f0-5bc2-9020-50011710c732",
+                "98622729-8caf-59db-b93f-6e49a3da18cf",
+                "8081574e-e55e-5056-9625-f4aac02d2881",
+                "d08afb5d-5d4c-54d2-9503-be085afbef71",
+                "8fcb8eae-3f92-5b5e-a3b5-7a964485c29a"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "今日は昨日より暑いです。",
+            "en": "Today is hotter than yesterday."
+          }
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z",
+      "grammar": {
+        "patternParts": [
+          {
+            "kind": "slot",
+            "text": "甲"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "literal",
+            "text": "比"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "slot",
+            "text": "乙"
+          },
+          {
+            "kind": "operator",
+            "text": "+"
+          },
+          {
+            "kind": "slot",
+            "text": "比较结果"
+          }
+        ],
+        "patternTranslations": {
+          "ja": "A＋比＋B＋比較の結果",
+          "en": "A + 比 + B + comparison result"
+        },
+        "explanationUnitIds": [
+          "0b0cad0a-8db8-5874-ae5b-6f1590843629"
+        ],
+        "exampleUnitIds": [
+          "f89a7fa4-52b3-55fe-8238-23e77ccd6544",
+          "9b09fc56-f61d-5351-8af0-b4611ba34ddc"
+        ],
+        "noteUnitIds": [],
+        "topicCodes": [
+          "comparison"
+        ]
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "id": "abce87d2-3137-5514-a42b-48a3632c9673",
+      "kind": "word",
+      "origin": "resource",
+      "title": "学习",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "lesson-word-study",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-4"
+      },
+      "textUnits": [
+        {
+          "id": "e7f98330-3f9e-5061-bcf8-e378d5aa84c1",
+          "role": "headword",
+          "text": "学习",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "cdf94c21-4a26-52da-85ab-bbd2cf15acfb",
+              "start": 0,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "0f61e53d-e33b-5163-9102-ffdb52e802ea",
+              "start": 1,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "1641ba60-b1f7-519d-b0ec-a8e96b445413",
+              "start": 0,
+              "length": 2,
+              "text": "学习",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "cdf94c21-4a26-52da-85ab-bbd2cf15acfb",
+                "0f61e53d-e33b-5163-9102-ffdb52e802ea"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "勉強する",
+            "en": "to study"
+          }
+        },
+        {
+          "id": "ed90010f-d44e-5686-b4a4-01360c16fd9f",
+          "role": "example",
+          "text": "我在学校学习。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "tokens": [
+            {
+              "id": "9be1e842-10a1-58b7-9758-9f8afc48a788",
+              "start": 0,
+              "length": 1,
+              "text": "我",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wo",
+                "tone": 3,
+                "erhua": false,
+                "display": "wǒ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "eb8dc5b8-f11a-5e7a-a2c1-e7b359865358",
+              "start": 1,
+              "length": 1,
+              "text": "在",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zai",
+                "tone": 4,
+                "erhua": false,
+                "display": "zài"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "3a637c39-169c-55ba-a8a2-3baaf6d7f32b",
+              "start": 2,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "f38b1ca3-2d1a-5b4f-9bd5-71513951657e",
+              "start": 3,
+              "length": 1,
+              "text": "校",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xiao",
+                "tone": 4,
+                "erhua": false,
+                "display": "xiào"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "cba95f69-af37-55d7-ae85-2e94657057cc",
+              "start": 4,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "250f57e7-bd99-53a6-a971-6a993cabafb8",
+              "start": 5,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "16a84e42-0a1e-5262-836d-fbb65c098026",
+              "start": 6,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "7c72bb1b-5c86-5270-a6e7-eaf2c4b644fb",
+              "start": 0,
+              "length": 7,
+              "text": "我在学校学习。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "9be1e842-10a1-58b7-9758-9f8afc48a788",
+                "eb8dc5b8-f11a-5e7a-a2c1-e7b359865358",
+                "3a637c39-169c-55ba-a8a2-3baaf6d7f32b",
+                "f38b1ca3-2d1a-5b4f-9bd5-71513951657e",
+                "cba95f69-af37-55d7-ae85-2e94657057cc",
+                "250f57e7-bd99-53a6-a971-6a993cabafb8",
+                "16a84e42-0a1e-5262-836d-fbb65c098026"
+              ]
+            }
+          ],
+          "translations": {}
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "1e4ca243-aa8a-5268-ab8c-90fafe2e3b86",
+      "kind": "word",
+      "origin": "resource",
+      "title": "中国",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "dict-china",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-1"
+      },
+      "textUnits": [
+        {
+          "id": "fa6babd8-3d33-54a5-881a-8c8f79bf7455",
+          "role": "headword",
+          "text": "中国",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "21c2ea4f-6e22-55bc-85bd-96f36e2ded03",
+              "start": 0,
+              "length": 1,
+              "text": "中",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhong",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhōng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "4de989bf-38fe-54f1-9916-80d98330bea0",
+              "start": 1,
+              "length": 1,
+              "text": "国",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "guo",
+                "tone": 2,
+                "erhua": false,
+                "display": "guó"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "a8f6e87d-8574-5c71-aaa1-30df23479b57",
+              "start": 0,
+              "length": 2,
+              "text": "中国",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "21c2ea4f-6e22-55bc-85bd-96f36e2ded03",
+                "4de989bf-38fe-54f1-9916-80d98330bea0"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "中国",
+            "en": "China"
+          }
+        },
+        {
+          "id": "05781bd4-eed1-5466-aeca-4ca00f09e8f0",
+          "role": "definition",
+          "text": "中国。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tokens": [
+            {
+              "id": "a53bd36e-0332-52f8-bc74-4bc16e0ec54f",
+              "start": 0,
+              "length": 1,
+              "text": "中",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhong",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhōng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "add0e793-5ca7-5196-a9d0-ea2692ebce59",
+              "start": 1,
+              "length": 1,
+              "text": "国",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "guo",
+                "tone": 2,
+                "erhua": false,
+                "display": "guó"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "a356fb9f-98ff-594a-95f6-5c2d09c1ca11",
+              "start": 2,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "19c4fa0f-47dd-5060-a60e-4b5aea3e01cb",
+              "start": 0,
+              "length": 3,
+              "text": "中国。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "a53bd36e-0332-52f8-bc74-4bc16e0ec54f",
+                "add0e793-5ca7-5196-a9d0-ea2692ebce59",
+                "a356fb9f-98ff-594a-95f6-5c2d09c1ca11"
+              ]
+            }
+          ],
+          "translations": {}
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "971c6997-c0db-5d8f-beca-28d4aa5ff90b",
+      "kind": "word",
+      "origin": "resource",
+      "title": "中文",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "dict-chinese",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-2"
+      },
+      "textUnits": [
+        {
+          "id": "68cf4770-593d-5a6d-9493-232ecc8982ea",
+          "role": "headword",
+          "text": "中文",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "2363cff0-132c-586c-bb56-90b257315303",
+              "start": 0,
+              "length": 1,
+              "text": "中",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhong",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhōng"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "bc8da2d7-8bc7-5679-817b-efcb00383925",
+              "start": 1,
+              "length": 1,
+              "text": "文",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "wen",
+                "tone": 2,
+                "erhua": false,
+                "display": "wén"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "8efe4914-a574-5c48-8f21-418985d72143",
+              "start": 0,
+              "length": 2,
+              "text": "中文",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "2363cff0-132c-586c-bb56-90b257315303",
+                "bc8da2d7-8bc7-5679-817b-efcb00383925"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "中国語",
+            "en": "Chinese"
+          }
+        },
+        {
+          "id": "e2373c9e-4428-59cd-9fd2-71e18ac3dc3a",
+          "role": "definition",
+          "text": "汉语。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tokens": [
+            {
+              "id": "caadd3ec-8ddf-585f-816e-f6f63461fbfd",
+              "start": 0,
+              "length": 1,
+              "text": "汉",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "han",
+                "tone": 4,
+                "erhua": false,
+                "display": "hàn"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "1c8ff592-ab5d-511b-9dfb-232a075a5cc4",
+              "start": 1,
+              "length": 1,
+              "text": "语",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "yu",
+                "tone": 3,
+                "erhua": false,
+                "display": "yǔ"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "35185403-4d2d-5770-8507-7c3cb4c888a2",
+              "start": 2,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "4f71deea-3717-5705-9d05-7400eccc7e73",
+              "start": 0,
+              "length": 3,
+              "text": "汉语。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "caadd3ec-8ddf-585f-816e-f6f63461fbfd",
+                "1c8ff592-ab5d-511b-9dfb-232a075a5cc4",
+                "35185403-4d2d-5770-8507-7c3cb4c888a2"
+              ]
+            }
+          ],
+          "translations": {}
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "schemaVersion": 2,
+      "id": "714d701f-9047-5c04-9cdb-5943b1b85edf",
+      "kind": "word",
+      "origin": "resource",
+      "title": "学习",
+      "contentRevision": 1,
+      "annotationRevision": 1,
+      "metadataRevision": 1,
+      "difficulty": "basic",
+      "schoolStage": null,
+      "grade": null,
+      "scenes": [
+        "daily"
+      ],
+      "source": {
+        "sourceId": "dict-study",
+        "type": "testFixture",
+        "authorProvider": "HanMate 文档工程样例",
+        "reference": "本次规划创建的草稿",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+        "canDistribute": true,
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+        "resourceVersion": "1.0.0",
+        "entryId": "entry-3"
+      },
+      "textUnits": [
+        {
+          "id": "5c97a722-4e17-540f-9f1a-a9e924f2738d",
+          "role": "headword",
+          "text": "学习",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2
+          ],
+          "tokens": [
+            {
+              "id": "f85000fc-3712-5755-b9a3-f5cba6d7924d",
+              "start": 0,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "2fd8adbb-94eb-5d0d-80a5-2631075155ec",
+              "start": 1,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            }
+          ],
+          "segments": [
+            {
+              "id": "b54add11-aff0-5043-b4f0-8c14c38d7f27",
+              "start": 0,
+              "length": 2,
+              "text": "学习",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "f85000fc-3712-5755-b9a3-f5cba6d7924d",
+                "2fd8adbb-94eb-5d0d-80a5-2631075155ec"
+              ]
+            }
+          ],
+          "translations": {
+            "ja": "勉強する",
+            "en": "to study"
+          }
+        },
+        {
+          "id": "1282b7db-0e15-5048-8dfb-ee494fd7a2a5",
+          "role": "definition",
+          "text": "学习知识。",
+          "offsetUnit": "textElement",
+          "elementBoundariesUtf16": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "tokens": [
+            {
+              "id": "1cd7a72a-5f5c-580f-9af6-8b7643f895f9",
+              "start": 0,
+              "length": 1,
+              "text": "学",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xue",
+                "tone": 2,
+                "erhua": false,
+                "display": "xué"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "38266d33-b613-55e0-9f82-be5d5c1fd608",
+              "start": 1,
+              "length": 1,
+              "text": "习",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "xi",
+                "tone": 2,
+                "erhua": false,
+                "display": "xí"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "e0c4429a-ba20-57d8-bc56-a64b49966783",
+              "start": 2,
+              "length": 1,
+              "text": "知",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "zhi",
+                "tone": 1,
+                "erhua": false,
+                "display": "zhī"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "7d146c1c-2253-5f90-a628-f6566fb5ec38",
+              "start": 3,
+              "length": 1,
+              "text": "识",
+              "kind": "hanzi",
+              "pinyin": {
+                "base": "shi",
+                "tone": 0,
+                "erhua": false,
+                "display": "shi"
+              },
+              "annotationSource": "manual",
+              "locked": false,
+              "reviewState": "needsReview"
+            },
+            {
+              "id": "ae37153f-843f-5a89-be67-a8b70cfef4cf",
+              "start": 4,
+              "length": 1,
+              "text": "。",
+              "kind": "punctuation",
+              "pinyin": null,
+              "annotationSource": "none",
+              "locked": false,
+              "reviewState": "notApplicable"
+            }
+          ],
+          "segments": [
+            {
+              "id": "4f40fb48-ab26-5319-b584-48d23785937b",
+              "start": 0,
+              "length": 5,
+              "text": "学习知识。",
+              "kind": "speech",
+              "boundarySource": "auto",
+              "translations": {},
+              "tokenIds": [
+                "1cd7a72a-5f5c-580f-9af6-8b7643f895f9",
+                "38266d33-b613-55e0-9f82-be5d5c1fd608",
+                "e0c4429a-ba20-57d8-bc56-a64b49966783",
+                "7d146c1c-2253-5f90-a628-f6566fb5ec38",
+                "ae37153f-843f-5a89-be67-a8b70cfef4cf"
+              ]
+            }
+          ],
+          "translations": {}
+        }
+      ],
+      "createdAtUtc": "2026-09-14T00:00:00Z",
+      "updatedAtUtc": "2026-09-14T00:00:00Z"
+    }
+  ]
+}

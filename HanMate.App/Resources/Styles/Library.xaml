@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Style x:Key="LibraryPage" TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F7F7FA, Dark=#151519}" />
+    </Style>
+    <Style x:Key="LibrarySurface" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=#222228}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light=#E8E8EF, Dark=#383840}" />
+        <Setter Property="StrokeThickness" Value="1" />
+        <Setter Property="StrokeShape" Value="RoundRectangle 14" />
+    </Style>
+    <Style x:Key="LibraryMuted" TargetType="Label">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light=#666675, Dark=#B9B9C6}" />
+        <Setter Property="LineBreakMode" Value="WordWrap" />
+    </Style>
+    <Style x:Key="LibrarySection" TargetType="Label" BasedOn="{StaticResource LibraryMuted}">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Margin" Value="2,12,0,0" />
+        <Setter Property="SemanticProperties.HeadingLevel" Value="Level2" />
+    </Style>
+    <Style x:Key="LibrarySecondaryButton" TargetType="Button">
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="Padding" Value="14,10" />
+        <Setter Property="MinimumWidthRequest" Value="48" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#EEEAF8, Dark=#302943}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light=#49358B, Dark=#DED2FF}" />
+        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="MinimumHeightRequest" Value="48" />
+        <Setter Property="LineBreakMode" Value="WordWrap" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters><Setter Property="Opacity" Value="0.45" /></VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Focused">
+                        <VisualState.Setters>
+                            <Setter Property="BorderWidth" Value="2" />
+                            <Setter Property="BorderColor" Value="{AppThemeBinding Light=#512BD4, Dark=#AC99EA}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+    <Style x:Key="LibraryQuietButton" TargetType="Button" BasedOn="{StaticResource LibrarySecondaryButton}">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+    </Style>
+    <Style x:Key="LibraryTileAction" TargetType="Button" BasedOn="{StaticResource LibraryQuietButton}">
+        <Setter Property="HorizontalOptions" Value="Fill" />
+        <Setter Property="VerticalOptions" Value="Fill" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="PointerOver">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F1EDF9, Dark=#342D45}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Pressed">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#E7DFF7, Dark=#423553}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Focused">
+                        <VisualState.Setters>
+                            <Setter Property="BorderWidth" Value="2" />
+                            <Setter Property="BorderColor" Value="{AppThemeBinding Light=#512BD4, Dark=#AC99EA}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Disabled">
+                        <VisualState.Setters><Setter Property="Opacity" Value="0.5" /></VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+</ResourceDictionary>

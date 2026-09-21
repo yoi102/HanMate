@@ -1,0 +1,132 @@
+{
+  "stage": "B",
+  "date": "2026-09-19",
+  "tests": {
+    "counters": {
+      "total": "73",
+      "executed": "73",
+      "passed": "73",
+      "failed": "0",
+      "error": "0",
+      "timeout": "0",
+      "aborted": "0",
+      "inconclusive": "0",
+      "passedButRunAborted": "0",
+      "notRunnable": "0",
+      "notExecuted": "0",
+      "disconnected": "0",
+      "warning": "0",
+      "completed": "0",
+      "inProgress": "0",
+      "pending": "0"
+    },
+    "raw": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-b-20260919\\tests\\stage-b.trx",
+    "sha256": "6b27d8ff0958d2364533519e29149ee7434deae33628557e237174accc61fc9e"
+  },
+  "crashes": {
+    "raw": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-b-crash-d17e8921cb3b4933b50b254d57a59ace\\report.json",
+    "scenarios": [
+      {
+        "stage": "restore-after-safety",
+        "status": "PASS"
+      },
+      {
+        "stage": "restore-after-clear",
+        "status": "PASS"
+      },
+      {
+        "stage": "restore-before-commit",
+        "status": "PASS"
+      },
+      {
+        "stage": "restore-after-commit",
+        "status": "PASS"
+      },
+      {
+        "stage": "restore-sqlite-full",
+        "status": "PASS"
+      },
+      {
+        "stage": "gc-after-metadata",
+        "status": "PASS"
+      },
+      {
+        "stage": "gc-after-delete",
+        "status": "PASS"
+      }
+    ]
+  },
+  "builds": {
+    "Windows": "PASS: Release, 0 warnings/errors",
+    "Android": "PASS: Release, 0 warnings/errors"
+  },
+  "artifacts": {
+    "androidApk": {
+      "path": "HanMate.App/bin/Release/net10.0-android/com.companyname.hanmate.app-Signed.apk",
+      "sha256": "d640812199bf198d3f4415cc6cf3a0566af20d06e14edb1c39fcefa7d1ae4342"
+    },
+    "windowsApp": {
+      "path": "HanMate.App/bin/Release/net10.0-windows10.0.19041.0/win-x64/HanMate.App.dll",
+      "sha256": "3675b47e429ecba3e882f547986ce9a8d9a682328c3e20336f92be2aecc057cf"
+    },
+    "windowsInfrastructure": {
+      "path": "HanMate.App/bin/Release/net10.0-windows10.0.19041.0/win-x64/HanMate.Infrastructure.dll",
+      "sha256": "50460f085a3bb73d1056b64fd9ed5eec7595e9fdb5d4082cc74a30e4bcc7fec1"
+    },
+    "infrastructureTests": {
+      "path": "HanMate.Infrastructure.Tests/bin/Release/net10.0/HanMate.Infrastructure.Tests.dll",
+      "sha256": "bac0bafacc5fedcd8b2f6dc658cf4bbdf6bea3b7b56851fd2b4b2a6cd13b3bdb"
+    },
+    "infrastructureUnderTest": {
+      "path": "HanMate.Infrastructure.Tests/bin/Release/net10.0/HanMate.Infrastructure.dll",
+      "sha256": "50460f085a3bb73d1056b64fd9ed5eec7595e9fdb5d4082cc74a30e4bcc7fec1"
+    },
+    "recoveryProbe": {
+      "path": "tools/HanMate.RecoveryProbe/bin/Release/net10.0/HanMate.RecoveryProbe.dll",
+      "sha256": "447b258162093b5f89ff86a9d4eb26d4cfc470af3f74a6a47a9d4e8b9832bac0"
+    },
+    "probeInfrastructure": {
+      "path": "tools/HanMate.RecoveryProbe/bin/Release/net10.0/HanMate.Infrastructure.dll",
+      "sha256": "50460f085a3bb73d1056b64fd9ed5eec7595e9fdb5d4082cc74a30e4bcc7fec1"
+    }
+  },
+  "localization": {
+    "status": "PASS",
+    "keys": 535,
+    "languages": [
+      "en",
+      "zh-Hans",
+      "ja"
+    ],
+    "placeholderSets": "match"
+  },
+  "android": {
+    "device": "pixel_7_-_api_36_0 / emulator-5554 / API36 x86_64",
+    "install": "adb install -r success",
+    "raw": "C:/Users/yoiri/AppData/Local/Temp/HanMate-stage-b-20260919/ui-final",
+    "passed": [
+      "recovery empty state",
+      "retention preview and cancel",
+      "draft/trash blocks physical cleanup",
+      "voice model and speaker 067 retained",
+      "11 texts retained",
+      "Chinese UI and 150% reader retained"
+    ],
+    "notRun": [
+      "restore real user snapshot",
+      "physical cleanup of real user audio"
+    ]
+  },
+  "remaining": {
+    "WindowsUI": "BLOCKED: inherited window ownership/tool issue",
+    "iOS": "NOT RUN: user deferred",
+    "deviceFullDisk": "NOT RUN",
+    "originalWorkPackages": "35/48 unchanged"
+  },
+  "bookkeeping": {
+    "bundleValidationGroups": 16,
+    "ledgerRows": 24,
+    "status": "PASS",
+    "original176AggregateChanged": false
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "generatedAt": "2026-09-19T01:01:40.3186565+00:00",
+  "model": "57345c004e13ed640e408c4c29ab56187b18f065",
+  "scope": "Review material, not a listening approval. Native preflight regression PASS.",
+  "samples": [
+    {
+      "id": "VOICE-L01",
+      "text": "你好，我们一起学习汉语。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L01-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 33856,
+        "sampleRate": 8000,
+        "seconds": 2.11325,
+        "rms": 0.01969031217651323,
+        "clippedRatio": 0
+      },
+      "sha256": "4807b8da4d79876f3eb587af1fda579ffa759aa1d6df66920451cfb83b0bc48d",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L01",
+      "text": "你好，我们一起学习汉语。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L01-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 33062,
+        "sampleRate": 8000,
+        "seconds": 2.063625,
+        "rms": 0.04372965910134775,
+        "clippedRatio": 0
+      },
+      "sha256": "19ff87b263c9401fbb2028533d6597d2ce888b19cd0dd9424fd4a3bf811715f9",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L02",
+      "text": "重庆银行的行长喜欢音乐。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L02-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 37926,
+        "sampleRate": 8000,
+        "seconds": 2.367625,
+        "rms": 0.018228660959658586,
+        "clippedRatio": 0
+      },
+      "sha256": "f4a4fa3ac410c8f7c0ab16d034ab0ce618b82b4b11ef586f18a1dc06211ffeae",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L02",
+      "text": "重庆银行的行长喜欢音乐。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L02-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 43486,
+        "sampleRate": 8000,
+        "seconds": 2.715125,
+        "rms": 0.03708079538840121,
+        "clippedRatio": 0
+      },
+      "sha256": "9fd0bfcecb14885e4e55e925803df493839810f540de145b2a17a49410ac8d73",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L03",
+      "text": "妈妈和爸爸看看桌子上的东西。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L03-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 44182,
+        "sampleRate": 8000,
+        "seconds": 2.758625,
+        "rms": 0.032240264793095955,
+        "clippedRatio": 0
+      },
+      "sha256": "6cf59a9df37a94f4f490e0ff09264bf82726fa53c54a2432377928d1df035e6d",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L03",
+      "text": "妈妈和爸爸看看桌子上的东西。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L03-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 46198,
+        "sampleRate": 8000,
+        "seconds": 2.884625,
+        "rms": 0.055589446577121615,
+        "clippedRatio": 0
+      },
+      "sha256": "c019648fe3b112b4a33d414d15d54edd2f699ba59277184c9b47b5988d1c119e",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L04",
+      "text": "女儿穿着绿色的衣服。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L04-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 28350,
+        "sampleRate": 8000,
+        "seconds": 1.769125,
+        "rms": 0.02171753373837218,
+        "clippedRatio": 0
+      },
+      "sha256": "070d3d60633808fadfe97596b77c250761033acd9e85b8cbc8e4cb764b4c30a9",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L04",
+      "text": "女儿穿着绿色的衣服。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L04-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 30050,
+        "sampleRate": 8000,
+        "seconds": 1.875375,
+        "rms": 0.04498160108173002,
+        "clippedRatio": 0
+      },
+      "sha256": "12dec3ff350b28d225fa3408ebf4d4b6a0af72fc4c184324e390d1493f8b0e10",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L05",
+      "text": "今天是2026年9月19日。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L05-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 45170,
+        "sampleRate": 8000,
+        "seconds": 2.820375,
+        "rms": 0.02551895179766941,
+        "clippedRatio": 0
+      },
+      "sha256": "afef1f7af284b2dcab05c73c0c013990a8a84e531140ad3d827734c32a4c7189",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L05",
+      "text": "今天是2026年9月19日。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L05-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 44712,
+        "sampleRate": 8000,
+        "seconds": 2.79175,
+        "rms": 0.040409111434954785,
+        "clippedRatio": 0
+      },
+      "sha256": "063a95bf9d2b5c28440df39dba8882983324b895f45c09ca6ac459a7792bd738",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L06",
+      "text": "价格是3.14元，一共100元。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L06-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 45674,
+        "sampleRate": 8000,
+        "seconds": 2.851875,
+        "rms": 0.022154931856987466,
+        "clippedRatio": 0
+      },
+      "sha256": "6fc24f0d57f70dace57a216d5ed66c69ea18466959769fe79ab59b845559e0c4",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L06",
+      "text": "价格是3.14元，一共100元。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L06-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 45460,
+        "sampleRate": 8000,
+        "seconds": 2.8385,
+        "rms": 0.04420477836510974,
+        "clippedRatio": 0
+      },
+      "sha256": "734bd1f1bfb3bbf7eb920b336429c14cd55f0883a1cc1227f38d4dc6a68d1489",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L07",
+      "text": "电话号码是12345678901。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L07-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 55550,
+        "sampleRate": 8000,
+        "seconds": 3.469125,
+        "rms": 0.0280582017960163,
+        "clippedRatio": 0
+      },
+      "sha256": "4893ce104df5be5611742105850bb24cd36ee93a4c4a9afa71eb197bb9519a89",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L07",
+      "text": "电话号码是12345678901。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L07-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 57936,
+        "sampleRate": 8000,
+        "seconds": 3.61825,
+        "rms": 0.046055816958512,
+        "clippedRatio": 0
+      },
+      "sha256": "abb7c8b8d107e6b2d47f8d622ca9c08da001e89b10a6f65c20e33ee8683a7b74",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L08",
+      "text": "这是我自己输入的文字。今天去图书馆读书，明天继续学习。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L08-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 85128,
+        "sampleRate": 8000,
+        "seconds": 5.31775,
+        "rms": 0.018824066877920455,
+        "clippedRatio": 0
+      },
+      "sha256": "6fb1203fce2515432cdf87dd2d756f12b16a8a994c11280bb962b20291d0903b",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L08",
+      "text": "这是我自己输入的文字。今天去图书馆读书，明天继续学习。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L08-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 87334,
+        "sampleRate": 8000,
+        "seconds": 5.455625,
+        "rms": 0.03197784458727122,
+        "clippedRatio": 0
+      },
+      "sha256": "12253d7acea54aa6e3147d9899115ba9e0fdd47e3ff89183d30013e1e180ab09",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L09",
+      "text": "你好（欢迎学习），价格３.１４元。",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L09-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 45932,
+        "sampleRate": 8000,
+        "seconds": 2.868,
+        "rms": 0.020383971854821305,
+        "clippedRatio": 0
+      },
+      "sha256": "4339f4e1e7081d78edbb0de77e7af72e442a3c82dc82f395749637212d46eda8",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L09",
+      "text": "你好（欢迎学习），价格３.１４元。",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L09-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 46060,
+        "sampleRate": 8000,
+        "seconds": 2.876,
+        "rms": 0.03838695913713249,
+        "clippedRatio": 0
+      },
+      "sha256": "9319b979d8dba504f4b9b23099e2e89dd18d94de91847b19cba23570b05efe99",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L10",
+      "text": "12345 12345 12345 12345 12345 12345 12345 12345 12345 12345",
+      "speaker": 66,
+      "part": 1,
+      "path": "VOICE-L10-speaker-066-part-1.wav",
+      "metrics": {
+        "bytes": 291084,
+        "sampleRate": 8000,
+        "seconds": 18.19,
+        "rms": 0.029842250590302054,
+        "clippedRatio": 0
+      },
+      "sha256": "b0273b3694c99f990f65913ab1d505f07b2eb31d5bb0037ddc86263f4f467bd6",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L10",
+      "text": "12345 12345 12345 12345 12345 12345 12345 12345 12345 12345",
+      "speaker": 66,
+      "part": 2,
+      "path": "VOICE-L10-speaker-066-part-2.wav",
+      "metrics": {
+        "bytes": 65456,
+        "sampleRate": 8000,
+        "seconds": 4.08825,
+        "rms": 0.026348639047902994,
+        "clippedRatio": 0
+      },
+      "sha256": "fb21a2986014cf7dff826cbd30a5848c6120a6be7a9c0f19ed016e479783da63",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L10",
+      "text": "12345 12345 12345 12345 12345 12345 12345 12345 12345 12345",
+      "speaker": 10,
+      "part": 1,
+      "path": "VOICE-L10-speaker-010-part-1.wav",
+      "metrics": {
+        "bytes": 289838,
+        "sampleRate": 8000,
+        "seconds": 18.112125,
+        "rms": 0.044938047606155516,
+        "clippedRatio": 0
+      },
+      "sha256": "c520362a7edafbe6d3439b0c9fab03fb8273710be99b2ea1b0e4d0e44c5bfc4a",
+      "listeningReview": "NOT RUN"
+    },
+    {
+      "id": "VOICE-L10",
+      "text": "12345 12345 12345 12345 12345 12345 12345 12345 12345 12345",
+      "speaker": 10,
+      "part": 2,
+      "path": "VOICE-L10-speaker-010-part-2.wav",
+      "metrics": {
+        "bytes": 67960,
+        "sampleRate": 8000,
+        "seconds": 4.24475,
+        "rms": 0.03890280656737911,
+        "clippedRatio": 0
+      },
+      "sha256": "9d6061da76c96d159796b89af395bd0a5c771df985f98258f118e094ebdc3ed1",
+      "listeningReview": "NOT RUN"
+    }
+  ]
+}

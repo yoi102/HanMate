@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-19",
+  "done": 35,
+  "tests": {
+    "dotnetDistinct": 144,
+    "python": 8,
+    "total": 152,
+    "status": "PASS"
+  },
+  "builds": {
+    "Windows": "PASS",
+    "Android": "PASS",
+    "warnings": 0,
+    "errors": 0
+  },
+  "content": {
+    "deterministic": true,
+    "courseSha256": "b6dd0bfe9f262649f519fe3c83145056679e52858cf8544fdb2aecc1698b9572",
+    "audioAssetsUnchanged": 200,
+    "itemsUnchanged": 63,
+    "headwordsUnchanged": 180,
+    "annotatedDefinitions": 180,
+    "annotatedHanzi": 1334
+  },
+  "android": [
+    {
+      "language": "en",
+      "scale": 200,
+      "status": "PASS",
+      "snapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796218647275300",
+      "restoredSnapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796228814533500"
+    },
+    {
+      "language": "ja",
+      "scale": 100,
+      "status": "PASS",
+      "snapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796292506491800",
+      "restoredSnapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796302469844600"
+    },
+    {
+      "language": "zh",
+      "scale": 150,
+      "status": "PASS",
+      "snapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796355949643400",
+      "restoredSnapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796365714345100"
+    }
+  ],
+  "artifacts": {
+    "apk": {
+      "path": "HanMate.App/bin/Release/net10.0-android/com.companyname.hanmate.app-Signed.apk",
+      "sha256": "7f5c5609a92810eb4a49b4932bd66042e31f4f9ed0e0856872412f62a07c265c"
+    },
+    "windowsApp": {
+      "path": "HanMate.App/bin/Release/net10.0-windows10.0.19041.0/win-x64/HanMate.App.dll",
+      "sha256": "9f7ca501f73a4717cd80135d3f45134c4d7b2eddfe098efea5a05bceea1e18fd"
+    },
+    "infrastructure": {
+      "path": "HanMate.Infrastructure/bin/Release/net10.0/HanMate.Infrastructure.dll",
+      "sha256": "f18932542af85abec9d18e5e807cc5bcd86f3e79b5baeab3fbda05e4109784ca"
+    }
+  },
+  "releaseReady": false,
+  "rawEvidence": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919",
+  "postUpgradeVoice": {
+    "speaker": "067",
+    "enabled": true,
+    "downloadPreserved": true,
+    "snapshot": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c2-20260919\\ui-final\\1789796417014562900.xml"
+  },
+  "finalProcess": {
+    "pid": 13925,
+    "fatalInCapturedCrashBuffer": false
+  },
+  "preflight": {
+    "status": "BLOCKED",
+    "apkHashMatches": true
+  }
+}

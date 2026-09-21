@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "collections.schema.json",
+  "title": "HanMate collections.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "folders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 1200
+          },
+          "sortOrder": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "systemRole": {
+            "anyOf": [
+              {
+                "const": "default"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "sortOrder",
+          "systemRole"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 10000
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "folderId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "contentId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sortOrder": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "addedAtUtc": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "Z$"
+          }
+        },
+        "required": [
+          "folderId",
+          "contentId",
+          "sortOrder",
+          "addedAtUtc"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 100000
+    },
+    "dictionaryBookmarks": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "properties": {
+          "provider": {
+            "enum": [
+              "chinese-xinhua",
+              "bundled-pinyin"
+            ]
+          },
+          "entryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          }
+        },
+        "required": [
+          "provider",
+          "entryId",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "folders",
+    "items"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schemaVersion": {
+            "const": 1
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "required": [
+            "dictionaryBookmarks"
+          ]
+        }
+      },
+      "else": {
+        "required": [
+          "dictionaryBookmarks"
+        ]
+      }
+    }
+  ]
+}

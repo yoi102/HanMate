@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HanMate.App.Pages.SearchPage"
+             Title="{Binding NavSearch}">
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="*,Auto,*" Padding="0,0,16,0" HorizontalOptions="Fill" VerticalOptions="Center">
+            <Label Text="{Binding NavSearch}" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" />
+            <Border Grid.Column="1" StrokeThickness="0" BackgroundColor="#EEE6FA" StrokeShape="RoundRectangle 12" Padding="3,2">
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="2">
+                    <Button x:Name="TextMode" AutomationId="Search.TextMode" Clicked="OnTextMode"
+                            FontSize="14" Padding="10,0" WidthRequest="68" HeightRequest="40" MinimumHeightRequest="40" CornerRadius="10" />
+                    <Button x:Name="HandwritingMode" AutomationId="Search.HandwritingMode" Grid.Column="1" Clicked="OnHandwritingMode"
+                            FontSize="14" Padding="10,0" WidthRequest="68" HeightRequest="40" MinimumHeightRequest="40" CornerRadius="10" />
+                </Grid>
+            </Border>
+        </Grid>
+    </Shell.TitleView>
+    <Grid Padding="12,4">
+        <ContentView x:Name="HandwritingHost" IsVisible="False" />
+        <Grid x:Name="TextSearch" RowDefinitions="Auto,Auto,Auto,*,Auto" RowSpacing="10">
+        <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+            <Picker x:Name="Sources" AutomationId="Search.Sources" SelectedIndexChanged="OnSourceChanged" />
+            <Button x:Name="Manage" Grid.Column="1" Clicked="OnManage" />
+        </Grid>
+        <Label x:Name="Status" Grid.Row="1" FontSize="14" />
+        <Label x:Name="IndexHint" Grid.Row="2" FontSize="12" />
+        <CollectionView x:Name="Results" Grid.Row="3" SelectionMode="Single"
+                        AutomationId="Search.Results" SelectionChanged="OnSelected"
+                        RemainingItemsThreshold="8" RemainingItemsThresholdReached="OnLoadMore" ItemsUpdatingScrollMode="KeepScrollOffset" />
+        <Entry x:Name="QueryInput" Grid.Row="4" Placeholder="{Binding SearchPlaceholder}"
+               AutomationId="Search.Query" ReturnType="Search" ClearButtonVisibility="WhileEditing"
+               TextChanged="OnQueryChanged" Completed="OnSubmit" MaxLength="256" />
+        </Grid>
+    </Grid>
+</ContentPage>

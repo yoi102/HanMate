@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="HanMate.App/HanMate.App.csproj" />
+  <Project Path="HanMate.Core.Tests/HanMate.Core.Tests.csproj" />
+  <Project Path="HanMate.Core/HanMate.Core.csproj" />
+  <Project Path="HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj" />
+  <Project Path="HanMate.Infrastructure/HanMate.Infrastructure.csproj" />
+</Solution>

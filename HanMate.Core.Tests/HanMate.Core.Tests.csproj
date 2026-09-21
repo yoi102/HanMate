@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HanMate.Core\HanMate.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\HanMate.App\Resources\Raw\Handwriting\medians.jsonl.gz" Link="Fixtures\Handwriting\medians.jsonl.gz" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate.App\Resources\Raw\Handwriting\templates.bin" Link="Fixtures\Handwriting\templates.bin" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fixtures\Audio\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate.App\Resources\Raw\Pinyin\course.json" Link="Fixtures\pinyin-course.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\tools\content\pinyin-character-words.tsv" Link="Fixtures\pinyin-character-words.tsv" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate.App\Resources\Raw\Pinyin\*.wav" Link="Fixtures\Pinyin\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate.App\Resources\Raw\WordAudio\**" Link="Fixtures\WordAudio\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\grammar-content.json" Link="Fixtures\grammar-content.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\dictionary-entry.json" Link="Fixtures\dictionary-entry.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\contents.json" Link="Fixtures\contents.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\pinyin-cases.json" Link="Fixtures\pinyin-cases.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

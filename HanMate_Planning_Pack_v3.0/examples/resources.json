@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "resources": [
+    {
+      "descriptor": {
+        "schemaVersion": 1,
+        "resourceId": "89cb254f-1aa7-58e7-b9e8-b37aa648cf15",
+        "version": "1.0.0",
+        "resourceKind": "learning",
+        "names": {
+          "zh-Hans": "入门语法示例包",
+          "ja": "文法サンプル",
+          "en": "Grammar samples"
+        },
+        "publisherId": "hanmate-planning-fixtures",
+        "publisherName": "HanMate 工程样例",
+        "descriptionZh": "仅用于结构与引用验证，不是可发行词库。",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "原创工程样例；使用说明见 examples/README.md。教学与译文待复核。",
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "entries": [
+          {
+            "entryId": "entry-1",
+            "contentId": "f7d967d2-9c45-5eeb-b8d4-19d4939dc60d"
+          },
+          {
+            "entryId": "entry-2",
+            "contentId": "b7f6b0a3-4a5b-5de3-a7c7-1f8be7735b10"
+          },
+          {
+            "entryId": "entry-3",
+            "contentId": "de13ed86-06ee-53c1-be85-151e85c16b3c"
+          },
+          {
+            "entryId": "entry-4",
+            "contentId": "abce87d2-3137-5514-a42b-48a3632c9673"
+          }
+        ],
+        "audioBindingIds": [],
+        "audioDefaults": []
+      },
+      "descriptorSha256": "988c5e954e2a98f9fbc682e0ef874139a93c2ea2783e68201e4b1dd4d827581a",
+      "payloadStatus": "included",
+      "enabled": true,
+      "priority": 100,
+      "missingReason": null,
+      "removedEntryIds": [],
+      "payloadFingerprint": "b4c68202f709386be42a333a2ee7d590adb3ab590820ccd767c05f91c9061d48"
+    },
+    {
+      "descriptor": {
+        "schemaVersion": 1,
+        "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+        "version": "1.0.0",
+        "resourceKind": "dictionary",
+        "names": {
+          "zh-Hans": "基础字典示例包",
+          "ja": "辞書サンプル",
+          "en": "Dictionary samples"
+        },
+        "publisherId": "hanmate-planning-fixtures",
+        "publisherName": "HanMate 工程样例",
+        "descriptionZh": "仅用于结构与引用验证，不是可发行词库。",
+        "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+        "permissionNotes": "原创工程样例；使用说明见 examples/README.md。教学与译文待复核。",
+        "canShare": true,
+        "backupPolicy": "allowed",
+        "reviewStatus": "draft",
+        "entries": [
+          {
+            "entryId": "entry-1",
+            "contentId": "1e4ca243-aa8a-5268-ab8c-90fafe2e3b86"
+          },
+          {
+            "entryId": "entry-2",
+            "contentId": "971c6997-c0db-5d8f-beca-28d4aa5ff90b"
+          },
+          {
+            "entryId": "entry-3",
+            "contentId": "714d701f-9047-5c04-9cdb-5943b1b85edf"
+          }
+        ],
+        "audioBindingIds": [],
+        "audioDefaults": []
+      },
+      "descriptorSha256": "6f2a95a6da015c9c028db4da9a1fc4654af389f5a5af33165f6d5dbd942914bf",
+      "payloadStatus": "included",
+      "enabled": true,
+      "priority": 200,
+      "missingReason": null,
+      "removedEntryIds": [],
+      "payloadFingerprint": "9bdef02f5283874150bca3e3ad432aaa34ec13338558391b9743cfbb58695cbe"
+    }
+  ],
+  "retainedContentIds": []
+}

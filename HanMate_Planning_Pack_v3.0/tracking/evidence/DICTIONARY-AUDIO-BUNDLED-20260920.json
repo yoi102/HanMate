@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-20",
+  "scope": "Dictionary paragraph/example tap speech and bundled default offline voice",
+  "changedInputs": [
+    {
+      "path": "HanMate.App/Pages/DictionaryEntryPage.cs",
+      "sha256": "0f9d8cb50c639ef4fc15607f2ab71fad1beec67d2df88086652239a620ca26e5"
+    },
+    {
+      "path": "HanMate.App/Pages/VoicePacksPage.cs",
+      "sha256": "8ba752268eef4acee6097616cb9afd3fb7f49e7af2b0106e6a7035672429b22e"
+    },
+    {
+      "path": "HanMate.App/MauiProgram.cs",
+      "sha256": "4589ddc2e41768b54cc00ee0f31a883df5ca83d94ec90d1b2986c6a8f9b4b11b"
+    },
+    {
+      "path": "HanMate.Core/Reading/DictionarySpeechTarget.cs",
+      "sha256": "a869b886d5bd792bf0e9083c271d55d69035617f85eeab379781ca635f52ba4f"
+    },
+    {
+      "path": "HanMate.Infrastructure/Voices/VoicePackStore.cs",
+      "sha256": "27e203fd78a8a2aa195cae3103b6a9ca3ae8a63c4766a3cc785f2dbc335dedaa"
+    },
+    {
+      "path": "HanMate.Infrastructure.Tests/Database/DictionaryDetailTests.cs",
+      "sha256": "880c79f100c34e7f91d5b91de2fa8a07ab5a5ddfe56b1d127c067d463efa18d7"
+    },
+    {
+      "path": "HanMate.Infrastructure.Tests/VoicePackTests.cs",
+      "sha256": "95241e9df40b73c2bf2a613494023bc4576ecc94791b0117ca0bca5d24338e0a"
+    },
+    {
+      "path": "HanMate.Infrastructure.Tests/BundledVoicePackTests.cs",
+      "sha256": "b46d432f4bedc2b93f3cb849dc6f61d9e9de4b083ff6e356f54030ec6865b395"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.ja.resx",
+      "sha256": "839b8e354bb70e0c1681e214308f2f125b65aca6f8c163e13d580925d9c4cfeb"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.resx",
+      "sha256": "47e707c2fb20eb730480808ea0f7ebb5b72177e23b566833411ecdb1b23bd3d1"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.zh-Hans.resx",
+      "sha256": "79252914a267446fd68e57811c935171201a37910ba12a2121d2e517fb8de1fe"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/date.fst",
+      "sha256": "eb8aa079ae3cb81d8f4404992f39d61a0cb990947512b5b8d1e54d1f6980e718"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/lexicon.txt",
+      "sha256": "ab2e61d357551e7b24ddd965d924aca784c20165ff58c150794e539c6b5e9e35"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/LICENSE-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/LICENSE-ONNXRuntime.txt",
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/MODEL-README.md",
+      "sha256": "98b45ea81164d1e1a1dd82255207053b15cd6c69d922a1c5cf3387ce604d4b74"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/model.onnx",
+      "sha256": "5511d651b7840c0a93a6bbfd4afd070a2c7f39ca1ec3ff2ecd73191519bbb852"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/NOTICE.txt",
+      "sha256": "14239dddd9a8b71993be9feb81f1fddc9ff7c2b3520774a5e5f8ce88b3e6c954"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/number.fst",
+      "sha256": "743f402181fcfebf76cc2f0546b71fa26476e626fbe4e460fb7b4c3a7a8bd5bd"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/phone.fst",
+      "sha256": "1ac2b6fa56b1442320c4de7db08353bab8963a2b57f365eebcdd3a2d3562f8d7"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/speakers.txt",
+      "sha256": "50a825fc9a89172eee04a4d68869d933d0eca0d847f3b6fcffff9514cc72442d"
+    },
+    {
+      "path": "HanMate.App/Resources/Raw/Voices/tokens.txt",
+      "sha256": "50b45a7b7de1752fd3c7b4755661c285f1547f59186eca2281089a81307ad953"
+    }
+  ],
+  "tests": {
+    "infrastructure": 57,
+    "core": 26,
+    "status": "PASS"
+  },
+  "nativeSynthesis": {
+    "status": "PASS",
+    "speaker": 66,
+    "networkRequests": 0,
+    "samples": [
+      {
+        "text": "表示数量，单个。用于人和各种事物。",
+        "DurationMs": 3101,
+        "SampleRate": 8000,
+        "peak": 4680,
+        "bytes": 49668
+      },
+      {
+        "text": "桌上有一个苹果。",
+        "DurationMs": 1511,
+        "SampleRate": 8000,
+        "peak": 3971,
+        "bytes": 24224
+      }
+    ],
+    "scope": "Production Windows native synthesis from bundled assets; generated PCM inspection only, no playback/listening or device UI",
+    "root": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-bundled-voice-proof\\d6f9467750244855960300a595371e4d"
+  },
+  "builds": {
+    "windows": "PASS: 0 warnings / 0 errors",
+    "android": "PASS: 0 warnings / 0 errors"
+  },
+  "bundledAssets": "PASS: all 8 exact catalog hashes in Windows output and Android APK; notices/licenses included",
+  "localization": "PASS: 594 keys, 3 languages, placeholders match",
+  "uiDeviceListening": "NOT RUN per user",
+  "apk": {
+    "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-audio-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+    "bytes": 296412874,
+    "sha256": "926e2e7c5961b18258f2b09fc4bccef02759f9cdb327f8e1483c5d1ac1682830"
+  },
+  "statusBoundary": "45/48 unchanged; 176 aggregate NOT RUN; 82 execution rows unchanged; formal release deferred"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "folders": [
+    {
+      "id": "450c8c93-66f3-5cdd-84b0-234d85dfb241",
+      "name": "默认收藏夹",
+      "description": "systemRole 决定身份，显示名称随 UI 变化",
+      "sortOrder": 0,
+      "systemRole": "default"
+    },
+    {
+      "id": "3fddb33c-8258-5164-966d-4c8b9fdff259",
+      "name": "发音练习",
+      "description": "测试用收藏夹",
+      "sortOrder": 1,
+      "systemRole": null
+    }
+  ],
+  "items": [
+    {
+      "folderId": "450c8c93-66f3-5cdd-84b0-234d85dfb241",
+      "contentId": "aad9efcc-f575-5938-b112-eb763921a2d1",
+      "sortOrder": 0,
+      "addedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "folderId": "3fddb33c-8258-5164-966d-4c8b9fdff259",
+      "contentId": "aad9efcc-f575-5938-b112-eb763921a2d1",
+      "sortOrder": 0,
+      "addedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "folderId": "3fddb33c-8258-5164-966d-4c8b9fdff259",
+      "contentId": "9fc65df4-78d4-5d16-b5ea-4b3d3a40751e",
+      "sortOrder": 1,
+      "addedAtUtc": "2026-09-14T00:00:00Z"
+    },
+    {
+      "folderId": "450c8c93-66f3-5cdd-84b0-234d85dfb241",
+      "contentId": "f7d967d2-9c45-5eeb-b8d4-19d4939dc60d",
+      "sortOrder": 99,
+      "addedAtUtc": "2026-09-14T00:00:00Z"
+    }
+  ]
+}

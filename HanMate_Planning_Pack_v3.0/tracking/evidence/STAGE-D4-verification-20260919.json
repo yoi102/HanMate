@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-19",
+  "done": 35,
+  "total": 48,
+  "tests": {
+    "status": "PASS",
+    "catalog": 8
+  },
+  "builds": {
+    "Windows": "PASS",
+    "Android": "PASS",
+    "warnings": 0,
+    "errors": 0
+  },
+  "artifacts": {
+    "apk": {
+      "sha256": "64c46e7791f084faeebf1d8944cf82b3d8ae47e859168c448c99dd613bbd67ab"
+    },
+    "windowsApp": {
+      "sha256": "3fab2b3d39f86d214c17a1f88d0c7f2700d31d070288306348a6e86b12445fdd"
+    }
+  },
+  "android": {
+    "largeFontNavigationAndCounts": "PASS",
+    "filterEmptyAndClear": "PASS",
+    "multiPageLibrary": "NOT RUN",
+    "settingsLongLabels": "FAIL",
+    "searchLanguageRefresh": "FAIL",
+    "restored": {
+      "language": "zh-Hans",
+      "systemFontScale": 1.0,
+      "readingScale": 1.5,
+      "showPinyin": true,
+      "voiceEnabled": true,
+      "aiSpeaker": 67
+    }
+  },
+  "windows": {
+    "exampleRightClickAndKeyboard": "PASS",
+    "voiceDownloadPreviewAndDisable": "PASS",
+    "fileCancelRetryPreview": "PASS",
+    "newVoiceDownloadRetained": true,
+    "restored": {
+      "language": "en",
+      "readingScale": 1.0,
+      "showPinyin": true,
+      "voiceEnabled": false
+    },
+    "systemFont200": "NOT RUN",
+    "fullAcceptance": "NOT RUN"
+  },
+  "screenReader": "NOT RUN",
+  "physicalDeviceAudio": "NOT RUN",
+  "ios": "NOT RUN",
+  "releaseReadiness": "BLOCKED",
+  "originalDataReplacementOrDeletion": false,
+  "newEngineeringDocuments": 0,
+  "completeDataPreservationComparison": "NOT RUN",
+  "newAndroidCrashSince1900": false,
+  "nextStage": "D5: settings long labels and search language refresh; Windows search and resources; isolated list pagination",
+  "rawEvidenceRoot": "C:/Users/yoiri/AppData/Local/Temp/HanMate-stage-d4-20260919"
+}

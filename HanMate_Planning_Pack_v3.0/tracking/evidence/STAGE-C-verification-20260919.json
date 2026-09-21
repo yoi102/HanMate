@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-19",
+  "workPackagesDone": 35,
+  "formalContentApproved": false,
+  "tests": {
+    "infrastructureDistinct": 176,
+    "core": 15,
+    "python": 6,
+    "status": "PASS"
+  },
+  "builds": {
+    "windows": "PASS",
+    "android": "PASS",
+    "warnings": 0,
+    "errors": 0
+  },
+  "androidScope": "Non-destructive upgrade, new definition ruby, bundled dictionary 1.0.1, external dictionary priority, Chinese/150%/enabled AI067 preserved",
+  "audit": {
+    "subjects": 643,
+    "contents": 203,
+    "units": 408,
+    "audio": 200,
+    "demos": 63,
+    "voices": 174,
+    "pendingSubjects": 643,
+    "findingsByCode": {
+      "ANNOTATION_MISSING": 180,
+      "CONTENT_DRAFT": 203,
+      "DEMO_MISSING": 1,
+      "LICENSE_VERSION_UNRESOLVED": 200,
+      "READING_RECHECK": 6
+    },
+    "decisionIssues": 0,
+    "releaseReady": false
+  },
+  "artifacts": {
+    "apk": {
+      "path": "HanMate.App/bin/Release/net10.0-android/com.companyname.hanmate.app-Signed.apk",
+      "sha256": "739424875999c8e1d6b1f16185148e188ec1faf2ffa26fb6a6d1b40ab6c9608e"
+    },
+    "windowsApp": {
+      "path": "HanMate.App/bin/Release/net10.0-windows10.0.19041.0/win-x64/HanMate.App.dll",
+      "sha256": "b7ed0cb6a8621c0a4490c0883f72a9c5f81a66179d19c20267a776677df3bf10"
+    },
+    "infrastructure": {
+      "path": "HanMate.Infrastructure/bin/Release/net10.0/HanMate.Infrastructure.dll",
+      "sha256": "f18932542af85abec9d18e5e807cc5bcd86f3e79b5baeab3fbda05e4109784ca"
+    }
+  },
+  "rawEvidence": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-stage-c-20260919",
+  "releaseReady": false
+}

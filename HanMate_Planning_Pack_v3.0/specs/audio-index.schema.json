@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "audio-index.schema.json",
+  "title": "HanMate audio-index.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "origin": {
+            "enum": [
+              "user",
+              "catalog"
+            ]
+          },
+          "storage": {
+            "enum": [
+              "package",
+              "catalogRef"
+            ]
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "byteLength": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "durationMs": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "container": {
+            "enum": [
+              "wav",
+              "mp3",
+              "m4a"
+            ]
+          },
+          "codec": {
+            "type": "string"
+          },
+          "sampleRate": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 384000
+          },
+          "channels": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2
+          },
+          "path": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^audio/[0-9a-f]{64}\\.(wav|mp3|m4a)$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "catalogRef": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "catalogId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "catalogVersion": {
+                    "type": "string"
+                  },
+                  "assetId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                },
+                "required": [
+                  "catalogId",
+                  "catalogVersion",
+                  "assetId"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "origin",
+          "storage",
+          "sha256",
+          "byteLength",
+          "durationMs",
+          "container",
+          "codec",
+          "sampleRate",
+          "channels",
+          "path",
+          "catalogRef"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "storage": {
+                  "const": "package"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "path": {
+                  "type": "string"
+                },
+                "catalogRef": {
+                  "type": "null"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "origin": {
+                  "const": "catalog"
+                },
+                "path": {
+                  "type": "null"
+                },
+                "catalogRef": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "maxItems": 10000
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "targetId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "assetId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "boundTextHash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "boundPronunciationHash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "reviewState": {
+            "enum": [
+              "confirmed",
+              "needsReview"
+            ]
+          },
+          "sourceRole": {
+            "enum": [
+              "standard",
+              "user",
+              "imported"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "maxLength": 200
+          }
+        },
+        "required": [
+          "id",
+          "targetId",
+          "assetId",
+          "boundTextHash",
+          "boundPronunciationHash",
+          "reviewState",
+          "sourceRole",
+          "label"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 100000
+    },
+    "preferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "targetId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "bindingId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "targetId",
+          "bindingId"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 100000
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "assets",
+    "bindings",
+    "preferences"
+  ],
+  "additionalProperties": false
+}

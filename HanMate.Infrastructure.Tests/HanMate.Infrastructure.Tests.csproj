@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\HanMate.App\Resources\Raw\Pinyin\course.json" Link="Fixtures\pinyin-course.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fixtures\Catalog\*.zip" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\sample-learning.hanresource" Link="Fixtures\sample-learning.hanresource" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\sample-dictionary.handict" Link="Fixtures\sample-dictionary.handict" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\resources.json" Link="Fixtures\resources.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\contents.json" Link="Fixtures\contents.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\archive\v2_baseline\examples\*" Link="Legacy\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\archive\v2_baseline\specs\database.sql" Link="Legacy\database.sql" CopyToOutputDirectory="PreserveNewest" />
+    <ProjectReference Include="..\HanMate.Infrastructure\HanMate.Infrastructure.csproj" />
+    <ProjectReference Include="..\HanMate.Core\HanMate.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\grammar-content.json" Link="Fixtures\grammar-content.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\HanMate_Planning_Pack_v3.0\examples\dictionary-entry.json" Link="Fixtures\dictionary-entry.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

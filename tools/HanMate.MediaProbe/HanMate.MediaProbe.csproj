@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../HanMate.Infrastructure/HanMate.Infrastructure.csproj" />
+    <Compile Include="../../HanMate.App/Audio/NativeAudioDecoder.cs" Link="NativeAudioDecoder.cs" />
+    <Compile Include="../../HanMate.App/Audio/NativeWaveRecorder.cs" Link="NativeWaveRecorder.cs" />
+    <Compile Include="../../HanMate.App/Audio/AudioFileImport.cs" Link="AudioFileImport.cs" />
+    <None Include="../../HanMate.Core.Tests/Fixtures/Audio/tone.*" Link="Fixtures/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../HanMate.App/Resources/Raw/Pinyin/course.json" Link="Fixtures/pinyin-course.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

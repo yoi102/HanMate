@@ -1,0 +1,439 @@
+[
+  {
+    "key": "introducing-myself",
+    "kind": "text",
+    "title": "自我介绍",
+    "author": "HanMate 原创短文",
+    "scene": "daily",
+    "lines": [
+      {
+        "key": "name",
+        "text": "大家好，我叫小明。",
+        "pinyin": "da4 jia1 hao3 wo3 jiao4 xiao3 ming2",
+        "en": "Hello everyone. My name is Xiaoming.",
+        "ja": "みなさん、こんにちは。私は小明です。"
+      },
+      {
+        "key": "student",
+        "text": "我是一名学生。",
+        "pinyin": "wo3 shi4 yi4 ming2 xue2 sheng0",
+        "en": "I am a student.",
+        "ja": "私は学生です。"
+      },
+      {
+        "key": "hobby",
+        "text": "我喜欢读书，也喜欢运动。",
+        "pinyin": "wo3 xi3 huan0 du2 shu1 ye3 xi3 huan0 yun4 dong4",
+        "en": "I like reading and sports.",
+        "ja": "私は読書も運動も好きです。"
+      },
+      {
+        "key": "learn",
+        "text": "很高兴和大家一起学习。",
+        "pinyin": "hen3 gao1 xing4 he2 da4 jia1 yi4 qi3 xue2 xi2",
+        "en": "I am happy to study with you all.",
+        "ja": "みなさんと一緒に勉強できてうれしいです。"
+      }
+    ]
+  },
+  {
+    "key": "my-home",
+    "kind": "text",
+    "title": "我的家",
+    "author": "HanMate 原创短文",
+    "scene": "home",
+    "lines": [
+      {
+        "key": "family",
+        "text": "我家有三口人：爸爸、妈妈和我。",
+        "pinyin": "wo3 jia1 you3 san1 kou3 ren2 ba4 ba0 ma1 ma0 he2 wo3",
+        "en": "There are three people in my family: my father, my mother and me.",
+        "ja": "私の家族は父と母と私の三人です。"
+      },
+      {
+        "key": "meal",
+        "text": "我们每天一起吃晚饭。",
+        "pinyin": "wo3 men0 mei3 tian1 yi4 qi3 chi1 wan3 fan4",
+        "en": "We eat dinner together every day.",
+        "ja": "私たちは毎日一緒に夕食を食べます。"
+      },
+      {
+        "key": "weekend",
+        "text": "周末，我们常常去公园散步。",
+        "pinyin": "zhou1 mo4 wo3 men0 chang2 chang2 qu4 gong1 yuan2 san4 bu4",
+        "en": "We often walk in the park on weekends.",
+        "ja": "週末にはよく公園へ散歩に行きます。"
+      },
+      {
+        "key": "love",
+        "text": "我爱我的家。",
+        "pinyin": "wo3 ai4 wo3 de0 jia1",
+        "en": "I love my family.",
+        "ja": "私は自分の家族が大好きです。"
+      }
+    ]
+  },
+  {
+    "key": "a-day",
+    "kind": "text",
+    "title": "一天的生活",
+    "author": "HanMate 原创短文",
+    "scene": "daily",
+    "lines": [
+      {
+        "key": "morning",
+        "text": "早上七点，我起床。",
+        "pinyin": "zao3 shang0 qi1 dian3 wo3 qi3 chuang2",
+        "en": "I get up at seven in the morning.",
+        "ja": "私は朝七時に起きます。"
+      },
+      {
+        "key": "breakfast",
+        "text": "洗脸、刷牙以后，我吃早饭。",
+        "pinyin": "xi3 lian3 shua1 ya2 yi3 hou4 wo3 chi1 zao3 fan4",
+        "en": "After washing my face and brushing my teeth, I eat breakfast.",
+        "ja": "顔を洗って歯を磨いた後、朝ご飯を食べます。"
+      },
+      {
+        "key": "afternoon",
+        "text": "下午，我学习中文。",
+        "pinyin": "xia4 wu3 wo3 xue2 xi2 zhong1 wen2",
+        "en": "I study Chinese in the afternoon.",
+        "ja": "午後は中国語を勉強します。"
+      },
+      {
+        "key": "evening",
+        "text": "晚上十点，我准备睡觉。",
+        "pinyin": "wan3 shang0 shi2 dian3 wo3 zhun3 bei4 shui4 jiao4",
+        "en": "At ten in the evening, I get ready for bed.",
+        "ja": "夜十時に寝る準備をします。"
+      }
+    ]
+  },
+  {
+    "key": "at-school",
+    "kind": "text",
+    "title": "在学校",
+    "author": "HanMate 原创短文",
+    "scene": "school",
+    "lines": [
+      {
+        "key": "arrival",
+        "text": "我每天早上去学校。",
+        "pinyin": "wo3 mei3 tian1 zao3 shang0 qu4 xue2 xiao4",
+        "en": "I go to school every morning.",
+        "ja": "私は毎朝学校へ行きます。"
+      },
+      {
+        "key": "class",
+        "text": "上课时，我们认真听老师讲课。",
+        "pinyin": "shang4 ke4 shi2 wo3 men0 ren4 zhen1 ting1 lao3 shi1 jiang3 ke4",
+        "en": "In class, we listen carefully to the teacher.",
+        "ja": "授業中は先生の話をよく聞きます。"
+      },
+      {
+        "key": "break",
+        "text": "下课后，我和同学一起做游戏。",
+        "pinyin": "xia4 ke4 hou4 wo3 he2 tong2 xue2 yi4 qi3 zuo4 you2 xi4",
+        "en": "After class, I play games with my classmates.",
+        "ja": "授業の後、クラスメートと一緒に遊びます。"
+      }
+    ]
+  },
+  {
+    "key": "shopping",
+    "kind": "text",
+    "title": "去买东西",
+    "author": "HanMate 原创短文",
+    "scene": "shopping",
+    "lines": [
+      {
+        "key": "store",
+        "text": "今天，我去商店买东西。",
+        "pinyin": "jin1 tian1 wo3 qu4 shang1 dian4 mai3 dong1 xi0",
+        "en": "Today I am going to the shop to buy some things.",
+        "ja": "今日はお店へ買い物に行きます。"
+      },
+      {
+        "key": "question",
+        "text": "请问，这个苹果多少钱？",
+        "pinyin": "qing3 wen4 zhe4 ge4 ping2 guo3 duo1 shao0 qian2",
+        "en": "Excuse me, how much is this apple?",
+        "ja": "すみません、このりんごはいくらですか。"
+      },
+      {
+        "key": "price",
+        "text": "这个苹果三元。",
+        "pinyin": "zhe4 ge4 ping2 guo3 san1 yuan2",
+        "en": "This apple costs three yuan.",
+        "ja": "このりんごは三元です。"
+      },
+      {
+        "key": "thanks",
+        "text": "我要两个，谢谢！",
+        "pinyin": "wo3 yao4 liang3 ge4 xie4 xie0",
+        "en": "I would like two, thank you!",
+        "ja": "二個ください。ありがとうございます。"
+      }
+    ]
+  },
+  {
+    "key": "asking-directions",
+    "kind": "text",
+    "title": "问路",
+    "author": "HanMate 原创短文",
+    "scene": "travel",
+    "lines": [
+      {
+        "key": "question",
+        "text": "请问，车站在哪里？",
+        "pinyin": "qing3 wen4 che1 zhan4 zai4 na3 li3",
+        "en": "Excuse me, where is the station?",
+        "ja": "すみません、駅はどこですか。"
+      },
+      {
+        "key": "straight",
+        "text": "请先往前走，再向右转。",
+        "pinyin": "qing3 xian1 wang3 qian2 zou3 zai4 xiang4 you4 zhuan3",
+        "en": "Please walk straight ahead, then turn right.",
+        "ja": "まずまっすぐ進んで、それから右に曲がってください。"
+      },
+      {
+        "key": "nearby",
+        "text": "车站就在前面。",
+        "pinyin": "che1 zhan4 jiu4 zai4 qian2 mian4",
+        "en": "The station is just ahead.",
+        "ja": "駅はすぐ前にあります。"
+      },
+      {
+        "key": "thanks",
+        "text": "谢谢您的帮助。",
+        "pinyin": "xie4 xie0 nin2 de0 bang1 zhu4",
+        "en": "Thank you for your help.",
+        "ja": "教えてくださってありがとうございます。"
+      }
+    ]
+  },
+  {
+    "key": "quiet-night-thought",
+    "kind": "poem",
+    "title": "静夜思",
+    "author": "唐 · 李白",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "moonlight",
+        "text": "床前明月光，",
+        "pinyin": "chuang2 qian2 ming2 yue4 guang1",
+        "en": "Bright moonlight shines before my bed,",
+        "ja": "寝床の前に明るい月の光が差し、"
+      },
+      {
+        "key": "frost",
+        "text": "疑是地上霜。",
+        "pinyin": "yi2 shi4 di4 shang4 shuang1",
+        "en": "As if frost lay on the ground.",
+        "ja": "地面に霜が降りたのかと思う。"
+      },
+      {
+        "key": "look-up",
+        "text": "举头望明月，",
+        "pinyin": "ju3 tou2 wang4 ming2 yue4",
+        "en": "I lift my head and gaze at the bright moon,",
+        "ja": "顔を上げて明るい月を眺め、"
+      },
+      {
+        "key": "look-down",
+        "text": "低头思故乡。",
+        "pinyin": "di1 tou2 si1 gu4 xiang1",
+        "en": "Then lower it, thinking of home.",
+        "ja": "うつむいて故郷を思う。"
+      }
+    ]
+  },
+  {
+    "key": "spring-dawn",
+    "kind": "poem",
+    "title": "春晓",
+    "author": "唐 · 孟浩然",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "sleep",
+        "text": "春眠不觉晓，",
+        "pinyin": "chun1 mian2 bu4 jue2 xiao3",
+        "en": "In spring sleep, I do not notice dawn,",
+        "ja": "春の眠りの中、夜明けにも気づかず、"
+      },
+      {
+        "key": "birds",
+        "text": "处处闻啼鸟。",
+        "pinyin": "chu4 chu4 wen2 ti2 niao3",
+        "en": "Birdsong reaches me from every side.",
+        "ja": "あちらこちらで鳥のさえずりが聞こえる。"
+      },
+      {
+        "key": "rain",
+        "text": "夜来风雨声，",
+        "pinyin": "ye4 lai2 feng1 yu3 sheng1",
+        "en": "Last night came the sound of wind and rain,",
+        "ja": "昨夜は風と雨の音がしていたが、"
+      },
+      {
+        "key": "flowers",
+        "text": "花落知多少。",
+        "pinyin": "hua1 luo4 zhi1 duo1 shao3",
+        "en": "Who knows how many flowers fell?",
+        "ja": "花はどれほど散ったのだろう。"
+      }
+    ]
+  },
+  {
+    "key": "ode-to-goose",
+    "kind": "poem",
+    "title": "咏鹅",
+    "author": "唐 · 骆宾王",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "geese",
+        "text": "鹅，鹅，鹅，",
+        "pinyin": "e2 e2 e2",
+        "en": "Geese, geese, geese,",
+        "ja": "ガチョウ、ガチョウ、ガチョウよ、"
+      },
+      {
+        "key": "sing",
+        "text": "曲项向天歌。",
+        "pinyin": "qu1 xiang4 xiang4 tian1 ge1",
+        "en": "With curved necks, they sing toward the sky.",
+        "ja": "首を曲げて空に向かって歌う。"
+      },
+      {
+        "key": "feathers",
+        "text": "白毛浮绿水，",
+        "pinyin": "bai2 mao2 fu2 lv4 shui3",
+        "en": "White feathers float on green water,",
+        "ja": "白い羽は緑の水に浮かび、"
+      },
+      {
+        "key": "feet",
+        "text": "红掌拨清波。",
+        "pinyin": "hong2 zhang3 bo1 qing1 bo1",
+        "en": "Red feet stir the clear ripples.",
+        "ja": "赤い足が澄んだ波をかき分ける。"
+      }
+    ]
+  },
+  {
+    "key": "sympathy-for-farmers-two",
+    "kind": "poem",
+    "title": "悯农（其二）",
+    "author": "唐 · 李绅",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "hoeing",
+        "text": "锄禾日当午，",
+        "pinyin": "chu2 he2 ri4 dang1 wu3",
+        "en": "Hoeing the grain beneath the midday sun,",
+        "ja": "真昼の日の下で田の草を取り、"
+      },
+      {
+        "key": "sweat",
+        "text": "汗滴禾下土。",
+        "pinyin": "han4 di1 he2 xia4 tu3",
+        "en": "Sweat drips onto the soil below the stalks.",
+        "ja": "作物の根元の土に汗が滴る。"
+      },
+      {
+        "key": "plate",
+        "text": "谁知盘中餐，",
+        "pinyin": "shui2 zhi1 pan2 zhong1 can1",
+        "en": "Who knows that the food upon the plate,",
+        "ja": "皿の上の食べ物が、"
+      },
+      {
+        "key": "hard-work",
+        "text": "粒粒皆辛苦。",
+        "pinyin": "li4 li4 jie1 xin1 ku3",
+        "en": "Every grain, comes from hard work?",
+        "ja": "一粒一粒、苦労の賜物だと誰が知っているだろう。"
+      }
+    ]
+  },
+  {
+    "key": "stork-tower",
+    "kind": "poem",
+    "title": "登鹳雀楼",
+    "author": "唐 · 王之涣",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "sun",
+        "text": "白日依山尽，",
+        "pinyin": "bai2 ri4 yi1 shan1 jin4",
+        "en": "The sun sinks behind the mountains,",
+        "ja": "太陽は山に沿って沈み、"
+      },
+      {
+        "key": "river",
+        "text": "黄河入海流。",
+        "pinyin": "huang2 he2 ru4 hai3 liu2",
+        "en": "The Yellow River flows into the sea.",
+        "ja": "黄河は海へと流れていく。"
+      },
+      {
+        "key": "distance",
+        "text": "欲穷千里目，",
+        "pinyin": "yu4 qiong2 qian1 li3 mu4",
+        "en": "To see a thousand miles farther,",
+        "ja": "千里の先まで見渡そうと、"
+      },
+      {
+        "key": "climb",
+        "text": "更上一层楼。",
+        "pinyin": "geng4 shang4 yi4 ceng2 lou2",
+        "en": "Climb one more floor of the tower.",
+        "ja": "さらにもう一階、楼を登る。"
+      }
+    ]
+  },
+  {
+    "key": "river-snow",
+    "kind": "poem",
+    "title": "江雪",
+    "author": "唐 · 柳宗元",
+    "scene": "classical-poetry",
+    "lines": [
+      {
+        "key": "mountains",
+        "text": "千山鸟飞绝，",
+        "pinyin": "qian1 shan1 niao3 fei1 jue2",
+        "en": "Across a thousand mountains, no birds fly,",
+        "ja": "多くの山々に、飛ぶ鳥の姿はなく、"
+      },
+      {
+        "key": "paths",
+        "text": "万径人踪灭。",
+        "pinyin": "wan4 jing4 ren2 zong1 mie4",
+        "en": "On ten thousand paths, no human tracks remain.",
+        "ja": "あらゆる小道から人の足跡も消えた。"
+      },
+      {
+        "key": "boat",
+        "text": "孤舟蓑笠翁，",
+        "pinyin": "gu1 zhou1 suo1 li4 weng1",
+        "en": "An old man in straw cape and hat, alone in a boat,",
+        "ja": "一艘の舟に、蓑と笠を着けた老人がいて、"
+      },
+      {
+        "key": "fishing",
+        "text": "独钓寒江雪。",
+        "pinyin": "du2 diao4 han2 jiang1 xue3",
+        "en": "Fishes alone on the cold river in the snow.",
+        "ja": "雪の降る冷たい川で、ひとり釣りをしている。"
+      }
+    ]
+  }
+]

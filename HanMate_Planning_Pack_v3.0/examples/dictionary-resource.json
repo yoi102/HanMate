@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+  "version": "1.0.0",
+  "resourceKind": "dictionary",
+  "names": {
+    "zh-Hans": "基础字典示例包",
+    "ja": "辞書サンプル",
+    "en": "Dictionary samples"
+  },
+  "publisherId": "hanmate-planning-fixtures",
+  "publisherName": "HanMate 工程样例",
+  "descriptionZh": "仅用于结构与引用验证，不是可发行词库。",
+  "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+  "permissionNotes": "原创工程样例；使用说明见 examples/README.md。教学与译文待复核。",
+  "canShare": true,
+  "backupPolicy": "allowed",
+  "reviewStatus": "draft",
+  "entries": [
+    {
+      "entryId": "entry-1",
+      "contentId": "1e4ca243-aa8a-5268-ab8c-90fafe2e3b86"
+    },
+    {
+      "entryId": "entry-2",
+      "contentId": "971c6997-c0db-5d8f-beca-28d4aa5ff90b"
+    },
+    {
+      "entryId": "entry-3",
+      "contentId": "714d701f-9047-5c04-9cdb-5943b1b85edf"
+    }
+  ],
+  "audioBindingIds": [],
+  "audioDefaults": []
+}

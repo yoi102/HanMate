@@ -1,0 +1,111 @@
+# Original AI-assisted teaching draft; Chinese, pinyin and translations pending independent review.
+# word;stable example key;text;pinyin;English;Japanese
+# Yi tone sandhi is shown in these spoken quantity expressions: yi2 before tone 4, yi4 before tones 1-3.
+一个;apple;一个苹果;yi2 ge4 ping2 guo3;one apple;りんご一個
+一个;apple-sentence;我吃了一个苹果。;wo3 chi1 le0 yi2 ge4 ping2 guo3;I ate an apple.;私はりんごを一個食べました。
+一只;cat;一只猫;yi4 zhi1 mao1;one cat;猫一匹
+一只;cat-sentence;我家有一只猫。;wo3 jia1 you3 yi4 zhi1 mao1;My family has a cat.;うちには猫が一匹います。
+一条;fish;一条鱼;yi4 tiao2 yu2;one fish;魚一匹
+一条;fish-sentence;水里有一条鱼。;shui3 li3 you3 yi4 tiao2 yu2;There is a fish in the water.;水の中に魚が一匹います。
+一本;book;一本书;yi4 ben3 shu1;one book;本一冊
+一本;book-sentence;我买了一本书。;wo3 mai3 le0 yi4 ben3 shu1;I bought a book.;私は本を一冊買いました。
+一张;paper;一张纸;yi4 zhang1 zhi3;one sheet of paper;紙一枚
+一张;paper-sentence;请给我一张纸。;qing3 gei3 wo3 yi4 zhang1 zhi3;Please give me a sheet of paper.;紙を一枚ください。
+一支;pencil;一支铅笔;yi4 zhi1 qian1 bi3;one pencil;鉛筆一本
+一支;pencil-sentence;我有一支铅笔。;wo3 you3 yi4 zhi1 qian1 bi3;I have a pencil.;私は鉛筆を一本持っています。
+一把;umbrella;一把伞;yi4 ba3 san3;one umbrella;傘一本
+一把;umbrella-sentence;他带了一把伞。;ta1 dai4 le0 yi4 ba3 san3;He brought an umbrella.;彼は傘を一本持ってきました。
+一件;clothing;一件衣服;yi2 jian4 yi1 fu0;one piece of clothing;服一着
+一件;clothing-sentence;我买了一件衣服。;wo3 mai3 le0 yi2 jian4 yi1 fu0;I bought a piece of clothing.;私は服を一着買いました。
+一双;shoes;一双鞋;yi4 shuang1 xie2;one pair of shoes;靴一足
+一双;shoes-sentence;我有一双新鞋。;wo3 you3 yi4 shuang1 xin1 xie2;I have a new pair of shoes.;私は新しい靴を一足持っています。
+一杯;water;一杯水;yi4 bei1 shui3;one glass of water;水一杯
+一杯;water-sentence;请给我一杯水。;qing3 gei3 wo3 yi4 bei1 shui3;Please give me a glass of water.;水を一杯ください。
+一碗;rice;一碗米饭;yi4 wan3 mi3 fan4;one bowl of rice;ご飯一杯
+一碗;rice-sentence;我吃了一碗米饭。;wo3 chi1 le0 yi4 wan3 mi3 fan4;I ate a bowl of rice.;私はご飯を一杯食べました。
+一辆;car;一辆汽车;yi2 liang4 qi4 che1;one car;車一台
+一辆;car-sentence;门口停着一辆汽车。;men2 kou3 ting2 zhe0 yi2 liang4 qi4 che1;A car is parked at the entrance.;入り口に車が一台停まっています。
+毫米;three;三毫米;san1 hao2 mi3;three millimeters;三ミリメートル
+毫米;thickness;这块玻璃厚三毫米。;zhe4 kuai4 bo1 li0 hou4 san1 hao2 mi3;This piece of glass is three millimeters thick.;このガラスは厚さが三ミリメートルです。
+厘米;ten;十厘米;shi2 li2 mi3;ten centimeters;十センチメートル
+厘米;pencil;这支铅笔长十厘米。;zhe4 zhi1 qian1 bi3 chang2 shi2 li2 mi3;This pencil is ten centimeters long.;この鉛筆は長さが十センチメートルです。
+分米;two;二分米;er4 fen1 mi3;two decimeters;二デシメートル
+分米;ruler;这把尺子长二分米。;zhe4 ba3 chi3 zi0 chang2 er4 fen1 mi3;This ruler is two decimeters long.;この定規は長さが二デシメートルです。
+米;two;两米;liang3 mi3;two meters;二メートル
+米;rope;这根绳子长两米。;zhe4 gen1 sheng2 zi0 chang2 liang3 mi3;This rope is two meters long.;このひもは長さが二メートルです。
+千米;three;三千米;san1 qian1 mi3;three kilometers;三キロメートル
+千米;school;学校离我家三千米。;xue2 xiao4 li2 wo3 jia1 san1 qian1 mi3;The school is three kilometers from my home.;学校は私の家から三キロメートル離れています。
+公里;two;两公里;liang3 gong1 li3;two kilometers;二キロメートル
+公里;walk;我们走了两公里。;wo3 men0 zou3 le0 liang3 gong1 li3;We walked two kilometers.;私たちは二キロメートル歩きました。
+盐;a-spoon;一勺盐;yi4 shao2 yan2;a spoonful of salt;塩をスプーン一杯
+盐;season-soup;汤里放一点盐。;tang1 li3 fang4 yi4 dian3 yan2;Add a little salt to the soup.;スープに塩を少し入れます。
+糖;a-spoon;一勺糖;yi4 shao2 tang2;a spoonful of sugar;砂糖をスプーン一杯
+糖;add-sugar;我在牛奶里加了一点糖。;wo3 zai4 niu2 nai3 li3 jia1 le0 yi4 dian3 tang2;I added a little sugar to the milk.;私は牛乳に砂糖を少し入れました。
+酱油;a-bottle;一瓶酱油;yi4 ping2 jiang4 you2;a bottle of soy sauce;醤油一本
+酱油;add-soy-sauce;炒菜时可以加一点酱油。;chao3 cai4 shi2 ke3 yi3 jia1 yi4 dian3 jiang4 you2;You can add a little soy sauce when stir-frying.;炒め物をするときに醤油を少し加えられます。
+醋;a-bottle;一瓶醋;yi4 ping2 cu4;a bottle of vinegar;酢一本
+醋;dumplings;我吃饺子时喜欢蘸醋。;wo3 chi1 jiao3 zi0 shi2 xi3 huan0 zhan4 cu4;I like dipping dumplings in vinegar.;私は餃子に酢をつけて食べるのが好きです。
+食用油;a-bottle;一瓶食用油;yi4 ping2 shi2 yong4 you2;a bottle of cooking oil;食用油一本
+食用油;cook;炒菜需要食用油。;chao3 cai4 xu1 yao4 shi2 yong4 you2;Cooking oil is needed for stir-frying.;炒め物には食用油が必要です。
+香油;a-bottle;一瓶香油;yi4 ping2 xiang1 you2;a bottle of sesame oil;ごま油一本
+香油;add-drops;汤里加几滴香油。;tang1 li3 jia1 ji3 di1 xiang1 you2;Add a few drops of sesame oil to the soup.;スープにごま油を数滴加えます。
+胡椒粉;a-bottle;一瓶胡椒粉;yi4 ping2 hu2 jiao1 fen3;a bottle of ground pepper;こしょう一瓶
+胡椒粉;sprinkle;我在汤里撒了一点胡椒粉。;wo3 zai4 tang1 li3 sa3 le0 yi4 dian3 hu2 jiao1 fen3;I sprinkled a little pepper into the soup.;私はスープにこしょうを少し振り入れました。
+花椒;a-packet;一包花椒;yi4 bao1 hua1 jiao1;a packet of Sichuan pepper;花椒一袋
+花椒;flavor;这道菜放了花椒，吃起来有点麻。;zhe4 dao4 cai4 fang4 le0 hua1 jiao1 chi1 qi3 lai2 you3 dian3 ma2;This dish contains Sichuan pepper and tastes slightly numbing.;この料理には花椒が入っていて、食べると少し舌がしびれます。
+八角;one;一颗八角;yi4 ke1 ba1 jiao3;one star anise pod;八角一個
+八角;stew;炖肉时可以放一颗八角。;dun4 rou4 shi2 ke3 yi3 fang4 yi4 ke1 ba1 jiao3;You can add one star anise pod when stewing meat.;肉を煮込むときに八角を一個入れられます。
+料酒;a-bottle;一瓶料酒;yi4 ping2 liao4 jiu3;a bottle of cooking wine;料理酒一本
+料酒;cook-fish;做鱼时可以加一点料酒。;zuo4 yu2 shi2 ke3 yi3 jia1 yi4 dian3 liao4 jiu3;You can add a little cooking wine when preparing fish.;魚を料理するときに料理酒を少し加えられます。
+蚝油;a-bottle;一瓶蚝油;yi4 ping2 hao2 you2;a bottle of oyster sauce;オイスターソース一本
+蚝油;vegetables;炒青菜时加一点蚝油。;chao3 qing1 cai4 shi2 jia1 yi4 dian3 hao2 you2;Add a little oyster sauce when stir-frying greens.;青菜を炒めるときにオイスターソースを少し加えます。
+辣椒酱;a-jar;一瓶辣椒酱;yi4 ping2 la4 jiao1 jiang4;a jar of chili sauce;チリソース一瓶
+辣椒酱;spicy;这瓶辣椒酱很辣。;zhe4 ping2 la4 jiao1 jiang4 hen3 la4;This chili sauce is very spicy.;このチリソースはとても辛いです。
+锅;one;一口锅;yi4 kou3 guo1;one pot;鍋一つ
+锅;soup;我用锅煮汤。;wo3 yong4 guo1 zhu3 tang1;I use a pot to make soup.;私は鍋でスープを作ります。
+平底锅;one;一个平底锅;yi2 ge4 ping2 di3 guo1;one frying pan;フライパン一つ
+平底锅;egg;我用平底锅煎鸡蛋。;wo3 yong4 ping2 di3 guo1 jian1 ji1 dan4;I fry eggs in a frying pan.;私はフライパンで卵を焼きます。
+菜刀;one;一把菜刀;yi4 ba3 cai4 dao1;one kitchen knife;包丁一本
+菜刀;cut;妈妈用菜刀切菜。;ma1 ma0 yong4 cai4 dao1 qie1 cai4;Mom cuts vegetables with a kitchen knife.;お母さんは包丁で野菜を切ります。
+砧板;one;一块砧板;yi2 kuai4 zhen1 ban3;one cutting board;まな板一枚
+砧板;cut;我在砧板上切胡萝卜。;wo3 zai4 zhen1 ban3 shang4 qie1 hu2 luo2 bo0;I cut carrots on the cutting board.;私はまな板の上でにんじんを切ります。
+锅铲;one;一把锅铲;yi4 ba3 guo1 chan3;one cooking spatula;調理用へら一本
+锅铲;stir-fry;炒菜时要用锅铲翻动食物。;chao3 cai4 shi2 yao4 yong4 guo1 chan3 fan1 dong4 shi2 wu4;Use a spatula to turn the food when stir-frying.;炒め物をするときはへらで食材を返します。
+漏勺;one;一把漏勺;yi4 ba3 lou4 shao2;one slotted spoon;穴あきおたま一本
+漏勺;dumplings;我用漏勺捞起饺子。;wo3 yong4 lou4 shao2 lao1 qi3 jiao3 zi0;I lift the dumplings out with a slotted spoon.;私は穴あきおたまで餃子をすくい上げます。
+碗;one;一个碗;yi2 ge4 wan3;one bowl;茶碗一つ
+碗;rice;碗里有米饭。;wan3 li3 you3 mi3 fan4;There is rice in the bowl.;茶碗にご飯が入っています。
+盘子;one;一个盘子;yi2 ge4 pan2 zi0;one plate;皿一枚
+盘子;fruit;请把水果放在盘子里。;qing3 ba3 shui3 guo3 fang4 zai4 pan2 zi0 li3;Please put the fruit on the plate.;果物を皿に載せてください。
+筷子;a-pair;一双筷子;yi4 shuang1 kuai4 zi0;a pair of chopsticks;箸一膳
+筷子;meal;我用筷子吃饭。;wo3 yong4 kuai4 zi0 chi1 fan4;I eat with chopsticks.;私は箸で食事をします。
+勺子;one;一把勺子;yi4 ba3 shao2 zi0;one spoon;スプーン一本
+勺子;soup;我用勺子喝汤。;wo3 yong4 shao2 zi0 he1 tang1;I use a spoon to eat soup.;私はスプーンでスープを飲みます。
+电饭锅;one;一个电饭锅;yi2 ge4 dian4 fan4 guo1;one rice cooker;炊飯器一台
+电饭锅;rice;电饭锅里的饭煮好了。;dian4 fan4 guo1 li3 de0 fan4 zhu3 hao3 le0;The rice in the rice cooker is ready.;炊飯器のご飯が炊けました。
+水壶;one;一个水壶;yi2 ge4 shui3 hu2;one kettle;やかん一つ
+水壶;boil;我用水壶烧水。;wo3 yong4 shui3 hu2 shao1 shui3;I boil water in a kettle.;私はやかんでお湯を沸かします。
+牙刷;one;一支牙刷;yi4 zhi1 ya2 shua1;one toothbrush;歯ブラシ一本
+牙刷;new;我买了一支新牙刷。;wo3 mai3 le0 yi4 zhi1 xin1 ya2 shua1;I bought a new toothbrush.;私は新しい歯ブラシを一本買いました。
+牙膏;one-tube;一支牙膏;yi4 zhi1 ya2 gao1;a tube of toothpaste;歯磨き粉一本
+牙膏;squeeze;请在牙刷上挤一点牙膏。;qing3 zai4 ya2 shua1 shang4 ji3 yi4 dian3 ya2 gao1;Please squeeze a little toothpaste onto the toothbrush.;歯ブラシに歯磨き粉を少し出してください。
+毛巾;one;一条毛巾;yi4 tiao2 mao2 jin1;one towel;タオル一枚
+毛巾;dry-hands;我用毛巾擦手。;wo3 yong4 mao2 jin1 ca1 shou3;I dry my hands with a towel.;私はタオルで手を拭きます。
+肥皂;one-bar;一块肥皂;yi2 kuai4 fei2 zao4;a bar of soap;石けん一個
+肥皂;wash-hands;请用肥皂洗手。;qing3 yong4 fei2 zao4 xi3 shou3;Please wash your hands with soap.;石けんで手を洗ってください。
+洗发水;a-bottle;一瓶洗发水;yi4 ping2 xi3 fa4 shui3;a bottle of shampoo;シャンプー一本
+洗发水;wash-hair;我用洗发水洗头发。;wo3 yong4 xi3 fa4 shui3 xi3 tou2 fa0;I wash my hair with shampoo.;私はシャンプーで髪を洗います。
+沐浴露;a-bottle;一瓶沐浴露;yi4 ping2 mu4 yu4 lu4;a bottle of body wash;ボディソープ一本
+沐浴露;shower;洗澡时可以用沐浴露清洁身体。;xi3 zao3 shi2 ke3 yi3 yong4 mu4 yu4 lu4 qing1 jie2 shen1 ti3;You can use body wash to clean your body when showering.;シャワーのときにボディソープで体を洗えます。
+卫生纸;one-roll;一卷卫生纸;yi4 juan3 wei4 sheng1 zhi3;a roll of toilet paper;トイレットペーパー一巻
+卫生纸;bathroom;卫生间里有卫生纸。;wei4 sheng1 jian1 li3 you3 wei4 sheng1 zhi3;There is toilet paper in the bathroom.;トイレにはトイレットペーパーがあります。
+纸巾;a-packet;一包纸巾;yi4 bao1 zhi3 jin1;a packet of tissues;ティッシュ一袋
+纸巾;wipe-mouth;我用纸巾擦嘴。;wo3 yong4 zhi3 jin1 ca1 zui3;I wipe my mouth with a tissue.;私はティッシュで口を拭きます。
+洗衣液;a-bottle;一瓶洗衣液;yi4 ping2 xi3 yi1 ye4;a bottle of liquid laundry detergent;液体洗濯洗剤一本
+洗衣液;laundry;洗衣服时加一点洗衣液。;xi3 yi1 fu0 shi2 jia1 yi4 dian3 xi3 yi1 ye4;Add a little liquid detergent when washing clothes.;洗濯するときに液体洗剤を少し入れます。
+扫帚;one;一把扫帚;yi4 ba3 sao4 zhou0;one broom;ほうき一本
+扫帚;sweep;我用扫帚扫地。;wo3 yong4 sao4 zhou0 sao3 di4;I sweep the floor with a broom.;私はほうきで床を掃きます。
+拖把;one;一把拖把;yi4 ba3 tuo1 ba3;one mop;モップ一本
+拖把;floor;我用拖把擦地。;wo3 yong4 tuo1 ba3 ca1 di4;I clean the floor with a mop.;私はモップで床を拭きます。
+垃圾桶;one;一个垃圾桶;yi2 ge4 la1 ji1 tong3;one trash can;ごみ箱一つ
+垃圾桶;trash;请把垃圾放进垃圾桶。;qing3 ba3 la1 ji1 fang4 jin4 la1 ji1 tong3;Please put the trash in the trash can.;ごみをごみ箱に入れてください。

@@ -1,0 +1,2373 @@
+HanMate pinyin audio source notices
+Cached licensed source recordings. Draft teaching selection, pronunciation matching pending independent review.
+Each converted recording remains under its original license. No endorsement by the speakers is implied.
+
+Pinyin/ba1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ba1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ba2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ba2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ba3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ba3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ba4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ba4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/pa2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-pa2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/pa4.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%80%95.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ma2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ma2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ma3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ma3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/pa1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B6%B4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/po1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-po1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/po2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-po2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/pao3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-pao3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/po4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-po4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ma1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ma1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ma4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ma4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fa1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fa1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fa2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fa2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fei2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fei2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fa3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fa3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fa4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fa4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/da1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-da1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/da2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-da2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/da3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-da3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/da4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-da4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ta1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ta1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/tun1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-tun1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/tai2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-tai2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ta3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ta3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ta4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ta4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/nie1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-nie1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/na2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-na2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/neng2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-neng2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/nan2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-nan2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/na3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-na3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/na4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-na4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/la1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-la1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/lou2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-lou2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/la3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-la3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/la4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-la4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ge1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ge1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ge2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ge2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ge3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ge3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ge4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ge4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ke1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ke1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ke2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ke2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ke3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ke3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ke4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ke4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/he1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-he1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/he2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-he2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/hong2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-hong2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/hui2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-hui2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/huo3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-huo3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/he4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-he4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ji1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ji1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ji2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ji2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ji3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ji3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ji4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ji4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/qi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-qi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/qi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-qi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/qi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-qi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/qi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-qi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xue1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xue1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xue2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xue2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xue3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xue3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/xi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-xi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zhi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zhi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zhi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zhi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zhi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zhi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zhun3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zhun3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zhi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zhi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/chi1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%90%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/chi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-chi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/chang2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-chang2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/chi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-chi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/chi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-chi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/shi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-shi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/shi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-shi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/shi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-shi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/shi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-shi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ren2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ren2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ren3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ren3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ri4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ri4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ren4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ren4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/zi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-zi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/cong1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-cong1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ci2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ci2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ci3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ci3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ci4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ci4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/si1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-si1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/si3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-si3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/san3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-san3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/si4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-si4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yi1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yi1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yi2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yi2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yi3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yi3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yi4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yi4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wu1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wu1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wu2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wu2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wu3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wu3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wu4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wu4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/a1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-a1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/o1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-o1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/o2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-o2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/o4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-o4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/e2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-e2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/e3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-e3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/e4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-e4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yu1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yu1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yu2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yu2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yu3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yu3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yu4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yu4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ai1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ai1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ai2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ai2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ai3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ai3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ai4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ai4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bei1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bei1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bei3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bei3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bei4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bei4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gui1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gui1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gui3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gui3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gui4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gui4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bao1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bao1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bao2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bao2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bao3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bao3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bao4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bao4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gou1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gou1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gou3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gou3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/gou4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-gou4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/liu1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-liu1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/liu2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-liu2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/liu3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-liu3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/liu4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-liu4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/jie1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-jie1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/jie2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-jie2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/jie3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-jie3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/jie4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-jie4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yue1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yue1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yue4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yue4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/er2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-er2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/er3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-er3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/er4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-er4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/an1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-an1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/an4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-an4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ben1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ben1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ben3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ben3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ben4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ben4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yin1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yin1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yin2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yin2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yin3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yin3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yin4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yin4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/lun2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-lun2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/lun4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-lun4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yun1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yun1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yun2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yun2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yun3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yun3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yun4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yun4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bang1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bang1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bang3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bang3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bang4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bang4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/deng1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-deng1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/deng3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-deng3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/deng4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-deng4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ding1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ding1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ying2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ying2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ding3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ding3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ding4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ding4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/dong1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-dong1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/dong3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-dong3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/dong4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-dong4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ci1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ci1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ye1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ye1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ye2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ye2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ye3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ye3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ye4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ye4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yuan1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yuan1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yuan2.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yuan2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yuan3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yuan3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/yuan4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-yuan4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ying1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ying1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ying3.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ying3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ying4.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ying4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/bo1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-bo1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/mo1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-mo1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/fo1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-fo1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/de1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-de1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/te1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-te1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ne1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ne1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/le1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-le1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ri1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ri1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/e1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-e1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ei1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ei1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wei1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wei1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ao1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ao1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ou1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ou1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/you1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-you1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/er1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-er1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/en1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-en1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/wen1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-wen1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/ang1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-ang1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/eng1.wav
+Chen Wang; audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/syllabs/cmn-eng1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-fcd5a26be11d5b30bc4b2627d490bb60.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B3%A2%E6%B5%AA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8f003dd6f05d5369a5d8ed57bd9f039c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%92%AD%E6%94%BE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-022f4630af7c5dbcab661748663b9530.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%82%B2%E5%93%80.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d341b94bd3fa5e4a836b1e1b9ee4d4a9.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%9D%AF%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-44a1c8f5363a53b8954ca2499ecc5d5d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8C%85%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f24b176b11255ed68676e5bb8ceaf885.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B8%AE%E5%8A%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-04c958e469015d219d8d5b4c609ca0fa.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%9B%B9%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1d4dcada8fc357518093f6629b2e3409.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%8F%90%E6%8B%94.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c4c3488032725500804a161cfa9064cf.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%BD%BC%E6%AD%A4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-19d66e40822e5099995b6d7eb1c709b5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%8A%8A%E6%89%8B.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-22ba6605020252b886b05ba920f84640.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8C%97%E6%96%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c9f531181541578fab9973a853de9faa.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AE%9D%E8%B4%9D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9485a96d4af7507083242d59c38bdb4c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BB%91%E6%9E%B6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-5633d51e57eb50da9b39e0c68e9a52e0.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%88%B8%E7%88%B8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-cf77033961ae586cbf41a38993954504.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%B8%8D%E5%A4%9F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-265b80fca4515bb5bdf542aba013fc4c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%8A%B1%E6%AD%89.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d6862854073057f1ab0430d99f9a71e9.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A3%92%E7%90%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1289147214a35e439b86b18b2f73dc01.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%89%B9%E8%AF%84.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8c5353bb3bce5e15a5c490fe8d55dbca.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A9%86%E5%A9%86.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-929dd0f54eba51a5aa039732d916f0e0.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%8B%B9%E6%9E%9C.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-2c9c5151f0025198a600d2a392463a3c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%9C%8B%E5%8F%8B.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-5c099c7bf6485f01ac1748ad35b56d8f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B7%91%E6%AD%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-11530eb4f15b5e699d2c7a48d27a3c07.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%A0%B4%E5%9D%8F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ac67651fabc45856b7da95f1a5322b92.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AE%B3%E6%80%95.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-df94afc73be956fa8972c313076e5a03.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A6%88%E5%A6%88.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-849354c1f51a53349ed5cb4297350bb5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%8A%B9%E5%B8%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8b591e077caa59cea0be63cb584e853a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%BA%BB%E6%9C%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9409ead0c4875a8abe45a50aa5b4410f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%98%91%E8%8F%87.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-00c4e415e5a75bac983927997db9a2f3.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%AD%94%E9%AC%BC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a448c8e0f706523bb4dabc9872ab9be8.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%A9%AC%E8%BD%A6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-637e8bbdf3ad50d59485a0ed07c36a94.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BE%8E%E5%A5%BD.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ff688b0d029057d29e7c8b7a963a83b7.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B8%BD%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ae473aae68b853a6bd94a74846ecea8a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%A3%9E%E6%9C%BA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7f82aeaefa6b505ca14a0e220eb45826.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8F%91%E7%A5%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1b1f4586c0c7530eb0fe198cb04dc6f0.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BD%9B%E6%95%99.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-46ac98e7e37053ccb9035935bad2ab85.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BD%9A%E6%AC%BE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-4d1c21189d3e56c3a52c01808302e01f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%82%A5%E7%9A%82.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-94ad25cb93fd528cbe4264b1567b7c82.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8A%9E%E6%B3%95.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-07961dcf80965b4b83134e5890428fb8.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B3%95%E5%BE%8B.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c6ef6cd2277657eb9ac024aceec504c2.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%90%86%E5%8F%91.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-60282affd5e555f0a8f7b1d37a69d988.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%86%AC%E5%A4%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-76ffa12981bb594b99c40928863ceac2.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%90%AD%E9%85%8D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-abaa91db9a5b52a2a74a66a3b03202f6.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8F%AE%E5%98%B1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9741d44c153a5cad92e339934056c05e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BE%BE%E5%88%B0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f1a06fe5fa2252f9a8a87ec4b8bae1d5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%89%93%E6%89%AB.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f2189a6dd6fc5e81bce20f3f8ac57d48.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%A1%B6%E7%82%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-163cd04c03ac5f30a7625a5279b23d28.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%AD%89%E5%BE%85.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-78a08cb12d8a51a6944dac51dae419fa.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%87%82%E5%BE%97.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-29270afaec315d51a6d36ba5f3be46fe.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%9C%B0%E5%9B%BE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8f2af0ac04975f388f7b440f3054295f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%94%B5%E7%81%AF.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-5d4c148298a35889b3c8875705961d3a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%87%B3%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-49dfa9844aa25fa887588ae02c140f7e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8A%A8%E7%89%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-75c5aa49c7a25f6d92f4caa5b150f66a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%94%B5%E5%BD%B1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7c7bcf4281ed56458858da20c83c1297.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A4%A9%E7%A9%BA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-01503ce73cbc5de3806379cdec11847b.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B0%88%E8%AF%9D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f6d6811c931052d1ac97fe86d7bb7917.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%81%9C%E6%AD%A2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-fd90e46ce91d5e44916c60a0881406a9.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AE%A8%E8%AE%BA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f286527c5f0857e08d333bbc3cb7ecb3.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%85%94%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c53bc09299bf5279a519516bab5ce234.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A4%AA%E9%98%B3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b1406914b8fb5d44b424118858b90778.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%8D%8F%E9%80%A0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-75808bbf85d858e09652f98625eb0e4f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%89%9B%E5%A5%B6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-bc6b93d2c34c5c24a88f259dafed704d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8D%97%E6%96%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f0c3f28c61fe55a8938a89b09e00434d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%83%BD%E5%A4%9F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-bd6791e3711e5b34ab3fa4f171b8b5e5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A5%B6%E5%A5%B6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b6a33ba4d66e5a5f8b1cb12fc2472816.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%89%AD%E8%BD%AC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d79b547c030b579f9fe35de4dcff6906.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%82%A3%E8%BE%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a794a4dd5e09573bae615c7c4bc343ed.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%9E%83%E5%9C%BE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a6c1a3568c045d06bc630de2a9da7c19.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%9D%A5%E5%BE%80.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c7653587f0bd560c9440c5524e14a915.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A5%BC%E6%88%BF.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a9fe870d519c5812a0b3fd64bbc9aa1a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BD%AE%E8%88%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-717bfb9232465abc8bc9e7e5b757d361.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%80%81%E5%B8%88.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-2011554eb5b05fbfaa836b7f1bde0fab.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%A4%BC%E7%89%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6e3288a0e37a523789805ac752eec240.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%9F%B3%E6%A0%91.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7e6ddb1ffde25e18942bbcb073a56b56.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BA%86%E8%A7%A3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-4a43b607902e58d6abbf851c95dd85f1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BE%A3%E6%A4%92.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-718691a5005a5682addb62eb30fe9406.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8E%86%E5%8F%B2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c60343db6d01538dac960b622b97ac8a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%93%A5%E5%93%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8a5d39db202a52e7bea63f1f24b99b1d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%BD%92%E8%BF%98.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8f31c0f90f89564383bfe052fdca7608.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B2%9F%E9%80%9A.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c636f863d66452c09fc02cd4adef739f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A0%B9%E6%9C%AC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b59c0c80f0c95c14b181d471df1d2912.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A0%BC%E5%BC%8F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a5382e474c5d5ce8bbafe3d9e565a775.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%91%8A%E8%AF%89.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-76c4f9a6505c5b4582707a4cfa63acb6.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B4%B5%E9%87%8D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b3eb5490526157399dbe648f5848cdf8.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%A7%91%E5%AD%A6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-869924b7516b5a7281f0ce8f949e6b9b.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%92%B3%E5%97%BD.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7b7f6e9cc9da5e4d97fc765bacc617ea.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8F%AF%E4%BB%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-0cdd716e6b805a0faa6e4b49226e5111.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%BF%AB%E4%B9%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-78955f0d3e2c594d89c9a1a30f7f02a0.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AF%BE%E6%9C%AC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ea7250b96d915443aa03dd798f34b39e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%8A%B1%E6%9C%B5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-4366cf0408535a2bb37a1d3f6e7c7733.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%AC%A2%E8%BF%8E.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-65edd9b589b0564db3bd427c13e08325.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B2%B3%E6%B5%81.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-61aa175eaa45530895698bb9cd074904.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%9B%9E%E6%9D%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d20b8a1df8e85c039021a972b5683106.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BA%A2%E6%97%97.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d6a8d185f2155a76ac47e1b54d0a1663.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AF%92%E5%86%B7.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-e4fdfaafe0505772b3748c37a151c818.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A5%BD%E5%90%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6bc1affcb7b35dadaadfe40f9aeacee1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B5%B7%E5%B2%B8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-96a400b547db5816abcb5abde46f91b5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%A5%9D%E8%B4%BA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-39849fd44fa45e8b83164ae88ac2d8ce.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B1%85%E4%BD%8F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-815e2614cfce56cb881ba80d61611c94.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%86%9B%E9%98%9F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-abd949d083e7515b9233cd3fe4ea3953.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BA%A0%E6%AD%A3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6b3f118f27cf5896911288a46b5bbbc1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%B8%A1%E8%9B%8B.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1aa4d6e7858650fe9cad01f2e4156652.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%87%91%E9%B1%BC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a219307b1ac25a6fb9512978895ca774.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%A5%A5%E9%A5%BF.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-310dc11791925239986cae9bc07afa9f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%A1%97%E9%81%93.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d65e625d225d57bc91a6911914e6fcf4.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%9D%9A%E7%A1%AC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d991fa170907538d96cd0c0a82aae737.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%80%A5%E5%BF%99.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1b758eb6cd9e51239da35e01caafddd3.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%8A%82%E6%97%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f67c641d24ae52598badbc21b206b8f1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%86%B3%E5%AE%9A.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-e07db6c0ecf85bdda729116d4dd5ffa2.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A7%90%E5%A7%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-08ac7edd49175d7e89ff9b2c65fb5fca.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%94%A6%E7%BB%A3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7bdd6176ca5058dab12d2a5848fa542d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AE%B0%E5%BE%97.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-dd4aca3beab057c1b0028e7a8a703837.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%80%9F%E5%8F%A3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-3dcaa3cda2b657deb17c5acfc2e6e7df.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B5%B7%E6%9D%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9cb712a0c24d5acaaaa11742c8fb0c37.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B0%94%E7%90%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-0a3eb702183b5accb300847dc0111e7d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%A5%BF%E7%93%9C.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-303ef5708e275b2eb3c2e696c0aba6c6.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%9D%B4%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f20f95036fc55c26bbcf6ba1dbfe1aad.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AD%A6%E4%B9%A0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-fb4554ca941a57f8ab0e095faf98e630.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B4%97%E6%BE%A1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f585da103ceb59c7a9c67511ac5959f3.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%9B%AA%E8%8A%B1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-89c3faa33e955d04afda05c5ec206939.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BB%86%E5%BF%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b06f830a41e559168ecd9106f40479f6.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%9C%98%E8%9B%9B.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-21abdf7af34956a8818756a8f655a723.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%9B%B4%E6%8E%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-02b4ec8c8f255298931d2dda7af0212d.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BA%B8%E5%BC%A0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a5924a63c46c5a2b954024556380e610.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B1%95%E8%A7%88.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b0b4ae9ec5315eb3b76582d5ad8ae05e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%87%86%E7%A1%AE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-830261cd161c559ba49ad7091a942d0a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%87%B3%E5%B0%91.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1d62b473e86a584dab73070bcb297d53.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%98%A5%E5%A4%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-40c922673f8f5d8487f20a3be5783699.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%95%BF%E6%9C%9F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-48b785fc78485027ab5d7358de1b5012.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BF%9F%E5%88%B0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-4101535499da56cf966a809dc58a6a3a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B0%BA%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-fe5c204ec1355774b1248f256b54885e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BF%85%E8%86%80.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a63a0fb3580b5877ab3fc829feaffa71.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%8B%AE%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1758fabf05a95f2693aaeba3c2f880c5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AF%97%E4%BA%BA.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-01f6d4e6a9a959aebad0a79d18b2ed2e.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%97%B6%E9%97%B4.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f8c2ec31913154c79abcdbdaeb5079eb.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B0%B4%E6%9E%9C.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-4928fd5ca1e95cc2876cb7e91a93200c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BA%8B%E6%83%85.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9d3b0c87ea555730a0488bdaba1f6fb8.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BA%BA%E6%B0%91.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-3820ed1045c35403964253ba84f8c2a5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AE%B9%E6%98%93.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-983e1a54a8015507b7eb6c7eca27ee69.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%BF%8D%E8%80%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-267c3e033d0b5950b51189a9ebe83f4b.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%97%A5%E8%AE%B0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-5325c3f1116255d6a2e1beb2ed644c8b.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AE%A4%E7%9C%9F.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-82d9db4082b451539eec3abf6c4d2f83.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%B5%84%E6%BA%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ef0e444e03325fdead4f719f6ed5fd13.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AD%90%E5%AD%99.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-9b18c225085e57dbb7b0d50a4183239a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%87%AA%E5%B7%B1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-be436479b4765054bed8bed6879c1f6f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8C%86%E5%BF%99.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-fe2d6e7a77f45677833d2633bc397cce.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%AF%8D%E5%85%B8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b4afb50e50985488825548cd6154562f.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BB%8E%E6%9D%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7506811eda38550e858898ff7da0b4bc.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%8D%89%E5%9C%B0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ac5765ed62b750d8a014e4a194b4b6b7.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%88%BA%E6%BF%80.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1df35c090db15ee0b1701ab7403ca558.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A3%AE%E6%9E%97.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-eb017e301608501885035bed798aea87.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%B8%9D%E6%AF%AB.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-15499c259c7457cda76bf88320b77168.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%AD%BB%E4%BA%A1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ffde17ed82775772869e3724b078a35a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%9B%A8%E4%BC%9E.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-89d8bd9a888559c291457624b83e96f7.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%9B%9B%E5%AD%A3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-038b9e22df0c51bc86420b10d6e45461.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%A1%A3%E6%9C%8D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-77e6cdbd10a15248a0a47f0f0fc5658a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%BA%A6%E4%BC%9A.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-2d32161483f2558894e8fc7dae27e889.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%9F%B3%E4%B9%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6a72cb687dff5a9d9feb25f7533abb98.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%86%A4%E6%9E%89.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b1c6c3c80c4057ddaa1cb917deffde65.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8C%BB%E9%99%A2.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-e9e09145e3b95f21a9d182b0397ed503.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%8B%B1%E9%9B%84.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6fd969b4b50d5b66a18831a81f553b45.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BA%91%E5%BD%A9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7d7ee93b9c215470af422fb2326fc347.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%A7%BB%E5%8A%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-1d3b79c1b2a35b2490835a8a7c6d7ba1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%93%B6%E8%A1%8C.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-b90adafff7765282b387db2276ad7df0.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%88%B7%E7%88%B7.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c94ac2aec9a1522a9c9287a80df406a6.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%85%83%E6%97%A6.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-80fc7ca3c6365f79a3ea01506e38d7c2.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%A4%85%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-f00422c2f1bd53faa4d904cce2a80af1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%BC%95%E5%AF%BC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-30f1af8b80785fe18937233077edb242.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%85%81%E8%AE%B8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7c9f3cfd8e5d58b99179416180fff463.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%87%8E%E5%A4%96.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-15b7d58fc2705151bc0970aac51303c5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BF%9C%E6%96%B9.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ddd310867ebf5ba48b013cb4c54a035b.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%9C%88%E4%BA%AE.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-66b1a566b0145de390811d6fb1eadbb1.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%84%8F%E6%80%9D.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-20b4514f503c5c95ba5572c74433fbc5.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%8E%89%E7%B1%B3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a1b5eba0a9295c27903e60db94b5a8ba.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8D%B0%E8%B1%A1.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6ee2636e7c5e5bde9c80af13dca402a8.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%BF%90%E5%8A%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-d67575a5b6fe5fcaba8244bafe14bb6c.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%A4%9C%E6%99%9A.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-ca26d1f9bf8f547f9d0086bd736af627.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%B1%8B%E5%AD%90.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-093fedbb004157f2b1e8f5c19146bf36.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%B8%A9%E6%9A%96.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-0e265b538ec156779bd37613d9fe36a7.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%97%A0%E6%95%B0.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-2fc52eb9e4b8514cb2033f1e5ebc97df.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%88%91%E4%BB%AC.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-45603d43843d5684ad946b69b5766729.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%8D%88%E9%A5%AD.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-7bc5df695ab45af5849b0587c981aa33.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%89%A9%E5%93%81.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-89b2ac4d80035d5686cabbc0662635c9.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%98%BF%E5%A7%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c067ccfbe89a536f9307b3ca9df09797.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E9%A2%9D%E5%A4%96.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-8dbc220d32a45c2382ccb1c622cb66bc.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E6%81%B6%E5%BF%83.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-becfea5643bc56449ba553bfc8ca001a.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E7%88%B1%E5%A5%BD.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-a5c9599497da5801a16a8112e88ce139.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%84%BF%E7%AB%A5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-6266bb5f7f2556aa9b93545275194b16.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E8%80%B3%E6%9C%B5.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-942aae89c35056b6a66c290a27858c63.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A2%B3.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.
+
+Pinyin/word-c981cbe2a5495388a9bf70a8fae5c962.wav
+Yue Tan; SWAC / audio-cmn / Hugo Lopez
+https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/64k/hsk/cmn-%E5%AE%89%E5%85%A8.mp3
+CC BY-SA (source does not specify version) — https://github.com/hugolpz/audio-cmn/blob/ff9ed3d0c631195bd2c06f39450f3264c7124040/README.md
+Decoded MP3 to mono 24 kHz PCM16 WAV; no concatenation or phonetic edits.

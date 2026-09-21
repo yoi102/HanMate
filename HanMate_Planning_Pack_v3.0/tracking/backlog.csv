@@ -1,0 +1,49 @@
+taskId,title,dependencies,acceptance,status,owner,evidence
+W0-01,环境与已有仓库审计,无,实际 SDK/设备/现有文件清单；不覆盖已有工程,DONE,Codex,tracking/evidence/W0-01-environment-and-repository-audit.md
+W0-02,Ruby 技术验证,W0-01,混排、长文、200% 字号、Windows/Android状态；iOS依ADR-105延期,DONE,Codex,tracking/evidence/STAGE-D6-20260920.md
+W0-03,离线注音候选验证,W0-01,词典来源、候选引擎、可解释误音清单,DONE,Codex,tracking/evidence/W0-03-offline-pinyin-candidate-trial.md
+W0-04,音频与权限验证,W0-01,本地播放、真实录音、TTS 离线状态,DONE,Codex,tracking/evidence/STAGE-D7-20260920.md
+W0-05,文件保存和分享验证,W0-01,Windows/Android流读取、保存取消、自定义后缀回退；iOS依ADR-105延期,DONE,Codex,tracking/evidence/STAGE-D6-20260920.md
+W0-06,锁定技术决策,W0-02..05,ADR、版本锁、阻塞与替代路线,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
+W1-01,Core/Infrastructure/App 骨架,W0-01,保留已有 App；Core 可独立测试；平台依赖冻结和适配器完成仍由 W0-06 放行,DONE,Codex,tracking/evidence/W1-01-project-skeleton.md
+W1-02,内容契约与验证器,W1-01,schema+范围+ID+拼音一致性测试,DONE,Codex,tracking/evidence/W1-02-content-contract-and-validator.md
+W1-03,SQLite 与首版迁移框架,W1-02,持久化、外键、重启、失败回滚；落实草稿/设置/收藏版本与每次导入 operationId 收据,DONE,Codex,tracking/evidence/W1-03-sqlite-and-initial-migration.md
+W1-04,五入口与即时本地化,W1-01,三语言刷新；正文不变,DONE,Codex,tracking/evidence/W1-04-five-entry-localization.md
+W1-05,样例内容与目录装载,"W1-03,W1-08,W1-09",12词/1文/1语法/1诗与基础字典开发素材，真实来源状态,DONE,Codex,tracking/evidence/W1-05-W2-01-pinyin-and-starter.md
+W1-06,基础 Ruby 控件,W1-02,数据到控件的真实展示，不以空格对齐,DONE,Codex,tracking/evidence/W1-06-native-paged-reader.md
+W1-07,语法数据与角色验证,W1-02,schema v2、完整unit引用、样例、旧三类不退化,DONE,Codex,tracking/evidence/W1-07-grammar-validation.md
+W1-08,资源与字典持久模型,W1-03,五张资源表、拥有关系/撤下/保留、搜索alias主键,DONE,Codex,tracking/evidence/W1-08-resource-and-dictionary-persistence.md
+W1-09,本地资源安装基础链,"W1-08,W1-07,W1-04",先完成共享 ZIP 白名单/限额/哈希/版本/引用验证，再安装文本资源；有音频的包在音频链完成前整包拒绝，不静默丢弃音轨,DONE,Codex,tracking/evidence/W1-09-text-resource-installation.md
+W2-01,拼音表与四声交互,"W1-04..06,W3-04",共用最小播放协调器；点播、长按、红色目标、Windows 等价入口,DONE,Codex,tracking/evidence/W2-reading-playback.md
+W2-02,场景/难度/学段筛选,W1-03..05,AND/OR 查询与正常空状态,DONE,Codex,tracking/evidence/W2-02-W2-06-W3-01-learning-favorites-drafts.md
+W2-03,词语详情与例句,"W1-05,W1-06,W3-04,W3-06",顶部词条、例句整句朗读；最小协调器含单会话、取消、完成与迟到回调保护,DONE,Codex,tracking/evidence/W2-reading-playback.md
+W2-04,阅读器与单段/全文播放,"W1-05,W1-06,W3-04,W3-06",复用最小协调器；选段放大、取消旧队列、诗行守恒,DONE,Codex,tracking/evidence/W2-reading-playback.md
+W2-05,字典搜索与索引,W1-03,汉字、带调/无调/数字拼音、ü、边界,DONE,Codex,tracking/evidence/W2-05-W2-09-offline-search.md
+W2-06,收藏夹与基础设置,W1-03..04,多收藏夹去重、重启保存、删除不伤正文,DONE,Codex,tracking/evidence/W2-02-W2-06-W3-01-learning-favorites-drafts.md
+W2-07,语法详情与例句播放,"W1-05,W1-07,W1-06,W3-04,W3-06",句型不误读、中文说明/带调例句、收藏导航,DONE,Codex,tracking/evidence/W2-reading-playback.md
+W2-08,学习资源与字典管理页,"W1-09,W1-04",真实安装/启停/版本/数量，无依赖卸载；受引用路径W3-08门禁,DONE,Codex,tracking/evidence/W2-08-resource-management.md
+W2-09,多字典查询与来源优先级,"W2-05,W1-08",启用过滤、source epoch、同音义来源、查询字典与注音隔离,DONE,Codex,tracking/evidence/W2-05-W2-09-offline-search.md
+W3-01,TXT/粘贴与草稿,"W1-03,W1-04",编码、容量、取消、错误保留输入；跨平台保存分享仍由W0-05验收,DONE,Codex,tracking/evidence/W2-02-W2-06-W3-01-learning-favorites-drafts.md
+W3-02,离线自动注音,"W0-03,W3-01",上下文词典、未知标记、后台取消,DONE,Codex,tracking/evidence/W3-02-W3-03-W3-07-annotation-editor.md
+W3-03,人工校正与正文差异,W3-02,锁定保留、范围更新、冲突不覆盖,DONE,Codex,tracking/evidence/W3-02-W3-03-W3-07-annotation-editor.md
+W3-04,音频协调器完善,"W1-03,W1-04",session 隔离、切后台与迟到回调,DONE,Codex,tracking/evidence/W3-04-W3-06-local-audio.md
+W3-05,用户录音与音频导入,W3-03..04,录音试听重录保存、真实解码检查,DONE,Codex,tracking/evidence/STAGE-D7-20260920.md
+W3-06,音轨绑定及复核,"W3-03,W3-04",根/段目标哈希、选择默认、改音失效提示,DONE,Codex,tracking/evidence/W3-04-W3-06-local-audio.md
+W3-07,语法创建编辑与分享准备,"W1-02,W1-06,W3-01..03",多说明/例句/注记及译文主题、锁定、个人保存/回收站、完整图分享预览准备,DONE,Codex,tracking/evidence/W4-text-content-sharing.md
+W3-08,删除依赖预览与快照保留,"W3-06,W2-08",撤下/卸载、同包接回与跨版保留；保护收藏、音轨、ready草稿及规范教学引用，未知引用保守保护,DONE,Codex,tracking/evidence/W4-recovery-resource-compatibility.md
+W4-01,包序列化与严格验证,"W1-09,W3-06",扩展已有严格验证器到音频、分享和备份；复用安全/事务基础，不另写宽松导入器,DONE,Codex,tracking/evidence/W4-backup-merge.md
+W4-02,一致快照导出与分享,W4-01,文件租约、选择范围、不含多余隐私,DONE,Codex,tracking/evidence/W4-backup-merge.md
+W4-03,合并计划和冲突映射,W4-01,区分包身份与本次操作；幂等、删除后再导入、嵌套 ID 全重映射,DONE,Codex,tracking/evidence/W4-backup-merge.md
+W4-04,事务恢复与完整替换,"W4-03,W4-02",安全备份、每次操作收据、失效 plan 拒绝、同备份修改后再次恢复,DONE,Codex,tracking/evidence/W4-recovery-resource-compatibility.md
+W4-05,故障与攻击输入回归,"W4-04,W4-07,W4-09",杀进程/满磁盘/坏包不损坏旧库,DONE,Codex,tracking/evidence/W4-recovery-resource-compatibility.md
+W4-06,Windows/Android双向迁移（本轮）,"W4-02..05,W4-07..09",正文、校正、收藏、用户音频逐项一致,DONE,Codex,tracking/evidence/STAGE-D6-20260920.md
+W4-07,资源升级与备份恢复状态,"W4-01,W3-08",资源文字/WAV升级、已卸载跨版、外部教学目录UI及备份启停/优先级/撤下/缺失状态恢复,DONE,Codex,tracking/evidence/W4-recovery-resource-compatibility.md
+W4-08,四类多选与单音频分享,"W4-02,W3-07",选择闭包、grammar重映射、音轨白名单、真实文件分享,DONE,Codex,tracking/evidence/W4-backup-merge.md
+W4-09,旧包兼容与数据库迁移,"W4-04,W1-08",v1先校验再转v2；真实旧库迁移/失败保护测试,DONE,Codex,tracking/evidence/W4-recovery-resource-compatibility.md
+W5-01,性能与访问性,M1..M4,参考设备测量、键盘与读屏验收,IN_PROGRESS,Codex,tracking/evidence/W5-local-completion-20260919.md
+W5-02,开发内容与审核材料交付,"W2-01..04,W2-07,W2-09",开发内容/字词关联、当前哈希待审清单及来源边界；正式终审/授权RG-01/02后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
+W5-03,Windows/Android内部开发构建,"W0-06,M1..M4",locked restore、Release开发产物及源文件哈希；正式签名/安装升级RG-03后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
+W5-04,内部隐私与发布准备说明,W5-02..03,源码/清单/本地数据流对应说明；正式商店资料与最终申报RG-04后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
+W5-05,全量回归与缺陷关闭,"W5-01..04,W5-07",P0 用例全部有平台证据,TODO,UNASSIGNED,
+W5-06,内部交付与恢复归档,"W0-06,W5-02..04",实际开发包、可复现源码/环境快照、逐文件哈希与恢复指南；正式发布RG-07后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
+W5-07,新增内容与资源回归门禁,"W4-07..09,W2-09",Windows/Android适用176用例、资源管理/分享/迁移回归；正式语法/字典终审另列RG-01/02,IN_PROGRESS,Codex,tracking/evidence/STAGE-D5-20260920.md

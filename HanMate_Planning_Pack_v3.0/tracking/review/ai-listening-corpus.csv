@@ -1,0 +1,11 @@
+caseId,text,focus,reviewStatus
+VOICE-L01,你好，我们一起学习汉语。,基本清晰度与自然断句,NOT RUN
+VOICE-L02,重庆银行的行长喜欢音乐。,重庆 chóng qìng；银行 yín háng；行长 háng zhǎng；音乐 yīn yuè,NOT RUN
+VOICE-L03,妈妈和爸爸看看桌子上的东西。,轻声及叠词自然度；不要吞字,NOT RUN
+VOICE-L04,女儿穿着绿色的衣服。,ü 与儿化相关听辨；着的读音,NOT RUN
+VOICE-L05,今天是2026年9月19日。,日期应按年月日表达,NOT RUN
+VOICE-L06,价格是3.14元，一共100元。,小数和数量表达,NOT RUN
+VOICE-L07,电话号码是12345678901。,逐位号码表达是否符合上下文,NOT RUN
+VOICE-L08,这是我自己输入的文字。今天去图书馆读书，明天继续学习。,两句连读完整性与停顿,NOT RUN
+VOICE-L09,你好（欢迎学习），价格３.１４元。,全角数字与括号规范化,NOT RUN
+VOICE-L10,12345 12345 12345 12345 12345 12345 12345 12345 12345 12345,分块接缝与数字无遗漏,NOT RUN

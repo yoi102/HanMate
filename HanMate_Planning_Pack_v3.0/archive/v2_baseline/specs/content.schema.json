@@ -1,0 +1,460 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "content.schema.json",
+  "title": "HanMate content.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "kind": {
+      "enum": [
+        "word",
+        "text",
+        "poem"
+      ]
+    },
+    "origin": {
+      "enum": [
+        "personal",
+        "builtin",
+        "builtinSnapshot"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "contentRevision": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "annotationRevision": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "metadataRevision": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "difficulty": {
+      "anyOf": [
+        {
+          "enum": [
+            "beginner",
+            "basic",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "schoolStage": {
+      "anyOf": [
+        {
+          "enum": [
+            "primary",
+            "junior",
+            "senior"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "grade": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "sourceId": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "testFixture",
+            "original",
+            "licensed",
+            "imported",
+            "catalogSnapshot"
+          ]
+        },
+        "authorProvider": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        },
+        "licenseIdentifier": {
+          "type": "string"
+        },
+        "permissionNotes": {
+          "type": "string"
+        },
+        "canDistribute": {
+          "type": "boolean"
+        },
+        "canShare": {
+          "type": "boolean"
+        },
+        "backupPolicy": {
+          "enum": [
+            "allowed",
+            "restricted",
+            "unverified"
+          ]
+        },
+        "reviewStatus": {
+          "enum": [
+            "draft",
+            "needsReview",
+            "approved"
+          ]
+        },
+        "catalogId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "catalogVersion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "sourceId",
+        "type",
+        "authorProvider",
+        "reference",
+        "licenseIdentifier",
+        "permissionNotes",
+        "canDistribute",
+        "canShare",
+        "backupPolicy",
+        "reviewStatus"
+      ],
+      "additionalProperties": false
+    },
+    "textUnits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "role": {
+            "enum": [
+              "headword",
+              "example",
+              "body"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200000
+          },
+          "offsetUnit": {
+            "const": "textElement"
+          },
+          "elementBoundariesUtf16": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "minItems": 2,
+            "maxItems": 20001
+          },
+          "tokens": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "length": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 9007199254740991
+                },
+                "text": {
+                  "type": "string"
+                },
+                "kind": {
+                  "enum": [
+                    "hanzi",
+                    "punctuation",
+                    "whitespace",
+                    "latin",
+                    "number",
+                    "symbol"
+                  ]
+                },
+                "pinyin": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "base": {
+                          "type": "string",
+                          "pattern": "^[a-züê]+$",
+                          "maxLength": 16
+                        },
+                        "tone": {
+                          "type": "integer",
+                          "minimum": 0,
+                          "maximum": 4
+                        },
+                        "erhua": {
+                          "type": "boolean"
+                        },
+                        "display": {
+                          "type": "string",
+                          "maxLength": 24
+                        }
+                      },
+                      "required": [
+                        "base",
+                        "tone",
+                        "erhua",
+                        "display"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "annotationSource": {
+                  "enum": [
+                    "manual",
+                    "phraseDictionary",
+                    "charDictionary",
+                    "reviewed",
+                    "unknown",
+                    "none"
+                  ]
+                },
+                "locked": {
+                  "type": "boolean"
+                },
+                "reviewState": {
+                  "enum": [
+                    "confirmed",
+                    "needsReview",
+                    "unknown",
+                    "notApplicable"
+                  ]
+                },
+                "modifiedAtUtc": {
+                  "type": "string",
+                  "format": "date-time",
+                  "pattern": "Z$"
+                }
+              },
+              "required": [
+                "id",
+                "start",
+                "length",
+                "text",
+                "kind",
+                "pinyin",
+                "annotationSource",
+                "locked",
+                "reviewState"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 20000
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "length": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 9007199254740991
+                },
+                "text": {
+                  "type": "string"
+                },
+                "kind": {
+                  "enum": [
+                    "speech",
+                    "layout"
+                  ]
+                },
+                "boundarySource": {
+                  "enum": [
+                    "auto",
+                    "manual"
+                  ]
+                },
+                "translations": {
+                  "type": "object",
+                  "properties": {
+                    "ja": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "en": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [],
+                  "additionalProperties": false
+                },
+                "tokenIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "id",
+                "start",
+                "length",
+                "text",
+                "kind",
+                "boundarySource",
+                "translations",
+                "tokenIds"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 20000
+          },
+          "translations": {
+            "type": "object",
+            "properties": {
+              "ja": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "en": {
+                "type": "string",
+                "maxLength": 20000
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "role",
+          "text",
+          "offsetUnit",
+          "elementBoundariesUtf16",
+          "tokens",
+          "segments",
+          "translations"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 21
+    },
+    "createdAtUtc": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "Z$"
+    },
+    "updatedAtUtc": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "Z$"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "kind",
+    "origin",
+    "title",
+    "contentRevision",
+    "annotationRevision",
+    "metadataRevision",
+    "difficulty",
+    "schoolStage",
+    "grade",
+    "scenes",
+    "source",
+    "textUnits",
+    "createdAtUtc",
+    "updatedAtUtc"
+  ],
+  "additionalProperties": false
+}

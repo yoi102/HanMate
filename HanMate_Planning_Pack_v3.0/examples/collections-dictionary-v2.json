@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "folders": [
+    {
+      "id": "450c8c93-66f3-5cdd-84b0-234d85dfb241",
+      "name": "默认收藏夹",
+      "description": "",
+      "sortOrder": 0,
+      "systemRole": "default"
+    }
+  ],
+  "items": [],
+  "dictionaryBookmarks": [
+    {
+      "provider": "chinese-xinhua",
+      "entryId": "366ab2be-cd37-4a2f-8f27-e31128f79f30",
+      "title": "测试引用（仅协议夹具）"
+    }
+  ]
+}

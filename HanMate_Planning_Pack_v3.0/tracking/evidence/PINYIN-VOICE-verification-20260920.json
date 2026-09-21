@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-20",
+  "artifacts": {
+    "androidApk": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\bin\\Release\\net10.0-android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "a058a52a31c9cec25e429b2e5df8aca364d0fd1c0d7071c646877a15da113e00"
+    },
+    "windowsApp": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-pinyin-voice-windows\\HanMate.App.dll",
+      "sha256": "79baf5dc987fc73e41fb1d41d85a7086bef08604923d9d9d469a982b1dbd68a7"
+    },
+    "coreTests": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Core.Tests\\bin\\Release\\net10.0\\HanMate.Core.Tests.dll",
+      "sha256": "6a862c57ab6baef666184afaf3a477b38c935d0f66a2bc448da0e05c9b97c995"
+    },
+    "voiceProbe": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\tools\\HanMate.VoiceProbe\\bin\\Release\\net10.0\\HanMate.VoiceProbe.dll",
+      "sha256": "2c1a975714907dc5678f9a4afac78c6b51ada13b888cb1c1385930dba80b7879"
+    },
+    "course": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\Resources\\Raw\\Pinyin\\course.json",
+      "sha256": "25680397415226a5d276ed86362c507eb6e251357fe713a106ddfa2fc4f93560"
+    }
+  },
+  "tests": {
+    "core": 102,
+    "infrastructure": 16,
+    "python": 8,
+    "nativeSamples": 13
+  },
+  "windowsBuild": "PASS",
+  "androidBuild": "PASS",
+  "androidUi": "PASS - focused playback and navigation only",
+  "listening": "NOT RUN",
+  "ios": "NOT RUN",
+  "original176Aggregate": "NOT RUN",
+  "completedWorkPackages": "35/48",
+  "source": "hugolpz/audio-cmn@ff9ed3d0c631195bd2c06f39450f3264c7124040",
+  "examples": 204,
+  "recordings": 224,
+  "voice": "AISHELL-3, explicit phonemes, 8000 Hz",
+  "preservedAndroidVoice": "088"
+}

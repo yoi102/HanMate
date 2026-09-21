@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <EmbeddedResource Include="Dictionary\xinhua.sqlite.gz" LogicalName="Dictionary.xinhua.sqlite.gz" />
+    <EmbeddedResource Include="Dictionary\XINHUA-NOTICE.json" LogicalName="Dictionary.XINHUA-NOTICE.json" />
+    <EmbeddedResource Include="Dictionary\XINHUA-README.txt" LogicalName="Dictionary.XINHUA-README.txt" />
+    <EmbeddedResource Include="Dictionary\PYPINYIN-LICENSE.txt" LogicalName="Dictionary.PYPINYIN-LICENSE.txt" />
+    <EmbeddedResource Include="Dictionary\JIEBA-LICENSE.txt" LogicalName="Dictionary.JIEBA-LICENSE.txt" />
+    <EmbeddedResource Include="Dictionary\OPENCC-LICENSE.txt" LogicalName="Dictionary.OPENCC-LICENSE.txt" />
+    <EmbeddedResource Include="Dictionary\learning-examples.tsv" LogicalName="Dictionary.learning-examples.tsv" />
+    <EmbeddedResource Include="Voices\catalog.json" LogicalName="Voices.catalog.json" />
+    <EmbeddedResource Include="Voices\catalog-kokoro.json" LogicalName="Voices.catalog-kokoro.json" />
+    <ProjectReference Include="..\HanMate.Core\HanMate.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <PackageReference Include="JsonSchema.Net" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Database\Migrations\0002_initial_schema.sql" />
+    <EmbeddedResource Include="..\HanMate_Planning_Pack_v3.0\archive\v2_baseline\specs\*.schema.json" LogicalName="Schemas.Legacy.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Pinyin\*.tsv" LogicalName="Pinyin.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Pinyin\*.txt" LogicalName="Pinyin.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Pinyin\*.json" LogicalName="Pinyin.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Catalog\*.zip" LogicalName="Starter.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\HanMate_Planning_Pack_v3.0\specs\*.schema.json" Link="Schemas\%(Filename)%(Extension)" LogicalName="Schemas.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-20",
+  "scope": "Restore recorded teaching audio by default; dictionary tap layer and visible voice status",
+  "coreTests": 32,
+  "infrastructureTests": 23,
+  "windowsRelease": "PASS",
+  "androidRelease": "PASS",
+  "warnings": 0,
+  "errors": 0,
+  "nativeSynthesis": "PASS - two non-silent passages, 8000 Hz, network blocked",
+  "recordingsInApkVerified": 394,
+  "voiceFilesInApkVerified": true,
+  "localizationKeysPerLanguage": 595,
+  "deviceUiAndListening": "NOT RUN - user paused debugging",
+  "apk": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-audio-routing-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+  "apkSha256": "cb964faf9155133bd10eadeb6338b66c256b093cd3c66fd604e247adebce1f07",
+  "changedInputs": [
+    {
+      "path": "HanMate.App/Audio/PinyinSpeechService.cs",
+      "sha256": "cb4fc2834a6af810c1b509383e4b2645cebe26f05e97d845487a543adc46a6c7"
+    },
+    {
+      "path": "HanMate.Core/Audio/PinyinRecordingPolicy.cs",
+      "sha256": "8162144e69a56bd0ca89ecbf7467c1b579e6261f2fe704e418f686bca6acdb23"
+    },
+    {
+      "path": "HanMate.Core.Tests/Audio/PinyinRecordingPolicyTests.cs",
+      "sha256": "30f7c7668da06c14f467166822e087506d1b47102014f0f7a737030c4d2a7bc9"
+    },
+    {
+      "path": "HanMate.App/Pages/PinyinResourcesPage.cs",
+      "sha256": "60112be0d0c29cd7d5b69fbcf5d2d5cf5d43d90e32d62c1e07aebf57c795c472"
+    },
+    {
+      "path": "HanMate.App/Pages/DictionaryEntryPage.cs",
+      "sha256": "bf4d705440e54d9db51f3c360dccc1a7b9072c0cb7dfd0d791ffb6d7f6448fab"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.ja.resx",
+      "sha256": "42b6f6417201dcda1764b84b2a30d7af4c0fc780d0f78f1dd84811598a599178"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.resx",
+      "sha256": "8aec3d00b7b00b657d884ecb005196add410779d2702a0a5753551b1dcebf683"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.zh-Hans.resx",
+      "sha256": "3a242e7a7766df0d360fe744397bba2fa501cfdc1d701dd4e42f2e1101b4bf66"
+    }
+  ]
+}

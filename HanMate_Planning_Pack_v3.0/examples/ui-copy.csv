@@ -1,0 +1,65 @@
+key,zh-Hans,ja,en,reviewStatus
+Nav.Pinyin,拼音,ピンイン,Pinyin,draft
+Nav.Learn,学习,学習,Learn,draft
+Nav.Search,搜索,検索,Search,draft
+Nav.Favorites,收藏,お気に入り,Favorites,draft
+Nav.Settings,设置,設定,Settings,draft
+Kind.Word,词语,単語,Words,draft
+Kind.Text,课文,文章,Texts,draft
+Kind.Poem,诗词,詩,Poems,draft
+Source.All,全部,すべて,All,draft
+Source.Mine,我的内容,自分の教材,My content,draft
+Action.Play,朗读,読み上げ,Read aloud,draft
+Action.Stop,停止,停止,Stop,draft
+Action.Save,保存,保存,Save,draft
+Action.Cancel,取消,キャンセル,Cancel,draft
+Action.Delete,删除,削除,Delete,draft
+Action.Edit,编辑,編集,Edit,draft
+Action.ImportText,导入文本,テキストを取り込む,Import text,draft
+Action.New,新建,新規作成,New,draft
+Action.Record,开始录音,録音を開始,Start recording,draft
+Action.Preview,试听,試聴,Listen,draft
+Action.Rerecord,重新录音,録音し直す,Record again,draft
+Action.ShareContent,分享学习内容包,教材パックを共有,Share learning pack,draft
+Action.ExportBackup,导出完整备份,完全バックアップを書き出す,Export full backup,draft
+Action.ImportBackup,导入备份,バックアップを読み込む,Import backup,draft
+Action.ReadAll,全文朗读,全文を読み上げ,Read full text,draft
+Action.Previous,上一段,前の部分,Previous segment,draft
+Action.Next,下一段,次の部分,Next segment,draft
+Folder.Default,默认收藏夹,既定のお気に入り,Default favorites,draft
+State.NoResults,未找到已收录词条,登録済みの単語が見つかりません,No saved entries found,draft
+State.NoTranslation,尚未添加该语言译文,この言語の訳はまだありません,No translation in this language yet,draft
+State.AudioMissing,没有可用音频,利用できる音声がありません,No audio available,draft
+State.AudioReview,音频需要确认读音一致,音声と読み方の一致を確認してください,Check that this audio matches the pronunciation,draft
+State.Cancelled,已取消,キャンセルしました,Cancelled,draft
+State.Saved,已保存,保存しました,Saved,draft
+Privacy.MicDenied,未允许麦克风，仍可继续学习,マイクが許可されていません。学習は続けられます,Microphone access denied. You can still keep learning.,draft
+Backup.NotEncrypted,备份默认不加密，请妥善保管,バックアップは既定では暗号化されません。安全に保管してください,Backups are not encrypted by default. Store them safely.,draft
+Search.Placeholder,输入汉字或拼音,漢字またはピンインを入力,Enter Chinese characters or pinyin,draft
+Action.KeepBoth,保留双方,両方を残す,Keep both,draft
+Action.Merge,合并导入,既存データに追加,Merge import,draft
+Action.Replace,替换当前用户数据,現在のユーザーデータを置き換える,Replace current user data,draft
+App.Name,汉语小伴,HanMate,HanMate,draft
+Learn.Grammar,语法,文法,Grammar,draft
+Grammar.Pattern,句型结构,文型,Sentence pattern,draft
+Grammar.Explanation,用法说明,使い方,Usage,draft
+Grammar.Examples,例句,例文,Examples,draft
+Grammar.Notes,注意事项,注意点,Notes,draft
+Resource.Manage,管理内容,学習資料の管理,Manage learning resources,draft
+Dictionary.Manage,字典管理,辞書の管理,Manage dictionaries,draft
+Resource.InstallLocal,从本地安装,ファイルからインストール,Install from file,draft
+Resource.Disable,禁用,無効にする,Disable,draft
+Resource.Enable,启用,有効にする,Enable,draft
+Resource.Uninstall,卸载资源包,学習パックを削除,Uninstall resource pack,draft
+Resource.RemoveEntry,撤下此内容,一覧から除外,Remove from lists,draft
+Resource.RestoreEntry,恢复此内容,一覧に戻す,Restore to lists,draft
+Resource.Retained,保留的资料,保持された資料,Retained content,draft
+Resource.Missing,资源未安装,リソース未インストール,Resource not installed,draft
+Dictionary.Priority,字典优先级,辞書の優先順位,Dictionary priority,draft
+Share.Selection,分享所选内容,選択した内容を共有,Share selected content,draft
+Share.AudioOnly,仅分享录音,音声のみ共有,Share recording only,draft
+Share.NoAudio,不包含音频,音声を含めない,Exclude audio,draft
+Share.SelectedTracks,选择音轨,音声を選択,Select audio tracks,draft
+Backup.PartialResources,部分资源未包含,一部リソースは含まれません,Some resources are not included,draft
+Delete.KeepDependencies,保留收藏和用户录音所需资料,お気に入りと録音に必要な資料を保持,Keep content needed by favorites and recordings,draft
+Resource.SourceRemoved,原资源已移除,元のリソースは削除済み,Original resource removed,draft

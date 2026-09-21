@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-20",
+  "scope": "Handwriting recognition and progressive candidates",
+  "changedInputs": [
+    {
+      "path": "HanMate.Core/Search/HandwritingRecognizer.cs",
+      "sha256": "0dd1d283697293c6963e9faf0f7f3af8f91a3db53664d971e0d49807509cc26e"
+    },
+    {
+      "path": "HanMate.Core.Tests/HandwritingRecognizerTests.cs",
+      "sha256": "41d7876d40c24d2bf20d6161ace188e121efd50796f04d625ba1cef2069a1f79"
+    },
+    {
+      "path": "HanMate.App/Controls/HandwritingSearchView.cs",
+      "sha256": "9c178d3e7312da81161238a3a5587cf8123d45a307ed6fd73cd151753ca4d7ba"
+    }
+  ],
+  "benchmark": {
+    "status": "PASS",
+    "rankingAndDistanceSnapshots": 288,
+    "currentLoadMs": 738.5686,
+    "baselineLoadMs": 403.3571,
+    "measurements": [
+      {
+        "strokes": 1,
+        "baseline": {
+          "p50Ms": 2.4457,
+          "p95Ms": 9.4322,
+          "allocatedBytesP50": 3978328
+        },
+        "optimized": {
+          "p50Ms": 0.3016,
+          "p95Ms": 0.5445,
+          "allocatedBytesP50": 1768
+        }
+      },
+      {
+        "strokes": 2,
+        "baseline": {
+          "p50Ms": 4.4744,
+          "p95Ms": 9.1645,
+          "allocatedBytesP50": 5199992
+        },
+        "optimized": {
+          "p50Ms": 0.4997,
+          "p95Ms": 0.8507,
+          "allocatedBytesP50": 2344
+        }
+      },
+      {
+        "strokes": 4,
+        "baseline": {
+          "p50Ms": 8.5401,
+          "p95Ms": 11.4312,
+          "allocatedBytesP50": 7548408
+        },
+        "optimized": {
+          "p50Ms": 0.8993,
+          "p95Ms": 1.5372,
+          "allocatedBytesP50": 3024
+        }
+      }
+    ],
+    "sixSequentialDictionaryLookupsMs": [
+      1364.2144,
+      88.0146,
+      82.9933
+    ],
+    "scope": "Windows production CPU/SQLite; 30 warm samples; no mobile/UI/pen-to-screen timings; isolated generated database",
+    "isolated": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-handwriting-probe\\0b3fb9c1d15a4ebdba79959b1de83fea"
+  },
+  "tests": "PASS: 10 focused tests",
+  "windowsRelease": "PASS: 0 warnings / 0 errors",
+  "androidRelease": "PASS: 0 warnings / 0 errors",
+  "deviceUi": "NOT RUN per user",
+  "deviceInstallation": "NOT RUN",
+  "apk": {
+    "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-handwriting-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+    "sha256": "f6815e94421c67a2f2a8dafdfaf438eb8e10a2190e655488a8569cc46c5ff7ae"
+  },
+  "statusBoundary": "45/48, original 176 aggregate NOT RUN and 82 execution rows unchanged"
+}

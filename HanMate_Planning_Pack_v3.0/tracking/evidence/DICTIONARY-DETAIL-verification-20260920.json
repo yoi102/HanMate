@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-20",
+  "artifacts": {
+    "androidApk": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\bin\\Release\\net10.0-android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "adafb0fcded25a8a7c1398b292091679e55477d735547085edfd19df042b23cd"
+    },
+    "windowsApp": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-detail-windows\\HanMate.App.dll",
+      "sha256": "081fe13e8bb8eaa244a35dc9df9ef01f349e171bae5bddd0d483e0abaedd9df7"
+    },
+    "infrastructureTests": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure.Tests\\bin\\Release\\net10.0\\HanMate.Infrastructure.Tests.dll",
+      "sha256": "b0929cb43a6e74a2e08cb8e97e787124d59fa3fec469d69ef761a8a3e3db944e"
+    },
+    "pinyin": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure\\Pinyin\\DictionaryDisplay.tsv",
+      "sha256": "9cd59c0801cffec5a0553dc4029bdf540fe063b47eaf80456ec00bed077d01d4"
+    },
+    "overrides": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure\\Pinyin\\DictionaryDisplayOverrides.tsv",
+      "sha256": "fb989bac34b9026d9bef8e00e9eb6ef5630b7925b61eb8157e76c7e03bc06d47"
+    },
+    "examples": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure\\Dictionary\\learning-examples.tsv",
+      "sha256": "bad58e869ffcca6da3c6fbbda7882914555de479e8e4fc96f28684e51fe71357"
+    },
+    "projection": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure\\Dictionary\\DictionaryDetail.cs",
+      "sha256": "26dc3071620527078322a7eb390ca0032dc316f48ea9c2187fc4d4479fab4939"
+    },
+    "androidUiSource": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\Pages\\DictionaryEntryPage.cs",
+      "sha256": "bc06fdfe89e8ca3da12b41d6c43a175870517b74a261e5514bc9e8c02c0adee1"
+    },
+    "preflight": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-detail-preflight.json",
+      "sha256": "cf7544e0ed5a1d4d3c3d9cf5b6540eae303994b61d9d78a58fcad4428360ddf5"
+    },
+    "focusedTests": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-detail-tests\\dictionary-detail.trx",
+      "sha256": "1aa895da7ea90ced6c6464f8b9dd2ed7293eefc1dc8c91f4d2f67500f84c492b"
+    }
+  },
+  "tests": {
+    "infrastructure": 36,
+    "python": 8
+  },
+  "windowsBuild": "PASS",
+  "androidBuild": "PASS",
+  "androidUi": "PASS - focused; see Markdown scope",
+  "windowsUi": "NOT RUN",
+  "ios": "NOT RUN",
+  "linguisticReview": "NOT RUN",
+  "original176Aggregate": "NOT RUN",
+  "completedWorkPackages": "35/48",
+  "pinyinEntries": 89034,
+  "exampleSentences": 75,
+  "exampleHeadwords": 70,
+  "localizationKeys": 574,
+  "pendingReviewSubjects": 767
+}

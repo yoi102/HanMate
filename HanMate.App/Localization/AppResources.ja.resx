@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav.Pinyin" xml:space="preserve">
+    <value>ピンイン</value>
+  </data>
+  <data name="Nav.Learn" xml:space="preserve">
+    <value>学習</value>
+  </data>
+  <data name="Nav.Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Nav.Favorites" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="Nav.Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Kind.Word" xml:space="preserve">
+    <value>単語</value>
+  </data>
+  <data name="Kind.Text" xml:space="preserve">
+    <value>文章</value>
+  </data>
+  <data name="Kind.Poem" xml:space="preserve">
+    <value>詩</value>
+  </data>
+  <data name="Source.All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="Source.Mine" xml:space="preserve">
+    <value>自分の教材</value>
+  </data>
+  <data name="Action.Play" xml:space="preserve">
+    <value>読み上げ</value>
+  </data>
+  <data name="Action.Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Action.Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Action.Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Action.ImportText" xml:space="preserve">
+    <value>テキストを取り込む</value>
+  </data>
+  <data name="Action.New" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="Action.Record" xml:space="preserve">
+    <value>録音を開始</value>
+  </data>
+  <data name="Action.Preview" xml:space="preserve">
+    <value>試聴</value>
+  </data>
+  <data name="Action.Rerecord" xml:space="preserve">
+    <value>録音し直す</value>
+  </data>
+  <data name="Action.ShareContent" xml:space="preserve">
+    <value>教材パックを共有</value>
+  </data>
+  <data name="Action.ExportBackup" xml:space="preserve">
+    <value>完全バックアップを書き出す</value>
+  </data>
+  <data name="Action.ImportBackup" xml:space="preserve">
+    <value>バックアップを読み込む</value>
+  </data>
+  <data name="Action.ReadAll" xml:space="preserve">
+    <value>全文を読み上げ</value>
+  </data>
+  <data name="Action.Previous" xml:space="preserve">
+    <value>前の部分</value>
+  </data>
+  <data name="Action.Next" xml:space="preserve">
+    <value>次の部分</value>
+  </data>
+  <data name="Folder.Default" xml:space="preserve">
+    <value>既定のお気に入り</value>
+  </data>
+  <data name="State.NoResults" xml:space="preserve">
+    <value>登録済みの単語が見つかりません</value>
+  </data>
+  <data name="State.NoTranslation" xml:space="preserve">
+    <value>この言語の訳はまだありません</value>
+  </data>
+  <data name="State.AudioMissing" xml:space="preserve">
+    <value>利用できる音声がありません</value>
+  </data>
+  <data name="State.AudioReview" xml:space="preserve">
+    <value>音声と読み方の一致を確認してください</value>
+  </data>
+  <data name="State.Cancelled" xml:space="preserve">
+    <value>キャンセルしました</value>
+  </data>
+  <data name="State.Saved" xml:space="preserve">
+    <value>保存しました</value>
+  </data>
+  <data name="Privacy.MicDenied" xml:space="preserve">
+    <value>マイクが許可されていません。学習は続けられます</value>
+  </data>
+  <data name="Backup.NotEncrypted" xml:space="preserve">
+    <value>バックアップは既定では暗号化されません。安全に保管してください</value>
+  </data>
+  <data name="Search.Placeholder" xml:space="preserve">
+    <value>漢字またはピンインを入力</value>
+  </data>
+  <data name="Action.KeepBoth" xml:space="preserve">
+    <value>両方を残す</value>
+  </data>
+  <data name="Action.Merge" xml:space="preserve">
+    <value>既存データに追加</value>
+  </data>
+  <data name="Action.Replace" xml:space="preserve">
+    <value>現在のユーザーデータを置き換える</value>
+  </data>
+  <data name="App.Name" xml:space="preserve">
+    <value>HanMate</value>
+  </data>
+  <data name="Learn.Grammar" xml:space="preserve">
+    <value>文法</value>
+  </data>
+  <data name="Grammar.Pattern" xml:space="preserve">
+    <value>文型</value>
+  </data>
+  <data name="Grammar.Explanation" xml:space="preserve">
+    <value>使い方</value>
+  </data>
+  <data name="Grammar.Examples" xml:space="preserve">
+    <value>例文</value>
+  </data>
+  <data name="Grammar.Notes" xml:space="preserve">
+    <value>注意点</value>
+  </data>
+  <data name="Resource.Manage" xml:space="preserve">
+    <value>学習資料の管理</value>
+  </data>
+  <data name="Dictionary.Manage" xml:space="preserve">
+    <value>辞書の管理</value>
+  </data>
+  <data name="Resource.InstallLocal" xml:space="preserve">
+    <value>ファイルからインストール</value>
+  </data>
+  <data name="Resource.Disable" xml:space="preserve">
+    <value>無効にする</value>
+  </data>
+  <data name="Resource.Enable" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="Resource.Uninstall" xml:space="preserve">
+    <value>学習パックを削除</value>
+  </data>
+  <data name="Resource.RemoveEntry" xml:space="preserve">
+    <value>一覧から除外</value>
+  </data>
+  <data name="Resource.RestoreEntry" xml:space="preserve">
+    <value>一覧に戻す</value>
+  </data>
+  <data name="Resource.Retained" xml:space="preserve">
+    <value>保持された資料</value>
+  </data>
+  <data name="Resource.Missing" xml:space="preserve">
+    <value>リソース未インストール</value>
+  </data>
+  <data name="Dictionary.Priority" xml:space="preserve">
+    <value>辞書の優先順位</value>
+  </data>
+  <data name="Share.Selection" xml:space="preserve">
+    <value>選択した内容を共有</value>
+  </data>
+  <data name="Share.AudioOnly" xml:space="preserve">
+    <value>音声のみ共有</value>
+  </data>
+  <data name="Share.NoAudio" xml:space="preserve">
+    <value>音声を含めない</value>
+  </data>
+  <data name="Share.SelectedTracks" xml:space="preserve">
+    <value>音声を選択</value>
+  </data>
+  <data name="Backup.PartialResources" xml:space="preserve">
+    <value>一部リソースは含まれません</value>
+  </data>
+  <data name="Delete.KeepDependencies" xml:space="preserve">
+    <value>お気に入りと録音に必要な資料を保持</value>
+  </data>
+  <data name="Resource.SourceRemoved" xml:space="preserve">
+    <value>元のリソースは削除済み</value>
+  </data>
+  <data name="Install.Title" xml:space="preserve">
+    <value>インストール済みリソース</value>
+  </data>
+  <data name="Install.Pick" xml:space="preserve">
+    <value>リソースパックをインストール</value>
+  </data>
+  <data name="Install.Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Install.Previous" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="Install.Next" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="Install.Hint" xml:space="preserve">
+    <value>学習・辞書パック（.hanresource、.handict、.zip）を読み込みます。テキストと PCM16 WAV 音声に対応し、外部リソースの更新前に変更を確認できます。</value>
+  </data>
+  <data name="Install.Cancelled" xml:space="preserve">
+    <value>インストールをキャンセルしました。</value>
+  </data>
+  <data name="Install.Validating" xml:space="preserve">
+    <value>パックを確認しています…</value>
+  </data>
+  <data name="Install.Preview" xml:space="preserve">
+    <value>名前：{0}
+バージョン：{1}
+発行者：{2}
+項目数：{3}</value>
+  </data>
+  <data name="Install.Unverified" xml:space="preserve">
+    <value>発行者と校閲の情報はパックの作成者による申告であり、第三者による確認は行っていません。</value>
+  </data>
+  <data name="Install.ConfirmTitle" xml:space="preserve">
+    <value>このパックをインストールしますか？</value>
+  </data>
+  <data name="Install.Confirm" xml:space="preserve">
+    <value>インストール</value>
+  </data>
+  <data name="Install.Saving" xml:space="preserve">
+    <value>インストールしています…</value>
+  </data>
+  <data name="Install.AlreadyInstalled" xml:space="preserve">
+    <value>このパックはインストール済みです（{0} 項目）。</value>
+  </data>
+  <data name="Install.Installed" xml:space="preserve">
+    <value>{0} 項目をインストールしました。</value>
+  </data>
+  <data name="Install.Failed" xml:space="preserve">
+    <value>操作を完了できませんでした。もう一度お試しください。</value>
+  </data>
+  <data name="Install.TextOnly" xml:space="preserve">
+    <value>パック内のファイルまたは音声形式が未対応です。現在は PCM16 WAV に対応しています。</value>
+  </data>
+  <data name="Install.UpdateUnavailable" xml:space="preserve">
+    <value>このパックでリソースを更新できません。</value>
+  </data>
+  <data name="Install.Stale" xml:space="preserve">
+    <value>保存データが変更されました。パックを選び直してください。</value>
+  </data>
+  <data name="Install.Conflict" xml:space="preserve">
+    <value>保存済みの内容と競合するため、インストールできませんでした。</value>
+  </data>
+  <data name="Install.TooLarge" xml:space="preserve">
+    <value>パックのサイズまたはインストール数が上限を超えています。</value>
+  </data>
+  <data name="Install.Invalid" xml:space="preserve">
+    <value>パックが無効または不完全です。内容はインストールされていません。</value>
+  </data>
+  <data name="Install.Empty" xml:space="preserve">
+    <value>このページにインストール済みの内容はありません。</value>
+  </data>
+  <data name="Install.Page" xml:space="preserve">
+    <value>{0}～{1} 項目を表示中</value>
+  </data>
+  <data name="Install.ReadOnlyPreview" xml:space="preserve">
+    <value>内容プレビュー。このページでの編集・音声再生は未対応です。</value>
+  </data>
+  <data name="Pinyin.Title" xml:space="preserve"><value>ピンイン練習</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>タップで基本の発音、長押し・右クリックで例字を表示。</value></data>
+  <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} 項目 · オフライン録音 {1} 件 · 開発プレビュー</value></data>
+  <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Pinyin.Sources" xml:space="preserve"><value>音声の出典</value></data>
+  <data name="Pinyin.Examples" xml:space="preserve"><value>例字</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>対応する録音がありません。設定で内蔵 AI 音声を有効にするとピンインを読み上げられます。</value></data>
+  <data name="Pinyin.Playing" xml:space="preserve"><value>例字を再生中</value></data>
+  <data name="Pinyin.Completed" xml:space="preserve"><value>再生終了</value></data>
+  <data name="Pinyin.Stopped" xml:space="preserve"><value>停止しました</value></data>
+  <data name="Pinyin.PlayFailed" xml:space="preserve"><value>再生できませんでした。音声出力を確認してください。</value></data>
+  <data name="Pinyin.LoadFailed" xml:space="preserve"><value>オフライン教材を読み込めませんでした。</value></data>
+  <data name="Pinyin.DraftNotice" xml:space="preserve"><value>例字・訳文は開発用草稿です。許諾のある録音で音節と声調を示します。同音字は元の録音の語と異なる場合があり、教材としての確認は未完了です。</value></data>
+  <data name="Pinyin.InitialNote" xml:space="preserve"><value>子音自体ではなく例字の音節で四声を示します。赤い下線は選んだ声母・つづりの文字だけを示します。</value></data>
+  <data name="Pinyin.ToneNote" xml:space="preserve"><value>例字の四声を確認します。赤い下線は選んだ韻母・整体認読音節を示します。</value></data>
+  <data name="Pinyin.SpellingNote" xml:space="preserve"><value>yu・yue・yun ではつづりの規則により ü の点を省略します。強調した u はこの表記です。</value></data>
+  <data name="Pinyin.Tone1" xml:space="preserve"><value>第一声 · 高く平ら</value></data>
+  <data name="Pinyin.Tone2" xml:space="preserve"><value>第二声 · 上がる</value></data>
+  <data name="Pinyin.Tone3" xml:space="preserve"><value>第三声 · 低く下がって上がる</value></data>
+  <data name="Pinyin.Tone4" xml:space="preserve"><value>第四声 · 下がる</value></data>
+  <data name="Pinyin.NoExample" xml:space="preserve"><value>この声調の例字は未選定です。</value></data>
+  <data name="Pinyin.Play" xml:space="preserve"><value>例字を再生</value></data>
+  <data name="Pinyin.Group.initial" xml:space="preserve"><value>声母</value></data>
+  <data name="Pinyin.Group.spelling" xml:space="preserve"><value>つづりの補助 y / w</value></data>
+  <data name="Pinyin.Group.simple" xml:space="preserve"><value>単韻母</value></data>
+  <data name="Pinyin.Group.compound" xml:space="preserve"><value>複韻母・特殊韻母</value></data>
+  <data name="Pinyin.Group.nasal" xml:space="preserve"><value>鼻韻母</value></data>
+  <data name="Pinyin.Group.whole" xml:space="preserve"><value>整体認読音節</value></data>
+<data name="Pinyin.StarterReady" xml:space="preserve"><value>同梱の開発用草稿を表示できます。種類を選んでください。教材と訳文は未校閲です。</value></data>
+  <data name="Reader.HidePinyin" xml:space="preserve"><value>ピンインを隠す</value></data>
+  <data name="Reader.ShowPinyin" xml:space="preserve"><value>ピンインを表示</value></data>
+  <data name="Reader.Smaller" xml:space="preserve"><value>文字を小さく</value></data>
+  <data name="Reader.Larger" xml:space="preserve"><value>文字を大きく</value></data>
+  <data name="Reader.Previous" xml:space="preserve"><value>前のページ</value></data>
+  <data name="Reader.Next" xml:space="preserve"><value>次のページ</value></data>
+  <data name="Reader.Page" xml:space="preserve"><value>ページを選択</value></data>
+  <data name="Reader.NoAudio" xml:space="preserve"><value>この内容に対応するオフライン音声はありません。</value></data>
+  <data name="Reader.Selection" xml:space="preserve"><value>選択 {0} / {1}</value></data>
+  <data name="Reader.PreviousSegment" xml:space="preserve"><value>前の部分</value></data>
+  <data name="Reader.NextSegment" xml:space="preserve"><value>次の部分</value></data>
+  <data name="Reader.Hint" xml:space="preserve"><value>単語・例文は全体を再生します。文章・詩の区間は拡大してその区間だけ再生します。前後への移動では自動再生しません。</value></data>
+  <data name="Reader.Empty" xml:space="preserve"><value>表示する本文がありません。</value></data>
+  <data name="Reader.Continued" xml:space="preserve"><value>続き</value></data>
+  <data name="Reader.Expand" xml:space="preserve"><value>拡大して読む</value></data>
+  <data name="Reader.Draft" xml:space="preserve"><value>出典・教材の校閲は未完了です。</value></data>
+  <data name="Reader.Source" xml:space="preserve"><value>出典</value></data>
+  <data name="Reader.Role.Headword" xml:space="preserve"><value>単語</value></data>
+  <data name="Reader.Role.Definition" xml:space="preserve"><value>意味</value></data>
+  <data name="Reader.Role.Example" xml:space="preserve"><value>例文</value></data>
+  <data name="Reader.Role.Body" xml:space="preserve"><value>本文</value></data>
+  <data name="Reader.Role.GrammarExplanation" xml:space="preserve"><value>文法の説明</value></data>
+  <data name="Reader.Role.GrammarNote" xml:space="preserve"><value>補足</value></data>
+  <data name="Search.AllSources" xml:space="preserve"><value>有効なすべての検索元</value></data>
+  <data name="Search.Count" xml:space="preserve"><value>{2} 件中 {0}–{1} 件</value></data>
+  <data name="Search.Failed" xml:space="preserve"><value>検索できませんでした。再試行してください。</value></data>
+  <data name="Search.Hint" xml:space="preserve"><value>漢字またはピンイン：你好 · nihao · nǐ hǎo</value></data>
+  <data name="Search.Personal" xml:space="preserve"><value>自分の単語</value></data>
+  <data name="Search.Searching" xml:space="preserve"><value>検索中…</value></data>
+  <data name="Search.Sources" xml:space="preserve"><value>検索元</value></data>
+  <data name="Search.IndexHint" xml:space="preserve"><value>ピンイン検索は確認済みの読みが対象です。同梱資料は草稿です。</value></data>
+  <data name="Manage.Close" xml:space="preserve"><value>閉じる</value></data>
+  <data name="Manage.ConfirmUninstall" xml:space="preserve"><value>「{0}」と参照のないテキスト {1} 件を削除しますか？
+項目の非表示設定は保持されます。同梱資料はここで復元でき、外部資料には元のファイルが必要です。</value></data>
+  <data name="Manage.Dependencies" xml:space="preserve"><value>お気に入り：{0}、音声：{1}、下書き：{2}、その他の保護・不完全なデータ：{3}。
+このリソースを保持するか無効にしてください。参照された内容の削除にはまだ対応していません。</value></data>
+  <data name="Manage.Disable" xml:space="preserve"><value>無効にする</value></data>
+  <data name="Manage.Disabled" xml:space="preserve"><value>無効</value></data>
+  <data name="Manage.Empty" xml:space="preserve"><value>リソースはありません。</value></data>
+  <data name="Manage.Enable" xml:space="preserve"><value>有効にする</value></data>
+  <data name="Manage.Enabled" xml:space="preserve"><value>有効</value></data>
+  <data name="Manage.InvalidPriority" xml:space="preserve"><value>0～2147483647 の整数を入力してください。</value></data>
+  <data name="Manage.Missing" xml:space="preserve"><value>未インストール・欠落</value></data>
+  <data name="Manage.PriorityHint" xml:space="preserve"><value>検索元の優先度：同じ一致度では小さい数が先に表示されます。</value></data>
+  <data name="Manage.Protected" xml:space="preserve"><value>このリソースは保持されます</value></data>
+  <data name="Manage.Refresh" xml:space="preserve"><value>更新</value></data>
+  <data name="Manage.ReinstallFile" xml:space="preserve"><value>元のファイルから再インストール</value></data>
+  <data name="Manage.Restore" xml:space="preserve"><value>同梱リソースを復元</value></data>
+  <data name="Manage.SavePriority" xml:space="preserve"><value>優先度を保存</value></data>
+  <data name="Manage.Size" xml:space="preserve"><value>テキスト：{0:N0} バイト。アプリ本体から解放される容量ではありません。</value></data>
+  <data name="Manage.Source" xml:space="preserve"><value>提供元：{0}
+ライセンス：{1}</value></data>
+  <data name="Manage.Stale" xml:space="preserve"><value>資料が変更されました。更新して再試行してください。</value></data>
+  <data name="Manage.Summary" xml:space="preserve"><value>バージョン {0} · {1} 件 · 非表示 {2} 件
+{3} · 優先度 {4}</value></data>
+  <data name="Manage.Uninstall" xml:space="preserve"><value>アンインストール</value></data>
+  <data name="Manage.Working" xml:space="preserve"><value>リソースを処理中…</value></data>
+  <data name="Manage.Details" xml:space="preserve"><value>詳細と操作</value></data>
+  <data name="Library.Filters" xml:space="preserve"><value>絞り込み</value></data>
+  <data name="Library.FilterRule" xml:space="preserve"><value>場面は選択したいずれか、条件の種類はすべて一致。</value></data>
+  <data name="Library.Difficulty" xml:space="preserve"><value>難易度</value></data>
+  <data name="Library.Stage" xml:space="preserve"><value>学校段階</value></data>
+  <data name="Library.Grade" xml:space="preserve"><value>学年</value></data>
+  <data name="Library.GradeValue" xml:space="preserve"><value>{0} 年生</value></data>
+  <data name="Library.Source" xml:space="preserve"><value>出典</value></data>
+  <data name="Library.Personal" xml:space="preserve"><value>自分の教材</value></data>
+  <data name="Library.All" xml:space="preserve"><value>すべて</value></data>
+  <data name="Library.Beginner" xml:space="preserve"><value>入門</value></data>
+  <data name="Library.Basic" xml:space="preserve"><value>基礎</value></data>
+  <data name="Library.Intermediate" xml:space="preserve"><value>中級</value></data>
+  <data name="Library.Advanced" xml:space="preserve"><value>上級</value></data>
+  <data name="Library.Primary" xml:space="preserve"><value>小学校</value></data>
+  <data name="Library.Junior" xml:space="preserve"><value>中学校</value></data>
+  <data name="Library.Senior" xml:space="preserve"><value>高校</value></data>
+  <data name="Library.Apply" xml:space="preserve"><value>適用</value></data>
+  <data name="Library.Clear" xml:space="preserve"><value>条件をクリア</value></data>
+  <data name="Library.NoContent" xml:space="preserve"><value>この種類の教材はありません。</value></data>
+  <data name="Library.NoMatches" xml:space="preserve"><value>一致する教材がありません。条件を解除できます。</value></data>
+  <data name="Library.Count" xml:space="preserve"><value>{2} 件中 {0}–{1} 件</value></data>
+  <data name="Library.Previous" xml:space="preserve"><value>前へ</value></data>
+  <data name="Library.Next" xml:space="preserve"><value>次へ</value></data>
+  <data name="Library.Refresh" xml:space="preserve"><value>更新</value></data>
+  <data name="Library.Save" xml:space="preserve"><value>保存</value></data>
+  <data name="Library.Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="Library.Delete" xml:space="preserve"><value>削除</value></data>
+  <data name="Library.Read" xml:space="preserve"><value>読む</value></data>
+  <data name="Library.Failed" xml:space="preserve"><value>操作できません。名前の重複や文字数を確認するか、更新してください。</value></data>
+  <data name="Library.Stale" xml:space="preserve"><value>データが変更されました。更新してください。</value></data>
+  <data name="Library.NewFolder" xml:space="preserve"><value>フォルダー作成</value></data>
+  <data name="Library.EditFolder" xml:space="preserve"><value>フォルダー編集</value></data>
+  <data name="Library.DeleteFolder" xml:space="preserve"><value>フォルダー削除</value></data>
+  <data name="Library.DeleteFolderHint" xml:space="preserve"><value>フォルダーと登録のみ削除します。本文と録音は残ります。</value></data>
+  <data name="Library.Up" xml:space="preserve"><value>上へ</value></data>
+  <data name="Library.Down" xml:space="preserve"><value>下へ</value></data>
+  <data name="Library.FolderName" xml:space="preserve"><value>フォルダー名</value></data>
+  <data name="Library.FolderNameHint" xml:space="preserve"><value>1～40文字。重複する名前は使えません。</value></data>
+  <data name="Library.Description" xml:space="preserve"><value>説明</value></data>
+  <data name="Library.DescriptionHint" xml:space="preserve"><value>任意、300文字以内。</value></data>
+  <data name="Library.EmptyFavorites" xml:space="preserve"><value>空のフォルダーです。閲覧ページから追加できます。</value></data>
+  <data name="Library.ChooseFolders" xml:space="preserve"><value>お気に入りに登録</value></data>
+  <data name="Library.ChooseHint" xml:space="preserve"><value>複数選べます。すべて解除すると登録のみ削除し、本文は残ります。</value></data>
+  <data name="Library.Disabled" xml:space="preserve"><value>出典は無効ですが、お気に入りは読めます。</value></data>
+  <data name="Library.Hidden" xml:space="preserve"><value>非表示の教材です。お気に入りは読めます。</value></data>
+  <data name="Library.Retained" xml:space="preserve"><value>アンインストールまたは更新後に保持した旧内容です。</value></data>
+  <data name="Library.Missing" xml:space="preserve"><value>出典がありません。端末内の教材を表示します。</value></data>
+  <data name="Library.Drafts" xml:space="preserve"><value>新規・TXT読み込み・下書き</value></data>
+  <data name="Library.NewDraft" xml:space="preserve"><value>文章の下書きを作成</value></data>
+  <data name="Library.DraftHint" xml:space="preserve"><value>入力・貼り付け・TXT読み込み（20,000文字、1 MiBまで）。下書きは自動保存します。タイトルを付け、ルビを生成・校正して個人コンテンツに保存できます。</value></data>
+  <data name="Library.EmptyDrafts" xml:space="preserve"><value>文章の下書きはありません。</value></data>
+  <data name="Library.Untitled" xml:space="preserve"><value>無題の下書き</value></data>
+  <data name="Library.EditDraft" xml:space="preserve"><value>下書き編集</value></data>
+  <data name="Library.DeleteDraft" xml:space="preserve"><value>下書き削除</value></data>
+  <data name="Library.DeleteDraftHint" xml:space="preserve"><value>この文章の下書きを削除しますか。正式な教材には影響しません。</value></data>
+  <data name="Library.Title" xml:space="preserve"><value>タイトル（120文字以内）</value></data>
+  <data name="Library.Text" xml:space="preserve"><value>本文を入力・貼り付け</value></data>
+  <data name="Library.SaveDraft" xml:space="preserve"><value>下書きを保存</value></data>
+  <data name="Library.SaveCopy" xml:space="preserve"><value>新しい下書きとして保存</value></data>
+  <data name="Library.ImportTxt" xml:space="preserve"><value>TXTを読み込む</value></data>
+  <data name="Library.Paste" xml:space="preserve"><value>貼り付け</value></data>
+  <data name="Library.Unsaved" xml:space="preserve"><value>未保存…</value></data>
+  <data name="Library.SavedDraft" xml:space="preserve"><value>下書きを保存しました</value></data>
+  <data name="Library.DraftConflict" xml:space="preserve"><value>下書きが別の場所で変更されました。入力は保持されています。新しい下書きとして保存できます。</value></data>
+  <data name="Library.DraftFailed" xml:space="preserve"><value>保存できません。入力は保持されています。文字数を確認してください。</value></data>
+  <data name="Library.Replace" xml:space="preserve"><value>本文を置き換え</value></data>
+  <data name="Library.ReplaceHint" xml:space="preserve"><value>現在の本文を読み込み・貼り付け内容で置き換えますか。</value></data>
+  <data name="Library.ImportChanged" xml:space="preserve"><value>読み込み中に入力が変わったため、本文は置き換えていません。</value></data>
+  <data name="Library.ImportCancelled" xml:space="preserve"><value>読み込みを中止しました。本文は保持しています。</value></data>
+  <data name="Library.EncodingError" xml:space="preserve"><value>読み込めません。UTF-8またはBOM付きUTF-16のTXTと容量を確認してください。本文は保持しています。</value></data>
+  <data name="Library.Annotate" xml:space="preserve"><value>自動ルビ・校正</value></data>
+  <data name="Library.Annotating" xml:space="preserve"><value>オフラインでルビを生成中…</value></data>
+  <data name="Library.AnnotationCancelled" xml:space="preserve"><value>生成を中止しました。下書きは保持されます。</value></data>
+  <data name="Library.AnnotationInputError" xml:space="preserve"><value>タイトルと本文を入力してください（単語は64文字以内）。文法には構文と例文も必要です。{主語} はプレースホルダーです。合計20,000文字以内。</value></data>
+  <data name="Library.ReviewPinyin" xml:space="preserve"><value>ピンインの校正</value></data>
+  <data name="Library.AnnotationHint" xml:space="preserve"><value>自動生成の読みは未校正です。文字をタップして候補選択・入力・不明指定ができます。手動修正はこの箇所のみ固定され、録音は変わりません。</value></data>
+  <data name="Library.ReviewCount" xml:space="preserve"><value>要確認 {0} / 漢字 {1}</value></data>
+  <data name="Library.SavePersonal" xml:space="preserve"><value>個人コンテンツに保存</value></data>
+  <data name="Library.PreviewContent" xml:space="preserve"><value>表示をプレビュー</value></data>
+  <data name="Library.UndoAnnotation" xml:space="preserve"><value>直前のルビ変更を元に戻す</value></data>
+  <data name="Library.ReviewFilter" xml:space="preserve"><value>すべて・要確認を切替</value></data>
+  <data name="Library.NeedsReviewOnly" xml:space="preserve"><value>要確認のみ</value></data>
+  <data name="Library.AllTokens" xml:space="preserve"><value>すべての漢字</value></data>
+  <data name="Library.ManualLocked" xml:space="preserve"><value>手動で固定</value></data>
+  <data name="Library.Confirmed" xml:space="preserve"><value>確認済み</value></data>
+  <data name="Library.NeedsReview" xml:space="preserve"><value>要確認</value></data>
+  <data name="Library.EnterPinyin" xml:space="preserve"><value>ピンインを入力</value></data>
+  <data name="Library.UnknownPinyin" xml:space="preserve"><value>不明として固定</value></data>
+  <data name="Library.CandidateHint" xml:space="preserve"><value>Unicodeの読み候補・要確認</value></data>
+  <data name="Library.ToneHint" xml:space="preserve"><value>ni3・nǐ・lv4 など声調付きで入力してください。軽声は0か5です。声調なしは軽声と見なしません。</value></data>
+  <data name="Library.ToneRequired" xml:space="preserve"><value>保存できません。有効な音節と声調（軽声0/5）を入力するか、不明を選択してください。</value></data>
+  <data name="Library.SaveUnreviewed" xml:space="preserve"><value>{0} 文字が要確認または不明です。この状態のまま保存しますか？</value></data>
+  <data name="Library.UnmappedManual" xml:space="preserve"><value>{0} 箇所の手動修正を新しい本文に一意に対応付けできません。再生成しますか？前の版は元に戻す操作用に保持されます。</value></data>
+  <data name="Library.ContinueAnnotation" xml:space="preserve"><value>続行</value></data>
+  <data name="Library.PatternHint" xml:space="preserve"><value>構文の例：{主語} 是 {名詞}</value></data>
+  <data name="Library.ExampleHint" xml:space="preserve"><value>文法の例文（必須）</value></data>
+  <data name="Library.EditPinyin" xml:space="preserve"><value>ピンインを編集</value></data>
+  <data name="Library.CopyAndEdit" xml:space="preserve"><value>個人用にコピーして校正</value></data>
+  <data name="Library.AudioProtected" xml:space="preserve"><value>変更した区間には音声があります。保存されていません。個人用コピーとして続行してください。元の音声は保持されます。</value></data>
+  <data name="Audio.Manage" xml:space="preserve"><value>音声と録音</value></data>
+  <data name="Audio.WholeUnit" xml:space="preserve"><value>対象：本文全体</value></data>
+  <data name="Audio.Segment" xml:space="preserve"><value>対象：選択した区間</value></data>
+  <data name="Audio.Hint" xml:space="preserve"><value>録音は端末内に保存します。PCM16 WAV、一般的な MP3、単一音声トラックの AAC-LC M4A に対応します。圧縮音声は WAV に変換して保存し、元ファイルは変更しません。入力・変換後とも最大100 MiB、録音は最長20分です。全体音声に区間の時間情報はありません。</value></data>
+  <data name="Audio.Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Audio.Finalizing" xml:space="preserve"><value>停止して録音の下書きを保存中…</value></data>
+  <data name="Audio.Stopped" xml:space="preserve"><value>停止しました</value></data>
+  <data name="Audio.PlayDefault" xml:space="preserve"><value>適用可能な音声を再生</value></data>
+  <data name="Audio.Record" xml:space="preserve"><value>録音を開始</value></data>
+  <data name="Audio.Import" xml:space="preserve"><value>WAV / MP3 / M4A を読み込む</value></data>
+  <data name="Audio.Settings" xml:space="preserve"><value>マイクの権限設定</value></data>
+  <data name="Audio.Refresh" xml:space="preserve"><value>更新</value></data>
+  <data name="Audio.Drafts" xml:space="preserve"><value>音声の下書き</value></data>
+  <data name="Audio.Ready" xml:space="preserve"><value>試聴可能な下書き</value></data>
+  <data name="Audio.Incomplete" xml:space="preserve"><value>未完了の下書き：完全なファイルの復元を試すか、破棄できます。</value></data>
+  <data name="Audio.Name" xml:space="preserve"><value>音声の名前</value></data>
+  <data name="Audio.Recording" xml:space="preserve"><value>録音</value></data>
+  <data name="Audio.Imported" xml:space="preserve"><value>読み込んだ音声</value></data>
+  <data name="Audio.SetDefault" xml:space="preserve"><value>この対象の既定の音声に設定</value></data>
+  <data name="Audio.NeedsReview" xml:space="preserve"><value>本文または読み方が変更されています。確認が必要です</value></data>
+  <data name="Audio.Confirm" xml:space="preserve"><value>引き続き適用できることを確認</value></data>
+  <data name="Audio.Save" xml:space="preserve"><value>音声を保存</value></data>
+  <data name="Audio.Recover" xml:space="preserve"><value>復元を試す</value></data>
+  <data name="Audio.Discard" xml:space="preserve"><value>下書きを破棄</value></data>
+  <data name="Audio.DiscardHint" xml:space="preserve"><value>この音声の下書きを破棄しますか？他の下書きや保存済みの音声には影響しません。</value></data>
+  <data name="Audio.Tracks" xml:space="preserve"><value>保存済みの音声</value></data>
+  <data name="Audio.NoTracks" xml:space="preserve"><value>この対象にはまだ音声がありません。</value></data>
+  <data name="Audio.Standard" xml:space="preserve"><value>標準音声</value></data>
+  <data name="Audio.Default" xml:space="preserve"><value>既定・適用可能</value></data>
+  <data name="Audio.Confirmed" xml:space="preserve"><value>適用を確認済み</value></data>
+  <data name="Audio.Remove" xml:space="preserve"><value>この音声を取り外す</value></data>
+  <data name="Audio.RemoveHint" xml:space="preserve"><value>この対象から音声を取り外しますか？本文は削除されず、共有音声ファイルも直ちには削除されません。</value></data>
+  <data name="Audio.ConfirmHint" xml:space="preserve"><value>試聴して、上に表示された現在の本文とピンインを確認してください。この音声は引き続き適用できますか？</value></data>
+  <data name="Audio.Preview" xml:space="preserve"><value>試聴</value></data>
+  <data name="Audio.Playing" xml:space="preserve"><value>再生中…</value></data>
+  <data name="Audio.Played" xml:space="preserve"><value>再生が完了しました</value></data>
+  <data name="Audio.Busy" xml:space="preserve"><value>録音中または保存処理中です。先に停止してください。</value></data>
+  <data name="Audio.NoPlayback" xml:space="preserve"><value>適用可能なローカル音声がないか、再生できません。</value></data>
+  <data name="Audio.PermissionDenied" xml:space="preserve"><value>マイクの権限がありません。システム設定で許可してから録音してください。</value></data>
+  <data name="Audio.InvalidFile" xml:space="preserve"><value>音声が破損しているか、形式が未対応、または容量超過です。PCM16 WAV、一般的な MP3、暗号化されていない単一音声トラックの AAC-LC M4A に対応します。入力・変換後とも100 MiB以下が必要です。元ファイルは変更しません。</value></data>
+  <data name="Audio.Failed" xml:space="preserve"><value>操作が完了していません。下書きは保持されます。更新して再試行してください。本文やピンインが変わった場合は試聴して適用を確認してください。</value></data>
+  <data name="GrammarEdit.Title" xml:space="preserve"><value>文法構成を編集</value></data>
+  <data name="GrammarEdit.Hint" xml:space="preserve"><value>説明・例文・注記を個別に編集します。下書きを保存し、ピンインを確認してから確定してください。</value></data>
+  <data name="GrammarEdit.Invalid" xml:space="preserve"><value>必須項目・件数・長さを確認してください。説明と例文が各1件以上必要です。</value></data>
+  <data name="GrammarEdit.Unsaved" xml:space="preserve"><value>未保存の変更があります。保存または破棄してから移動してください。</value></data>
+  <data name="GrammarEdit.Save" xml:space="preserve"><value>文法の下書きを保存</value></data>
+  <data name="GrammarEdit.DiscardChanges" xml:space="preserve"><value>未保存の変更を破棄</value></data>
+  <data name="GrammarEdit.DiscardHint" xml:space="preserve"><value>最後に保存した下書きに戻しますか？</value></data>
+  <data name="GrammarEdit.Review" xml:space="preserve"><value>ピンインを確認して保存</value></data>
+  <data name="GrammarEdit.Name" xml:space="preserve"><value>タイトル</value></data>
+  <data name="GrammarEdit.Pattern" xml:space="preserve"><value>文型の構成</value></data>
+  <data name="GrammarEdit.Literal" xml:space="preserve"><value>固定テキスト</value></data>
+  <data name="GrammarEdit.Slot" xml:space="preserve"><value>プレースホルダー</value></data>
+  <data name="GrammarEdit.Operator" xml:space="preserve"><value>接続記号</value></data>
+  <data name="GrammarEdit.PartUp" xml:space="preserve"><value>文型要素を上へ</value></data>
+  <data name="GrammarEdit.RemovePart" xml:space="preserve"><value>文型要素を削除</value></data>
+  <data name="GrammarEdit.AddPart" xml:space="preserve"><value>文型要素を追加</value></data>
+  <data name="GrammarEdit.Translation.ja" xml:space="preserve"><value>日本語訳（任意）</value></data>
+  <data name="GrammarEdit.Translation.en" xml:space="preserve"><value>英語訳（任意）</value></data>
+  <data name="GrammarEdit.Topics" xml:space="preserve"><value>文法テーマ</value></data>
+  <data name="GrammarEdit.Topic.negation" xml:space="preserve"><value>否定</value></data>
+  <data name="GrammarEdit.Topic.question" xml:space="preserve"><value>疑問</value></data>
+  <data name="GrammarEdit.Topic.comparison" xml:space="preserve"><value>比較</value></data>
+  <data name="GrammarEdit.Topic.time" xml:space="preserve"><value>時間</value></data>
+  <data name="GrammarEdit.Topic.location" xml:space="preserve"><value>位置</value></data>
+  <data name="GrammarEdit.Topic.progressive" xml:space="preserve"><value>進行</value></data>
+  <data name="GrammarEdit.Units" xml:space="preserve"><value>説明・例文・注記</value></data>
+  <data name="GrammarEdit.UnitUp" xml:space="preserve"><value>同じ種類の中で上へ</value></data>
+  <data name="GrammarEdit.RemoveUnit" xml:space="preserve"><value>この単位を削除</value></data>
+  <data name="GrammarEdit.RemoveUnitHint" xml:space="preserve"><value>この単位を削除しますか？音声や録音下書きがある単位は確定時に削除できません。元の内容を残すかコピーを保存してください。</value></data>
+  <data name="GrammarEdit.AddGrammarExplanation" xml:space="preserve"><value>説明を追加</value></data>
+  <data name="GrammarEdit.AddExample" xml:space="preserve"><value>例文を追加</value></data>
+  <data name="GrammarEdit.AddGrammarNote" xml:space="preserve"><value>注記を追加</value></data>
+  <data name="Library.Trash" xml:space="preserve"><value>個人コンテンツのごみ箱</value></data>
+  <data name="Library.TrashHint" xml:space="preserve"><value>本文・ピンイン・お気に入り・音声・下書きを保持します。容量は解放されません。復元後は編集を開き直してください。古い編集下書きはコピー保存できます。</value></data>
+  <data name="Library.TrashEmpty" xml:space="preserve"><value>ごみ箱は空です</value></data>
+  <data name="Library.RestoreContent" xml:space="preserve"><value>コンテンツを復元</value></data>
+  <data name="Library.MoveToTrash" xml:space="preserve"><value>ごみ箱に移動</value></data>
+  <data name="Library.TrashPreview" xml:space="preserve"><value>お気に入り {0} 件、音声 {1} 件、下書き {2} 件、その他の参照 {3} 件。学習・検索・お気に入りから非表示にし、関連データは保持します。「下書き → 個人コンテンツのごみ箱」で復元できます。</value></data>
+  <data name="Library.RetainedContents" xml:space="preserve"><value>保持した旧内容</value></data>
+  <data name="Library.RetainedHint" xml:space="preserve"><value>お気に入り・音声・変更・その他の参照があるため保持した内容です。閲覧・音声管理・コピーして編集ができます。同版の再インストールでは未変更のアンインストール残存内容を再接続できますが、更新時の旧資料は別に保持します。</value></data>
+  <data name="Library.Ready" xml:space="preserve"><value>利用可能</value></data>
+  <data name="Manage.Entries" xml:space="preserve"><value>リソース項目を管理</value></data>
+  <data name="Manage.EntriesHint" xml:space="preserve"><value>非表示にすると学習・検索から除外されますが、お気に入りからは閲覧できます。この状態は再インストール後も保持されます。</value></data>
+  <data name="Manage.RestoreEntry" xml:space="preserve"><value>項目を再表示</value></data>
+  <data name="Manage.WithdrawEntry" xml:space="preserve"><value>項目を非表示</value></data>
+  <data name="Manage.WithdrawHint" xml:space="preserve"><value>この項目を非表示にしますか？本文・お気に入り・音声は保持され、ここで再表示できます。</value></data>
+  <data name="Manage.RetainingUninstall" xml:space="preserve"><value>「{0}」をアンインストールしますか？参照または変更のある {1} 件を保持し、参照のない {2} 件を削除します。お気に入り・ユーザー音声・下書きは保持されます。保持コンテンツは下書き画面から開けます。音声ファイルは削除しません。</value></data>
+  <data name="Library.ContentTransfer" xml:space="preserve"><value>コンテンツの読込・共有</value></data>
+  <data name="Transfer.Title" xml:space="preserve"><value>コンテンツの読込・共有</value></data>
+  <data name="Transfer.Hint" xml:space="preserve"><value>4種類の完全な内容を最大100件選べます。保存済みピンインと訳文を含み、本人WAV録音を追加できます。下書き・お気に入り・設定は含みません。パッケージ32 MiB、各ファイル16 MiBまで。</value></data>
+  <data name="Transfer.Import" xml:space="preserve"><value>コンテンツパッケージを読込</value></data>
+  <data name="Transfer.Preview" xml:space="preserve"><value>選択内容を確認</value></data>
+  <data name="Transfer.Export" xml:space="preserve"><value>パッケージを作成</value></data>
+  <data name="Transfer.Share" xml:space="preserve"><value>システム共有を開く</value></data>
+  <data name="Transfer.Clear" xml:space="preserve"><value>選択を解除</value></data>
+  <data name="Transfer.Previous" xml:space="preserve"><value>前へ</value></data>
+  <data name="Transfer.Next" xml:space="preserve"><value>次へ</value></data>
+  <data name="Transfer.Attest" xml:space="preserve"><value>権利未設定の個人入力について、本文と訳文を共有する権利があることを確認します。リソースの共有制限は解除されません。</value></data>
+  <data name="Transfer.Selected" xml:space="preserve"><value>{0} 件選択中</value></data>
+  <data name="Transfer.Changed" xml:space="preserve"><value>選択が変わりました。再度確認してください。</value></data>
+  <data name="Transfer.PreviewInfo" xml:space="preserve"><value>固定スナップショット：{0} 件。初期状態で音声 {1} 件、下書き {2} 件を除外。制限 {3} 件、権利確認が必要な個人入力 {4} 件。</value></data>
+  <data name="Transfer.PreviewFirst" xml:space="preserve"><value>先に選択内容を確認してください。</value></data>
+  <data name="Transfer.ExportFirst" xml:space="preserve"><value>先にパッケージを作成してください。</value></data>
+  <data name="Transfer.Exported" xml:space="preserve"><value>パッケージを作成・検証しました。システム共有を開けます。一時コピーは7日間保持しますが、OSが先にキャッシュを削除する場合があります。</value></data>
+  <data name="Transfer.ShareOpened" xml:space="preserve"><value>システム共有を呼び出しました。相手の受信を示すものではありません。</value></data>
+  <data name="Transfer.ImportPreview" xml:space="preserve"><value>追加 {0} 件、再利用 {1} 件、競合別保存 {2} 件（追加件数に含む）。端末の内容を保持し、お気に入りや設定は取り込みません。v2本文・WAVパッケージに対応。</value></data>
+  <data name="Transfer.Imported" xml:space="preserve"><value>読込完了：新規 {0} 件、再利用 {1} 件。学習画面で開けます。</value></data>
+  <data name="Transfer.Allowed" xml:space="preserve"><value>共有可能という出典の申告</value></data>
+  <data name="Transfer.NeedsRights" xml:space="preserve"><value>個人入力の共有権利確認が必要</value></data>
+  <data name="Transfer.Restricted" xml:space="preserve"><value>出典により共有不可</value></data>
+  <data name="Transfer.Rights" xml:space="preserve"><value>共有不可の項目または未確認の権利があります。プレビューを確認し選択を変更してください。</value></data>
+  <data name="Transfer.Stale" xml:space="preserve"><value>データが変更されました。再度プレビューしてください。</value></data>
+  <data name="Transfer.Collision" xml:space="preserve"><value>同じパッケージIDの内容が異なるため拒否しました。</value></data>
+  <data name="Transfer.Invalid" xml:space="preserve"><value>ファイルが無効、上限超過、または未対応です。v2内容パッケージと完全なPCM16 WAVに対応します。リソースは管理画面から導入してください。</value></data>
+  <data name="Transfer.Failed" xml:space="preserve"><value>処理を完了できませんでした。既存データは保持されます。再試行してください。</value></data>
+  <data name="Transfer.Cancelled" xml:space="preserve"><value>キャンセルしました。</value></data>
+  <data name="Transfer.CacheFull" xml:space="preserve"><value>共有用の一時領域がいっぱいです。古いコピーの期限後に再試行してください。</value></data>
+  <data name="Audio.ShareRecording" xml:space="preserve"><value>この録音を共有</value></data>
+  <data name="Audio.ShareRecordingHint" xml:space="preserve"><value>実際のWAV録音を共有します。声から個人を識別できる場合があります。本文・ピンイン・関連情報は含まれません。共有権利を確認してください。受信者は音声の再生のみ可能です。</value></data>
+  <data name="Transfer.ChooseAudio" xml:space="preserve"><value>録音を選択</value></data>
+  <data name="Transfer.AudioHint" xml:space="preserve"><value>音声は初期状態では含みません。保存済みの本人WAV録音のみ選べます。取り込み音声や標準音声はまだ共有できません。要確認の状態は維持されます。</value></data>
+  <data name="Transfer.AudioPage" xml:space="preserve"><value>録音 {0}/{1} ページ · {2} 件選択</value></data>
+  <data name="Transfer.AudioApply" xml:space="preserve"><value>選択した録音を使う</value></data>
+  <data name="Transfer.AudioNone" xml:space="preserve"><value>音声を含めない</value></data>
+  <data name="Transfer.AudioDetails" xml:space="preserve"><value>{0:0.0} 秒 · {1:0.0} KiB</value></data>
+  <data name="Transfer.AudioRestricted" xml:space="preserve"><value>パッケージ共有不可</value></data>
+  <data name="Transfer.AudioReview" xml:space="preserve"><value>要確認</value></data>
+  <data name="Transfer.AudioReady" xml:space="preserve"><value>一致を確認済み</value></data>
+  <data name="Transfer.AudioPreferred" xml:space="preserve"><value>この端末の既定音声</value></data>
+  <data name="Transfer.AudioSelected" xml:space="preserve"><value>録音 {0} 件を含め、{1} 件を除外。選択ファイル合計 {2:0.0} KiB（同一データは1回のみ格納）。</value></data>
+  <data name="Transfer.AudioConsent" xml:space="preserve"><value>録音にはあなたの声が含まれる場合があります。本文と録音を共有する権利があることを確認しますか？受信側では取り込み音声として表示されます。</value></data>
+  <data name="Transfer.AudioImport" xml:space="preserve"><value>音声：追加 {0} 件、再利用 {1} 件、要確認 {2} 件。{3:0.0} KiB。端末の既定音声を優先します。</value></data>
+  <data name="Install.UpdatePreview" xml:space="preserve"><value>バージョン {0} → {1}
+追加 {2}、変更 {3}、削除 {4}、変更なし {5}
+旧内容を {6} 件保持します。</value></data>
+  <data name="Install.PublisherChanged" xml:space="preserve"><value>公開者の申告が変わりました。独立した検証は行っていません。ファイルの入手元を確認してください。</value></data>
+  <data name="Install.UpdateProtected" xml:space="preserve"><value>未完了の録音、未対応の下書き形式、または確認できない教材参照があるため更新できません。録音を停止して完全な下書きを復旧するか、参照を確認してください。旧版は変更していません。</value></data>
+  <data name="Install.Downgrade" xml:space="preserve"><value>古いバージョンには戻せません。新しいバージョンを選んでください。</value></data>
+  <data name="Install.UpdateMissing" xml:space="preserve"><value>このリソースはアンインストール済みです。元のバージョンを再インストールしてから更新してください。</value></data>
+  <data name="Install.WrongResource" xml:space="preserve"><value>選択したファイルのリソース ID または種類が一致しません。</value></data>
+  <data name="Install.Updated" xml:space="preserve"><value>更新完了：現バージョンは {0} 件です。保持した内容は下書き画面から確認できます。</value></data>
+  <data name="Install.UpdateReview" xml:space="preserve"><value>リソース更新の確認</value></data>
+  <data name="Install.UpdateContinue" xml:space="preserve"><value>更新の確認へ進む</value></data>
+  <data name="Install.UpdatePreservation" xml:space="preserve"><value>変更・削除される旧内容に参照がある場合、お気に入りや音声とともに別の資料として保持します。新版に旧録音は自動適用されません。有効状態・優先度・非表示設定は保持されます。</value></data>
+  <data name="Install.Change.added" xml:space="preserve"><value>追加</value></data>
+  <data name="Install.Change.changed" xml:space="preserve"><value>変更</value></data>
+  <data name="Install.Change.removed" xml:space="preserve"><value>削除</value></data>
+  <data name="Install.Change.unchanged" xml:space="preserve"><value>変更なし</value></data>
+  <data name="Install.RetainOld" xml:space="preserve"><value>旧内容と参照を保持</value></data>
+  <data name="Install.UpdatePick" xml:space="preserve"><value>更新ファイルを選択</value></data>
+  <data name="Install.UpdateReferences" xml:space="preserve"><value>旧内容とともに保持：確定済み音声下書き {0} 件、教材例字の参照 {1} 件。</value></data>
+  <data name="Reader.PlayAll" xml:space="preserve"><value>全文を再生</value></data>
+  <data name="Reader.PlaySelection" xml:space="preserve"><value>この範囲を再生</value></data>
+  <data name="Reader.PlayUnit" xml:space="preserve"><value>文全体を再生</value></data>
+  <data name="Reader.LocalPlayback" xml:space="preserve"><value>対応する録音を優先します。録音がない文章は、有効な内蔵 AI 音声で読み上げられます。</value></data>
+  <data name="Reader.PreparingAudio" xml:space="preserve"><value>音声を確認中…</value></data>
+  <data name="Reader.MissingAudio" xml:space="preserve"><value>{0} 件の対象に録音がありません。設定 → AI オフライン音声パックで音声を有効にするか、対応する録音を追加してください。</value></data>
+  <data name="Reader.StaleAudio" xml:space="preserve"><value>本文または読みが変わりました。戻って内容を開き直してください。</value></data>
+  <data name="Reader.PlayingUnit" xml:space="preserve"><value>単位全体を再生中 {0}/{1}（区間の時間情報なし）</value></data>
+  <data name="Reader.PlayingSegment" xml:space="preserve"><value>区間を再生中 {0}/{1}</value></data>
+  <data name="Reader.PlaybackFailed" xml:space="preserve"><value>再生を停止しました。音声が読み取れないか、適用できません。音声を確認してください。</value></data>
+  <data name="Pinyin.ClickExample" xml:space="preserve"><value>{0} の例字：{1} · {2}（例字の音節全体を再生）</value></data>
+  <data name="Pinyin.Busy" xml:space="preserve"><value>録音中です。先に録音を停止してください。</value></data>
+  <data name="Backup.Title" xml:space="preserve"><value>バックアップと統合復元</value></data>
+  <data name="Backup.Hint" xml:space="preserve"><value>保存済みの内容・音声・お気に入り・教材カタログ・設定・持ち出せるリソースを保存します。下書きとごみ箱は対象外です。結合は既存データを保持し、置換は安全コピーの検証と2回の確認が必要です。</value></data>
+  <data name="Backup.Preview" xml:space="preserve"><value>バックアップを確認</value></data>
+  <data name="Backup.Partial" xml:space="preserve"><value>上記の教材が含まれないことを確認しました。復元後に再インストールが必要な場合があります。</value></data>
+  <data name="Backup.Export" xml:space="preserve"><value>バックアップを作成</value></data>
+  <data name="Backup.Share" xml:space="preserve"><value>バックアップを保存・共有</value></data>
+  <data name="Backup.ApplySettings" xml:space="preserve"><value>復元時に言語・表示・音声設定を適用する（既定では現在の設定を保持）</value></data>
+  <data name="Backup.Import" xml:space="preserve"><value>バックアップを選んで統合復元</value></data>
+  <data name="Backup.Working" xml:space="preserve"><value>保存済みデータと音声を読み込み中…</value></data>
+  <data name="Backup.PreviewInfo" xml:space="preserve"><value>内容 {0}・フォルダー {1}・お気に入り {2}・音声 {3}（{4:N1} KiB）。教材は同梱 {5}・未同梱 {6}。下書き {7}・ごみ箱 {8} は対象外。</value></data>
+  <data name="Backup.Exported" xml:space="preserve"><value>検証済みバックアップをアプリ内に作成しました。「保存・共有」から保存先を選んでください。</value></data>
+  <data name="Backup.ImportInfo" xml:space="preserve"><value>内容追加 {0}・再利用 {1}・競合別保存 {2}・音声追加 {3}・フォルダー追加 {4}・お気に入り {5}。教材インストール {6}・既存保持 {7}・不足またはスナップショットのみ {8}・名前保持や同名フォルダー {9}。既存の本文は削除・上書きしません。</value></data>
+  <data name="Backup.SettingsWillApply" xml:space="preserve"><value>バックアップの設定を適用します。既存教材の有効状態・優先度・非表示設定は保持します。</value></data>
+  <data name="Backup.SettingsKept" xml:space="preserve"><value>現在の設定と既存教材の状態を保持します。</value></data>
+  <data name="Backup.Imported" xml:space="preserve"><value>統合復元が完了しました。追加 {0}・再利用 {1}・不足またはスナップショットのみの教材 {2}。</value></data>
+  <data name="Backup.Rights" xml:space="preserve"><value>必要な内容のバックアップ許可が制限または未確認のため作成できません。提供元の許可を確認してください。</value></data>
+  <data name="Backup.RecordingBusy" xml:space="preserve"><value>未完了の録音があります。先に保存または破棄してください。</value></data>
+  <data name="Backup.Limit" xml:space="preserve"><value>現在の上限はパッケージ 32 MiB、音声ごとに 16 MiB です。音声を切り詰めずに処理を中止しました。</value></data>
+  <data name="Backup.Replace" xml:space="preserve"><value>保存済みデータを置換</value></data>
+  <data name="Backup.ReplaceInfo" xml:space="preserve"><value>個人・スナップショット {0} 件、音声 {1} 件、フォルダー {2} 件、お気に入り {3} 件を削除し、{4} 件を復元。{5} 個のリソースが不完全です。インストール済みカタログは保持し、設定を復元します。</value></data>
+  <data name="Backup.PrepareSafety" xml:space="preserve"><value>安全コピーを作成</value></data>
+  <data name="Backup.ReplaceConfirm" xml:space="preserve"><value>データベースと音声の安全コピーを検証しました。保存済みデータ（ごみ箱を含む）を置換しますか？未保存の下書きは先に処理してください。</value></data>
+  <data name="Backup.Recovery" xml:space="preserve"><value>安全コピーを表示</value></data>
+  <data name="Backup.NoRecovery" xml:space="preserve"><value>置換記録はありません。</value></data>
+  <data name="Backup.RecoveryCommitted" xml:space="preserve"><value>現在のデータベースに対応する確定記録があります。安全コピーは保持されています。</value></data>
+  <data name="Backup.RecoveryUncommitted" xml:space="preserve"><value>現在のデータベースに対応する確定記録がありません。安全コピーは保持されています。</value></data>
+  <data name="Backup.DraftsBlock" xml:space="preserve"><value>未保存の下書きを保存または処理してから置換してください。</value></data>
+  <data name="Backup.ReferencesBlock" xml:space="preserve"><value>教材が個人スナップショットを参照しています。参照を保持するには結合復元を使用してください。</value></data>
+  <data name="Backup.SafetyRequired" xml:space="preserve"><value>検証済みの安全コピーが必要です。再度プレビューしてください。</value></data>
+  <data name="Pinyin.ImportCatalog" xml:space="preserve"><value>教材カタログを読み込む</value></data>
+  <data name="Pinyin.ImportCatalogInfo" xml:space="preserve"><value>ローカルの教材を参照する {0} 項目を読み込みます。音声は各例と一致する必要があります。</value></data>
+  <data name="Install.ReinstallDisabled" xml:space="preserve"><value>削除済みのリソースを新版で再インストールし、無効のまま保持します。確認後に有効にしてください。</value></data>
+  <data name="Transfer.SaveFile" xml:space="preserve"><value>ファイルに保存</value></data>
+  <data name="Transfer.SaveZip" xml:space="preserve"><value>ZIP として保存（互換用）</value></data>
+  <data name="Backup.SaveFile" xml:space="preserve"><value>バックアップをファイルに保存</value></data>
+  <data name="Backup.SaveZip" xml:space="preserve"><value>ZIP として保存（互換用）</value></data>
+  <data name="Audio.SaveFile" xml:space="preserve"><value>録音をファイルに保存</value></data>
+  <data name="Transfer.FileSaved" xml:space="preserve"><value>選択した場所に保存しました。クラウドへの同期は保存先が管理します。</value></data>
+  <data name="Speech.Title" xml:space="preserve"><value>読み上げ音声</value></data>
+  <data name="Speech.Voice" xml:space="preserve"><value>中国語音声</value></data>
+  <data name="Speech.Refresh" xml:space="preserve"><value>端末の音声を確認</value></data>
+  <data name="Speech.Preview" xml:space="preserve"><value>この中国語を試聴</value></data>
+  <data name="Speech.Hint" xml:space="preserve"><value>確認・試聴は明示操作でのみ行い、この画面では下の固定文を使用します。Android ではネットワーク必須・未インストールの音声を除外しますが、オフライン動作は別途確認が必要です。閲覧画面は通常ローカル音源のみを使用し、明示選択・確認後に限り不足分の中国語をシステム音声で読みます。手動ピンインは反映されません。</value></data>
+  <data name="Speech.Unavailable" xml:space="preserve"><value>利用可能な中国語音声がないか、音声サービスが準備できていません。システム設定をご確認ください。</value></data>
+  <data name="Speech.Available" xml:space="preserve"><value>端末の中国語音声候補が見つかりました。試聴成功はオフライン動作や発音の審査完了を意味しません。</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>ローカルデータとプライバシー</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>本文、ピンイン修正、お気に入り、設定、録音はアプリ専用領域に保存します。現在、アカウント、広告、利用統計送信、本文・録音のアップロード機能はありません。録音操作と許可の後にのみマイクを使用し、画面を離れるかバックグラウンドに移ると録音を停止して下書き保存を試みます。</value></data>
+  <data name="Privacy.Speech" xml:space="preserve"><value>システム音声を選択すると、タップした辞書・本文の文字を端末の音声プロバイダーに渡します。Androidでは通信必須の音声を除外しますが、実際のオフライン動作は端末に依存します。内蔵MeloTTSとKokoroは文字を送信せず端末内で合成します。</value></data>
+  <data name="Privacy.Export" xml:space="preserve"><value>共有・保存の範囲と保存先はユーザーが選びます。バックアップには個人の文章、お気に入り、音声が含まれ、暗号化されません。クラウド保存先と共有先には各サービスの規則が適用されます。Android のアプリ自動バックアップと端末移行を無効化しています。他のプラットフォームのシステムバックアップはシステム側が管理します。必要なコピーはアプリのバックアップ機能で保存してください。</value></data>
+  <data name="Privacy.Delete" xml:space="preserve"><value>音源の削除やごみ箱への移動は、ファイルの完全消去ではありません。参照と復元の保護のため、古い音声、安全コピー、一部の一時ファイルが残る場合があり、自動回収は未実装です。新しい共有コピーを生成する際に7日を超えた古いコピーを削除します。システムが先に消去する場合があります。外部に保存したコピーはアプリから削除できません。</value></data>
+  <data name="Transfer.SaveFailed" xml:space="preserve"><value>保存を完了できませんでした。保存先に不完全なファイルが残る場合があります。アプリ内の原本は保持されています。別の保存先で再試行できます。</value></data>
+  <data name="Audio.Decoding" xml:space="preserve"><value>音声を検証・デコード中です。「停止」でキャンセルできます…</value></data>
+  <data name="Reader.SpeechFallback" xml:space="preserve"><value>不足する録音をシステム音声で読む</value></data>
+  <data name="Reader.SpeechConsent" xml:space="preserve"><value>{0} 件に適用可能な録音がありません。画面の中国語をシステム音声で読みますか？手動ピンインは反映されず、修正内容の確認には使えません。提供元はシステムが管理し、インストール済みでもオフライン動作は別途確認が必要です。適用可能な録音を優先します。</value></data>
+  <data name="Reader.SpeechDisabled" xml:space="preserve"><value>現在はローカル音声のみ使用します。設定のシステム音声画面で読み上げを許可してください。</value></data>
+  <data name="Speech.AllowReading" xml:space="preserve"><value>閲覧時のシステム音声を許可（既定はオフ、毎回確認）</value></data>
+  <data name="Pinyin.Resources" xml:space="preserve"><value>ピンイン教材と音声の出典</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>タップで発音、長押し・右クリックで辞書の説明を開きます。</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>内蔵ピンイン録音は辞書とは別の audio-cmn が出典です。有効な AI 音声は注記されたピンインと声調でオフライン合成し、bo・po・mo・fo などの声母の読み方と単独 ong に対応します。ここで AI 優先を解除すると録音と比較できます。出典の CC BY-SA は版の指定がありません。録音と合成音の教材としての聴取確認は未完了です。</value></data>
+  <data name="Voice.Title" xml:space="preserve"><value>AIオフライン音声パック</value></data>
+  <data name="Voice.Hint" xml:space="preserve"><value>音声パックは内蔵です。試聴・音声選択・キャッシュ復元ができます。「この音声を使う」で読み上げ音源も切り替わります。録音を優先します。</value></data>
+  <data name="Voice.Info" xml:space="preserve"><value>内蔵中国語・{0:F1} MiB・{1}音声</value></data>
+  <data name="Voice.Download" xml:space="preserve"><value>内蔵音声パックを復元</value></data>
+  <data name="Voice.DownloadConfirm" xml:space="preserve"><value>Hugging Faceから約{0:F1} MiBのモデルを取得します。モバイルデータを使用する場合があります。文章は送信しません。ダウンロードしますか？</value></data>
+  <data name="Voice.Progress" xml:space="preserve"><value>準備・検証中：{0:P0}</value></data>
+  <data name="Voice.Preview" xml:space="preserve"><value>上の文章を試聴</value></data>
+  <data name="Voice.Use" xml:space="preserve"><value>この音声で読み上げる</value></data>
+  <data name="Voice.Disable" xml:space="preserve"><value>AI読み上げを無効にする</value></data>
+  <data name="Voice.Remove" xml:space="preserve"><value>音声パックのキャッシュを消去</value></data>
+  <data name="Voice.RemoveConfirm" xml:space="preserve"><value>展開済みのモデルを消去し、AI 読み上げを停止します。文章、お気に入り、録音は保持されます。アプリ内のモデルは残り、オフラインで復元できます。</value></data>
+  <data name="Voice.Cancel" xml:space="preserve"><value>準備をキャンセル / 停止</value></data>
+  <data name="Voice.Speaker" xml:space="preserve"><value>標準中国語 {0:000}</value></data>
+  <data name="Voice.Generating" xml:space="preserve"><value>端末内で音声を生成中。初回は時間がかかる場合があります…</value></data>
+  <data name="Voice.Installed" xml:space="preserve"><value>内蔵音声パックを使用できます。試聴後、「この音声で読み上げる」を選んでください。</value></data>
+  <data name="Voice.Selected" xml:space="preserve"><value>選択したAI音声は有効です。学習ページに戻ってタップして読み上げられます。</value></data>
+  <data name="Voice.Disabled" xml:space="preserve"><value>AI 読み上げを停止しました。内蔵音声パックは保持されます。</value></data>
+  <data name="Voice.NotInstalled" xml:space="preserve"><value>音声キャッシュが消去されたか不完全です。内蔵パックをオフラインで復元できます。</value></data>
+  <data name="Voice.Unsupported" xml:space="preserve"><value>このプラットフォームのAI音声エンジンは未対応です。</value></data>
+  <data name="Voice.Failed" xml:space="preserve"><value>操作を完了できませんでした。空き容量を確認するか内蔵パックを復元してください。学習データは変更されていません。</value></data>
+  <data name="Voice.DownloadTimeout" xml:space="preserve"><value>音声パックの準備がタイムアウトしました。もう一度お試しください。学習データは変更されていません。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>両モデルは内蔵され端末内で動作し、文字や録音を送信しません。キャッシュ削除で学習データは消えません。ピンインは録音を優先し、不足時はMeloTTSで指定の読みを補います。辞書・本文は選択した音源を使います。</value></data>
+  <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai、MIT。Kokoro：hexgrad、Apache-2.0。エンジン：sherpa-onnx、Apache-2.0。合成音声です。ライセンスと出典を同梱します。</value></data>
+<data name="Voice.ChooseSpeaker" xml:space="preserve"><value>音色を選択</value></data>
+<data name="Voice.Sample" xml:space="preserve"><value>試聴する文章</value></data>
+<data name="Voice.UnsupportedText" xml:space="preserve"><value>この音声では一部の文字・英語・絵文字を読めません。文章を修正するか、録音・システム音声を使用してください。省略や送信はしていません。</value></data>
+  <data name="Backup.SnapshotTotal" xml:space="preserve"><value>{0} 件のコピー。検証済みコピーの容量：{1:F1} MB。</value></data>
+  <data name="Backup.SnapshotValid" xml:space="preserve"><value>整合性確認済み · {0:F1} MB</value></data>
+  <data name="Backup.SnapshotIncompatible" xml:space="preserve"><value>バージョン非対応のため復元できません。コピーは保持されています。</value></data>
+  <data name="Backup.SnapshotDamaged" xml:space="preserve"><value>破損または未完成のため復元できません。自動削除されません。</value></data>
+  <data name="Backup.RestoreSnapshot" xml:space="preserve"><value>この安全コピーを復元</value></data>
+  <data name="Backup.SnapshotImpact" xml:space="preserve"><value>現在の {0} 件の内容を、コピー内の内容 {1} 件、音声 {2} 件、フォルダー {3} 件、ごみ箱 {4} 件で置き換えます。設定・リソース状態・ピンイン教材も復元します。次に現在の状態を保存します。</value></data>
+  <data name="Backup.SnapshotConfirm" xml:space="preserve"><value>現在の状態を新しい安全用コピーに保存しました。選択したコピーでコンテンツ、お気に入り、設定、リソース状態を置き換えますか？AI 音声モデルのファイルには影響しません。</value></data>
+  <data name="Backup.SnapshotRestored" xml:space="preserve"><value>復元完了。操作記録：{0}。復元前の状態は安全コピーから戻せます。</value></data>
+  <data name="Backup.RetainRecent" xml:space="preserve"><value>安全コピーを整理（最新 3 件を保持）</value></data>
+  <data name="Backup.RetentionInfo" xml:space="preserve"><value>検証済みの古いコピー {0} 件を削除し、{1:F1} MB を解放します。最新の正常な 3 件と破損・不明なコピーは保持します。以前に確認済みで中断した削除も再開します。この操作は元に戻せません。</value></data>
+  <data name="Backup.ScanAudio" xml:space="preserve"><value>未使用音声をスキャン</value></data>
+  <data name="Backup.CleanupProtected" xml:space="preserve"><value>保護対象のデータがあります。音声は削除されていません。</value></data>
+  <data name="Backup.CleanupDrafts" xml:space="preserve"><value>未保存の下書きやごみ箱の記録を処理してから再スキャンしてください。</value></data>
+  <data name="Backup.CleanupInfo" xml:space="preserve"><value>孤立ファイル {0} 件。削除可能：{1} 件（{2:F1} MB）。保護期間中：{3} 件。初回検出から最低 7 日間保持します。使用中の録音と安全コピーが参照する音声は保護します。</value></data>
+  <data name="Backup.CleanupConfirm" xml:space="preserve"><value>削除前に参照を再確認します。保護期間を過ぎた孤立音声を完全に削除しますか？</value></data>
+  <data name="Backup.Clean" xml:space="preserve"><value>削除を確認</value></data>
+  <data name="Backup.CleanupResult" xml:space="preserve"><value>{0} 件を削除し、{1:F1} MB を解放しました。変更または削除済みの {2} 件はスキップしました。</value></data>
+  <data name="Backup.Invalid" xml:space="preserve"><value>バックアップが無効、破損、または未対応です。HanMateで作成した .hanbackup または .hanbackup.zip を選んでください。内容パッケージは内容のインポート画面から開いてください。</value></data>
+  <data name="Backup.ExportFirst" xml:space="preserve"><value>先にプレビューしてバックアップファイルを作成してください。</value></data>
+  <data name="Search.TextMode" xml:space="preserve"><value>文字</value></data>
+  <data name="Search.HandwritingMode" xml:space="preserve"><value>手書き</value></data>
+  <data name="Handwriting.Hint" xml:space="preserve"><value>一度に一文字を筆順どおりに書きます。一画ごとに候補を更新します。</value></data>
+  <data name="Handwriting.Pad" xml:space="preserve"><value>一文字の手書き枠</value></data>
+  <data name="Handwriting.Empty" xml:space="preserve"><value>下の枠に漢字を一文字書いてください</value></data>
+  <data name="Handwriting.Writing" xml:space="preserve"><value>筆記中…</value></data>
+  <data name="Handwriting.Recognizing" xml:space="preserve"><value>認識中…</value></data>
+  <data name="Handwriting.Count" xml:space="preserve"><value>{0}画 · 文字や単語をタップして意味を表示</value></data>
+  <data name="Handwriting.Undo" xml:space="preserve"><value>一画戻す</value></data>
+  <data name="Handwriting.Clear" xml:space="preserve"><value>書き直す</value></data>
+  <data name="Handwriting.Credits" xml:space="preserve"><value>データ出典</value></data>
+  <data name="Handwriting.NoExamples" xml:space="preserve"><value>関連する単語はありません</value></data>
+  <data name="Handwriting.NoDefinition" xml:space="preserve"><value>この文字の意味はローカル辞書にまだありません。関連語を確認するか、辞書管理で辞書を追加してください。</value></data>
+  <data name="Handwriting.Failed" xml:space="preserve"><value>認識または検索に失敗しました。一画戻すか、書き直してください。</value></data>
+  <data name="Dictionary.About" xml:space="preserve"><value>標準辞書と出典</value></data>
+  <data name="Dictionary.Summary" xml:space="preserve"><value>{0} 項目 · バージョン {1} · オフライン</value></data>
+  <data name="Dictionary.Enabled" xml:space="preserve"><value>標準辞書を有効にする</value></data>
+  <data name="Dictionary.Description" xml:space="preserve"><value>簡体字の見出しと中国語の説明で、漢字・単語・成語を収録し、繁体字でも検索できます。chinese-xinhua の収集データには古い説明があり、全面校閲済みでも公式の新華字典でもありません。不足するピンインは自動補完し、未確認として確定読み検索から除外します。読取専用データと有効設定は個人バックアップに含まれません。</value></data>
+  <data name="Pinyin.PreferAi" xml:space="preserve"><value>ピンインでは有効な AI 音声を優先</value></data>
+  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>標準では従来のピンイン・例字・例語の録音を使用し、完全な録音がない場合に有効な音声パックで補います。この項目を有効にすると合成音声を優先します。インポートした録音と既知の誤発音に対応する録音は引き続き優先します。辞書の語義・例文の読み上げには影響しません。</value></data>
+  <data name="DictionaryDetail.Title" xml:space="preserve"><value>辞書</value></data>
+  <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>意味</value></data>
+  <data name="DictionaryDetail.Examples" xml:space="preserve"><value>用法・例文</value></data>
+  <data name="DictionaryDetail.HidePinyin" xml:space="preserve"><value>ピンインを隠す</value></data>
+  <data name="DictionaryDetail.ShowPinyin" xml:space="preserve"><value>ピンインを表示</value></data>
+  <data name="DictionaryDetail.Speak" xml:space="preserve"><value>見出し語を読む・もう一度押すと停止</value></data>
+  <data name="DictionaryDetail.More" xml:space="preserve"><value>その他</value></data>
+  <data name="DictionaryDetail.Source" xml:space="preserve"><value>項目情報・出典</value></data>
+  <data name="DictionaryDetail.Manage" xml:space="preserve"><value>編集・管理</value></data>
+  <data name="DictionaryDetail.NoExamples" xml:space="preserve"><value>例文は未収録です</value></data>
+  <data name="DictionaryDetail.Automatic" xml:space="preserve"><value>意味のピンインは自動注音です。多音字は文脈に合わせて確認してください。</value></data>
+  <data name="DictionaryDetail.Supplement" xml:space="preserve"><value>補足の学習例文を含みます。校閲は未完了です。</value></data>
+  <data name="DictionaryDetail.PinyinSource" xml:space="preserve"><value>注音：pypinyin 0.55.0（MIT）。端末内で生成し、既存の見出し語の読みは保持します。</value></data>
+  <data name="DictionaryDetail.NoVoice" xml:space="preserve"><value>選択した音声パックが無効か未準備です。「読み上げ音声」で音声の選択・パックの復元ができます。</value></data>
+  <data name="DictionaryDetail.Failed" xml:space="preserve"><value>項目を表示できません。戻って再試行してください。</value></data>
+  <data name="DictionaryDetail.Expand" xml:space="preserve"><value>意味をすべて表示 ⌄</value></data>
+  <data name="DictionaryDetail.Collapse" xml:space="preserve"><value>長い説明を折りたたむ ⌃</value></data>
+  <data name="DictionaryDetail.Original" xml:space="preserve"><value>原文をすべて表示</value></data>
+  <data name="Learn.WordHint" xml:space="preserve"><value>日常・数字・重さなどの単語を学ぶ</value></data>
+  <data name="Learn.TextHint" xml:space="preserve"><value>文と文章</value></data>
+  <data name="Learn.GrammarHint" xml:space="preserve"><value>文型と使い方</value></data>
+  <data name="Learn.PoemHint" xml:space="preserve"><value>詩と音読</value></data>
+  <data name="Learn.DraftsTitle" xml:space="preserve"><value>作成と下書き</value></data>
+  <data name="Learn.DraftsHint" xml:space="preserve"><value>TXTの読み込み・編集の続き</value></data>
+  <data name="Library.More" xml:space="preserve"><value>その他の操作</value></data>
+  <data name="Library.FolderActions" xml:space="preserve"><value>フォルダーの管理</value></data>
+  <data name="Settings.LanguageGroup" xml:space="preserve"><value>表示言語</value></data>
+  <data name="Settings.ContentGroup" xml:space="preserve"><value>学習コンテンツ</value></data>
+  <data name="Settings.AudioGroup" xml:space="preserve"><value>音声と発音</value></data>
+  <data name="Settings.DataGroup" xml:space="preserve"><value>データとプライバシー</value></data>
+  <data name="Library.DictionaryFavorites" xml:space="preserve"><value>辞書のお気に入り</value></data>
+  <data name="DictionaryDetail.AddFavorite" xml:space="preserve"><value>お気に入りに追加</value></data>
+  <data name="DictionaryDetail.SavedFavorite" xml:space="preserve"><value>お気に入り登録済み</value></data>
+  <data name="DictionaryDetail.RemoveFavorite" xml:space="preserve"><value>お気に入りから外す</value></data>
+  <data name="DictionaryDetail.FavoriteFailed" xml:space="preserve"><value>お気に入りを更新できませんでした。再試行してください。</value></data>
+  <data name="DictionaryDetail.FavoriteMissing" xml:space="preserve"><value>現在の辞書にはこの項目がありません。お気に入りから外せます。</value></data>
+  <data name="DictionaryDetail.SpeakPassage" xml:space="preserve"><value>この段落を読み上げる。もう一度押すと停止</value></data>
+  <data name="DictionaryDetail.SpeechPending" xml:space="preserve"><value>音声の準備・読み上げ中です。文字をもう一度押すと停止します。</value></data>
+  <data name="Speech.Engine" xml:space="preserve"><value>テキスト読み上げ</value></data>
+  <data name="Speech.System" xml:space="preserve"><value>システム音声</value></data>
+  <data name="Speech.ManagePack" xml:space="preserve"><value>この音声パックを管理</value></data>
+  <data name="Speech.SystemHint" xml:space="preserve"><value>端末にインストール済みの中国語音声を使います。Androidでは通信不要の音声のみ表示します。手動修正したピンインには従いません。録音を優先します。</value></data>
+  <data name="Speech.MeloHint" xml:space="preserve"><value>MeloTTS・内蔵中国語女性音声・44.1 kHz。辞書と本文に使用し、録音を優先します。</value></data>
+  <data name="Speech.KokoroHint" xml:space="preserve"><value>Kokoro・内蔵中国語男性・女性音声・24 kHz。音声を選んで試聴できます。録音を優先します。</value></data>
+  <data name="Voice.Female" xml:space="preserve"><value>女性</value></data>
+  <data name="Voice.Male" xml:space="preserve"><value>男性</value></data>
+  <data name="Pinyin.Guide.Title" xml:space="preserve"><value>ピンイン操作ガイド</value></data>
+  <data name="Pinyin.Guide.Step" xml:space="preserve"><value>{0} / 4 ステップ</value></data>
+  <data name="Pinyin.Guide.TapTitle" xml:space="preserve"><value>ピンインをタップして聞く</value></data>
+  <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>明るく表示された「{0}」をタップして、発音を聞きましょう。</value></data>
+  <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>長押しして例字を見る</value></data>
+  <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>「{0}」を約0.5秒長押しすると、例字・例語のページに進みます。</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>マウスでは右クリック、キーボードではボタンにフォーカスして F10 を押します。</value></data>
+  <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>ガイドをスキップ</value></data>
+  <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>例字をタップして聞く</value></data>
+  <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>明るく表示された「{0}」をタップして、発音を聞きましょう。</value></data>
+  <data name="Pinyin.Guide.ExampleHoldTitle" xml:space="preserve"><value>例字を長押しして意味を見る</value></data>
+  <data name="Pinyin.Guide.ExampleHoldBody" xml:space="preserve"><value>「{0}」を約0.5秒長押しすると、辞書の説明が開きます。</value></data>
+  <data name="WordCategories.Title" xml:space="preserve"><value>カテゴリー別に単語を学ぶ</value></data>
+  <data name="WordCategories.Hint" xml:space="preserve"><value>カテゴリーを選んで学習を始めましょう。</value></data>
+  <data name="WordCategories.Count" xml:space="preserve"><value>{0} 語</value></data>
+  <data name="WordCategories.all" xml:space="preserve"><value>すべての単語</value></data>
+  <data name="WordCategories.common" xml:space="preserve"><value>日常</value></data>
+  <data name="WordCategories.numbers" xml:space="preserve"><value>数字</value></data>
+  <data name="WordCategories.weight" xml:space="preserve"><value>重さ</value></data>
+  <data name="WordCategories.time" xml:space="preserve"><value>時間</value></data>
+  <data name="WordCategories.family" xml:space="preserve"><value>家族</value></data>
+  <data name="WordCategories.food" xml:space="preserve"><value>飲食</value></data>
+  <data name="WordCategories.colors" xml:space="preserve"><value>色</value></data>
+  <data name="WordCategories.travel" xml:space="preserve"><value>外出・交通</value></data>
+  <data name="WordCategories.study" xml:space="preserve"><value>学習</value></data>
+  <data name="WordCategories.nature" xml:space="preserve"><value>自然</value></data>
+  <data name="WordCategories.other" xml:space="preserve"><value>その他の単語</value></data>
+  <data name="WordCategories.address" xml:space="preserve"><value>呼び方</value></data>
+  <data name="WordCategories.greetings" xml:space="preserve"><value>挨拶</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>タップで再生、もう一度タップで停止。長押し・右クリックで意味を表示します。</value></data>
+  <data name="LearningWords.Meaning" xml:space="preserve"><value>単語の意味</value></data>
+  <data name="LearningWords.NoMeaning" xml:space="preserve"><value>この単語にはまだ意味が登録されていません。</value></data>
+  <data name="GrammarDetail.Hint" xml:space="preserve"><value>説明や例文をタップして読み上げ、もう一度タップすると停止します。</value></data>
+  <data name="GrammarDetail.Speak" xml:space="preserve"><value>全文を読み上げます。もう一度タップすると停止します</value></data>
+  <data name="GrammarDetail.Manage" xml:space="preserve"><value>録音・編集・共有</value></data>
+  <data name="GrammarDetail.Source" xml:space="preserve"><value>コンテンツ情報と出典</value></data>
+  <data name="WordCategories.quantifiers" xml:space="preserve"><value>数量表現</value></data>
+  <data name="WordCategories.length" xml:space="preserve"><value>長さ</value></data>
+  <data name="LessonDetail.Hint" xml:space="preserve"><value>本文の一部をタップして読み上げ、もう一度タップすると停止します。「全文を読み上げ」で全体を聞けます。</value></data>
+  <data name="LessonDetail.ReadAll" xml:space="preserve"><value>全文を読み上げ</value></data>
+  <data name="LessonDetail.SpeakSegment" xml:space="preserve"><value>この部分を読み上げます。もう一度タップすると停止します</value></data>
+  <data name="LessonDetail.Manage" xml:space="preserve"><value>録音・編集・共有</value></data>
+  <data name="LessonDetail.Source" xml:space="preserve"><value>コンテンツ情報と出典</value></data>
+  <data name="WordCategories.seasonings" xml:space="preserve"><value>調味料</value></data>
+  <data name="WordCategories.kitchenware" xml:space="preserve"><value>キッチン用品</value></data>
+  <data name="WordCategories.household" xml:space="preserve"><value>日用品</value></data>
+</root>

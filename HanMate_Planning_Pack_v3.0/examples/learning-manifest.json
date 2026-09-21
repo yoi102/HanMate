@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "packageType": "resource",
+  "packageId": "41150bb8-23e9-59ae-8a52-5d4bb30a0d2f",
+  "createdAtUtc": "2026-09-14T00:00:00Z",
+  "producerAppVersion": "planning-fixture-3.0",
+  "contentCatalogVersion": null,
+  "counts": {
+    "contents": 4,
+    "folders": 0,
+    "favorites": 0,
+    "audioAssets": 0,
+    "audioBindings": 0,
+    "resources": 1
+  },
+  "files": [
+    {
+      "path": "audio/index.json",
+      "byteLength": 80,
+      "sha256": "a800d161f05f0c16ba6e73185d5557b7df8579f1da651ca104022bbd1b292c92"
+    },
+    {
+      "path": "contents.json",
+      "byteLength": 52650,
+      "sha256": "a2ca5078f64958177b8a58614d9311d5ef881043ecd7825c02ed144907b5e6ae"
+    },
+    {
+      "path": "resource.json",
+      "byteLength": 1131,
+      "sha256": "89d917abe1f134f28dddec076535e4671e930b1778d417682555a12f6599c732"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "FIXTURE_NOT_RELEASE_CONTENT",
+      "message": "工程样例：正文、拼音与日英译文未正式审核。"
+    },
+    {
+      "code": "NO_AUDIO_IN_FIXTURE",
+      "message": "不含音频文件；不是播放或三平台恢复测试。"
+    }
+  ]
+}

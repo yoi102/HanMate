@@ -1,0 +1,25 @@
+{
+  "status": "NOT_SELECTED",
+  "checkedAtUtc": null,
+  "dotnetSdk": null,
+  "mauiWorkload": null,
+  "nugetPackages": {},
+  "android": {
+    "sdk": null,
+    "jdk": null,
+    "minOS": null,
+    "device": null
+  },
+  "ios": {
+    "macOS": null,
+    "xcode": null,
+    "minOS": null,
+    "device": null
+  },
+  "windows": {
+    "sdk": null,
+    "minOS": null,
+    "device": null
+  },
+  "notes": "模板不是global.json；填写真实版本后再生成实际工程锁文件。"
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-20",
+  "scope": "Favorites, folder picker, learning home/browser and settings UI simplification",
+  "changedInputs": [
+    {
+      "path": "HanMate.App/App.xaml",
+      "sha256": "c992288c448a053fc6a5ba99809065afa9dfa9ca7c9c02608e54bb27ad184268"
+    },
+    {
+      "path": "HanMate.App/Resources/Styles/Library.xaml",
+      "sha256": "159b2aed2e945670480755ebefead3523540617395fbd097ff24563233ce3e8d"
+    },
+    {
+      "path": "HanMate.App/Controls/NavigationTile.cs",
+      "sha256": "3e8535c20a01529daacd330df08d5076e0b648a2b79f0688e06040cbb74a7774"
+    },
+    {
+      "path": "HanMate.App/Controls/LibraryLayout.cs",
+      "sha256": "efc907d5c301b59a093f20df6b8d9f926e66c306a8fc6227d1dcdd7281178887"
+    },
+    {
+      "path": "HanMate.App/Pages/FavoritesPage.xaml.cs",
+      "sha256": "2e81d2aff8cb98d1222916f73731208ccf58eb5c92f22da30ccb0b019017ff36"
+    },
+    {
+      "path": "HanMate.App/Pages/LearningPage.xaml",
+      "sha256": "d5666d4ea1d40c87e1d547d31f996e05aecf7fa21a3e7b42cc8b04920b4c53b4"
+    },
+    {
+      "path": "HanMate.App/Pages/LearningPage.xaml.cs",
+      "sha256": "c45724165247adbb6dafba9c3cc5055e05cdac866bc74f6d83c013bf4347b7b4"
+    },
+    {
+      "path": "HanMate.App/Pages/LearningBrowserPage.cs",
+      "sha256": "771a79923c44ebc82e931da5e143c374e614b582c4c8a04422816abde09ed62d"
+    },
+    {
+      "path": "HanMate.App/Pages/SettingsPage.xaml",
+      "sha256": "f3e210da55179974f5b4636e26bb5d828f3bad0a9c96a221830c700c82d687f4"
+    },
+    {
+      "path": "HanMate.App/Localization/LocalizationService.cs",
+      "sha256": "d8987dc88da8badfa21797b507e69c3b94810949ee54f6e122b72127917f91ac"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.resx",
+      "sha256": "7fed8c57faf67db8a1c9c2e212bfa084985685132106c93345b3b7def10d620d"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.zh-Hans.resx",
+      "sha256": "65deaa19eb2676235a2b0d90ad4bab6d607c718eb15460a9c34e89cf6f355723"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.ja.resx",
+      "sha256": "58dda5ab49845cbae7b0d426ea6e543c5ea37f228f27813b004de8ed1303c94b"
+    }
+  ],
+  "verification": {
+    "windowsRelease": "PASS: 0 warnings / 0 errors",
+    "androidRelease": "PASS: 0 warnings / 0 errors",
+    "localization": "PASS: 587 keys in zh-Hans/ja/en; key sets and placeholders match",
+    "uiDebugging": "NOT RUN per user",
+    "deviceInstallation": "NOT RUN",
+    "applicationTests": "NOT RUN: presentation-only change, no store or domain contract change"
+  },
+  "workPackagesDone": 45,
+  "existingD8Delivery": "Unchanged historical archive; new UI binaries are separate build outputs.",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-ui-cleanup-20260920\\windows\\HanMate.App.dll",
+      "bytes": 854016,
+      "sha256": "796b97ac7a9e987ce713d136257521a0253892736d1b3517e4c7684e998c8300"
+    },
+    {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-ui-cleanup-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+      "bytes": 268304680,
+      "sha256": "9e8f06018a080a5c6f39835d25ba3b55c43ba5a07a3d740e709881c1aecc5fcf"
+    }
+  ]
+}

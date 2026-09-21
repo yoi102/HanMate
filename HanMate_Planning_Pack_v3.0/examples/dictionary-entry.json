@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "id": "1e4ca243-aa8a-5268-ab8c-90fafe2e3b86",
+  "kind": "word",
+  "origin": "resource",
+  "title": "中国",
+  "contentRevision": 1,
+  "annotationRevision": 1,
+  "metadataRevision": 1,
+  "difficulty": "basic",
+  "schoolStage": null,
+  "grade": null,
+  "scenes": [
+    "daily"
+  ],
+  "source": {
+    "sourceId": "dict-china",
+    "type": "testFixture",
+    "authorProvider": "HanMate 文档工程样例",
+    "reference": "本次规划创建的草稿",
+    "licenseIdentifier": "LicenseRef-HanMate-Planning-Fixture",
+    "permissionNotes": "用于开发与协议验证；非正式教学内容、非已审校翻译。",
+    "canDistribute": true,
+    "canShare": true,
+    "backupPolicy": "allowed",
+    "reviewStatus": "draft",
+    "resourceId": "675ed1de-35e2-566b-b859-373b852b45f2",
+    "resourceVersion": "1.0.0",
+    "entryId": "entry-1"
+  },
+  "textUnits": [
+    {
+      "id": "fa6babd8-3d33-54a5-881a-8c8f79bf7455",
+      "role": "headword",
+      "text": "中国",
+      "offsetUnit": "textElement",
+      "elementBoundariesUtf16": [
+        0,
+        1,
+        2
+      ],
+      "tokens": [
+        {
+          "id": "21c2ea4f-6e22-55bc-85bd-96f36e2ded03",
+          "start": 0,
+          "length": 1,
+          "text": "中",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zhong",
+            "tone": 1,
+            "erhua": false,
+            "display": "zhōng"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "4de989bf-38fe-54f1-9916-80d98330bea0",
+          "start": 1,
+          "length": 1,
+          "text": "国",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "guo",
+            "tone": 2,
+            "erhua": false,
+            "display": "guó"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        }
+      ],
+      "segments": [
+        {
+          "id": "a8f6e87d-8574-5c71-aaa1-30df23479b57",
+          "start": 0,
+          "length": 2,
+          "text": "中国",
+          "kind": "speech",
+          "boundarySource": "auto",
+          "translations": {},
+          "tokenIds": [
+            "21c2ea4f-6e22-55bc-85bd-96f36e2ded03",
+            "4de989bf-38fe-54f1-9916-80d98330bea0"
+          ]
+        }
+      ],
+      "translations": {
+        "ja": "中国",
+        "en": "China"
+      }
+    },
+    {
+      "id": "05781bd4-eed1-5466-aeca-4ca00f09e8f0",
+      "role": "definition",
+      "text": "中国。",
+      "offsetUnit": "textElement",
+      "elementBoundariesUtf16": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tokens": [
+        {
+          "id": "a53bd36e-0332-52f8-bc74-4bc16e0ec54f",
+          "start": 0,
+          "length": 1,
+          "text": "中",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "zhong",
+            "tone": 1,
+            "erhua": false,
+            "display": "zhōng"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "add0e793-5ca7-5196-a9d0-ea2692ebce59",
+          "start": 1,
+          "length": 1,
+          "text": "国",
+          "kind": "hanzi",
+          "pinyin": {
+            "base": "guo",
+            "tone": 2,
+            "erhua": false,
+            "display": "guó"
+          },
+          "annotationSource": "manual",
+          "locked": false,
+          "reviewState": "needsReview"
+        },
+        {
+          "id": "a356fb9f-98ff-594a-95f6-5c2d09c1ca11",
+          "start": 2,
+          "length": 1,
+          "text": "。",
+          "kind": "punctuation",
+          "pinyin": null,
+          "annotationSource": "none",
+          "locked": false,
+          "reviewState": "notApplicable"
+        }
+      ],
+      "segments": [
+        {
+          "id": "19c4fa0f-47dd-5060-a60e-4b5aea3e01cb",
+          "start": 0,
+          "length": 3,
+          "text": "中国。",
+          "kind": "speech",
+          "boundarySource": "auto",
+          "translations": {},
+          "tokenIds": [
+            "a53bd36e-0332-52f8-bc74-4bc16e0ec54f",
+            "add0e793-5ca7-5196-a9d0-ea2692ebce59",
+            "a356fb9f-98ff-594a-95f6-5c2d09c1ca11"
+          ]
+        }
+      ],
+      "translations": {}
+    }
+  ],
+  "createdAtUtc": "2026-09-14T00:00:00Z",
+  "updatedAtUtc": "2026-09-14T00:00:00Z"
+}

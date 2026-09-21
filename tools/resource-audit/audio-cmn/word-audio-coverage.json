@@ -1,0 +1,1191 @@
+{
+  "version": "2026.09.21.1",
+  "revision": "ff9ed3d0c631195bd2c06f39450f3264c7124040",
+  "lexiconSha256": "cafb6f52f35166bef07e0a9e671ba77286b8528a3cbe4979597be0e04a5c7883",
+  "syllableBindings": 1660,
+  "wholeWordBindings": 6763,
+  "uniqueFiles": 8423,
+  "learning": [
+    {
+      "text": "你好",
+      "pinyin": "ni3 hao3",
+      "recording": false
+    },
+    {
+      "text": "学习",
+      "pinyin": "xue2 xi2",
+      "recording": true
+    },
+    {
+      "text": "银行",
+      "pinyin": "yin2 hang2",
+      "recording": true
+    },
+    {
+      "text": "行走",
+      "pinyin": "xing2 zou3",
+      "recording": false
+    },
+    {
+      "text": "音乐",
+      "pinyin": "yin1 yue4",
+      "recording": true
+    },
+    {
+      "text": "快乐",
+      "pinyin": "kuai4 le4",
+      "recording": true
+    },
+    {
+      "text": "女儿",
+      "pinyin": "nü3 er2",
+      "recording": true
+    },
+    {
+      "text": "绿色",
+      "pinyin": "lü4 se4",
+      "recording": false
+    },
+    {
+      "text": "西安",
+      "pinyin": "xi1 an1",
+      "recording": false
+    },
+    {
+      "text": "先",
+      "pinyin": "xian1",
+      "recording": true
+    },
+    {
+      "text": "妈妈",
+      "pinyin": "ma1 ma0",
+      "recording": true
+    },
+    {
+      "text": "花儿",
+      "pinyin": "hua1",
+      "recording": false
+    },
+    {
+      "text": "麻木",
+      "pinyin": "ma2 mu4",
+      "recording": true
+    },
+    {
+      "text": "马上",
+      "pinyin": "ma3 shang4",
+      "recording": true
+    },
+    {
+      "text": "骂人",
+      "pinyin": "ma4 ren2",
+      "recording": false
+    },
+    {
+      "text": "谢谢",
+      "pinyin": "xie4 xie0",
+      "recording": true
+    },
+    {
+      "text": "再见",
+      "pinyin": "zai4 jian4",
+      "recording": true
+    },
+    {
+      "text": "零",
+      "pinyin": "ling2",
+      "recording": true
+    },
+    {
+      "text": "一",
+      "pinyin": "yi1",
+      "recording": true
+    },
+    {
+      "text": "二",
+      "pinyin": "er4",
+      "recording": true
+    },
+    {
+      "text": "三",
+      "pinyin": "san1",
+      "recording": true
+    },
+    {
+      "text": "四",
+      "pinyin": "si4",
+      "recording": true
+    },
+    {
+      "text": "五",
+      "pinyin": "wu3",
+      "recording": true
+    },
+    {
+      "text": "六",
+      "pinyin": "liu4",
+      "recording": true
+    },
+    {
+      "text": "七",
+      "pinyin": "qi1",
+      "recording": true
+    },
+    {
+      "text": "八",
+      "pinyin": "ba1",
+      "recording": true
+    },
+    {
+      "text": "九",
+      "pinyin": "jiu3",
+      "recording": true
+    },
+    {
+      "text": "十",
+      "pinyin": "shi2",
+      "recording": true
+    },
+    {
+      "text": "百",
+      "pinyin": "bai3",
+      "recording": true
+    },
+    {
+      "text": "千",
+      "pinyin": "qian1",
+      "recording": true
+    },
+    {
+      "text": "万",
+      "pinyin": "wan4",
+      "recording": true
+    },
+    {
+      "text": "克",
+      "pinyin": "ke4",
+      "recording": true
+    },
+    {
+      "text": "千克",
+      "pinyin": "qian1 ke4",
+      "recording": true
+    },
+    {
+      "text": "公斤",
+      "pinyin": "gong1 jin1",
+      "recording": true
+    },
+    {
+      "text": "斤",
+      "pinyin": "jin1",
+      "recording": true
+    },
+    {
+      "text": "两",
+      "pinyin": "liang3",
+      "recording": true
+    },
+    {
+      "text": "吨",
+      "pinyin": "dun1",
+      "recording": true
+    },
+    {
+      "text": "今天",
+      "pinyin": "jin1 tian1",
+      "recording": true
+    },
+    {
+      "text": "明天",
+      "pinyin": "ming2 tian1",
+      "recording": true
+    },
+    {
+      "text": "昨天",
+      "pinyin": "zuo2 tian1",
+      "recording": true
+    },
+    {
+      "text": "分钟",
+      "pinyin": "fen1 zhong1",
+      "recording": true
+    },
+    {
+      "text": "爸爸",
+      "pinyin": "ba4 ba0",
+      "recording": true
+    },
+    {
+      "text": "孩子",
+      "pinyin": "hai2 zi0",
+      "recording": true
+    },
+    {
+      "text": "水",
+      "pinyin": "shui3",
+      "recording": true
+    },
+    {
+      "text": "米饭",
+      "pinyin": "mi3 fan4",
+      "recording": true
+    },
+    {
+      "text": "苹果",
+      "pinyin": "ping2 guo3",
+      "recording": true
+    },
+    {
+      "text": "面包",
+      "pinyin": "mian4 bao1",
+      "recording": true
+    },
+    {
+      "text": "红色",
+      "pinyin": "hong2 se4",
+      "recording": false
+    },
+    {
+      "text": "蓝色",
+      "pinyin": "lan2 se4",
+      "recording": false
+    },
+    {
+      "text": "黄色",
+      "pinyin": "huang2 se4",
+      "recording": true
+    },
+    {
+      "text": "车站",
+      "pinyin": "che1 zhan4",
+      "recording": true
+    },
+    {
+      "text": "公交车",
+      "pinyin": "gong1 jiao1 che1",
+      "recording": false
+    },
+    {
+      "text": "老师",
+      "pinyin": "lao3 shi1",
+      "recording": true
+    },
+    {
+      "text": "学生",
+      "pinyin": "xue2 sheng1",
+      "recording": false
+    },
+    {
+      "text": "太阳",
+      "pinyin": "tai4 yang0",
+      "recording": true
+    },
+    {
+      "text": "月亮",
+      "pinyin": "yue4 liang0",
+      "recording": true
+    },
+    {
+      "text": "您好",
+      "pinyin": "nin2 hao3",
+      "recording": false
+    },
+    {
+      "text": "早上好",
+      "pinyin": "zao3 shang0 hao3",
+      "recording": false
+    },
+    {
+      "text": "晚上好",
+      "pinyin": "wan3 shang0 hao3",
+      "recording": false
+    },
+    {
+      "text": "对不起",
+      "pinyin": "dui4 bu0 qi3",
+      "recording": true
+    },
+    {
+      "text": "没关系",
+      "pinyin": "mei2 guan1 xi0",
+      "recording": true
+    },
+    {
+      "text": "先生",
+      "pinyin": "xian1 sheng0",
+      "recording": true
+    },
+    {
+      "text": "女士",
+      "pinyin": "nü3 shi4",
+      "recording": true
+    },
+    {
+      "text": "叔叔",
+      "pinyin": "shu1 shu0",
+      "recording": true
+    },
+    {
+      "text": "阿姨",
+      "pinyin": "a1 yi2",
+      "recording": true
+    },
+    {
+      "text": "爷爷",
+      "pinyin": "ye2 ye0",
+      "recording": true
+    },
+    {
+      "text": "奶奶",
+      "pinyin": "nai3 nai0",
+      "recording": true
+    },
+    {
+      "text": "哥哥",
+      "pinyin": "ge1 ge0",
+      "recording": true
+    },
+    {
+      "text": "姐姐",
+      "pinyin": "jie3 jie0",
+      "recording": true
+    },
+    {
+      "text": "朋友",
+      "pinyin": "peng2 you0",
+      "recording": true
+    },
+    {
+      "text": "一个",
+      "pinyin": "yi2 ge4",
+      "recording": false
+    },
+    {
+      "text": "一只",
+      "pinyin": "yi4 zhi1",
+      "recording": false
+    },
+    {
+      "text": "一条",
+      "pinyin": "yi4 tiao2",
+      "recording": false
+    },
+    {
+      "text": "一本",
+      "pinyin": "yi4 ben3",
+      "recording": false
+    },
+    {
+      "text": "一张",
+      "pinyin": "yi4 zhang1",
+      "recording": false
+    },
+    {
+      "text": "一支",
+      "pinyin": "yi4 zhi1",
+      "recording": false
+    },
+    {
+      "text": "一把",
+      "pinyin": "yi4 ba3",
+      "recording": false
+    },
+    {
+      "text": "一件",
+      "pinyin": "yi2 jian4",
+      "recording": false
+    },
+    {
+      "text": "一双",
+      "pinyin": "yi4 shuang1",
+      "recording": false
+    },
+    {
+      "text": "一杯",
+      "pinyin": "yi4 bei1",
+      "recording": false
+    },
+    {
+      "text": "一碗",
+      "pinyin": "yi4 wan3",
+      "recording": false
+    },
+    {
+      "text": "一辆",
+      "pinyin": "yi2 liang4",
+      "recording": false
+    },
+    {
+      "text": "毫米",
+      "pinyin": "hao2 mi3",
+      "recording": true
+    },
+    {
+      "text": "厘米",
+      "pinyin": "li2 mi3",
+      "recording": true
+    },
+    {
+      "text": "分米",
+      "pinyin": "fen1 mi3",
+      "recording": false
+    },
+    {
+      "text": "米",
+      "pinyin": "mi3",
+      "recording": true
+    },
+    {
+      "text": "千米",
+      "pinyin": "qian1 mi3",
+      "recording": false
+    },
+    {
+      "text": "公里",
+      "pinyin": "gong1 li3",
+      "recording": true
+    },
+    {
+      "text": "盐",
+      "pinyin": "yan2",
+      "recording": true
+    },
+    {
+      "text": "糖",
+      "pinyin": "tang2",
+      "recording": true
+    },
+    {
+      "text": "酱油",
+      "pinyin": "jiang4 you2",
+      "recording": true
+    },
+    {
+      "text": "醋",
+      "pinyin": "cu4",
+      "recording": true
+    },
+    {
+      "text": "食用油",
+      "pinyin": "shi2 yong4 you2",
+      "recording": false
+    },
+    {
+      "text": "香油",
+      "pinyin": "xiang1 you2",
+      "recording": false
+    },
+    {
+      "text": "胡椒粉",
+      "pinyin": "hu2 jiao1 fen3",
+      "recording": false
+    },
+    {
+      "text": "花椒",
+      "pinyin": "hua1 jiao1",
+      "recording": false
+    },
+    {
+      "text": "八角",
+      "pinyin": "ba1 jiao3",
+      "recording": false
+    },
+    {
+      "text": "料酒",
+      "pinyin": "liao4 jiu3",
+      "recording": false
+    },
+    {
+      "text": "蚝油",
+      "pinyin": "hao2 you2",
+      "recording": false
+    },
+    {
+      "text": "辣椒酱",
+      "pinyin": "la4 jiao1 jiang4",
+      "recording": false
+    },
+    {
+      "text": "锅",
+      "pinyin": "guo1",
+      "recording": true
+    },
+    {
+      "text": "平底锅",
+      "pinyin": "ping2 di3 guo1",
+      "recording": false
+    },
+    {
+      "text": "菜刀",
+      "pinyin": "cai4 dao1",
+      "recording": false
+    },
+    {
+      "text": "砧板",
+      "pinyin": "zhen1 ban3",
+      "recording": false
+    },
+    {
+      "text": "锅铲",
+      "pinyin": "guo1 chan3",
+      "recording": false
+    },
+    {
+      "text": "漏勺",
+      "pinyin": "lou4 shao2",
+      "recording": false
+    },
+    {
+      "text": "碗",
+      "pinyin": "wan3",
+      "recording": true
+    },
+    {
+      "text": "盘子",
+      "pinyin": "pan2 zi0",
+      "recording": true
+    },
+    {
+      "text": "筷子",
+      "pinyin": "kuai4 zi0",
+      "recording": true
+    },
+    {
+      "text": "勺子",
+      "pinyin": "shao2 zi0",
+      "recording": true
+    },
+    {
+      "text": "电饭锅",
+      "pinyin": "dian4 fan4 guo1",
+      "recording": false
+    },
+    {
+      "text": "水壶",
+      "pinyin": "shui3 hu2",
+      "recording": false
+    },
+    {
+      "text": "牙刷",
+      "pinyin": "ya2 shua1",
+      "recording": true
+    },
+    {
+      "text": "牙膏",
+      "pinyin": "ya2 gao1",
+      "recording": true
+    },
+    {
+      "text": "毛巾",
+      "pinyin": "mao2 jin1",
+      "recording": true
+    },
+    {
+      "text": "肥皂",
+      "pinyin": "fei2 zao4",
+      "recording": true
+    },
+    {
+      "text": "洗发水",
+      "pinyin": "xi3 fa4 shui3",
+      "recording": false
+    },
+    {
+      "text": "沐浴露",
+      "pinyin": "mu4 yu4 lu4",
+      "recording": false
+    },
+    {
+      "text": "卫生纸",
+      "pinyin": "wei4 sheng1 zhi3",
+      "recording": false
+    },
+    {
+      "text": "纸巾",
+      "pinyin": "zhi3 jin1",
+      "recording": false
+    },
+    {
+      "text": "洗衣液",
+      "pinyin": "xi3 yi1 ye4",
+      "recording": false
+    },
+    {
+      "text": "扫帚",
+      "pinyin": "sao4 zhou0",
+      "recording": false
+    },
+    {
+      "text": "拖把",
+      "pinyin": "tuo1 ba3",
+      "recording": false
+    },
+    {
+      "text": "垃圾桶",
+      "pinyin": "la1 ji1 tong3",
+      "recording": false
+    }
+  ],
+  "skipped": [
+    {
+      "text": "一哄而散",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "yi1 hong1 er2 san4",
+        "yi1 hong4 er2 san4"
+      ]
+    },
+    {
+      "text": "上头",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "shang4 tou0",
+        "shang4 tou2"
+      ]
+    },
+    {
+      "text": "不是",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "bu4 shi0",
+        "bu4 shi4"
+      ]
+    },
+    {
+      "text": "东西",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "dong1 xi0",
+        "dong1 xi1"
+      ]
+    },
+    {
+      "text": "买卖",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "mai3 mai0",
+        "mai3 mai4"
+      ]
+    },
+    {
+      "text": "人家",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "ren2 jia0",
+        "ren2 jia1"
+      ]
+    },
+    {
+      "text": "便宜",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "bian4 yi2",
+        "pian2 yi0"
+      ]
+    },
+    {
+      "text": "像棋",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "公道",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "gong1 dao0",
+        "gong1 dao4"
+      ]
+    },
+    {
+      "text": "出息",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "chu1 xi0",
+        "chu1 xi1"
+      ]
+    },
+    {
+      "text": "出来",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "chu0 lai0",
+        "chu1 lai2"
+      ]
+    },
+    {
+      "text": "分子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "fen1 zi3",
+        "fen4 zi0",
+        "fen4 zi3"
+      ]
+    },
+    {
+      "text": "分量",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "fen1 liang4",
+        "fen4 liang0",
+        "fen4 liang4"
+      ]
+    },
+    {
+      "text": "同行",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "tong2 hang2",
+        "tong2 xing2"
+      ]
+    },
+    {
+      "text": "土地",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "tu3 di0",
+        "tu3 di4"
+      ]
+    },
+    {
+      "text": "地方",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "di4 fang0",
+        "di4 fang1"
+      ]
+    },
+    {
+      "text": "地道",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "di4 dao0",
+        "di4 dao4"
+      ]
+    },
+    {
+      "text": "多少",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "duo1 shao0",
+        "duo1 shao3"
+      ]
+    },
+    {
+      "text": "大夫",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "da4 fu1",
+        "dai4 fu0"
+      ]
+    },
+    {
+      "text": "大意",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "da4 yi0",
+        "da4 yi4"
+      ]
+    },
+    {
+      "text": "大方",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "da4 fang0",
+        "da4 fang1"
+      ]
+    },
+    {
+      "text": "大都",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "da4 dou1",
+        "da4 du1"
+      ]
+    },
+    {
+      "text": "女人",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "nü3 ren0",
+        "nü3 ren2"
+      ]
+    },
+    {
+      "text": "好处",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "hao3 chu0",
+        "hao3 chu3"
+      ]
+    },
+    {
+      "text": "妻子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "qi1 zi0",
+        "qi1 zi3"
+      ]
+    },
+    {
+      "text": "媳妇",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "xi2 fu0",
+        "xi2 fu4"
+      ]
+    },
+    {
+      "text": "孙子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "sun1 zi0",
+        "sun1 zi3"
+      ]
+    },
+    {
+      "text": "对头",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "dui4 tou0",
+        "dui4 tou2"
+      ]
+    },
+    {
+      "text": "小子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "xiao3 zi0",
+        "xiao3 zi3"
+      ]
+    },
+    {
+      "text": "尽快",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jin3 kuai4",
+        "jin4 kuai4"
+      ]
+    },
+    {
+      "text": "尽量",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jin3 liang4",
+        "jin4 liang4"
+      ]
+    },
+    {
+      "text": "工夫",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "gong1 fu0",
+        "gong1 fu1"
+      ]
+    },
+    {
+      "text": "当天",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "dang1 tian1",
+        "dang4 tian1"
+      ]
+    },
+    {
+      "text": "当年",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "dang1 nian2",
+        "dang4 nian2"
+      ]
+    },
+    {
+      "text": "当时",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "dang1 shi2",
+        "dang4 shi2"
+      ]
+    },
+    {
+      "text": "得了",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "de2 le0",
+        "de2 liao3"
+      ]
+    },
+    {
+      "text": "得罪",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "de2 zui0",
+        "de2 zui4"
+      ]
+    },
+    {
+      "text": "播种",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "bo1 zhong3",
+        "bo1 zhong4"
+      ]
+    },
+    {
+      "text": "故事",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "gu4 shi0",
+        "gu4 shi4"
+      ]
+    },
+    {
+      "text": "教会",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jiao1 hui4",
+        "jiao4 hui4"
+      ]
+    },
+    {
+      "text": "教学",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jiao1 xue2",
+        "jiao4 xue2"
+      ]
+    },
+    {
+      "text": "教授",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jiao1 shou4",
+        "jiao4 shou4"
+      ]
+    },
+    {
+      "text": "本事",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "ben3 shi0",
+        "ben3 shi4"
+      ]
+    },
+    {
+      "text": "正当",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "zheng4 dang1",
+        "zheng4 dang4"
+      ]
+    },
+    {
+      "text": "温和",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "wen1 he2",
+        "wen1 huo0"
+      ]
+    },
+    {
+      "text": "澄清",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "cheng2 qing1",
+        "deng4 qing1"
+      ]
+    },
+    {
+      "text": "照应",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "zhao4 ying0",
+        "zhao4 ying4"
+      ]
+    },
+    {
+      "text": "琢磨",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "zhuo2 mo2",
+        "zuo2 mo0"
+      ]
+    },
+    {
+      "text": "生意",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "sheng1 yi0",
+        "sheng1 yi4"
+      ]
+    },
+    {
+      "text": "空心",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "kong1 xin1",
+        "kong4 xin1"
+      ]
+    },
+    {
+      "text": "笼子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "long2 zi0",
+        "long3 zi0"
+      ]
+    },
+    {
+      "text": "答辨",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "管子",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "guan3 zi0",
+        "guan3 zi3"
+      ]
+    },
+    {
+      "text": "精神",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jing1 shen0",
+        "jing1 shen2"
+      ]
+    },
+    {
+      "text": "纽扣儿",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "结实",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jie1 shi0",
+        "jie1 shi2"
+      ]
+    },
+    {
+      "text": "结果",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "jie1 guo3",
+        "jie2 guo3"
+      ]
+    },
+    {
+      "text": "罗唆",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "脊梁",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "ji3 liang0",
+        "ji3 liang2"
+      ]
+    },
+    {
+      "text": "裁缝",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "cai2 feng0",
+        "cai2 feng2"
+      ]
+    },
+    {
+      "text": "言语",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "yan2 yu0",
+        "yan2 yu3"
+      ]
+    },
+    {
+      "text": "说法",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "shuo1 fa0",
+        "shuo1 fa3"
+      ]
+    },
+    {
+      "text": "走后门儿",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "跟前",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "gen1 qian0",
+        "gen1 qian2"
+      ]
+    },
+    {
+      "text": "转动",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "zhuan3 dong4",
+        "zhuan4 dong4"
+      ]
+    },
+    {
+      "text": "转向",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "zhuan3 xiang4",
+        "zhuan4 xiang4"
+      ]
+    },
+    {
+      "text": "辩认",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "过去",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "guo4 qu0",
+        "guo4 qu4"
+      ]
+    },
+    {
+      "text": "过来",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "guo4 lai0",
+        "guo4 lai2"
+      ]
+    },
+    {
+      "text": "重点",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "chong2 dian3",
+        "zhong4 dian3"
+      ]
+    },
+    {
+      "text": "馋言",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": []
+    },
+    {
+      "text": "高中",
+      "reason": "missing-or-ambiguous-lexicon-reading",
+      "readings": [
+        "gao1 zhong1",
+        "gao1 zhong4"
+      ]
+    }
+  ],
+  "listeningReview": "NOT RUN",
+  "licenseReview": "pending"
+}

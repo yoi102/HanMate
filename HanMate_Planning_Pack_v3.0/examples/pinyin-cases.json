@@ -1,0 +1,59 @@
+{
+  "purpose": "人工列出的预期，不是运行结果",
+  "cases": [
+    {
+      "input": "ni3",
+      "base": "ni",
+      "tone": 3,
+      "display": "nǐ"
+    },
+    {
+      "input": "liu2",
+      "base": "liu",
+      "tone": 2,
+      "display": "liú"
+    },
+    {
+      "input": "gui4",
+      "base": "gui",
+      "tone": 4,
+      "display": "guì"
+    },
+    {
+      "input": "lv4",
+      "base": "lü",
+      "tone": 4,
+      "display": "lǜ"
+    },
+    {
+      "input": "lu:4",
+      "base": "lü",
+      "tone": 4,
+      "display": "lǜ"
+    },
+    {
+      "input": "nǚ",
+      "base": "nü",
+      "tone": 3,
+      "display": "nǚ"
+    },
+    {
+      "input": "ma0",
+      "base": "ma",
+      "tone": 0,
+      "display": "ma"
+    },
+    {
+      "input": "ma5",
+      "base": "ma",
+      "tone": 0,
+      "display": "ma"
+    },
+    {
+      "input": "xue2",
+      "base": "xue",
+      "tone": 2,
+      "display": "xué"
+    }
+  ]
+}

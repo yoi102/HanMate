@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "source": "https://github.com/skishore/makemeahanzi/tree/bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+  "sourceSha256": "a28c478b5178e98f67f510b2d52fde08a69dc664654ef43498253b9b764d46ee",
+  "copyright": "Copyright (C) 1999 Arphic Technology Co., Ltd.; Make Me a Hanzi contributors.",
+  "license": "Arphic Public License; see ARPHICPL.txt. No warranty. Redistribution and modification permitted under that license.",
+  "changes": "2026-09-19 HanMate: retain character and stroke medians only; invert Y to screen coordinates; omit SVG paths. No dictionary data included.",
+  "characters": 9574,
+  "assetSha256": "67cc15ff8fb5b4bd2c342f77ced3beb9a3e0f30e796df8562edb23f7b29478de",
+  "preparedAsset": "templates.bin",
+  "preparedChanges": "2026-09-20 HanMate: precompute resampled stroke points, prefix bounds, normalized stroke features and joined-stroke templates from the unchanged medians; same Arphic Public License. Reproduce using tools/HanMate.HandwritingCompiler.",
+  "preparedBytes": 37178412,
+  "preparedSha256": "e5530cf12de5b7180ddd1f9e6959f055c85b95d9d6e55d179e4b018f4e0c35e2"
+}

@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-20",
+  "scope": "ADR-106 INTERNAL_DEVELOPMENT_ONLY",
+  "closedWorkPackages": [
+    "W0-06",
+    "W5-02",
+    "W5-03",
+    "W5-04",
+    "W5-06"
+  ],
+  "statusCounts": {
+    "DONE": 45,
+    "IN_PROGRESS": 2,
+    "TODO": 1
+  },
+  "checks": {
+    "lockedRestore": "PASS",
+    "windowsReleasePublish": "PASS",
+    "androidReleaseBuild": "PASS",
+    "developmentApkSignature": "PASS with META-INF warnings; not distribution signing",
+    "initialDeliveryFileAndZipIntegrity": "PASS: 424 files and both full archive inventories",
+    "contentReviewMaterialConsistency": "PASS; no approval granted",
+    "applicationTests": "NOT RUN per user",
+    "uiAcceptance": "NOT RUN",
+    "newBuildInstallation": "NOT RUN",
+    "publicRelease": "BLOCKED",
+    "planningDocumentValidation": "PASS: 16 groups; application tests not run",
+    "originalLedgersUnchanged": "PASS: exact file SHA256 equality",
+    "finalDeliveryFileAndZipIntegrity": "PASS: 424 files and both complete archive inventories"
+  },
+  "pairing": {
+    "characterSlots": 256,
+    "pairedSlots": 251,
+    "unpaired": [
+      {
+        "item": "g",
+        "character": "葛",
+        "reading": "ge3"
+      },
+      {
+        "item": "x",
+        "character": "习",
+        "reading": "xi2"
+      },
+      {
+        "item": "o",
+        "character": "噢",
+        "reading": "o1"
+      },
+      {
+        "item": "o",
+        "character": "哦",
+        "reading": "o2"
+      },
+      {
+        "item": "o",
+        "character": "哦",
+        "reading": "o4"
+      }
+    ],
+    "newWords": 42,
+    "courseContents": 417,
+    "audioAssets": 394,
+    "applicationTests": "NOT RUN per user",
+    "pairRule": "highlighted token matches exact character/base/tone"
+  },
+  "review": {
+    "subjects": 1444,
+    "pending": 1444,
+    "approved": 0
+  },
+  "androidCertificateSha256": "c3c7a3eef634da8dd25ab97127c8215fda93b251a44709e73f972d6d4d649744",
+  "initialArtifacts": [
+    {
+      "path": "HanMate-Android-development-signed.apk",
+      "bytes": 268582082,
+      "sha256": "d53ced5c74621598a640f0bf36a289be1fe79c297c2b048ab824f004e0667d1c"
+    },
+    {
+      "path": "HanMate-source-internal.zip",
+      "bytes": 168290877,
+      "sha256": "34f4287c81175cab6243df5b5bfe96f8a29c6751c5f7c587fc7e88cd3ed4bea7"
+    },
+    {
+      "path": "HanMate-Windows-x64-internal.zip",
+      "bytes": 177342656,
+      "sha256": "32fe1b66e5e3d8a8a151a9c62fdb122aa9d08b080620102673634d41b53472a7"
+    }
+  ],
+  "originalLedger": {
+    "HanMate_Planning_Pack_v3.0\\tracking\\acceptance-cases.csv": "d176ab513c65e7ee8ec55243374fec4bf2bff32fb6baaeb9f91fbcc8d3c0e724",
+    "HanMate_Planning_Pack_v3.0\\tracking\\acceptance-supplement.csv": "36648ef2a245e3b1317d03ce7032475c4d540fdc9b311d2c4a0ba2d8db4f7ddc",
+    "HanMate_Planning_Pack_v3.0\\tracking\\content-inventory.csv": "c3596f7d912ecf68755b19b85c1133bd4c5c5b66278752f1de49456f5a7f8547",
+    "HanMate_Planning_Pack_v3.0\\tracking\\execution-ledger.csv": "105e516c6305d3d9ec7219377d9ca34c1dd00aa2948b015e5a920122eb129665",
+    "HanMate_Planning_Pack_v3.0\\tracking\\requirements.csv": "55c6002f1fd6267d75520014e7fa943c3a093c19f58f4c980f4e346e3696cff7"
+  },
+  "remainingWorkPackages": [
+    "W5-01",
+    "W5-05",
+    "W5-07"
+  ],
+  "openDefect": "HM-D019",
+  "deferredReleaseGateCount": 7,
+  "blockedPreflightGroups": 6,
+  "finalDelivery": {
+    "path": "artifacts\\internal-20260920-d8-v2\\delivery-final",
+    "integrity": "PASS",
+    "files": 424,
+    "sourceArchiveEntries": 781,
+    "windowsArchiveEntries": 855,
+    "manifestSha256": "1c5f095830cd907f70997667392495a8e1623e666c47e958f24a7523eefb4e49",
+    "artifacts": [
+      {
+        "path": "HanMate-Android-development-signed.apk",
+        "bytes": 268582082,
+        "sha256": "d53ced5c74621598a640f0bf36a289be1fe79c297c2b048ab824f004e0667d1c"
+      },
+      {
+        "path": "HanMate-source-internal.zip",
+        "bytes": 168330868,
+        "sha256": "f24cf88d89e5e2874905f6270af66f92ca9595d2c115c625a48e3a9a78cfc9a4"
+      },
+      {
+        "path": "HanMate-Windows-x64-internal.zip",
+        "bytes": 177342656,
+        "sha256": "32fe1b66e5e3d8a8a151a9c62fdb122aa9d08b080620102673634d41b53472a7"
+      }
+    ]
+  }
+}

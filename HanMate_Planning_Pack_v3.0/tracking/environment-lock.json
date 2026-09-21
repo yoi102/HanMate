@@ -1,0 +1,56 @@
+{
+  "status": "LOCKED_FOR_WINDOWS_ANDROID_INTERNAL_DEVELOPMENT",
+  "checkedAtUtc": "2026-09-20T03:50:51.096421+00:00",
+  "dotnetSdk": "10.0.401",
+  "dotnetSdkPolicy": "global.json pins stable SDK; latestPatch; previews disabled",
+  "mauiWorkload": "maui-windows 10.0.20/10.0.100; android 36.1.69/10.0.100",
+  "nugetPackages": {
+    "Microsoft.Maui.Controls": "10.0.20",
+    "Microsoft.Extensions.Logging.Debug": "10.0.0",
+    "Microsoft.Data.Sqlite": "10.0.12",
+    "JsonSchema.Net": "9.4.0",
+    "Plugin.Maui.Audio": "4.0.0",
+    "org.k2fsa.sherpa.onnx": "1.13.8",
+    "Microsoft.NET.Test.Sdk": "17.14.1",
+    "coverlet.collector": "6.0.4",
+    "xunit": "2.9.3",
+    "xunit.runner.visualstudio": "3.1.4"
+  },
+  "android": {
+    "sdk": "platform android-36; build-tools 36.0.0; adb 36.0.0-13206524",
+    "sdkPath": "C:\\Program Files (x86)\\Android\\android-sdk",
+    "jdk": "Microsoft OpenJDK 21.0.8+9-LTS",
+    "minOS": "Android API 21",
+    "device": "vivo V2408A Android16; D7 evidence on installed Debug; new delivery APK not installed",
+    "evidence": "D7 actual voice, permission denial/restoration and offline file playback. This delivery build has no new device acceptance."
+  },
+  "ios": {
+    "workload": "26.5.10315/10.0.100",
+    "targetPlatform": "26.5",
+    "macOS": null,
+    "xcode": null,
+    "minOS": "iOS 15.0",
+    "device": null,
+    "evidence": "Excluded from this internal milestone by ADR-105/106; no native, signing or device PASS."
+  },
+  "windows": {
+    "installedSdk": "10.0.26100.0",
+    "targetFramework": "net10.0-windows10.0.19041.0",
+    "minOS": "10.0.17763.0",
+    "device": "Windows 11 Pro for Workstations Insider Preview 10.0.26220 x64",
+    "evidence": "D6 file/migration/Ruby and D7 actual voice/published capture. New D8 application tests deferred by user."
+  },
+  "tooling": {
+    "visualStudio": "Workload installation reports VS 18.10.12210.168 and VS 18.11.12210.170; build uses pinned dotnet CLI",
+    "git": "2.55.0.windows.5",
+    "repositoryMetadata": "No .git directory found at the workspace root"
+  },
+  "notes": "Internal development baseline only. User deferred application testing, formal review, distribution signing and store publication under ADR-106. Keep existing application identity and real data. Release gate ledger remains independent.",
+  "lockFiles": {
+    "HanMate.App/packages.lock.json": "a5cf7a620ad823092650107c00bf616e312230673297c039cfe1e95b1d4fab19",
+    "HanMate.Core/packages.lock.json": "2241481b7e74dcdcd600303146b730ecc12cbd8e49aa55755ef95ee499fe229a",
+    "HanMate.Core.Tests/packages.lock.json": "4229c9fb5d02138bfcb95fd7f9560aeb705c222149a8db9c51a578b024b5df26",
+    "HanMate.Infrastructure/packages.lock.json": "87bdc530b60a34af27868b75774bb6688b8470879f0f5c70a8d3b5046e340647",
+    "HanMate.Infrastructure.Tests/packages.lock.json": "085f71e47cbe5ce156ab78036bcb49d68a964ba6cf748eaea7c662f4699ce6bf"
+  }
+}

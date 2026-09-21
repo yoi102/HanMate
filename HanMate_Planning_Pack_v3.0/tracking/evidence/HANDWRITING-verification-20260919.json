@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-19",
+  "scope": "single-character offline handwriting search",
+  "artifacts": {
+    "androidApk": "383c0d100045c517f9e6b0f614acb57569be065228a0aceff801e3d81bd16c8d",
+    "windowsDll": "84073f53fba6af838ad1c46d4bb4a819f35f39f91efd5febf65a963a75679bc0",
+    "coreTestsDll": "b07d3dbc718926dd720b0342adb05eaf440b24643a764c5d32b8e077f6936965",
+    "infrastructureTestsDll": "94cd6fd6d3654963e9476b678147c1db8bdc73d2d9ae44ce81caa7b1fd68fbb7"
+  },
+  "tests": {
+    "recognizer": 8,
+    "offlineSearch": 15,
+    "result": "PASS"
+  },
+  "builds": {
+    "Android": "PASS",
+    "Windows": "PASS",
+    "warnings": 0,
+    "errors": 0
+  },
+  "androidUi": "PASS scoped; see markdown for build-specific evidence",
+  "windowsUi": "NOT RUN complete handwriting flow; mouse ownership guard rejected input",
+  "ios": "NOT RUN",
+  "aggregateCompleted": "35/48",
+  "original176": "NOT RUN",
+  "releaseReady": false,
+  "evidence": "HANDWRITING-20260919.md"
+}

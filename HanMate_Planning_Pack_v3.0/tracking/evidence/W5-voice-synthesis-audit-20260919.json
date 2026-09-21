@@ -1,0 +1,1995 @@
+{
+  "status": "PASS",
+  "voices": [
+    {
+      "speaker": 0,
+      "metrics": {
+        "bytes": 52088,
+        "sampleRate": 8000,
+        "seconds": 3.25275,
+        "rms": 0.03514469892429123,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 899.0732
+    },
+    {
+      "speaker": 1,
+      "metrics": {
+        "bytes": 34570,
+        "sampleRate": 8000,
+        "seconds": 2.157875,
+        "rms": 0.03718914887312372,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 579.8004
+    },
+    {
+      "speaker": 2,
+      "metrics": {
+        "bytes": 37568,
+        "sampleRate": 8000,
+        "seconds": 2.34525,
+        "rms": 0.01997473133054129,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 609.6192
+    },
+    {
+      "speaker": 3,
+      "metrics": {
+        "bytes": 43250,
+        "sampleRate": 8000,
+        "seconds": 2.700375,
+        "rms": 0.030655973285708012,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.6228
+    },
+    {
+      "speaker": 4,
+      "metrics": {
+        "bytes": 37844,
+        "sampleRate": 8000,
+        "seconds": 2.3625,
+        "rms": 0.010762306621012761,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 563.3678
+    },
+    {
+      "speaker": 5,
+      "metrics": {
+        "bytes": 36718,
+        "sampleRate": 8000,
+        "seconds": 2.292125,
+        "rms": 0.037887011311712335,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 569.4833
+    },
+    {
+      "speaker": 6,
+      "metrics": {
+        "bytes": 35524,
+        "sampleRate": 8000,
+        "seconds": 2.2175,
+        "rms": 0.055739886825815134,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 572.4049
+    },
+    {
+      "speaker": 7,
+      "metrics": {
+        "bytes": 30754,
+        "sampleRate": 8000,
+        "seconds": 1.919375,
+        "rms": 0.03309334595897046,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 573.0406
+    },
+    {
+      "speaker": 8,
+      "metrics": {
+        "bytes": 35186,
+        "sampleRate": 8000,
+        "seconds": 2.196375,
+        "rms": 0.02061141247061034,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 565.0859
+    },
+    {
+      "speaker": 9,
+      "metrics": {
+        "bytes": 41242,
+        "sampleRate": 8000,
+        "seconds": 2.574875,
+        "rms": 0.05005497063069266,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 571.3137
+    },
+    {
+      "speaker": 10,
+      "metrics": {
+        "bytes": 35080,
+        "sampleRate": 8000,
+        "seconds": 2.18975,
+        "rms": 0.03567502289452356,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 569.6512
+    },
+    {
+      "speaker": 11,
+      "metrics": {
+        "bytes": 46326,
+        "sampleRate": 8000,
+        "seconds": 2.892625,
+        "rms": 0.023527662285668025,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 593.0513
+    },
+    {
+      "speaker": 12,
+      "metrics": {
+        "bytes": 33710,
+        "sampleRate": 8000,
+        "seconds": 2.104125,
+        "rms": 0.013338607496223696,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 572.1208
+    },
+    {
+      "speaker": 13,
+      "metrics": {
+        "bytes": 34084,
+        "sampleRate": 8000,
+        "seconds": 2.1275,
+        "rms": 0.0378235019653767,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 593.1031
+    },
+    {
+      "speaker": 14,
+      "metrics": {
+        "bytes": 37962,
+        "sampleRate": 8000,
+        "seconds": 2.369875,
+        "rms": 0.027906896058244122,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 602.7069
+    },
+    {
+      "speaker": 15,
+      "metrics": {
+        "bytes": 33698,
+        "sampleRate": 8000,
+        "seconds": 2.103375,
+        "rms": 0.05080364449466749,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 574.6169
+    },
+    {
+      "speaker": 16,
+      "metrics": {
+        "bytes": 36972,
+        "sampleRate": 8000,
+        "seconds": 2.308,
+        "rms": 0.03856616424646472,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 548.1029
+    },
+    {
+      "speaker": 17,
+      "metrics": {
+        "bytes": 44982,
+        "sampleRate": 8000,
+        "seconds": 2.808625,
+        "rms": 0.03253151206172834,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 594.7752
+    },
+    {
+      "speaker": 18,
+      "metrics": {
+        "bytes": 30792,
+        "sampleRate": 8000,
+        "seconds": 1.92175,
+        "rms": 0.014324747978085871,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 569.0445
+    },
+    {
+      "speaker": 19,
+      "metrics": {
+        "bytes": 37772,
+        "sampleRate": 8000,
+        "seconds": 2.358,
+        "rms": 0.011029069072209576,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 568.4819
+    },
+    {
+      "speaker": 20,
+      "metrics": {
+        "bytes": 34904,
+        "sampleRate": 8000,
+        "seconds": 2.17875,
+        "rms": 0.015132148328646202,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 585.0608
+    },
+    {
+      "speaker": 21,
+      "metrics": {
+        "bytes": 38612,
+        "sampleRate": 8000,
+        "seconds": 2.4105,
+        "rms": 0.04201163338901418,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 568.4411
+    },
+    {
+      "speaker": 22,
+      "metrics": {
+        "bytes": 34000,
+        "sampleRate": 8000,
+        "seconds": 2.12225,
+        "rms": 0.028779957108976736,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 548.6314
+    },
+    {
+      "speaker": 23,
+      "metrics": {
+        "bytes": 32250,
+        "sampleRate": 8000,
+        "seconds": 2.012875,
+        "rms": 0.04684293829723965,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 544.4249
+    },
+    {
+      "speaker": 24,
+      "metrics": {
+        "bytes": 33178,
+        "sampleRate": 8000,
+        "seconds": 2.070875,
+        "rms": 0.022509677602139483,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 563.1893
+    },
+    {
+      "speaker": 25,
+      "metrics": {
+        "bytes": 38450,
+        "sampleRate": 8000,
+        "seconds": 2.400375,
+        "rms": 0.07315752817269502,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 561.2152
+    },
+    {
+      "speaker": 26,
+      "metrics": {
+        "bytes": 32362,
+        "sampleRate": 8000,
+        "seconds": 2.019875,
+        "rms": 0.017359380825425916,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 567.766
+    },
+    {
+      "speaker": 27,
+      "metrics": {
+        "bytes": 33168,
+        "sampleRate": 8000,
+        "seconds": 2.07025,
+        "rms": 0.030254992624991893,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 555.5803
+    },
+    {
+      "speaker": 28,
+      "metrics": {
+        "bytes": 36488,
+        "sampleRate": 8000,
+        "seconds": 2.27775,
+        "rms": 0.029031697237456088,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 569.5517
+    },
+    {
+      "speaker": 29,
+      "metrics": {
+        "bytes": 34926,
+        "sampleRate": 8000,
+        "seconds": 2.180125,
+        "rms": 0.010688504642862648,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 561.5638
+    },
+    {
+      "speaker": 30,
+      "metrics": {
+        "bytes": 39622,
+        "sampleRate": 8000,
+        "seconds": 2.473625,
+        "rms": 0.034606004338844115,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 565.1685
+    },
+    {
+      "speaker": 31,
+      "metrics": {
+        "bytes": 32132,
+        "sampleRate": 8000,
+        "seconds": 2.0055,
+        "rms": 0.054265549087155425,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 570.0242
+    },
+    {
+      "speaker": 32,
+      "metrics": {
+        "bytes": 30578,
+        "sampleRate": 8000,
+        "seconds": 1.908375,
+        "rms": 0.04095189265337073,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 563.5146
+    },
+    {
+      "speaker": 33,
+      "metrics": {
+        "bytes": 43502,
+        "sampleRate": 8000,
+        "seconds": 2.716125,
+        "rms": 0.04729139788382324,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 576.53
+    },
+    {
+      "speaker": 34,
+      "metrics": {
+        "bytes": 36866,
+        "sampleRate": 8000,
+        "seconds": 2.301375,
+        "rms": 0.01740931179944381,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 562.9637
+    },
+    {
+      "speaker": 35,
+      "metrics": {
+        "bytes": 33442,
+        "sampleRate": 8000,
+        "seconds": 2.087375,
+        "rms": 0.017388193128999238,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 568.3383
+    },
+    {
+      "speaker": 36,
+      "metrics": {
+        "bytes": 42018,
+        "sampleRate": 8000,
+        "seconds": 2.623375,
+        "rms": 0.045960748437510336,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.9539
+    },
+    {
+      "speaker": 37,
+      "metrics": {
+        "bytes": 40880,
+        "sampleRate": 8000,
+        "seconds": 2.55225,
+        "rms": 0.029303100691820048,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 581.8659
+    },
+    {
+      "speaker": 38,
+      "metrics": {
+        "bytes": 39502,
+        "sampleRate": 8000,
+        "seconds": 2.466125,
+        "rms": 0.035469000557556404,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.8385
+    },
+    {
+      "speaker": 39,
+      "metrics": {
+        "bytes": 35468,
+        "sampleRate": 8000,
+        "seconds": 2.214,
+        "rms": 0.02160354990955289,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 604.3974
+    },
+    {
+      "speaker": 40,
+      "metrics": {
+        "bytes": 31638,
+        "sampleRate": 8000,
+        "seconds": 1.974625,
+        "rms": 0.04313964990858826,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 573.5069
+    },
+    {
+      "speaker": 41,
+      "metrics": {
+        "bytes": 36422,
+        "sampleRate": 8000,
+        "seconds": 2.273625,
+        "rms": 0.025358688168891468,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 570.7452
+    },
+    {
+      "speaker": 42,
+      "metrics": {
+        "bytes": 37614,
+        "sampleRate": 8000,
+        "seconds": 2.348125,
+        "rms": 0.017599880579802954,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 583.8961
+    },
+    {
+      "speaker": 43,
+      "metrics": {
+        "bytes": 38302,
+        "sampleRate": 8000,
+        "seconds": 2.391125,
+        "rms": 0.02178072850047898,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.6623
+    },
+    {
+      "speaker": 44,
+      "metrics": {
+        "bytes": 47628,
+        "sampleRate": 8000,
+        "seconds": 2.974,
+        "rms": 0.047839266991358306,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 604.5033
+    },
+    {
+      "speaker": 45,
+      "metrics": {
+        "bytes": 37670,
+        "sampleRate": 8000,
+        "seconds": 2.351625,
+        "rms": 0.02937557534992963,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.1839
+    },
+    {
+      "speaker": 46,
+      "metrics": {
+        "bytes": 31228,
+        "sampleRate": 8000,
+        "seconds": 1.949,
+        "rms": 0.023268330663530915,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 556.8779
+    },
+    {
+      "speaker": 47,
+      "metrics": {
+        "bytes": 39512,
+        "sampleRate": 8000,
+        "seconds": 2.46675,
+        "rms": 0.026436783694717615,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 578.2878
+    },
+    {
+      "speaker": 48,
+      "metrics": {
+        "bytes": 31236,
+        "sampleRate": 8000,
+        "seconds": 1.9495,
+        "rms": 0.03225024977875151,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 562.8654
+    },
+    {
+      "speaker": 49,
+      "metrics": {
+        "bytes": 48410,
+        "sampleRate": 8000,
+        "seconds": 3.022875,
+        "rms": 0.03329706260812312,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 593.9957
+    },
+    {
+      "speaker": 50,
+      "metrics": {
+        "bytes": 36076,
+        "sampleRate": 8000,
+        "seconds": 2.252,
+        "rms": 0.017033913193769266,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 634.6752
+    },
+    {
+      "speaker": 51,
+      "metrics": {
+        "bytes": 34646,
+        "sampleRate": 8000,
+        "seconds": 2.162625,
+        "rms": 0.058619225336291395,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.6475
+    },
+    {
+      "speaker": 52,
+      "metrics": {
+        "bytes": 32510,
+        "sampleRate": 8000,
+        "seconds": 2.029125,
+        "rms": 0.03620402946725813,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 587.484
+    },
+    {
+      "speaker": 53,
+      "metrics": {
+        "bytes": 38338,
+        "sampleRate": 8000,
+        "seconds": 2.393375,
+        "rms": 0.01721738733760406,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 607.3028
+    },
+    {
+      "speaker": 54,
+      "metrics": {
+        "bytes": 36660,
+        "sampleRate": 8000,
+        "seconds": 2.2885,
+        "rms": 0.017618008265103628,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 594.5897
+    },
+    {
+      "speaker": 55,
+      "metrics": {
+        "bytes": 57734,
+        "sampleRate": 8000,
+        "seconds": 3.605625,
+        "rms": 0.033861976449677526,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 578.5879
+    },
+    {
+      "speaker": 56,
+      "metrics": {
+        "bytes": 40644,
+        "sampleRate": 8000,
+        "seconds": 2.5375,
+        "rms": 0.051542215906216805,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 583.0566
+    },
+    {
+      "speaker": 57,
+      "metrics": {
+        "bytes": 34384,
+        "sampleRate": 8000,
+        "seconds": 2.14625,
+        "rms": 0.03234523089668986,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 564.3935
+    },
+    {
+      "speaker": 58,
+      "metrics": {
+        "bytes": 37230,
+        "sampleRate": 8000,
+        "seconds": 2.324125,
+        "rms": 0.03169354033800119,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 552.5231
+    },
+    {
+      "speaker": 59,
+      "metrics": {
+        "bytes": 36638,
+        "sampleRate": 8000,
+        "seconds": 2.287125,
+        "rms": 0.022807945976236723,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 571.5259
+    },
+    {
+      "speaker": 60,
+      "metrics": {
+        "bytes": 32800,
+        "sampleRate": 8000,
+        "seconds": 2.04725,
+        "rms": 0.03654576850548416,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 583.3284
+    },
+    {
+      "speaker": 61,
+      "metrics": {
+        "bytes": 25798,
+        "sampleRate": 8000,
+        "seconds": 1.609625,
+        "rms": 0.012569393627308145,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 541.9109
+    },
+    {
+      "speaker": 62,
+      "metrics": {
+        "bytes": 40088,
+        "sampleRate": 8000,
+        "seconds": 2.50275,
+        "rms": 0.03826821984022235,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 574.2517
+    },
+    {
+      "speaker": 63,
+      "metrics": {
+        "bytes": 40060,
+        "sampleRate": 8000,
+        "seconds": 2.501,
+        "rms": 0.031674982217866306,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 555.6368
+    },
+    {
+      "speaker": 64,
+      "metrics": {
+        "bytes": 32092,
+        "sampleRate": 8000,
+        "seconds": 2.003,
+        "rms": 0.009179458653072124,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 555.311
+    },
+    {
+      "speaker": 65,
+      "metrics": {
+        "bytes": 39730,
+        "sampleRate": 8000,
+        "seconds": 2.480375,
+        "rms": 0.06799669849042338,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 575.7211
+    },
+    {
+      "speaker": 66,
+      "metrics": {
+        "bytes": 33612,
+        "sampleRate": 8000,
+        "seconds": 2.098,
+        "rms": 0.018675247942424294,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 567.69
+    },
+    {
+      "speaker": 67,
+      "metrics": {
+        "bytes": 38718,
+        "sampleRate": 8000,
+        "seconds": 2.417125,
+        "rms": 0.014327056328242707,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 570.5628
+    },
+    {
+      "speaker": 68,
+      "metrics": {
+        "bytes": 35458,
+        "sampleRate": 8000,
+        "seconds": 2.213375,
+        "rms": 0.014296787540839528,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.3665
+    },
+    {
+      "speaker": 69,
+      "metrics": {
+        "bytes": 36474,
+        "sampleRate": 8000,
+        "seconds": 2.276875,
+        "rms": 0.05082084485118508,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 593.5997
+    },
+    {
+      "speaker": 70,
+      "metrics": {
+        "bytes": 38548,
+        "sampleRate": 8000,
+        "seconds": 2.4065,
+        "rms": 0.033612267469643096,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 583.5931
+    },
+    {
+      "speaker": 71,
+      "metrics": {
+        "bytes": 31726,
+        "sampleRate": 8000,
+        "seconds": 1.980125,
+        "rms": 0.013449174593607761,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 592.0099
+    },
+    {
+      "speaker": 72,
+      "metrics": {
+        "bytes": 47504,
+        "sampleRate": 8000,
+        "seconds": 2.96625,
+        "rms": 0.02084567371502516,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 617.2624
+    },
+    {
+      "speaker": 73,
+      "metrics": {
+        "bytes": 45192,
+        "sampleRate": 8000,
+        "seconds": 2.82175,
+        "rms": 0.016180049281144204,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 602.9955
+    },
+    {
+      "speaker": 74,
+      "metrics": {
+        "bytes": 36306,
+        "sampleRate": 8000,
+        "seconds": 2.266375,
+        "rms": 0.015222681839146079,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 598.8491
+    },
+    {
+      "speaker": 75,
+      "metrics": {
+        "bytes": 45638,
+        "sampleRate": 8000,
+        "seconds": 2.849625,
+        "rms": 0.05922937020535748,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 637.7274
+    },
+    {
+      "speaker": 76,
+      "metrics": {
+        "bytes": 43004,
+        "sampleRate": 8000,
+        "seconds": 2.685,
+        "rms": 0.0369739594232013,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 706.3761
+    },
+    {
+      "speaker": 77,
+      "metrics": {
+        "bytes": 39302,
+        "sampleRate": 8000,
+        "seconds": 2.453625,
+        "rms": 0.04438987349388276,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 718.5304
+    },
+    {
+      "speaker": 78,
+      "metrics": {
+        "bytes": 41442,
+        "sampleRate": 8000,
+        "seconds": 2.587375,
+        "rms": 0.017137009466390782,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 681.0469
+    },
+    {
+      "speaker": 79,
+      "metrics": {
+        "bytes": 31770,
+        "sampleRate": 8000,
+        "seconds": 1.982875,
+        "rms": 0.00870795131946841,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 636.306
+    },
+    {
+      "speaker": 80,
+      "metrics": {
+        "bytes": 38302,
+        "sampleRate": 8000,
+        "seconds": 2.391125,
+        "rms": 0.03657061636371205,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 591.074
+    },
+    {
+      "speaker": 81,
+      "metrics": {
+        "bytes": 26802,
+        "sampleRate": 8000,
+        "seconds": 1.672375,
+        "rms": 0.008465296324497574,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 592.9384
+    },
+    {
+      "speaker": 82,
+      "metrics": {
+        "bytes": 40178,
+        "sampleRate": 8000,
+        "seconds": 2.508375,
+        "rms": 0.04140631659698203,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 999.1053
+    },
+    {
+      "speaker": 83,
+      "metrics": {
+        "bytes": 29276,
+        "sampleRate": 8000,
+        "seconds": 1.827,
+        "rms": 0.011055300246719588,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 576.5172
+    },
+    {
+      "speaker": 84,
+      "metrics": {
+        "bytes": 35952,
+        "sampleRate": 8000,
+        "seconds": 2.24425,
+        "rms": 0.02715572097106491,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 682.6142
+    },
+    {
+      "speaker": 85,
+      "metrics": {
+        "bytes": 36404,
+        "sampleRate": 8000,
+        "seconds": 2.2725,
+        "rms": 0.023713066374613748,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 634.8115
+    },
+    {
+      "speaker": 86,
+      "metrics": {
+        "bytes": 33356,
+        "sampleRate": 8000,
+        "seconds": 2.082,
+        "rms": 0.013734645788793801,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 615.7814
+    },
+    {
+      "speaker": 87,
+      "metrics": {
+        "bytes": 29094,
+        "sampleRate": 8000,
+        "seconds": 1.815625,
+        "rms": 0.007121687260464252,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 600.7013
+    },
+    {
+      "speaker": 88,
+      "metrics": {
+        "bytes": 39926,
+        "sampleRate": 8000,
+        "seconds": 2.492625,
+        "rms": 0.029567713392572845,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 596.3591
+    },
+    {
+      "speaker": 89,
+      "metrics": {
+        "bytes": 39722,
+        "sampleRate": 8000,
+        "seconds": 2.479875,
+        "rms": 0.023265391148860667,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 612.1483
+    },
+    {
+      "speaker": 90,
+      "metrics": {
+        "bytes": 39608,
+        "sampleRate": 8000,
+        "seconds": 2.47275,
+        "rms": 0.05086395612289512,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 643.4709
+    },
+    {
+      "speaker": 91,
+      "metrics": {
+        "bytes": 35016,
+        "sampleRate": 8000,
+        "seconds": 2.18575,
+        "rms": 0.018972833984129772,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 625.8371
+    },
+    {
+      "speaker": 92,
+      "metrics": {
+        "bytes": 38066,
+        "sampleRate": 8000,
+        "seconds": 2.376375,
+        "rms": 0.05998492483129111,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 577.0871
+    },
+    {
+      "speaker": 93,
+      "metrics": {
+        "bytes": 34634,
+        "sampleRate": 8000,
+        "seconds": 2.161875,
+        "rms": 0.020911076845064363,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.0785
+    },
+    {
+      "speaker": 94,
+      "metrics": {
+        "bytes": 35726,
+        "sampleRate": 8000,
+        "seconds": 2.230125,
+        "rms": 0.02963757423182083,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 631.9029
+    },
+    {
+      "speaker": 95,
+      "metrics": {
+        "bytes": 41874,
+        "sampleRate": 8000,
+        "seconds": 2.614375,
+        "rms": 0.04481447986701212,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 620.0363
+    },
+    {
+      "speaker": 96,
+      "metrics": {
+        "bytes": 39812,
+        "sampleRate": 8000,
+        "seconds": 2.4855,
+        "rms": 0.034633238827256316,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 609.4623
+    },
+    {
+      "speaker": 97,
+      "metrics": {
+        "bytes": 41534,
+        "sampleRate": 8000,
+        "seconds": 2.593125,
+        "rms": 0.018339998872333126,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 614.0557
+    },
+    {
+      "speaker": 98,
+      "metrics": {
+        "bytes": 38082,
+        "sampleRate": 8000,
+        "seconds": 2.377375,
+        "rms": 0.030278684596192516,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 609.8985
+    },
+    {
+      "speaker": 99,
+      "metrics": {
+        "bytes": 30014,
+        "sampleRate": 8000,
+        "seconds": 1.873125,
+        "rms": 0.009238551858706638,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 668.4974
+    },
+    {
+      "speaker": 100,
+      "metrics": {
+        "bytes": 29606,
+        "sampleRate": 8000,
+        "seconds": 1.847625,
+        "rms": 0.038096765204956834,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 643.6752
+    },
+    {
+      "speaker": 101,
+      "metrics": {
+        "bytes": 38718,
+        "sampleRate": 8000,
+        "seconds": 2.417125,
+        "rms": 0.033573974055245016,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 682.449
+    },
+    {
+      "speaker": 102,
+      "metrics": {
+        "bytes": 41526,
+        "sampleRate": 8000,
+        "seconds": 2.592625,
+        "rms": 0.07808035798008116,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 666.0515
+    },
+    {
+      "speaker": 103,
+      "metrics": {
+        "bytes": 39456,
+        "sampleRate": 8000,
+        "seconds": 2.46325,
+        "rms": 0.015245897593427605,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 714.9457
+    },
+    {
+      "speaker": 104,
+      "metrics": {
+        "bytes": 38878,
+        "sampleRate": 8000,
+        "seconds": 2.427125,
+        "rms": 0.037058908294223085,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 664.5091
+    },
+    {
+      "speaker": 105,
+      "metrics": {
+        "bytes": 42226,
+        "sampleRate": 8000,
+        "seconds": 2.636375,
+        "rms": 0.014697536253802627,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 594.4195
+    },
+    {
+      "speaker": 106,
+      "metrics": {
+        "bytes": 41394,
+        "sampleRate": 8000,
+        "seconds": 2.584375,
+        "rms": 0.03160522836674484,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 586.0276
+    },
+    {
+      "speaker": 107,
+      "metrics": {
+        "bytes": 37604,
+        "sampleRate": 8000,
+        "seconds": 2.3475,
+        "rms": 0.02194095603927176,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 571.1044
+    },
+    {
+      "speaker": 108,
+      "metrics": {
+        "bytes": 35334,
+        "sampleRate": 8000,
+        "seconds": 2.205625,
+        "rms": 0.006896887851303593,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 564.863
+    },
+    {
+      "speaker": 109,
+      "metrics": {
+        "bytes": 30822,
+        "sampleRate": 8000,
+        "seconds": 1.923625,
+        "rms": 0.07649928614717309,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.8373
+    },
+    {
+      "speaker": 110,
+      "metrics": {
+        "bytes": 38986,
+        "sampleRate": 8000,
+        "seconds": 2.433875,
+        "rms": 0.023429660948158938,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 563.712
+    },
+    {
+      "speaker": 111,
+      "metrics": {
+        "bytes": 35376,
+        "sampleRate": 8000,
+        "seconds": 2.20825,
+        "rms": 0.042375996954438604,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.7606
+    },
+    {
+      "speaker": 112,
+      "metrics": {
+        "bytes": 39518,
+        "sampleRate": 8000,
+        "seconds": 2.467125,
+        "rms": 0.04116669189063671,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 586.7774
+    },
+    {
+      "speaker": 113,
+      "metrics": {
+        "bytes": 32276,
+        "sampleRate": 8000,
+        "seconds": 2.0145,
+        "rms": 0.02718886400676369,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 602.0328
+    },
+    {
+      "speaker": 114,
+      "metrics": {
+        "bytes": 38580,
+        "sampleRate": 8000,
+        "seconds": 2.4085,
+        "rms": 0.04023150824274641,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 607.7421
+    },
+    {
+      "speaker": 115,
+      "metrics": {
+        "bytes": 31776,
+        "sampleRate": 8000,
+        "seconds": 1.98325,
+        "rms": 0.05005431266115607,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 638.076
+    },
+    {
+      "speaker": 116,
+      "metrics": {
+        "bytes": 35108,
+        "sampleRate": 8000,
+        "seconds": 2.1915,
+        "rms": 0.05521670098858348,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.6367
+    },
+    {
+      "speaker": 117,
+      "metrics": {
+        "bytes": 37586,
+        "sampleRate": 8000,
+        "seconds": 2.346375,
+        "rms": 0.03436522096504686,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 751.4487
+    },
+    {
+      "speaker": 118,
+      "metrics": {
+        "bytes": 39950,
+        "sampleRate": 8000,
+        "seconds": 2.494125,
+        "rms": 0.02587206353390717,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 1230.5004
+    },
+    {
+      "speaker": 119,
+      "metrics": {
+        "bytes": 33228,
+        "sampleRate": 8000,
+        "seconds": 2.074,
+        "rms": 0.0153970911694455,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 1092.5047
+    },
+    {
+      "speaker": 120,
+      "metrics": {
+        "bytes": 45326,
+        "sampleRate": 8000,
+        "seconds": 2.830125,
+        "rms": 0.04002320345691138,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 742.6597
+    },
+    {
+      "speaker": 121,
+      "metrics": {
+        "bytes": 37120,
+        "sampleRate": 8000,
+        "seconds": 2.31725,
+        "rms": 0.03676903820221795,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.0272
+    },
+    {
+      "speaker": 122,
+      "metrics": {
+        "bytes": 35336,
+        "sampleRate": 8000,
+        "seconds": 2.20575,
+        "rms": 0.03083318158425474,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 598.8917
+    },
+    {
+      "speaker": 123,
+      "metrics": {
+        "bytes": 43816,
+        "sampleRate": 8000,
+        "seconds": 2.73575,
+        "rms": 0.03115220435797622,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 609.67
+    },
+    {
+      "speaker": 124,
+      "metrics": {
+        "bytes": 35994,
+        "sampleRate": 8000,
+        "seconds": 2.246875,
+        "rms": 0.009846117616047036,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 586.7119
+    },
+    {
+      "speaker": 125,
+      "metrics": {
+        "bytes": 30502,
+        "sampleRate": 8000,
+        "seconds": 1.903625,
+        "rms": 0.020272908998249534,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 585.4162
+    },
+    {
+      "speaker": 126,
+      "metrics": {
+        "bytes": 40462,
+        "sampleRate": 8000,
+        "seconds": 2.526125,
+        "rms": 0.01629375896823377,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 601.6687
+    },
+    {
+      "speaker": 127,
+      "metrics": {
+        "bytes": 36658,
+        "sampleRate": 8000,
+        "seconds": 2.288375,
+        "rms": 0.015685596107537392,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 636.0908
+    },
+    {
+      "speaker": 128,
+      "metrics": {
+        "bytes": 39066,
+        "sampleRate": 8000,
+        "seconds": 2.438875,
+        "rms": 0.032149550878543764,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 572.1959
+    },
+    {
+      "speaker": 129,
+      "metrics": {
+        "bytes": 41062,
+        "sampleRate": 8000,
+        "seconds": 2.563625,
+        "rms": 0.02369293963359614,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 600.7288
+    },
+    {
+      "speaker": 130,
+      "metrics": {
+        "bytes": 40906,
+        "sampleRate": 8000,
+        "seconds": 2.553875,
+        "rms": 0.03325425103597772,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 604.8769
+    },
+    {
+      "speaker": 131,
+      "metrics": {
+        "bytes": 46660,
+        "sampleRate": 8000,
+        "seconds": 2.9135,
+        "rms": 0.023435283976382677,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 597.9495
+    },
+    {
+      "speaker": 132,
+      "metrics": {
+        "bytes": 45840,
+        "sampleRate": 8000,
+        "seconds": 2.86225,
+        "rms": 0.03285980608122603,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.2638
+    },
+    {
+      "speaker": 133,
+      "metrics": {
+        "bytes": 47976,
+        "sampleRate": 8000,
+        "seconds": 2.99575,
+        "rms": 0.023458880061338307,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 613.9322
+    },
+    {
+      "speaker": 134,
+      "metrics": {
+        "bytes": 39036,
+        "sampleRate": 8000,
+        "seconds": 2.437,
+        "rms": 0.02433686501460343,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 601.269
+    },
+    {
+      "speaker": 135,
+      "metrics": {
+        "bytes": 46244,
+        "sampleRate": 8000,
+        "seconds": 2.8875,
+        "rms": 0.04525466984627281,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 618.0695
+    },
+    {
+      "speaker": 136,
+      "metrics": {
+        "bytes": 37434,
+        "sampleRate": 8000,
+        "seconds": 2.336875,
+        "rms": 0.028344046825085695,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 611.1866
+    },
+    {
+      "speaker": 137,
+      "metrics": {
+        "bytes": 37422,
+        "sampleRate": 8000,
+        "seconds": 2.336125,
+        "rms": 0.03799883152093094,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 595.5456
+    },
+    {
+      "speaker": 138,
+      "metrics": {
+        "bytes": 34206,
+        "sampleRate": 8000,
+        "seconds": 2.135125,
+        "rms": 0.06670769679094082,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 596.1913
+    },
+    {
+      "speaker": 139,
+      "metrics": {
+        "bytes": 35948,
+        "sampleRate": 8000,
+        "seconds": 2.244,
+        "rms": 0.03168047598048854,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 597.7956
+    },
+    {
+      "speaker": 140,
+      "metrics": {
+        "bytes": 45436,
+        "sampleRate": 8000,
+        "seconds": 2.837,
+        "rms": 0.02660715764304923,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 607.3702
+    },
+    {
+      "speaker": 141,
+      "metrics": {
+        "bytes": 38836,
+        "sampleRate": 8000,
+        "seconds": 2.4245,
+        "rms": 0.033495096825902244,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 595.4854
+    },
+    {
+      "speaker": 142,
+      "metrics": {
+        "bytes": 35160,
+        "sampleRate": 8000,
+        "seconds": 2.19475,
+        "rms": 0.033296274047125,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.6509
+    },
+    {
+      "speaker": 143,
+      "metrics": {
+        "bytes": 34748,
+        "sampleRate": 8000,
+        "seconds": 2.169,
+        "rms": 0.03856524400999643,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 602.3245
+    },
+    {
+      "speaker": 144,
+      "metrics": {
+        "bytes": 45130,
+        "sampleRate": 8000,
+        "seconds": 2.817875,
+        "rms": 0.04435780723774678,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 620.2125
+    },
+    {
+      "speaker": 145,
+      "metrics": {
+        "bytes": 42352,
+        "sampleRate": 8000,
+        "seconds": 2.64425,
+        "rms": 0.046422090436253956,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 607.8526
+    },
+    {
+      "speaker": 146,
+      "metrics": {
+        "bytes": 32838,
+        "sampleRate": 8000,
+        "seconds": 2.049625,
+        "rms": 0.043228993857758705,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 592.556
+    },
+    {
+      "speaker": 147,
+      "metrics": {
+        "bytes": 39166,
+        "sampleRate": 8000,
+        "seconds": 2.445125,
+        "rms": 0.03189781221736802,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 581.2882
+    },
+    {
+      "speaker": 148,
+      "metrics": {
+        "bytes": 28004,
+        "sampleRate": 8000,
+        "seconds": 1.7475,
+        "rms": 0.04199538037109799,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 583.7044
+    },
+    {
+      "speaker": 149,
+      "metrics": {
+        "bytes": 41018,
+        "sampleRate": 8000,
+        "seconds": 2.560875,
+        "rms": 0.03722809162819508,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 616.0005
+    },
+    {
+      "speaker": 150,
+      "metrics": {
+        "bytes": 41020,
+        "sampleRate": 8000,
+        "seconds": 2.561,
+        "rms": 0.021379717006059427,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 603.2888
+    },
+    {
+      "speaker": 151,
+      "metrics": {
+        "bytes": 33230,
+        "sampleRate": 8000,
+        "seconds": 2.074125,
+        "rms": 0.03453412215625869,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 591.5331
+    },
+    {
+      "speaker": 152,
+      "metrics": {
+        "bytes": 42976,
+        "sampleRate": 8000,
+        "seconds": 2.68325,
+        "rms": 0.02772701038943596,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 596.345
+    },
+    {
+      "speaker": 153,
+      "metrics": {
+        "bytes": 34540,
+        "sampleRate": 8000,
+        "seconds": 2.156,
+        "rms": 0.03964253661756666,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 611.2148
+    },
+    {
+      "speaker": 154,
+      "metrics": {
+        "bytes": 47638,
+        "sampleRate": 8000,
+        "seconds": 2.974625,
+        "rms": 0.03808269077014776,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 609.511
+    },
+    {
+      "speaker": 155,
+      "metrics": {
+        "bytes": 42814,
+        "sampleRate": 8000,
+        "seconds": 2.673125,
+        "rms": 0.01967867431525162,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.6331
+    },
+    {
+      "speaker": 156,
+      "metrics": {
+        "bytes": 44910,
+        "sampleRate": 8000,
+        "seconds": 2.804125,
+        "rms": 0.053978539276424264,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 623.4507
+    },
+    {
+      "speaker": 157,
+      "metrics": {
+        "bytes": 40238,
+        "sampleRate": 8000,
+        "seconds": 2.512125,
+        "rms": 0.04557300828991984,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 610.4874
+    },
+    {
+      "speaker": 158,
+      "metrics": {
+        "bytes": 39398,
+        "sampleRate": 8000,
+        "seconds": 2.459625,
+        "rms": 0.018469177179365373,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 588.1348
+    },
+    {
+      "speaker": 159,
+      "metrics": {
+        "bytes": 43822,
+        "sampleRate": 8000,
+        "seconds": 2.736125,
+        "rms": 0.02254475114523032,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 591.7327
+    },
+    {
+      "speaker": 160,
+      "metrics": {
+        "bytes": 35840,
+        "sampleRate": 8000,
+        "seconds": 2.23725,
+        "rms": 0.0301997398905245,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 565.295
+    },
+    {
+      "speaker": 161,
+      "metrics": {
+        "bytes": 37906,
+        "sampleRate": 8000,
+        "seconds": 2.366375,
+        "rms": 0.010702128102443738,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 570.6929
+    },
+    {
+      "speaker": 162,
+      "metrics": {
+        "bytes": 37870,
+        "sampleRate": 8000,
+        "seconds": 2.364125,
+        "rms": 0.033988447911171886,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 605.7443
+    },
+    {
+      "speaker": 163,
+      "metrics": {
+        "bytes": 46866,
+        "sampleRate": 8000,
+        "seconds": 2.926375,
+        "rms": 0.0423663068443841,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 624.3455
+    },
+    {
+      "speaker": 164,
+      "metrics": {
+        "bytes": 41200,
+        "sampleRate": 8000,
+        "seconds": 2.57225,
+        "rms": 0.030673854719568648,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 619.5924
+    },
+    {
+      "speaker": 165,
+      "metrics": {
+        "bytes": 35356,
+        "sampleRate": 8000,
+        "seconds": 2.207,
+        "rms": 0.02667825719994675,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 573.4381
+    },
+    {
+      "speaker": 166,
+      "metrics": {
+        "bytes": 51754,
+        "sampleRate": 8000,
+        "seconds": 3.231875,
+        "rms": 0.010117230220156155,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 605.8491
+    },
+    {
+      "speaker": 167,
+      "metrics": {
+        "bytes": 32552,
+        "sampleRate": 8000,
+        "seconds": 2.03175,
+        "rms": 0.039821811558976135,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 613.7897
+    },
+    {
+      "speaker": 168,
+      "metrics": {
+        "bytes": 47504,
+        "sampleRate": 8000,
+        "seconds": 2.96625,
+        "rms": 0.01794078148935408,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 686.9883
+    },
+    {
+      "speaker": 169,
+      "metrics": {
+        "bytes": 36312,
+        "sampleRate": 8000,
+        "seconds": 2.26675,
+        "rms": 0.04155106945747437,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 695.5694
+    },
+    {
+      "speaker": 170,
+      "metrics": {
+        "bytes": 31278,
+        "sampleRate": 8000,
+        "seconds": 1.952125,
+        "rms": 0.011198649049573859,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 649.4077
+    },
+    {
+      "speaker": 171,
+      "metrics": {
+        "bytes": 31074,
+        "sampleRate": 8000,
+        "seconds": 1.939375,
+        "rms": 0.04418874493995148,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 570.7437
+    },
+    {
+      "speaker": 172,
+      "metrics": {
+        "bytes": 40656,
+        "sampleRate": 8000,
+        "seconds": 2.53825,
+        "rms": 0.04653372229041455,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 600.1251
+    },
+    {
+      "speaker": 173,
+      "metrics": {
+        "bytes": 39952,
+        "sampleRate": 8000,
+        "seconds": 2.49425,
+        "rms": 0.0575497840680547,
+        "clippedRatio": 0
+      },
+      "elapsedMs": 590.2587
+    }
+  ],
+  "corpus": [
+    {
+      "text": "\u91CD\u5E86\u94F6\u884C\u7684\u884C\u957F\u559C\u6B22\u97F3\u4E50\u3002",
+      "metrics": {
+        "bytes": 40038,
+        "sampleRate": 8000,
+        "seconds": 2.499625,
+        "rms": 0.02021738759403288,
+        "clippedRatio": 0
+      }
+    },
+    {
+      "text": "\u4ECA\u5929\u662F2026\u5E749\u670819\u65E5\uFF0C\u4EF7\u683C\u662F3.14\u5143\u3002",
+      "metrics": {
+        "bytes": 83052,
+        "sampleRate": 8000,
+        "seconds": 5.188,
+        "rms": 0.02432293695618126,
+        "clippedRatio": 0
+      }
+    },
+    {
+      "text": "\u5973\u513F\u7A7F\u7740\u7EFF\u8272\u7684\u8863\u670D\u3002",
+      "metrics": {
+        "bytes": 27802,
+        "sampleRate": 8000,
+        "seconds": 1.734875,
+        "rms": 0.025727631211986707,
+        "clippedRatio": 0
+      }
+    },
+    {
+      "text": "\u4F60\u597D\uFF08\u6B22\u8FCE\u5B66\u4E60\uFF09\uFF0C\u4EF7\u683C\uFF13.\uFF11\uFF14\u5143\u3002",
+      "metrics": {
+        "bytes": 48956,
+        "sampleRate": 8000,
+        "seconds": 3.057,
+        "rms": 0.019912971882815465,
+        "clippedRatio": 0
+      }
+    },
+    {
+      "text": "\u4F60\u597D\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66\uFF0C\u6B22\u8FCE\u5B66\u4E60\u6C49\u8BED\u3002",
+      "rejectedBeforeNativeInference": true
+    },
+    {
+      "text": "Hello\uFF0C\u4F60\u597D\uFF0CABC\uFF0C123\u3002",
+      "rejectedBeforeNativeInference": true
+    },
+    {
+      "text": "\u4F60\u597D\uD883\uDEDE",
+      "rejectedBeforeNativeInference": true
+    },
+    {
+      "text": "\uFF01\uFF1F",
+      "rejectedBeforeNativeInference": true
+    }
+  ],
+  "cancellationMs": 809.542,
+  "repeatedCancellation": 30,
+  "generationMs": {
+    "p50": 593.5995,
+    "p95": 706.3759,
+    "max": 1230.5003
+  },
+  "memory": {
+    "initialPrivateBytes": 11300864,
+    "finalPrivateBytes": 117190656,
+    "peakWorkingSetBytes": 214167552
+  },
+  "environment": {
+    "os": "Microsoft Windows NT 10.0.26220.0",
+    "processors": 24,
+    "framework": ".NET 10.0.12"
+  },
+  "scope": "Native Windows CPU synthesis and WAV signal checks; not listening review or device playback latency."
+}

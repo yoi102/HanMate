@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dictionary-entry.schema.json",
+  "title": "HanMate dictionary-entry.schema.json — design contract",
+  "allOf": [
+    {
+      "$ref": "content.schema.json"
+    },
+    {
+      "properties": {
+        "kind": {
+          "const": "word"
+        }
+      }
+    }
+  ]
+}

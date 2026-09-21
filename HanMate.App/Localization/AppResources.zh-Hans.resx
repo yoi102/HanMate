@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav.Pinyin" xml:space="preserve">
+    <value>拼音</value>
+  </data>
+  <data name="Nav.Learn" xml:space="preserve">
+    <value>学习</value>
+  </data>
+  <data name="Nav.Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="Nav.Favorites" xml:space="preserve">
+    <value>收藏</value>
+  </data>
+  <data name="Nav.Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Kind.Word" xml:space="preserve">
+    <value>词语</value>
+  </data>
+  <data name="Kind.Text" xml:space="preserve">
+    <value>课文</value>
+  </data>
+  <data name="Kind.Poem" xml:space="preserve">
+    <value>诗词</value>
+  </data>
+  <data name="Source.All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Source.Mine" xml:space="preserve">
+    <value>我的内容</value>
+  </data>
+  <data name="Action.Play" xml:space="preserve">
+    <value>朗读</value>
+  </data>
+  <data name="Action.Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Action.Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Action.Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Action.Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Action.Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Action.ImportText" xml:space="preserve">
+    <value>导入文本</value>
+  </data>
+  <data name="Action.New" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Action.Record" xml:space="preserve">
+    <value>开始录音</value>
+  </data>
+  <data name="Action.Preview" xml:space="preserve">
+    <value>试听</value>
+  </data>
+  <data name="Action.Rerecord" xml:space="preserve">
+    <value>重新录音</value>
+  </data>
+  <data name="Action.ShareContent" xml:space="preserve">
+    <value>分享学习内容包</value>
+  </data>
+  <data name="Action.ExportBackup" xml:space="preserve">
+    <value>导出完整备份</value>
+  </data>
+  <data name="Action.ImportBackup" xml:space="preserve">
+    <value>导入备份</value>
+  </data>
+  <data name="Action.ReadAll" xml:space="preserve">
+    <value>全文朗读</value>
+  </data>
+  <data name="Action.Previous" xml:space="preserve">
+    <value>上一段</value>
+  </data>
+  <data name="Action.Next" xml:space="preserve">
+    <value>下一段</value>
+  </data>
+  <data name="Folder.Default" xml:space="preserve">
+    <value>默认收藏夹</value>
+  </data>
+  <data name="State.NoResults" xml:space="preserve">
+    <value>未找到已收录词条</value>
+  </data>
+  <data name="State.NoTranslation" xml:space="preserve">
+    <value>尚未添加该语言译文</value>
+  </data>
+  <data name="State.AudioMissing" xml:space="preserve">
+    <value>没有可用音频</value>
+  </data>
+  <data name="State.AudioReview" xml:space="preserve">
+    <value>音频需要确认读音一致</value>
+  </data>
+  <data name="State.Cancelled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="State.Saved" xml:space="preserve">
+    <value>已保存</value>
+  </data>
+  <data name="Privacy.MicDenied" xml:space="preserve">
+    <value>未允许麦克风，仍可继续学习</value>
+  </data>
+  <data name="Backup.NotEncrypted" xml:space="preserve">
+    <value>备份默认不加密，请妥善保管</value>
+  </data>
+  <data name="Search.Placeholder" xml:space="preserve">
+    <value>输入汉字或拼音</value>
+  </data>
+  <data name="Action.KeepBoth" xml:space="preserve">
+    <value>保留双方</value>
+  </data>
+  <data name="Action.Merge" xml:space="preserve">
+    <value>合并导入</value>
+  </data>
+  <data name="Action.Replace" xml:space="preserve">
+    <value>替换当前用户数据</value>
+  </data>
+  <data name="App.Name" xml:space="preserve">
+    <value>汉语小伴</value>
+  </data>
+  <data name="Learn.Grammar" xml:space="preserve">
+    <value>语法</value>
+  </data>
+  <data name="Grammar.Pattern" xml:space="preserve">
+    <value>句型结构</value>
+  </data>
+  <data name="Grammar.Explanation" xml:space="preserve">
+    <value>用法说明</value>
+  </data>
+  <data name="Grammar.Examples" xml:space="preserve">
+    <value>例句</value>
+  </data>
+  <data name="Grammar.Notes" xml:space="preserve">
+    <value>注意事项</value>
+  </data>
+  <data name="Resource.Manage" xml:space="preserve">
+    <value>管理内容</value>
+  </data>
+  <data name="Dictionary.Manage" xml:space="preserve">
+    <value>字典管理</value>
+  </data>
+  <data name="Resource.InstallLocal" xml:space="preserve">
+    <value>从本地安装</value>
+  </data>
+  <data name="Resource.Disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Resource.Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Resource.Uninstall" xml:space="preserve">
+    <value>卸载资源包</value>
+  </data>
+  <data name="Resource.RemoveEntry" xml:space="preserve">
+    <value>撤下此内容</value>
+  </data>
+  <data name="Resource.RestoreEntry" xml:space="preserve">
+    <value>恢复此内容</value>
+  </data>
+  <data name="Resource.Retained" xml:space="preserve">
+    <value>保留的资料</value>
+  </data>
+  <data name="Resource.Missing" xml:space="preserve">
+    <value>资源未安装</value>
+  </data>
+  <data name="Dictionary.Priority" xml:space="preserve">
+    <value>字典优先级</value>
+  </data>
+  <data name="Share.Selection" xml:space="preserve">
+    <value>分享所选内容</value>
+  </data>
+  <data name="Share.AudioOnly" xml:space="preserve">
+    <value>仅分享录音</value>
+  </data>
+  <data name="Share.NoAudio" xml:space="preserve">
+    <value>不包含音频</value>
+  </data>
+  <data name="Share.SelectedTracks" xml:space="preserve">
+    <value>选择音轨</value>
+  </data>
+  <data name="Backup.PartialResources" xml:space="preserve">
+    <value>部分资源未包含</value>
+  </data>
+  <data name="Delete.KeepDependencies" xml:space="preserve">
+    <value>保留收藏和用户录音所需资料</value>
+  </data>
+  <data name="Resource.SourceRemoved" xml:space="preserve">
+    <value>原资源已移除</value>
+  </data>
+  <data name="Install.Title" xml:space="preserve">
+    <value>已安装资源</value>
+  </data>
+  <data name="Install.Pick" xml:space="preserve">
+    <value>安装资源包</value>
+  </data>
+  <data name="Install.Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Install.Previous" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="Install.Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="Install.Hint" xml:space="preserve">
+    <value>安装学习或字典包（.hanresource、.handict、.zip），支持文字与 PCM16 WAV 音频。外部资源升级前可预览变更。</value>
+  </data>
+  <data name="Install.Cancelled" xml:space="preserve">
+    <value>已取消安装。</value>
+  </data>
+  <data name="Install.Validating" xml:space="preserve">
+    <value>正在检查资源包…</value>
+  </data>
+  <data name="Install.Preview" xml:space="preserve">
+    <value>名称：{0}
+版本：{1}
+发布者：{2}
+条目数：{3}</value>
+  </data>
+  <data name="Install.Unverified" xml:space="preserve">
+    <value>发布者和审校信息由资源包作者提供，未经独立核实。</value>
+  </data>
+  <data name="Install.ConfirmTitle" xml:space="preserve">
+    <value>安装此资源包？</value>
+  </data>
+  <data name="Install.Confirm" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="Install.Saving" xml:space="preserve">
+    <value>正在安装…</value>
+  </data>
+  <data name="Install.AlreadyInstalled" xml:space="preserve">
+    <value>此资源包已安装（{0} 条）。</value>
+  </data>
+  <data name="Install.Installed" xml:space="preserve">
+    <value>已安装 {0} 条内容。</value>
+  </data>
+  <data name="Install.Failed" xml:space="preserve">
+    <value>操作未完成，请重试。</value>
+  </data>
+  <data name="Install.TextOnly" xml:space="preserve">
+    <value>包内文件或音频格式不支持，目前支持 PCM16 WAV。</value>
+  </data>
+  <data name="Install.UpdateUnavailable" xml:space="preserve">
+    <value>无法用此包更新该资源。</value>
+  </data>
+  <data name="Install.Stale" xml:space="preserve">
+    <value>已保存数据发生变化，请重新选择资源包并预览。</value>
+  </data>
+  <data name="Install.Conflict" xml:space="preserve">
+    <value>此资源包与已有内容冲突，未安装。</value>
+  </data>
+  <data name="Install.TooLarge" xml:space="preserve">
+    <value>资源包大小或已安装资源数量超出当前限制。</value>
+  </data>
+  <data name="Install.Invalid" xml:space="preserve">
+    <value>资源包无效或不完整，未安装任何内容。</value>
+  </data>
+  <data name="Install.Empty" xml:space="preserve">
+    <value>本页暂无已安装内容。</value>
+  </data>
+  <data name="Install.Page" xml:space="preserve">
+    <value>正在显示第 {0}–{1} 条</value>
+  </data>
+  <data name="Install.ReadOnlyPreview" xml:space="preserve">
+    <value>内容预览。此页暂不支持编辑和音频播放。</value>
+  </data>
+  <data name="Pinyin.Title" xml:space="preserve"><value>拼音练习</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>单击听教学读音，长按或右键查看例字。</value></data>
+  <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} 个项目 · {1} 段离线录音 · 开发预览</value></data>
+  <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Pinyin.Sources" xml:space="preserve"><value>音频来源</value></data>
+  <data name="Pinyin.Examples" xml:space="preserve"><value>例字</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>暂无对应录音。可在设置中启用内置 AI 语音包，用于拼音朗读。</value></data>
+  <data name="Pinyin.Playing" xml:space="preserve"><value>正在播放例字</value></data>
+  <data name="Pinyin.Completed" xml:space="preserve"><value>播放结束</value></data>
+  <data name="Pinyin.Stopped" xml:space="preserve"><value>已停止</value></data>
+  <data name="Pinyin.PlayFailed" xml:space="preserve"><value>播放失败，请检查音频输出后重试。</value></data>
+  <data name="Pinyin.LoadFailed" xml:space="preserve"><value>离线拼音资料加载失败。</value></data>
+  <data name="Pinyin.DraftNotice" xml:space="preserve"><value>例字和译文为开发草稿。录音有明确来源许可，用于示范音节与声调；同音字可能与原录词不同，教学一致性仍待审校。</value></data>
+  <data name="Pinyin.InitialNote" xml:space="preserve"><value>这里展示例字音节的四声，不是给声母本身加调。红色下划线只标出当前声母或拼写辅助字母。</value></data>
+  <data name="Pinyin.ToneNote" xml:space="preserve"><value>读例字，观察四声；红色下划线标出当前韵母或整体认读音节。</value></data>
+  <data name="Pinyin.SpellingNote" xml:space="preserve"><value>yu、yue、yun 的 ü 按拼写规则省略两点；高亮的 u 表示这种拼写形式。</value></data>
+  <data name="Pinyin.Tone1" xml:space="preserve"><value>第一声 · 阴平</value></data>
+  <data name="Pinyin.Tone2" xml:space="preserve"><value>第二声 · 阳平</value></data>
+  <data name="Pinyin.Tone3" xml:space="preserve"><value>第三声 · 上声</value></data>
+  <data name="Pinyin.Tone4" xml:space="preserve"><value>第四声 · 去声</value></data>
+  <data name="Pinyin.NoExample" xml:space="preserve"><value>此声调暂无选定例字。</value></data>
+  <data name="Pinyin.Play" xml:space="preserve"><value>播放例字</value></data>
+  <data name="Pinyin.Group.initial" xml:space="preserve"><value>声母</value></data>
+  <data name="Pinyin.Group.spelling" xml:space="preserve"><value>拼写辅助 y / w</value></data>
+  <data name="Pinyin.Group.simple" xml:space="preserve"><value>单韵母</value></data>
+  <data name="Pinyin.Group.compound" xml:space="preserve"><value>复韵母与特殊韵母</value></data>
+  <data name="Pinyin.Group.nasal" xml:space="preserve"><value>前后鼻韵母</value></data>
+  <data name="Pinyin.Group.whole" xml:space="preserve"><value>整体认读音节</value></data>
+<data name="Pinyin.StarterReady" xml:space="preserve"><value>已提供随附开发草稿，选择类型即可浏览；教学内容与译文仍待审校。</value></data>
+  <data name="Reader.HidePinyin" xml:space="preserve"><value>隐藏拼音</value></data>
+  <data name="Reader.ShowPinyin" xml:space="preserve"><value>显示拼音</value></data>
+  <data name="Reader.Smaller" xml:space="preserve"><value>减小阅读字号</value></data>
+  <data name="Reader.Larger" xml:space="preserve"><value>增大阅读字号</value></data>
+  <data name="Reader.Previous" xml:space="preserve"><value>上一页</value></data>
+  <data name="Reader.Next" xml:space="preserve"><value>下一页</value></data>
+  <data name="Reader.Page" xml:space="preserve"><value>跳转页码</value></data>
+  <data name="Reader.NoAudio" xml:space="preserve"><value>当前内容暂无匹配的离线音轨。</value></data>
+  <data name="Reader.Selection" xml:space="preserve"><value>片段 {0} / {1}</value></data>
+  <data name="Reader.PreviousSegment" xml:space="preserve"><value>上一片段</value></data>
+  <data name="Reader.NextSegment" xml:space="preserve"><value>下一片段</value></data>
+  <data name="Reader.Hint" xml:space="preserve"><value>点词语或例句朗读整个单元；点课文或诗词片段放大并只播放该段。上下一段只切换显示。</value></data>
+  <data name="Reader.Empty" xml:space="preserve"><value>没有可显示的正文。</value></data>
+  <data name="Reader.Continued" xml:space="preserve"><value>续</value></data>
+  <data name="Reader.Expand" xml:space="preserve"><value>放大查看</value></data>
+  <data name="Reader.Draft" xml:space="preserve"><value>来源与教学内容仍待审校。</value></data>
+  <data name="Reader.Source" xml:space="preserve"><value>内容来源</value></data>
+  <data name="Reader.Role.Headword" xml:space="preserve"><value>词语</value></data>
+  <data name="Reader.Role.Definition" xml:space="preserve"><value>释义</value></data>
+  <data name="Reader.Role.Example" xml:space="preserve"><value>例句</value></data>
+  <data name="Reader.Role.Body" xml:space="preserve"><value>正文</value></data>
+  <data name="Reader.Role.GrammarExplanation" xml:space="preserve"><value>语法说明</value></data>
+  <data name="Reader.Role.GrammarNote" xml:space="preserve"><value>补充说明</value></data>
+  <data name="Search.AllSources" xml:space="preserve"><value>全部启用来源</value></data>
+  <data name="Search.Count" xml:space="preserve"><value>第 {0}—{1} 条，共 {2} 条</value></data>
+  <data name="Search.Failed" xml:space="preserve"><value>查询失败，请重试。</value></data>
+  <data name="Search.Hint" xml:space="preserve"><value>输入汉字或拼音：你好 · nihao · nǐ hǎo</value></data>
+  <data name="Search.Personal" xml:space="preserve"><value>个人词语</value></data>
+  <data name="Search.Searching" xml:space="preserve"><value>正在查询…</value></data>
+  <data name="Search.Sources" xml:space="preserve"><value>查询来源</value></data>
+  <data name="Search.IndexHint" xml:space="preserve"><value>拼音仅查询已确认读音的词条；随附资料仍为草稿。</value></data>
+  <data name="Manage.Close" xml:space="preserve"><value>关闭</value></data>
+  <data name="Manage.ConfirmUninstall" xml:space="preserve"><value>卸载“{0}”及其 {1} 条无引用文字内容？
+保留条目撤下偏好。随附资源可在此恢复；外部资源需原文件重新安装。</value></data>
+  <data name="Manage.Dependencies" xml:space="preserve"><value>收藏：{0}；音频：{1}；草稿：{2}；其他保护或数据不完整：{3}。
+请保留或停用此资源，受引用内容的安全卸载尚未开放。</value></data>
+  <data name="Manage.Disable" xml:space="preserve"><value>停用资源</value></data>
+  <data name="Manage.Disabled" xml:space="preserve"><value>已停用</value></data>
+  <data name="Manage.Empty" xml:space="preserve"><value>暂无资源。</value></data>
+  <data name="Manage.Enable" xml:space="preserve"><value>启用资源</value></data>
+  <data name="Manage.Enabled" xml:space="preserve"><value>已启用</value></data>
+  <data name="Manage.InvalidPriority" xml:space="preserve"><value>请输入 0 到 2147483647 的整数。</value></data>
+  <data name="Manage.Missing" xml:space="preserve"><value>已卸载或缺失</value></data>
+  <data name="Manage.PriorityHint" xml:space="preserve"><value>来源优先级：数字越小，同等匹配时越靠前。</value></data>
+  <data name="Manage.Protected" xml:space="preserve"><value>此资源暂不能卸载</value></data>
+  <data name="Manage.Refresh" xml:space="preserve"><value>刷新</value></data>
+  <data name="Manage.ReinstallFile" xml:space="preserve"><value>从原文件重新安装</value></data>
+  <data name="Manage.Restore" xml:space="preserve"><value>恢复随附资源</value></data>
+  <data name="Manage.SavePriority" xml:space="preserve"><value>保存优先级</value></data>
+  <data name="Manage.Size" xml:space="preserve"><value>文字数据：{0:N0} 字节。此数值不代表应用安装包可释放的空间。</value></data>
+  <data name="Manage.Source" xml:space="preserve"><value>发布者：{0}
+许可：{1}</value></data>
+  <data name="Manage.Stale" xml:space="preserve"><value>资料已变化，请刷新后重试。</value></data>
+  <data name="Manage.Summary" xml:space="preserve"><value>版本 {0} · {1} 条 · 已撤下 {2} 条
+{3} · 优先级 {4}</value></data>
+  <data name="Manage.Uninstall" xml:space="preserve"><value>卸载资源</value></data>
+  <data name="Manage.Working" xml:space="preserve"><value>正在处理资源…</value></data>
+  <data name="Manage.Details" xml:space="preserve"><value>详情与操作</value></data>
+  <data name="Library.Filters" xml:space="preserve"><value>筛选条件</value></data>
+  <data name="Library.FilterRule" xml:space="preserve"><value>场景任一匹配；不同维度同时满足。</value></data>
+  <data name="Library.Difficulty" xml:space="preserve"><value>难度</value></data>
+  <data name="Library.Stage" xml:space="preserve"><value>学段</value></data>
+  <data name="Library.Grade" xml:space="preserve"><value>年级</value></data>
+  <data name="Library.GradeValue" xml:space="preserve"><value>{0} 年级</value></data>
+  <data name="Library.Source" xml:space="preserve"><value>来源</value></data>
+  <data name="Library.Personal" xml:space="preserve"><value>我的内容</value></data>
+  <data name="Library.All" xml:space="preserve"><value>全部</value></data>
+  <data name="Library.Beginner" xml:space="preserve"><value>入门</value></data>
+  <data name="Library.Basic" xml:space="preserve"><value>基础</value></data>
+  <data name="Library.Intermediate" xml:space="preserve"><value>中级</value></data>
+  <data name="Library.Advanced" xml:space="preserve"><value>高级</value></data>
+  <data name="Library.Primary" xml:space="preserve"><value>小学</value></data>
+  <data name="Library.Junior" xml:space="preserve"><value>初中</value></data>
+  <data name="Library.Senior" xml:space="preserve"><value>高中</value></data>
+  <data name="Library.Apply" xml:space="preserve"><value>应用筛选</value></data>
+  <data name="Library.Clear" xml:space="preserve"><value>清除筛选</value></data>
+  <data name="Library.NoContent" xml:space="preserve"><value>当前没有此类学习内容。</value></data>
+  <data name="Library.NoMatches" xml:space="preserve"><value>没有匹配内容，可以清除筛选。</value></data>
+  <data name="Library.Count" xml:space="preserve"><value>第 {0}—{1} 条，共 {2} 条</value></data>
+  <data name="Library.Previous" xml:space="preserve"><value>上一页</value></data>
+  <data name="Library.Next" xml:space="preserve"><value>下一页</value></data>
+  <data name="Library.Refresh" xml:space="preserve"><value>刷新</value></data>
+  <data name="Library.Save" xml:space="preserve"><value>保存</value></data>
+  <data name="Library.Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Library.Delete" xml:space="preserve"><value>删除</value></data>
+  <data name="Library.Read" xml:space="preserve"><value>阅读</value></data>
+  <data name="Library.Failed" xml:space="preserve"><value>操作失败。请检查名称是否重复、输入长度，或刷新后重试。</value></data>
+  <data name="Library.Stale" xml:space="preserve"><value>资料已改变，请刷新后重试。</value></data>
+  <data name="Library.NewFolder" xml:space="preserve"><value>新建收藏夹</value></data>
+  <data name="Library.EditFolder" xml:space="preserve"><value>编辑收藏夹</value></data>
+  <data name="Library.DeleteFolder" xml:space="preserve"><value>删除收藏夹</value></data>
+  <data name="Library.DeleteFolderHint" xml:space="preserve"><value>只删除收藏夹及收藏关系，正文和录音保留。</value></data>
+  <data name="Library.Up" xml:space="preserve"><value>上移</value></data>
+  <data name="Library.Down" xml:space="preserve"><value>下移</value></data>
+  <data name="Library.FolderName" xml:space="preserve"><value>收藏夹名称</value></data>
+  <data name="Library.FolderNameHint" xml:space="preserve"><value>1—40 个文字，名称不可重复。</value></data>
+  <data name="Library.Description" xml:space="preserve"><value>说明</value></data>
+  <data name="Library.DescriptionHint" xml:space="preserve"><value>可留空，最多 300 个文字。</value></data>
+  <data name="Library.EmptyFavorites" xml:space="preserve"><value>此收藏夹尚无内容，从阅读页添加。</value></data>
+  <data name="Library.ChooseFolders" xml:space="preserve"><value>收藏到…</value></data>
+  <data name="Library.ChooseHint" xml:space="preserve"><value>可选择多个收藏夹；取消全部勾选将移除收藏，正文保留。</value></data>
+  <data name="Library.Disabled" xml:space="preserve"><value>来源已停用，收藏仍可阅读。</value></data>
+  <data name="Library.Hidden" xml:space="preserve"><value>来源条目已撤下，收藏仍可阅读。</value></data>
+  <data name="Library.Retained" xml:space="preserve"><value>显示卸载或更新后保留的旧资料。</value></data>
+  <data name="Library.Missing" xml:space="preserve"><value>来源缺失，显示本地保留内容。</value></data>
+  <data name="Library.Drafts" xml:space="preserve"><value>新建 / TXT 导入与草稿</value></data>
+  <data name="Library.NewDraft" xml:space="preserve"><value>新建文字草稿</value></data>
+  <data name="Library.DraftHint" xml:space="preserve"><value>输入、粘贴或导入 TXT；最多 20,000 个文本元素、文件 1 MiB。输入后自动保存草稿；填写标题后可自动注音、校对并保存为个人内容。</value></data>
+  <data name="Library.EmptyDrafts" xml:space="preserve"><value>还没有文字草稿。</value></data>
+  <data name="Library.Untitled" xml:space="preserve"><value>未命名草稿</value></data>
+  <data name="Library.EditDraft" xml:space="preserve"><value>编辑草稿</value></data>
+  <data name="Library.DeleteDraft" xml:space="preserve"><value>删除草稿</value></data>
+  <data name="Library.DeleteDraftHint" xml:space="preserve"><value>删除此文字草稿？正式内容不受影响。</value></data>
+  <data name="Library.Title" xml:space="preserve"><value>标题（最多 120 个文字）</value></data>
+  <data name="Library.Text" xml:space="preserve"><value>在此输入或粘贴原文</value></data>
+  <data name="Library.SaveDraft" xml:space="preserve"><value>保存草稿</value></data>
+  <data name="Library.SaveCopy" xml:space="preserve"><value>另存为新草稿</value></data>
+  <data name="Library.ImportTxt" xml:space="preserve"><value>导入 TXT</value></data>
+  <data name="Library.Paste" xml:space="preserve"><value>粘贴</value></data>
+  <data name="Library.Unsaved" xml:space="preserve"><value>尚未保存…</value></data>
+  <data name="Library.SavedDraft" xml:space="preserve"><value>草稿已保存</value></data>
+  <data name="Library.DraftConflict" xml:space="preserve"><value>草稿已在别处修改。当前输入保留，可另存为新草稿。</value></data>
+  <data name="Library.DraftFailed" xml:space="preserve"><value>未能保存；输入仍保留。请检查长度后重试。</value></data>
+  <data name="Library.Replace" xml:space="preserve"><value>替换原文</value></data>
+  <data name="Library.ReplaceHint" xml:space="preserve"><value>用导入或粘贴的内容替换当前原文？</value></data>
+  <data name="Library.ImportChanged" xml:space="preserve"><value>读取期间输入已改变，未替换当前原文。</value></data>
+  <data name="Library.ImportCancelled" xml:space="preserve"><value>已取消读取，原文保留。</value></data>
+  <data name="Library.EncodingError" xml:space="preserve"><value>未导入。请使用 UTF-8 或带 BOM 的 UTF-16 TXT，并检查容量。原文保留。</value></data>
+  <data name="Library.Annotate" xml:space="preserve"><value>自动注音与校对</value></data>
+  <data name="Library.Annotating" xml:space="preserve"><value>正在离线生成注音…</value></data>
+  <data name="Library.AnnotationCancelled" xml:space="preserve"><value>已取消注音，原草稿保留。</value></data>
+  <data name="Library.AnnotationInputError" xml:space="preserve"><value>请填写标题和正文（词语最多64字）；语法还需句型和例句。句型用 {主语} 表示占位符。总计不超过20,000个文本元素。</value></data>
+  <data name="Library.ReviewPinyin" xml:space="preserve"><value>校对拼音</value></data>
+  <data name="Library.AnnotationHint" xml:space="preserve"><value>自动读音尚未审校。点字可选候选、输入拼音或标为未知；人工修改只作用于本处并锁定。改音不代表录音也已改变。</value></data>
+  <data name="Library.ReviewCount" xml:space="preserve"><value>待复核 {0} / 汉字 {1}</value></data>
+  <data name="Library.SavePersonal" xml:space="preserve"><value>保存到个人内容</value></data>
+  <data name="Library.PreviewContent" xml:space="preserve"><value>预览排版</value></data>
+  <data name="Library.UndoAnnotation" xml:space="preserve"><value>撤销上次注音修改</value></data>
+  <data name="Library.ReviewFilter" xml:space="preserve"><value>切换：全部 / 待复核</value></data>
+  <data name="Library.NeedsReviewOnly" xml:space="preserve"><value>仅待复核</value></data>
+  <data name="Library.AllTokens" xml:space="preserve"><value>全部汉字</value></data>
+  <data name="Library.ManualLocked" xml:space="preserve"><value>人工锁定</value></data>
+  <data name="Library.Confirmed" xml:space="preserve"><value>已确认</value></data>
+  <data name="Library.NeedsReview" xml:space="preserve"><value>待复核</value></data>
+  <data name="Library.EnterPinyin" xml:space="preserve"><value>输入拼音</value></data>
+  <data name="Library.UnknownPinyin" xml:space="preserve"><value>标为未知并锁定</value></data>
+  <data name="Library.CandidateHint" xml:space="preserve"><value>Unicode字音候选，需自行校对</value></data>
+  <data name="Library.ToneHint" xml:space="preserve"><value>请输入带声调拼音，如 ni3、nǐ、lv4；轻声用0或5。无调拼音不会自动当成轻声。</value></data>
+  <data name="Library.ToneRequired" xml:space="preserve"><value>未保存：请输入合法音节和明确声调（轻声0/5），或选择未知。</value></data>
+  <data name="Library.SaveUnreviewed" xml:space="preserve"><value>还有 {0} 个字待复核或未知。保存后仍保留这些标记，继续保存？</value></data>
+  <data name="Library.UnmappedManual" xml:space="preserve"><value>有 {0} 处人工改音无法唯一对应到新正文。继续将这些位置重新注音；上一个版本保留为撤销依据。</value></data>
+  <data name="Library.ContinueAnnotation" xml:space="preserve"><value>继续生成</value></data>
+  <data name="Library.PatternHint" xml:space="preserve"><value>句型，如 {主语} 是 {名词}</value></data>
+  <data name="Library.ExampleHint" xml:space="preserve"><value>语法例句（必填）</value></data>
+  <data name="Library.EditPinyin" xml:space="preserve"><value>编辑此内容拼音</value></data>
+  <data name="Library.CopyAndEdit" xml:space="preserve"><value>复制为个人内容并改音</value></data>
+  <data name="Library.AudioProtected" xml:space="preserve"><value>片段变化涉及已有音轨，未提交。请保留原内容，另存个人副本后继续；原音频不会删除。</value></data>
+  <data name="Audio.Manage" xml:space="preserve"><value>音频与录音</value></data>
+  <data name="Audio.WholeUnit" xml:space="preserve"><value>目标：完整正文单元</value></data>
+  <data name="Audio.Segment" xml:space="preserve"><value>目标：当前片段</value></data>
+  <data name="Audio.Hint" xml:space="preserve"><value>录音保存在本机。支持 PCM16 WAV、常见 MP3 和单音轨 AAC-LC M4A；压缩音频解码为 WAV 后保存，源文件不变。输入及解码结果均最多 100 MiB，录音最多 20 分钟。全文音轨不代表片段时间轴。</value></data>
+  <data name="Audio.Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Audio.Finalizing" xml:space="preserve"><value>正在停止并保存录音草稿…</value></data>
+  <data name="Audio.Stopped" xml:space="preserve"><value>已停止</value></data>
+  <data name="Audio.PlayDefault" xml:space="preserve"><value>播放适用音轨</value></data>
+  <data name="Audio.Record" xml:space="preserve"><value>开始录音</value></data>
+  <data name="Audio.Import" xml:space="preserve"><value>导入 WAV / MP3 / M4A</value></data>
+  <data name="Audio.Settings" xml:space="preserve"><value>麦克风权限设置</value></data>
+  <data name="Audio.Refresh" xml:space="preserve"><value>刷新</value></data>
+  <data name="Audio.Drafts" xml:space="preserve"><value>音频草稿</value></data>
+  <data name="Audio.Ready" xml:space="preserve"><value>可试听草稿</value></data>
+  <data name="Audio.Incomplete" xml:space="preserve"><value>未完成草稿：可尝试恢复完整文件，或丢弃。</value></data>
+  <data name="Audio.Name" xml:space="preserve"><value>音轨名称</value></data>
+  <data name="Audio.Recording" xml:space="preserve"><value>录音</value></data>
+  <data name="Audio.Imported" xml:space="preserve"><value>导入音频</value></data>
+  <data name="Audio.SetDefault" xml:space="preserve"><value>设为此目标的默认音轨</value></data>
+  <data name="Audio.NeedsReview" xml:space="preserve"><value>正文或读音已变化，需复核</value></data>
+  <data name="Audio.Confirm" xml:space="preserve"><value>确认仍适用</value></data>
+  <data name="Audio.Save" xml:space="preserve"><value>保存音轨</value></data>
+  <data name="Audio.Recover" xml:space="preserve"><value>尝试恢复</value></data>
+  <data name="Audio.Discard" xml:space="preserve"><value>丢弃草稿</value></data>
+  <data name="Audio.DiscardHint" xml:space="preserve"><value>丢弃这份音频草稿？其他草稿和已保存音轨不受影响。</value></data>
+  <data name="Audio.Tracks" xml:space="preserve"><value>已保存音轨</value></data>
+  <data name="Audio.NoTracks" xml:space="preserve"><value>此目标还没有音轨。</value></data>
+  <data name="Audio.Standard" xml:space="preserve"><value>标准音轨</value></data>
+  <data name="Audio.Default" xml:space="preserve"><value>默认且适用</value></data>
+  <data name="Audio.Confirmed" xml:space="preserve"><value>已确认适用</value></data>
+  <data name="Audio.Remove" xml:space="preserve"><value>移除此音轨</value></data>
+  <data name="Audio.RemoveHint" xml:space="preserve"><value>移除此目标的音轨绑定？不会删除正文，也不会立即清除共享音频文件。</value></data>
+  <data name="Audio.ConfirmHint" xml:space="preserve"><value>请先试听并核对上方当前正文及拼音。确认这条音频仍完全适用？</value></data>
+  <data name="Audio.Preview" xml:space="preserve"><value>试听</value></data>
+  <data name="Audio.Playing" xml:space="preserve"><value>正在播放…</value></data>
+  <data name="Audio.Played" xml:space="preserve"><value>播放完成</value></data>
+  <data name="Audio.Busy" xml:space="preserve"><value>正在录音或收尾，请先停止。</value></data>
+  <data name="Audio.NoPlayback" xml:space="preserve"><value>没有适用的本地音轨，或音频无法播放。</value></data>
+  <data name="Audio.PermissionDenied" xml:space="preserve"><value>未获得麦克风权限。可在系统设置中开启，之后再点击录音。</value></data>
+  <data name="Audio.InvalidFile" xml:space="preserve"><value>音频损坏、编码不支持或超出容量。支持 PCM16 WAV、常见 MP3 和非加密单音轨 AAC-LC M4A；输入与解码结果各不超过 100 MiB。原文件保持不变。</value></data>
+  <data name="Audio.Failed" xml:space="preserve"><value>操作未完成，草稿会保留。请刷新后重试；正文或拼音变化时，先试听并确认仍适用。</value></data>
+  <data name="GrammarEdit.Title" xml:space="preserve"><value>编辑语法结构</value></data>
+  <data name="GrammarEdit.Hint" xml:space="preserve"><value>按说明、例句和注记分别编辑；保存草稿后校对拼音，再保存正式内容。</value></data>
+  <data name="GrammarEdit.Invalid" xml:space="preserve"><value>请检查必填内容、数量和长度。至少保留一条说明和一条例句。</value></data>
+  <data name="GrammarEdit.Unsaved" xml:space="preserve"><value>有未保存的修改，请保存草稿或放弃修改后离开。</value></data>
+  <data name="GrammarEdit.Save" xml:space="preserve"><value>保存语法草稿</value></data>
+  <data name="GrammarEdit.DiscardChanges" xml:space="preserve"><value>放弃未保存的修改</value></data>
+  <data name="GrammarEdit.DiscardHint" xml:space="preserve"><value>恢复到上次保存的草稿？</value></data>
+  <data name="GrammarEdit.Review" xml:space="preserve"><value>校对拼音并保存</value></data>
+  <data name="GrammarEdit.Name" xml:space="preserve"><value>标题</value></data>
+  <data name="GrammarEdit.Pattern" xml:space="preserve"><value>句型组成</value></data>
+  <data name="GrammarEdit.Literal" xml:space="preserve"><value>固定文字</value></data>
+  <data name="GrammarEdit.Slot" xml:space="preserve"><value>占位符</value></data>
+  <data name="GrammarEdit.Operator" xml:space="preserve"><value>连接符号</value></data>
+  <data name="GrammarEdit.PartUp" xml:space="preserve"><value>句型项上移</value></data>
+  <data name="GrammarEdit.RemovePart" xml:space="preserve"><value>移除句型项</value></data>
+  <data name="GrammarEdit.AddPart" xml:space="preserve"><value>添加句型项</value></data>
+  <data name="GrammarEdit.Translation.ja" xml:space="preserve"><value>日文译文（可选）</value></data>
+  <data name="GrammarEdit.Translation.en" xml:space="preserve"><value>英文译文（可选）</value></data>
+  <data name="GrammarEdit.Topics" xml:space="preserve"><value>语法主题</value></data>
+  <data name="GrammarEdit.Topic.negation" xml:space="preserve"><value>否定</value></data>
+  <data name="GrammarEdit.Topic.question" xml:space="preserve"><value>疑问</value></data>
+  <data name="GrammarEdit.Topic.comparison" xml:space="preserve"><value>比较</value></data>
+  <data name="GrammarEdit.Topic.time" xml:space="preserve"><value>时间</value></data>
+  <data name="GrammarEdit.Topic.location" xml:space="preserve"><value>位置</value></data>
+  <data name="GrammarEdit.Topic.progressive" xml:space="preserve"><value>进行</value></data>
+  <data name="GrammarEdit.Units" xml:space="preserve"><value>说明、例句与注记</value></data>
+  <data name="GrammarEdit.UnitUp" xml:space="preserve"><value>在同类中上移</value></data>
+  <data name="GrammarEdit.RemoveUnit" xml:space="preserve"><value>移除此单元</value></data>
+  <data name="GrammarEdit.RemoveUnitHint" xml:space="preserve"><value>移除此单元？已绑定音频或录音草稿的单元无法从正式内容删除，可保留原文或另存副本。</value></data>
+  <data name="GrammarEdit.AddGrammarExplanation" xml:space="preserve"><value>添加说明</value></data>
+  <data name="GrammarEdit.AddExample" xml:space="preserve"><value>添加例句</value></data>
+  <data name="GrammarEdit.AddGrammarNote" xml:space="preserve"><value>添加注记</value></data>
+  <data name="Library.Trash" xml:space="preserve"><value>个人内容回收站</value></data>
+  <data name="Library.TrashHint" xml:space="preserve"><value>回收站保留正文、拼音、收藏、音频和草稿，不释放磁盘空间。恢复后可重新打开编辑；旧编辑草稿需另存副本。</value></data>
+  <data name="Library.TrashEmpty" xml:space="preserve"><value>回收站为空</value></data>
+  <data name="Library.RestoreContent" xml:space="preserve"><value>恢复内容</value></data>
+  <data name="Library.MoveToTrash" xml:space="preserve"><value>移入回收站</value></data>
+  <data name="Library.TrashPreview" xml:space="preserve"><value>关联收藏 {0} 项、音轨 {1} 条、草稿 {2} 份、其他引用 {3} 项。移入后从学习、查词和收藏列表隐藏，所有关联保留，可在“草稿 → 个人内容回收站”恢复。</value></data>
+  <data name="Library.RetainedContents" xml:space="preserve"><value>保留的旧内容</value></data>
+  <data name="Library.RetainedHint" xml:space="preserve"><value>这些内容因收藏、音频、修改或其他引用而保留，可继续阅读、管理音频或复制编辑。卸载保留的未改动内容可在同版本重装时接回；更新快照独立保留。</value></data>
+  <data name="Library.Ready" xml:space="preserve"><value>可用</value></data>
+  <data name="Manage.Entries" xml:space="preserve"><value>管理资源条目</value></data>
+  <data name="Manage.EntriesHint" xml:space="preserve"><value>撤下条目会从学习和查词列表隐藏，收藏仍可阅读。撤下状态在卸载重装后保留。</value></data>
+  <data name="Manage.RestoreEntry" xml:space="preserve"><value>恢复条目</value></data>
+  <data name="Manage.WithdrawEntry" xml:space="preserve"><value>撤下条目</value></data>
+  <data name="Manage.WithdrawHint" xml:space="preserve"><value>撤下此条目？正文、收藏和音频保留，可在此恢复。</value></data>
+  <data name="Manage.RetainingUninstall" xml:space="preserve"><value>卸载“{0}”？将保留 {1} 条受引用或已修改的内容，删除 {2} 条未引用内容。收藏、用户音频和草稿继续保留；卸载后保留内容可从草稿入口查看。本操作不回收音频文件。</value></data>
+  <data name="Library.ContentTransfer" xml:space="preserve"><value>内容包导入与分享</value></data>
+  <data name="Transfer.Title" xml:space="preserve"><value>内容包导入与分享</value></data>
+  <data name="Transfer.Hint" xml:space="preserve"><value>勾选四类完整内容，最多100条。保存的拼音和译文一并导出，可另选本人WAV录音；不含草稿、收藏或设置。包上限32 MiB，单文件16 MiB。</value></data>
+  <data name="Transfer.Import" xml:space="preserve"><value>导入内容包</value></data>
+  <data name="Transfer.Preview" xml:space="preserve"><value>预览所选内容</value></data>
+  <data name="Transfer.Export" xml:space="preserve"><value>生成内容包</value></data>
+  <data name="Transfer.Share" xml:space="preserve"><value>打开系统分享</value></data>
+  <data name="Transfer.Clear" xml:space="preserve"><value>清空选择</value></data>
+  <data name="Transfer.Previous" xml:space="preserve"><value>上一页</value></data>
+  <data name="Transfer.Next" xml:space="preserve"><value>下一页</value></data>
+  <data name="Transfer.Attest" xml:space="preserve"><value>若所选个人输入尚无许可声明，我确认有权分享其中的文字和译文。此确认不能解除资源包的分享限制。</value></data>
+  <data name="Transfer.Selected" xml:space="preserve"><value>已选择 {0} 条</value></data>
+  <data name="Transfer.Changed" xml:space="preserve"><value>选择已变化，请重新预览。</value></data>
+  <data name="Transfer.PreviewInfo" xml:space="preserve"><value>固定快照：{0} 条内容；默认排除 {1} 条音轨、{2} 份相关草稿。受限 {3} 条，需要个人授权确认 {4} 条。</value></data>
+  <data name="Transfer.PreviewFirst" xml:space="preserve"><value>请先预览所选内容。</value></data>
+  <data name="Transfer.ExportFirst" xml:space="preserve"><value>请先生成内容包。</value></data>
+  <data name="Transfer.Exported" xml:space="preserve"><value>内容包已生成并校验。可打开系统分享；临时副本保留7天，系统可能提前清理缓存。</value></data>
+  <data name="Transfer.ShareOpened" xml:space="preserve"><value>已调用系统分享；这不表示对方已收到文件。</value></data>
+  <data name="Transfer.ImportPreview" xml:space="preserve"><value>新增 {0} 条，复用 {1} 条，冲突另存 {2} 条（计入新增）。保留本机内容，不导入收藏或设置。支持v2文字及WAV内容包。</value></data>
+  <data name="Transfer.Imported" xml:space="preserve"><value>导入完成：新增 {0} 条，复用 {1} 条。可在学习分类中打开。</value></data>
+  <data name="Transfer.Allowed" xml:space="preserve"><value>来源声明允许分享</value></data>
+  <data name="Transfer.NeedsRights" xml:space="preserve"><value>需要确认个人输入的分享权利</value></data>
+  <data name="Transfer.Restricted" xml:space="preserve"><value>来源限制分享</value></data>
+  <data name="Transfer.Rights" xml:space="preserve"><value>有受限条目或尚未确认个人分享权利。请检查预览并调整选择。</value></data>
+  <data name="Transfer.Stale" xml:space="preserve"><value>资料已变化，请刷新预览后重试。</value></data>
+  <data name="Transfer.Collision" xml:space="preserve"><value>同一包ID对应不同内容，已拒绝导入。</value></data>
+  <data name="Transfer.Invalid" xml:space="preserve"><value>文件无效、超限或类型不支持。这里只接受v2内容包及完整PCM16 WAV；资源包请从资源管理安装。</value></data>
+  <data name="Transfer.Failed" xml:space="preserve"><value>操作未完成，原有资料保持。请重试。</value></data>
+  <data name="Transfer.Cancelled" xml:space="preserve"><value>已取消。</value></data>
+  <data name="Transfer.CacheFull" xml:space="preserve"><value>分享临时区已满。请等待旧临时副本到期后重试。</value></data>
+  <data name="Audio.ShareRecording" xml:space="preserve"><value>分享此录音</value></data>
+  <data name="Audio.ShareRecordingHint" xml:space="preserve"><value>将分享真实WAV录音，可能包含可识别你的声音；不包含正文、拼音或关联信息。确认你有权分享，接收者只能播放声音。</value></data>
+  <data name="Transfer.ChooseAudio" xml:space="preserve"><value>选择随包录音</value></data>
+  <data name="Transfer.AudioHint" xml:space="preserve"><value>默认不选音频；只可勾选已保存的本人WAV录音。第三方导入/标准音轨暂不能随包分享。待复核音轨会保留待复核状态。</value></data>
+  <data name="Transfer.AudioPage" xml:space="preserve"><value>录音第 {0}/{1} 页 · 已选 {2} 条</value></data>
+  <data name="Transfer.AudioApply" xml:space="preserve"><value>使用这些录音</value></data>
+  <data name="Transfer.AudioNone" xml:space="preserve"><value>不含音频</value></data>
+  <data name="Transfer.AudioDetails" xml:space="preserve"><value>{0:0.0} 秒 · {1:0.0} KiB</value></data>
+  <data name="Transfer.AudioRestricted" xml:space="preserve"><value>此音轨不可随包分享</value></data>
+  <data name="Transfer.AudioReview" xml:space="preserve"><value>需要复核</value></data>
+  <data name="Transfer.AudioReady" xml:space="preserve"><value>已确认匹配</value></data>
+  <data name="Transfer.AudioPreferred" xml:space="preserve"><value>本机默认音轨</value></data>
+  <data name="Transfer.AudioSelected" xml:space="preserve"><value>随包录音 {0} 条；排除 {1} 条；所选音轨文件合计 {2:0.0} KiB（相同字节打包时去重）。</value></data>
+  <data name="Transfer.AudioConsent" xml:space="preserve"><value>所选录音可能包含可识别你的声音。确认你有权分享，并同意将这些录音及正文一起交付？接收方会将音轨标为导入音频；不会冒充接收方本人录音。</value></data>
+  <data name="Transfer.AudioImport" xml:space="preserve"><value>音轨新增 {0} 条、复用 {1} 条，其中待复核 {2} 条；实际音频 {3:0.0} KiB。本机已有默认音轨优先。</value></data>
+  <data name="Install.UpdatePreview" xml:space="preserve"><value>版本 {0} → {1}
+新增 {2}，变更 {3}，移除 {4}，未变 {5}
+保留旧内容 {6} 条。</value></data>
+  <data name="Install.PublisherChanged" xml:space="preserve"><value>发布者声明已变化。此声明未经独立验证，请核对文件来源。</value></data>
+  <data name="Install.UpdateProtected" xml:space="preserve"><value>更新涉及未完成录音、未知草稿格式或无法核实的教学引用。请先停止录音并恢复完整草稿，或处理相关引用；旧版未更改。</value></data>
+  <data name="Install.Downgrade" xml:space="preserve"><value>不能安装较低版本，请选择更高版本。</value></data>
+  <data name="Install.UpdateMissing" xml:space="preserve"><value>此资源已卸载。请先重装原版本，再选择新版更新。</value></data>
+  <data name="Install.WrongResource" xml:space="preserve"><value>所选文件的资源身份或类型与当前资源不一致。</value></data>
+  <data name="Install.Updated" xml:space="preserve"><value>更新完成，当前版本有 {0} 条内容。保留资料可从草稿入口查看。</value></data>
+  <data name="Install.UpdateReview" xml:space="preserve"><value>查看资源更新</value></data>
+  <data name="Install.UpdateContinue" xml:space="preserve"><value>继续并确认更新</value></data>
+  <data name="Install.UpdatePreservation" xml:space="preserve"><value>变更或移除的旧内容若有收藏、音轨等引用，将保留为独立资料，收藏和旧音轨随之保留。新版不会自动使用旧录音。启停、优先级和撤下记录保持。</value></data>
+  <data name="Install.Change.added" xml:space="preserve"><value>新增</value></data>
+  <data name="Install.Change.changed" xml:space="preserve"><value>变更</value></data>
+  <data name="Install.Change.removed" xml:space="preserve"><value>移除</value></data>
+  <data name="Install.Change.unchanged" xml:space="preserve"><value>未变</value></data>
+  <data name="Install.RetainOld" xml:space="preserve"><value>保留旧版及其引用</value></data>
+  <data name="Install.UpdatePick" xml:space="preserve"><value>选择新版资源文件</value></data>
+  <data name="Install.UpdateReferences" xml:space="preserve"><value>随旧内容保留：已落盘录音草稿 {0} 份、教学例字引用 {1} 处。</value></data>
+  <data name="Reader.PlayAll" xml:space="preserve"><value>播放全文</value></data>
+  <data name="Reader.PlaySelection" xml:space="preserve"><value>播放当前片段</value></data>
+  <data name="Reader.PlayUnit" xml:space="preserve"><value>播放整句</value></data>
+  <data name="Reader.LocalPlayback" xml:space="preserve"><value>已有匹配录音优先；缺少录音时可使用已启用的内置 AI 声音朗读。</value></data>
+  <data name="Reader.PreparingAudio" xml:space="preserve"><value>正在检查音轨…</value></data>
+  <data name="Reader.MissingAudio" xml:space="preserve"><value>有 {0} 个目标缺少录音。请在设置 → AI 离线语音包启用声音，或添加匹配录音。</value></data>
+  <data name="Reader.StaleAudio" xml:space="preserve"><value>正文或读音已改变，请返回后重新打开内容。</value></data>
+  <data name="Reader.PlayingUnit" xml:space="preserve"><value>正在播放完整单元 {0}/{1}（无分段时间轴）</value></data>
+  <data name="Reader.PlayingSegment" xml:space="preserve"><value>正在播放片段 {0}/{1}</value></data>
+  <data name="Reader.PlaybackFailed" xml:space="preserve"><value>播放已停止：音轨无法读取、已失效或播放失败。请检查音频后重试。</value></data>
+  <data name="Pinyin.ClickExample" xml:space="preserve"><value>{0} 的例字：{1} · {2}（播放完整例字音节）</value></data>
+  <data name="Pinyin.Busy" xml:space="preserve"><value>正在录音，请先停止录音。</value></data>
+  <data name="Backup.Title" xml:space="preserve"><value>备份与合并恢复</value></data>
+  <data name="Backup.Hint" xml:space="preserve"><value>备份已保存内容、音频、收藏、教学目录、设置及可携带资源。草稿和回收站不包含。合并保留本机资料；替换需核验安全副本并两次确认。</value></data>
+  <data name="Backup.Preview" xml:space="preserve"><value>预览备份</value></data>
+  <data name="Backup.Partial" xml:space="preserve"><value>我接受上方列出的资源未包含；恢复后可能需要重新安装这些资源。</value></data>
+  <data name="Backup.Export" xml:space="preserve"><value>生成备份文件</value></data>
+  <data name="Backup.Share" xml:space="preserve"><value>保存或分享备份</value></data>
+  <data name="Backup.ApplySettings" xml:space="preserve"><value>恢复时应用备份中的语言、阅读与音频设置（默认保留本机设置）</value></data>
+  <data name="Backup.Import" xml:space="preserve"><value>选择备份并合并恢复</value></data>
+  <data name="Backup.Working" xml:space="preserve"><value>正在读取已保存数据和音频…</value></data>
+  <data name="Backup.PreviewInfo" xml:space="preserve"><value>内容 {0}；收藏夹 {1}；收藏 {2}；音轨 {3}（{4:N1} KiB）。包含资源 {5}；未包含资源 {6}。排除草稿 {7}、回收站 {8}。</value></data>
+  <data name="Backup.Exported" xml:space="preserve"><value>备份文件已校验并生成在应用私有区。请点击“保存或分享备份”交给系统保存。</value></data>
+  <data name="Backup.ImportInfo" xml:space="preserve"><value>新增内容 {0}，复用 {1}，冲突另存 {2}，新增音轨 {3}，新增夹 {4}，收藏成员 {5}。安装资源 {6}，保留本机资源 {7}，缺失或仅快照 {8}，保留名称或重名夹 {9}。不会删除或覆盖本机正文。</value></data>
+  <data name="Backup.SettingsWillApply" xml:space="preserve"><value>将应用备份设置。已有资源的启停、优先级和撤下状态保留本机选择。</value></data>
+  <data name="Backup.SettingsKept" xml:space="preserve"><value>保留本机设置和已有资源状态。</value></data>
+  <data name="Backup.Imported" xml:space="preserve"><value>合并恢复完成：新增 {0}，复用 {1}；仍有 {2} 个资源缺失或仅保留快照。</value></data>
+  <data name="Backup.Rights" xml:space="preserve"><value>部分必要内容的备份许可受限或未确认，未生成备份。请先核对来源许可。</value></data>
+  <data name="Backup.RecordingBusy" xml:space="preserve"><value>有尚未收尾的录音，请先保存或放弃该录音。</value></data>
+  <data name="Backup.Limit" xml:space="preserve"><value>当前包上限为 32 MiB，单音频上限 16 MiB；已停止操作，没有截断或丢弃音频。</value></data>
+  <data name="Backup.Replace" xml:space="preserve"><value>替换已保存数据</value></data>
+  <data name="Backup.ReplaceInfo" xml:space="preserve"><value>将移除 {0} 条个人/快照内容、{1} 条音轨、{2} 个收藏夹及 {3} 条收藏，恢复 {4} 条内容；{5} 个资源无法完整恢复。保留已安装目录，恢复设置。</value></data>
+  <data name="Backup.PrepareSafety" xml:space="preserve"><value>创建安全副本</value></data>
+  <data name="Backup.ReplaceConfirm" xml:space="preserve"><value>数据库及音频安全副本已核验。现在替换已保存的用户数据（含回收站）？未保存草稿须先处理。</value></data>
+  <data name="Backup.Recovery" xml:space="preserve"><value>查看安全副本</value></data>
+  <data name="Backup.NoRecovery" xml:space="preserve"><value>暂无替换记录。</value></data>
+  <data name="Backup.RecoveryCommitted" xml:space="preserve"><value>当前数据库中有对应的提交记录；安全副本已保留。</value></data>
+  <data name="Backup.RecoveryUncommitted" xml:space="preserve"><value>当前数据库中没有对应的提交记录；安全副本已保留。</value></data>
+  <data name="Backup.DraftsBlock" xml:space="preserve"><value>请先保存或处理未保存草稿，再执行替换。</value></data>
+  <data name="Backup.ReferencesBlock" xml:space="preserve"><value>教学目录正在引用个人快照，请使用合并恢复以保留引用。</value></data>
+  <data name="Backup.SafetyRequired" xml:space="preserve"><value>需要完整可核验的安全副本，请重新预览。</value></data>
+  <data name="Pinyin.ImportCatalog" xml:space="preserve"><value>导入教学目录</value></data>
+  <data name="Pinyin.ImportCatalogInfo" xml:space="preserve"><value>导入 {0} 项教学条目，引用本地已安装内容。音频须与例字一致。</value></data>
+  <data name="Install.ReinstallDisabled" xml:space="preserve"><value>这会以新版重新安装已卸载资源，并保持停用。审核后可单独启用。</value></data>
+  <data name="Transfer.SaveFile" xml:space="preserve"><value>另存文件</value></data>
+  <data name="Transfer.SaveZip" xml:space="preserve"><value>另存为 ZIP（兼容后缀）</value></data>
+  <data name="Backup.SaveFile" xml:space="preserve"><value>另存备份文件</value></data>
+  <data name="Backup.SaveZip" xml:space="preserve"><value>另存为 ZIP（兼容后缀）</value></data>
+  <data name="Audio.SaveFile" xml:space="preserve"><value>另存录音文件</value></data>
+  <data name="Transfer.FileSaved" xml:space="preserve"><value>文件已写入所选位置；若选择云端位置，同步由该提供方负责。</value></data>
+  <data name="Speech.Title" xml:space="preserve"><value>朗读声音</value></data>
+  <data name="Speech.Voice" xml:space="preserve"><value>普通话语音</value></data>
+  <data name="Speech.Refresh" xml:space="preserve"><value>检测本机语音</value></data>
+  <data name="Speech.Preview" xml:space="preserve"><value>试听这句中文</value></data>
+  <data name="Speech.Hint" xml:space="preserve"><value>检测或试听需要主动点击。此页试听只使用下方固定句子。Android 排除需联网或未安装的语音；真正离线可用性仍需验证。阅读页默认只使用本地音轨，仅在明确选择并确认后将缺录音目标的中文交给系统语音。手工拼音不控制系统读音。</value></data>
+  <data name="Speech.Unavailable" xml:space="preserve"><value>未找到可用普通话语音，或系统语音服务未就绪。可在系统设置中检查已安装语音。</value></data>
+  <data name="Speech.Available" xml:space="preserve"><value>已发现本机普通话候选。试听成功不代表离线及教学读音已经验收。</value></data>
+  <data name="Privacy.Title" xml:space="preserve"><value>本地数据与隐私</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>正文、拼音校正、收藏、设置和录音存储在应用私有目录。当前没有账号、广告、统计上报或正文/录音上传接口。麦克风仅在你点击录音并允许权限后启用，退出或进入后台会停止录音并尝试保留草稿。</value></data>
+  <data name="Privacy.Speech" xml:space="preserve"><value>选择系统文字转语音后，点击字典或正文会把相应文字交给设备语音提供方。Android 排除声明需要联网的音色；系统语音是否真正离线仍取决于设备。内置 MeloTTS 和 Kokoro 在本机生成声音，正文不会上传。</value></data>
+  <data name="Privacy.Export" xml:space="preserve"><value>分享和另存由你选择范围与位置。备份含个人文字、收藏和声音，未加密。云盘位置及分享接收应用按各自规则处理文件。Android 已关闭应用自动备份并排除设备迁移；其他平台的系统备份策略仍由系统决定。请使用应用的完整备份功能主动保管副本。</value></data>
+  <data name="Privacy.Delete" xml:space="preserve"><value>移除音轨或放入回收站不等于擦除物理文件。为保护引用和恢复，旧音频、恢复安全副本以及部分临时文件可能继续保留，当前没有自动磁盘回收。生成新分享副本时会清理超过 7 天的旧副本；系统可能提前清理。应用无法删除你已导出到其他位置的副本。</value></data>
+  <data name="Transfer.SaveFailed" xml:space="preserve"><value>保存未完成。所选位置可能留有不完整文件；应用内原件保持不变，可重新选择位置保存。</value></data>
+  <data name="Audio.Decoding" xml:space="preserve"><value>正在校验并解码音频，可点击停止取消……</value></data>
+  <data name="Reader.SpeechFallback" xml:space="preserve"><value>缺少录音时使用系统语音</value></data>
+  <data name="Reader.SpeechConsent" xml:space="preserve"><value>有 {0} 个目标缺少适用录音。是否将这些目标的屏幕中文交给系统普通话语音？系统读音不遵守手工拼音，不能用于验证校正。语音提供方由系统管理，已安装不等于已验证离线可用。现有适用录音仍优先。</value></data>
+  <data name="Reader.SpeechDisabled" xml:space="preserve"><value>当前仅使用本地音频。请先在设置的系统语音页面允许阅读使用系统语音。</value></data>
+  <data name="Speech.AllowReading" xml:space="preserve"><value>允许阅读使用系统语音（默认关闭，每次仍需确认）</value></data>
+  <data name="Pinyin.Resources" xml:space="preserve"><value>拼音资源与音源署名</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>单击发音，长按或右键查看字典释义。</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>内置拼音录音来自 audio-cmn，与字典无关。启用 AI 声音后，可按标注拼音和声调离线合成，声母使用 bo、po、mo、fo 等教学读音，并支持单独 ong。可在此关闭 AI 优先来比较录音。录音来源声明 CC BY-SA，未注明版本；录音和 AI 合成的教学听审仍待完成。</value></data>
+  <data name="Voice.Title" xml:space="preserve"><value>AI 离线语音包</value></data>
+  <data name="Voice.Hint" xml:space="preserve"><value>语音包随应用提供。可试听、选择音色和恢复缓存；点“使用这个声音朗读”会切换当前朗读音源。已有录音优先。</value></data>
+  <data name="Voice.Info" xml:space="preserve"><value>内置中文 · {0:F1} MiB · {1} 个音色</value></data>
+  <data name="Voice.Download" xml:space="preserve"><value>恢复内置语音包</value></data>
+  <data name="Voice.DownloadConfirm" xml:space="preserve"><value>从 Hugging Face 下载约 {0:F1} MiB 的模型文件，可能使用移动数据。正文不会上传。是否下载？</value></data>
+  <data name="Voice.Progress" xml:space="preserve"><value>正在准备并校验：{0:P0}</value></data>
+  <data name="Voice.Preview" xml:space="preserve"><value>试听上面的文字</value></data>
+  <data name="Voice.Use" xml:space="preserve"><value>使用这个声音朗读</value></data>
+  <data name="Voice.Disable" xml:space="preserve"><value>停用 AI 朗读</value></data>
+  <data name="Voice.Remove" xml:space="preserve"><value>清除语音包缓存</value></data>
+  <data name="Voice.RemoveConfirm" xml:space="preserve"><value>清除已解包的模型并停用 AI 朗读。文字、收藏和录音会保留；安装包中的内置模型仍在，可随时离线恢复。</value></data>
+  <data name="Voice.Cancel" xml:space="preserve"><value>取消准备 / 停止</value></data>
+  <data name="Voice.Speaker" xml:space="preserve"><value>普通话声音 {0:000}</value></data>
+  <data name="Voice.Generating" xml:space="preserve"><value>正在本机生成声音，首次可能稍慢…</value></data>
+  <data name="Voice.Installed" xml:space="preserve"><value>内置语音包已就绪。选择音色试听，再点击“使用这个声音朗读”。</value></data>
+  <data name="Voice.Selected" xml:space="preserve"><value>已启用所选 AI 声音，返回学习页面即可点读。</value></data>
+  <data name="Voice.Disabled" xml:space="preserve"><value>AI 朗读已停用，内置语音包保留。</value></data>
+  <data name="Voice.NotInstalled" xml:space="preserve"><value>语音缓存已清除或不完整，可离线恢复内置语音包。</value></data>
+  <data name="Voice.Unsupported" xml:space="preserve"><value>这个平台暂未接入 AI 离线语音引擎。</value></data>
+  <data name="Voice.Failed" xml:space="preserve"><value>操作未完成。请检查存储空间或恢复内置语音包；原有学习资料未改动。</value></data>
+  <data name="Voice.DownloadTimeout" xml:space="preserve"><value>准备语音包超时，请重试。原有学习资料未改动。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>两套模型均内置并在本机运行，文字和录音不上传。清除缓存不会删除学习资料。拼音练习优先原录音，缺录音时由 MeloTTS 按课程读音补充；字典和正文使用朗读设置中选择的音源。</value></data>
+  <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai，MIT。Kokoro：hexgrad，Apache-2.0。引擎：sherpa-onnx，Apache-2.0。声音为合成音频，许可和来源随包保留。</value></data>
+<data name="Voice.ChooseSpeaker" xml:space="preserve"><value>选择音色</value></data>
+<data name="Voice.Sample" xml:space="preserve"><value>试听文字</value></data>
+<data name="Voice.UnsupportedText" xml:space="preserve"><value>此语音包无法读出这段文字中的部分字符、英文或表情。请修改文字，或使用录音、系统语音；没有跳过内容，也没有上传文字。</value></data>
+  <data name="Backup.SnapshotTotal" xml:space="preserve"><value>共 {0} 份副本，已验证副本占用 {1:F1} MB。</value></data>
+  <data name="Backup.SnapshotValid" xml:space="preserve"><value>完整性通过 · {0:F1} MB</value></data>
+  <data name="Backup.SnapshotIncompatible" xml:space="preserve"><value>版本不兼容，不能恢复；副本已保留。</value></data>
+  <data name="Backup.SnapshotDamaged" xml:space="preserve"><value>副本损坏或未完成，不能恢复；不会自动清理。</value></data>
+  <data name="Backup.RestoreSnapshot" xml:space="preserve"><value>恢复此安全副本</value></data>
+  <data name="Backup.SnapshotImpact" xml:space="preserve"><value>当前 {0} 条内容将替换为副本中的 {1} 条内容、{2} 份音频、{3} 个收藏夹和 {4} 条回收站记录。设置、资源状态和拼音教学数据也将恢复。下一步先保存当前状态。</value></data>
+  <data name="Backup.SnapshotConfirm" xml:space="preserve"><value>当前状态已保存为新的安全副本。确认用选中的副本替换当前内容、收藏、设置和资源状态？AI 语音模型文件不受影响。</value></data>
+  <data name="Backup.SnapshotRestored" xml:space="preserve"><value>恢复完成。操作记录：{0}。恢复前的状态可在安全副本中找回。</value></data>
+  <data name="Backup.RetainRecent" xml:space="preserve"><value>整理安全副本（保留最近 3 份）</value></data>
+  <data name="Backup.RetentionInfo" xml:space="preserve"><value>将删除 {0} 份较旧且完整的副本，释放 {1:F1} MB。最近 3 份完整副本以及损坏、状态不明的副本将保留；同时继续之前已确认但中断的副本清理。此操作不能撤销。</value></data>
+  <data name="Backup.ScanAudio" xml:space="preserve"><value>扫描孤立音频</value></data>
+  <data name="Backup.CleanupProtected" xml:space="preserve"><value>目前有受保护的数据，未删除任何音频。</value></data>
+  <data name="Backup.CleanupDrafts" xml:space="preserve"><value>请先处理未保存草稿或回收站记录，然后重新扫描。</value></data>
+  <data name="Backup.CleanupInfo" xml:space="preserve"><value>发现 {0} 个孤立文件；可清理 {1} 个，共 {2:F1} MB；另有 {3} 个仍在保护期。首次发现后至少保留 7 天。已引用的录音和安全副本引用的音频受保护。</value></data>
+  <data name="Backup.CleanupConfirm" xml:space="preserve"><value>删除前会再次检查引用。确认永久删除这些超过保护期的孤立音频？</value></data>
+  <data name="Backup.Clean" xml:space="preserve"><value>确认清理</value></data>
+  <data name="Backup.CleanupResult" xml:space="preserve"><value>已删除 {0} 个文件，释放 {1:F1} MB；{2} 个因状态变化或已删除而跳过。</value></data>
+  <data name="Backup.Invalid" xml:space="preserve"><value>备份文件无效、损坏或格式不支持。请选择 HanMate 生成的 .hanbackup 或 .hanbackup.zip 备份；内容包请从内容导入页面打开。</value></data>
+  <data name="Backup.ExportFirst" xml:space="preserve"><value>请先预览并生成备份文件。</value></data>
+  <data name="Search.TextMode" xml:space="preserve"><value>文字</value></data>
+  <data name="Search.HandwritingMode" xml:space="preserve"><value>手写</value></data>
+  <data name="Handwriting.Hint" xml:space="preserve"><value>一次写一个字，按笔顺书写；每次抬笔更新候选。</value></data>
+  <data name="Handwriting.Pad" xml:space="preserve"><value>单字手写田字格</value></data>
+  <data name="Handwriting.Empty" xml:space="preserve"><value>在下方田字格写一个汉字</value></data>
+  <data name="Handwriting.Writing" xml:space="preserve"><value>正在书写…</value></data>
+  <data name="Handwriting.Recognizing" xml:space="preserve"><value>正在识别…</value></data>
+  <data name="Handwriting.Count" xml:space="preserve"><value>已写 {0} 笔 · 点击字或词查看释义</value></data>
+  <data name="Handwriting.Undo" xml:space="preserve"><value>撤销一笔</value></data>
+  <data name="Handwriting.Clear" xml:space="preserve"><value>清空重写</value></data>
+  <data name="Handwriting.Credits" xml:space="preserve"><value>数据来源</value></data>
+  <data name="Handwriting.NoExamples" xml:space="preserve"><value>暂无相关词语</value></data>
+  <data name="Handwriting.NoDefinition" xml:space="preserve"><value>当前本地字典尚无这个字的释义，可以查看相关词语，或在字典管理中安装更多词条。</value></data>
+  <data name="Handwriting.Failed" xml:space="preserve"><value>暂时无法识别或查词，请撤销一笔或清空后重试。</value></data>
+  <data name="Dictionary.About" xml:space="preserve"><value>默认字典与来源</value></data>
+  <data name="Dictionary.Summary" xml:space="preserve"><value>{0} 个字词条目 · 版本 {1} · 离线可用</value></data>
+  <data name="Dictionary.Enabled" xml:space="preserve"><value>启用默认字典</value></data>
+  <data name="Dictionary.Description" xml:space="preserve"><value>简体字头和中文释义，收录汉字、词语与成语，支持繁体检索。来源为 chinese-xinhua 网络整理库，含旧释义，尚未全面审校；不是官方《新华字典》授权版。缺失拼音自动补注并标为待校对，不加入已确认读音索引。只读词库和启用设置不随个人备份迁移。</value></data>
+  <data name="Pinyin.PreferAi" xml:space="preserve"><value>拼音优先使用已启用的 AI 声音</value></data>
+  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>默认使用原有拼音、例字和例词录音；缺少完整录音时用已启用的语音包补充。开启此项才优先合成；导入录音和已知错音的匹配录音仍优先。此开关不影响字典释义和例句朗读。</value></data>
+  <data name="DictionaryDetail.Title" xml:space="preserve"><value>字典</value></data>
+  <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>释义</value></data>
+  <data name="DictionaryDetail.Examples" xml:space="preserve"><value>用法与例句</value></data>
+  <data name="DictionaryDetail.HidePinyin" xml:space="preserve"><value>收起拼音</value></data>
+  <data name="DictionaryDetail.ShowPinyin" xml:space="preserve"><value>显示拼音</value></data>
+  <data name="DictionaryDetail.Speak" xml:space="preserve"><value>朗读词目；再次点击停止</value></data>
+  <data name="DictionaryDetail.More" xml:space="preserve"><value>更多</value></data>
+  <data name="DictionaryDetail.Source" xml:space="preserve"><value>词条信息与来源</value></data>
+  <data name="DictionaryDetail.Manage" xml:space="preserve"><value>编辑与管理</value></data>
+  <data name="DictionaryDetail.NoExamples" xml:space="preserve"><value>暂无收录例句</value></data>
+  <data name="DictionaryDetail.Automatic" xml:space="preserve"><value>释义拼音为自动注音，多音字可进一步核对。</value></data>
+  <data name="DictionaryDetail.Supplement" xml:space="preserve"><value>含补充学习例句，尚待审校。</value></data>
+  <data name="DictionaryDetail.PinyinSource" xml:space="preserve"><value>注音：pypinyin 0.55.0（MIT），本机离线生成；保留已有词头读音。</value></data>
+  <data name="DictionaryDetail.NoVoice" xml:space="preserve"><value>当前语音包未启用或缓存未就绪，请在“朗读声音”中选择音色或恢复语音包。</value></data>
+  <data name="DictionaryDetail.Failed" xml:space="preserve"><value>词条暂时无法显示，请返回重试。</value></data>
+  <data name="DictionaryDetail.Expand" xml:space="preserve"><value>展开全部释义 ⌄</value></data>
+  <data name="DictionaryDetail.Collapse" xml:space="preserve"><value>收起长释义 ⌃</value></data>
+  <data name="DictionaryDetail.Original" xml:space="preserve"><value>查看完整原文</value></data>
+  <data name="Learn.WordHint" xml:space="preserve"><value>按常用、数字、重量等类别学习</value></data>
+  <data name="Learn.TextHint" xml:space="preserve"><value>句段与文章</value></data>
+  <data name="Learn.GrammarHint" xml:space="preserve"><value>句型与用法</value></data>
+  <data name="Learn.PoemHint" xml:space="preserve"><value>诗词与诵读</value></data>
+  <data name="Learn.DraftsTitle" xml:space="preserve"><value>新建与草稿</value></data>
+  <data name="Learn.DraftsHint" xml:space="preserve"><value>导入 TXT，或继续编辑</value></data>
+  <data name="Library.More" xml:space="preserve"><value>更多操作</value></data>
+  <data name="Library.FolderActions" xml:space="preserve"><value>管理收藏夹</value></data>
+  <data name="Settings.LanguageGroup" xml:space="preserve"><value>界面语言</value></data>
+  <data name="Settings.ContentGroup" xml:space="preserve"><value>学习资料</value></data>
+  <data name="Settings.AudioGroup" xml:space="preserve"><value>语音与发音</value></data>
+  <data name="Settings.DataGroup" xml:space="preserve"><value>数据与隐私</value></data>
+  <data name="Library.DictionaryFavorites" xml:space="preserve"><value>字典收藏</value></data>
+  <data name="DictionaryDetail.AddFavorite" xml:space="preserve"><value>收藏</value></data>
+  <data name="DictionaryDetail.SavedFavorite" xml:space="preserve"><value>已收藏</value></data>
+  <data name="DictionaryDetail.RemoveFavorite" xml:space="preserve"><value>取消收藏</value></data>
+  <data name="DictionaryDetail.FavoriteFailed" xml:space="preserve"><value>收藏状态更新失败，请重试。</value></data>
+  <data name="DictionaryDetail.FavoriteMissing" xml:space="preserve"><value>当前字典版本中未找到此词条，可移除收藏。</value></data>
+  <data name="DictionaryDetail.SpeakPassage" xml:space="preserve"><value>朗读这一段；再次点击停止</value></data>
+  <data name="DictionaryDetail.SpeechPending" xml:space="preserve"><value>正在准备或朗读，再次点击文字可停止。</value></data>
+  <data name="Speech.Engine" xml:space="preserve"><value>文字转语音</value></data>
+  <data name="Speech.System" xml:space="preserve"><value>系统文字转语音</value></data>
+  <data name="Speech.ManagePack" xml:space="preserve"><value>管理当前语音包</value></data>
+  <data name="Speech.SystemHint" xml:space="preserve"><value>使用本机已安装的普通话音色。Android 仅列出无需联网的已安装声音；系统按文字朗读，不遵循手工拼音。已有录音仍优先。</value></data>
+  <data name="Speech.MeloHint" xml:space="preserve"><value>MeloTTS · 内置中文女声 · 44.1 kHz。字典和正文使用这个音源，已有录音优先。</value></data>
+  <data name="Speech.KokoroHint" xml:space="preserve"><value>Kokoro · 内置中文男女声 · 24 kHz。请选择音色后试听，已有录音优先。</value></data>
+  <data name="Voice.Female" xml:space="preserve"><value>女声</value></data>
+  <data name="Voice.Male" xml:space="preserve"><value>男声</value></data>
+  <data name="Pinyin.Guide.Title" xml:space="preserve"><value>拼音使用向导</value></data>
+  <data name="Pinyin.Guide.Step" xml:space="preserve"><value>第 {0} / 4 步</value></data>
+  <data name="Pinyin.Guide.TapTitle" xml:space="preserve"><value>单击拼音，听读音</value></data>
+  <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>点一下亮着的“{0}”，听它的拼音读音。</value></data>
+  <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>长按拼音，看例字</value></data>
+  <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>按住“{0}”约半秒，进入例字例词页。</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>鼠标也可以右键；键盘聚焦后按 F10。</value></data>
+  <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>跳过向导</value></data>
+  <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>单击例字，听读音</value></data>
+  <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>点一下亮着的“{0}”，听例字的读音。</value></data>
+  <data name="Pinyin.Guide.ExampleHoldTitle" xml:space="preserve"><value>长按例字，看释义</value></data>
+  <data name="Pinyin.Guide.ExampleHoldBody" xml:space="preserve"><value>按住“{0}”约半秒，打开字典释义。</value></data>
+  <data name="WordCategories.Title" xml:space="preserve"><value>按类别学词语</value></data>
+  <data name="WordCategories.Hint" xml:space="preserve"><value>选择一个类别，开始学习。</value></data>
+  <data name="WordCategories.Count" xml:space="preserve"><value>{0} 个词语</value></data>
+  <data name="WordCategories.all" xml:space="preserve"><value>全部词语</value></data>
+  <data name="WordCategories.common" xml:space="preserve"><value>常用</value></data>
+  <data name="WordCategories.numbers" xml:space="preserve"><value>数字</value></data>
+  <data name="WordCategories.weight" xml:space="preserve"><value>重量</value></data>
+  <data name="WordCategories.time" xml:space="preserve"><value>时间</value></data>
+  <data name="WordCategories.family" xml:space="preserve"><value>家庭</value></data>
+  <data name="WordCategories.food" xml:space="preserve"><value>饮食</value></data>
+  <data name="WordCategories.colors" xml:space="preserve"><value>颜色</value></data>
+  <data name="WordCategories.travel" xml:space="preserve"><value>出行</value></data>
+  <data name="WordCategories.study" xml:space="preserve"><value>学习</value></data>
+  <data name="WordCategories.nature" xml:space="preserve"><value>自然</value></data>
+  <data name="WordCategories.other" xml:space="preserve"><value>其他词语</value></data>
+  <data name="WordCategories.address" xml:space="preserve"><value>称呼</value></data>
+  <data name="WordCategories.greetings" xml:space="preserve"><value>招呼</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>单击播放，再次单击停止；长按或右键查看释义。</value></data>
+  <data name="LearningWords.Meaning" xml:space="preserve"><value>词语释义</value></data>
+  <data name="LearningWords.NoMeaning" xml:space="preserve"><value>这个词语暂未添加释义。</value></data>
+  <data name="GrammarDetail.Hint" xml:space="preserve"><value>点击说明或例句可朗读，再次点击可停止。</value></data>
+  <data name="GrammarDetail.Speak" xml:space="preserve"><value>朗读整句，再次点击停止</value></data>
+  <data name="GrammarDetail.Manage" xml:space="preserve"><value>录音、编辑与分享</value></data>
+  <data name="GrammarDetail.Source" xml:space="preserve"><value>内容信息与来源</value></data>
+  <data name="WordCategories.quantifiers" xml:space="preserve"><value>数量词</value></data>
+  <data name="WordCategories.length" xml:space="preserve"><value>长度</value></data>
+  <data name="LessonDetail.Hint" xml:space="preserve"><value>点击片段直接朗读，再次点击可停止；“朗读全文”可连读整篇。</value></data>
+  <data name="LessonDetail.ReadAll" xml:space="preserve"><value>朗读全文</value></data>
+  <data name="LessonDetail.SpeakSegment" xml:space="preserve"><value>朗读本段，再次点击停止</value></data>
+  <data name="LessonDetail.Manage" xml:space="preserve"><value>录音、编辑与分享</value></data>
+  <data name="LessonDetail.Source" xml:space="preserve"><value>内容信息与来源</value></data>
+  <data name="WordCategories.seasonings" xml:space="preserve"><value>调味料</value></data>
+  <data name="WordCategories.kitchenware" xml:space="preserve"><value>厨房用具</value></data>
+  <data name="WordCategories.household" xml:space="preserve"><value>生活用品</value></data>
+</root>

@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "dependencies": {
+    "net10.0": {
+      "org.k2fsa.sherpa.onnx": {
+        "type": "Direct",
+        "requested": "[1.13.8, )",
+        "resolved": "1.13.8",
+        "contentHash": "CVBBX154lJ0STD8At5t0LvnSuOiXRwOI/8YeTvEEd+K1xwbtLZTQ4tQESyGEcfdIXTf+ucaGF4LMpHfI4R5yCw==",
+        "dependencies": {
+          "org.k2fsa.sherpa.onnx.runtime.android-arm64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.android-x64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.linux-arm64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.linux-x64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.osx-arm64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.osx-x64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.win-arm64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.win-x64": "1.13.8",
+          "org.k2fsa.sherpa.onnx.runtime.win-x86": "1.13.8"
+        }
+      },
+      "Humanizer.Core": {
+        "type": "Transitive",
+        "resolved": "3.0.10",
+        "contentHash": "yZIhtw8sYuvsONzQbZxWpR60tMWYHXoo0DL6nyOqSFiU5POjBTSEyWFpTQtJEZuy+oqiYTXKXY/Mjx7KnqIQFw=="
+      },
+      "Json.More.Net": {
+        "type": "Transitive",
+        "resolved": "3.0.1",
+        "contentHash": "fRctF2J2SILYG6wqP21drmeEODmCVkVQ/b3MndDu2fT1swfySyUgq7ePCk+aENGlDcIm05fyfjh9vcuqDEfv3w=="
+      },
+      "JsonPointer.Net": {
+        "type": "Transitive",
+        "resolved": "7.0.2",
+        "contentHash": "oClYHv2ooeRrtPZyC9sb/Za/ie5pGhjTbNHlAyFg4XOCyU+606FdoZKS7UdaWvtsPlrF+U2w0Ja3TRvn5+spyA==",
+        "dependencies": {
+          "Humanizer.Core": "3.0.10",
+          "Json.More.Net": "3.0.1"
+        }
+      },
+      "Microsoft.Data.Sqlite.Core": {
+        "type": "Transitive",
+        "resolved": "10.0.12",
+        "contentHash": "2aL9eL5HQr0V4b8V909SD+jQAx6qnTTl7sT/v3D8dIvmr2UGdpZIQxqm1pj2Js3e4EYTvpw0oMH7DjapJJuPPw==",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.12"
+        }
+      },
+      "org.k2fsa.sherpa.onnx.runtime.android-arm64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "0bEXZHGGu3ywaXjx0nwmHoBkPsVDKQjfC6FpqGGpBLnfokMbvPaGXgFShFW73bW8PSOB4gc9cLrVRkgOImy67A=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.android-x64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "BMltFcQOnoIgWRUDb2lNGF2FHuoWoWMP6DKrJgzsdkRXCIdl3jX0lpbj+etBeW+8wdXmKxREGA2hrvO8h42k0g=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.linux-arm64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "Vg6iDY3YDILvapwKrCrByAnBu2OImxuZNsB0Sg1k+Gox3GV2runHidTZtNTHJZUA9zFdjAz9Ab4HzqsaATjrzg=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.linux-x64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "rqWNcekzaZHKX0xwYHePwGMwa9lb/JiuNh6Cc0f+Jnz6r5U45BdAtqUUJNh9F5DO2d2CuabAbBe3IqkngtVR8w=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.osx-arm64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "lhEqIPi/KlleNXrNMxXLpBrT1e3uONY/Nt0v7kswxXzvOwj89484ylpMu4jns7rpVug0Y/MfFP6kCDuV2CZo5Q=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.osx-x64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "jUYwCbi+y7yNHbAFB3u2pyQihsrdk0fl8tC5yPvaqeLqgfUn1wdsrXsS+maJTx/8Phxfx+HHlcii31zlQHSv2w=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.win-arm64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "EQk0M1dpvIOG9uVtYz7kgkmlrdajQcqbzAPCdTHeOOSYy68biXk1/O8pyHeBwTF9J9i2xDiJq+PtyNc7C8Vmbg=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.win-x64": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "qQS9IQTRet05fl82IlM93XLNnuhW50lhepOBR2qzbjxWKjSXFTvx8SlALAoCLDGyURrQ5iOgl97JZFEeIG9A9g=="
+      },
+      "org.k2fsa.sherpa.onnx.runtime.win-x86": {
+        "type": "Transitive",
+        "resolved": "1.13.8",
+        "contentHash": "QbpkOX0LBcYq/AUZTIlrwz7tPunhqVAFT8A9+JnVw6a6TYRFKvSBwxIWUPbNfpyGYPkTFNunpFIJzcLyiek0gg=="
+      },
+      "SQLitePCLRaw.bundle_e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.12",
+        "contentHash": "mAgscpQMLw5/nfA1Q5oJVAT29yROUo1ifZGbbTpx/lwZpSxMUGoYbKfmvdm8oXER+RzxqBmmQzeBEVKfeHv2nw==",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.12",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.12"
+        }
+      },
+      "SQLitePCLRaw.core": {
+        "type": "Transitive",
+        "resolved": "2.1.12",
+        "contentHash": "ETpNw9DY3ckWLgRRAeCHj+GKOuPi61aeczkXhgHexUvqoZBAYg8RYESE2J7O1M7+o6QbdSEZwrw9bfqztUVWXg=="
+      },
+      "SQLitePCLRaw.lib.e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.12",
+        "contentHash": "fWi8Dbknuhgg72fWinIdjXVaqO1hHL4YBBwVLnr7e1c9TAZwJ0QE38j9syW1hwx6HaqEVTwI+O07WPdZn8Rp0w=="
+      },
+      "SQLitePCLRaw.provider.e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.12",
+        "contentHash": "W3oH4XIfCzFrgUSDKHhN6N+dgzA5YHOR2VxX8GB6Qy7CyrJJgxPEG8NirgYWlPQC5P2jz2knSsexWu4tDUL33g==",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.12"
+        }
+      },
+      "hanmate.core": {
+        "type": "Project"
+      },
+      "hanmate.infrastructure": {
+        "type": "Project",
+        "dependencies": {
+          "HanMate.Core": "[1.0.0, )",
+          "JsonSchema.Net": "[9.4.0, )",
+          "Microsoft.Data.Sqlite": "[10.0.12, )"
+        }
+      },
+      "JsonSchema.Net": {
+        "type": "CentralTransitive",
+        "requested": "[9.4.0, )",
+        "resolved": "9.4.0",
+        "contentHash": "muE4nPuzbD9x5XA1mkXJNqX4mhz47oF3EY8qFLY1pyUY7lhXFKq65t/dSKIHeNSLBV17zwZuq24MD1em90rMNg==",
+        "dependencies": {
+          "JsonPointer.Net": "7.0.2"
+        }
+      },
+      "Microsoft.Data.Sqlite": {
+        "type": "CentralTransitive",
+        "requested": "[10.0.12, )",
+        "resolved": "10.0.12",
+        "contentHash": "xUq9xUc653ue7ac2rMfCaf8UQN+U3zS8poWYlugycpvJllplMM0Mk7v/+MM0CTlu9zGvbGML4BPH8YWhrUOfGw==",
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "10.0.12",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.12",
+          "SQLitePCLRaw.core": "2.1.12"
+        }
+      }
+    }
+  }
+}

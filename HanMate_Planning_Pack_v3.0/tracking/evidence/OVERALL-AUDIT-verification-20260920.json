@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-20",
+  "scope": "Read-only source/evidence audit and documentation update; no new application build/test/UI run",
+  "workPackages": {
+    "DONE": 35,
+    "IN_PROGRESS": 10,
+    "TODO": 3
+  },
+  "remainingWorkPackages": [
+    "W0-02",
+    "W0-04",
+    "W0-05",
+    "W0-06",
+    "W3-05",
+    "W4-06",
+    "W5-01",
+    "W5-02",
+    "W5-03",
+    "W5-04",
+    "W5-05",
+    "W5-06",
+    "W5-07"
+  ],
+  "originalAcceptanceCases": 176,
+  "originalAggregate": "NOT RUN",
+  "supplementalCases": 49,
+  "scopedExecutionRows": 62,
+  "reviewSummary": {
+    "subjects": 767,
+    "contents": 227,
+    "units": 456,
+    "audio": 224,
+    "demos": 63,
+    "voices": 174,
+    "pendingSubjects": 767,
+    "findingsByCode": {
+      "CONTENT_DRAFT": 227,
+      "DEMO_MISSING": 1,
+      "LICENSE_VERSION_UNRESOLVED": 224,
+      "READING_RECHECK": 22
+    },
+    "decisionIssues": 0,
+    "releaseReady": false
+  },
+  "reviewScopeGap": "The 767 subjects do not constitute per-entry coverage of xinhua.sqlite.gz; add a default-dictionary artifact/rights gate and review batches.",
+  "releaseReady": false,
+  "releaseBlocked": 5,
+  "preflightChecks": [
+    {
+      "check": "release_identity",
+      "status": "BLOCKED"
+    },
+    {
+      "check": "windows_publisher",
+      "status": "BLOCKED"
+    },
+    {
+      "check": "source_android_permissions",
+      "status": "PASS"
+    },
+    {
+      "check": "android_auto_backup",
+      "status": "PASS"
+    },
+    {
+      "check": "source_share_scope",
+      "status": "PASS"
+    },
+    {
+      "check": "lock_HanMate.Core",
+      "status": "PASS"
+    },
+    {
+      "check": "lock_HanMate.Infrastructure",
+      "status": "PASS"
+    },
+    {
+      "check": "lock_HanMate.App",
+      "status": "PASS"
+    },
+    {
+      "check": "lock_HanMate.Core.Tests",
+      "status": "PASS"
+    },
+    {
+      "check": "lock_HanMate.Infrastructure.Tests",
+      "status": "PASS"
+    },
+    {
+      "check": "localization",
+      "status": "PASS"
+    },
+    {
+      "check": "work_packages",
+      "status": "BLOCKED"
+    },
+    {
+      "check": "shipped_content_and_audio_review",
+      "status": "BLOCKED"
+    },
+    {
+      "check": "native_and_store_evidence",
+      "status": "BLOCKED"
+    },
+    {
+      "check": "apk_permissions",
+      "status": "PASS"
+    },
+    {
+      "check": "apk_backup_disabled",
+      "status": "PASS"
+    },
+    {
+      "check": "apk_share_scope",
+      "status": "PASS"
+    }
+  ],
+  "artifacts": {
+    "androidApk": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\bin\\Release\\net10.0-android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "32a5f7688342af461fa6cdc22cc61021c1d64f747be40da7e12e1fde691d2fed"
+    },
+    "windowsApp": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-scroll-windows\\HanMate.App.dll",
+      "sha256": "ba8424a5e0e3a669d28fdca557c89e08f218638f43bdaa455a82021cddda7fd6"
+    },
+    "dictionaryPage": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.App\\Pages\\DictionaryEntryPage.cs",
+      "sha256": "a66de9b3bef6a236585c3eb681b32df0bc38c118810cb8d31c568bed4ceae453"
+    },
+    "auditTool": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\tools\\content_review_audit.py",
+      "sha256": "c30bdffe8b045fa07ca2d2003a4bdf57ca709252f66cd953cc754783a466d4f8"
+    },
+    "xinhuaNotice": {
+      "path": "C:\\Users\\yoiri\\source\\repos\\HanMate\\HanMate.Infrastructure\\Dictionary\\XINHUA-NOTICE.json",
+      "sha256": "240f5b23da9854a2f87878f8a35c7801744ea9823488c8cffab2902f0a76034b"
+    },
+    "scrollUiReport": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-scroll-ui\\verification.json",
+      "sha256": "a7c1d52321bdfbe2dc34787d6ffbb4abd2fa2076571ed302ce2f1c1eb2701ef1"
+    },
+    "windowsBuildLog": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-scroll-windows.log",
+      "sha256": "88092a12a874368643be97f4fa3bb2969b9eb9f4941d5a039ef09e57319a43db"
+    },
+    "androidBuildLog": {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-scroll-android.log",
+      "sha256": "1cfb5183cf99c33f6254b17a4d2048ee06889178c049b5bb42dd72f5bf291adf"
+    }
+  },
+  "previousScrollUi": {
+    "status": "PASS",
+    "scope": "Android API36 long expanded dictionary definition; off-on-off keeps first visible block; not pixel-identical because line height changes",
+    "snapshots": [
+      "1789833352134840500",
+      "1789833374698197000",
+      "1789833396485312400"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pinyin-catalog.schema.json",
+  "title": "HanMate pinyin-catalog.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "catalogId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "catalogVersion": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "groupCode": {
+            "enum": [
+              "initial",
+              "spellingAid",
+              "simpleFinal",
+              "compoundFinal",
+              "nasalFinal",
+              "wholeSyllable"
+            ]
+          },
+          "display": {
+            "type": "string"
+          },
+          "sortOrder": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "demoAudioAssetId": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tone": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 4
+                },
+                "status": {
+                  "enum": [
+                    "available",
+                    "unavailable"
+                  ]
+                },
+                "contentId": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "highlight": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "contentId": {
+                          "type": "string",
+                          "format": "uuid"
+                        },
+                        "unitId": {
+                          "type": "string",
+                          "format": "uuid"
+                        },
+                        "tokenId": {
+                          "type": "string",
+                          "format": "uuid"
+                        },
+                        "pinyinElementStart": {
+                          "type": "integer",
+                          "minimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "pinyinElementLength": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 9007199254740991
+                        }
+                      },
+                      "required": [
+                        "contentId",
+                        "unitId",
+                        "tokenId",
+                        "pinyinElementStart",
+                        "pinyinElementLength"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "tone",
+                "status",
+                "contentId",
+                "highlight",
+                "note"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "reviewStatus": {
+            "enum": [
+              "draft",
+              "needsReview",
+              "approved"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "groupCode",
+          "display",
+          "sortOrder",
+          "demoAudioAssetId",
+          "examples",
+          "reviewStatus"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "catalogId",
+    "catalogVersion",
+    "items"
+  ],
+  "additionalProperties": false
+}

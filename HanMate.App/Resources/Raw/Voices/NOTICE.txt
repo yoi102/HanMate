@@ -1,0 +1,35 @@
+HanMate bundled offline speech models
+
+MeloTTS Chinese: MyShell.ai, MIT.
+ONNX conversion: k2-fsa/sherpa-onnx.
+Model: https://huggingface.co/csukuangfj/vits-melo-tts-zh_en/tree/a0d5c6a264c0ef92d70d8661d8cc502d79627cd6
+Output: 44100 Hz. One official Chinese female voice. No male voice is claimed.
+
+Kokoro v1.1-zh: hexgrad, Apache-2.0.
+Chinese voice data attribution: LongMaoData, as described by the model author:
+https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
+Pinned FP32 model (Android INT8 numerical failures were observed in device testing):
+https://huggingface.co/csukuangfj/kokoro-multi-lang-v1_1/tree/914313412b607d95400bcd12446233fbd1248801
+Unchanged voice embeddings and front-end data remain pinned to:
+https://huggingface.co/csukuangfj/kokoro-int8-multi-lang-v1_1/tree/155831f1b4ba23b1f5c058be6a61df90cefb2a37
+Output: 24000 Hz. 55 Chinese female and 45 Chinese male speaker embeddings.
+Three English embeddings remain in the unchanged voices.bin but are not offered
+as Chinese voices. Speaker IDs are read from the original ONNX metadata.
+
+Each model's original LICENSE and README are included in its directory.
+Models and front-end data are unmodified pinned upstream files; SHA-256 and
+lengths are recorded in HanMate.Infrastructure/Voices/catalog*.json.
+
+Runtime: sherpa-onnx 1.13.8, Apache-2.0; ONNX Runtime, Microsoft, MIT.
+https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8
+Kokoro requires espeak-ng front-end data (GPL-3.0-or-later); its license is included.
+https://github.com/espeak-ng/espeak-ng
+Both packs include CppJieba/jieba data; upstream MIT notices are included.
+https://github.com/yanyiwu/cppjieba
+https://github.com/fxsjy/jieba
+
+This is an internal development integration. Formal content, model/data license,
+redistribution obligations and listening review remain separate release gates.
+No claim of final release approval or human-reviewed pronunciation is made.
+All model synthesis runs locally. No user text is uploaded and no voice cloning
+or pitch-shifted imitation of a missing speaker is performed.

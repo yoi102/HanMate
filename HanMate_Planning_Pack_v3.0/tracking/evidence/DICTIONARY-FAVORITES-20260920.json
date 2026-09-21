@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-20",
+  "scope": "Dictionary star favorites and headword tap playback; no separate play button",
+  "changedInputs": [
+    {
+      "path": "HanMate.App/Pages/DictionaryEntryPage.cs",
+      "sha256": "7ad017c340c9fb0a5efd434014edf9481e40f3a4f15ac3553e3462d8561394a4"
+    },
+    {
+      "path": "HanMate.App/Pages/DictionaryBookmarksPage.cs",
+      "sha256": "c35e8afab6e205f7b76c24a136ef21f17eb1020c19be8306f7a640a4c68370cd"
+    },
+    {
+      "path": "HanMate.App/Pages/FavoritesPage.xaml.cs",
+      "sha256": "303206072c2f2e58079697d76ffbc1b990372c720afc8787133c71381eac36a1"
+    },
+    {
+      "path": "HanMate.App/MauiProgram.cs",
+      "sha256": "fee90854a11fe89f051eaeebac8887b7a1bb890c259552238a3f5669775ab797"
+    },
+    {
+      "path": "HanMate.App/Resources/Images/favorite_outline.svg",
+      "sha256": "6cd714940de5d5580e5e46cc4c87cf1c74b4eaea712db9ad2c7fc44db7128e92"
+    },
+    {
+      "path": "HanMate.App/Resources/Images/favorite_filled.svg",
+      "sha256": "714ed1d82659ca86168d663416019ae22a8fcc5c96bbcaad9fa50f97f42ee5df"
+    },
+    {
+      "path": "HanMate.Infrastructure/Database/DictionaryBookmarkStore.cs",
+      "sha256": "bd7053dc51361154856bde09897a3978dee3f581a6b272aa5d23d486145d8697"
+    },
+    {
+      "path": "HanMate.Infrastructure/Packages/BackupPackage.cs",
+      "sha256": "c61a80db26d59539b3db717d9c1b36e3d2800cdadacde950dd7d05e7d878a91a"
+    },
+    {
+      "path": "HanMate.Infrastructure/Packages/BackupExportStore.cs",
+      "sha256": "3efa61aa717020c2b63db92dc99974edf44431375036631d796eba83e10eee5a"
+    },
+    {
+      "path": "HanMate.Infrastructure/Packages/BackupImportStore.cs",
+      "sha256": "51cc2dc5b30b835fb31fd9a5f672e77a144240cbbf842f9f7f11dfa0cdf8129e"
+    },
+    {
+      "path": "HanMate.Infrastructure/Packages/BackupReplacementStore.cs",
+      "sha256": "fe8f94569485cc2e4970e8804332b131d70d499988f020994d1fc1a4a4b56ea9"
+    },
+    {
+      "path": "HanMate.Infrastructure.Tests/Database/BackupTests.DictionaryBookmarks.cs",
+      "sha256": "b3170cfeffc45c900147c912c96f50ad89ef0775197939d7e25515821f025ac1"
+    },
+    {
+      "path": "HanMate_Planning_Pack_v3.0/specs/collections.schema.json",
+      "sha256": "a8558a6acc36c752c265d4c1ad0421f826a591d42ed18ea577b95c212e7ad168"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.ja.resx",
+      "sha256": "b1ae4c8b7fc2e366e542fa8def3873f3adb5f69cc4f34ed179b72c6b2da3b124"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.resx",
+      "sha256": "6fe5ab7adf98b0702dc9e8404ab15f0d127feb7f3af425060de3302c0bcf9443"
+    },
+    {
+      "path": "HanMate.App/Localization/AppResources.zh-Hans.resx",
+      "sha256": "996f5d47b26dd91dd2122c2cf7d40871af90978b99d0e9c855fc3a39d37d9a28"
+    }
+  ],
+  "verification": {
+    "tests": "PASS: 84 (73 BackupTests including safety, 8 LearningFavoritesDraftTests, 3 DefaultDictionaryTests); 10 new bookmark cases",
+    "windowsRelease": "PASS: 0 warnings / 0 errors",
+    "androidRelease": "PASS: 0 warnings / 0 errors",
+    "icons": "PASS: Windows scaled PNGs and both Android APK star resources",
+    "localization": "PASS: 593 keys in three languages; placeholders match",
+    "uiAndListening": "NOT RUN per user",
+    "installation": "NOT RUN"
+  },
+  "artifacts": [
+    {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-favorites-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+      "sha256": "424fea7a8c1d2dd314143e1b5c70d4b0826805221be1a4f5231e5dc45ba3032f"
+    },
+    {
+      "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-dictionary-favorites-20260920\\windows\\HanMate.App.exe",
+      "sha256": "d07f63b7b3c1bcfb6d147fde23fa134c95287be10608eddd344d5a3221cdd0f4"
+    }
+  ],
+  "statusBoundary": "45/48 unchanged; original 176 aggregate NOT RUN; 82 execution rows unchanged; HM-D019 OPEN"
+}

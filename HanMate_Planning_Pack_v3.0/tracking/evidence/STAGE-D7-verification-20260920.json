@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-20",
+  "milestone": {
+    "done": 40,
+    "inProgress": 6,
+    "todo": 2,
+    "closed": [
+      "W0-04",
+      "W3-05"
+    ],
+    "ios": "EXCLUDED per ADR-105"
+  },
+  "tests": {
+    "core": 29,
+    "infrastructure": 25,
+    "nativeCompressedProbe": "PASS"
+  },
+  "builds": {
+    "windowsHumanListeningDll": "da3dd9d6ea2f859adb7f5baf8c6e63d06ed994099bf10642dab75d9fe2695b90",
+    "windowsFinalPublishedDll": "7a0de714c391d5c405e99d69fcdac8cac22a26ce5017131e928e38b46a2788ff",
+    "androidPhoneInstalledDebugApk": "9524c77c3bf6c0d5d500f72a8948045703b543a2bbcaf2ef9814aad44a1b21c2",
+    "androidNewReleaseApk": "5343a6fe285dd41dae61fc221576b67542ab9a9ca15cbb082d4ae682ba1585da",
+    "androidNewReleaseInstalled": false
+  },
+  "recordings": {
+    "windows": [
+      {
+        "label": "D2 synthetic tone (not speech)",
+        "sha256": "3a6f623c555c324fb74a4c908858c66a47d05bd316459514858cc4529c31aa34",
+        "byte_length": 16044,
+        "duration_ms": 1000,
+        "sample_rate": 8000,
+        "channels": 1,
+        "preferred": 1,
+        "rms": 2828.1098847109884,
+        "peak": 4000
+      },
+      {
+        "label": "D7-Windows-Recording-1",
+        "sha256": "23dedd832cd21da475af1e37c02e1d6f79eeeb7c37c7a4ec447079162f390756",
+        "byte_length": 2949490,
+        "duration_ms": 33440,
+        "sample_rate": 44100,
+        "channels": 1,
+        "preferred": 0,
+        "rms": 3.3070659081998053,
+        "peak": 240
+      },
+      {
+        "label": "D7-Windows-Recording-2",
+        "sha256": "0daf924bf78bed65844514b2615af79e6218a5c50e683a1d05af05e6828dd3d2",
+        "byte_length": 1485370,
+        "duration_ms": 16840,
+        "sample_rate": 44100,
+        "channels": 1,
+        "preferred": 0,
+        "rms": 0.02265020565142481,
+        "peak": 2
+      }
+    ],
+    "android": [
+      {
+        "label": "7002",
+        "sha256": "905b3cffdd4e350af7c7673c1303d6ed33822c70c5b971283aeb3dbc1da26e31",
+        "byte_length": 1732286,
+        "duration_ms": 19639,
+        "sample_rate": 44100,
+        "channels": 1,
+        "preferred": null,
+        "rms": 2458.7707869857422,
+        "peak": 24953
+      },
+      {
+        "label": "7001",
+        "sha256": "389a1513a0f251b9338abe2d1c0eb623ff376087117784cc930fc1d0ae306c62",
+        "byte_length": 2332046,
+        "duration_ms": 26439,
+        "sample_rate": 44100,
+        "channels": 1,
+        "preferred": null,
+        "rms": 1525.679218408803,
+        "peak": 25270
+      }
+    ]
+  },
+  "restoredPhoneSettings": {
+    "recordAudioGranted": true,
+    "temporaryUserFixedFlagCleared": true,
+    "wifi": 1,
+    "mobileData": 1,
+    "stayOnWhilePluggedIn": 0
+  },
+  "limitations": [
+    "Android system Mandarin unavailable; UI handling PASS, synthesis NOT RUN",
+    "Windows network not disabled for TTS",
+    "Headset/Bluetooth/telephone/long-run matrix NOT RUN",
+    "Full 176 aggregate NOT RUN",
+    "HM-D019 OPEN",
+    "Content/licensing/signing/release gates BLOCKED"
+  ],
+  "documentation": {
+    "validationGroupsPassed": 16,
+    "fileHashes": 220,
+    "supplementalCases": 59,
+    "executionRows": 82,
+    "originalAggregateNotRun": 176
+  },
+  "releasePreflight": {
+    "status": "BLOCKED",
+    "blockedGroups": 5
+  }
+}

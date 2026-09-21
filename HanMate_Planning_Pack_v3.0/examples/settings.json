@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "uiLanguage": "ja",
+  "reading": {
+    "showPinyin": true,
+    "fontSize": 24
+  },
+  "audio": {
+    "policy": "localOnly",
+    "preferredLocale": "zh-CN"
+  },
+  "favorites": {
+    "lastFolderId": "3fddb33c-8258-5164-966d-4c8b9fdff259"
+  }
+}

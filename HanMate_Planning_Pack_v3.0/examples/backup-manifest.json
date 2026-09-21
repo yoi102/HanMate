@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "packageType": "backup",
+  "packageId": "04d5547f-6bd2-5825-81af-0770ce2fa9d4",
+  "createdAtUtc": "2026-09-14T00:00:00Z",
+  "producerAppVersion": "planning-fixture-3.0",
+  "contentCatalogVersion": null,
+  "counts": {
+    "contents": 24,
+    "folders": 2,
+    "favorites": 4,
+    "audioAssets": 0,
+    "audioBindings": 0,
+    "resources": 2
+  },
+  "files": [
+    {
+      "path": "audio/index.json",
+      "byteLength": 80,
+      "sha256": "a800d161f05f0c16ba6e73185d5557b7df8579f1da651ca104022bbd1b292c92"
+    },
+    {
+      "path": "collections.json",
+      "byteLength": 1253,
+      "sha256": "79345cf68c669d20b90cf4e032ee8b250a9ec2e701ab65e8a07c1d772a40a42c"
+    },
+    {
+      "path": "contents.json",
+      "byteLength": 133100,
+      "sha256": "279fc923cb32d4c1d0c83e6ef4bf1f422e0dd8c01301d0f0c795b595100e3075"
+    },
+    {
+      "path": "resources.json",
+      "byteLength": 3398,
+      "sha256": "d86b834d72f607921f0621efa0c0faa460077a290b1eecc12110328707a10a10"
+    },
+    {
+      "path": "settings.json",
+      "byteLength": 267,
+      "sha256": "2a861dbe0512fd90a529121c620a43c0196db372d4f20e53554466f3761827e5"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "FIXTURE_NOT_RELEASE_CONTENT",
+      "message": "工程样例：正文、拼音与日英译文未正式审核。"
+    },
+    {
+      "code": "NO_AUDIO_IN_FIXTURE",
+      "message": "不含音频文件；不是播放或三平台恢复测试。"
+    }
+  ]
+}

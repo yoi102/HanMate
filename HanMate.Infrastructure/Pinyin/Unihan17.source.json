@@ -1,0 +1,12 @@
+{
+  "version": "Unicode-17.0.0-kMandarin-kHanyuPinyin-v1",
+  "source": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+  "copyright": "Unihan_Readings.txt: Copyright 2025 Unicode, Inc.",
+  "license": "Unicode-3.0",
+  "archiveSha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e",
+  "readingsSha256": "575e69c9ad85a4737a889a4f94cbd987042a90a1a6cc16dd3f4ed995c715b17c",
+  "outputSha256": "4f9469160804bac06370e7850867194c7e36ca66e8bf7f54820c2b6b0568268e",
+  "readings": 55328,
+  "characters": 44350,
+  "policy": "All readings are unreviewed candidates. Unsupported syllables are counted by the runtime loader; never substituted."
+}

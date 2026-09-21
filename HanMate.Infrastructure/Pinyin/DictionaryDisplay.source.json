@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/mozillazg/python-pinyin",
+  "version": "0.55.0",
+  "license": "MIT; see Dictionary/PYPINYIN-LICENSE.txt",
+  "entries": 89034,
+  "sha256": "9cd59c0801cffec5a0553dc4029bdf540fe063b47eaf80456ec00bed077d01d4",
+  "policy": "First reading and longest phrase; automatic display only, needs review. Unsupported readings remain unannotated."
+}

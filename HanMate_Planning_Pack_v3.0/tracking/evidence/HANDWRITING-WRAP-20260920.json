@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-20",
+  "scope": "Whole-word wrapping and measured multiline height for handwriting examples",
+  "changedInputs": [
+    {
+      "path": "HanMate.App/Controls/HandwritingSearchView.cs",
+      "sha256": "b1b1135ab6a7116bfabbf324220ad81f41e980cd47a0a0425c5bdd76971c126c"
+    },
+    {
+      "path": "HanMate.App/Controls/WordFlowView.cs",
+      "sha256": "cb0a92b3aac9a4974a94add1621b743c35e6f2445e0caf8187958409fb574d93"
+    },
+    {
+      "path": "HanMate.Core/Reading/WordFlow.cs",
+      "sha256": "7114df74150edbb3b34d80eb4a108c9636cf84831d7415dfe1d277503c10b2fa"
+    },
+    {
+      "path": "HanMate.Core.Tests/WordFlowTests.cs",
+      "sha256": "af742c4b12a13a93dc4aa3c587f61e828285e8a2485c0e115a7546105edec5f4"
+    }
+  ],
+  "verification": {
+    "layoutTests": "PASS: 7 geometry cases, including 120/240 widths and 1x/2x synthetic font metrics",
+    "windowsRelease": "PASS: 0 warnings / 0 errors",
+    "androidRelease": "PASS: 0 warnings / 0 errors",
+    "actualPhoneUi": "NOT RUN per previous user preference; screenshot supplied by user",
+    "installation": "NOT RUN"
+  },
+  "apk": {
+    "path": "C:\\Users\\yoiri\\AppData\\Local\\Temp\\HanMate-handwriting-wrap-20260920\\android\\com.companyname.hanmate.app-Signed.apk",
+    "sha256": "df861da14912b8a5511b77c4bc2c0e4a67a8a41715f0a7b97cdf3111daa99fee"
+  },
+  "statusBoundary": "45/48, 176 aggregate NOT RUN, 82 execution rows unchanged"
+}

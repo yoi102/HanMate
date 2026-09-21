@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "settings.schema.json",
+  "title": "HanMate settings.schema.json — draft contract",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "uiLanguage": {
+      "enum": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ]
+    },
+    "reading": {
+      "type": "object",
+      "properties": {
+        "scalePercent": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 200
+        },
+        "showPinyin": {
+          "type": "boolean"
+        },
+        "fontSize": {
+          "type": "integer",
+          "minimum": 18,
+          "maximum": 40
+        }
+      },
+      "required": [
+        "showPinyin",
+        "fontSize"
+      ],
+      "additionalProperties": false
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "policy": {
+          "enum": [
+            "localWithSystemFallback",
+            "localOnly"
+          ]
+        },
+        "preferredLocale": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 40
+        }
+      },
+      "required": [
+        "policy",
+        "preferredLocale"
+      ],
+      "additionalProperties": false
+    },
+    "favorites": {
+      "type": "object",
+      "properties": {
+        "lastFolderId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uuid"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "lastFolderId"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "uiLanguage",
+    "reading",
+    "audio",
+    "favorites"
+  ],
+  "additionalProperties": false
+}

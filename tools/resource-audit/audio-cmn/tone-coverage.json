@@ -1,0 +1,2951 @@
+[
+  {
+    "group": "initial",
+    "item": "b",
+    "tone": 1,
+    "characters": [
+      "八"
+    ],
+    "words": [
+      "波浪",
+      "播放",
+      "悲哀",
+      "杯子",
+      "包子",
+      "帮助",
+      "八方",
+      "奔跑"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "b",
+    "tone": 2,
+    "characters": [
+      "拔"
+    ],
+    "words": [
+      "雹子",
+      "白鹅",
+      "提拔"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "b",
+    "tone": 3,
+    "characters": [
+      "把"
+    ],
+    "words": [
+      "彼此",
+      "把手",
+      "北方",
+      "宝贝",
+      "绑架",
+      "宝塔"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "b",
+    "tone": 4,
+    "characters": [
+      "爸"
+    ],
+    "words": [
+      "爸爸",
+      "不够",
+      "抱歉",
+      "棒球",
+      "笨重"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "p",
+    "tone": 1,
+    "characters": [
+      "趴",
+      "坡"
+    ],
+    "words": [
+      "批评",
+      "趴下",
+      "山坡"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "p",
+    "tone": 2,
+    "characters": [
+      "爬",
+      "婆"
+    ],
+    "words": [
+      "婆婆",
+      "苹果",
+      "朋友",
+      "爬山"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "p",
+    "tone": 3,
+    "characters": [
+      "跑"
+    ],
+    "words": [
+      "跑步"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "p",
+    "tone": 4,
+    "characters": [
+      "怕",
+      "破"
+    ],
+    "words": [
+      "破坏",
+      "害怕"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "m",
+    "tone": 1,
+    "characters": [
+      "妈"
+    ],
+    "words": [
+      "妈妈",
+      "抹布"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "m",
+    "tone": 2,
+    "characters": [
+      "麻"
+    ],
+    "words": [
+      "麻木",
+      "蘑菇",
+      "魔鬼"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "m",
+    "tone": 3,
+    "characters": [
+      "马"
+    ],
+    "words": [
+      "马车",
+      "美好"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "m",
+    "tone": 4,
+    "characters": [
+      "骂"
+    ],
+    "words": [
+      "帽子",
+      "责骂"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "f",
+    "tone": 1,
+    "characters": [
+      "发"
+    ],
+    "words": [
+      "飞机",
+      "发票"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "f",
+    "tone": 2,
+    "characters": [
+      "罚",
+      "肥"
+    ],
+    "words": [
+      "佛教",
+      "罚款",
+      "肥皂"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "f",
+    "tone": 3,
+    "characters": [
+      "法"
+    ],
+    "words": [
+      "办法",
+      "法律"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "f",
+    "tone": 4,
+    "characters": [
+      "发"
+    ],
+    "words": [
+      "播放",
+      "理发"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "d",
+    "tone": 1,
+    "characters": [
+      "搭"
+    ],
+    "words": [
+      "冬天",
+      "搭配",
+      "叮嘱"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "d",
+    "tone": 2,
+    "characters": [
+      "达"
+    ],
+    "words": [
+      "达到"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "d",
+    "tone": 3,
+    "characters": [
+      "打"
+    ],
+    "words": [
+      "打扫",
+      "顶点",
+      "等待",
+      "懂得"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "d",
+    "tone": 4,
+    "characters": [
+      "大"
+    ],
+    "words": [
+      "地图",
+      "电灯",
+      "凳子",
+      "动物",
+      "电影",
+      "大门"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "t",
+    "tone": 1,
+    "characters": [
+      "他",
+      "吞"
+    ],
+    "words": [
+      "天空",
+      "他们",
+      "吞咽"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "t",
+    "tone": 2,
+    "characters": [
+      "抬"
+    ],
+    "words": [
+      "提拔",
+      "谈话",
+      "停止",
+      "抬头",
+      "头晕"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "t",
+    "tone": 3,
+    "characters": [
+      "塔"
+    ],
+    "words": [
+      "讨论",
+      "宝塔"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "t",
+    "tone": 4,
+    "characters": [
+      "踏"
+    ],
+    "words": [
+      "兔子",
+      "太阳",
+      "踏步"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "n",
+    "tone": 1,
+    "characters": [
+      "捏"
+    ],
+    "words": [
+      "捏造"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "n",
+    "tone": 2,
+    "characters": [
+      "拿",
+      "能",
+      "南"
+    ],
+    "words": [
+      "牛奶",
+      "南方",
+      "能够",
+      "拿手"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "n",
+    "tone": 3,
+    "characters": [
+      "哪"
+    ],
+    "words": [
+      "奶奶",
+      "扭转",
+      "哪里"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "n",
+    "tone": 4,
+    "characters": [
+      "那"
+    ],
+    "words": [
+      "那边"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "l",
+    "tone": 1,
+    "characters": [
+      "拉"
+    ],
+    "words": [
+      "垃圾",
+      "拉手",
+      "溜冰"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "l",
+    "tone": 2,
+    "characters": [
+      "楼"
+    ],
+    "words": [
+      "来往",
+      "楼房",
+      "轮船"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "l",
+    "tone": 3,
+    "characters": [
+      "喇"
+    ],
+    "words": [
+      "老师",
+      "礼物",
+      "理发",
+      "柳树",
+      "了解",
+      "喇叭"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "l",
+    "tone": 4,
+    "characters": [
+      "辣"
+    ],
+    "words": [
+      "辣椒",
+      "历史",
+      "六月"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "g",
+    "tone": 1,
+    "characters": [
+      "歌"
+    ],
+    "words": [
+      "哥哥",
+      "归还",
+      "沟通",
+      "根本",
+      "歌曲"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "g",
+    "tone": 2,
+    "characters": [
+      "格"
+    ],
+    "words": [
+      "格式"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "g",
+    "tone": 3,
+    "characters": [
+      "葛"
+    ],
+    "words": [
+      "苹果"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "g",
+    "tone": 4,
+    "characters": [
+      "个"
+    ],
+    "words": [
+      "告诉",
+      "贵重",
+      "个别"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "k",
+    "tone": 1,
+    "characters": [
+      "科"
+    ],
+    "words": [
+      "科学"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "k",
+    "tone": 2,
+    "characters": [
+      "咳"
+    ],
+    "words": [
+      "咳嗽"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "k",
+    "tone": 3,
+    "characters": [
+      "可"
+    ],
+    "words": [
+      "可以"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "k",
+    "tone": 4,
+    "characters": [
+      "课"
+    ],
+    "words": [
+      "快乐",
+      "课本"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "h",
+    "tone": 1,
+    "characters": [
+      "喝"
+    ],
+    "words": [
+      "花朵",
+      "欢迎",
+      "喝水"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "h",
+    "tone": 2,
+    "characters": [
+      "河",
+      "红",
+      "回"
+    ],
+    "words": [
+      "河流",
+      "回来",
+      "红旗",
+      "寒冷"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "h",
+    "tone": 3,
+    "characters": [
+      "火"
+    ],
+    "words": [
+      "好吃",
+      "海岸",
+      "火车"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "h",
+    "tone": 4,
+    "characters": [
+      "贺"
+    ],
+    "words": [
+      "破坏",
+      "祝贺"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "j",
+    "tone": 1,
+    "characters": [
+      "鸡"
+    ],
+    "words": [
+      "居住",
+      "军队",
+      "纠正",
+      "鸡蛋",
+      "金鱼",
+      "饥饿",
+      "街道",
+      "坚硬"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "j",
+    "tone": 2,
+    "characters": [
+      "急"
+    ],
+    "words": [
+      "急忙",
+      "节日",
+      "决定"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "j",
+    "tone": 3,
+    "characters": [
+      "几"
+    ],
+    "words": [
+      "姐姐",
+      "锦绣",
+      "几何"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "j",
+    "tone": 4,
+    "characters": [
+      "记"
+    ],
+    "words": [
+      "记得",
+      "借口"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "q",
+    "tone": 1,
+    "characters": [
+      "七"
+    ],
+    "words": [
+      "七彩"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "q",
+    "tone": 2,
+    "characters": [
+      "骑"
+    ],
+    "words": [
+      "骑马"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "q",
+    "tone": 3,
+    "characters": [
+      "起"
+    ],
+    "words": [
+      "起来"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "q",
+    "tone": 4,
+    "characters": [
+      "气"
+    ],
+    "words": [
+      "气球"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "x",
+    "tone": 1,
+    "characters": [
+      "西",
+      "靴"
+    ],
+    "words": [
+      "西瓜",
+      "靴子"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "x",
+    "tone": 2,
+    "characters": [
+      "习",
+      "学"
+    ],
+    "words": [
+      "学习"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "x",
+    "tone": 3,
+    "characters": [
+      "洗",
+      "雪"
+    ],
+    "words": [
+      "洗澡",
+      "雪花",
+      "小狗"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "x",
+    "tone": 4,
+    "characters": [
+      "细"
+    ],
+    "words": [
+      "细心"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "zh",
+    "tone": 1,
+    "characters": [
+      "知"
+    ],
+    "words": [
+      "蜘蛛",
+      "知道"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "zh",
+    "tone": 2,
+    "characters": [
+      "直"
+    ],
+    "words": [
+      "直接"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "zh",
+    "tone": 3,
+    "characters": [
+      "纸",
+      "准"
+    ],
+    "words": [
+      "纸张",
+      "展览",
+      "准确"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "zh",
+    "tone": 4,
+    "characters": [
+      "至"
+    ],
+    "words": [
+      "祝贺",
+      "至少"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "ch",
+    "tone": 1,
+    "characters": [
+      "吃"
+    ],
+    "words": [
+      "春天",
+      "好吃"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "ch",
+    "tone": 2,
+    "characters": [
+      "迟",
+      "长"
+    ],
+    "words": [
+      "长期",
+      "迟到"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "ch",
+    "tone": 3,
+    "characters": [
+      "尺"
+    ],
+    "words": [
+      "尺子"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "ch",
+    "tone": 4,
+    "characters": [
+      "赤"
+    ],
+    "words": [
+      "翅膀",
+      "赤红"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "sh",
+    "tone": 1,
+    "characters": [
+      "诗"
+    ],
+    "words": [
+      "狮子",
+      "诗人",
+      "山坡"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "sh",
+    "tone": 2,
+    "characters": [
+      "十"
+    ],
+    "words": [
+      "时间",
+      "十分"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "sh",
+    "tone": 3,
+    "characters": [
+      "史"
+    ],
+    "words": [
+      "水果",
+      "历史"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "sh",
+    "tone": 4,
+    "characters": [
+      "是"
+    ],
+    "words": [
+      "事情",
+      "是否"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "r",
+    "tone": 1,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "initial",
+    "item": "r",
+    "tone": 2,
+    "characters": [
+      "人"
+    ],
+    "words": [
+      "人民",
+      "容易"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "r",
+    "tone": 3,
+    "characters": [
+      "忍"
+    ],
+    "words": [
+      "忍耐"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "r",
+    "tone": 4,
+    "characters": [
+      "日",
+      "认"
+    ],
+    "words": [
+      "日记",
+      "认真"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "z",
+    "tone": 1,
+    "characters": [
+      "资"
+    ],
+    "words": [
+      "资源"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "z",
+    "tone": 2,
+    "characters": [],
+    "words": [
+      "责骂"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "z",
+    "tone": 3,
+    "characters": [
+      "子"
+    ],
+    "words": [
+      "子孙"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "z",
+    "tone": 4,
+    "characters": [
+      "字"
+    ],
+    "words": [
+      "自己",
+      "文字"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "c",
+    "tone": 1,
+    "characters": [
+      "匆"
+    ],
+    "words": [
+      "匆忙"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "c",
+    "tone": 2,
+    "characters": [
+      "词"
+    ],
+    "words": [
+      "词典",
+      "从来"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "c",
+    "tone": 3,
+    "characters": [
+      "此"
+    ],
+    "words": [
+      "草地",
+      "彼此"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "c",
+    "tone": 4,
+    "characters": [
+      "次"
+    ],
+    "words": [
+      "刺激",
+      "次数"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "s",
+    "tone": 1,
+    "characters": [
+      "丝"
+    ],
+    "words": [
+      "森林",
+      "丝毫"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "s",
+    "tone": 2,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "initial",
+    "item": "s",
+    "tone": 3,
+    "characters": [
+      "死",
+      "伞"
+    ],
+    "words": [
+      "死亡",
+      "雨伞"
+    ]
+  },
+  {
+    "group": "initial",
+    "item": "s",
+    "tone": 4,
+    "characters": [
+      "四"
+    ],
+    "words": [
+      "四季"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "y",
+    "tone": 1,
+    "characters": [
+      "衣"
+    ],
+    "words": [
+      "衣服",
+      "约会",
+      "音乐",
+      "冤枉",
+      "医院",
+      "英雄",
+      "淤泥",
+      "椰子"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "y",
+    "tone": 2,
+    "characters": [
+      "移"
+    ],
+    "words": [
+      "云彩",
+      "移动",
+      "银行",
+      "爷爷",
+      "元旦",
+      "园丁"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "y",
+    "tone": 3,
+    "characters": [
+      "椅"
+    ],
+    "words": [
+      "雨伞",
+      "椅子",
+      "引导",
+      "允许",
+      "野外",
+      "远方"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "y",
+    "tone": 4,
+    "characters": [
+      "意"
+    ],
+    "words": [
+      "月亮",
+      "意思",
+      "玉米",
+      "印象",
+      "运动",
+      "夜晚"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "w",
+    "tone": 1,
+    "characters": [
+      "屋"
+    ],
+    "words": [
+      "屋子",
+      "温暖"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "w",
+    "tone": 2,
+    "characters": [
+      "无"
+    ],
+    "words": [
+      "无数",
+      "文字"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "w",
+    "tone": 3,
+    "characters": [
+      "五"
+    ],
+    "words": [
+      "我们",
+      "午饭",
+      "五官"
+    ]
+  },
+  {
+    "group": "spelling",
+    "item": "w",
+    "tone": 4,
+    "characters": [
+      "物"
+    ],
+    "words": [
+      "物品"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "a",
+    "tone": 1,
+    "characters": [
+      "阿"
+    ],
+    "words": [
+      "阿姨"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "a",
+    "tone": 2,
+    "characters": [
+      "拔"
+    ],
+    "words": [
+      "麻木",
+      "提拔"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "a",
+    "tone": 3,
+    "characters": [
+      "把"
+    ],
+    "words": [
+      "马车",
+      "把手"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "a",
+    "tone": 4,
+    "characters": [
+      "爸"
+    ],
+    "words": [
+      "爸爸"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "o",
+    "tone": 1,
+    "characters": [
+      "噢"
+    ],
+    "words": [
+      "波浪"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "o",
+    "tone": 2,
+    "characters": [
+      "哦"
+    ],
+    "words": [
+      "婆婆"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "o",
+    "tone": 3,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "simple",
+    "item": "o",
+    "tone": 4,
+    "characters": [
+      "哦"
+    ],
+    "words": [
+      "破坏"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "e",
+    "tone": 1,
+    "characters": [
+      "歌"
+    ],
+    "words": [
+      "马车",
+      "歌曲"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "e",
+    "tone": 2,
+    "characters": [
+      "鹅"
+    ],
+    "words": [
+      "额外",
+      "白鹅"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "e",
+    "tone": 3,
+    "characters": [
+      "恶"
+    ],
+    "words": [
+      "恶心"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "e",
+    "tone": 4,
+    "characters": [
+      "饿"
+    ],
+    "words": [
+      "快乐",
+      "饥饿"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "i",
+    "tone": 1,
+    "characters": [
+      "衣"
+    ],
+    "words": [
+      "西瓜",
+      "衣服"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "i",
+    "tone": 2,
+    "characters": [
+      "移"
+    ],
+    "words": [
+      "提拔",
+      "移动"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "i",
+    "tone": 3,
+    "characters": [
+      "椅"
+    ],
+    "words": [
+      "礼物",
+      "椅子"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "i",
+    "tone": 4,
+    "characters": [
+      "意"
+    ],
+    "words": [
+      "地图",
+      "意思"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "u",
+    "tone": 1,
+    "characters": [
+      "屋"
+    ],
+    "words": [
+      "蜘蛛",
+      "屋子"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "u",
+    "tone": 2,
+    "characters": [
+      "无"
+    ],
+    "words": [
+      "地图",
+      "无数"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "u",
+    "tone": 3,
+    "characters": [
+      "五"
+    ],
+    "words": [
+      "午饭",
+      "五官"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "u",
+    "tone": 4,
+    "characters": [
+      "物"
+    ],
+    "words": [
+      "麻木",
+      "礼物"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "ü",
+    "tone": 1,
+    "characters": [
+      "淤"
+    ],
+    "words": [
+      "居住",
+      "淤泥"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "ü",
+    "tone": 2,
+    "characters": [
+      "鱼"
+    ],
+    "words": [
+      "金鱼"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "ü",
+    "tone": 3,
+    "characters": [
+      "雨"
+    ],
+    "words": [
+      "雨伞"
+    ]
+  },
+  {
+    "group": "simple",
+    "item": "ü",
+    "tone": 4,
+    "characters": [
+      "玉"
+    ],
+    "words": [
+      "法律",
+      "玉米"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ai",
+    "tone": 1,
+    "characters": [
+      "哀"
+    ],
+    "words": [
+      "悲哀"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ai",
+    "tone": 2,
+    "characters": [
+      "癌"
+    ],
+    "words": [
+      "癌症"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ai",
+    "tone": 3,
+    "characters": [
+      "矮"
+    ],
+    "words": [
+      "矮小"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ai",
+    "tone": 4,
+    "characters": [
+      "爱"
+    ],
+    "words": [
+      "爱好"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ei",
+    "tone": 1,
+    "characters": [
+      "杯"
+    ],
+    "words": [
+      "飞机",
+      "杯子"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ei",
+    "tone": 2,
+    "characters": [
+      "肥"
+    ],
+    "words": [
+      "肥皂"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ei",
+    "tone": 3,
+    "characters": [
+      "北"
+    ],
+    "words": [
+      "美好",
+      "北方"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ei",
+    "tone": 4,
+    "characters": [
+      "贝"
+    ],
+    "words": [
+      "搭配",
+      "宝贝"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ui",
+    "tone": 1,
+    "characters": [
+      "归"
+    ],
+    "words": [
+      "归还"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ui",
+    "tone": 2,
+    "characters": [
+      "回"
+    ],
+    "words": [
+      "回来"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ui",
+    "tone": 3,
+    "characters": [
+      "鬼"
+    ],
+    "words": [
+      "水果",
+      "魔鬼"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ui",
+    "tone": 4,
+    "characters": [
+      "贵"
+    ],
+    "words": [
+      "军队",
+      "贵重"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ao",
+    "tone": 1,
+    "characters": [
+      "包"
+    ],
+    "words": [
+      "包子"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ao",
+    "tone": 2,
+    "characters": [
+      "雹"
+    ],
+    "words": [
+      "丝毫",
+      "雹子"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ao",
+    "tone": 3,
+    "characters": [
+      "宝"
+    ],
+    "words": [
+      "老师",
+      "宝贝"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ao",
+    "tone": 4,
+    "characters": [
+      "抱"
+    ],
+    "words": [
+      "帽子",
+      "抱歉"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ou",
+    "tone": 1,
+    "characters": [
+      "沟"
+    ],
+    "words": [
+      "沟通"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ou",
+    "tone": 2,
+    "characters": [
+      "楼"
+    ],
+    "words": [
+      "楼房"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ou",
+    "tone": 3,
+    "characters": [
+      "狗"
+    ],
+    "words": [
+      "借口",
+      "小狗"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ou",
+    "tone": 4,
+    "characters": [
+      "够"
+    ],
+    "words": [
+      "不够"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "iu",
+    "tone": 1,
+    "characters": [
+      "溜"
+    ],
+    "words": [
+      "纠正",
+      "溜冰"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "iu",
+    "tone": 2,
+    "characters": [
+      "流"
+    ],
+    "words": [
+      "牛奶",
+      "河流"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "iu",
+    "tone": 3,
+    "characters": [
+      "柳"
+    ],
+    "words": [
+      "扭转",
+      "柳树"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "iu",
+    "tone": 4,
+    "characters": [
+      "六"
+    ],
+    "words": [
+      "锦绣",
+      "六月"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ie",
+    "tone": 1,
+    "characters": [
+      "街"
+    ],
+    "words": [
+      "捏造",
+      "街道"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ie",
+    "tone": 2,
+    "characters": [
+      "节"
+    ],
+    "words": [
+      "节日"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ie",
+    "tone": 3,
+    "characters": [
+      "解"
+    ],
+    "words": [
+      "姐姐",
+      "了解"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "ie",
+    "tone": 4,
+    "characters": [
+      "借"
+    ],
+    "words": [
+      "借口"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "üe",
+    "tone": 1,
+    "characters": [
+      "约"
+    ],
+    "words": [
+      "靴子",
+      "约会"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "üe",
+    "tone": 2,
+    "characters": [
+      "学"
+    ],
+    "words": [
+      "科学"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "üe",
+    "tone": 3,
+    "characters": [
+      "雪"
+    ],
+    "words": [
+      "雪花"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "üe",
+    "tone": 4,
+    "characters": [
+      "月"
+    ],
+    "words": [
+      "月亮"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "er",
+    "tone": 1,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "compound",
+    "item": "er",
+    "tone": 2,
+    "characters": [
+      "儿"
+    ],
+    "words": [
+      "儿童"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "er",
+    "tone": 3,
+    "characters": [
+      "耳"
+    ],
+    "words": [
+      "耳朵"
+    ]
+  },
+  {
+    "group": "compound",
+    "item": "er",
+    "tone": 4,
+    "characters": [
+      "二"
+    ],
+    "words": [
+      "二氧化碳"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "an",
+    "tone": 1,
+    "characters": [
+      "安"
+    ],
+    "words": [
+      "安全"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "an",
+    "tone": 2,
+    "characters": [
+      "南"
+    ],
+    "words": [
+      "谈话",
+      "南方"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "an",
+    "tone": 3,
+    "characters": [
+      "伞"
+    ],
+    "words": [
+      "雨伞"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "an",
+    "tone": 4,
+    "characters": [
+      "岸"
+    ],
+    "words": [
+      "办法",
+      "海岸"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "en",
+    "tone": 1,
+    "characters": [
+      "奔"
+    ],
+    "words": [
+      "森林",
+      "奔跑"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "en",
+    "tone": 2,
+    "characters": [
+      "人"
+    ],
+    "words": [
+      "人民"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "en",
+    "tone": 3,
+    "characters": [
+      "本"
+    ],
+    "words": [
+      "课本"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "en",
+    "tone": 4,
+    "characters": [
+      "笨"
+    ],
+    "words": [
+      "认真",
+      "笨重"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "in",
+    "tone": 1,
+    "characters": [
+      "音"
+    ],
+    "words": [
+      "细心",
+      "音乐"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "in",
+    "tone": 2,
+    "characters": [
+      "银"
+    ],
+    "words": [
+      "人民",
+      "银行"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "in",
+    "tone": 3,
+    "characters": [
+      "引"
+    ],
+    "words": [
+      "锦绣",
+      "引导"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "in",
+    "tone": 4,
+    "characters": [
+      "印"
+    ],
+    "words": [
+      "印象"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "un",
+    "tone": 1,
+    "characters": [
+      "吞"
+    ],
+    "words": [
+      "春天",
+      "吞咽"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "un",
+    "tone": 2,
+    "characters": [
+      "轮"
+    ],
+    "words": [
+      "轮船"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "un",
+    "tone": 3,
+    "characters": [
+      "准"
+    ],
+    "words": [
+      "准确"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "un",
+    "tone": 4,
+    "characters": [
+      "论"
+    ],
+    "words": [
+      "讨论"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ün",
+    "tone": 1,
+    "characters": [
+      "晕"
+    ],
+    "words": [
+      "军队",
+      "头晕"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ün",
+    "tone": 2,
+    "characters": [
+      "云"
+    ],
+    "words": [
+      "云彩"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ün",
+    "tone": 3,
+    "characters": [
+      "允"
+    ],
+    "words": [
+      "允许"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ün",
+    "tone": 4,
+    "characters": [
+      "运"
+    ],
+    "words": [
+      "运动"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ang",
+    "tone": 1,
+    "characters": [
+      "帮"
+    ],
+    "words": [
+      "南方",
+      "帮助"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ang",
+    "tone": 2,
+    "characters": [
+      "长"
+    ],
+    "words": [
+      "匆忙",
+      "长期"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ang",
+    "tone": 3,
+    "characters": [
+      "绑"
+    ],
+    "words": [
+      "翅膀",
+      "绑架"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ang",
+    "tone": 4,
+    "characters": [
+      "棒"
+    ],
+    "words": [
+      "波浪",
+      "棒球"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "eng",
+    "tone": 1,
+    "characters": [
+      "灯"
+    ],
+    "words": [
+      "电灯"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "eng",
+    "tone": 2,
+    "characters": [
+      "能"
+    ],
+    "words": [
+      "朋友",
+      "能够"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "eng",
+    "tone": 3,
+    "characters": [
+      "等"
+    ],
+    "words": [
+      "寒冷",
+      "等待"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "eng",
+    "tone": 4,
+    "characters": [
+      "凳"
+    ],
+    "words": [
+      "纠正",
+      "凳子"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ing",
+    "tone": 1,
+    "characters": [
+      "丁"
+    ],
+    "words": [
+      "叮嘱",
+      "园丁"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ing",
+    "tone": 2,
+    "characters": [
+      "迎"
+    ],
+    "words": [
+      "苹果",
+      "欢迎"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ing",
+    "tone": 3,
+    "characters": [
+      "顶"
+    ],
+    "words": [
+      "顶点"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ing",
+    "tone": 4,
+    "characters": [
+      "定"
+    ],
+    "words": [
+      "决定"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ong",
+    "tone": 1,
+    "characters": [
+      "冬"
+    ],
+    "words": [
+      "冬天"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ong",
+    "tone": 2,
+    "characters": [
+      "红"
+    ],
+    "words": [
+      "容易",
+      "红旗"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ong",
+    "tone": 3,
+    "characters": [
+      "懂"
+    ],
+    "words": [
+      "懂得"
+    ]
+  },
+  {
+    "group": "nasal",
+    "item": "ong",
+    "tone": 4,
+    "characters": [
+      "动"
+    ],
+    "words": [
+      "移动"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zhi",
+    "tone": 1,
+    "characters": [
+      "知"
+    ],
+    "words": [
+      "蜘蛛",
+      "知道"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zhi",
+    "tone": 2,
+    "characters": [
+      "直"
+    ],
+    "words": [
+      "直接"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zhi",
+    "tone": 3,
+    "characters": [
+      "纸"
+    ],
+    "words": [
+      "纸张"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zhi",
+    "tone": 4,
+    "characters": [
+      "至"
+    ],
+    "words": [
+      "至少"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "chi",
+    "tone": 1,
+    "characters": [
+      "吃"
+    ],
+    "words": [
+      "好吃"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "chi",
+    "tone": 2,
+    "characters": [
+      "迟"
+    ],
+    "words": [
+      "迟到"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "chi",
+    "tone": 3,
+    "characters": [
+      "尺"
+    ],
+    "words": [
+      "尺子"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "chi",
+    "tone": 4,
+    "characters": [
+      "赤"
+    ],
+    "words": [
+      "翅膀",
+      "赤红"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "shi",
+    "tone": 1,
+    "characters": [
+      "诗"
+    ],
+    "words": [
+      "老师",
+      "诗人"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "shi",
+    "tone": 2,
+    "characters": [
+      "十"
+    ],
+    "words": [
+      "时间",
+      "十分"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "shi",
+    "tone": 3,
+    "characters": [
+      "史"
+    ],
+    "words": [
+      "历史"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "shi",
+    "tone": 4,
+    "characters": [
+      "是"
+    ],
+    "words": [
+      "格式",
+      "是否"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ri",
+    "tone": 1,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "ri",
+    "tone": 2,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "ri",
+    "tone": 3,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "ri",
+    "tone": 4,
+    "characters": [
+      "日"
+    ],
+    "words": [
+      "日记"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zi",
+    "tone": 1,
+    "characters": [
+      "资"
+    ],
+    "words": [
+      "资源"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zi",
+    "tone": 2,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "zi",
+    "tone": 3,
+    "characters": [
+      "子"
+    ],
+    "words": [
+      "子孙"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "zi",
+    "tone": 4,
+    "characters": [
+      "字"
+    ],
+    "words": [
+      "自己",
+      "文字"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ci",
+    "tone": 1,
+    "characters": [
+      "雌"
+    ],
+    "words": [
+      "雌雄"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ci",
+    "tone": 2,
+    "characters": [
+      "词"
+    ],
+    "words": [
+      "词典"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ci",
+    "tone": 3,
+    "characters": [
+      "此"
+    ],
+    "words": [
+      "彼此"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ci",
+    "tone": 4,
+    "characters": [
+      "次"
+    ],
+    "words": [
+      "刺激",
+      "次数"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "si",
+    "tone": 1,
+    "characters": [
+      "丝"
+    ],
+    "words": [
+      "丝毫"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "si",
+    "tone": 2,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "si",
+    "tone": 3,
+    "characters": [
+      "死"
+    ],
+    "words": [
+      "死亡"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "si",
+    "tone": 4,
+    "characters": [
+      "四"
+    ],
+    "words": [
+      "四季"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yi",
+    "tone": 1,
+    "characters": [
+      "衣"
+    ],
+    "words": [
+      "衣服"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yi",
+    "tone": 2,
+    "characters": [
+      "移"
+    ],
+    "words": [
+      "阿姨",
+      "移动"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yi",
+    "tone": 3,
+    "characters": [
+      "椅"
+    ],
+    "words": [
+      "可以",
+      "椅子"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yi",
+    "tone": 4,
+    "characters": [
+      "意"
+    ],
+    "words": [
+      "容易",
+      "意思"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "wu",
+    "tone": 1,
+    "characters": [
+      "屋"
+    ],
+    "words": [
+      "屋子"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "wu",
+    "tone": 2,
+    "characters": [
+      "无"
+    ],
+    "words": [
+      "无数"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "wu",
+    "tone": 3,
+    "characters": [
+      "五"
+    ],
+    "words": [
+      "午饭",
+      "五官"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "wu",
+    "tone": 4,
+    "characters": [
+      "物"
+    ],
+    "words": [
+      "礼物"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yu",
+    "tone": 1,
+    "characters": [
+      "淤"
+    ],
+    "words": [
+      "淤泥"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yu",
+    "tone": 2,
+    "characters": [
+      "鱼"
+    ],
+    "words": [
+      "金鱼"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yu",
+    "tone": 3,
+    "characters": [
+      "雨"
+    ],
+    "words": [
+      "雨伞"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yu",
+    "tone": 4,
+    "characters": [
+      "玉"
+    ],
+    "words": [
+      "玉米"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ye",
+    "tone": 1,
+    "characters": [
+      "椰"
+    ],
+    "words": [
+      "椰子"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ye",
+    "tone": 2,
+    "characters": [
+      "爷"
+    ],
+    "words": [
+      "爷爷"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ye",
+    "tone": 3,
+    "characters": [
+      "野"
+    ],
+    "words": [
+      "野外"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ye",
+    "tone": 4,
+    "characters": [
+      "夜"
+    ],
+    "words": [
+      "夜晚"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yue",
+    "tone": 1,
+    "characters": [
+      "约"
+    ],
+    "words": [
+      "约会"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yue",
+    "tone": 2,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "yue",
+    "tone": 3,
+    "characters": [],
+    "words": []
+  },
+  {
+    "group": "whole",
+    "item": "yue",
+    "tone": 4,
+    "characters": [
+      "月"
+    ],
+    "words": [
+      "月亮"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yuan",
+    "tone": 1,
+    "characters": [
+      "冤"
+    ],
+    "words": [
+      "冤枉"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yuan",
+    "tone": 2,
+    "characters": [
+      "元"
+    ],
+    "words": [
+      "资源",
+      "元旦"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yuan",
+    "tone": 3,
+    "characters": [
+      "远"
+    ],
+    "words": [
+      "远方"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yuan",
+    "tone": 4,
+    "characters": [
+      "院"
+    ],
+    "words": [
+      "医院"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yin",
+    "tone": 1,
+    "characters": [
+      "音"
+    ],
+    "words": [
+      "音乐"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yin",
+    "tone": 2,
+    "characters": [
+      "银"
+    ],
+    "words": [
+      "银行"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yin",
+    "tone": 3,
+    "characters": [
+      "引"
+    ],
+    "words": [
+      "引导"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yin",
+    "tone": 4,
+    "characters": [
+      "印"
+    ],
+    "words": [
+      "印象"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yun",
+    "tone": 1,
+    "characters": [
+      "晕"
+    ],
+    "words": [
+      "头晕"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yun",
+    "tone": 2,
+    "characters": [
+      "云"
+    ],
+    "words": [
+      "云彩"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yun",
+    "tone": 3,
+    "characters": [
+      "允"
+    ],
+    "words": [
+      "允许"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "yun",
+    "tone": 4,
+    "characters": [
+      "运"
+    ],
+    "words": [
+      "运动"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ying",
+    "tone": 1,
+    "characters": [
+      "英"
+    ],
+    "words": [
+      "英雄"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ying",
+    "tone": 2,
+    "characters": [
+      "迎"
+    ],
+    "words": [
+      "欢迎"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ying",
+    "tone": 3,
+    "characters": [
+      "影"
+    ],
+    "words": [
+      "电影"
+    ]
+  },
+  {
+    "group": "whole",
+    "item": "ying",
+    "tone": 4,
+    "characters": [
+      "硬"
+    ],
+    "words": [
+      "坚硬"
+    ]
+  }
+]
