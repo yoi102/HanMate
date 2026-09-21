@@ -288,7 +288,7 @@ Entries: {3}</value>
   <data name="Pinyin.Stop" xml:space="preserve"><value>Stop</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>Audio sources</value></data>
   <data name="Pinyin.Examples" xml:space="preserve"><value>Examples</value></data>
-  <data name="Pinyin.NoAudio" xml:space="preserve"><value>No matching recording. Enable the bundled AI voice pack in Settings for pinyin reading.</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>No matching recording. The selected voice is unavailable or cannot pronounce this pinyin. Check Reading voice settings.</value></data>
   <data name="Pinyin.Playing" xml:space="preserve"><value>Playing example</value></data>
   <data name="Pinyin.Completed" xml:space="preserve"><value>Playback finished</value></data>
   <data name="Pinyin.Stopped" xml:space="preserve"><value>Stopped</value></data>
@@ -690,7 +690,7 @@ Keep {6} old entries.</value></data>
   <data name="Speech.AllowReading" xml:space="preserve"><value>Allow system speech while reading (off by default; confirm each time)</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>Pinyin resources and audio credits</value></data>
   <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>Tap to listen. Hold or right-click for the dictionary definition.</value></data>
-  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>Bundled pinyin recordings come from audio-cmn, independently of the dictionary. An enabled AI voice can synthesize the annotated pinyin and tones offline, including bo, po, mo, fo and standalone ong. Disable AI preference here to compare recordings. Audio-cmn states CC BY-SA without a version. Teaching listening review of recordings and synthesis is still pending.</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>Pinyin example characters and words prefer matching audio-cmn recordings; missing recordings use the provider selected in Reading voice. Melo follows course pinyin; Kokoro and system speech read Chinese text and may not follow edited pinyin. An isolated final without a recording requires support from the selected provider. Audio-cmn states CC BY-SA without a version. Teaching listening review is pending.</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>Offline AI voices</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>Voice packs are bundled. Preview, choose voices or restore their cache. Use this voice also switches the reading provider. Recordings take priority.</value></data>
   <data name="Voice.Info" xml:space="preserve"><value>Bundled Chinese · {0:F1} MiB · {1} voices</value></data>
@@ -712,7 +712,7 @@ Keep {6} old entries.</value></data>
   <data name="Voice.Unsupported" xml:space="preserve"><value>The offline AI engine is not yet supported on this platform.</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>Could not complete the operation. Check storage or restore the bundled pack. Learning data is unchanged.</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>Voice pack preparation timed out. Try again; learning data is unchanged.</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>Both models are bundled and run locally; text and recordings are not uploaded. Clearing voice caches keeps learning data. Pinyin lessons prefer recordings and use MeloTTS with explicit readings when missing. Dictionary and reading text use the selected provider.</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>Both models are bundled and run locally; text and recordings are not uploaded. Clearing voice caches keeps learning data. Pinyin examples and dictionary headwords prefer matching recordings, then the selected reading voice. Reading text also uses the selected provider.</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS: MyShell.ai, MIT. Kokoro: hexgrad, Apache-2.0. Engine: sherpa-onnx, Apache-2.0. Audio is synthesized; licenses and attribution are included.</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>Choose a voice</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>Text to preview</value></data>
@@ -754,8 +754,7 @@ Keep {6} old entries.</value></data>
   <data name="Dictionary.Summary" xml:space="preserve"><value>{0} entries · Version {1} · Offline</value></data>
   <data name="Dictionary.Enabled" xml:space="preserve"><value>Enable the default dictionary</value></data>
   <data name="Dictionary.Description" xml:space="preserve"><value>Simplified Chinese headwords and definitions for characters, words and idioms; traditional lookup is supported. The chinese-xinhua web compilation includes older definitions and is not an official licensed Xinhua edition. Missing pinyin is generated, marked unreviewed and excluded from confirmed-reading search. The read-only data and enable setting are excluded from personal backups.</value></data>
-  <data name="Pinyin.PreferAi" xml:space="preserve"><value>Prefer the enabled AI voice for pinyin</value></data>
-  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>Original pinyin and example recordings are used by default; the enabled voice fills missing complete recordings. Enable this option to prefer synthesis. Imported recordings and recordings for known pronunciation errors still take priority. Dictionary definitions and examples are independent of this switch.</value></data>
+  <data name="Pinyin.RecordingFirstHint" xml:space="preserve"><value>Imported and matching audio-cmn recordings take priority. Example characters and words without recordings use the provider and voice selected in Reading voice.</value></data>
   <data name="DictionaryDetail.Title" xml:space="preserve"><value>Dictionary</value></data>
   <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>Definitions</value></data>
   <data name="DictionaryDetail.Examples" xml:space="preserve"><value>Usage &amp; examples</value></data>

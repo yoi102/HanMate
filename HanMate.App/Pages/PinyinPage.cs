@@ -156,7 +156,7 @@ public sealed class PinyinPage : ContentPage
         if (!_active || _course is null) return null;
         var key = _course.DemoPlaybackKey(item);
         var generation = ++_generation;
-        var result = await _speech.PlayAsync(_owner, item.Id.ToString(), () => PinyinVoiceInput.Demo(item), key);
+        var result = await _speech.PlayDemoAsync(_owner, item.Id.ToString(), () => PinyinVoiceInput.Demo(item), key);
         if (_active && generation == _generation && result is null)
             await DisplayAlertAsync(item.Display, T("NoAudio"), _language["Library.Cancel"]);
         if (_active && generation == _generation && result is PlaybackOutcome.Failed or PlaybackOutcome.Busy)

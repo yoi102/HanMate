@@ -288,7 +288,7 @@
   <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>音频来源</value></data>
   <data name="Pinyin.Examples" xml:space="preserve"><value>例字</value></data>
-  <data name="Pinyin.NoAudio" xml:space="preserve"><value>暂无对应录音。可在设置中启用内置 AI 语音包，用于拼音朗读。</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>暂无对应录音，当前所选音源不可用或不支持此拼音。请在“朗读声音”中检查音源设置。</value></data>
   <data name="Pinyin.Playing" xml:space="preserve"><value>正在播放例字</value></data>
   <data name="Pinyin.Completed" xml:space="preserve"><value>播放结束</value></data>
   <data name="Pinyin.Stopped" xml:space="preserve"><value>已停止</value></data>
@@ -690,7 +690,7 @@
   <data name="Speech.AllowReading" xml:space="preserve"><value>允许阅读使用系统语音（默认关闭，每次仍需确认）</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>拼音资源与音源署名</value></data>
   <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>单击发音，长按或右键查看字典释义。</value></data>
-  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>内置拼音录音来自 audio-cmn，与字典无关。启用 AI 声音后，可按标注拼音和声调离线合成，声母使用 bo、po、mo、fo 等教学读音，并支持单独 ong。可在此关闭 AI 优先来比较录音。录音来源声明 CC BY-SA，未注明版本；录音和 AI 合成的教学听审仍待完成。</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>拼音例字、例词优先使用匹配的 audio-cmn 录音；缺少时使用“朗读声音”中选定的音源。Melo 按课程拼音合成，Kokoro 和系统语音按文字朗读，不能保证遵循手工拼音。无录音的独立韵母仅在所选音源支持时合成。audio-cmn 声明 CC BY-SA，未指定版本；教学听审仍待完成。</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>AI 离线语音包</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>语音包随应用提供。可试听、选择音色和恢复缓存；点“使用这个声音朗读”会切换当前朗读音源。已有录音优先。</value></data>
   <data name="Voice.Info" xml:space="preserve"><value>内置中文 · {0:F1} MiB · {1} 个音色</value></data>
@@ -712,7 +712,7 @@
   <data name="Voice.Unsupported" xml:space="preserve"><value>这个平台暂未接入 AI 离线语音引擎。</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>操作未完成。请检查存储空间或恢复内置语音包；原有学习资料未改动。</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>准备语音包超时，请重试。原有学习资料未改动。</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>两套模型均内置并在本机运行，文字和录音不上传。清除缓存不会删除学习资料。拼音练习优先原录音，缺录音时由 MeloTTS 按课程读音补充；字典和正文使用朗读设置中选择的音源。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>两套模型均内置并在本机运行，文字和录音不上传。清除缓存不会删除学习资料。拼音例字、例词及字典字词优先匹配录音，缺少时使用朗读设置中选择的音源；正文也使用所选音源。</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai，MIT。Kokoro：hexgrad，Apache-2.0。引擎：sherpa-onnx，Apache-2.0。声音为合成音频，许可和来源随包保留。</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>选择音色</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>试听文字</value></data>
@@ -754,8 +754,7 @@
   <data name="Dictionary.Summary" xml:space="preserve"><value>{0} 个字词条目 · 版本 {1} · 离线可用</value></data>
   <data name="Dictionary.Enabled" xml:space="preserve"><value>启用默认字典</value></data>
   <data name="Dictionary.Description" xml:space="preserve"><value>简体字头和中文释义，收录汉字、词语与成语，支持繁体检索。来源为 chinese-xinhua 网络整理库，含旧释义，尚未全面审校；不是官方《新华字典》授权版。缺失拼音自动补注并标为待校对，不加入已确认读音索引。只读词库和启用设置不随个人备份迁移。</value></data>
-  <data name="Pinyin.PreferAi" xml:space="preserve"><value>拼音优先使用已启用的 AI 声音</value></data>
-  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>默认使用原有拼音、例字和例词录音；缺少完整录音时用已启用的语音包补充。开启此项才优先合成；导入录音和已知错音的匹配录音仍优先。此开关不影响字典释义和例句朗读。</value></data>
+  <data name="Pinyin.RecordingFirstHint" xml:space="preserve"><value>优先播放导入录音和匹配的 audio-cmn 录音；例字、例词缺少录音时，使用“朗读声音”中选定的音源和音色。</value></data>
   <data name="DictionaryDetail.Title" xml:space="preserve"><value>字典</value></data>
   <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>释义</value></data>
   <data name="DictionaryDetail.Examples" xml:space="preserve"><value>用法与例句</value></data>

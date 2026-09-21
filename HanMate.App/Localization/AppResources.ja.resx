@@ -288,7 +288,7 @@
   <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>音声の出典</value></data>
   <data name="Pinyin.Examples" xml:space="preserve"><value>例字</value></data>
-  <data name="Pinyin.NoAudio" xml:space="preserve"><value>対応する録音がありません。設定で内蔵 AI 音声を有効にするとピンインを読み上げられます。</value></data>
+  <data name="Pinyin.NoAudio" xml:space="preserve"><value>対応する録音がなく、選択中の音声が利用できないか、このピンインに対応していません。「読み上げ音声」の設定をご確認ください。</value></data>
   <data name="Pinyin.Playing" xml:space="preserve"><value>例字を再生中</value></data>
   <data name="Pinyin.Completed" xml:space="preserve"><value>再生終了</value></data>
   <data name="Pinyin.Stopped" xml:space="preserve"><value>停止しました</value></data>
@@ -690,7 +690,7 @@
   <data name="Speech.AllowReading" xml:space="preserve"><value>閲覧時のシステム音声を許可（既定はオフ、毎回確認）</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>ピンイン教材と音声の出典</value></data>
   <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>タップで発音、長押し・右クリックで辞書の説明を開きます。</value></data>
-  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>内蔵ピンイン録音は辞書とは別の audio-cmn が出典です。有効な AI 音声は注記されたピンインと声調でオフライン合成し、bo・po・mo・fo などの声母の読み方と単独 ong に対応します。ここで AI 優先を解除すると録音と比較できます。出典の CC BY-SA は版の指定がありません。録音と合成音の教材としての聴取確認は未完了です。</value></data>
+  <data name="Pinyin.AudioMethod" xml:space="preserve"><value>ピンインの例字・例語は一致する audio-cmn 録音を優先し、不足時は「読み上げ音声」で選んだ音源を使います。Melo は教材のピンインに従いますが、Kokoro とシステム音声は文字を読み、手動ピンインを反映するとは限りません。録音のない単独韻母は選択した音源が対応する場合のみ合成します。audio-cmn の CC BY-SA は版の指定がなく、教材としての聴取確認は未完了です。</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>AIオフライン音声パック</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>音声パックは内蔵です。試聴・音声選択・キャッシュ復元ができます。「この音声を使う」で読み上げ音源も切り替わります。録音を優先します。</value></data>
   <data name="Voice.Info" xml:space="preserve"><value>内蔵中国語・{0:F1} MiB・{1}音声</value></data>
@@ -712,7 +712,7 @@
   <data name="Voice.Unsupported" xml:space="preserve"><value>このプラットフォームのAI音声エンジンは未対応です。</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>操作を完了できませんでした。空き容量を確認するか内蔵パックを復元してください。学習データは変更されていません。</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>音声パックの準備がタイムアウトしました。もう一度お試しください。学習データは変更されていません。</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>両モデルは内蔵され端末内で動作し、文字や録音を送信しません。キャッシュ削除で学習データは消えません。ピンインは録音を優先し、不足時はMeloTTSで指定の読みを補います。辞書・本文は選択した音源を使います。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>両モデルは内蔵され端末内で動作し、文字や録音を送信しません。キャッシュ削除で学習データは消えません。ピンインの例字・例語と辞書の見出し語は一致する録音を優先し、不足時は選択した読み上げ音声を使います。本文も選択した音源を使います。</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai、MIT。Kokoro：hexgrad、Apache-2.0。エンジン：sherpa-onnx、Apache-2.0。合成音声です。ライセンスと出典を同梱します。</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>音色を選択</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>試聴する文章</value></data>
@@ -754,8 +754,7 @@
   <data name="Dictionary.Summary" xml:space="preserve"><value>{0} 項目 · バージョン {1} · オフライン</value></data>
   <data name="Dictionary.Enabled" xml:space="preserve"><value>標準辞書を有効にする</value></data>
   <data name="Dictionary.Description" xml:space="preserve"><value>簡体字の見出しと中国語の説明で、漢字・単語・成語を収録し、繁体字でも検索できます。chinese-xinhua の収集データには古い説明があり、全面校閲済みでも公式の新華字典でもありません。不足するピンインは自動補完し、未確認として確定読み検索から除外します。読取専用データと有効設定は個人バックアップに含まれません。</value></data>
-  <data name="Pinyin.PreferAi" xml:space="preserve"><value>ピンインでは有効な AI 音声を優先</value></data>
-  <data name="Pinyin.PreferAiHint" xml:space="preserve"><value>標準では従来のピンイン・例字・例語の録音を使用し、完全な録音がない場合に有効な音声パックで補います。この項目を有効にすると合成音声を優先します。インポートした録音と既知の誤発音に対応する録音は引き続き優先します。辞書の語義・例文の読み上げには影響しません。</value></data>
+  <data name="Pinyin.RecordingFirstHint" xml:space="preserve"><value>インポート録音と一致する audio-cmn 録音を優先します。録音のない例字・例語は「読み上げ音声」で選んだ音源・音色を使います。</value></data>
   <data name="DictionaryDetail.Title" xml:space="preserve"><value>辞書</value></data>
   <data name="DictionaryDetail.Definitions" xml:space="preserve"><value>意味</value></data>
   <data name="DictionaryDetail.Examples" xml:space="preserve"><value>用法・例文</value></data>

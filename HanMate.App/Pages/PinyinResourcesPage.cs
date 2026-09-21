@@ -36,6 +36,9 @@ public sealed class PinyinResourcesPage : ContentPage
                 var body = new VerticalStackLayout { Padding = 20, Spacing = 14 };
                 body.Add(new Label { Text = language["Pinyin.DraftNotice"] });
                 body.Add(new Label { Text = language["Pinyin.AudioMethod"] });
+                await using var sharedNotice = await FileSystem.OpenAppPackageFileAsync("WordAudio/NOTICE.txt");
+                using var reader = new StreamReader(sharedNotice);
+                body.Add(new Label { Text = await reader.ReadToEndAsync(), FontSize = 14 });
                 foreach (var asset in course.Data.Assets)
                     body.Add(new Label { Text = $"{asset.Key} · {asset.Author}\n{asset.License}\n{asset.SourceUrl}\n{asset.LicenseUrl}\n{asset.Changes}", FontSize = 14 });
                 await Navigation.PushAsync(new ContentPage { Title = notices.Text, Content = new ScrollView { Content = body } });
@@ -43,13 +46,7 @@ public sealed class PinyinResourcesPage : ContentPage
             catch { _status.Text = language["Pinyin.LoadFailed"]; }
             finally { _busy = false; }
         };
-        var preferAi = new Switch { IsToggled = Preferences.Default.Get(PinyinSpeechService.PreferenceKey, false), AutomationId = "Pinyin.PreferAi" };
-        SemanticProperties.SetDescription(preferAi, language["Pinyin.PreferAi"]);
-        preferAi.Toggled += (_, e) => Preferences.Default.Set(PinyinSpeechService.PreferenceKey, e.Value);
-        var preference = new Grid { ColumnDefinitions = [new ColumnDefinition(GridLength.Star), new ColumnDefinition(GridLength.Auto)], ColumnSpacing = 12 };
-        preference.Add(new Label { Text = language["Pinyin.PreferAi"], VerticalOptions = LayoutOptions.Center }, 0);
-        preference.Add(preferAi, 1);
         Content = new ScrollView { Content = new VerticalStackLayout { Padding = 20, Spacing = 14, Children = {
-            preference, new Label { Text = language["Pinyin.PreferAiHint"] }, import, notices, _status } } };
+            new Label { Text = language["Pinyin.RecordingFirstHint"] }, import, notices, _status } } };
     }
 }

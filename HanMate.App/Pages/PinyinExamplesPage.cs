@@ -96,7 +96,7 @@ public sealed class PinyinExamplesPage : ContentPage
         if (!_active || _opening) return null;
         var generation = ++_generation; Highlight(card);
         var key = _course.PlaybackKey(example);
-        var result = await _speech.PlayAsync(_owner, example.UnitId.ToString(), () => PinyinVoiceInput.Example(_course.Unit(example)), key);
+        var result = await _speech.PlayExampleAsync(_owner, _course.Unit(example), key);
         if (!_active || generation != _generation) return result;
         Highlight(null);
         if (result is null) await DisplayAlertAsync(_course.Unit(example).Text, T("NoAudio"), _language["Library.Cancel"]);

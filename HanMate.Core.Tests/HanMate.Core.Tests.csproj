@@ -20,6 +20,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HanMate.Core\HanMate.Core.csproj" />
+    <!-- Exercise the actual app routing with platform audio adapters replaced by test doubles. -->
+    <Compile Include="..\HanMate.App\Audio\PinyinSpeechService.cs" Link="AppSpeech\PinyinSpeechService.cs" />
+    <Compile Include="..\HanMate.App\Audio\WordSpeechService.cs" Link="AppSpeech\WordSpeechService.cs" />
+    <Compile Include="..\HanMate.App\Audio\TextSpeechService.cs" Link="AppSpeech\TextSpeechService.cs" />
+    <Compile Include="..\HanMate.App\Audio\SpeechPreferences.cs" Link="AppSpeech\SpeechPreferences.cs" />
   </ItemGroup>
 
   <ItemGroup>
