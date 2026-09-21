@@ -7,10 +7,28 @@ using HanMate.Infrastructure.Database;
 
 namespace HanMate.App.Pages;
 
-public sealed class FavoritesPage(FavoriteStore store, LocalizationService language) : DataPage(language)
+public sealed class FavoritesPage(FavoriteStore store, LocalizationService language, IServiceProvider services) : DataPage(language)
 {
     private Guid? _folderId;
     private int _offset;
+    private IReadOnlyList<FavoriteFolder>? _renderedFolders;
+    private IReadOnlyList<FavoriteEntry>? _renderedEntries;
+    private int _renderedBookmarkCount;
+    private string? _renderedCulture;
+
+    protected override async Task RefreshAsync()
+    {
+        if (_folderId is { } folder && _renderedFolders is not null && _renderedEntries is not null &&
+            _renderedCulture == Language.CurrentCultureName)
+        {
+            var folders = await Task.Run(() => store.GetFoldersAsync());
+            var entries = await Task.Run(() => store.GetEntriesAsync(folder, _offset));
+            var bookmarkCount = (await services.GetRequiredService<DictionaryBookmarkStore>().GetAsync()).Count;
+            if (folders.SequenceEqual(_renderedFolders) && entries.SequenceEqual(_renderedEntries) &&
+                bookmarkCount == _renderedBookmarkCount) return;
+        }
+        await ReloadAsync();
+    }
     protected override async Task ReloadAsync()
     {
         Status = LibraryLayout.Status();
@@ -32,7 +50,7 @@ public sealed class FavoritesPage(FavoriteStore store, LocalizationService langu
         var chooser = new Grid { ColumnSpacing = 8, ColumnDefinitions = { new(GridLength.Star), new(GridLength.Auto) } };
         chooser.Add(picker); chooser.Add(more, 1);
         var header = new VerticalStackLayout { Spacing = 8 };
-        var bookmarks = Handler!.MauiContext!.Services.GetRequiredService<DictionaryBookmarkStore>();
+        var bookmarks = services.GetRequiredService<DictionaryBookmarkStore>();
         var bookmarkCount = (await bookmarks.GetAsync()).Count;
         if (bookmarkCount > 0)
         {
@@ -44,6 +62,7 @@ public sealed class FavoritesPage(FavoriteStore store, LocalizationService langu
         if (!string.IsNullOrWhiteSpace(selected.Description)) header.Add(LibraryLayout.Muted(selected.Description));
         if (entries.Count > 0) header.Add(LibraryLayout.Muted(string.Format(T("Count"), _offset + 1, _offset + entries.Count, selected.Count)));
         var rows = new CollectionView { AutomationId = "Favorites.Items", SelectionMode = SelectionMode.None, ItemsSource = entries,
+            ItemsUpdatingScrollMode = ItemsUpdatingScrollMode.KeepScrollOffset,
             ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical) { ItemSpacing = 8 },
             EmptyView = new Label { Text = T("EmptyFavorites"), Margin = new Thickness(24, 40), HorizontalTextAlignment = TextAlignment.Center },
             ItemTemplate = new DataTemplate(() =>
@@ -67,6 +86,7 @@ public sealed class FavoritesPage(FavoriteStore store, LocalizationService langu
                 };
                 return LibraryLayout.Surface(LibraryLayout.ContentRow(nameof(FavoriteEntry.Title), open =>
                 {
+                    open.AutomationId = "Favorites.Open";
                     SemanticProperties.SetHint(open, T("Read"));
                     open.Clicked += async (_, _) => { if (open.BindingContext is FavoriteEntry entry) await RunAsync(() => ReadAsync(entry)); };
                 }, actions, state));
@@ -80,9 +100,15 @@ public sealed class FavoritesPage(FavoriteStore store, LocalizationService langu
         grid.SizeChanged += (_, _) => { if (grid.Height > 0) headerScroll.MaximumHeightRequest = Math.Min(220, grid.Height * .35); };
         grid.Add(headerScroll); grid.Add(Status, 0, 1); grid.Add(rows, 0, 2);
         grid.Add(LibraryLayout.Paging(previous, next, selected.Count > 50), 0, 3); Content = grid;
+        _renderedFolders = folders; _renderedEntries = entries;
+        _renderedBookmarkCount = bookmarkCount; _renderedCulture = Language.CurrentCultureName;
     }
-    private async Task ReadAsync(FavoriteEntry entry) => await Navigation.PushAsync(new ReadingPage(
-        await Task.Run(() => new ReadingDocument(JsonSerializer.Deserialize<ContentDocument>(entry.BodyJson, ContentJson.Options)!)), Language));
+    private async Task ReadAsync(FavoriteEntry entry)
+    {
+        var document = await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(entry.BodyJson, ContentJson.Options)
+            ?? throw new InvalidDataException("Favorite content is unavailable."));
+        await Navigation.PushAsync(await LearningDetailPageFactory.CreateAsync(document, Language, services));
+    }
 
     private async Task ManageFolderAsync(FavoriteFolder selected, int index, int count)
     {

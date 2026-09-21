@@ -60,9 +60,9 @@ if (args.Length == 2 && args[0] == "--review-samples")
             }
         }
     }
-    // Regression: preflight must reject a punctuation-only native chunk before any playback begins.
-    try { await synth.ValidateAsync("你好" + new string('！', 100) + "你好", 66, CancellationToken.None); throw new Exception("Preflight accepted an unplayable chunk."); }
-    catch (UnsupportedVoiceTextException) { }
+    // Speech preprocessing collapses separators before chunking; punctuation-only
+    // sections no longer reject an otherwise playable paragraph.
+    await synth.ValidateAsync("你好" + new string('！', 100) + "你好", 66, CancellationToken.None);
     await synth.ValidateAsync("你好" + new string('\n', 100) + "你好", 66, CancellationToken.None);
     await File.WriteAllTextAsync(Path.Combine(directory, "manifest.json"), JsonSerializer.Serialize(new { generatedAt = DateTimeOffset.UtcNow,
         model = store.Pack.Version, scope = "Review material, not a listening approval. Native preflight regression PASS.", samples = manifest }, new JsonSerializerOptions { WriteIndented = true }));

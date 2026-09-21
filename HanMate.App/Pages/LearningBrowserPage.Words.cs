@@ -118,8 +118,7 @@ public sealed partial class LearningBrowserPage
                 _wordRequest++; _wordStatus.Text = "";
                 if (_wordPlayback is not null) await _wordPlayback.StopAsync(_wordOwner);
                 if (!_wordActive || token.IsCancellationRequested) return;
-                await Navigation.PushAsync(new DictionaryEntryPage(item.Document, Language, services,
-                    allowEditing: true, learningContent: true));
+                await Navigation.PushAsync(await LearningDetailPageFactory.CreateAsync(item.Document, Language, services));
             }
             catch (OperationCanceledException) when (token.IsCancellationRequested) { }
         });

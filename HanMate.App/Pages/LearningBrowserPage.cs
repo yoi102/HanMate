@@ -89,8 +89,9 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
                 SemanticProperties.SetHint(open, T("Read"));
                 open.Clicked += async (_, _) =>
                 {
-                    if (open.BindingContext is not LearningRow row) return;
-                    await RunAsync(async () => await Navigation.PushAsync(new ReadingPage(await Task.Run(() => new ReadingDocument(JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!)), Language)));
+                    if (open.BindingContext is not LearningRow row || Handler?.MauiContext?.Services is not { } services) return;
+                    await RunAsync(async () => await Navigation.PushAsync(await LearningDetailPageFactory.CreateAsync(
+                        await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language, services)));
                 };
             }))) };
         if (kind == ContentKind.Word)

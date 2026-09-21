@@ -19,8 +19,7 @@ public sealed partial class LearningBrowserPage
                 if (open.BindingContext is not ContentDocument document || Handler?.MauiContext?.Services is not { } services) return;
                 await RunAsync(async () =>
                 {
-                    var reading = await Task.Run(() => new ReadingDocument(document));
-                    await Navigation.PushAsync(new LessonDetailPage(reading, Language, services));
+                    await Navigation.PushAsync(await LearningDetailPageFactory.CreateAsync(document, Language, services));
                 });
             };
         }, subtitle: preview);
