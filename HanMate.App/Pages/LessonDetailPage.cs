@@ -40,7 +40,8 @@ public sealed class LessonDetailPage : ContentPage
     private readonly ContentView _authorView = new();
     private LessonHeading? _titleHeading, _authorHeading;
     private string? Author => _reading.Content.Kind == ContentKind.Poem &&
-        _reading.Content.Source.SourceId == "hanmate-common-lessons" ? _reading.Content.Source.AuthorProvider : null;
+        _reading.Content.Source.AuthorProvider is { Length: > 0 } author && author != "User"
+        ? author : null;
 
     public LessonDetailPage(ReadingDocument reading, LocalizationService language, IServiceProvider services)
     {
@@ -254,17 +255,10 @@ public sealed class LessonDetailPage : ContentPage
     private async Task MoreAsync()
     {
         var choice = await DisplayActionSheetAsync(_language["DictionaryDetail.More"], _language["Library.Cancel"], null,
-            T("Manage"), T("Source"), _language["Speech.Title"]);
+            _language["LearningEdit.Edit"]);
         if (!_active) return;
-        if (choice == T("Manage")) await Navigation.PushAsync(new ReadingPage(_reading, _language));
-        else if (choice == _language["Speech.Title"]) await Navigation.PushAsync(ActivatorUtilities.CreateInstance<SpeechSettingsPage>(_services));
-        else if (choice == T("Source"))
-        {
-            var source = _reading.Content.Source;
-            await DisplayAlertAsync(T("Source"), string.Join("\n\n", new[] { source.AuthorProvider, source.Reference,
-                source.LicenseIdentifier, source.PermissionNotes, _language["Reader." + (source.ReviewStatus == ReviewStatus.Approved ? "Source" : "Draft")] }
-                .Where(s => !string.IsNullOrWhiteSpace(s))), _language["Library.Cancel"]);
-        }
+        if (choice == _language["LearningEdit.Edit"])
+            await LearningEditorNavigation.OpenAsync(this, _reading.Content, _language, _services);
     }
 
     internal sealed class Block(LessonBlock part, bool pinyin, double scale) : INotifyPropertyChanged
@@ -289,6 +283,9 @@ public sealed class LessonDetailPage : ContentPage
         public BlockView(Func<ReadingTarget, Task> activate, Func<string> hint)
         {
             _activate = activate; _hint = hint;
+#if ANDROID
+            Loaded += (_, _) => AndroidCollectionRowFocus.RemoveUnnamedItemFocus(this);
+#endif
             SetBinding(PinyinProperty, Binding.Create(static (Block block) => block.Pinyin));
         }
         protected override void OnBindingContextChanged() { base.OnBindingContextChanged(); Render(); }

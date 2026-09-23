@@ -3,6 +3,7 @@ param(
     [ValidateSet('snapshot','screenshot','invoke','reveal','toggle','expand','collapse','select','select-parent','focus','value','key','click','right-click','stroke')][string]$Action = 'snapshot',
     [string]$Id,
     [string]$Name,
+    [string]$Type,
     [string]$Value,
     [string]$ExpectedExecutablePath,
     [string]$OutputDirectory = "$env:TEMP/HanMate-windows-ui"
@@ -22,7 +23,7 @@ if ($root.Current.ProcessId -ne $TargetProcessId) { throw 'Window owner mismatch
 $nodes = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants,[System.Windows.Automation.Condition]::TrueCondition)
 if ($Action -notin @('snapshot','screenshot')) {
     if (!$Id -and !$Name) { throw 'An exact observed ID or name is required.' }
-    $matches = @($nodes | Where-Object { ($Action -eq 'reveal' -or ! $_.Current.IsOffscreen) -and (!$Id -or $_.Current.AutomationId -eq $Id) -and (!$Name -or $_.Current.Name -eq $Name) } |
+    $matches = @($nodes | Where-Object { ($Action -eq 'reveal' -or ! $_.Current.IsOffscreen) -and (!$Id -or $_.Current.AutomationId -eq $Id) -and (!$Name -or $_.Current.Name -eq $Name) -and (!$Type -or $_.Current.ControlType.ProgrammaticName -eq $Type) } |
         Group-Object -Property { $_.GetRuntimeId() -join ':' } | ForEach-Object { $_.Group[0] })
     if ($matches.Count -ne 1) { throw "Expected one target; found $($matches.Count)." }
     $target = $matches[0]

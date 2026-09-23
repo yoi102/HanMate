@@ -13,7 +13,7 @@ public partial class LearningPage : ContentPage
     private readonly BundledResourceCatalog _catalog;
     private readonly TextResourceInstaller _installer;
     private readonly HanMate.Infrastructure.Database.LearningCatalogStore _learning;
-    private readonly HanMate.Infrastructure.Database.TextDraftStore _drafts;
+    private readonly HanMate.Infrastructure.Database.CustomWordCategoryStore _customCategories;
     private bool _opening;
     private bool _loadFailed;
     private int _columns = 2;
@@ -23,12 +23,12 @@ public partial class LearningPage : ContentPage
     private LearningBrowserPage? _poems;
 
     public LearningPage(LocalizationService localization, BundledResourceCatalog catalog, TextResourceInstaller installer,
-        HanMate.Infrastructure.Database.LearningCatalogStore learning, HanMate.Infrastructure.Database.TextDraftStore drafts)
+        HanMate.Infrastructure.Database.LearningCatalogStore learning, HanMate.Infrastructure.Database.CustomWordCategoryStore customCategories)
     {
         InitializeComponent();
         _localization = localization;
         _catalog = catalog; _installer = installer;
-        _learning = learning; _drafts = drafts;
+        _learning = learning; _customCategories = customCategories;
         BindingContext = localization;
         UpdateStatus();
     }
@@ -58,7 +58,7 @@ public partial class LearningPage : ContentPage
         {
             await Task.Run(() => _catalog.EnsureInstalledAsync());
             await Navigation.PushAsync(kind == ContentKind.Word
-                ? _wordCategories ??= new WordCategoriesPage(_learning, _localization)
+                ? _wordCategories ??= new WordCategoriesPage(_learning, _customCategories, _localization)
                 : kind == ContentKind.Grammar ? _grammar ??= new LearningBrowserPage(_learning, _localization, kind)
                 : kind == ContentKind.Text ? _texts ??= new LearningBrowserPage(_learning, _localization, kind)
                 : kind == ContentKind.Poem ? _poems ??= new LearningBrowserPage(_learning, _localization, kind)
@@ -93,10 +93,4 @@ public partial class LearningPage : ContentPage
         { CategoryGrid.SetRow(CategoryGrid.Children[i], i / columns); CategoryGrid.SetColumn(CategoryGrid.Children[i], i % columns); }
     }
 
-    private async void OnDraftsClicked(object? sender, EventArgs e)
-    {
-        if (_opening) return; _opening = true;
-        try { await Navigation.PushAsync(new DraftsPage(_drafts, _localization)); }
-        finally { _opening = false; }
-    }
 }

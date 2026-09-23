@@ -14,6 +14,25 @@ namespace HanMate.Infrastructure.Tests.Database;
 public sealed partial class BackupTests
 {
     [Fact]
+    public async Task CustomWordCategoriesAndMembershipRoundTripWithBackup()
+    {
+        using var a = new Area(); using var b = new Area();
+        var categories = new CustomWordCategoryStore(new VersionedLocalStateStore(a.Db));
+        var empty = await categories.CreateAsync("生词");
+        var filled = await categories.CreateAsync("复习");
+        await categories.RenameBuiltInAsync("numbers", "我的数字");
+        await categories.SetBuiltInHiddenAsync("numbers", true);
+        var word = await new PersonalWordStore(a.Db).SaveAsync(new(filled.Id, "一条", "量词", [new("一条鱼")], "one", "", false));
+        using var bytes = await a.Export();
+        var importer = new BackupImportStore(b.Db);
+        await importer.CommitAsync(await importer.PlanAsync(bytes));
+        Assert.Equal(new[] { empty, filled }, await new CustomWordCategoryStore(new VersionedLocalStateStore(b.Db)).ListAsync());
+        Assert.Equal(new BuiltInWordCategoryPreference("numbers", "我的数字", true),
+            Assert.Single(await new CustomWordCategoryStore(new VersionedLocalStateStore(b.Db)).ListBuiltInAsync()));
+        Assert.Equal(word.Id, Assert.Single((await new LearningCatalogStore(b.Db).QueryAsync(new(ContentKind.Word, WordCategory: filled.Id))).Items).Id);
+    }
+
+    [Fact]
     public async Task FourKindsFavoritesSettingsAndActualAudioRoundTripAndRepeat()
     {
         using var a = new Area(); using var b = new Area(); var docs = new List<ContentDocument>();

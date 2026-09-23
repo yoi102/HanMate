@@ -84,7 +84,7 @@ public sealed class FavoritesPage(FavoriteStore store, LocalizationService langu
                         else if (choice == T("ChooseFolders")) await Navigation.PushAsync(new FavoritePickerPage(store, Language, entry.Id));
                     });
                 };
-                return LibraryLayout.Surface(LibraryLayout.ContentRow(nameof(FavoriteEntry.Title), open =>
+                return LibraryLayout.CollectionRow(LibraryLayout.ContentRow(nameof(FavoriteEntry.Title), open =>
                 {
                     open.AutomationId = "Favorites.Open";
                     SemanticProperties.SetHint(open, T("Read"));

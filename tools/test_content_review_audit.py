@@ -53,8 +53,8 @@ class ReviewTests(unittest.TestCase):
 
     def test_actual_payload_and_pending_reviews(self):
         report = collect(decisions=[])
-        self.assertEqual(398, report['summary']['contents'])
-        self.assertEqual(394, report['summary']['audio'])
+        self.assertEqual(562, report['summary']['contents'])
+        self.assertEqual(395, report['summary']['audio'])
         self.assertEqual(75, sum(s['category'] == 'dictionary-example' for s in report['subjects']))
         self.assertEqual(1, sum(s['category'] == 'dictionary-annotation' for s in report['subjects']))
         self.assertFalse(report['summary']['releaseReady'])
@@ -65,7 +65,7 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(292114, sum(b['entries'] for b in report['dictionaryBatches']))
         self.assertIn('DICTIONARY_RIGHTS_UNRESOLVED', report['summary']['findingsByCode'])
         words = [r for r in report['units'] if r['collection'] != 'pinyin' and r['role'] == 'definition']
-        self.assertEqual(18, len(words))
+        self.assertEqual(127, len(words))
         self.assertTrue(all(r['english'] and r['japanese'] and r['missingHanzi'] == 0 for r in words))
         self.assertNotIn('TAUTOLOGICAL_DEFINITION', report['summary']['findingsByCode'])
         self.assertNotIn('ANNOTATION_MISSING', report['summary']['findingsByCode'])

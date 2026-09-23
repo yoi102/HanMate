@@ -760,6 +760,8 @@
   <data name="DictionaryDetail.Examples" xml:space="preserve"><value>用法与例句</value></data>
   <data name="DictionaryDetail.HidePinyin" xml:space="preserve"><value>收起拼音</value></data>
   <data name="DictionaryDetail.ShowPinyin" xml:space="preserve"><value>显示拼音</value></data>
+  <data name="DictionaryDetail.PinyinCompactOn" xml:space="preserve"><value>拼音 ✓</value></data>
+  <data name="DictionaryDetail.PinyinCompactOff" xml:space="preserve"><value>拼音 +</value></data>
   <data name="DictionaryDetail.Speak" xml:space="preserve"><value>朗读词目；再次点击停止</value></data>
   <data name="DictionaryDetail.More" xml:space="preserve"><value>更多</value></data>
   <data name="DictionaryDetail.Source" xml:space="preserve"><value>词条信息与来源</value></data>
@@ -847,4 +849,53 @@
   <data name="WordCategories.seasonings" xml:space="preserve"><value>调味料</value></data>
   <data name="WordCategories.kitchenware" xml:space="preserve"><value>厨房用具</value></data>
   <data name="WordCategories.household" xml:space="preserve"><value>生活用品</value></data>
+  <data name="WordCategories.New" xml:space="preserve"><value>新建类别</value></data>
+  <data name="WordCategories.NewHint" xml:space="preserve"><value>创建自己的词语分类</value></data>
+  <data name="WordCategories.Name" xml:space="preserve"><value>类别名称</value></data>
+  <data name="WordCategories.Edit" xml:space="preserve"><value>编辑类别</value></data>
+  <data name="WordCategories.DeleteHint" xml:space="preserve"><value>删除此类别？其中的词语会移到“其他词语”，不会删除词语或录音。</value></data>
+  <data name="WordCategories.HideBuiltInHint" xml:space="preserve"><value>从类别列表隐藏这个预置类别？词语仍可在“全部词语”中找到，之后可恢复类别。</value></data>
+  <data name="WordCategories.Restore" xml:space="preserve"><value>恢复类别</value></data>
+  <data name="WordEditor.NewWord" xml:space="preserve"><value>添加词语</value></data>
+  <data name="WordEditor.EditWord" xml:space="preserve"><value>编辑词语</value></data>
+  <data name="WordEditor.Word" xml:space="preserve"><value>词语</value></data>
+  <data name="WordEditor.Definition" xml:space="preserve"><value>释义（必填）</value></data>
+  <data name="WordEditor.Example" xml:space="preserve"><value>例句（选填）</value></data>
+  <data name="WordEditor.AddExample" xml:space="preserve"><value>添加例句</value></data>
+  <data name="WordEditor.RemoveExample" xml:space="preserve"><value>删除此句</value></data>
+  <data name="WordEditor.Pinyin" xml:space="preserve"><value>拼音</value></data>
+  <data name="WordEditor.PinyinHint" xml:space="preserve"><value>按汉字顺序输入拼音，用空格隔开；词语改变后会自动生成。可直接修改，保存时确认读音；不确定的字可填 ?。</value></data>
+  <data name="WordEditor.PinyinInvalid" xml:space="preserve"><value>请按每个汉字填写一个带声调的拼音，用空格隔开，例如 nǐ hǎo 或 ni3 hao3。</value></data>
+  <data name="WordEditor.English" xml:space="preserve"><value>英文译文（选填）</value></data>
+  <data name="WordEditor.Japanese" xml:space="preserve"><value>日文译文（选填）</value></data>
+  <data name="WordEditor.Voice" xml:space="preserve"><value>朗读方式</value></data>
+  <data name="WordEditor.Category" xml:space="preserve"><value>所属类别</value></data>
+  <data name="WordEditor.Automatic" xml:space="preserve"><value>自动语音</value></data>
+  <data name="WordEditor.OwnRecording" xml:space="preserve"><value>自己录音</value></data>
+  <data name="WordEditor.RecordingHint" xml:space="preserve"><value>选择自己录音后，保存会打开录音管理页；录制并保存录音后即可播放。</value></data>
+  <data name="WordEditor.Invalid" xml:space="preserve"><value>请填写词语和释义，并检查文字长度。</value></data>
+  <data name="WordEditor.DeleteHint" xml:space="preserve"><value>将此词语移入回收站？收藏和录音会保留，可恢复。</value></data>
+  <data name="WordEditor.HideBuiltInHint" xml:space="preserve"><value>从学习列表隐藏这个预置词语？原始资源不会被删除，可在资源管理中恢复。</value></data>
+  <data name="WordEditor.RecordedExampleProtected" xml:space="preserve"><value>这条例句有录音或待保存录音，请先在录音管理中移除后再删除例句。</value></data>
+  <data name="LearningEdit.New" xml:space="preserve"><value>添加内容</value></data>
+  <data name="LearningEdit.Edit" xml:space="preserve"><value>编辑</value></data>
+  <data name="LearningEdit.Title" xml:space="preserve"><value>标题</value></data>
+  <data name="LearningEdit.Author" xml:space="preserve"><value>作者（选填）</value></data>
+  <data name="LearningEdit.TextBody" xml:space="preserve"><value>课文内容</value></data>
+  <data name="LearningEdit.PoemBody" xml:space="preserve"><value>诗词内容，每句另起一行</value></data>
+  <data name="LearningEdit.PatternHint" xml:space="preserve"><value>句型，用 {位置} 表示可替换部分</value></data>
+  <data name="LearningEdit.PatternHelp" xml:space="preserve"><value>语法句型</value></data>
+  <data name="LearningEdit.Explanation" xml:space="preserve"><value>解释</value></data>
+  <data name="LearningEdit.Example" xml:space="preserve"><value>例句</value></data>
+  <data name="LearningEdit.Note" xml:space="preserve"><value>备注</value></data>
+  <data name="LearningEdit.AddExplanation" xml:space="preserve"><value>添加解释</value></data>
+  <data name="LearningEdit.AddExample" xml:space="preserve"><value>添加例句</value></data>
+  <data name="LearningEdit.AddNote" xml:space="preserve"><value>添加备注</value></data>
+  <data name="LearningEdit.English" xml:space="preserve"><value>英文译文（选填）</value></data>
+  <data name="LearningEdit.Japanese" xml:space="preserve"><value>日文译文（选填）</value></data>
+  <data name="LearningEdit.Remove" xml:space="preserve"><value>删除这一段</value></data>
+  <data name="LearningEdit.Required" xml:space="preserve"><value>至少保留一段解释和一条例句。</value></data>
+  <data name="LearningEdit.Invalid" xml:space="preserve"><value>请填写必填内容，并检查句型及文字长度。</value></data>
+  <data name="LearningEdit.DeleteHint" xml:space="preserve"><value>将此项目移入回收站？收藏和录音会保留，可恢复。</value></data>
+  <data name="LearningEdit.HideBuiltInHint" xml:space="preserve"><value>从学习列表隐藏这个预置项目？可在资源管理中恢复。</value></data>
 </root>

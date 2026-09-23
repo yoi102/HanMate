@@ -191,17 +191,10 @@ public sealed class GrammarDetailPage : ContentPage
     private async Task MoreAsync()
     {
         var choice = await DisplayActionSheetAsync(_language["DictionaryDetail.More"], _language["Library.Cancel"], null,
-            T("Manage"), T("Source"), _language["Speech.Title"]);
+            _language["LearningEdit.Edit"]);
         if (!_active) return;
-        if (choice == T("Manage")) await Navigation.PushAsync(new ReadingPage(_reading, _language));
-        else if (choice == _language["Speech.Title"]) await Navigation.PushAsync(ActivatorUtilities.CreateInstance<SpeechSettingsPage>(_services));
-        else if (choice == T("Source"))
-        {
-            var source = _reading.Content.Source;
-            await DisplayAlertAsync(T("Source"), string.Join("\n\n", new[] { source.AuthorProvider, source.Reference,
-                source.LicenseIdentifier, source.PermissionNotes, _language["Reader." + (source.ReviewStatus == ReviewStatus.Approved ? "Source" : "Draft")] }
-                .Where(s => !string.IsNullOrWhiteSpace(s))), _language["Library.Cancel"]);
-        }
+        if (choice == _language["LearningEdit.Edit"])
+            await LearningEditorNavigation.OpenAsync(this, _reading.Content, _language, _services);
     }
 
     internal sealed class Block(ReadingPart part, string heading, string? translation, bool pinyin) : INotifyPropertyChanged
@@ -227,6 +220,9 @@ public sealed class GrammarDetailPage : ContentPage
         public BlockView(Func<Guid, Task> speak, Func<string> hint)
         {
             _speak = speak; _hint = hint;
+#if ANDROID
+            Loaded += (_, _) => AndroidCollectionRowFocus.RemoveUnnamedItemFocus(this);
+#endif
             SetBinding(PinyinProperty, Binding.Create(static (Block block) => block.Pinyin));
         }
         protected override void OnBindingContextChanged() { base.OnBindingContextChanged(); Render(); }

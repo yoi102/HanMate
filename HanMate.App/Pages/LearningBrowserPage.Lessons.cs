@@ -42,6 +42,6 @@ public sealed partial class LearningBrowserPage
                 auxiliary.LineBreakMode = LineBreakMode.TailTruncation; preview.Add(auxiliary);
             }
         };
-        return LibraryLayout.Surface(row);
+        return CreateEditableContentCard(row);
     }
 }

@@ -7,7 +7,7 @@ using HanMate.Infrastructure.Database;
 
 namespace HanMate.App.Pages;
 
-public sealed partial class LearningBrowserPage(LearningCatalogStore store, LocalizationService language, ContentKind kind, string? wordCategory = null) : DataPage(language)
+public sealed partial class LearningBrowserPage(LearningCatalogStore store, LocalizationService language, ContentKind kind, string? wordCategory = null, string? wordCategoryName = null) : DataPage(language)
 {
     private Difficulty? _difficulty;
     private SchoolStage? _stage;
@@ -35,12 +35,31 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         this.SetDynamicResource(StyleProperty, "LibraryPage");
         var result = await Task.Run(() => store.QueryAsync(new(kind, _difficulty, _stage, _grade, _scenes.ToArray(), _personal, wordCategory), _offset));
         if (result.Items.Count == 0 && _offset > 0) { _offset = 0; await ReloadAsync(); return; }
-        Title = wordCategory is not null ? Language["WordCategories." + wordCategory]
+        Title = wordCategory is not null ? wordCategoryName ?? Language["WordCategories." + wordCategory]
             : kind == ContentKind.Grammar ? Language.KindGrammar : Language["Kind." + kind];
         var header = new VerticalStackLayout { Spacing = 10 };
         if (kind == ContentKind.Word)
         {
             header.Add(LibraryLayout.Muted(Language["LearningWords.Gesture"]));
+            var create = new Button { Text = Language["WordEditor.NewWord"], AutomationId = "Learning.NewWord" };
+            create.Clicked += async (_, _) => await RunAsync(async () =>
+            {
+                if (Handler?.MauiContext?.Services is { } services)
+                    await Navigation.PushAsync(new PersonalWordEditorPage(wordCategory ?? WordCategories.Other, null,
+                        services.GetRequiredService<PersonalWordStore>(), services.GetRequiredService<CustomWordCategoryStore>(), Language));
+            });
+            header.Add(create);
+        }
+        else if (kind is ContentKind.Text or ContentKind.Poem or ContentKind.Grammar)
+        {
+            var create = new Button { Text = Language["LearningEdit.New"], AutomationId = "Learning.NewContent" };
+            create.Clicked += async (_, _) => await RunAsync(async () =>
+            {
+                if (Handler?.MauiContext?.Services is { } services)
+                    await Navigation.PushAsync(new PersonalLearningEditorPage(kind, null,
+                        services.GetRequiredService<PersonalLearningStore>(), Language));
+            });
+            header.Add(create);
         }
         var filters = LibraryLayout.Quiet(Button("Filters", async () => { _expanded = !_expanded; await ReloadAsync(); }));
         filters.AutomationId = "Library.Filters";
@@ -83,8 +102,11 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         Status.AutomationId = "Library.Count";
         var rows = new CollectionView { AutomationId = "Library.Items", SelectionMode = SelectionMode.None, ItemsSource = result.Items,
             ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical) { ItemSpacing = 8 },
-            EmptyView = new Label { Text = T(result.UnfilteredTotal == 0 ? "NoContent" : "NoMatches"), Margin = new Thickness(24, 40), HorizontalTextAlignment = TextAlignment.Center },
-            ItemTemplate = new DataTemplate(() => LibraryLayout.Surface(LibraryLayout.ContentRow(nameof(LearningRow.Title), open =>
+            EmptyView = new Label { Text = T(result.UnfilteredTotal == 0 || kind == ContentKind.Word && wordCategory is not null &&
+                CustomWordCategoryStore.IsCustom(wordCategory) && result.Total == 0 && _difficulty is null && _stage is null &&
+                _grade is null && !_personal && _scenes.Count == 0 ? "NoContent" : "NoMatches"),
+                Margin = new Thickness(24, 40), HorizontalTextAlignment = TextAlignment.Center },
+            ItemTemplate = new DataTemplate(() => LibraryLayout.CollectionRow(LibraryLayout.ContentRow(nameof(LearningRow.Title), open =>
             {
                 SemanticProperties.SetHint(open, T("Read"));
                 open.Clicked += async (_, _) =>
@@ -101,7 +123,7 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
                 var document = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
                 return new WordListItem(document, document.TextUnits.Single(u => u.Role == TextUnitRole.Headword));
             }).ToArray());
-            rows.ItemTemplate = new DataTemplate(CreateWordCard);
+            rows.ItemTemplate = new WordCardTemplateSelector(this);
             rows.ItemsSource = words;
         }
         else if (kind == ContentKind.Grammar)

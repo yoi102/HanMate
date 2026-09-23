@@ -1,23 +1,24 @@
 # 问题与阻塞登记
 
-更新：2026-09-20。当前活动项统一见[剩余清单R01—R14](REMAINING_WORK.md)；下方折叠内容只保留历史证据，其OPEN/未实现描述不覆盖本表。
+更新：2026-09-23。当前活动项统一见[剩余清单R01—R14](REMAINING_WORK.md)；下方折叠内容只保留历史证据，其OPEN/未实现描述不覆盖本表。
 
 | 标识 | 当前状态 | 处理 |
 |---|---|---|
+| ANDROID-SAVE-EXTENSION | FIXED（隔离模拟器完整包） | Android 系统选择器曾把默认 `.hanpack` 加成 `.hanpack.zip`；原生扩展名改用通用二进制 MIME，显式 ZIP 与 WAV 保持对应 MIME。新完整包实测默认和兼容 ZIP 文件名及相同字节、原生包回导成功；见[W5 证据](evidence/W5-REGRESSION-20260923.md) |
 | HANDWRITING-FIRST-USE / INK-OUTSIDE | 已实施，按聚焦证据验收 | 首次模板解析改为预处理资产、查询预热与行缓存；笔顺/连笔容错含子；越界松手保留可见笔迹。真实准确率与完整设备矩阵未完成，见[本轮记录](evidence/HANDWRITING-TOLERANCE-20260920.md) |
 | DEVICE-SPEECH-20260920 | FIXED（vivo真机聚焦） | 系统中文标签/同名ID、Kokoro INT8无效采样、字典播放服务初始化及重复加载已修；FP32男女声/Melo/系统语音均获用户清楚确认，点读取消切换有日志；见[证据](evidence/DEVICE-SPEECH-20260920.md)。不替代全音色/教学听审 |
 | ANDROID-STARTUP-THEME | FIXED（模拟器启动已验） | Application补齐MAUI Material主题；修复底部导航创建时TextAppearance异常。Debug构建、模拟器冷启动/首页五标签通过，实体手机修复包待验；见[证据](evidence/ANDROID-STARTUP-THEME-20260920.md) |
 | MELO-MALE-VOICE / R14 | OPEN，缺模型来源 | 用户要求Melo中文男女声；官方与目前核实的微调模型只有女声，尚未找到可直接接入的合适男声。未用Kokoro或变调代替 |
 | D9-TEST-BASELINE | FIXED（自动回归） | 417内容数量、42词明确缺录音白名单与原录音保持检查已修正；584个不同用例通过，不替代平台验收 |
 | HM-D017 / R01 | FIXED（Android聚焦） | 设置长按钮WordWrap；三语言200%显示及英语七入口已验，Windows未验 |
-| DICTIONARY-LAYOUT / R02 | 已实施，稳定性仍OPEN | 稳定列表增删、展示分段/空编号清理及完整原文入口；Android局部通过，HM-D019未关闭 |
+| DICTIONARY-LAYOUT / R02 | 已实施，扩展回归待验 | 稳定列表增删、展示分段/空编号清理及完整原文入口；同语言返回保位及Android长释义3+5轮聚焦通过，HM-D019按用户要求结案但根因未知，见[结案记录](evidence/HM-D019-CLOSURE-20260923.md) |
 | DICTIONARY-QUALITY / R03/R05 | OPEN | 默认释义/自动读音待校对，例句仅部分覆盖 |
-| DICTIONARY-AUDIT / R04 | 工具缺口FIXED，终审OPEN | 1库对象+293批覆盖292114条并接入发布门禁；1444对象均待审 |
+| DICTIONARY-AUDIT / R04 | 工具缺口FIXED，终审OPEN | 当前清单1,394对象均待审；1库对象+293批覆盖292,114条并接入发布门禁，0条批次终审 |
 | AUDIO-REVIEW / R06/R11 | OPEN | AI教学听感、394录音确切许可、原录音ong及正式日英/内容审核未关闭 |
 | PLATFORM-ACCEPTANCE / R07—R10 | PARTIAL / NOT RUN | D7实际短录音/权限已验；大字号/读屏、完整音频路由/压力、设备故障与全量回归仍待验 |
 | RELEASE / R12 | BLOCKED | 占位身份/签名和商店资料未定；当前预检6组阻塞；内部交付已完成，正式条件按ADR-106转入RG-01—07，均未通过 |
 | ENV-02 / R13 | 本轮排除 | 用户明确不管iOS，按ADR-105不参与本轮DONE判断；保留后续延期清单 |
-| HM-D019 | OPEN / P1 | 中间APK长释义滚动Mono原生SIGSEGV；后续2轮未复现，根因未确认，不按构建通过关闭 |
+| HM-D019 | CLOSED_BY_REQUEST / 残余风险记录 | 中间APK长释义滚动Mono原生SIGSEGV；根因未确认、未标FIXED。用户要求结案，后续隔离Android 3+5轮未复现；再现即重开，见[决定与证据](evidence/HM-D019-CLOSURE-20260923.md) |
 | HM-D020 | 修复实施，按设备范围复验 | 字体重建后语言通知被旧页面中断；限制旧页面刷新并逐订阅者隔离，记录无正文诊断 |
 | HM-DD003 | FIXED（Android已验） | 拼音显隐保位，不重建列表；Windows构建通过但UI未验 |
 | HM-D018 | FIXED（Android已验） | 搜索语言刷新已修，Windows聚焦复验仍待做 |

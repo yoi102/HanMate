@@ -131,6 +131,19 @@ public sealed class ResourceStateStore(HanMateDatabase database)
         await database.InitializeAsync(cancellationToken).ConfigureAwait(false);
         await using var connection = await database.OpenConnectionAsync(cancellationToken).ConfigureAwait(false);
         await using var transaction = (SqliteTransaction)await connection.BeginTransactionAsync(cancellationToken).ConfigureAwait(false);
+        var nextEpoch = await SetEntryRemovedInTransactionAsync(connection, transaction, resourceId, entryId,
+            removed, expectedRowRevision, updatedAtUtc, operation, cancellationToken).ConfigureAwait(false);
+        await transaction.CommitAsync(cancellationToken).ConfigureAwait(false);
+        return nextEpoch;
+    }
+
+    internal static async Task<long> SetEntryRemovedInTransactionAsync(SqliteConnection connection, SqliteTransaction transaction,
+        Guid resourceId, string entryId, bool removed, long expectedRowRevision, DateTimeOffset updatedAtUtc,
+        ResourceOperationCommit operation, CancellationToken cancellationToken)
+    {
+        ValidateEntryId(entryId);
+        if (expectedRowRevision < 1) throw new ArgumentOutOfRangeException(nameof(expectedRowRevision));
+        ValidateOperation(operation, resourceId, removed ? ResourceOperationType.Remove : ResourceOperationType.RestoreEntry);
         await EnsureEpochAsync(connection, transaction, operation.ExpectedDataEpoch, cancellationToken).ConfigureAwait(false);
 
         await using (var revisionCommand = connection.CreateCommand())
@@ -162,7 +175,6 @@ public sealed class ResourceStateStore(HanMateDatabase database)
 
         await InsertOperationAsync(connection, transaction, operation, cancellationToken).ConfigureAwait(false);
         var nextEpoch = await AdvanceEpochAsync(connection, transaction, operation.ExpectedDataEpoch, cancellationToken).ConfigureAwait(false);
-        await transaction.CommitAsync(cancellationToken).ConfigureAwait(false);
         return nextEpoch;
     }
 

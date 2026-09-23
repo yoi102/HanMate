@@ -22,8 +22,10 @@ public sealed class LearningCatalogStore(HanMateDatabase database)
     public async Task<LearningResult> QueryAsync(LearningFilter filter, int offset = 0, CancellationToken token = default)
     {
         if (offset < 0 || filter.Grade is < 1 or > 6 || !Enum.IsDefined(filter.Kind)) throw new ArgumentOutOfRangeException(nameof(filter));
+        var custom = await new CustomWordCategoryStore(new VersionedLocalStateStore(database)).ListAsync(token);
         if (filter.WordCategory is { } category && (filter.Kind != ContentKind.Word ||
-            category != WordCategories.Other && !WordCategories.All.Contains(category))) throw new ArgumentOutOfRangeException(nameof(filter));
+            category != WordCategories.Other && !WordCategories.All.Contains(category) && !custom.Any(x => x.Id == category)))
+            throw new ArgumentOutOfRangeException(nameof(filter));
         await database.InitializeAsync(token);
         using var connection = await database.OpenConnectionAsync(token);
         using var transaction = connection.BeginTransaction(deferred: true);
@@ -50,7 +52,7 @@ public sealed class LearningCatalogStore(HanMateDatabase database)
         command.Parameters.AddWithValue("$personal", filter.PersonalOnly ? 1 : 0);
         command.Parameters.AddWithValue("$scenes", JsonSerializer.Serialize(filter.Scenes ?? []));
         command.Parameters.AddWithValue("$category", (object?)filter.WordCategory ?? DBNull.Value);
-        command.Parameters.AddWithValue("$categoryScenes", JsonSerializer.Serialize(WordCategories.All.Select(WordCategories.Scene)));
+        command.Parameters.AddWithValue("$categoryScenes", JsonSerializer.Serialize(WordCategories.All.Concat(custom.Select(x => x.Id)).Select(WordCategories.Scene)));
         command.CommandText = "SELECT count(*) " + query;
         var total = Convert.ToInt32(await command.ExecuteScalarAsync(token));
         var order = "c.title,c.id";
@@ -74,6 +76,7 @@ public sealed class LearningCatalogStore(HanMateDatabase database)
 
     public async Task<WordCategoryCounts> GetWordCategoryCountsAsync(CancellationToken token = default)
     {
+        var custom = await new CustomWordCategoryStore(new VersionedLocalStateStore(database)).ListAsync(token);
         await database.InitializeAsync(token);
         using var connection = await database.OpenConnectionAsync(token);
         using var command = connection.CreateCommand();
@@ -89,7 +92,7 @@ public sealed class LearningCatalogStore(HanMateDatabase database)
             UNION ALL SELECT category,count(*) FROM memberships GROUP BY category
             UNION ALL SELECT 'other',count(*) FROM visible v WHERE NOT EXISTS(SELECT 1 FROM memberships m WHERE m.id=v.id)
             """;
-        command.Parameters.AddWithValue("$categories", JsonSerializer.Serialize(WordCategories.All));
+        command.Parameters.AddWithValue("$categories", JsonSerializer.Serialize(WordCategories.All.Concat(custom.Select(x => x.Id))));
         using var reader = await command.ExecuteReaderAsync(token);
         var counts = new Dictionary<string, int>();
         while (await reader.ReadAsync(token)) counts.Add(reader.GetString(0), reader.GetInt32(1));

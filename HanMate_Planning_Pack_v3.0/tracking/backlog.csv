@@ -44,6 +44,6 @@ W5-01,性能与访问性,M1..M4,参考设备测量、键盘与读屏验收,IN_PR
 W5-02,开发内容与审核材料交付,"W2-01..04,W2-07,W2-09",开发内容/字词关联、当前哈希待审清单及来源边界；正式终审/授权RG-01/02后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
 W5-03,Windows/Android内部开发构建,"W0-06,M1..M4",locked restore、Release开发产物及源文件哈希；正式签名/安装升级RG-03后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
 W5-04,内部隐私与发布准备说明,W5-02..03,源码/清单/本地数据流对应说明；正式商店资料与最终申报RG-04后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
-W5-05,全量回归与缺陷关闭,"W5-01..04,W5-07",P0 用例全部有平台证据,TODO,UNASSIGNED,
+W5-05,全量回归与缺陷关闭,"W5-01..04,W5-07",P0 用例全部有平台证据,IN_PROGRESS,Codex,tracking/evidence/W5-REGRESSION-20260923.md
 W5-06,内部交付与恢复归档,"W0-06,W5-02..04",实际开发包、可复现源码/环境快照、逐文件哈希与恢复指南；正式发布RG-07后置,DONE,Codex,tracking/evidence/STAGE-D8-20260920.md
 W5-07,新增内容与资源回归门禁,"W4-07..09,W2-09",Windows/Android适用176用例、资源管理/分享/迁移回归；正式语法/字典终审另列RG-01/02,IN_PROGRESS,Codex,tracking/evidence/STAGE-D5-20260920.md

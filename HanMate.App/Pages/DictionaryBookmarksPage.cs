@@ -32,7 +32,7 @@ public sealed class DictionaryBookmarksPage(DictionaryBookmarkStore store, Local
                         { await store.SetAsync(entry, false); await ReloadAsync(); }
                     });
                 };
-                return LibraryLayout.Surface(LibraryLayout.ContentRow(nameof(DictionaryBookmark.Title), open =>
+                return LibraryLayout.CollectionRow(LibraryLayout.ContentRow(nameof(DictionaryBookmark.Title), open =>
                 {
                     SemanticProperties.SetHint(open, T("Read"));
                     open.Clicked += async (_, _) =>

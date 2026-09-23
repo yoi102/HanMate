@@ -760,6 +760,8 @@ Keep {6} old entries.</value></data>
   <data name="DictionaryDetail.Examples" xml:space="preserve"><value>Usage &amp; examples</value></data>
   <data name="DictionaryDetail.HidePinyin" xml:space="preserve"><value>Hide pinyin</value></data>
   <data name="DictionaryDetail.ShowPinyin" xml:space="preserve"><value>Show pinyin</value></data>
+  <data name="DictionaryDetail.PinyinCompactOn" xml:space="preserve"><value>Pinyin ✓</value></data>
+  <data name="DictionaryDetail.PinyinCompactOff" xml:space="preserve"><value>Pinyin +</value></data>
   <data name="DictionaryDetail.Speak" xml:space="preserve"><value>Read headword; tap again to stop</value></data>
   <data name="DictionaryDetail.More" xml:space="preserve"><value>More</value></data>
   <data name="DictionaryDetail.Source" xml:space="preserve"><value>Entry information &amp; sources</value></data>
@@ -815,7 +817,7 @@ Keep {6} old entries.</value></data>
   <data name="Pinyin.Guide.ExampleHoldBody" xml:space="preserve"><value>Press and hold “{0}” for about half a second to open the dictionary entry.</value></data>
   <data name="WordCategories.Title" xml:space="preserve"><value>Learn words by category</value></data>
   <data name="WordCategories.Hint" xml:space="preserve"><value>Choose a category to start learning.</value></data>
-  <data name="WordCategories.Count" xml:space="preserve"><value>{0} words</value></data>
+  <data name="WordCategories.Count" xml:space="preserve"><value>Words: {0}</value></data>
   <data name="WordCategories.all" xml:space="preserve"><value>All words</value></data>
   <data name="WordCategories.common" xml:space="preserve"><value>Everyday</value></data>
   <data name="WordCategories.numbers" xml:space="preserve"><value>Numbers</value></data>
@@ -847,4 +849,53 @@ Keep {6} old entries.</value></data>
   <data name="WordCategories.seasonings" xml:space="preserve"><value>Seasonings</value></data>
   <data name="WordCategories.kitchenware" xml:space="preserve"><value>Kitchenware</value></data>
   <data name="WordCategories.household" xml:space="preserve"><value>Household items</value></data>
+  <data name="WordCategories.New" xml:space="preserve"><value>New category</value></data>
+  <data name="WordCategories.NewHint" xml:space="preserve"><value>Create your own word category</value></data>
+  <data name="WordCategories.Name" xml:space="preserve"><value>Category name</value></data>
+  <data name="WordCategories.Edit" xml:space="preserve"><value>Edit category</value></data>
+  <data name="WordCategories.DeleteHint" xml:space="preserve"><value>Delete this category? Its words will move to Other. Words and recordings remain.</value></data>
+  <data name="WordCategories.HideBuiltInHint" xml:space="preserve"><value>Hide this built-in category? Its words remain in All words, and you can restore the category later.</value></data>
+  <data name="WordCategories.Restore" xml:space="preserve"><value>Restore category</value></data>
+  <data name="WordEditor.NewWord" xml:space="preserve"><value>Add word</value></data>
+  <data name="WordEditor.EditWord" xml:space="preserve"><value>Edit word</value></data>
+  <data name="WordEditor.Word" xml:space="preserve"><value>Word</value></data>
+  <data name="WordEditor.Definition" xml:space="preserve"><value>Meaning (required)</value></data>
+  <data name="WordEditor.Example" xml:space="preserve"><value>Example (optional)</value></data>
+  <data name="WordEditor.AddExample" xml:space="preserve"><value>Add example</value></data>
+  <data name="WordEditor.RemoveExample" xml:space="preserve"><value>Remove</value></data>
+  <data name="WordEditor.Pinyin" xml:space="preserve"><value>Pinyin</value></data>
+  <data name="WordEditor.PinyinHint" xml:space="preserve"><value>Enter one reading per Hanzi, separated by spaces. Changing the word regenerates this line. Edit it before saving; use ? if unsure.</value></data>
+  <data name="WordEditor.PinyinInvalid" xml:space="preserve"><value>Enter one tone-marked reading per Hanzi, separated by spaces, such as nǐ hǎo or ni3 hao3.</value></data>
+  <data name="WordEditor.English" xml:space="preserve"><value>English translation (optional)</value></data>
+  <data name="WordEditor.Japanese" xml:space="preserve"><value>Japanese translation (optional)</value></data>
+  <data name="WordEditor.Voice" xml:space="preserve"><value>Reading method</value></data>
+  <data name="WordEditor.Category" xml:space="preserve"><value>Category</value></data>
+  <data name="WordEditor.Automatic" xml:space="preserve"><value>Automatic voice</value></data>
+  <data name="WordEditor.OwnRecording" xml:space="preserve"><value>My recording</value></data>
+  <data name="WordEditor.RecordingHint" xml:space="preserve"><value>Saving with My recording opens recording management. Record and save a take to use it.</value></data>
+  <data name="WordEditor.Invalid" xml:space="preserve"><value>Enter a word and meaning, then check the text lengths.</value></data>
+  <data name="WordEditor.DeleteHint" xml:space="preserve"><value>Move this word to Trash? Favorites and recordings are kept for recovery.</value></data>
+  <data name="WordEditor.HideBuiltInHint" xml:space="preserve"><value>Hide this built-in word from learning? The source resource stays intact and can be restored in resource management.</value></data>
+  <data name="WordEditor.RecordedExampleProtected" xml:space="preserve"><value>This example has a recording or a pending take. Remove it in recording management before deleting the example.</value></data>
+  <data name="LearningEdit.New" xml:space="preserve"><value>Add content</value></data>
+  <data name="LearningEdit.Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="LearningEdit.Title" xml:space="preserve"><value>Title</value></data>
+  <data name="LearningEdit.Author" xml:space="preserve"><value>Author (optional)</value></data>
+  <data name="LearningEdit.TextBody" xml:space="preserve"><value>Lesson text</value></data>
+  <data name="LearningEdit.PoemBody" xml:space="preserve"><value>Poem, with each line on a new line</value></data>
+  <data name="LearningEdit.PatternHint" xml:space="preserve"><value>Pattern, use {slot} for variable parts</value></data>
+  <data name="LearningEdit.PatternHelp" xml:space="preserve"><value>Grammar pattern</value></data>
+  <data name="LearningEdit.Explanation" xml:space="preserve"><value>Explanation</value></data>
+  <data name="LearningEdit.Example" xml:space="preserve"><value>Example sentence</value></data>
+  <data name="LearningEdit.Note" xml:space="preserve"><value>Note</value></data>
+  <data name="LearningEdit.AddExplanation" xml:space="preserve"><value>Add explanation</value></data>
+  <data name="LearningEdit.AddExample" xml:space="preserve"><value>Add example</value></data>
+  <data name="LearningEdit.AddNote" xml:space="preserve"><value>Add note</value></data>
+  <data name="LearningEdit.English" xml:space="preserve"><value>English translation (optional)</value></data>
+  <data name="LearningEdit.Japanese" xml:space="preserve"><value>Japanese translation (optional)</value></data>
+  <data name="LearningEdit.Remove" xml:space="preserve"><value>Remove this section</value></data>
+  <data name="LearningEdit.Required" xml:space="preserve"><value>At least one explanation and example are required.</value></data>
+  <data name="LearningEdit.Invalid" xml:space="preserve"><value>Complete the required fields and check the pattern and text lengths.</value></data>
+  <data name="LearningEdit.DeleteHint" xml:space="preserve"><value>Move this item to Trash? Favorites and recordings remain for recovery.</value></data>
+  <data name="LearningEdit.HideBuiltInHint" xml:space="preserve"><value>Hide this built-in item from learning? It can be restored in resource management.</value></data>
 </root>

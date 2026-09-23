@@ -11,6 +11,15 @@ internal static class LibraryLayout
     public static Border Surface(View content, Thickness? padding = null) =>
         Styled(new Border { Content = content, Padding = padding ?? new Thickness(0) }, "LibrarySurface");
 
+    public static Border CollectionRow(View content)
+    {
+        var row = Surface(content);
+#if ANDROID
+        row.Loaded += (_, _) => AndroidCollectionRowFocus.RemoveUnnamedItemFocus(row);
+#endif
+        return row;
+    }
+
     public static Button Quiet(Button button) => Styled(button, "LibraryQuietButton");
 
     public static Grid Paging(Button previous, Button next, bool visible)

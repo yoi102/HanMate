@@ -18,6 +18,40 @@ internal static class D2MigrationProbe
         var root = Path.Combine(Path.GetTempPath(), "HanMate-d2-probe-" + Guid.NewGuid().ToString("N"));
         Directory.CreateDirectory(root);
         var db = new HanMateDatabase(Path.Combine(root, "hanmate.db"));
+        if (args[0] == "verify-w5-android-content")
+        {
+            if (args.Length != 2) throw new ArgumentException("verify-w5-android-content <android-hanpack>");
+            using var archive = System.IO.Compression.ZipFile.OpenRead(args[1]);
+            if (archive.Entries.Any(e => e.FullName is "settings.json" or "collections.json" or "resources.json"))
+                throw new Exception("Private backup state leaked into Android content share.");
+            var content = archive.GetEntry("contents.json") ?? throw new Exception("Android content package has no contents.");
+            await using var json = content.Open();
+            using var payload = await JsonDocument.ParseAsync(json);
+            var expected = payload.RootElement.GetProperty("contents").EnumerateArray()
+                .Select(element => JsonSerializer.Deserialize<ContentDocument>(element.GetRawText(), ContentJson.Options)!).ToArray();
+            if (expected.Length != 4 || expected.Select(d => d.Kind).Distinct().Count() != 4)
+                throw new Exception("Expected one Android-exported entry of each content kind.");
+            var importer = new ContentPackageImportStore(db);
+            await using var input = File.OpenRead(args[1]);
+            var plan = await importer.PlanAsync(input);
+            if (plan.Added != 4 || plan.Reused != 0 || plan.AudioAdded != 0) throw new Exception("Fresh Windows host did not plan four exact additions.");
+            await importer.CommitAsync(plan);
+            var store = new SqliteContentDocumentStore(db, new());
+            foreach (var document in expected)
+            {
+                var actual = (await store.GetAsync(document.Id))?.Document ?? throw new Exception("Shared content missing on Windows.");
+                if (JsonSerializer.Serialize(actual, ContentJson.Options) != JsonSerializer.Serialize(document, ContentJson.Options))
+                    throw new Exception("Shared content graph changed on Windows.");
+            }
+            input.Position = 0;
+            var repeat = await importer.PlanAsync(input);
+            if (repeat.Added != 0 || repeat.Reused != 4 || repeat.Conflicts != 0) throw new Exception("Repeat Android package import duplicated content.");
+            await importer.CommitAsync(repeat);
+            var report = new { status = "PASS", direction = "Android-to-Windows-service", kinds = 4,
+                exactDocumentJson = true, noPrivateBackupFiles = true, repeat = true, privateDatabase = root };
+            await File.WriteAllTextAsync(Path.Combine(root, "verification.json"), JsonSerializer.Serialize(report));
+            Console.WriteLine(JsonSerializer.Serialize(report)); return;
+        }
         if (args[0] == "verify-d2-content")
         {
             if (args.Length != 3) throw new ArgumentException("verify-d2-content <hanpack> <expected.json>");

@@ -13,7 +13,6 @@
                 <controls:NavigationTile Grid.Row="1" Grid.Column="0" Title="{Binding KindGrammar}" Detail="{Binding LearnGrammarHint}" CommandParameter="Grammar" Clicked="OnKindClicked" ActionId="Learning.Grammar" />
                 <controls:NavigationTile Grid.Row="1" Grid.Column="1" Title="{Binding KindPoem}" Detail="{Binding LearnPoemHint}" CommandParameter="Poem" Clicked="OnKindClicked" ActionId="Learning.Poem" />
             </Grid>
-            <controls:NavigationTile Compact="True" Title="{Binding LearnDraftsTitle}" Detail="{Binding LearnDraftsHint}" Clicked="OnDraftsClicked" ActionId="Learning.Drafts" />
             <Label x:Name="CatalogStatus" Style="{StaticResource LibraryMuted}" IsVisible="False" />
         </VerticalStackLayout>
     </ScrollView>

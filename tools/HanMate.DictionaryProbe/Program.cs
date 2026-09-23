@@ -5,8 +5,11 @@ using HanMate.Infrastructure.Database;
 using HanMate.Infrastructure.Dictionary;
 
 // Disposable database/cache only. Never touches application data.
-var root = Path.Combine(Path.GetTempPath(), "HanMate-dictionary-probe");
+if (args.Length != 0 && (args.Length != 2 || args[0] != "--root"))
+    throw new ArgumentException("Usage: HanMate.DictionaryProbe [--root <disposable-directory>]");
+var root = args.Length == 2 ? Path.GetFullPath(args[1]) : Path.Combine(Path.GetTempPath(), "HanMate-dictionary-probe");
 Directory.CreateDirectory(root);
+Console.WriteLine($"root={root} pid={Environment.ProcessId}");
 var store = new OfflineSearchStore(new HanMateDatabase(Path.Combine(root, "probe.db")), new DefaultDictionaryStore(root));
 var watch = Stopwatch.StartNew();
 await store.PrepareAsync();

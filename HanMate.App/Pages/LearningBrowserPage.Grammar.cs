@@ -31,6 +31,6 @@ public sealed partial class LearningBrowserPage
             if (UiLanguagePolicy.SelectAuxiliaryTranslation(grammar.PatternTranslations, Language.CurrentLanguage) is { } translation)
                 preview.Add(LibraryLayout.Muted(translation));
         };
-        return LibraryLayout.Surface(row);
+        return CreateEditableContentCard(row);
     }
 }

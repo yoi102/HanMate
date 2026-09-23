@@ -27,12 +27,16 @@ public sealed class DictionaryEntryPage : ContentPage
     private readonly Label _status = new() { FontSize = 13, IsVisible = false, Margin = new Thickness(24, 8), AutomationId = "Dictionary.Status" };
     private readonly Button _voiceSettings = new() { IsVisible = false, AutomationId = "Dictionary.VoiceSettings" };
     private DictionaryDetail? _detail;
+    private UiLanguage? _renderedLanguage;
     private CancellationTokenSource? _lifetime;
     private PlaybackCoordinator? _playback;
     private bool _active, _showPinyin, _opening, _expandedDefinitions;
     private long _generation;
     private long _speechRequest;
     private ImageButton? _favorite;
+    private Button? _headwordSpeak;
+    private Label? _headerTranslation;
+    private Label? _footerNoExamples, _footerAutomatic, _footerSupplement;
     private DictionaryBookmark? _bookmark;
     private bool _favoriteReady, _isFavorite, _savingFavorite;
     private readonly ObservableCollection<Block> _blocks = [];
@@ -115,14 +119,18 @@ public sealed class DictionaryEntryPage : ContentPage
         _lifetime?.Dispose(); _lifetime = new(); var token = _lifetime.Token;
         _language.PropertyChanged += LanguageChanged;
         _playback = _services.GetRequiredService<PlaybackCoordinator>();
-        Title = PageTitle; _pinyin.Text = T(_showPinyin ? "HidePinyin" : "ShowPinyin");
+        Title = PageTitle; UpdatePinyinToolbar();
         try
         {
             var timer = System.Diagnostics.Stopwatch.StartNew();
             var detail = _detail ?? await Task.Run(() => DictionaryDetailProjection.Create(_document, token, sourceOnly: _learningContent), token);
             var projectionMs = timer.ElapsedMilliseconds;
             if (!_active || generation != _generation) return;
-            _detail = detail; Render();
+            _detail = detail;
+            // Navigation back to this page must retain its native rows and scroll offset.
+            // Rebuild only when the UI language changed while the page was hidden.
+            if (_renderedLanguage != _language.CurrentLanguage) Render();
+            else { _status.IsVisible = false; _voiceSettings.IsVisible = false; }
             SpeechDiagnostics.Write($"dictionary detail projection_ms={projectionMs} render_ms={timer.ElapsedMilliseconds - projectionMs}");
             await RefreshFavoriteAsync(generation, token);
         }
@@ -142,13 +150,21 @@ public sealed class DictionaryEntryPage : ContentPage
         base.OnDisappearing(); if (_playback is not null) await _playback.StopAsync(_owner);
     }
     private void LanguageChanged(object? sender, PropertyChangedEventArgs e)
-    { if (_active && Shell.Current?.CurrentPage == this && e.PropertyName == nameof(LocalizationService.CurrentLanguage)) Render(); }
+    {
+        // Shell.CurrentPage can point at the tab root even while this pushed page is visible.
+        // Refresh only a live page in the current app window; a discarded window must not
+        // receive language updates after Android recreates it for a font-scale change.
+        if (e.PropertyName == nameof(LocalizationService.CurrentLanguage) && _active &&
+            Handler is not null && Window is { } window && Application.Current?.Windows.Contains(window) == true &&
+            _renderedLanguage != _language.CurrentLanguage)
+            Render();
+    }
 
     private void TogglePinyin()
     {
         _showPinyin = !_showPinyin;
         Preferences.Default.Set("dictionary.show-pinyin", _showPinyin);
-        _pinyin.Text = T(_showPinyin ? "HidePinyin" : "ShowPinyin");
+        UpdatePinyinToolbar();
         // Keep the native list, its header and item identities in place. Replacing ItemsSource
         // resets the viewport; changing only row presentation lets it retain the reading position.
         if (_list.ItemsSource is IEnumerable<Block> blocks)
@@ -158,37 +174,48 @@ public sealed class DictionaryEntryPage : ContentPage
 
     private void Render()
     {
-        Title = PageTitle; _pinyin.Text = T(_showPinyin ? "HidePinyin" : "ShowPinyin");
+        Title = PageTitle; UpdatePinyinToolbar();
         SemanticProperties.SetDescription(_more, T("More"));
         if (_detail is null) return;
         _list.EmptyView = null;
         _status.IsVisible = _voiceSettings.IsVisible = false;
         _voiceSettings.Text = _language["Speech.Title"];
-        var header = new VerticalStackLayout { Padding = new Thickness(24, 22, 24, 20), Spacing = 8 };
-        var row = new Grid { ColumnDefinitions = [new(GridLength.Star), new(GridLength.Auto)], ColumnSpacing = 8 };
-        var headword = new Grid { MinimumHeightRequest = 48, HorizontalOptions = LayoutOptions.Start, VerticalOptions = LayoutOptions.Center };
-        var speak = new Button { BackgroundColor = Colors.Transparent, BorderWidth = 0, Padding = 0, AutomationId = "Dictionary.Headword" };
-        SemanticProperties.SetDescription(speak, _detail.Headword.Text); SemanticProperties.SetHint(speak, T("Speak"));
-        speak.Clicked += async (_, _) => await SpeakAsync();
-        var title = new Label { Text = _detail.Headword.Text, FontSize = 38, FontAttributes = FontAttributes.Bold,
-            VerticalOptions = LayoutOptions.Center, InputTransparent = true };
-        AutomationProperties.SetIsInAccessibleTree(title, false);
-        speak.ZIndex = 1;
-        headword.Add(title); headword.Add(speak); row.Add(headword, 0);
-        _favorite = new ImageButton { WidthRequest = 48, HeightRequest = 48, Padding = 12, CornerRadius = 24,
-            BackgroundColor = Colors.Transparent, Aspect = Aspect.AspectFit, AutomationId = "Dictionary.Favorite" };
-        _favorite.Clicked += async (_, _) => await ToggleFavoriteAsync();
+        if (_list.Header is null)
+        {
+            // Keep the native header identity. Replacing it during a language change can
+            // leave the old favorite accessibility label visible in CollectionView.
+            var header = new VerticalStackLayout { Padding = new Thickness(24, 22, 24, 20), Spacing = 8 };
+            var row = new Grid { ColumnDefinitions = [new(GridLength.Star), new(GridLength.Auto)], ColumnSpacing = 8 };
+            var headword = new Grid { MinimumHeightRequest = 48, HorizontalOptions = LayoutOptions.Start, VerticalOptions = LayoutOptions.Center };
+            var speak = new Button { BackgroundColor = Colors.Transparent, BorderWidth = 0, Padding = 0, AutomationId = "Dictionary.Headword" };
+            _headwordSpeak = speak;
+            SemanticProperties.SetDescription(speak, _detail.Headword.Text);
+            speak.Clicked += async (_, _) => await SpeakAsync();
+            var title = new Label { Text = _detail.Headword.Text, FontSize = 38, FontAttributes = FontAttributes.Bold,
+                VerticalOptions = LayoutOptions.Center, InputTransparent = true };
+            AutomationProperties.SetIsInAccessibleTree(title, false);
+            speak.ZIndex = 1;
+            headword.Add(title); headword.Add(speak); row.Add(headword, 0);
+            _favorite = new ImageButton { WidthRequest = 48, HeightRequest = 48, Padding = 12, CornerRadius = 24,
+                BackgroundColor = Colors.Transparent, Aspect = Aspect.AspectFit, AutomationId = "Dictionary.Favorite" };
+            _favorite.Clicked += async (_, _) => await ToggleFavoriteAsync();
+            row.Add(_favorite, 1); header.Add(row);
+            header.Add(new Label { Text = string.Join(" ", _detail.Headword.Atoms.Where(a => a.Pinyin is not null).Select(a => a.Pinyin)),
+                FontSize = 18, TextColor = Color.FromArgb("#73717A"), AutomationId = "Dictionary.HeadwordPinyin" });
+            if (_learningContent) { _headerTranslation = LibraryLayout.Muted(null); header.Add(_headerTranslation); }
+            var characterInfo = _detail.Notes.Split('\n').Where(s => s.StartsWith("部首：", StringComparison.Ordinal) || s.StartsWith("笔画：", StringComparison.Ordinal));
+            var information = string.Join("   ·   ", characterInfo);
+            if (information.Length > 0) header.Add(new Label { Text = information, FontSize = 13, TextColor = Colors.Gray });
+            _list.Header = header;
+        }
+        if (_headwordSpeak is not null) SemanticProperties.SetHint(_headwordSpeak, T("Speak"));
         UpdateFavoriteButton();
-        row.Add(_favorite, 1); header.Add(row);
-        header.Add(new Label { Text = string.Join(" ", _detail.Headword.Atoms.Where(a => a.Pinyin is not null).Select(a => a.Pinyin)),
-            FontSize = 18, TextColor = Color.FromArgb("#73717A"), AutomationId = "Dictionary.HeadwordPinyin" });
-        if (_learningContent && UiLanguagePolicy.SelectAuxiliaryTranslation(
-            _document.TextUnits.Single(u => u.Role == TextUnitRole.Headword).Translations, _language.CurrentLanguage) is { } translation)
-            header.Add(LibraryLayout.Muted(translation));
-        var characterInfo = _detail.Notes.Split('\n').Where(s => s.StartsWith("部首：", StringComparison.Ordinal) || s.StartsWith("笔画：", StringComparison.Ordinal));
-        var information = string.Join("   ·   ", characterInfo);
-        if (information.Length > 0) header.Add(new Label { Text = information, FontSize = 13, TextColor = Colors.Gray });
-        _list.Header = header;
+        if (_headerTranslation is not null)
+        {
+            _headerTranslation.Text = UiLanguagePolicy.SelectAuxiliaryTranslation(
+                _document.TextUnits.Single(u => u.Role == TextUnitRole.Headword).Translations, _language.CurrentLanguage);
+            _headerTranslation.IsVisible = !string.IsNullOrWhiteSpace(_headerTranslation.Text);
+        }
         _blocks.Clear(); _extraDefinitions.Clear(); _definitionToggle = null;
         var paragraphs = _detail.Definitions.SelectMany(d => DictionaryPresentation.DefinitionParagraphs(d.Atoms)).ToArray();
         var longDefinition = paragraphs.Sum(p => p.Count) > 240;
@@ -210,14 +237,25 @@ public sealed class DictionaryEntryPage : ContentPage
         }
         for (var i = 0; i < _detail.Examples.Count; i++)
             Add(_detail.Examples[i], i == 0 ? T("Examples") : "", true);
-        var footer = new VerticalStackLayout { Padding = new Thickness(24, 16, 24, 24), Spacing = 6 };
-        if (_detail.Examples.Count == 0) footer.Add(new Label { Text = T("NoExamples"), FontSize = 13, TextColor = Colors.Gray });
-        if (_detail.HasAutomaticPinyin) footer.Add(new Label { Text = T("Automatic"), FontSize = 12, TextColor = Colors.Gray });
-        if (_detail.Examples.Any(e => e.Supplement)) footer.Add(new Label { Text = T("Supplement"), FontSize = 12, TextColor = Colors.Gray });
-        footer.Add(new Label { Text = _document.Source.AuthorProvider, FontSize = 12, TextColor = Colors.Gray });
-        _list.Footer = _learningContent ? null : footer;
+        if (!_learningContent)
+        {
+            if (_list.Footer is null)
+            {
+                var footer = new VerticalStackLayout { Padding = new Thickness(24, 16, 24, 24), Spacing = 6 };
+                _footerNoExamples = new Label { FontSize = 13, TextColor = Colors.Gray };
+                _footerAutomatic = new Label { FontSize = 12, TextColor = Colors.Gray };
+                _footerSupplement = new Label { FontSize = 12, TextColor = Colors.Gray };
+                footer.Add(_footerNoExamples); footer.Add(_footerAutomatic); footer.Add(_footerSupplement);
+                footer.Add(new Label { Text = _document.Source.AuthorProvider, FontSize = 12, TextColor = Colors.Gray });
+                _list.Footer = footer;
+            }
+            _footerNoExamples!.Text = T("NoExamples"); _footerNoExamples.IsVisible = _detail.Examples.Count == 0;
+            _footerAutomatic!.Text = T("Automatic"); _footerAutomatic.IsVisible = _detail.HasAutomaticPinyin;
+            _footerSupplement!.Text = T("Supplement"); _footerSupplement.IsVisible = _detail.Examples.Any(e => e.Supplement);
+        }
         if (_learningContent && _blocks.Count == 0)
             _list.EmptyView = new Label { Text = _language["LearningWords.NoMeaning"], Margin = 24 };
+        _renderedLanguage = _language.CurrentLanguage;
 
         void Add(DictionaryText text, string heading, bool highlight)
         {
@@ -234,6 +272,18 @@ public sealed class DictionaryEntryPage : ContentPage
                 target.Add(new(offset == 0 ? heading : "", atoms.Skip(offset).Take(ReadingDocument.PageAtomLimit).ToArray(), selected, _showPinyin,
                     speech: speech, translation: offset + ReadingDocument.PageAtomLimit >= atoms.Count ? translation : null));
         }
+    }
+    private void UpdatePinyinToolbar()
+    {
+        var action = T(_showPinyin ? "HidePinyin" : "ShowPinyin");
+#if ANDROID
+        // Keep the dictionary title visible when Android system text is enlarged.
+        var compact = (Android.App.Application.Context.Resources?.Configuration?.FontScale ?? 1f) >= 1.5f;
+        _pinyin.Text = compact ? T(_showPinyin ? "PinyinCompactOn" : "PinyinCompactOff") : action;
+#else
+        _pinyin.Text = action;
+#endif
+        SemanticProperties.SetDescription(_pinyin, action);
     }
     private void ToggleDefinitions()
     {
@@ -334,6 +384,14 @@ public sealed class DictionaryEntryPage : ContentPage
         if (_opening || !_active) return; _opening = true;
         try
         {
+            if (_learningContent)
+            {
+                var edit = _language["LearningEdit.Edit"];
+                var action = await DisplayActionSheetAsync(T("More"), _language["Library.Cancel"], null, edit);
+                if (_active && action == edit)
+                    await LearningEditorNavigation.OpenAsync(this, _document, _language, _services);
+                return;
+            }
             var selection = await DisplayActionSheetAsync(T("More"), _language["Library.Cancel"], null,
                 _allowEditing ? [T("Original"), T("Source"), T("Manage")] : [T("Original"), T("Source")]);
             if (!_active) return;
@@ -409,7 +467,13 @@ public sealed class DictionaryEntryPage : ContentPage
         public bool Pinyin { get => (bool)GetValue(PinyinProperty); set => SetValue(PinyinProperty, value); }
 
         public BlockView(Func<DictionarySpeechTarget, Task> speak, Func<string> hint)
-        { _speak = speak; _hint = hint; SetBinding(PinyinProperty, Binding.Create(static (Block block) => block.Pinyin)); }
+        {
+            _speak = speak; _hint = hint;
+#if ANDROID
+            Loaded += (_, _) => AndroidCollectionRowFocus.RemoveUnnamedItemFocus(this);
+#endif
+            SetBinding(PinyinProperty, Binding.Create(static (Block block) => block.Pinyin));
+        }
 
         protected override void OnBindingContextChanged()
         {

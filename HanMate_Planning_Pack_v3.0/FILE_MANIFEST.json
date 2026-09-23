@@ -9,7 +9,7 @@
     "**/__pycache__/**",
     "**/*.pyc"
   ],
-  "fileCount": 254,
+  "fileCount": 257,
   "files": [
     {
       "path": "AGENTS.md",
@@ -263,8 +263,8 @@
     },
     {
       "path": "docs/26_Decisions_and_Open_Items.md",
-      "byteLength": 37626,
-      "sha256": "b2412e8ce3c617fc5e20c86c5c3dfad93c6c42af6a12f4c2e4828a81cc0fef28"
+      "byteLength": 38459,
+      "sha256": "c8449c529c9791937093ca073fd46d17fec3a9146ba1bcac581358206a20c7cf"
     },
     {
       "path": "docs/27_References.md",
@@ -428,8 +428,8 @@
     },
     {
       "path": "HanMate_Complete_Planning_v3.0.md",
-      "byteLength": 412102,
-      "sha256": "227ae4baeb5b53bd3495b9e2c7e26b3d1f523dc996bde68e2e0ba096508b3442"
+      "byteLength": 412935,
+      "sha256": "e7518f56f7308cec12c05a4a7f13e07b25420c7916e1adce36493ea34aca05f8"
     },
     {
       "path": "README.md",
@@ -503,8 +503,8 @@
     },
     {
       "path": "specs/settings.schema.json",
-      "byteLength": 1775,
-      "sha256": "176ec0a8bbc05931eb8b795daeb968b68c3d00e39b9779a000c36e7cc18904c4"
+      "byteLength": 2780,
+      "sha256": "c590e53beae1569b5d28398b8d4f6b736d249733ca2b58c68a9184b2db248bc0"
     },
     {
       "path": "templates/ADR.md",
@@ -569,7 +569,7 @@
     {
       "path": "tools/validated-environment.json",
       "byteLength": 279,
-      "sha256": "a97952cf33e818971d8e650cda257602834f7a4691dff2d2e1990b6513c4a9cb"
+      "sha256": "bcae6cd72091f85269d20d74467d7a02f8b5664db06d9d176c997642188f2914"
     },
     {
       "path": "tools/verify_bundle.py",
@@ -593,13 +593,13 @@
     },
     {
       "path": "tracking/backlog.csv",
-      "byteLength": 8602,
-      "sha256": "530f3a8518238c8d42459e9fbcda3e2f0d38e2e019cb35b9d2c5c31b6f6a2f31"
+      "byteLength": 8647,
+      "sha256": "572dfc7fbdfa028198c1bbb2b1874f0a79e032841abdad3e656c6749d53ee5c7"
     },
     {
       "path": "tracking/COMPLETION_PLAN.md",
-      "byteLength": 16081,
-      "sha256": "2c8976a3ace79bf4ab35019d7540dce6af3bcc098a8293c506c954b19736e2d3"
+      "byteLength": 16628,
+      "sha256": "0c1396f1ec812cbb851b9f0556558a759f463b345755320a17c301ed62fa8b5f"
     },
     {
       "path": "tracking/content-inventory.csv",
@@ -677,6 +677,11 @@
       "sha256": "22af86ec91750a84b5c768fa7175b7fecd2ffe8030b13d62cafdf9265dbfa6a4"
     },
     {
+      "path": "tracking/evidence/DICTIONARY-RETURN-20260923.md",
+      "byteLength": 2783,
+      "sha256": "b749c530cd81bb22ec71cd792233e267b9a568376560c49e670e3b10ea3365d4"
+    },
+    {
       "path": "tracking/evidence/DICTIONARY-SCROLL-20260920.md",
       "byteLength": 1443,
       "sha256": "b952929800081d70ccb2c40dffc43369172dded189d389e01a6a24f90ddb5e5b"
@@ -720,6 +725,11 @@
       "path": "tracking/evidence/HANDWRITING-WRAP-20260920.md",
       "byteLength": 1608,
       "sha256": "6869438c86a7268834b346059b380000aa61e3caf00864f8ef872ecd9ccc9f04"
+    },
+    {
+      "path": "tracking/evidence/HM-D019-CLOSURE-20260923.md",
+      "byteLength": 1767,
+      "sha256": "0d3e6df9bfdca220c4f65be3a3ccda4eb8cba1ca8c50b43742756c29840465a8"
     },
     {
       "path": "tracking/evidence/MELO-KOKORO-SYSTEM-20260920.json",
@@ -1152,6 +1162,11 @@
       "sha256": "d48be766a876d56fd68944a187ac8d696d456470a3db75f9ba4677d11d39a532"
     },
     {
+      "path": "tracking/evidence/W5-REGRESSION-20260923.md",
+      "byteLength": 27342,
+      "sha256": "808e390aa32065e903a8ebb2764a2fc0b263377c89c196c10b1f5a2da3be6568"
+    },
+    {
       "path": "tracking/evidence/W5-voice-synthesis-audit-20260919.json",
       "byteLength": 44719,
       "sha256": "b9c61524bcd5a6787edc801cad924e4f5671b467d21c75c4bf22e02e2e7ace3b"
@@ -1168,8 +1183,8 @@
     },
     {
       "path": "tracking/execution-ledger.csv",
-      "byteLength": 23558,
-      "sha256": "105e516c6305d3d9ec7219377d9ca34c1dd00aa2948b015e5a920122eb129665"
+      "byteLength": 32274,
+      "sha256": "0f11e81aacdaf08c3457f4f9d9ff8c149a175a2767c09c70765cf42e08a21de2"
     },
     {
       "path": "tracking/EXECUTION_LEDGER.md",
@@ -1178,8 +1193,8 @@
     },
     {
       "path": "tracking/HANDOFF.md",
-      "byteLength": 54631,
-      "sha256": "8301e6d94ec263f6d842b04747d734a2c4638c416890095f80e8e1b9f5dbee3b"
+      "byteLength": 61563,
+      "sha256": "3ac52c976feed39ddd4413577cac92d0eb545668494b00cbac0dba27dbacdd57"
     },
     {
       "path": "tracking/internal-delivery-scope.json",
@@ -1188,13 +1203,13 @@
     },
     {
       "path": "tracking/ISSUES.md",
-      "byteLength": 28765,
-      "sha256": "25792479a70bbe0c8d674bdf0e531c5f65cb8713ff5dfbf11bc19a4ac23fb68b"
+      "byteLength": 29418,
+      "sha256": "efe5f1a9e31b41180cf7e27e6373e863c818d00c18170474f331be5d53ddb621"
     },
     {
       "path": "tracking/REMAINING_WORK.md",
-      "byteLength": 8663,
-      "sha256": "f591f2b78ef889ac1be91e3362cc923024d2bcb848ea45f3d725b51362c17d79"
+      "byteLength": 13604,
+      "sha256": "66c7b37c1b6ee1e7f74a98007a4fcd7ea96a92603daae44731327da8e378d7cc"
     },
     {
       "path": "tracking/requirements.csv",
@@ -1213,18 +1228,18 @@
     },
     {
       "path": "tracking/review/content-audit.json",
-      "byteLength": 1579785,
-      "sha256": "12af738a01c1b2b670c03f34c18348e0b12cc4a583328464bc3b39d81f2f2b60"
+      "byteLength": 1833013,
+      "sha256": "8828c96a577edd9140a84d2973086af41dce54f98958b3b40f49db60d88eccb7"
     },
     {
       "path": "tracking/review/content-review.html",
-      "byteLength": 414495,
-      "sha256": "3a879a413c1082438c20ee733449108dc200302a3e9e12ce551b5038fe18d20b"
+      "byteLength": 533977,
+      "sha256": "0c590dc32177609339da704d72b940eab744d257c23cf69b97c540b296e7552c"
     },
     {
       "path": "tracking/review/content-unit-inventory.csv",
-      "byteLength": 209556,
-      "sha256": "c34fa758fa815e94e7e8d064049409d672a0e24a2d3c9082edeeda3f6038961a"
+      "byteLength": 307232,
+      "sha256": "7ce42aef39a40805ff80279565628f68f5f93b2908b66e60c0029b0676460405"
     },
     {
       "path": "tracking/review/dictionary-batch-inventory.csv",
@@ -1238,13 +1253,13 @@
     },
     {
       "path": "tracking/review/pinyin-audio-inventory.csv",
-      "byteLength": 196567,
-      "sha256": "788a2e4d79c8593772a2e803e336587962b8ec366a285d36437078ec18c01352"
+      "byteLength": 197031,
+      "sha256": "313f4dba61bdc64ee58707c7d5efd6872d88c5b2b1de953eac84ce6d824774b8"
     },
     {
       "path": "tracking/review/pinyin-demo-inventory.csv",
-      "byteLength": 30449,
-      "sha256": "e9f1480e70cf1961585c5b3c4044b237779823f4ed9323f6fc5965e0e93fdee2"
+      "byteLength": 30430,
+      "sha256": "56238834068d064fe9bd88d1166b3fd5a0136c9e29a308167b27b9c121a1fc84"
     },
     {
       "path": "tracking/review/README.md",
@@ -1263,13 +1278,13 @@
     },
     {
       "path": "tracking/STATUS.md",
-      "byteLength": 41941,
-      "sha256": "517552817400cc89387850ba19c32a128e0614841a3eacd18ac6fc8c55ae5727"
+      "byteLength": 47929,
+      "sha256": "6d00880673d2553d7e829f54f67ff31fb42408b5955811884e13a992120e9922"
     },
     {
       "path": "tracking/TEST_MATRIX.md",
-      "byteLength": 36779,
-      "sha256": "ff6f083fe457a815b69a0431ca338859c19bb1b13cb37bdf6295e0f6d6f8aad9"
+      "byteLength": 42227,
+      "sha256": "8803e802f4a3fc31272f685173c253cbfc14201c95284d653d4d149fc845f475"
     },
     {
       "path": "USER_REQUIREMENTS.md",
@@ -1278,8 +1293,8 @@
     },
     {
       "path": "VALIDATION_REPORT.md",
-      "byteLength": 3428,
-      "sha256": "17a46b640dec6e3d7cd26c3e318e0874d5bf530ff847527908bc4deeb360b047"
+      "byteLength": 3398,
+      "sha256": "bf2557d00ea90c54875edfdf0c59e5ea0fede2b81198ed84abcae2d64b022b3b"
     }
   ]
 }

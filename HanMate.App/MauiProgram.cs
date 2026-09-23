@@ -42,8 +42,11 @@ public static class MauiProgram
         builder.Services.AddSingleton<FavoriteStore>();
         builder.Services.AddSingleton<DictionaryBookmarkStore>();
         builder.Services.AddSingleton<LearningCatalogStore>();
+        builder.Services.AddSingleton<CustomWordCategoryStore>();
+        builder.Services.AddSingleton<PersonalWordStore>();
         builder.Services.AddSingleton<TextDraftStore>();
         builder.Services.AddSingleton<EditorCommitStore>();
+        builder.Services.AddSingleton<PersonalLearningStore>();
         builder.Services.AddSingleton<ContentTrashStore>();
         builder.Services.AddSingleton<LocalAudioStore>();
         builder.Services.AddSingleton<ReadingPreferenceStore>();

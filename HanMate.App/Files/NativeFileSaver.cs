@@ -39,7 +39,10 @@ public static class NativeFileSaver
         return true;
 #elif ANDROID
         var activity = Platform.CurrentActivity as MainActivity ?? throw new InvalidOperationException();
-        var uri = await activity.CreateDocumentAsync(name, name.EndsWith(".wav", StringComparison.OrdinalIgnoreCase) ? "audio/wav" : "application/zip");
+        var mime = name.EndsWith(".wav", StringComparison.OrdinalIgnoreCase) ? "audio/wav"
+            : name.EndsWith(".zip", StringComparison.OrdinalIgnoreCase) ? "application/zip"
+            : "application/octet-stream";
+        var uri = await activity.CreateDocumentAsync(name, mime);
         if (uri is null) return false;
         await using var input = File.OpenRead(source);
         await using var output = activity.ContentResolver!.OpenOutputStream(uri, "wt") ?? throw new IOException("Document provider did not open a stream.");

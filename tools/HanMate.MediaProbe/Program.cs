@@ -8,7 +8,8 @@ using HanMate.Infrastructure.Pinyin;
 
 if (args.FirstOrDefault() == "stage-d3") { await D3ReadingProbe.RunAsync(); return; }
 if (args.FirstOrDefault() == "record-probe") { await RecordingProbe.RunAsync(); return; }
-if (args.FirstOrDefault() is "stage-d2" or "verify-d2" or "verify-d2-content") { await D2MigrationProbe.RunAsync(args); return; }
+if (args.FirstOrDefault() is "stage-d2" or "verify-d2" or "verify-d2-content" or "verify-w5-android-content") { await D2MigrationProbe.RunAsync(args); return; }
+if (args.FirstOrDefault() == "verify-w5-resource-upgrade") { await W5ResourceUpgradeProbe.RunAsync(args); return; }
 
 var root = Path.Combine(Path.GetTempPath(), "HanMate-media-probe-" + Guid.NewGuid().ToString("N")); Directory.CreateDirectory(root);
 if (args.Length > 0)

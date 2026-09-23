@@ -29,7 +29,7 @@
       "subjectId": "dictionary-library:xinhua",
       "category": "dictionary-library",
       "title": "简体汉语字典（chinese-xinhua）",
-      "sha256": "dfe051a9a8ed94d318f80b501eb2f31094f61ceb8c6898e6f516808bcb50742a",
+      "sha256": "96fdc52ba2073c3aa450c07a8587cc1fe6ad38e9c87132d192c2c56e42a503b9",
       "reviews": {
         "rights": "NOT RUN"
       },
@@ -40,7 +40,7 @@
       "subjectId": "dictionary-batch:xinhua:0001",
       "category": "dictionary-batch",
       "title": "了 … 世",
-      "sha256": "2eadc8ae74f980eaeba6508040b63a7f50adea140b6ace2977b996e10ba67efa",
+      "sha256": "9347945d38f6c947bb008597c822b7cf4fce64bcd875dc634fd72f7082a00f96",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -53,7 +53,7 @@
       "subjectId": "dictionary-batch:xinhua:0002",
       "category": "dictionary-batch",
       "title": "职权 … 颜色",
-      "sha256": "ed5a16f12f58828eaed051e815fee0b8a361aafd1bf4e9c4ace79b50c5ca7bcd",
+      "sha256": "3fb0f35c544f7fb70a9021ffcc4205b33603c722b5916db2fd2928cb6d78c31b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -66,7 +66,7 @@
       "subjectId": "dictionary-batch:xinhua:0003",
       "category": "dictionary-batch",
       "title": "头发 … 中外",
-      "sha256": "5da9f47fbfb50647966398a42816204675c8f9fa90ed065abc03070c9cc7f6f5",
+      "sha256": "cfd8ec382158e94262ab6e655b0c3a8e9619509b227fbf262aba993ab5eaeeb5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -79,7 +79,7 @@
       "subjectId": "dictionary-batch:xinhua:0004",
       "category": "dictionary-batch",
       "title": "名城 … 再度",
-      "sha256": "7eedab078feb17052729462fcfd1fbd3fd61e57ced39e6d12ced933ac5bbea4b",
+      "sha256": "dc5f2d41df01e2db9bb7c88906db05a06f8aecbd9dbd798e61370503abadacf2",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -92,7 +92,7 @@
       "subjectId": "dictionary-batch:xinhua:0005",
       "category": "dictionary-batch",
       "title": "吏部 … 醇",
-      "sha256": "b96e33bd4da6e974ab2bf4bd10df6561790c08d541ef49c0910144938cf4fbc9",
+      "sha256": "d2a462decc6a7c893acc762681c73a0dae4a14f4570f89ac1335fd268c2f02bd",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -105,7 +105,7 @@
       "subjectId": "dictionary-batch:xinhua:0006",
       "category": "dictionary-batch",
       "title": "牢牢 … 沿途",
-      "sha256": "871ac3c31dcb8fc4cf0510f34b3fc13f0471179e5d8ac9bc4b9bf10dadce7d30",
+      "sha256": "0514559bed4b0630e372ea19d04efad6c4fcaf02755b819f93b3bc76ba51de99",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -118,7 +118,7 @@
       "subjectId": "dictionary-batch:xinhua:0007",
       "category": "dictionary-batch",
       "title": "草地 … 五星红旗",
-      "sha256": "61cb9b8a5d421df9309b023224c89be7dfdf2ab205c032c4db6641e94cabdd2d",
+      "sha256": "e51804a1f38082e4021dadf062f581545103a9b3cfd6445d94f9311931dbd2a2",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -131,7 +131,7 @@
       "subjectId": "dictionary-batch:xinhua:0008",
       "category": "dictionary-batch",
       "title": "名优 … 半分",
-      "sha256": "5466c44f19688359a2394989f21d6b5020de4968857c49514d3ee45e6aa91827",
+      "sha256": "c5eb29743b4a805d85516662a4c2c2c55ad90a06eadeacc89a7eef6f5be6b015",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -144,7 +144,7 @@
       "subjectId": "dictionary-batch:xinhua:0009",
       "category": "dictionary-batch",
       "title": "大喜 … 淖",
-      "sha256": "1367d7d1359ef05a7f307c209f6505a0eb8b2992cc926a0f44ded50b65c72ab8",
+      "sha256": "655265d745fcd5f3ee887294564ef73637f736177ed680dc7a78e93441a11c71",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -157,7 +157,7 @@
       "subjectId": "dictionary-batch:xinhua:0010",
       "category": "dictionary-batch",
       "title": "渗 … 恍",
-      "sha256": "43c837007b82c924e6cca01d92dbc7d085238b2b10d780bf8d97371f2b071c4e",
+      "sha256": "1d21ef48bb99d4f4b973a48c2c988ea6af8d1a385922bed9f99dd601f48b800d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -170,7 +170,7 @@
       "subjectId": "dictionary-batch:xinhua:0011",
       "category": "dictionary-batch",
       "title": "所作所为 … 陶醉",
-      "sha256": "d8cbc3105689437fdd3cc26512873f1a701210f416f5c4ec25f70517c929428c",
+      "sha256": "b3365df1b484733e05aea2ce255db74fd693cd2cfae856e322e57e012764e515",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -183,7 +183,7 @@
       "subjectId": "dictionary-batch:xinhua:0012",
       "category": "dictionary-batch",
       "title": "青木 … 脾胃",
-      "sha256": "ab082835b732706fbc11eaac18ba44d53fb14775937a275702ea5594e8a526f6",
+      "sha256": "5058056d5d91f81fd9be1087e159d676977f913db59b66f10cb158810c81b1be",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -196,7 +196,7 @@
       "subjectId": "dictionary-batch:xinhua:0013",
       "category": "dictionary-batch",
       "title": "自刎 … 河源",
-      "sha256": "30f201461ea0a7abdec56ce531836a2d3d5ad01e2bbc1e516edeeff004e7d5e3",
+      "sha256": "cf4658765eb58e6ae00e8a9c0c246d6737f68571818b4e6e70946ed4f1d5307e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -209,7 +209,7 @@
       "subjectId": "dictionary-batch:xinhua:0014",
       "category": "dictionary-batch",
       "title": "消瘦 … 贫农",
-      "sha256": "5f4adcdfa092169851bda39a0018959b4ad7de81db72b8a5f4a0bfa99f357c56",
+      "sha256": "778f845d65e2b80b773aad4fef34d37667b15223218ce1592fd6ca481a7af369",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -222,7 +222,7 @@
       "subjectId": "dictionary-batch:xinhua:0015",
       "category": "dictionary-batch",
       "title": "退走 … 岣",
-      "sha256": "d945606925f36fa936d567f813ffbbef6b829d5b5103e892a00c1f7af77a3aaf",
+      "sha256": "4ec7c77bb84711b1e28709d729be08118fa9149ea32839ee907ba9d895456a42",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -235,7 +235,7 @@
       "subjectId": "dictionary-batch:xinhua:0016",
       "category": "dictionary-batch",
       "title": "志向 … 芦",
-      "sha256": "dd0e04968d37dee5551e3b315612c4e86ff3959e9899850064b8cdf0bd32c8f1",
+      "sha256": "670cc39b927cca40e9fe3b046f46cad4af069c86c5a49579e057e56db590ca79",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -248,7 +248,7 @@
       "subjectId": "dictionary-batch:xinhua:0017",
       "category": "dictionary-batch",
       "title": "评语 … 地磁",
-      "sha256": "b25f76d1b11b7b45a373820fb6faab6ec965725640bd92eec38b117c3ecb1bbf",
+      "sha256": "2d027162a8b143f4f5358aa4786dec06932acdee3c003913538615d9b15a3608",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -261,7 +261,7 @@
       "subjectId": "dictionary-batch:xinhua:0018",
       "category": "dictionary-batch",
       "title": "孤寂 … 身体力行",
-      "sha256": "f3f61758bf8f9e80746e0d64c75173228c1065bd31476fba35395d664f8d78b3",
+      "sha256": "98ff1aaec76c04ff4792c114b3f852b055eb598f98a7144a3ff3e6b56c2a50a0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -274,7 +274,7 @@
       "subjectId": "dictionary-batch:xinhua:0019",
       "category": "dictionary-batch",
       "title": "远山 … 乐工",
-      "sha256": "c09f682a5b08ce41dacd979ade477d8a21e31d5ca36537a2ec5572ebabd5cf0f",
+      "sha256": "4e1b62ba022669eb1a4335fa0da47fffa1d2d280d40b6a1c0f5810af72f69d2e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -287,7 +287,7 @@
       "subjectId": "dictionary-batch:xinhua:0020",
       "category": "dictionary-batch",
       "title": "二进制 … 马驹",
-      "sha256": "815102c44c88a27dc3b2dec72f866c523509b9aa9496f87f2951164544ed7658",
+      "sha256": "2650cf012902ae73f85b630227fcf9c6f21f66005b2d392aede8e9f69b5df10c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -300,7 +300,7 @@
       "subjectId": "dictionary-batch:xinhua:0021",
       "category": "dictionary-batch",
       "title": "魔力 … 多姿",
-      "sha256": "240006e7ecee97570e0e133ef537f015a53f2cb5a721a38068b2ada7ab72dc36",
+      "sha256": "d4b1792c38fa251f5f3aea4cf83a18bfe28804d89deab39644b95e66eb2bf64d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -313,7 +313,7 @@
       "subjectId": "dictionary-batch:xinhua:0022",
       "category": "dictionary-batch",
       "title": "大号 … 齐刷刷",
-      "sha256": "7e5a31d53249df3578893175f98dd331dfd3bc83de222c473a0712a094639207",
+      "sha256": "320b07cef7eae89e3d57edce9afa970e49ec16d07982149ae1023381ab8cd3d1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -326,7 +326,7 @@
       "subjectId": "dictionary-batch:xinhua:0023",
       "category": "dictionary-batch",
       "title": "龌龊 … 芸香",
-      "sha256": "a70af46788bdd161ed976e2f70b4207f1cfff2d28add4abdccfe0c4d07d4f7d4",
+      "sha256": "d69cb9429e3296080dc5bd40910a6c04ef37c7d9b5443ba7a89dd5a01d451eee",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -339,7 +339,7 @@
       "subjectId": "dictionary-batch:xinhua:0024",
       "category": "dictionary-batch",
       "title": "苗头 … 心扉",
-      "sha256": "c53c0eeedabde0985395bff3a8a17e324652f6e6ec53765e8402342913c1a556",
+      "sha256": "28c7c458e3de722e174180a0b9962ae559e2ccf01eaf84fe9ff7b68499ff5323",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -352,7 +352,7 @@
       "subjectId": "dictionary-batch:xinhua:0025",
       "category": "dictionary-batch",
       "title": "怨天尤人 … 高利",
-      "sha256": "13bab54a54c2b204ad0ea6fe510c1a9ee40962e34d004a4b765329f8e10291cd",
+      "sha256": "c6a5c6e0a73bae70945046725fe2a79ec74e48a4957091daa5276d9fbf504e3d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -365,7 +365,7 @@
       "subjectId": "dictionary-batch:xinhua:0026",
       "category": "dictionary-batch",
       "title": "高枕无忧 … 蛆虫",
-      "sha256": "28d56ec9d63ea6638742161e41f8407b46576d99ed6654efca0a0adeaa172090",
+      "sha256": "7d979808d38f1e2b37ea14f2b2be85bb2859f63a819e781cadbac8cb65834834",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -378,7 +378,7 @@
       "subjectId": "dictionary-batch:xinhua:0027",
       "category": "dictionary-batch",
       "title": "蛮荒 … 前仰后合",
-      "sha256": "a16a9d640875a1fa214f16686b253aa2002fdbc5f37808cbafbe4376745a999f",
+      "sha256": "86a03eda8f912f737ab5ed630a6b4c678e15efb5ba4c0df112109ceed8f09a7b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -391,7 +391,7 @@
       "subjectId": "dictionary-batch:xinhua:0028",
       "category": "dictionary-batch",
       "title": "前臂 … 共同社",
-      "sha256": "a6608b28d3db891c786882f1a69db91d27c79c390f026797ca37620e4d7b2e44",
+      "sha256": "20698b1c25ce6d3beaaf7f470138a1f344cc763ba3bcecf15e898d41e74d61d7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -404,7 +404,7 @@
       "subjectId": "dictionary-batch:xinhua:0029",
       "category": "dictionary-batch",
       "title": "养家糊口 … 诼",
-      "sha256": "0fbbed9a4acea76611cd6cb0615306fd93ce7e24b02356cd59558704d2ce67ad",
+      "sha256": "d1e01462d957e7ae04c9bc76805e68371c4f19e044dd515519618b6ed8081691",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -417,7 +417,7 @@
       "subjectId": "dictionary-batch:xinhua:0030",
       "category": "dictionary-batch",
       "title": "谲 … 戒除",
-      "sha256": "5651a350530990aba571448854ed362589cfe0923a90ad9e818dfe55d7e5e8f7",
+      "sha256": "1090052d8ac2863bf695dcfd4085bcb7ed8bc8b2334a89d57d60c187ef041d24",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -430,7 +430,7 @@
       "subjectId": "dictionary-batch:xinhua:0031",
       "category": "dictionary-batch",
       "title": "截取 … 挽歌",
-      "sha256": "c0de8eb745caa0ad44b344dc171ad8ed86a9ebe42d06515dcb1a84c30b388e9c",
+      "sha256": "897ade5f83a6d646846d7c10cfa4c44c4a2f5968323512853e5b2e925a7a6e35",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -443,7 +443,7 @@
       "subjectId": "dictionary-batch:xinhua:0032",
       "category": "dictionary-batch",
       "title": "捆缚 … 助听器",
-      "sha256": "c4fe0903b9a1a02a4b96440f3a50ef14efcb53d7296517b21a8c223b8b90ff5f",
+      "sha256": "c0f293f27cb39afa442ffe7971fc384f723959a3b8c1d0fe10f411e4412530cb",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -456,7 +456,7 @@
       "subjectId": "dictionary-batch:xinhua:0033",
       "category": "dictionary-batch",
       "title": "募兵制 … 溶溶",
-      "sha256": "8ce26d3bc67136566d35eff7e66fb53ef2bb41412ff576dd543402234ba1ff68",
+      "sha256": "e82c3106c0e6a15019da8f5e4094c59ed98b0e07473a9a70c8754741ae55d03f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -469,7 +469,7 @@
       "subjectId": "dictionary-batch:xinhua:0034",
       "category": "dictionary-batch",
       "title": "漂洗 … 顺气",
-      "sha256": "3e4776f78738798d08192f65aceed78bac64366dce88cf3511f05e3ac0e35dd5",
+      "sha256": "6a0492539ea2ebb099d283a3dd8341719cf99dbdef5b3cf2c0836f1e1e682373",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -482,7 +482,7 @@
       "subjectId": "dictionary-batch:xinhua:0035",
       "category": "dictionary-batch",
       "title": "颤音 … 受纳",
-      "sha256": "403303d201bc4f8b412120a2ec88336b8c26ec57971ab9e0ecbead6a9c0187dd",
+      "sha256": "31d90ff3904a5ec2fc7b6e882f8deaacac9620e809b841b75643678b87ddb455",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -495,7 +495,7 @@
       "subjectId": "dictionary-batch:xinhua:0036",
       "category": "dictionary-batch",
       "title": "叠嶂 … 大眼贼",
-      "sha256": "15dd940b9ab98fa03182f24eb038196694d603b38d1cbae1e71ec31abf49f312",
+      "sha256": "a25ee0ad07a651475ddeff9bd278b446f237f4dad3dd57c87d47a04c9f16f3b8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -508,7 +508,7 @@
       "subjectId": "dictionary-batch:xinhua:0037",
       "category": "dictionary-batch",
       "title": "大雨滂沱 … 名重一时",
-      "sha256": "e3556ad68a2d527a2fc1f2e2d9577ba8c02f39adf8b4fe8f405b455fda446bab",
+      "sha256": "e0e397b8aedd038c03316526af671df1112d62e5290c4e46d2d22a43c474ec7c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -521,7 +521,7 @@
       "subjectId": "dictionary-batch:xinhua:0038",
       "category": "dictionary-batch",
       "title": "吞蚀 … 世伯",
-      "sha256": "135668af27e16217ee1b7777be80b22ca1afeff6b6ef46c4bf3c947fa1dcd059",
+      "sha256": "5f6feed2a21635e92cde89099c1d326b919df1d42499593751ca4d8373874317",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -534,7 +534,7 @@
       "subjectId": "dictionary-batch:xinhua:0039",
       "category": "dictionary-batch",
       "title": "丛谈 … 猎场",
-      "sha256": "7434eea7a9a880e467f1e6588ea06e9e36de637c9ccb73083e60dc6748966074",
+      "sha256": "8666cfeacae16c1c26ff79b75844c55c8f8478acef1d95c809f172d8afe6cfc6",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -547,7 +547,7 @@
       "subjectId": "dictionary-batch:xinhua:0040",
       "category": "dictionary-batch",
       "title": "猪栏 … 兔儿爷",
-      "sha256": "828b2a2bc9330c67c7ee73988101f2ad7b5d11a05fc8f89efbc95527b60cfddb",
+      "sha256": "01b7c88af1e55285e735d36f68f26f493e858b07448b00100f1675e2d4e55a79",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -560,7 +560,7 @@
       "subjectId": "dictionary-batch:xinhua:0041",
       "category": "dictionary-batch",
       "title": "入队 … 晓风残月",
-      "sha256": "a909bdab874b216e1e6d3d02e9700055b1d04292484ef91068e55c093004aead",
+      "sha256": "4dca23875ecd02d1197dab7ae06bd08983fdac049a473ca0119a57aadc0f1427",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -573,7 +573,7 @@
       "subjectId": "dictionary-batch:xinhua:0042",
       "category": "dictionary-batch",
       "title": "景炎 … 芽茶",
-      "sha256": "8675bd8183cae001d50355ac3e2ed7d9e0903854d3f85483281f19ba433f0345",
+      "sha256": "cd8f2afa0f30f83e9e3abd30d7a2b5704b3fc6dd9c1556231c2f36fbf8b0bbfd",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -586,7 +586,7 @@
       "subjectId": "dictionary-batch:xinhua:0043",
       "category": "dictionary-batch",
       "title": "苾 … 鲠",
-      "sha256": "21598e717c720a887c9772f3483be0484514ac369009f57607d63aed57952368",
+      "sha256": "f79df3b0da3b83f1b280306f1755f57bf00c3d76d924d81fc189a8067f2bed33",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -599,7 +599,7 @@
       "subjectId": "dictionary-batch:xinhua:0044",
       "category": "dictionary-batch",
       "title": "鲮鲤 … 儙",
-      "sha256": "090474ad16fe584578f24a57d58a0b35cd6bb1bedcfce5020f4a136b394f4785",
+      "sha256": "59a144abe6d9047e2303faad2ee702f6a5dbe3e0603759ccc4095b87074420b0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -612,7 +612,7 @@
       "subjectId": "dictionary-batch:xinhua:0045",
       "category": "dictionary-batch",
       "title": "全无心肝 … 儿女情",
-      "sha256": "447252b6da5afcabd100135c6af117d130ec66d5fb7e39bf86118a3af2a4d450",
+      "sha256": "f8909d712e0768b2816b5901d66db4276a7327396f439bb872b21bacff431b71",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -625,7 +625,7 @@
       "subjectId": "dictionary-batch:xinhua:0046",
       "category": "dictionary-batch",
       "title": "先人后己 … 东方不亮西方亮",
-      "sha256": "1ffdbf11670270228008f8ec53a18f750e2271371c3b309dd8e7c9da994f53e5",
+      "sha256": "6b57bd8b0ffdd9b69d2bf368e7351c21d5cfeed172523e3c9181a153b9ec6357",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -638,7 +638,7 @@
       "subjectId": "dictionary-batch:xinhua:0047",
       "category": "dictionary-batch",
       "title": "东风压倒西风 … 退耕",
-      "sha256": "c3f713218b7b4011b9e9f167097e82345d89f5337d633b4fcf8bd5df8cc4f761",
+      "sha256": "0e951297d097c9ee3920184ea9ef6609f56f2280944b1fd118d9f44ce55b9b16",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -651,7 +651,7 @@
       "subjectId": "dictionary-batch:xinhua:0048",
       "category": "dictionary-batch",
       "title": "送人情 … 砚田",
-      "sha256": "b76bbbeb69ef55b7ca5bcfeea74cc564d24ca150fb96e867a2ed0b745b613944",
+      "sha256": "88807e54f97116b35d22c1f8291ce5598a92bd7f2ab511c52413f62bc719b76b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -664,7 +664,7 @@
       "subjectId": "dictionary-batch:xinhua:0049",
       "category": "dictionary-batch",
       "title": "破罐破摔 … 恣睢",
-      "sha256": "dd826b260dea3339f185c2ff311ea37c4c55e686eb8e4a6e101237217d150f4a",
+      "sha256": "6d2c3f50619b8094ddff83a2e539ed4dcc6a11885bab63392b55851fa788033b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -677,7 +677,7 @@
       "subjectId": "dictionary-batch:xinhua:0050",
       "category": "dictionary-batch",
       "title": "恨入骨髓 … 一世龙门",
-      "sha256": "2e5df7bde90eaaf1887ec52ce15969bca52b0be6464e27578fdb1ae4a2e48467",
+      "sha256": "d9871098b1335f8cacc7cff41e7a7b58c7cfc642d34ee91e4cb4fc264e288722",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -690,7 +690,7 @@
       "subjectId": "dictionary-batch:xinhua:0051",
       "category": "dictionary-batch",
       "title": "一丘一壑 … 不敏",
-      "sha256": "9f250dcac354a7769773c4680e86eca00490be1bb5cbcd24687f59787c1aafc2",
+      "sha256": "bdde9080cb0e13f51997f08942f505443efaf4d22fadd0809d5aa55c37463916",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -703,7 +703,7 @@
       "subjectId": "dictionary-batch:xinhua:0052",
       "category": "dictionary-batch",
       "title": "不教之教 … 乡友",
-      "sha256": "df9fb2fe96f62fb2e9b15288dc2ddda9d10e7a50756fcafc0aa9514fb9b4c2d9",
+      "sha256": "671e84d6485d79d504ec13ba32ddeea663680e213805f10c9fe2506b771ad0fe",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -716,7 +716,7 @@
       "subjectId": "dictionary-batch:xinhua:0053",
       "category": "dictionary-batch",
       "title": "乡味 … 伐毛换髓",
-      "sha256": "cd990987ddb8cd5fee1c2149c3fa34e7b1149bd1c532f1b2ad339ab8009a4c08",
+      "sha256": "f94c6ad698f1ec671785f31e68683fedc68caa02b3f627a7de7b8b52946c3f91",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -729,7 +729,7 @@
       "subjectId": "dictionary-batch:xinhua:0054",
       "category": "dictionary-batch",
       "title": "伐毛洗髓 … 克食",
-      "sha256": "4cdb2afa69c98cc82a7eebf4bfddecb4bdbcf08b87fe36e10fd14cfc4fce5899",
+      "sha256": "bacc8aa6340eb1b1bd77cea8dee9113045eff78093b529eeb03c3279e36d3507",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -742,7 +742,7 @@
       "subjectId": "dictionary-batch:xinhua:0055",
       "category": "dictionary-batch",
       "title": "免官 … 分账",
-      "sha256": "a7cca89190da5b68ce838fbe25c8ae0a18591668315f174f5f634037294635d3",
+      "sha256": "340d09a5898c2abec15db6e35689cb43d88a9cfa1c20bde44c332f73f5cb5b55",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -755,7 +755,7 @@
       "subjectId": "dictionary-batch:xinhua:0056",
       "category": "dictionary-batch",
       "title": "分贫振穷 … 博学洽闻",
-      "sha256": "b89c48ac3494fa89a30535b67d3b35a80bc81b7b020356d0c0a0a15250f60ed4",
+      "sha256": "895fc78adcce893075b6090b15e7552f6663a87a1975315249697bb3febfcf9c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -768,7 +768,7 @@
       "subjectId": "dictionary-batch:xinhua:0057",
       "category": "dictionary-batch",
       "title": "博弈犹贤 … 告绝",
-      "sha256": "3ed39efaba891273a1b7e59dd342ccc0f16a1cd056da169426a704147b078ed4",
+      "sha256": "1aa961599151e51b114f29b158043f3512a1504b7216b1099eec34541043c664",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -781,7 +781,7 @@
       "subjectId": "dictionary-batch:xinhua:0058",
       "category": "dictionary-batch",
       "title": "告老在家 … 填具",
-      "sha256": "16006c18d343bbe7e7f347b1faa919cabe6d0b68c5357f77a399a53092e44743",
+      "sha256": "9a476b611aa1bb5c22f20325721fd27878e90a577cf7fb8de9b36c1cbe5d7303",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -794,7 +794,7 @@
       "subjectId": "dictionary-batch:xinhua:0059",
       "category": "dictionary-batch",
       "title": "填列 … 婢仆",
-      "sha256": "9071a7c60a99177f2ee3d394893dbdbfe55be361521264d11d627710258f7b90",
+      "sha256": "43c2917986be2614370ea93d866b3fd4f9e658f0db3389e91b7cd7133610e940",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -807,7 +807,7 @@
       "subjectId": "dictionary-batch:xinhua:0060",
       "category": "dictionary-batch",
       "title": "婢作夫人 … 尾楼",
-      "sha256": "3900e1c279dfbeb0fe78c9baa695500f1c6810334ca25bfe8e894a4246773940",
+      "sha256": "460c4f21f4556946de1fdc2f2a9d28a955538c6202da2f28e1686ce3fe809327",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -820,7 +820,7 @@
       "subjectId": "dictionary-batch:xinhua:0061",
       "category": "dictionary-batch",
       "title": "尾生之信 … 弊车羸马",
-      "sha256": "2c4dc474deb31bf00830a50855403901b7135ca25c87e6aac271736777b0aec8",
+      "sha256": "cbd34093fdb31149eb0338e8046c2a3d1731d3db8355cbef4439f30960dacd9a",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -833,7 +833,7 @@
       "subjectId": "dictionary-batch:xinhua:0062",
       "category": "dictionary-batch",
       "title": "弋腔 … 恼乱",
-      "sha256": "63f0fe564453c3e44f1eedffb95b7fbe3f7b74fd010e8849890f40f32afcf14c",
+      "sha256": "4913538763a911a597c56871995930a9b521cfbf0c3e3b4babecb9ee5f168ab0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -846,7 +846,7 @@
       "subjectId": "dictionary-batch:xinhua:0063",
       "category": "dictionary-batch",
       "title": "恼羞变怒 … 折征",
-      "sha256": "ae85c8ddf1b9b0ea20af8c3194ea9b9e4fd167c6fe26bc2473bb77f70f190477",
+      "sha256": "f7d460a7d766227fb97e3275784f2be953b96ca3aad0936063adaa4a52f37973",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -859,7 +859,7 @@
       "subjectId": "dictionary-batch:xinhua:0064",
       "category": "dictionary-batch",
       "title": "折槁振落 … 搔首踟蹰",
-      "sha256": "dda9fc53693b786233bd2649a17249f2805495c24f9fa253f908eaff78132ea1",
+      "sha256": "8d311655f99a9b1d67d2cec0d247c87c6670bd944ab13a08eca8cab110675055",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -872,7 +872,7 @@
       "subjectId": "dictionary-batch:xinhua:0065",
       "category": "dictionary-batch",
       "title": "搜奇抉怪 … 族兄",
-      "sha256": "12d7da6276ae4aaa82d9c2a2b3427be3a1c7eed872043d3e8fcc39b737e5484a",
+      "sha256": "4663256dbc279e461c945db64d1962eac64a056fe28c3b77ab4ed9f0610f9584",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -885,7 +885,7 @@
       "subjectId": "dictionary-batch:xinhua:0066",
       "category": "dictionary-batch",
       "title": "族姓 … 有闲",
-      "sha256": "adecc3162daa94a7b8f8811fc614c4cb9eb457e3377baae78dadf9967492e61d",
+      "sha256": "1db078102d19913dbc69d85679de787b7481ed81cbd4affcbd09d96043ab8fd7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -898,7 +898,7 @@
       "subjectId": "dictionary-batch:xinhua:0067",
       "category": "dictionary-batch",
       "title": "有间 … 栽花",
-      "sha256": "ee5f37f77ca53c829a1d1c57e3eeb8de4325c3d61cec9e6e123c446028967898",
+      "sha256": "06ea673f2b7c185ae711bc9d7e596f834509fc9d8189c0035cd6128ff27f177a",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -911,7 +911,7 @@
       "subjectId": "dictionary-batch:xinhua:0068",
       "category": "dictionary-batch",
       "title": "栽诬 … 水落归槽",
-      "sha256": "facafd5be35f941e54b821e1216d2d8cb1bda8ada4a3d6dbfc2328d80d47e2ba",
+      "sha256": "71dd59a32ae31ef22a04200f5f68d143533bab4320a0c6a52b511ccc0f22ef28",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -924,7 +924,7 @@
       "subjectId": "dictionary-batch:xinhua:0069",
       "category": "dictionary-batch",
       "title": "水落归漕 … 深切着明",
-      "sha256": "1f71280c0063c9aab8a7ee271938ec0ee165dd505a47be5ad249ee53c5cef1b1",
+      "sha256": "c7ce0867ef7a92422c09e75e47afe49d08e2d01a558091453a2a07ae004e702b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -937,7 +937,7 @@
       "subjectId": "dictionary-batch:xinhua:0070",
       "category": "dictionary-batch",
       "title": "深切着白 … 燕岱之石",
-      "sha256": "786c04444c2f77760d09e8ad49131542d1793b40045c3801894579186c3b8232",
+      "sha256": "92390f9f2dbe301e283c11ac78df4a4def82e9ab2807c723681a923d90468366",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -950,7 +950,7 @@
       "subjectId": "dictionary-batch:xinhua:0071",
       "category": "dictionary-batch",
       "title": "燕巢 … 申告",
-      "sha256": "eb77fc4d442bb45522e2a3a798f755997edaafcbea1a872de1e904e71565d820",
+      "sha256": "13a0956e69f6f785cba987373f564b3bedf53fcde9c0c617809559d83af0e056",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -963,7 +963,7 @@
       "subjectId": "dictionary-batch:xinhua:0072",
       "category": "dictionary-batch",
       "title": "申复 … 眼皮子浅",
-      "sha256": "5700ea678b6ca31a284316a9f10059690ccb0c027ee3a21aff1588f244acc979",
+      "sha256": "be6f92dba4cf812ef706f93347ff1f29f1a46096a94de53de23adc5dcdcc2526",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -976,7 +976,7 @@
       "subjectId": "dictionary-batch:xinhua:0073",
       "category": "dictionary-batch",
       "title": "眼皮底下 … 积不相能",
-      "sha256": "723ff3781a1df93f1c006d618562d37b32f49be01b9c995292e102e21d73247b",
+      "sha256": "fafa70d33c1495cce9a91026593ba50814a3e7e7913ee9a98dfb55a34bda4b59",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -989,7 +989,7 @@
       "subjectId": "dictionary-batch:xinhua:0074",
       "category": "dictionary-batch",
       "title": "积久 … 练练",
-      "sha256": "4f82803dd92b1d6f2c2e30ea65124779630d80d2f5101e5f404b46add2687ecd",
+      "sha256": "16aa51e17056293d06b84b91841fe187c2482eae36ba9654826855daf870143e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1002,7 +1002,7 @@
       "subjectId": "dictionary-batch:xinhua:0075",
       "category": "dictionary-batch",
       "title": "练达老成 … 腰巾",
-      "sha256": "5b503ceb42912eac034667b1d8c02e72c5162c37f098bdf16bc27ecdf425598d",
+      "sha256": "c09d1c7fc33bdf0c2eedbd19dabf0c44e76c6f1beae2dda1400ea88e39e37b05",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1015,7 +1015,7 @@
       "subjectId": "dictionary-batch:xinhua:0076",
       "category": "dictionary-batch",
       "title": "腰缠 … 虐刑",
-      "sha256": "60a7c502aa2a37a6ae279ba9be9c11ef278ddbd90f49fc161567a03f018bb07b",
+      "sha256": "49589b8f215bfc467cb1dfa0426b71041ab54af3bfed09c5474488894ceb5c02",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1028,7 +1028,7 @@
       "subjectId": "dictionary-batch:xinhua:0077",
       "category": "dictionary-batch",
       "title": "虐暑 … 警辟",
-      "sha256": "e18561ff55b0eb15fef7e6540be436d9ebd93003e6926d37c184d71c9ff97bd3",
+      "sha256": "017bebb6bb8873645bcecda93140bb1dae792dff7299aa8aaa936803f721012e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1041,7 +1041,7 @@
       "subjectId": "dictionary-batch:xinhua:0078",
       "category": "dictionary-batch",
       "title": "譬若 … 贴己",
-      "sha256": "5d27ce28575f6699aa0045109ed5697e21deccf63a69b91229944ef144f78187",
+      "sha256": "3156290db931c2dce400c41f94817a4deefea9564ebe979d595ca8ff3a28605e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1054,7 +1054,7 @@
       "subjectId": "dictionary-batch:xinhua:0079",
       "category": "dictionary-batch",
       "title": "贴平 … 过生日",
-      "sha256": "fef98726e6d1b569b6906a657fb87c89417a6e1acc0e19f4cd74781b36ff0959",
+      "sha256": "5c4493268894ab349cc0d37f692447b811d9b31d910fab63699208a2a7f42006",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1067,7 +1067,7 @@
       "subjectId": "dictionary-batch:xinhua:0080",
       "category": "dictionary-batch",
       "title": "过礼 … 遥闻",
-      "sha256": "c1e384846ca09c2b85cfe14785112c83e91a63850892b91f387c1c5503bdda26",
+      "sha256": "74fd05315f55f040e3d45dc2b1c79ae70d453063aa19fdb3bf5ba2964f7b33f7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1080,7 +1080,7 @@
       "subjectId": "dictionary-batch:xinhua:0081",
       "category": "dictionary-batch",
       "title": "遨翔自得 … 镂月裁云",
-      "sha256": "820ed00ec152cae367c748044803abde4b3008a062899927d15d2d522aa9d567",
+      "sha256": "bf672dec3c0363911eed87e2b8a3e3601035e0ce5d317b093bc5712613393134",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1093,7 +1093,7 @@
       "subjectId": "dictionary-batch:xinhua:0082",
       "category": "dictionary-batch",
       "title": "镂版 … 青衣人",
-      "sha256": "3eb457e5f0d4a04d30fe714c2473eb3381f9c7dccab653d6884460bb6865365a",
+      "sha256": "5804bb83ced909734dd5616c5694762d2fa5f11f6de0b339067ddbc44c0da0d5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1106,7 +1106,7 @@
       "subjectId": "dictionary-batch:xinhua:0083",
       "category": "dictionary-batch",
       "title": "青衫司马 … 驷马不追",
-      "sha256": "ab0d528fc9440d1f1eda36228140c0d054566da7a500824357bbb48732d8b4d0",
+      "sha256": "4bc8a2aef3397352ba690cc2919af915d259a7d30cd3e1bab28b2aaede549488",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1119,7 +1119,7 @@
       "subjectId": "dictionary-batch:xinhua:0084",
       "category": "dictionary-batch",
       "title": "驷马仰秣 … 默思",
-      "sha256": "f65af02457afc9e7e47d99a5abbc8cd87f5312df8e63cdb374cc5dc5ec0c602e",
+      "sha256": "240d80ad031aa3cafc82c080e6a5624efc4139e1bb563a0b58371e17141215ad",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1132,7 +1132,7 @@
       "subjectId": "dictionary-batch:xinhua:0085",
       "category": "dictionary-batch",
       "title": "默换潜移 … 宿业",
-      "sha256": "bcbed78c4153cd20c13fa6d4526ad3f857cc3ee62f4b64382fbc06bfb299925b",
+      "sha256": "bcf811a6405261f088885a80ca4b788edb31aaf626613cce8c419bcd9337a247",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1145,7 +1145,7 @@
       "subjectId": "dictionary-batch:xinhua:0086",
       "category": "dictionary-batch",
       "title": "宿地 … 空类",
-      "sha256": "c5d36eb9e9349faddd9bef77c6d1cd81d3f0ae0c372e80275cc3eef8427ba90c",
+      "sha256": "0ab8ba8338878b4c59724b76d0b2665e0bc7621c3f7536087f4e826436eae07d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1158,7 +1158,7 @@
       "subjectId": "dictionary-batch:xinhua:0087",
       "category": "dictionary-batch",
       "title": "空耗 … 一唱",
-      "sha256": "31f40b6c558ca0c95783c7e0af4eb24fbf2b82af7acadb2c74a8b6b6a179fbae",
+      "sha256": "348f93850c12a437e2b7e9e4e26e40610ea3cf22d25a44f3aee14b447c04425d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1171,7 +1171,7 @@
       "subjectId": "dictionary-batch:xinhua:0088",
       "category": "dictionary-batch",
       "title": "一唾 … 三书六礼",
-      "sha256": "77a457ec215a6184007f84a6469f4f83f3dce9f1565842e8043535f96df60081",
+      "sha256": "b8086d65b4940d8a796074a3505086b0feff4fba7dd34bb6d551ee5b9008707e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1184,7 +1184,7 @@
       "subjectId": "dictionary-batch:xinhua:0089",
       "category": "dictionary-batch",
       "title": "三事 … 上干",
-      "sha256": "6332e018eccbfb0ac39116e835716c42182522ead05663b2ea28cf7725396b79",
+      "sha256": "841f22b612eb478b728281bb6ae20814f97111ee127a72be0deb5043956370d1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1197,7 +1197,7 @@
       "subjectId": "dictionary-batch:xinhua:0090",
       "category": "dictionary-batch",
       "title": "上平 … 丑地",
-      "sha256": "ea0f8b759e9b65b8c6f3d6c8099e0ff639236261ad9927eebd1b95e884605498",
+      "sha256": "41acdb751542b775d0d454d230708df964988de7bc84c72aa1fe4ebf4f7db88f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1210,7 +1210,7 @@
       "subjectId": "dictionary-batch:xinhua:0091",
       "category": "dictionary-batch",
       "title": "丑声 … 丝竹会",
-      "sha256": "79b9f32575027836e0f744be5af1cd92372cbf50d56af25e2842f4cd1f9b1bef",
+      "sha256": "34840c164ea48bdbd0c81b4bf598a11e76ba35e1645c06b3c149255b945ebbbd",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1223,7 +1223,7 @@
       "subjectId": "dictionary-batch:xinhua:0092",
       "category": "dictionary-batch",
       "title": "丝管 … 中覆",
-      "sha256": "1f93ed324858c5067dffc99214706c82d2c16b600852623b701dd8b4e7836e53",
+      "sha256": "fee2f23e811f906d9d23036e52011ef12af3ddc6892ab483352a3204088205d5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1236,7 +1236,7 @@
       "subjectId": "dictionary-batch:xinhua:0093",
       "category": "dictionary-batch",
       "title": "中见 … 乌几",
-      "sha256": "af8cc2efe11533b3ab99fdd085fe3a12c5c91b3cef574478b6cacfe65e373967",
+      "sha256": "b58e39492ab02ea5b9e5ee2f013c2ab7d6fbfaa33d3c24bf0299cd59cadac9f7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1249,7 +1249,7 @@
       "subjectId": "dictionary-batch:xinhua:0094",
       "category": "dictionary-batch",
       "title": "乌剌赤 … 乡账",
-      "sha256": "86c4d2c66f3b29b63c789888fbda61b9c1feafc974cdf6f90bdb961571bc8a6b",
+      "sha256": "fb868571cbd3d0ca5c8e14bc07c0f7bbdeb1406c396d570c6e7614cdb217932b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1262,7 +1262,7 @@
       "subjectId": "dictionary-batch:xinhua:0095",
       "category": "dictionary-batch",
       "title": "乡贯 … 云头篦",
-      "sha256": "7dcd71ac7a696351e92c20f8489d8bc22b9fe4223bb0d6b354ba305c943cb5c2",
+      "sha256": "376504915d8c81eaaafabd98e80b41a50c69a688f931a529f07e53d934439b39",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1275,7 +1275,7 @@
       "subjectId": "dictionary-batch:xinhua:0096",
       "category": "dictionary-batch",
       "title": "云女 … 五马贵",
-      "sha256": "6dcf43586f0b732f2bcaa5d55cccb87267b0213ccf9053f7ed0d5ff5b3472866",
+      "sha256": "a2927fdada3610651af2bd1bc53090b9c507349414be8144a3f7ffa8fa46cfc9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1288,7 +1288,7 @@
       "subjectId": "dictionary-batch:xinhua:0097",
       "category": "dictionary-batch",
       "title": "五驭 … 亲通",
-      "sha256": "0864c2fab351097c0b316f9bf4ff3d0ae6dc9da72d7f1cabc61828622b5aa40f",
+      "sha256": "0d519cb45de52b8fef015ed9b5f3bd9b2ec92f3f4660ae4db8a3213552831997",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1301,7 +1301,7 @@
       "subjectId": "dictionary-batch:xinhua:0098",
       "category": "dictionary-batch",
       "title": "亲遇 … 仙游潭",
-      "sha256": "773646fc8727c99a50ce3e623362e24d76ad0fef69b9ef29be6cd4603cb31aef",
+      "sha256": "bbfba6f100a90ea1c0922da2754de4d9cfe1f11694ef5490c3b742fbc035ac6e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1314,7 +1314,7 @@
       "subjectId": "dictionary-batch:xinhua:0099",
       "category": "dictionary-batch",
       "title": "仙滋 … 众口嚣嚣",
-      "sha256": "c6eba51dd0846c28098798f9bfdc054d0899b3966bb6401cbfbc259dd83b125f",
+      "sha256": "280e7313b1c9f66a629f59ee755e7fc5b7bda09d28fd061132add94dc09848b8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1327,7 +1327,7 @@
       "subjectId": "dictionary-batch:xinhua:0100",
       "category": "dictionary-batch",
       "title": "众口籍籍 … 低簪",
-      "sha256": "9fa9f19e831f1416f0944d69694748c9dd5f1afb4e858aeb5b8d1b4b99618ca8",
+      "sha256": "797ffcaa4505d9376a47732cddba6db5d1ba2379d51dff4f13dd42858fbb75d7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1340,7 +1340,7 @@
       "subjectId": "dictionary-batch:xinhua:0101",
       "category": "dictionary-batch",
       "title": "低羞笃速 … 佣保",
-      "sha256": "27c20cd9e3b35c6ab40942bed8f989122fc2f1d538bc0717c91547c62c962876",
+      "sha256": "16165d55427996980a02ff08a0fb0976cee1ad785c5a3d42ab71ef6b352370be",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1353,7 +1353,7 @@
       "subjectId": "dictionary-batch:xinhua:0102",
       "category": "dictionary-batch",
       "title": "佣值 … 俊士",
-      "sha256": "534b785ce72f4dada12de3ec7b09e23c39fab7d01d1e9c580d3e93dd62106dcc",
+      "sha256": "f6ae748ee9382ff62c335b0351b995f7c51c14777c482dddf5234460de8e3a81",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1366,7 +1366,7 @@
       "subjectId": "dictionary-batch:xinhua:0103",
       "category": "dictionary-batch",
       "title": "俊壮 … 倚倾",
-      "sha256": "5274b0bba14695b3a57db124ff193318f74f301b4a21ed18efbfa82c4c7bd942",
+      "sha256": "716ec60c5f306592125a1570130297e784cbdccd532494dc3872399e5797d28b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1379,7 +1379,7 @@
       "subjectId": "dictionary-batch:xinhua:0104",
       "category": "dictionary-batch",
       "title": "倚儿不当 … 偷懦",
-      "sha256": "bc4be4adfa4fe847d753307a98c824ebc3297471fca1c4d22711c0ab7135af0d",
+      "sha256": "195fb08138c17a8b4ba9cac9924055a9c314ecf54915763b223d3339bf2fee79",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1392,7 +1392,7 @@
       "subjectId": "dictionary-batch:xinhua:0105",
       "category": "dictionary-batch",
       "title": "偷托 … 元朔",
-      "sha256": "e8caa1d143b750b520bd318c12fa8e4c2999bdc77184106f01d3da16bb91dd46",
+      "sha256": "b8f8f9d5a0cdb7b98145835c8e37860d60e56fb3bd66ad1aaf27325d7e39b037",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1405,7 +1405,7 @@
       "subjectId": "dictionary-batch:xinhua:0106",
       "category": "dictionary-batch",
       "title": "元机 … 八斤半",
-      "sha256": "8112529a37b8667b8b2ce716d6f4d770958c4f1a502c4ed629a191586081e6e6",
+      "sha256": "bfa9e07b9d846186d9fb82e248192e3d34e1c3267b9536bb84e4ede1b860bc70",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1418,7 +1418,7 @@
       "subjectId": "dictionary-batch:xinhua:0107",
       "category": "dictionary-batch",
       "title": "八旗兵 … 兵钤",
-      "sha256": "f31f058f2497db3c0041658a0fb5e934fdd4f20511f33764c009aeedce474074",
+      "sha256": "8e4044009d93e91ca069de36eb4020254fb773d735c92084a29621dca9cd5a86",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1431,7 +1431,7 @@
       "subjectId": "dictionary-batch:xinhua:0108",
       "category": "dictionary-batch",
       "title": "兵销革偃 … 军候",
-      "sha256": "c672a38d7da5d9b8be3d09affc605032616460992207e4902cd7799222b5f6b4",
+      "sha256": "7ecfe1176d7dc1e2a736108a94dcc09b96000dc3c3f7840a21d837a766cc3a6d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1444,7 +1444,7 @@
       "subjectId": "dictionary-batch:xinhua:0109",
       "category": "dictionary-batch",
       "title": "军健 … 净坛",
-      "sha256": "4048c033e5008e713c502c3bd56707de8d5cc341f735711780c9a53bbe355344",
+      "sha256": "69ddb246fe2c3304fc9692d0468b053da41c2a7b232299ee9ac248af530ada54",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1457,7 +1457,7 @@
       "subjectId": "dictionary-batch:xinhua:0110",
       "category": "dictionary-batch",
       "title": "净头 … 凶氛",
-      "sha256": "95e2ddaa9250ec4acb9dfffca69e1409b3677f9a775a26c4e3333125d3e1dcc3",
+      "sha256": "ffe7536512271b707568259701b65dc355efd06bf36128ac377a21e26a7c153f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1470,7 +1470,7 @@
       "subjectId": "dictionary-batch:xinhua:0111",
       "category": "dictionary-batch",
       "title": "凶水 … 刊勒",
-      "sha256": "44e5c27084c4694ad87bd4295cadafcd2a5aa7bd6e43d3a7fddb33eda9454b8e",
+      "sha256": "fdb48c29745fb1231d499385a76023243dd84783bbac93aef29605eec1f9596b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1483,7 +1483,7 @@
       "subjectId": "dictionary-batch:xinhua:0112",
       "category": "dictionary-batch",
       "title": "刊启 … 刺蜚绣",
-      "sha256": "c4e5d58c1352dc4fa7d597cb32df79f77d861e2a16e5762fc574f00c0baad7ff",
+      "sha256": "3b563366b2328acb051d8f3eae9e7b9dcac6734f734fb79fb3b2d731f7e384e6",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1496,7 +1496,7 @@
       "subjectId": "dictionary-batch:xinhua:0113",
       "category": "dictionary-batch",
       "title": "刺蜜 … 动念",
-      "sha256": "437a0b4dff857691f313e749224b6ee2b14337159b9dccb4179267691814717c",
+      "sha256": "f43051bd09b47faf405cacad3af9e95a0fde9755a34ea6a06b459f59e2d04cb0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1509,7 +1509,7 @@
       "subjectId": "dictionary-batch:xinhua:0114",
       "category": "dictionary-batch",
       "title": "动息 … 十二层",
-      "sha256": "dfcaa04886fb91a0cca951840c44030681946b123d06abb406cea94869da8c12",
+      "sha256": "95d0264ae5dc02da6a06f5ff9437e6c9e1612a9f8d2984cd4ccd091dbf255831",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1522,7 +1522,7 @@
       "subjectId": "dictionary-batch:xinhua:0115",
       "category": "dictionary-batch",
       "title": "十二巫峰 … 卖放",
-      "sha256": "cb2c876911bbcf922af95ea3735926fa57738fd363f7a2d0769181ff9c91650f",
+      "sha256": "6cb60a3c7a93e4a28f0d2624f936d06b105dd23ef41af8e02b5e286049b2b412",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1535,7 +1535,7 @@
       "subjectId": "dictionary-batch:xinhua:0116",
       "category": "dictionary-batch",
       "title": "卖昏 … 卵色",
-      "sha256": "6789a128294df7121067f60efe39e2c2fce64fd72345c8b14ded504fa4f24fd8",
+      "sha256": "02d94cfeb0916488a47cbd164ac3b35b41f8d2392386cb220a635d099b8cb1e5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1548,7 +1548,7 @@
       "subjectId": "dictionary-batch:xinhua:0117",
       "category": "dictionary-batch",
       "title": "卵蒜 … 反激",
-      "sha256": "6caa0d0eada2c7e3bf16f672bfad993e1ee08abe6ae8316c97ac78c4e8c6405a",
+      "sha256": "9e674cbd0e8c66b7e7c80911a4ebda8314d62f10de8dae2dd48e1459f17753dc",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1561,7 +1561,7 @@
       "subjectId": "dictionary-batch:xinhua:0118",
       "category": "dictionary-batch",
       "title": "反状 … 召对",
-      "sha256": "e477b3996e67d20b8f0351516ad0f1228b861f56950d3875f04b08a693e6ffc9",
+      "sha256": "70387cb8fab3d5e54545aa7eb97f39bffc1ef6e0eb95473702dbdb70fb7fb6e5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1574,7 +1574,7 @@
       "subjectId": "dictionary-batch:xinhua:0119",
       "category": "dictionary-batch",
       "title": "召平瓜 … 合音字",
-      "sha256": "0b8b010ba929dbe890590f368c59af144fd2e1ac0d28d250c033c46e5c3733c3",
+      "sha256": "e8a46f11767746d5a5b93f6e747f3b7264b0a9ce7b81c82ce2248d15798532d6",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1587,7 +1587,7 @@
       "subjectId": "dictionary-batch:xinhua:0120",
       "category": "dictionary-batch",
       "title": "合韵 … 含景",
-      "sha256": "6bd0daeb9772d19b021c3fe9ef7e23904db87ded858691bc04ebf8232f1a76e5",
+      "sha256": "2a1c0e2eee3e00a5a4fd50660f56edd99d56063024ac224e49b64195fe9afc06",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1600,7 +1600,7 @@
       "subjectId": "dictionary-batch:xinhua:0121",
       "category": "dictionary-batch",
       "title": "含枢纽 … 周谨",
-      "sha256": "3096fd35e83a8b52a522ec241f4366c188d6715cd8d1bd8e18ca49ee2d8de96b",
+      "sha256": "4f441cf5ee72865ccff9506d750eaa3fd38ea14d01c426dd697da364c6fa28ed",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1613,7 +1613,7 @@
       "subjectId": "dictionary-batch:xinhua:0122",
       "category": "dictionary-batch",
       "title": "周谱 … 哀敬",
-      "sha256": "102a37e82cb2b2305562d1ff5133ec095b2d3586556d75e937e7628f0e0535e3",
+      "sha256": "be05785dba0f44b031cc357bd2f617454edc0db5823feb214c6247730b5e9a5b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1626,7 +1626,7 @@
       "subjectId": "dictionary-batch:xinhua:0123",
       "category": "dictionary-batch",
       "title": "哀文 … 喂禄",
-      "sha256": "24db1603831b20cc0aaa3e8dc1c92f4258f1eea8d8a3f34e06c05a4fdb54e010",
+      "sha256": "d02a25d5bee1632675f9f4919f20b90fdcc0153ce978ee040191f5e71cc40b8e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1639,7 +1639,7 @@
       "subjectId": "dictionary-batch:xinhua:0124",
       "category": "dictionary-batch",
       "title": "喂糜 … 嘻嘻嚷嚷",
-      "sha256": "dfd232ac61912ae2b2a0064e4b35682264fc7734bdd1e10ec086f46d4581879f",
+      "sha256": "1798eddb03a5e8c819acfe6c3bf4f364866b82c1087282f45102ffc395a4e29a",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1652,7 +1652,7 @@
       "subjectId": "dictionary-batch:xinhua:0125",
       "category": "dictionary-batch",
       "title": "嘻嘻旭旭 … 回指",
-      "sha256": "45a1c063036c40cbd7f93d527caa33826d3d18e0ac5258d964024e09f52194fc",
+      "sha256": "55a586cb202d8d055ec5ce99f28ed6a49ca3633aaa4c60a6c9330d70210e5339",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1665,7 +1665,7 @@
       "subjectId": "dictionary-batch:xinhua:0126",
       "category": "dictionary-batch",
       "title": "回挠 … 圣诏",
-      "sha256": "7d65556f4aef870e196e92d060b99a2f50c7e72b75a558ca2bf01e6239550f74",
+      "sha256": "e786487f92325f808645822c2102c9623d049c06113ab7ff6bd5434882e4846b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1678,7 +1678,7 @@
       "subjectId": "dictionary-batch:xinhua:0127",
       "category": "dictionary-batch",
       "title": "圣译 … 垂虹亭",
-      "sha256": "92fc6efdbe22370d7542842c2c0a137667d41461ef7891f3a7d626108a6e47f0",
+      "sha256": "837bc056dcad4f78a33919704c4665eca9147a6910aff6a29b24b59a03118094",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1691,7 +1691,7 @@
       "subjectId": "dictionary-batch:xinhua:0128",
       "category": "dictionary-batch",
       "title": "垂虹桥 … 壅淤",
-      "sha256": "ae40da95eac8ec0b8b9f0c4dfeaf8a9ccd30d96024a4c32a63155687eff410b9",
+      "sha256": "4f4680744b1e8b8a86c52e5c03f27df2b72be4642a3660cfaba568b0b85d44f4",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1704,7 +1704,7 @@
       "subjectId": "dictionary-batch:xinhua:0129",
       "category": "dictionary-batch",
       "title": "壅滞 … 大好老",
-      "sha256": "4d0fac18313beafec5edcc8de2bd65e48bc846d54f41096563b5f0d533e38543",
+      "sha256": "37bf68259c694b5c73f4a76118b5659ee137ae25ef56a15d2fef88377afacf30",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1717,7 +1717,7 @@
       "subjectId": "dictionary-batch:xinhua:0130",
       "category": "dictionary-batch",
       "title": "大妃 … 夭绝",
-      "sha256": "d744740465fb44abe4dac5c513adaeb6d8e4527d9146a9e9ce72358cdf319f98",
+      "sha256": "e03282bf147d56df475bc2b74fbcda7d13e2884094850c9d1df92c0dea21f326",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1730,7 +1730,7 @@
       "subjectId": "dictionary-batch:xinhua:0131",
       "category": "dictionary-batch",
       "title": "夭美 … 奏审",
-      "sha256": "3c2ddf1bb99917a6280a32af9b53c8b548c7e66776c06ac03e6a845cb1281754",
+      "sha256": "58b634b4257d41f5d8ea2051d6c8bf7ca586d80c486a824ca125680739c76660",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1743,7 +1743,7 @@
       "subjectId": "dictionary-batch:xinhua:0132",
       "category": "dictionary-batch",
       "title": "奏对 … 妪然",
-      "sha256": "b7126143ef07aeb3f514968018480d43a59c4e1e1e83303c45a8776289f889f0",
+      "sha256": "281dc4cc7a27cf145132e2bf50e9fb3119f437b94c3b1a4d054436755028ac0d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1756,7 +1756,7 @@
       "subjectId": "dictionary-batch:xinhua:0133",
       "category": "dictionary-batch",
       "title": "妪煦 … 媒氏",
-      "sha256": "e486fcf951d1067e88843187051d7d1a056e989fee9b5423e5bde0ccbc2bafad",
+      "sha256": "bab6ac53c60d897acd03fc07a3747e91c13c3f22d6236b940f5460d0e419c9bb",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1769,7 +1769,7 @@
       "subjectId": "dictionary-batch:xinhua:0134",
       "category": "dictionary-batch",
       "title": "媒稳婆 … 孤涂",
-      "sha256": "3c950a48d0b6033fa4c8e37aba81b34f21129d9003ac6b9f81125f0b7d13e56d",
+      "sha256": "315b55965eb1740fb6a7ab80f37231e3e46453a07c4481cb05e5b06c17db6603",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1782,7 +1782,7 @@
       "subjectId": "dictionary-batch:xinhua:0135",
       "category": "dictionary-batch",
       "title": "孤淡 … 宗卿",
-      "sha256": "655f40b49153fc5a39243ebee08b60a5fdaeda385f57fb71d5527a2647d95d9a",
+      "sha256": "da176b9947f11de46c48280fb5ac9fb3d8da38e348ab7be50c26044d5a2ed589",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1795,7 +1795,7 @@
       "subjectId": "dictionary-batch:xinhua:0136",
       "category": "dictionary-batch",
       "title": "宗原 … 宪极",
-      "sha256": "6224f009335b1c25ccfa253376d879652fbaa5bad0246835adc68eea5784f3ec",
+      "sha256": "2dae2c2b7695453b077fa4639157d88f1fdf07a7edbf2e5bce9f182ce660231a",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1808,7 +1808,7 @@
       "subjectId": "dictionary-batch:xinhua:0137",
       "category": "dictionary-batch",
       "title": "宪檄 … 密椟",
-      "sha256": "3051bd92ee40995718af88567b5626ba2b754c45eee9ac93d5a4334ff539f34f",
+      "sha256": "514f12a0a84f897aa62defd5e8ea38fd60fd5fa7f10cb51c348343563458ab9b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1821,7 +1821,7 @@
       "subjectId": "dictionary-batch:xinhua:0138",
       "category": "dictionary-batch",
       "title": "密欤 … 寻环",
-      "sha256": "fd57af90cacaf6bb5069d1a25eaf0ddcf2447829d609601c350f45ecb1dda7f7",
+      "sha256": "fce2715997d02e69fdfe19d7a57a6966a71d98b558708d01cc6718f454ac6c93",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1834,7 +1834,7 @@
       "subjectId": "dictionary-batch:xinhua:0139",
       "category": "dictionary-batch",
       "title": "寻理 … 小至",
-      "sha256": "269349c0fd56e225eb7ea9f2bee4627d62d7e729243c1fc668bf851faa584d94",
+      "sha256": "2e240e3ecf0fff046d4ed626bff7159077543803cfa323d4559380e2deb255ad",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1847,7 +1847,7 @@
       "subjectId": "dictionary-batch:xinhua:0140",
       "category": "dictionary-batch",
       "title": "小舆 … 层龙绝艺",
-      "sha256": "d4082f15c49a12b5fd7f4043335d9d1c28453bd77f8f3a15da6760d76d85819f",
+      "sha256": "0ea6b3cf1373e36fcdf3fea6da98a0c499857713aa65b71f3db6ad4a71f4cef9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1860,7 +1860,7 @@
       "subjectId": "dictionary-batch:xinhua:0141",
       "category": "dictionary-batch",
       "title": "层𪩘 … 山精",
-      "sha256": "6b1e07db087e017d73b0f35b123758ecbb9bdd635a00afbcc2f8fb86bdc782aa",
+      "sha256": "b17d65b5cfe14b86ed9d280df5d231306a766fcc40d4c5978b5ed88b3db804a3",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1873,7 +1873,7 @@
       "subjectId": "dictionary-batch:xinhua:0142",
       "category": "dictionary-batch",
       "title": "山纪 … 崛立",
-      "sha256": "a72338a3e84d47a65181777ba6993dcffee451ba38e3acab88e61e7f930422b0",
+      "sha256": "ab7aed967bf4f02751684ad7b9c9e90e555dec47efc15fe721e3eaea323595fb",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1886,7 +1886,7 @@
       "subjectId": "dictionary-batch:xinhua:0143",
       "category": "dictionary-batch",
       "title": "崛诡 … 市买丞",
-      "sha256": "4b5b1ce1988181a4eabca8e25a8a71f6bc5e51e6d170d6db5c59b94aba714a0d",
+      "sha256": "49d3a5d990c45d52751380f13c61f0f349e465bb002ebbfa3438cf9515390589",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1899,7 +1899,7 @@
       "subjectId": "dictionary-batch:xinhua:0144",
       "category": "dictionary-batch",
       "title": "市买司 … 幢幡",
-      "sha256": "f10112bcc07ca071c95f5af275f79ed6117ed7e275719f3f7a4195f03de4321f",
+      "sha256": "02ec9153e231b68f7714b87705b15a8376a6046168b5bcd9a99dd9e6b8bae2af",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1912,7 +1912,7 @@
       "subjectId": "dictionary-batch:xinhua:0145",
       "category": "dictionary-batch",
       "title": "幢戟 … 幼海",
-      "sha256": "5d875a9baff915d443392500cfc0f8d951d0019ad52b604f1ea16e0b3752d2da",
+      "sha256": "9b9d7fcdcb8ebf70a6dd63985fa96032f14aa860e07770ee8b989eee0382a063",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1925,7 +1925,7 @@
       "subjectId": "dictionary-batch:xinhua:0146",
       "category": "dictionary-batch",
       "title": "幼眇 … 庶姬",
-      "sha256": "36ebb036596a88b030dc0d8cef8977bb4d5af2c256803908ea53791bf3c172f8",
+      "sha256": "65d9e624a04c812874eeec51de1c876ee29f677c057532ee7192c2a2e97acf1d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1938,7 +1938,7 @@
       "subjectId": "dictionary-batch:xinhua:0147",
       "category": "dictionary-batch",
       "title": "庶威 … 异宜",
-      "sha256": "5e0fbee1ed6c9503ced73cbb601e74ea3c85d7e7698aa246571a07c97029ae08",
+      "sha256": "f55901fd05607698ccc3fadb784f7781dbf634e9d90af66ac05c5fbba17fb4ed",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1951,7 +1951,7 @@
       "subjectId": "dictionary-batch:xinhua:0148",
       "category": "dictionary-batch",
       "title": "异实 … 弦歌宰",
-      "sha256": "3a9a89eddd8719ccbdd28c73e0c47af209ff3b1031987278c390dedfbd293561",
+      "sha256": "b0cfc5d79f2f7ee52c593291d50a4be70ea010cb473418a979b5593ef785d9dc",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1964,7 +1964,7 @@
       "subjectId": "dictionary-batch:xinhua:0149",
       "category": "dictionary-batch",
       "title": "弦直 … 征轩",
-      "sha256": "3ddd2a7551d802163508e0e4e73fd1fa2737810229c4935a1ce0120c173ff414",
+      "sha256": "59e196f26dd3dd7cb6cf562a6af21e374d4c6c79e514c74f5d24b626896913e2",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1977,7 +1977,7 @@
       "subjectId": "dictionary-batch:xinhua:0150",
       "category": "dictionary-batch",
       "title": "征轮 … 徽金",
-      "sha256": "2aa306b5b4cbc53b373df24856ffaf6e7afb5f142c34c2b0a274769d48ba4962",
+      "sha256": "26302e1dc1d9a97e2d8007ab4fab4aba6a04ceee5d7b522ede3449f6bd2914ba",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -1990,7 +1990,7 @@
       "subjectId": "dictionary-batch:xinhua:0151",
       "category": "dictionary-batch",
       "title": "徽钦 … 怒芒",
-      "sha256": "26ef10575f726991bcb96a4c38ae6891686b4b1e761a926a0c1c6952d45ff3dd",
+      "sha256": "c40e75b690db43db164702434833fe1c09d36ae3bb00aa15d9f55c0a004f136b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2003,7 +2003,7 @@
       "subjectId": "dictionary-batch:xinhua:0152",
       "category": "dictionary-batch",
       "title": "怒蛙 … 恩泽侯",
-      "sha256": "b6a7ae11254b45511a00475f9503861a72a6654108f7f04f2aee2525900ee73a",
+      "sha256": "20f16842774bba06098c3726c9a5a3744014fe24996f0fea49d053acd4014d81",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2016,7 +2016,7 @@
       "subjectId": "dictionary-batch:xinhua:0153",
       "category": "dictionary-batch",
       "title": "恩润 … 悯谏",
-      "sha256": "55d26791e759f318726552c73d6c12218f3b06a046c515f3e1821539e32c7f5b",
+      "sha256": "9e32025e6116d661b44ef44a24f7e251abfe5b1f5364f81a1bc8ce4b40126f8c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2029,7 +2029,7 @@
       "subjectId": "dictionary-batch:xinhua:0154",
       "category": "dictionary-batch",
       "title": "悯贫 … 愚者千虑，亦有一得",
-      "sha256": "416469585797c82d205ed9394a7915eb996bc4eaa99991ea9da4724715a5c32f",
+      "sha256": "6572fc9e5a04aba238ad31f7aeb41a18a81baf6fb26a49a12e06244df51b2b86",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2042,7 +2042,7 @@
       "subjectId": "dictionary-batch:xinhua:0155",
       "category": "dictionary-batch",
       "title": "愚者千虑，必有一得 … 懵如",
-      "sha256": "19081162cded703596a3dc92eafa869cf36d8f47b71a014a2c8a717c27460cf8",
+      "sha256": "fd17bd7ede41fa12364951032d8f13031e459bada382ca60747269599fa58b65",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2055,7 +2055,7 @@
       "subjectId": "dictionary-batch:xinhua:0156",
       "category": "dictionary-batch",
       "title": "懵怔 … 手号",
-      "sha256": "83da1edae14d551680ae7411fa4bba5b53ae6c08e92b01371ad87e2e9d7ca58a",
+      "sha256": "432a002fe2a06f114e3e8dab1bb36ceea5676536a1ae836a3d5ffba01f6150d4",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2068,7 +2068,7 @@
       "subjectId": "dictionary-batch:xinhua:0157",
       "category": "dictionary-batch",
       "title": "手号军 … 扬意",
-      "sha256": "5b8f53485907a91cc4dc3125a9ed456529fab7d8b7daa2def35b6972672c1a39",
+      "sha256": "06c299067238de0735f3fa1fd2c309975eb213203ec6cf2f9f3820d3d16aeef6",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2081,7 +2081,7 @@
       "subjectId": "dictionary-batch:xinhua:0158",
       "category": "dictionary-batch",
       "title": "扬扇 … 护局",
-      "sha256": "eabe3ea67f7a7da5e788f3ecc865f09c0bb253b938f20f3ff1b3b6cd57920895",
+      "sha256": "49cc8dc313534517efe7a9691d145ca90144351fca0b370085ae2e7e1d684897",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2094,7 +2094,7 @@
       "subjectId": "dictionary-batch:xinhua:0159",
       "category": "dictionary-batch",
       "title": "护度 … 拥书城",
-      "sha256": "e0c175628de3800907fc87456298fc8c8d3909d929a47fddfb0595b66ae3fcf1",
+      "sha256": "71eefd3ec735ed7c9421b1a65970c38240f2643ffd8dcefd7e7278320685f8e1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2107,7 +2107,7 @@
       "subjectId": "dictionary-batch:xinhua:0160",
       "category": "dictionary-batch",
       "title": "拥众 … 挹胜",
-      "sha256": "a798b0a72818944c70d5d0162ba8a1d227ce548fcda03de38bfc0067d65f5b63",
+      "sha256": "34b7117d82757047b88bfc9b023cc021921639284f93a063eacdc967e4236567",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2120,7 +2120,7 @@
       "subjectId": "dictionary-batch:xinhua:0161",
       "category": "dictionary-batch",
       "title": "挹退 … 探篹",
-      "sha256": "60452cb8577d27292e52c8ba504cea0199a4493b2866557fcada857999c12357",
+      "sha256": "cb8ee1800a4bf9111679acb5f13355db792139ab65c2be282001471e19f7f276",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2133,7 +2133,7 @@
       "subjectId": "dictionary-batch:xinhua:0162",
       "category": "dictionary-batch",
       "title": "探细 … 搘",
-      "sha256": "ef4c7988d2d059b057fc2ad6c291265b8b83fe3ec236191df11a31ead245588f",
+      "sha256": "bfed5685c73f9e4e33a50e214512edf21842feeb21bf5b1fc7fd77062b94b53d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2146,7 +2146,7 @@
       "subjectId": "dictionary-batch:xinhua:0163",
       "category": "dictionary-batch",
       "title": "搘j … 撰着",
-      "sha256": "2da5ee787de59052f9d0d20529be1ad5202332f51dc714e2d5736a7f5dcc6136",
+      "sha256": "4e33236723d54f034a7b53fa6db5b8739ebb7a9371fca3010d0590f68ee9681f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2159,7 +2159,7 @@
       "subjectId": "dictionary-batch:xinhua:0164",
       "category": "dictionary-batch",
       "title": "撰碑 … 政化",
-      "sha256": "f10fc066a91fc958da3f7d37bd7d3fd52b34fbd1ba665ef7c2d7a16158d4a478",
+      "sha256": "a537bdb63652cfef4667790c6058fd3104098227e6eb4ade5670b6feb0260297",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2172,7 +2172,7 @@
       "subjectId": "dictionary-batch:xinhua:0165",
       "category": "dictionary-batch",
       "title": "政历 … 文匣",
-      "sha256": "00c2f5cdbc39781d33793e78bc67a99e31b2fc76a67df35becd8431f906444dd",
+      "sha256": "824e509b4a682b44f200449635d5528a6ed478dae8f5f068b423c634833e8f2e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2185,7 +2185,7 @@
       "subjectId": "dictionary-batch:xinhua:0166",
       "category": "dictionary-batch",
       "title": "文华殿 … 斩竿",
-      "sha256": "917cac0d3f6242451317f5d98832ab3a37944bfa3ab0eec61962bdba6920786f",
+      "sha256": "7c1f1c8b7dc1064777f4cf711d5871ba45df1a4790ce5d22e08f5e21c33d892e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2198,7 +2198,7 @@
       "subjectId": "dictionary-batch:xinhua:0167",
       "category": "dictionary-batch",
       "title": "斩级 … 旌麾",
-      "sha256": "36cb9cdaaa69a83d91a9f54289c1854a9fcbdde9714897f6375e40830e546e8c",
+      "sha256": "a573006ee7359ca0f73f46af97c70c67ce572badc32941b4db96f42827e35b9c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2211,7 +2211,7 @@
       "subjectId": "dictionary-batch:xinhua:0168",
       "category": "dictionary-batch",
       "title": "旌鼓 … 旦俫",
-      "sha256": "186abb1ab15c902c8334888b4f06467027ef77f4619ec552dcbd3b5cefc43a21",
+      "sha256": "79b8bfcba1f12723c76f1c3a17c9b20f13501cd78d5e16a30ea2daf9c345a752",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2224,7 +2224,7 @@
       "subjectId": "dictionary-batch:xinhua:0169",
       "category": "dictionary-batch",
       "title": "旦儿 … 昞然",
-      "sha256": "8beae37704e601dd880a5f18c6457d8f7b5bac7fe64871bb699d1ad353435809",
+      "sha256": "7bdd1a7db7db34f25dae21fe94627e0e4b6605d476c7ef0e733c7fead1a0ecff",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2237,7 +2237,7 @@
       "subjectId": "dictionary-batch:xinhua:0170",
       "category": "dictionary-batch",
       "title": "星丁头 … 晩报",
-      "sha256": "c365ec6f6ed1309f2adfcb9c30d120cafb6f5217c2cdb6a206ed4ff921f8bd01",
+      "sha256": "007f583db08f64908026f1f612c4f4d64746b137f23a2ac2aa520a4bdc902f30",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2250,7 +2250,7 @@
       "subjectId": "dictionary-batch:xinhua:0171",
       "category": "dictionary-batch",
       "title": "晩接 … 曲江池",
-      "sha256": "c5694561b11ca095bd3301f72dde55837283ed1dcc5c17b5f1b0ec17db738d15",
+      "sha256": "1050efdef69379e02c3f79c3e87824b6c2cce3007e49da115466869de7521661",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2263,7 +2263,7 @@
       "subjectId": "dictionary-batch:xinhua:0172",
       "category": "dictionary-batch",
       "title": "曲沮 … 望夷",
-      "sha256": "e85c549cbc016eb595a5f2c0cee385326498b2d85f1dc792ef17b7f8b1ec5369",
+      "sha256": "2e25edf61a3041b1d3e0117a9db5ca82d89685a3774daeecbd370e1e5b52fe27",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2276,7 +2276,7 @@
       "subjectId": "dictionary-batch:xinhua:0173",
       "category": "dictionary-batch",
       "title": "望宗 … 朱栊",
-      "sha256": "d791db3e004c06d1482f7891b3d71976891c9620b600817cb40a73d2a7a637d0",
+      "sha256": "c1e55559607aca998bfd81b7165fe026996ab628e6f36a9168b2eda79559598c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2289,7 +2289,7 @@
       "subjectId": "dictionary-batch:xinhua:0174",
       "category": "dictionary-batch",
       "title": "朱栏 … 杖流",
-      "sha256": "682fa6aa9249c9c63801c661866951f8a2e02765c3b79a28cb29e2c9f33a599e",
+      "sha256": "ecac69c2fd99ef80bc5e2a73caa19983a680767b22c816e4d4448a2d31dd866b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2302,7 +2302,7 @@
       "subjectId": "dictionary-batch:xinhua:0175",
       "category": "dictionary-batch",
       "title": "杖父 … 极杀",
-      "sha256": "ecb28c10f957bfdb5302bbf7e4cf151e6e95665de64dfa0e6e4233cc660a8929",
+      "sha256": "e3cba9b5f889a614706f6b3ce823021fc8ea7ac5d763e074c4f3203fed9f85b8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2315,7 +2315,7 @@
       "subjectId": "dictionary-batch:xinhua:0176",
       "category": "dictionary-batch",
       "title": "极果 … 枯黯",
-      "sha256": "32605b9bfead8f7ad8dabc0837019a83ce37027b78fa2c73191bdbd3f6913591",
+      "sha256": "3b326719288304b109c0b0222fab3705213c19ffdde62bca06f78b64e21ea437",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2328,7 +2328,7 @@
       "subjectId": "dictionary-batch:xinhua:0177",
       "category": "dictionary-batch",
       "title": "枯龙 … 树威",
-      "sha256": "a1959b4b203b622eac1310d127ef9f25eaccab79e0c76f47e8c528a21eca8cc3",
+      "sha256": "73f790a9fd1b53ef6b687fb25061150a3171b527aacd10317ac42acac8eceb78",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2341,7 +2341,7 @@
       "subjectId": "dictionary-batch:xinhua:0178",
       "category": "dictionary-batch",
       "title": "树娃子 … 梁甫吟",
-      "sha256": "b36bcc92579104b77ed5cf771a86d8295cf86f2a1e80316e2e2950414c92b499",
+      "sha256": "9b580252cb1d293ae2973f1681b8bb3b0d034ce781f6a063e3d10a5c467c5470",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2354,7 +2354,7 @@
       "subjectId": "dictionary-batch:xinhua:0179",
       "category": "dictionary-batch",
       "title": "梁皇忏 … 椇枳",
-      "sha256": "28b7118cb8eaf987e653457b8267ab961694a46d1c89f0f6524948f6bd9e939e",
+      "sha256": "d81465c03f0302989d0f0d5cf800dca8eed93ec75f5680626666e80cf3ad94f5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2367,7 +2367,7 @@
       "subjectId": "dictionary-batch:xinhua:0180",
       "category": "dictionary-batch",
       "title": "椊杌 … 槐采",
-      "sha256": "2ab26887a5ed25d90b9ce5eff6b072b476e21412913a553e30aeb96ed825c75d",
+      "sha256": "168313b5c6e3a152b169a8ef509d3e8b54f728fdc2a95f30a17ca81cf0561461",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2380,7 +2380,7 @@
       "subjectId": "dictionary-batch:xinhua:0181",
       "category": "dictionary-batch",
       "title": "槐里月 … 欧母",
-      "sha256": "d353346dd09ba0322a79223a2c6f5ae4b6dbc61e3e9b0debd1a44c71704e9600",
+      "sha256": "3dc96175dbedad8868000f5283ebed49c56ad88a5b559d5ed82b556daac59a49",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2393,7 +2393,7 @@
       "subjectId": "dictionary-batch:xinhua:0182",
       "category": "dictionary-batch",
       "title": "欧泄 … 残夷",
-      "sha256": "a58df07bad38d5e40c21ad9e2f9dda00dd9e742d3552473cb200f71ef01b54f5",
+      "sha256": "a271fc1f2d86483bac78efdedaabfd7a675a8b576ad6017446ac36877394311e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2406,7 +2406,7 @@
       "subjectId": "dictionary-batch:xinhua:0183",
       "category": "dictionary-batch",
       "title": "残孽 … 气哺哺",
-      "sha256": "7f3e1b8afa67e83d865064c06a0449dd989266e0525e3c89360dcbcd49ba48a9",
+      "sha256": "2bb0a8262af323206b4bde1e05dded8920f6a02f7bf806175a8e6688db379724",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2419,7 +2419,7 @@
       "subjectId": "dictionary-batch:xinhua:0184",
       "category": "dictionary-batch",
       "title": "气噎 … 汲短",
-      "sha256": "c2d7aa594eeedf133853c798601ebf8018e2dce69a25d7603bedf9f14e07b6cb",
+      "sha256": "0b3539d45fc73a93e0bc78d00020863287ab8e148f9b2fc3d3621d3e254e04e9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2432,7 +2432,7 @@
       "subjectId": "dictionary-batch:xinhua:0185",
       "category": "dictionary-batch",
       "title": "汲绠 … 河关",
-      "sha256": "dce60afd009feb70c8a891d31ac0bc552b2a059c346da177910cb0d18d290a7d",
+      "sha256": "c8cab230498141d8d0b1f9da4102bfb5e793869a53b0058494a67176419f9bc9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2445,7 +2445,7 @@
       "subjectId": "dictionary-batch:xinhua:0186",
       "category": "dictionary-batch",
       "title": "河冀 … 泻卤",
-      "sha256": "a227475fa198662f8efae3aa3ae0701950dfe0f405f560fa6c13dda99c4c74df",
+      "sha256": "45fa4d346231b441e122875c1f283060032145895d11c3cf9a64d4dced492c5b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2458,7 +2458,7 @@
       "subjectId": "dictionary-batch:xinhua:0187",
       "category": "dictionary-batch",
       "title": "泻囊 … 流羡",
-      "sha256": "989b91765af20de8fb7326b226c8575c09c4da72ac71a788a1803b41b2101d76",
+      "sha256": "03101eb67d151a291024eb495051b4a650bad54f16488a980f4f44ed23fcda5b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2471,7 +2471,7 @@
       "subjectId": "dictionary-batch:xinhua:0188",
       "category": "dictionary-batch",
       "title": "流耀 … 浸漉",
-      "sha256": "d1d2afe96a63998deb2e0bb0707b6cdf2290893befb7cbf8d352593e712abe3a",
+      "sha256": "a8d68813bf81cb3415c225dc1835919dc816d366637567538117d8f94bf5fa2c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2484,7 +2484,7 @@
       "subjectId": "dictionary-batch:xinhua:0189",
       "category": "dictionary-batch",
       "title": "浸漫 … 深耽",
-      "sha256": "25541603669c58389ff3e32c7630a66b161c79cf1bd76198bbd444a013e309d9",
+      "sha256": "9ce09f6229a958d47b837375e29576d07edab31b45d7b5be1d0e201c9d0490d8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2497,7 +2497,7 @@
       "subjectId": "dictionary-batch:xinhua:0190",
       "category": "dictionary-batch",
       "title": "深至 … 渝糜墨",
-      "sha256": "d25d0c4afe368f14113a9b9a40529d94346ec64fecf204874f6aad7f4a7f50ee",
+      "sha256": "d228863153bb42cab1a75eec2592cbf10847f520f9bb8026f34e097056f006ac",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2510,7 +2510,7 @@
       "subjectId": "dictionary-batch:xinhua:0191",
       "category": "dictionary-batch",
       "title": "渝约 … 溜急",
-      "sha256": "e900daa855edd11c24489967c8c1b6e6e613507ef0fed77df8829941d5e2a79b",
+      "sha256": "e71ec926d3aaf5ad2bff3d14a4637366fcfae31a86b6ee2b56c9464832de5260",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2523,7 +2523,7 @@
       "subjectId": "dictionary-batch:xinhua:0192",
       "category": "dictionary-batch",
       "title": "溜打精光 … 漾舟",
-      "sha256": "3979ca7edf3be1d8c8fde970ada078a82c34c7f3d0b1a91911b53e8c647f73e9",
+      "sha256": "4e4cddbc30bb2c01a8c3efd407c70714b31c1dae9182b20795b46dfb01f20c31",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2536,7 +2536,7 @@
       "subjectId": "dictionary-batch:xinhua:0193",
       "category": "dictionary-batch",
       "title": "漾驰 … 灭青",
-      "sha256": "ad0334a837635de5a71188ef02a8ece15d134acf336c583b642ed1a415c99655",
+      "sha256": "378a4cd70744610bc277bafe02077c746040d150d192593c110dd9b955257580",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2549,7 +2549,7 @@
       "subjectId": "dictionary-batch:xinhua:0194",
       "category": "dictionary-batch",
       "title": "灰不济 … 炯眼",
-      "sha256": "770910dc18fc1193b9257cdd80c19927abb347b3dac8f74a101577480f04cf3e",
+      "sha256": "4874877a56e1c7295139d18b466809c556df9f511bb1f5e0c50830691c7e16ab",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2562,7 +2562,7 @@
       "subjectId": "dictionary-batch:xinhua:0195",
       "category": "dictionary-batch",
       "title": "炯耀 … 烽逻",
-      "sha256": "1ffc53c8b77a59bf7c8cc4a4a222e586831fe180aa4deb6cd95801e0a689d819",
+      "sha256": "84dbd7bd1da6e446f2ef79da3914e73434d1954171be26b15d3be4a6a87139c5",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2575,7 +2575,7 @@
       "subjectId": "dictionary-batch:xinhua:0196",
       "category": "dictionary-batch",
       "title": "烽驿 … 燃灼",
-      "sha256": "e4d2533585b3d817b43130dd37a284ddbdfa135a9aa3c4aa73e265c19882bac9",
+      "sha256": "f291aa5df4c4d788fd9183569a50ef61e66acb24f182cb014909c7cb6cc65702",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2588,7 +2588,7 @@
       "subjectId": "dictionary-batch:xinhua:0197",
       "category": "dictionary-batch",
       "title": "燃犀 … 牛溲",
-      "sha256": "752580f073807791b9ad5afeabdce882290dd4172874aba2a44ef4ffcb460ee1",
+      "sha256": "1866315a4b86edffe9fe3a15206bfc80f018d18eeb26ed32af6c2c727efe43ac",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2601,7 +2601,7 @@
       "subjectId": "dictionary-batch:xinhua:0198",
       "category": "dictionary-batch",
       "title": "牛溲马渤 … 狕",
-      "sha256": "deb64a0e35f1bab8f284b118bce00688ab1f38065b0753652289331ecf068419",
+      "sha256": "13b8d2a0a7dc4bf1dffdc4df96b82210e72ea271d1506ecb386827827605f1cb",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2614,7 +2614,7 @@
       "subjectId": "dictionary-batch:xinhua:0199",
       "category": "dictionary-batch",
       "title": "狖轭鼯轩 … 玄枢",
-      "sha256": "76e25fa6609412e2f6e9ce76c7c1e3425406bbdccdbe656896b49a53f3db02b4",
+      "sha256": "3fc6a212a04c20cf8e7161685137cef1e9414038574b7d0d007543ff0fe3b4de",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2627,7 +2627,7 @@
       "subjectId": "dictionary-batch:xinhua:0200",
       "category": "dictionary-batch",
       "title": "玄枵 … 王御",
-      "sha256": "b699833fdf5dc7efd584a54c1ff69cf1584c8e339dc25a549a55389695e07373",
+      "sha256": "d73b9738fb1d3fa5e43cd6012106f921ed6c777102660648d2a200f25e6e2114",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2640,7 +2640,7 @@
       "subjectId": "dictionary-batch:xinhua:0201",
       "category": "dictionary-batch",
       "title": "王徭 … 理怀",
-      "sha256": "6aeb28f3e37cbedfe9a32d65e1eba352a210fbaf68f5ca4f24eda60ad882eeb9",
+      "sha256": "cd62be391f6dbc0f2dc66103c676e6b6679ce34c47965e5236e77f7f5f05b987",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2653,7 +2653,7 @@
       "subjectId": "dictionary-batch:xinhua:0202",
       "category": "dictionary-batch",
       "title": "理思 … 瓜庐",
-      "sha256": "a2bf8a2761c7d945ae2db4e203b2d7a1d28019ff9deb1025db8bb72bf1ee70e3",
+      "sha256": "42ed1169c22082b5a15dcc66389dbdf67b680c280190ff8121075eabebe8de31",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2666,7 +2666,7 @@
       "subjectId": "dictionary-batch:xinhua:0203",
       "category": "dictionary-batch",
       "title": "瓜戍 … 田邑",
-      "sha256": "9a513738bdb79c09a426ab9565bcc4aa00b7c56b9664467626a409bfa2304a53",
+      "sha256": "797707b2ec48fecbe26badb52b9306bfef5c463983a4554e111ded1f668f7112",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2679,7 +2679,7 @@
       "subjectId": "dictionary-batch:xinhua:0204",
       "category": "dictionary-batch",
       "title": "田郎 … 疏注",
-      "sha256": "7cc9e61e25d2cc521cb1d460b8038696a881c436240111edae9cec4100023b2f",
+      "sha256": "cf27d5a8309cf732dc5baf5aebd558eef3ad8f76c86e12f8da1c19e042f713c3",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2692,7 +2692,7 @@
       "subjectId": "dictionary-batch:xinhua:0205",
       "category": "dictionary-batch",
       "title": "疏涤 … 瘅疟",
-      "sha256": "d1b9da6a683f74029bab2257eaec987fed985d4293c64e897a3cccb6da9e4090",
+      "sha256": "ba3305d43384721176cab6134cc440e66abef522a9dbbaca2275476be57460c1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2705,7 +2705,7 @@
       "subjectId": "dictionary-batch:xinhua:0206",
       "category": "dictionary-batch",
       "title": "瘅疽 … 皂钱",
-      "sha256": "e43ef23caf3b930390d87548e07d72a49159098ccbc3ea67da1507d6e71e5b2c",
+      "sha256": "c0f58b826ca010726a416e5ba621b6a15b1d4989e5fd787b2b4be467ef773758",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2718,7 +2718,7 @@
       "subjectId": "dictionary-batch:xinhua:0207",
       "category": "dictionary-batch",
       "title": "皂隶老官 … 盛炽",
-      "sha256": "7814f8e0315d851760289bfe1a2a2e242a2bb33404a18505fef40e0948bab6e7",
+      "sha256": "0c194343f5fc4205a1e3897a5bfd1e84a62d1a96718b381bdd08cc07ec05c3f0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2731,7 +2731,7 @@
       "subjectId": "dictionary-batch:xinhua:0208",
       "category": "dictionary-batch",
       "title": "盛烈 … 眃遂",
-      "sha256": "6cf4009296b23777343dea40d19be0859ae2c88bb19c23f60c37ffa6117d3c98",
+      "sha256": "fb141bd2a135c0eb3edae4cff460ca1cc6f6539ae723706238ccac96e6a7499d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2744,7 +2744,7 @@
       "subjectId": "dictionary-batch:xinhua:0209",
       "category": "dictionary-batch",
       "title": "眄伺 … 睫睫",
-      "sha256": "62f81a95cb4e45285ed87f3f90e792018ef0cd9f6fe996e4861d0ef44a3dff99",
+      "sha256": "c71392ded593e1126c39ab609b57cf3246d8a52dec35355fbbfbce4c8fc25705",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2757,7 +2757,7 @@
       "subjectId": "dictionary-batch:xinhua:0210",
       "category": "dictionary-batch",
       "title": "睽仰 … 矮人",
-      "sha256": "9267859df15b22111ce3c92c28ec2d525d7244129dd30de4eb6738081079328f",
+      "sha256": "0ec188cc00c35283e5ccf22d380a2b0db63caf615a38c2e9bb0eb011d4cb362f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2770,7 +2770,7 @@
       "subjectId": "dictionary-batch:xinhua:0211",
       "category": "dictionary-batch",
       "title": "矮垛垛 … 硬扎",
-      "sha256": "83342696dcaf593f770deb5c74fdb7b6bdcfcc84324148035e54748f332a6bb1",
+      "sha256": "568bbac24f2a3cfc8e70b128d17f3e00a4e2da79f38b4be88cb1d88ebe56807c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2783,7 +2783,7 @@
       "subjectId": "dictionary-batch:xinhua:0212",
       "category": "dictionary-batch",
       "title": "硬打挣 … 祑砢",
-      "sha256": "321efa059bb69098459ffe4bd565f00ad5003fe89844e4873746f0a367211dc0",
+      "sha256": "de782c8fe68e25cef8654d2e3f8f4702b8275adced827a0953b17bbf7d53ad93",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2796,7 +2796,7 @@
       "subjectId": "dictionary-batch:xinhua:0213",
       "category": "dictionary-batch",
       "title": "祑硌 … 禀生",
-      "sha256": "17ecfde16f722ec17626cc48f013e12450dbb9cd1788a83c508c9a0b1d87d917",
+      "sha256": "0c23033bb37fffc51d3b600eebb778af6cfc31c991ab560e7d222680c62e7aaf",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2809,7 +2809,7 @@
       "subjectId": "dictionary-batch:xinhua:0214",
       "category": "dictionary-batch",
       "title": "禀畏 … 秀良",
-      "sha256": "f95edf34ae80a0796145eebaa8677b2d9ce75f23fd5b118d8edbfeda12262d30",
+      "sha256": "003a11452bbe6af325bc5f0e7c0cbbf634bec1d442a65a44989ea4896b417c41",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2822,7 +2822,7 @@
       "subjectId": "dictionary-batch:xinhua:0215",
       "category": "dictionary-batch",
       "title": "秀艳 … 秘戏图",
-      "sha256": "d8e1de6d8c63d4675dda2c6738d98389dcfb4b6d7d2895f684be6c5e6ad19f2c",
+      "sha256": "4913558078eeefc3d5b9caa914a8feebfac25f4b3b420b22da6a28cb3c48384d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2835,7 +2835,7 @@
       "subjectId": "dictionary-batch:xinhua:0216",
       "category": "dictionary-batch",
       "title": "秘文 … 稓",
-      "sha256": "5a1da3100c3f97864b868fa9536b54d423844476fbc87d0ec13978bd0dfa5348",
+      "sha256": "8d86a695e9b26aa2d1afad4607da7d868f66773ee20e64345df344fd82b3756f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2848,7 +2848,7 @@
       "subjectId": "dictionary-batch:xinhua:0217",
       "category": "dictionary-batch",
       "title": "稔乱 … 窃尝",
-      "sha256": "903e253148e0cc26125da2a982a8bfecc099717375848feb46cbcbdd291675af",
+      "sha256": "f0dec383ad0ef8999f3dd1a11a1c33142b972b5db63778c3d315a50848a44f62",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2861,7 +2861,7 @@
       "subjectId": "dictionary-batch:xinhua:0218",
       "category": "dictionary-batch",
       "title": "窃庇 … 竹枪",
-      "sha256": "f5ee18a3d5d8c0dcd63b381c5a0fdf998b4bf0c9310cb4b8bf667b057688a72f",
+      "sha256": "a2fa8110720725ed7c94c418ee9436e2daa7e57a6fca09772c7b80d5b922cb54",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2874,7 +2874,7 @@
       "subjectId": "dictionary-batch:xinhua:0219",
       "category": "dictionary-batch",
       "title": "竹柏 … 策序",
-      "sha256": "dbeb545020a870e47a5a3050707692fc193df4ee81c86de1a478061f866fc739",
+      "sha256": "b5b13467e16f0e70ac8ebf50bbfde66725eaf9889ff0cd08542a11967ab48cbe",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2887,7 +2887,7 @@
       "subjectId": "dictionary-batch:xinhua:0220",
       "category": "dictionary-batch",
       "title": "策府 … 籣",
-      "sha256": "c8f9c32bf71434d9d7db6865f275023f3d96d4109a54cde09f1cddddf556f848",
+      "sha256": "23772aa280aca20c678050c79c11581b0bb2a8e6a88eb1bee65c287301e1be55",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2900,7 +2900,7 @@
       "subjectId": "dictionary-batch:xinhua:0221",
       "category": "dictionary-batch",
       "title": "籥 … 紫磨",
-      "sha256": "d597c978b7ad8f08f571c218b111ea7231c09768c950e9d52922c98b1142694a",
+      "sha256": "4b904d108c0e4f769def9ab56b79359cdd1c2517c59c2135f95ef05b5f88caf6",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2913,7 +2913,7 @@
       "subjectId": "dictionary-batch:xinhua:0222",
       "category": "dictionary-batch",
       "title": "紫禁 … 纳亨",
-      "sha256": "1179fe6010edb947530feee2bf273bb89b7a59fbf4fa914aaa2d0f42ca6ffef4",
+      "sha256": "13e0771ef3667500e07dc6fca75d33827729d561ee977e7aeb79c06341014edd",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2926,7 +2926,7 @@
       "subjectId": "dictionary-batch:xinhua:0223",
       "category": "dictionary-batch",
       "title": "纳佑 … 绝胜",
-      "sha256": "9527860f5c24a72aead880f0bdb021ac59d93591a9b1b7e32624b935f323c3ad",
+      "sha256": "bf405d1524a29bf30c271a6c13772ab2ce22e2854cb01010141fd9992642dab1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2939,7 +2939,7 @@
       "subjectId": "dictionary-batch:xinhua:0224",
       "category": "dictionary-batch",
       "title": "绝脉 … 缓限",
-      "sha256": "848c64982b1a829371d02d7755c9d9c06bf220b60a55600494fea693f105acfa",
+      "sha256": "b879f1375b794626231f9f2bc2b1a39f21dab88748d1626847fd0efda05548f0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2952,7 +2952,7 @@
       "subjectId": "dictionary-batch:xinhua:0225",
       "category": "dictionary-batch",
       "title": "缓音 … 羊羧",
-      "sha256": "f624811c7f4b7877a8a8ffceca91fe62e61813565b3f10cf574ce84f87729213",
+      "sha256": "51dbd26ba8160d8fe4147214329d1a1498bda147f4633d1469292444ba3c2a35",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2965,7 +2965,7 @@
       "subjectId": "dictionary-batch:xinhua:0226",
       "category": "dictionary-batch",
       "title": "羊肆 … 老娘家",
-      "sha256": "bd43ef78fdbf04f8ef2c9f0538f94ada1a8f47f60f53c85a8a7a823f55624ffe",
+      "sha256": "2b6f34131d893e0ad55b703e5aa43aed83b8588fdd2a0ef3710c82b3c3ce97ae",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2978,7 +2978,7 @@
       "subjectId": "dictionary-batch:xinhua:0227",
       "category": "dictionary-batch",
       "title": "老婆娘 … 联宗",
-      "sha256": "16ca1d3e84ee193acb9d10912b54617186306c77c2268b209b391b019addf5d6",
+      "sha256": "4396ca3cf46624abf2ac49038fce2cd171b48ff84cf777a1adc3045cf6973bea",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -2991,7 +2991,7 @@
       "subjectId": "dictionary-batch:xinhua:0228",
       "category": "dictionary-batch",
       "title": "联对 … 胥怨",
-      "sha256": "79cc7491d71bf8e88e8f9ba60c5e71a74b40d5680e9e21f0c4c4df3badccbd5e",
+      "sha256": "81ff03f11c84dd4fbaf9109b836baaae01a10dc9b585628a5d2aa96b6e3ddfad",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3004,7 +3004,7 @@
       "subjectId": "dictionary-batch:xinhua:0229",
       "category": "dictionary-batch",
       "title": "胥成 … 膐",
-      "sha256": "6dd121fd512852f9be280c576c7ed2b6e83cf132715f2bc8a0b8a3c8426e2f7f",
+      "sha256": "eb2c19b2ec830621f36c34bace11d6fc525f288f4271ca54ff9a2fd5dd3f9bb0",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3017,7 +3017,7 @@
       "subjectId": "dictionary-batch:xinhua:0230",
       "category": "dictionary-batch",
       "title": "膒膒 … 般辟",
-      "sha256": "ff0e35da58134189bcd8196ead9cd0e6b0000e4b2a0cb8ae31aa96c563e57f3d",
+      "sha256": "fbe3cbc3841c7f77fb171260a761cc3c4e8f785bddd66c212d3493423267a67e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3030,7 +3030,7 @@
       "subjectId": "dictionary-batch:xinhua:0231",
       "category": "dictionary-batch",
       "title": "般运 … 苏鬼",
-      "sha256": "544691061d74d807b255c76ab949129a0ea53659368f67f4c0de73a149b1e95b",
+      "sha256": "b40a4cdbc6dc226ce6923dc3f18f38f4e48756ca801255b45a1a7029317c0a4a",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3043,7 +3043,7 @@
       "subjectId": "dictionary-batch:xinhua:0232",
       "category": "dictionary-batch",
       "title": "苏麻 … 荚蒾",
-      "sha256": "aeedb4d253521b793f1dfcbc27e43425059b6af79ccc0c14919344b3ddfaac8c",
+      "sha256": "d1a7bbcc2a4ec3d5de605afaf9eed7b6a97e88fb2e9ee83aefaafb611c1b4091",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3056,7 +3056,7 @@
       "subjectId": "dictionary-batch:xinhua:0233",
       "category": "dictionary-batch",
       "title": "荚钱 … 营缉",
-      "sha256": "4f26686a93673cbf22d2c193b03f8f2bb2b8b225255693c9ea5b663d87e18dd8",
+      "sha256": "e12daa0e9d878ac31cc6dc9c460ee9f44e30185d4ba50493b3e56ec23d7167a4",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3069,7 +3069,7 @@
       "subjectId": "dictionary-batch:xinhua:0234",
       "category": "dictionary-batch",
       "title": "营缘 … 蕃植",
-      "sha256": "323d94614fb57f8f664b470350a02c24369791b5e244f3adf5dcb4f68cb1cfae",
+      "sha256": "920db8b52600b982c43ac451aa14f036c3aa6996fdca8bc69ec9ee7d6d7c4af7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3082,7 +3082,7 @@
       "subjectId": "dictionary-batch:xinhua:0235",
       "category": "dictionary-batch",
       "title": "蕃浑 … 虾兵",
-      "sha256": "271bd029e73bb2f701d67fbfbe8794e60c7dc4d8fafa70eb0e26e35e46432133",
+      "sha256": "57d28c135fc3d40ace8be629b2e4a357aa4a123d88ce0125a85d8f712249ca55",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3095,7 +3095,7 @@
       "subjectId": "dictionary-batch:xinhua:0236",
       "category": "dictionary-batch",
       "title": "虾助 … 蜀素",
-      "sha256": "d217dc3e5f35f141e47ba04dbbe0f0180d1df6a33ea22969dc4022de5d2299b4",
+      "sha256": "fbefcc03d9f0ef0e54af64735325fe075878b610b8b965516c8f1af7e46615ec",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3108,7 +3108,7 @@
       "subjectId": "dictionary-batch:xinhua:0237",
       "category": "dictionary-batch",
       "title": "蜀红 … 蟾窟",
-      "sha256": "ffdd5f4b0ccb49a7e997389f5a52cd9fdf8e25e39981c741984e4e91f47a1df9",
+      "sha256": "f1c135173e3256f99c59b1605bd733ca11e032952ab4f8ed9fceec3d9493ec16",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3121,7 +3121,7 @@
       "subjectId": "dictionary-batch:xinhua:0238",
       "category": "dictionary-batch",
       "title": "蟾精 … 衔训",
-      "sha256": "2ba38bc4a5438e47450c1d1da874984cf71fe1b7d3e2247c335e824f4d1b9acc",
+      "sha256": "fb7f16ad1a2f22060fe43215d3e8e4f89fcea92b99706bd05e6ac4830960b397",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3134,7 +3134,7 @@
       "subjectId": "dictionary-batch:xinhua:0239",
       "category": "dictionary-batch",
       "title": "衔诉 … 裁整",
-      "sha256": "2d2370c9769add27a1a50bf5a45c85a2d554efae097ceac93ffd5920d5f50360",
+      "sha256": "2db31d9175f351f5b00899e9566cb11967ca83da700264c9323a0bf22c056adf",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3147,7 +3147,7 @@
       "subjectId": "dictionary-batch:xinhua:0240",
       "category": "dictionary-batch",
       "title": "裁料 … 要路津",
-      "sha256": "af502705e295e2e5792ff10280f667944a550445cb993b7aad1a5264e0133acf",
+      "sha256": "f3f02ebfdb0f400c99fc7626f9032a9cc8a9056045e11189f894b0f26224dce9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3160,7 +3160,7 @@
       "subjectId": "dictionary-batch:xinhua:0241",
       "category": "dictionary-batch",
       "title": "要躬 … 言制",
-      "sha256": "119e524eebb59000094dbeeaf83f781bb4ae82c7fe7ba438d7488e92d8e13d50",
+      "sha256": "5a74d1746c410e1ec769844351ff8d1303c9405f4a16894aad869b1e0a49264e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3173,7 +3173,7 @@
       "subjectId": "dictionary-batch:xinhua:0242",
       "category": "dictionary-batch",
       "title": "言功 … 讨死",
-      "sha256": "1746d60a96b98c4d81c067395a5608ad7f108fe9f2e04a489aed1fa5af36c284",
+      "sha256": "acee00dfb8147b233725b535973d50f8072b7e99f0b8164c1f801233c3f8fe52",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3186,7 +3186,7 @@
       "subjectId": "dictionary-batch:xinhua:0243",
       "category": "dictionary-batch",
       "title": "讨气 … 设心",
-      "sha256": "8220c1e0a8bc2a26284b69b954d7601747356ad6eb660adee3cdac6128a51c4a",
+      "sha256": "cf662ce5b139f8335784fa6149d2d905cf156c17ebe05f1cba430337014df982",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3199,7 +3199,7 @@
       "subjectId": "dictionary-batch:xinhua:0244",
       "category": "dictionary-batch",
       "title": "设念 … 诗格",
-      "sha256": "f975bc5c836e0c4115f718ce156e51840e889f7755205eeb9887ef687e6b8dab",
+      "sha256": "e9b857523f8d2f5f59a842b9acde1aedb74c67eb6b9386afc2d76f133e871b4c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3212,7 +3212,7 @@
       "subjectId": "dictionary-batch:xinhua:0245",
       "category": "dictionary-batch",
       "title": "诗案 … 诰令",
-      "sha256": "7346a95fa9cd77c680b964ced0689d11bc3bd83d8c4b215ab28838fd96cae322",
+      "sha256": "af2b8f7f2d47d1ca5001236d31d434b14feff59110f07aa3c8ba312bbf25050d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3225,7 +3225,7 @@
       "subjectId": "dictionary-batch:xinhua:0246",
       "category": "dictionary-batch",
       "title": "诰券 … 谋翼",
-      "sha256": "a831b0820422a208beb768c9d74ea4270cc1b36cd7f27e88c80be165416ed9eb",
+      "sha256": "65c778d6669f0b2d5b4bff5fecfe75324bf9cd80f92e5bbd484115a4027aad14",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3238,7 +3238,7 @@
       "subjectId": "dictionary-batch:xinhua:0247",
       "category": "dictionary-batch",
       "title": "谋虹 … 谭延(1880-1930)",
-      "sha256": "2e0b40e24a23c62cf1533f1b37835dd7f5443e4d97829229f68d1108acee8c60",
+      "sha256": "f692cee645d09977e0fd708dc56b57a772bc48e9f8ed47e21da5dc610812bbfc",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3251,7 +3251,7 @@
       "subjectId": "dictionary-batch:xinhua:0248",
       "category": "dictionary-batch",
       "title": "谭思 … 贞仁",
-      "sha256": "1579009c5f14418181b821735002cf57f2c9a19aa911e2f0d97b855d719c8281",
+      "sha256": "49779bfffc0787ec68b6dd126914f375efdf4c078fb9a8012977211467382041",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3264,7 +3264,7 @@
       "subjectId": "dictionary-batch:xinhua:0249",
       "category": "dictionary-batch",
       "title": "贞介 … 贫隘",
-      "sha256": "c8ce3b1ace413bd02fe26ba790d4e0fe38f117946b328f14574c95b9a129d883",
+      "sha256": "01d92ec4881844d61c59d7b0e3a8ca64910ea4018e4ec27e1999ba3359ca887c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3277,7 +3277,7 @@
       "subjectId": "dictionary-batch:xinhua:0250",
       "category": "dictionary-batch",
       "title": "贫难 … 赊头",
-      "sha256": "03e9bd973522de6b915add602e8dad96a5c0141da3015e3fcc188702f4bc959d",
+      "sha256": "f048360acf4b5cfd87d13902ee9a54bb102b5144a376a7d08293bd40855c19ed",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3290,7 +3290,7 @@
       "subjectId": "dictionary-batch:xinhua:0251",
       "category": "dictionary-batch",
       "title": "赊市 … 赤骨律",
-      "sha256": "fe4792e0dfd708a8400e39139e4841b397b488c0a6c2d69f0b221364ef2f6f70",
+      "sha256": "f963ee2ad55fd5c8a52dc46c67e88fab9805b0f3fd8c4e3ce2faa6592eb3576c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3303,7 +3303,7 @@
       "subjectId": "dictionary-batch:xinhua:0252",
       "category": "dictionary-batch",
       "title": "赤骨立 … 趋士",
-      "sha256": "d4fceae886d00a8478f37e3a25aae346d257d12b5dcb1732aed0d255641e32e8",
+      "sha256": "ae61612fd543c68d21e8923185a63f5193f77bf6513b4eb83db12d9f3a2f8010",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3316,7 +3316,7 @@
       "subjectId": "dictionary-batch:xinhua:0253",
       "category": "dictionary-batch",
       "title": "趋媚 … 踏顿",
-      "sha256": "8a69203a2295cb29bd4bb61807bba47a8866f643df8841e7765721ac3d56697f",
+      "sha256": "2b7a97c2efbc81f699f1eb5f89eac0b102878d34da64a869c85e2ac7f977afba",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3329,7 +3329,7 @@
       "subjectId": "dictionary-batch:xinhua:0254",
       "category": "dictionary-batch",
       "title": "踏颓 … 躯干骨",
-      "sha256": "421e4a18be1d716c159f080bc66a532a6e6d42ba5ac7d993ed56d64fe32029d0",
+      "sha256": "55535ef5afcb240ac05627d09859024e956acf0c571a8afb0cd632158d320d00",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3342,7 +3342,7 @@
       "subjectId": "dictionary-batch:xinhua:0255",
       "category": "dictionary-batch",
       "title": "躯材 … 轻拢慢捻",
-      "sha256": "5efb288ba9c74fe768a285704541d6cef62c1e452095571a1b9fd7365684ef40",
+      "sha256": "15b387248d7e2535d0e631a7be5028b0f73fa3582860a3c1ac11ea187be63581",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3355,7 +3355,7 @@
       "subjectId": "dictionary-batch:xinhua:0256",
       "category": "dictionary-batch",
       "title": "轻挑 … 辩略",
-      "sha256": "d69407eb56112d3f9406cef00249e8c9c4a6d566769876b07599c8a89fe46c33",
+      "sha256": "93701d5742cbce5d427598b622fdf790a1e8e355e9e68e46bbd1ae27b6b46d0d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3368,7 +3368,7 @@
       "subjectId": "dictionary-batch:xinhua:0257",
       "category": "dictionary-batch",
       "title": "辩省 … 过蓝",
-      "sha256": "44fec672d0ebde2612671fddfe6cfec28de798fc959773dcec11f94f0fed362e",
+      "sha256": "ca16fcd0c0730ccbbc0e50987ac6c515769dd088be840c6b6fbbef30653ed775",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3381,7 +3381,7 @@
       "subjectId": "dictionary-batch:xinhua:0258",
       "category": "dictionary-batch",
       "title": "过衅 … 进道若蜷",
-      "sha256": "d49ea781b13e66c24e074806184d952d989ec2d2227006c0f26f688299bcb470",
+      "sha256": "c48d0e517b2ceb2e28f01f67c118897ce4bef7ec179f9655104ba330dd48e9ea",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3394,7 +3394,7 @@
       "subjectId": "dictionary-batch:xinhua:0259",
       "category": "dictionary-batch",
       "title": "进酌 … 迫怵",
-      "sha256": "e4394e6579b303c7bde5f8fd92941ac8b80f4551c8b051bc0deac9f64ab0190b",
+      "sha256": "9402e2af8a82ae40d661a69b158ca96d2bd2f7a8a7ea0b3b0fb565f9c75fa8c3",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3407,7 +3407,7 @@
       "subjectId": "dictionary-batch:xinhua:0260",
       "category": "dictionary-batch",
       "title": "迫恐 … 逃身",
-      "sha256": "748e16ee5b0ce2bc44081cf178568d4d287a138755a2ee8c3e075c89f5e8be8f",
+      "sha256": "e1415cba92113d913227e1c54f0cdd8eca78b0c22d2d90117db576d1440db736",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3420,7 +3420,7 @@
       "subjectId": "dictionary-batch:xinhua:0261",
       "category": "dictionary-batch",
       "title": "逃躲 … 通鼻子",
-      "sha256": "fb657d4a8c43dffb0d088cba2861f8769a885d1da21d69ab7119a779ee5c5e04",
+      "sha256": "c3e51c3f2d8ddaeafb040a095347618b53a55b5a7e6374c30f85cbc33be8c5c8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3433,7 +3433,7 @@
       "subjectId": "dictionary-batch:xinhua:0262",
       "category": "dictionary-batch",
       "title": "通𪹳 … 遐溯",
-      "sha256": "729b85d5e698adb5f76e2a2884918d7171550c85e3d0918502465d106bfb3267",
+      "sha256": "dd1900884d40d6ab21415e0747050e88279df355d986014a34739abc13a4cb4f",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3446,7 +3446,7 @@
       "subjectId": "dictionary-batch:xinhua:0263",
       "category": "dictionary-batch",
       "title": "遐漂 … 遮当",
-      "sha256": "d1a8d54757e1a18c699d9226aabc9db874a222ddd579add4a3bf3eda5f021ab9",
+      "sha256": "846d63927c49c8ce4ba44d7dc4067ee07c96123dc5a5c239ccc816a5e00c9a0b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3459,7 +3459,7 @@
       "subjectId": "dictionary-batch:xinhua:0264",
       "category": "dictionary-batch",
       "title": "遮影 … 邮片",
-      "sha256": "cbd0885b3ea5186de03d87927df46cff7ca8974aff53225a764c66af3f027260",
+      "sha256": "7bcd46a3d034d06ea8214a975434ecedc46a3d8988cbae48c1ed9f8178dc8bc8",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3472,7 +3472,7 @@
       "subjectId": "dictionary-batch:xinhua:0265",
       "category": "dictionary-batch",
       "title": "邮票志号 … 配头",
-      "sha256": "2dfcdadae76f04d8d017a89035b26cad2394ffb4f574c09a6db4916d11334e32",
+      "sha256": "b2e0e892aab71c25d9d980e58fc72cddce4a06b26eb5015f31de30ccf54f58bf",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3485,7 +3485,7 @@
       "subjectId": "dictionary-batch:xinhua:0266",
       "category": "dictionary-batch",
       "title": "配奏 … 醮台",
-      "sha256": "6dfaa0c73d088aa782421d2870e41d358e8c686c6857a9a8bf3a0e19bf2fe223",
+      "sha256": "b1754eb6c9f5d8a3f4b181e070b29b31b6cd2308c0c96ad38e2a164699ce463b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3498,7 +3498,7 @@
       "subjectId": "dictionary-batch:xinhua:0267",
       "category": "dictionary-batch",
       "title": "醮告 … 金凫",
-      "sha256": "2337dae7787f63d2c67ccb901d7703258cf79e5267a0bed78406ac75f702c9c3",
+      "sha256": "d8300f719d9a8780b7aac99397c873c9103b3c09538602c2927d68759dec85f9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3511,7 +3511,7 @@
       "subjectId": "dictionary-batch:xinhua:0268",
       "category": "dictionary-batch",
       "title": "金凳 … 针耨",
-      "sha256": "a2852b093a94cbbf8eb142629ffd46f3edf9be04caa284671475793307dfda0e",
+      "sha256": "2d61da7b25eb0875cb73271aa137040e3278f954eee0c0a44c7c24fef415c94d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3524,7 +3524,7 @@
       "subjectId": "dictionary-batch:xinhua:0269",
       "category": "dictionary-batch",
       "title": "针膏 … 铜陛",
-      "sha256": "98ec870b3ff01c3142b84a76b7c311483ad4e7da8e53fbc8790b061c71fde9f3",
+      "sha256": "0682de0cede28b7a0d56cd9a98d5985de7f5c737f5608c348ace5bee2d30419c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3537,7 +3537,7 @@
       "subjectId": "dictionary-batch:xinhua:0270",
       "category": "dictionary-batch",
       "title": "铜雀 … 镂银",
-      "sha256": "977b17a5b927de099c494ee8b8834245de7119a033589c8a45febe97d80fff88",
+      "sha256": "7724f9744a862ac69558a414619a5737bb21b2b853389177b8cc93bc30699ca2",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3550,7 +3550,7 @@
       "subjectId": "dictionary-batch:xinhua:0271",
       "category": "dictionary-batch",
       "title": "镂错 … 闹蛾",
-      "sha256": "af43a9145bff7927cd90999edf25a60ecbc9eedac1d66d4ef99e1a3d1a1d4268",
+      "sha256": "be115a071f15e8697003f1c8049da9143564c98f715a313ded9ef145a4cd1ee7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3563,7 +3563,7 @@
       "subjectId": "dictionary-batch:xinhua:0272",
       "category": "dictionary-batch",
       "title": "闹表 … 阴马",
-      "sha256": "56c11348e94e5c0e6dfeb7236abec954221b0a4392d3a64b941650fe37969881",
+      "sha256": "11784aeb3b0fd4ed9910adcaf3f011a8001a9bb0c5815791ea93ec42932d2880",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3576,7 +3576,7 @@
       "subjectId": "dictionary-batch:xinhua:0273",
       "category": "dictionary-batch",
       "title": "阴驾 … 陋曲",
-      "sha256": "e9257c29ebe6214fc9a710568cbbc0391fac9339eaa15da1c97d31df84cd01de",
+      "sha256": "ef0e5ac8c45314140ebec4fd3b8a4c3abf3243b1b12b3d1a5ee7c213d07bbde9",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3589,7 +3589,7 @@
       "subjectId": "dictionary-batch:xinhua:0274",
       "category": "dictionary-batch",
       "title": "陋术 … 隆宗",
-      "sha256": "8f5244984e19cb78a2b20cf1f703df3affb3e92900892a66ae850cbcee0000f8",
+      "sha256": "a4eff94b4abe83333222c2086cfed0f5646622e3b06bf9d2f36b477df517e105",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3602,7 +3602,7 @@
       "subjectId": "dictionary-batch:xinhua:0275",
       "category": "dictionary-batch",
       "title": "隆宠 … 雄悍",
-      "sha256": "989c742c3a8c7c108a232c87fb0739d81d7dd76aede8604c2c7037d8a455d80f",
+      "sha256": "8a0334259e1b5bf5cc2472cf2c7508a65ee1a42c35fe52f3df79d9ce5f18d4c7",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3615,7 +3615,7 @@
       "subjectId": "dictionary-batch:xinhua:0276",
       "category": "dictionary-batch",
       "title": "雄情 … 雷布",
-      "sha256": "b4cf7296dd0cc186df0e01479b167f4959ec480672401154813687118d4350e2",
+      "sha256": "d10bc531141a9489bf655a5793100463637e42d488b9cceedab49938e8c207e4",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3628,7 +3628,7 @@
       "subjectId": "dictionary-batch:xinhua:0277",
       "category": "dictionary-batch",
       "title": "雷师 … 霸岸",
-      "sha256": "70d795536f47bf4ca3e77ef1bed6525ad145f67eddc4f71e6464355ada4a1a1c",
+      "sha256": "15ecf9a20775abc0bca7189421923140f97e550068251fb8869a6d8432e8235c",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3641,7 +3641,7 @@
       "subjectId": "dictionary-batch:xinhua:0278",
       "category": "dictionary-batch",
       "title": "霸川 … 静睇",
-      "sha256": "2701ab5c5d9f69e496125b282b4666b398b4ce7eb5f261842cf5ca80f1261fce",
+      "sha256": "6580c0421c4a1091c1b6f5c0b54fe11634b376124fb7d9cd63cd271b6e52df47",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3654,7 +3654,7 @@
       "subjectId": "dictionary-batch:xinhua:0279",
       "category": "dictionary-batch",
       "title": "静砌 … 韶夏",
-      "sha256": "f291a6ad866c3bf9c663fc7be8036ff48ab04d321487de9961337344b34bf2a5",
+      "sha256": "0812233f4343c7aadb91b6f735c37a6b026e61b04182d76c208447db70176834",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3667,7 +3667,7 @@
       "subjectId": "dictionary-batch:xinhua:0280",
       "category": "dictionary-batch",
       "title": "韶妙 … 颇罗",
-      "sha256": "3f82ef0c834a592f0355185afb24303d7e59d5af170aa243c5d7bddef40e4b8a",
+      "sha256": "b620e1ffc612f6b4b2c9cfb60524bf508770286addd2b9e43a2610e54cabfb7b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3680,7 +3680,7 @@
       "subjectId": "dictionary-batch:xinhua:0281",
       "category": "dictionary-batch",
       "title": "颇耐 … 风花",
-      "sha256": "6f263c465fb357428e2ba3373dc603dca808c6910a03d71905529b7c0ed00f0b",
+      "sha256": "85ff87f00b4737250e54721d25f2ef20118fa212f1d106d58b3ba7eb49ad6ec2",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3693,7 +3693,7 @@
       "subjectId": "dictionary-batch:xinhua:0282",
       "category": "dictionary-batch",
       "title": "风茄 … 饫眼",
-      "sha256": "bc0f11798220f615dc92be7fd3d133fcb3a42c468d21ceef39ce7e5757aa0c42",
+      "sha256": "afc6115e5ef6a631183da74982d796964a69bf7d59ae3b36efada88dff734bf1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3706,7 +3706,7 @@
       "subjectId": "dictionary-batch:xinhua:0283",
       "category": "dictionary-batch",
       "title": "饫礼 … 騛",
-      "sha256": "44534c74044ca36e02cce5dde279230f4861e2413602f0d8c0f5df8181856a9f",
+      "sha256": "2d9f436b323bd959bb920022934b5080512bb664f966f574fa02fbe102e0f136",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3719,7 +3719,7 @@
       "subjectId": "dictionary-batch:xinhua:0284",
       "category": "dictionary-batch",
       "title": "騡 … 驼脂",
-      "sha256": "d3c1d27359404fdcf4ca433bc02966726dab46501d21faef93a7e1b98f91617c",
+      "sha256": "d1fc274986accd9b9c71ea69ae22771a0909e2e18e84c66e0cb0aece9d827d74",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3732,7 +3732,7 @@
       "subjectId": "dictionary-batch:xinhua:0285",
       "category": "dictionary-batch",
       "title": "驼腰 … 骨冬",
-      "sha256": "a50ce6bfac914a92b53bde8f735699fb588f6a7466a4ffa19750835a31678114",
+      "sha256": "f162fbce802c3cdd3c7b937f609517ae2b7dae85ad742c2d0136b831b53ac71d",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3745,7 +3745,7 @@
       "subjectId": "dictionary-batch:xinhua:0286",
       "category": "dictionary-batch",
       "title": "骨出 … 魂守",
-      "sha256": "718614eadc89530bc338638aee964b4f18f4ac9c9912fc91effecb1a4a895708",
+      "sha256": "31a36c13c2bb845f6476775259774b36168efa00eaf408860b86465a37d2e8db",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3758,7 +3758,7 @@
       "subjectId": "dictionary-batch:xinhua:0287",
       "category": "dictionary-batch",
       "title": "魂帕 … 鲸寇",
-      "sha256": "5cb77ced0bfbb7841a806598792012b3699e054d533f31f60b8c4eda83b06e8b",
+      "sha256": "7f436a866e6ed519f108939c9f1764d3a03565598b891f0918171f271b7b40e1",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3771,7 +3771,7 @@
       "subjectId": "dictionary-batch:xinhua:0288",
       "category": "dictionary-batch",
       "title": "鲸工船 … 鸳鸯社",
-      "sha256": "1dda95e48b96d00787e0c69781b7d0acdd642c2abca25054b5f3d658358b0b66",
+      "sha256": "514fd07be342094e5d850f12296b52ef8dfb2bf24c05f2492299a1a6513de2f3",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3784,7 +3784,7 @@
       "subjectId": "dictionary-batch:xinhua:0289",
       "category": "dictionary-batch",
       "title": "鸳鸯符 … 麑衣",
-      "sha256": "85e6ed409f0475b95786bcd8f8a2c9e846dbe040e7b0151b91b1bee78ae26624",
+      "sha256": "6d2aedee26a97fb1fd8595ddfaadb81c2df26b4b7c2b1a221a4dff7039c03a69",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3797,7 +3797,7 @@
       "subjectId": "dictionary-batch:xinhua:0290",
       "category": "dictionary-batch",
       "title": "麑裘 … 鼎𩠌",
-      "sha256": "5ca50f593452db0cd1b6c1ea5f00d303e911c05957f9db3683280de6e21b5a5a",
+      "sha256": "26c1254d9e715bec56de74722f9b325801d3b306c1fb9f785f25f101c3f2fe9e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3810,7 +3810,7 @@
       "subjectId": "dictionary-batch:xinhua:0291",
       "category": "dictionary-batch",
       "title": "鼏 … 龙豆",
-      "sha256": "e7c1122b2215786df32f3fbc670754ac39d1cbe3a45f0b018533c41df2f98fe1",
+      "sha256": "e2ac76abca584eedb9deaaa26c6e9891246beebdba15b75298333cec81e0659b",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3823,7 +3823,7 @@
       "subjectId": "dictionary-batch:xinhua:0292",
       "category": "dictionary-batch",
       "title": "龙象会 … 𬣳𬣳",
-      "sha256": "2333250bd5d6c7026518e8d7ea374ec1248bc3b0066a7806740f65f0c1fcc516",
+      "sha256": "b2344b289a45a7e317c42f194e02d5c86483e34039873bf540fa6b7ada821b1e",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"
@@ -3836,7 +3836,7 @@
       "subjectId": "dictionary-batch:xinhua:0293",
       "category": "dictionary-batch",
       "title": "𬤊正 … 𰶎",
-      "sha256": "e6f650199e4dede21ea3d7f53c5bb14a93b8801037a029f73d3732d6183757ef",
+      "sha256": "996ade9c13d276af90b6fe62bb3d0f429ccd9c0a623db1662e54e6aec751bafa",
       "reviews": {
         "chinese": "NOT RUN",
         "pinyin": "NOT RUN"

@@ -58,6 +58,33 @@
       ],
       "additionalProperties": false
     },
+    "wordCategories": {
+      "type": "array",
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^custom-[0-9a-f]{32}$" },
+          "name": { "type": "string", "minLength": 1, "maxLength": 40 }
+        },
+        "required": ["id", "name"],
+        "additionalProperties": false
+      }
+    },
+    "wordCategoryOverrides": {
+      "type": "array",
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "enum": ["common", "address", "greetings", "numbers", "quantifiers", "length", "weight", "time", "family", "food", "seasonings", "kitchenware", "household", "colors", "travel", "study", "nature", "other"] },
+          "name": { "type": ["string", "null"], "minLength": 1, "maxLength": 40 },
+          "hidden": { "type": "boolean" }
+        },
+        "required": ["id", "name", "hidden"],
+        "additionalProperties": false
+      }
+    },
     "favorites": {
       "type": "object",
       "properties": {
