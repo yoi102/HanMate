@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-**[Download the 0.1.1 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.1)** · [Release notes](docs/releases/0.1.1.md) · [Privacy policy](PRIVACY.md)
+**[Download the 0.1.2 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.2)** · [Release notes](docs/releases/0.1.2.md) · [Privacy policy](PRIVACY.md)
 
 Free, with no in-app purchases. Windows / Android preview builds are available on GitHub; Microsoft Store and Google Play releases are not yet available.
 
