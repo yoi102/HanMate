@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · [English](README.en.md) · **日本語**
 
-**[0.1.0 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.0)** · [リリースノート](docs/releases/0.1.0.md) · [プライバシーポリシー](PRIVACY.md)
+**[0.1.1 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.1)** · [リリースノート](docs/releases/0.1.1.md) · [プライバシーポリシー](PRIVACY.md)
 
 無料・アプリ内課金なし。Windows / Android のプレビュー版を GitHub で公開しています。Microsoft Store と Google Play ではまだ配信していません。
 
