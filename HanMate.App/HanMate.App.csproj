@@ -34,12 +34,12 @@
 		<ApplicationId>com.companyname.hanmate.app</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>0.1.2</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>0.1.3</ApplicationDisplayVersion>
 		<!-- Keep the platform build number increasing for existing installations. -->
-		<ApplicationVersion>4</ApplicationVersion>
-		<Version>0.1.2</Version>
-		<AssemblyVersion>0.1.2.0</AssemblyVersion>
-		<FileVersion>0.1.2.4</FileVersion>
+		<ApplicationVersion>5</ApplicationVersion>
+		<Version>0.1.3</Version>
+		<AssemblyVersion>0.1.3.0</AssemblyVersion>
+		<FileVersion>0.1.3.5</FileVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
 		<WindowsPackageType>None</WindowsPackageType>

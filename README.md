@@ -4,7 +4,7 @@
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
-**[下载 0.1.2 预览版](https://github.com/yoi102/HanMate/releases/tag/v0.1.2)** · [版本说明](docs/releases/0.1.2.md) · [隐私政策](PRIVACY.md)
+**[下载 0.1.3 预览版](https://github.com/yoi102/HanMate/releases/tag/v0.1.3)** · [版本说明](docs/releases/0.1.3.md) · [隐私政策](PRIVACY.md)
 
 免费，无内购。GitHub 已提供 Windows / Android 预览包；Microsoft Store 与 Google Play 尚未上架。
 
