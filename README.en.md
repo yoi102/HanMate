@@ -32,6 +32,10 @@ HanMate is an offline Chinese learning app built with **.NET 10 / .NET MAUI**. I
 
 Personal content editing, pinyin corrections, recording and content sharing are supported. Content resources and favorites are managed separately; removing a favorite does not delete its text or audio.
 
+For local-network sharing, use **More → Share** on a vocabulary, passage, grammar or poem detail page, select multiple items from a module's list menu, or select multiple vocabulary categories. The sender enters a two-digit room number (for example, 07) and opens the room. Receivers use **Receive over Wi-Fi** on the Learning home page, enter the same number and start searching; the app keeps searching and joins automatically when it finds the room. If broadcast discovery fails, enter the local IP shown on the sender and search again; if several rooms match, choose the sender. The sender selects receivers and sees each device's receive and import status. Devices need the same local network; packages are limited to 32 MiB. Vocabulary carries its source categories, and receivers choose where to place it. You may include your own recordings and preferred-track settings. Voice-pack files and synthesized audio are not sent; importing does not change the receiver's speech-engine settings. The two-digit number is only a discovery label, so verify the device before sending. Built-in content restricted from sharing cannot be exported.
+
+Each learning list puts Add content and Select items to share in the top-right More menu. Selection mode keeps up to 100 checked items across pages; the floating share icon opens a room for those items. Sharing from a detail page still sends only that item.
+
 ### Voices
 
 Choose a voice in **Settings → Reading voice**:

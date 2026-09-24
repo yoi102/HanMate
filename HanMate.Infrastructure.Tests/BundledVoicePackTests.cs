@@ -44,6 +44,25 @@ public sealed partial class VoicePackTests
     }
     private static Task<Stream> BundledFile(string name) => Task.FromResult<Stream>(new MemoryStream(Data));
     [Fact]
+    public async Task SharingReadsVoiceChoiceWithoutUnpackingOrCheckingTheBundledModel()
+    {
+        var calls = 0;
+        using var http = new HttpClient(new Download(_ => throw new Exception("Unexpected network")));
+        var root = Root();
+        var store = new VoicePackStore(root, http, Catalog, bundledFile: _ =>
+        {
+            calls++;
+            throw new Exception("Sharing must not open the voice model.");
+        });
+        Assert.Null(await store.ReadSelectionAsync());
+        Assert.False(Directory.Exists(root));
+        Directory.CreateDirectory(root);
+        await File.WriteAllTextAsync(Path.Combine(root, "selection.json"), "{\"Pack\":\"test-voice\",\"Speaker\":1}");
+        Assert.Equal(1, await store.ReadSelectionAsync());
+        Assert.False(Directory.Exists(Path.Combine(root, Catalog.Id)));
+        Assert.Equal(0, calls);
+    }
+    [Fact]
     public async Task PrecisionReplacementPreservesCompatibleSpeakerAfterVerification()
     {
         using var http = new HttpClient(new Download(_ => throw new Exception("Unexpected network")));

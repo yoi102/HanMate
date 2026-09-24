@@ -678,7 +678,7 @@ Keep {6} old entries.</value></data>
   <data name="Speech.Unavailable" xml:space="preserve"><value>No available Mandarin voice, or the speech provider is not ready. Check installed voices in system settings.</value></data>
   <data name="Speech.Available" xml:space="preserve"><value>Installed Mandarin candidates found. A successful preview does not certify offline availability or teaching pronunciation.</value></data>
   <data name="Privacy.Title" xml:space="preserve"><value>Local data and privacy</value></data>
-  <data name="Privacy.Local" xml:space="preserve"><value>Content, pinyin corrections, favorites, settings and recordings are stored in private app storage. There are currently no accounts, ads, analytics uploads or content/audio upload interfaces. The microphone is used only after you start recording and grant permission. Leaving or backgrounding stops capture and attempts to retain a draft.</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>Content, pinyin corrections, favorites, settings and recordings are stored in private app storage. There are no accounts, ads or analytics uploads. Selected content and personal recordings are sent to nearby devices only when you choose them and start a local-network share. The microphone is used only after you start recording and grant permission. Leaving or backgrounding stops capture and attempts to retain a draft.</value></data>
   <data name="Privacy.Speech" xml:space="preserve"><value>When system text-to-speech is selected, tapped dictionary or reading text is sent to the device voice provider. Android excludes voices requiring a network; actual offline behavior depends on the device. Bundled MeloTTS and Kokoro synthesize locally without uploading text.</value></data>
   <data name="Privacy.Export" xml:space="preserve"><value>You choose the scope and destination for sharing and saving. Backups contain personal text, favorites and voices and are not encrypted. Cloud destinations and receiving apps apply their own policies. Android app auto-backup and device transfer are excluded; other platforms retain their system backup policies. Use the full backup feature to keep your own copy.</value></data>
   <data name="Privacy.Delete" xml:space="preserve"><value>Removing a track or moving content to trash does not erase physical files. Old audio, recovery safety copies and some temporary files may remain to protect references and recovery; automatic disk reclamation is not implemented. Creating a new sharing copy cleans up copies older than seven days; the system may clear them earlier. The app cannot delete copies you exported elsewhere.</value></data>
@@ -712,7 +712,7 @@ Keep {6} old entries.</value></data>
   <data name="Voice.Unsupported" xml:space="preserve"><value>The offline AI engine is not yet supported on this platform.</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>Could not complete the operation. Check storage or restore the bundled pack. Learning data is unchanged.</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>Voice pack preparation timed out. Try again; learning data is unchanged.</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>Both models are bundled and run locally; text and recordings are not uploaded. Clearing voice caches keeps learning data. Pinyin examples and dictionary headwords prefer matching recordings, then the selected reading voice. Reading text also uses the selected provider.</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>Both models are bundled and run locally; reading does not upload text or recordings. Only an explicit local-network share sends selected content and personal recordings to nearby devices. Clearing voice caches keeps learning data. Pinyin examples and dictionary headwords prefer matching recordings, then the selected reading voice. Reading text also uses the selected provider.</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS: MyShell.ai, MIT. Kokoro: hexgrad, Apache-2.0. Engine: sherpa-onnx, Apache-2.0. Audio is synthesized; licenses and attribution are included.</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>Choose a voice</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>Text to preview</value></data>
@@ -898,4 +898,83 @@ Keep {6} old entries.</value></data>
   <data name="LearningEdit.Invalid" xml:space="preserve"><value>Complete the required fields and check the pattern and text lengths.</value></data>
   <data name="LearningEdit.DeleteHint" xml:space="preserve"><value>Move this item to Trash? Favorites and recordings remain for recovery.</value></data>
   <data name="LearningEdit.HideBuiltInHint" xml:space="preserve"><value>Hide this built-in item from learning? It can be restored in resource management.</value></data>
+  <data name="LanShare.Share" xml:space="preserve"><value>Share over Wi-Fi</value></data>
+  <data name="LanShare.SelectCategories" xml:space="preserve"><value>Select word categories to share</value></data>
+  <data name="LanShare.EmptyCategories" xml:space="preserve"><value>The selected categories have no words to share.</value></data>
+  <data name="LanShare.ChooseCategory" xml:space="preserve"><value>Place words from “{0}” in which category?</value></data>
+  <data name="LanShare.PlaceIn" xml:space="preserve"><value>Place in</value></data>
+  <data name="LanShare.CreateCategory" xml:space="preserve"><value>Create a new category</value></data>
+  <data name="LanShare.CategoryNameInvalid" xml:space="preserve"><value>Enter a unique category name of up to 40 characters.</value></data>
+  <data name="LanShare.SelectTitle" xml:space="preserve"><value>Select learning items to share</value></data>
+  <data name="LanShare.ReceiveTitle" xml:space="preserve"><value>Receive over Wi-Fi</value></data>
+  <data name="LanShare.Hint" xml:space="preserve"><value>Select up to 100 learning items. Saved pinyin, translations and selected personal recordings travel together. The receiving device previews before import.</value></data>
+  <data name="LanShare.Selected" xml:space="preserve"><value>{0} selected</value></data>
+  <data name="LanShare.SelectPage" xml:space="preserve"><value>Select this page</value></data>
+  <data name="LanShare.CancelSelection" xml:space="preserve"><value>Exit selection mode</value></data>
+  <data name="LanShare.Clear" xml:space="preserve"><value>Clear selection</value></data>
+  <data name="LanShare.Restricted" xml:space="preserve"><value>Source does not allow sharing</value></data>
+  <data name="LanShare.Limit" xml:space="preserve"><value>Select no more than 100 items.</value></data>
+  <data name="LanShare.IncludeAudio" xml:space="preserve"><value>Include selected personal recordings and preferred-track settings</value></data>
+  <data name="LanShare.ChooseAudio" xml:space="preserve"><value>Choose recordings</value></data>
+  <data name="LanShare.WithAudio" xml:space="preserve"><value>Include my recordings</value></data>
+  <data name="LanShare.TextOnly" xml:space="preserve"><value>Without recordings</value></data>
+  <data name="LanShare.AudioSummary" xml:space="preserve"><value>{0} of {1} recordings selected</value></data>
+  <data name="LanShare.ConfirmRights" xml:space="preserve"><value>I confirm I may share my personal text and translations when required.</value></data>
+  <data name="LanShare.CreateRoom" xml:space="preserve"><value>Prepare and create room</value></data>
+  <data name="LanShare.SelectFirst" xml:space="preserve"><value>Select at least one item.</value></data>
+  <data name="LanShare.Blocked" xml:space="preserve"><value>{0} selected item(s) cannot be shared. Remove them and try again.</value></data>
+  <data name="LanShare.RightsNeeded" xml:space="preserve"><value>Confirm sharing rights for your personal entries.</value></data>
+  <data name="LanShare.Preparing" xml:space="preserve"><value>Preparing the package…</value></data>
+  <data name="LanShare.Ready" xml:space="preserve"><value>Package ready.</value></data>
+  <data name="LanShare.PackageTooLarge" xml:space="preserve"><value>Package exceeds the 32 MiB local sharing limit. Select fewer items or recordings.</value></data>
+  <data name="LanShare.Changed" xml:space="preserve"><value>Content changed. Review the selection and retry.</value></data>
+  <data name="LanShare.Cancelled" xml:space="preserve"><value>Cancelled.</value></data>
+  <data name="LanShare.Failed" xml:space="preserve"><value>Could not finish. Check Wi-Fi and try again.</value></data>
+  <data name="LanShare.RoomTitle" xml:space="preserve"><value>Wi-Fi share room</value></data>
+  <data name="LanShare.RoomCodeHint" xml:space="preserve"><value>Two-digit room number (00–99)</value></data>
+  <data name="LanShare.RoomCode" xml:space="preserve"><value>Room number</value></data>
+  <data name="LanShare.DirectAddressOption" xml:space="preserve"><value>Can't find the room? Enter the sender's IP</value></data>
+  <data name="LanShare.SenderAddressHint" xml:space="preserve"><value>Sender's IP (for example, 192.168.1.10)</value></data>
+  <data name="LanShare.InvalidSenderAddress" xml:space="preserve"><value>Enter a valid local IPv4 address shown on the sender.</value></data>
+  <data name="LanShare.InvalidRoomCode" xml:space="preserve"><value>Enter a two-digit room number, such as 07.</value></data>
+  <data name="LanShare.RoomReadyCode" xml:space="preserve"><value>Room {0} is open. Receivers can enter the same number and refresh.</value></data>
+  <data name="LanShare.RefreshDevices" xml:space="preserve"><value>Refresh devices</value></data>
+  <data name="LanShare.StartFirst" xml:space="preserve"><value>Create the room first.</value></data>
+  <data name="LanShare.DevicesFound" xml:space="preserve"><value>{0} devices have joined.</value></data>
+  <data name="LanShare.FindRoom" xml:space="preserve"><value>Find room</value></data>
+  <data name="LanShare.MatchingRooms" xml:space="preserve"><value>Matching senders</value></data>
+  <data name="LanShare.FindFirst" xml:space="preserve"><value>Refresh and choose a sender first.</value></data>
+  <data name="LanShare.FindingRoom" xml:space="preserve"><value>Looking for rooms on the local network…</value></data>
+  <data name="LanShare.WaitingForRoom" xml:space="preserve"><value>Waiting for the sender to open the room. Searching automatically…</value></data>
+  <data name="LanShare.NoRooms" xml:space="preserve"><value>No matching room yet. Check that the sender has opened it, then refresh.</value></data>
+  <data name="LanShare.ChooseSender" xml:space="preserve"><value>Several rooms use this number. Choose the sender and tap Join.</value></data>
+  <data name="LanShare.SameWifi" xml:space="preserve"><value>Keep both devices on the same local network and this page open during transfer.</value></data>
+  <data name="LanShare.Address" xml:space="preserve"><value>Local network address</value></data>
+  <data name="LanShare.NoWifi" xml:space="preserve"><value>No usable local address found. Connect to a local network, then reopen this page.</value></data>
+  <data name="LanShare.StartRoom" xml:space="preserve"><value>Create room</value></data>
+  <data name="LanShare.Devices" xml:space="preserve"><value>Joined devices</value></data>
+  <data name="LanShare.SelectAllDevices" xml:space="preserve"><value>Select all devices</value></data>
+  <data name="LanShare.Send" xml:space="preserve"><value>Send to selected devices</value></data>
+  <data name="LanShare.Sending" xml:space="preserve"><value>Sending. Each device reports its own receive progress.</value></data>
+  <data name="LanShare.SendFinished" xml:space="preserve"><value>Transfer attempts finished. Check each device result below.</value></data>
+  <data name="LanShare.JoinFailed" xml:space="preserve"><value>A device could not join.</value></data>
+  <data name="LanShare.State.Joined" xml:space="preserve"><value>Joined</value></data>
+  <data name="LanShare.State.Sending" xml:space="preserve"><value>Sending</value></data>
+  <data name="LanShare.State.Receiving" xml:space="preserve"><value>Receiving</value></data>
+  <data name="LanShare.State.WaitingForImport" xml:space="preserve"><value>Waiting for import confirmation</value></data>
+  <data name="LanShare.State.Completed" xml:space="preserve"><value>Imported</value></data>
+  <data name="LanShare.State.Rejected" xml:space="preserve"><value>Declined</value></data>
+  <data name="LanShare.State.Failed" xml:space="preserve"><value>Connection failed</value></data>
+  <data name="LanShare.Join" xml:space="preserve"><value>Join room</value></data>
+  <data name="LanShare.Connecting" xml:space="preserve"><value>Connecting securely…</value></data>
+  <data name="LanShare.ConnectTimeout" xml:space="preserve"><value>Connection timed out. Keep the room open and update both devices.</value></data>
+  <data name="LanShare.ConnectFailed" xml:space="preserve"><value>Cannot connect to the sender. Keep its room open and check that both devices are on the same local network.</value></data>
+  <data name="LanShare.SecureConnectFailed" xml:space="preserve"><value>Secure connection failed. Update both devices and create the room again.</value></data>
+  <data name="LanShare.WaitingForSender" xml:space="preserve"><value>Joined. Waiting for the sender to choose this device.</value></data>
+  <data name="LanShare.Receiving" xml:space="preserve"><value>Received {0:0.0} KiB…</value></data>
+  <data name="LanShare.ImportPreview" xml:space="preserve"><value>Import {0} new, reuse {1}; {2} recordings in the package ({3} selected by sender). Sender's speech engine: {4}. Continue?</value></data>
+  <data name="LanShare.Import" xml:space="preserve"><value>Import</value></data>
+  <data name="LanShare.Imported" xml:space="preserve"><value>Imported {0}; reused {1}. Recordings and preferred-track settings are included where available.</value></data>
+  <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>Could not confirm the result to the sender; check this device's status there.</value></data>
+  <data name="LanShare.InvalidPackage" xml:space="preserve"><value>Package validation failed; nothing was imported.</value></data>
 </root>

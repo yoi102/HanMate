@@ -11,12 +11,19 @@ public sealed class LessonHeadingAnnotationTests
     [InlineData("在学校")]
     [InlineData("去买东西")]
     [InlineData("问路")]
+    [InlineData("买菜对话")]
+    [InlineData("点餐对话")]
+    [InlineData("借书对话")]
     [InlineData("静夜思")]
     [InlineData("春晓")]
     [InlineData("咏鹅")]
     [InlineData("悯农（其二）")]
     [InlineData("登鹳雀楼")]
     [InlineData("江雪")]
+    [InlineData("离骚（节选）")]
+    [InlineData("鱼和熊掌不可兼得（《鱼我所欲也》节选）")]
+    [InlineData("相思")]
+    [InlineData("鹿柴")]
     [InlineData("一起学习")]
     [InlineData("读书小句（原创测试）")]
     [InlineData("唐 · 李白")]
@@ -25,6 +32,9 @@ public sealed class LessonHeadingAnnotationTests
     [InlineData("唐 · 李绅")]
     [InlineData("唐 · 王之涣")]
     [InlineData("唐 · 柳宗元")]
+    [InlineData("战国 · 屈原")]
+    [InlineData("战国 · 孟子")]
+    [InlineData("唐 · 王维")]
     public void BundledHeadingsPreserveTextAndHaveCompleteDisplayAndSpeechReadings(string text)
     {
         var heading = LessonHeadingAnnotation.Create(text);
@@ -40,6 +50,7 @@ public sealed class LessonHeadingAnnotationTests
         Assert.Equal("mèng", LessonHeadingAnnotation.Create("唐 · 孟浩然").Atoms.Single(a => a.Text == "孟").Pinyin);
         Assert.Equal("guàn", LessonHeadingAnnotation.Create("登鹳雀楼").Atoms.Single(a => a.Text == "鹳").Pinyin);
         Assert.Equal("de", LessonHeadingAnnotation.Create("我的家").Atoms.Single(a => a.Text == "的").Pinyin);
+        Assert.Equal("zhài", LessonHeadingAnnotation.Create("鹿柴").Atoms.Single(a => a.Text == "柴").Pinyin);
     }
 
     [Fact]

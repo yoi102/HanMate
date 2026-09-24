@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Record your pronunciation for the selected learning text. Audio stays on this device.</string>
+    <string>Record your pronunciation for learning text. Selected recordings can be shared with nearby devices when you choose.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Send and receive selected learning content with nearby devices on the same Wi-Fi network.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIDeviceFamily</key>

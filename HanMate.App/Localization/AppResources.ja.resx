@@ -678,7 +678,7 @@
   <data name="Speech.Unavailable" xml:space="preserve"><value>利用可能な中国語音声がないか、音声サービスが準備できていません。システム設定をご確認ください。</value></data>
   <data name="Speech.Available" xml:space="preserve"><value>端末の中国語音声候補が見つかりました。試聴成功はオフライン動作や発音の審査完了を意味しません。</value></data>
   <data name="Privacy.Title" xml:space="preserve"><value>ローカルデータとプライバシー</value></data>
-  <data name="Privacy.Local" xml:space="preserve"><value>本文、ピンイン修正、お気に入り、設定、録音はアプリ専用領域に保存します。現在、アカウント、広告、利用統計送信、本文・録音のアップロード機能はありません。録音操作と許可の後にのみマイクを使用し、画面を離れるかバックグラウンドに移ると録音を停止して下書き保存を試みます。</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>本文、ピンイン修正、お気に入り、設定、録音はアプリ専用領域に保存します。アカウント、広告、利用統計の送信はありません。内容と本人の録音は、あなたが選択してローカルネットワーク共有を開始した場合にのみ近くの端末へ送信されます。録音操作と許可の後にのみマイクを使用し、画面を離れるかバックグラウンドに移ると録音を停止して下書き保存を試みます。</value></data>
   <data name="Privacy.Speech" xml:space="preserve"><value>システム音声を選択すると、タップした辞書・本文の文字を端末の音声プロバイダーに渡します。Androidでは通信必須の音声を除外しますが、実際のオフライン動作は端末に依存します。内蔵MeloTTSとKokoroは文字を送信せず端末内で合成します。</value></data>
   <data name="Privacy.Export" xml:space="preserve"><value>共有・保存の範囲と保存先はユーザーが選びます。バックアップには個人の文章、お気に入り、音声が含まれ、暗号化されません。クラウド保存先と共有先には各サービスの規則が適用されます。Android のアプリ自動バックアップと端末移行を無効化しています。他のプラットフォームのシステムバックアップはシステム側が管理します。必要なコピーはアプリのバックアップ機能で保存してください。</value></data>
   <data name="Privacy.Delete" xml:space="preserve"><value>音源の削除やごみ箱への移動は、ファイルの完全消去ではありません。参照と復元の保護のため、古い音声、安全コピー、一部の一時ファイルが残る場合があり、自動回収は未実装です。新しい共有コピーを生成する際に7日を超えた古いコピーを削除します。システムが先に消去する場合があります。外部に保存したコピーはアプリから削除できません。</value></data>
@@ -712,7 +712,7 @@
   <data name="Voice.Unsupported" xml:space="preserve"><value>このプラットフォームのAI音声エンジンは未対応です。</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>操作を完了できませんでした。空き容量を確認するか内蔵パックを復元してください。学習データは変更されていません。</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>音声パックの準備がタイムアウトしました。もう一度お試しください。学習データは変更されていません。</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>両モデルは内蔵され端末内で動作し、文字や録音を送信しません。キャッシュ削除で学習データは消えません。ピンインの例字・例語と辞書の見出し語は一致する録音を優先し、不足時は選択した読み上げ音声を使います。本文も選択した音源を使います。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>両モデルは内蔵され端末内で動作し、読み上げ時に文字や録音を送信しません。明示的にローカルネットワーク共有を開始した場合のみ、選択した内容と本人の録音を近くの端末へ送信します。キャッシュ削除で学習データは消えません。ピンインの例字・例語と辞書の見出し語は一致する録音を優先し、不足時は選択した読み上げ音声を使います。本文も選択した音源を使います。</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai、MIT。Kokoro：hexgrad、Apache-2.0。エンジン：sherpa-onnx、Apache-2.0。合成音声です。ライセンスと出典を同梱します。</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>音色を選択</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>試聴する文章</value></data>
@@ -898,4 +898,83 @@
   <data name="LearningEdit.Invalid" xml:space="preserve"><value>必須項目、文型、文字数を確認してください。</value></data>
   <data name="LearningEdit.DeleteHint" xml:space="preserve"><value>この項目をゴミ箱に移しますか。お気に入りと録音は復元用に残ります。</value></data>
   <data name="LearningEdit.HideBuiltInHint" xml:space="preserve"><value>この内蔵項目を学習一覧から非表示にしますか。リソース管理で復元できます。</value></data>
+  <data name="LanShare.Share" xml:space="preserve"><value>Wi-Fi で共有</value></data>
+  <data name="LanShare.SelectCategories" xml:space="preserve"><value>共有する単語カテゴリーを選択</value></data>
+  <data name="LanShare.EmptyCategories" xml:space="preserve"><value>選択したカテゴリーに共有できる単語がありません。</value></data>
+  <data name="LanShare.ChooseCategory" xml:space="preserve"><value>「{0}」の単語をどのカテゴリーに入れますか？</value></data>
+  <data name="LanShare.PlaceIn" xml:space="preserve"><value>入れる</value></data>
+  <data name="LanShare.CreateCategory" xml:space="preserve"><value>新しいカテゴリーを作成</value></data>
+  <data name="LanShare.CategoryNameInvalid" xml:space="preserve"><value>重複しない 40 文字以内のカテゴリー名を入力してください。</value></data>
+  <data name="LanShare.SelectTitle" xml:space="preserve"><value>共有する学習項目を選択</value></data>
+  <data name="LanShare.ReceiveTitle" xml:space="preserve"><value>Wi-Fi で受信</value></data>
+  <data name="LanShare.Hint" xml:space="preserve"><value>学習項目を最大 100 件選べます。ピンイン、翻訳、選択した個人録音を一緒に転送します。受信側で確認後に取り込みます。</value></data>
+  <data name="LanShare.Selected" xml:space="preserve"><value>{0} 件選択</value></data>
+  <data name="LanShare.SelectPage" xml:space="preserve"><value>このページを選択</value></data>
+  <data name="LanShare.CancelSelection" xml:space="preserve"><value>選択モードを終了</value></data>
+  <data name="LanShare.Clear" xml:space="preserve"><value>選択を解除</value></data>
+  <data name="LanShare.Restricted" xml:space="preserve"><value>共有が許可されていない資料</value></data>
+  <data name="LanShare.Limit" xml:space="preserve"><value>100 件以内で選択してください。</value></data>
+  <data name="LanShare.IncludeAudio" xml:space="preserve"><value>選択した個人録音と優先録音の設定を含める</value></data>
+  <data name="LanShare.ChooseAudio" xml:space="preserve"><value>録音を選ぶ</value></data>
+  <data name="LanShare.WithAudio" xml:space="preserve"><value>自分の録音を共有</value></data>
+  <data name="LanShare.TextOnly" xml:space="preserve"><value>録音なしで共有</value></data>
+  <data name="LanShare.AudioSummary" xml:space="preserve"><value>録音 {0}/{1} 件を選択</value></data>
+  <data name="LanShare.ConfirmRights" xml:space="preserve"><value>必要な場合、自分で追加した文章と翻訳を共有する権利があることを確認します。</value></data>
+  <data name="LanShare.CreateRoom" xml:space="preserve"><value>準備してルームを作成</value></data>
+  <data name="LanShare.SelectFirst" xml:space="preserve"><value>少なくとも 1 件選んでください。</value></data>
+  <data name="LanShare.Blocked" xml:space="preserve"><value>選択した {0} 件は共有できません。除外して再試行してください。</value></data>
+  <data name="LanShare.RightsNeeded" xml:space="preserve"><value>個人コンテンツの共有権利を確認してください。</value></data>
+  <data name="LanShare.Preparing" xml:space="preserve"><value>パッケージを準備中…</value></data>
+  <data name="LanShare.Ready" xml:space="preserve"><value>パッケージの準備ができました。</value></data>
+  <data name="LanShare.PackageTooLarge" xml:space="preserve"><value>パッケージがローカル共有の上限 32 MiB を超えています。項目か録音を減らしてください。</value></data>
+  <data name="LanShare.Changed" xml:space="preserve"><value>内容が変更されました。選択を確認して再試行してください。</value></data>
+  <data name="LanShare.Cancelled" xml:space="preserve"><value>キャンセルしました。</value></data>
+  <data name="LanShare.Failed" xml:space="preserve"><value>完了できませんでした。Wi-Fi を確認してください。</value></data>
+  <data name="LanShare.RoomTitle" xml:space="preserve"><value>Wi-Fi 共有ルーム</value></data>
+  <data name="LanShare.RoomCodeHint" xml:space="preserve"><value>2 桁のルーム番号（00–99）</value></data>
+  <data name="LanShare.RoomCode" xml:space="preserve"><value>ルーム番号</value></data>
+  <data name="LanShare.DirectAddressOption" xml:space="preserve"><value>見つからない場合は送信側の IP を入力</value></data>
+  <data name="LanShare.SenderAddressHint" xml:space="preserve"><value>送信側の IP（例: 192.168.1.10）</value></data>
+  <data name="LanShare.InvalidSenderAddress" xml:space="preserve"><value>送信側に表示された有効なローカル IPv4 アドレスを入力してください。</value></data>
+  <data name="LanShare.InvalidRoomCode" xml:space="preserve"><value>07 のような 2 桁の番号を入力してください。</value></data>
+  <data name="LanShare.RoomReadyCode" xml:space="preserve"><value>ルーム {0} を開きました。受信側で同じ番号を入力して更新してください。</value></data>
+  <data name="LanShare.RefreshDevices" xml:space="preserve"><value>端末を更新</value></data>
+  <data name="LanShare.StartFirst" xml:space="preserve"><value>先にルームを作成してください。</value></data>
+  <data name="LanShare.DevicesFound" xml:space="preserve"><value>{0} 台の端末が参加しています。</value></data>
+  <data name="LanShare.FindRoom" xml:space="preserve"><value>ルームを探す</value></data>
+  <data name="LanShare.MatchingRooms" xml:space="preserve"><value>見つかった送信端末</value></data>
+  <data name="LanShare.FindFirst" xml:space="preserve"><value>更新して送信端末を選択してください。</value></data>
+  <data name="LanShare.FindingRoom" xml:space="preserve"><value>ローカルネットワーク内のルームを探しています…</value></data>
+  <data name="LanShare.WaitingForRoom" xml:space="preserve"><value>送信側がルームを開くまで自動で探しています…</value></data>
+  <data name="LanShare.NoRooms" xml:space="preserve"><value>該当するルームがありません。送信側で開いていることを確認して再度更新してください。</value></data>
+  <data name="LanShare.ChooseSender" xml:space="preserve"><value>同じ番号のルームが複数あります。送信端末を選んで参加してください。</value></data>
+  <data name="LanShare.SameWifi" xml:space="preserve"><value>両端末を同じローカルネットワークに接続し、転送中はこの画面を開いたままにしてください。</value></data>
+  <data name="LanShare.Address" xml:space="preserve"><value>ローカルネットワークアドレス</value></data>
+  <data name="LanShare.NoWifi" xml:space="preserve"><value>利用可能なローカルアドレスがありません。ローカルネットワークに接続して開き直してください。</value></data>
+  <data name="LanShare.StartRoom" xml:space="preserve"><value>ルームを作成</value></data>
+  <data name="LanShare.Devices" xml:space="preserve"><value>参加端末</value></data>
+  <data name="LanShare.SelectAllDevices" xml:space="preserve"><value>端末をすべて選択</value></data>
+  <data name="LanShare.Send" xml:space="preserve"><value>選択した端末へ送信</value></data>
+  <data name="LanShare.Sending" xml:space="preserve"><value>送信中。端末ごとの受信進捗を表示します。</value></data>
+  <data name="LanShare.SendFinished" xml:space="preserve"><value>転送処理が終了しました。端末ごとの結果を確認してください。</value></data>
+  <data name="LanShare.JoinFailed" xml:space="preserve"><value>端末が参加できませんでした。</value></data>
+  <data name="LanShare.State.Joined" xml:space="preserve"><value>参加済み</value></data>
+  <data name="LanShare.State.Sending" xml:space="preserve"><value>送信中</value></data>
+  <data name="LanShare.State.Receiving" xml:space="preserve"><value>受信中</value></data>
+  <data name="LanShare.State.WaitingForImport" xml:space="preserve"><value>取り込み確認待ち</value></data>
+  <data name="LanShare.State.Completed" xml:space="preserve"><value>取り込み済み</value></data>
+  <data name="LanShare.State.Rejected" xml:space="preserve"><value>辞退</value></data>
+  <data name="LanShare.State.Failed" xml:space="preserve"><value>接続失敗</value></data>
+  <data name="LanShare.Join" xml:space="preserve"><value>ルームに参加</value></data>
+  <data name="LanShare.Connecting" xml:space="preserve"><value>安全に接続中…</value></data>
+  <data name="LanShare.ConnectTimeout" xml:space="preserve"><value>送信側への接続がタイムアウトしました。ルームを開いたままにし、両端末のアプリを更新してください。</value></data>
+  <data name="LanShare.ConnectFailed" xml:space="preserve"><value>送信側に接続できません。ルームを開いたままにし、両端末が同じローカルネットワークにあるか確認してください。</value></data>
+  <data name="LanShare.SecureConnectFailed" xml:space="preserve"><value>安全な接続に失敗しました。両端末のアプリを更新してルームを作り直してください。</value></data>
+  <data name="LanShare.WaitingForSender" xml:space="preserve"><value>参加しました。送信側がこの端末を選ぶのを待っています。</value></data>
+  <data name="LanShare.Receiving" xml:space="preserve"><value>{0:0.0} KiB 受信済み…</value></data>
+  <data name="LanShare.ImportPreview" xml:space="preserve"><value>新規 {0} 件、再利用 {1} 件。録音 {2} 件を含みます（送信側の選択 {3} 件）。送信側の読み上げエンジン: {4}。取り込みますか？</value></data>
+  <data name="LanShare.Import" xml:space="preserve"><value>取り込む</value></data>
+  <data name="LanShare.Imported" xml:space="preserve"><value>{0} 件を取り込み、{1} 件を再利用しました。利用可能な録音と優先録音の設定も取り込みました。</value></data>
+  <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>送信側に結果を通知できませんでした。送信側で端末の状態を確認してください。</value></data>
+  <data name="LanShare.InvalidPackage" xml:space="preserve"><value>パッケージ検証に失敗し、何も取り込みませんでした。</value></data>
 </root>

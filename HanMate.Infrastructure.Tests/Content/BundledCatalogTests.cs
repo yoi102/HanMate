@@ -56,7 +56,7 @@ public sealed class BundledCatalogTests
         Assert.Empty(await new ResourceManagementStore(db).GetRetainedAsync());
         await using (var playback = await audio.OpenPlaybackAsync("target", target))
         { using var bytes = new MemoryStream(); await playback.Stream.CopyToAsync(bytes); Assert.Equal(wav.ToArray(), bytes.ToArray()); }
-        Assert.Equal(124, (await new LearningCatalogStore(db).GetWordCategoryCountsAsync()).Total);
+        Assert.Equal(134, (await new LearningCatalogStore(db).GetWordCategoryCountsAsync()).Total);
         Assert.Equal(BundledResourceCatalog.LearningVersion, (await new ResourceStateStore(db).GetAsync(BundledResourceCatalog.LearningId))!.Version);
     }
 
@@ -173,11 +173,11 @@ public sealed class BundledCatalogTests
         await new BundledResourceCatalog(db, installer).EnsureInstalledAsync();
         await new BundledResourceCatalog(new(folder.DatabasePath), new(new(folder.DatabasePath))).EnsureInstalledAsync();
         var library = await ReadLibraryAsync(installer);
-        Assert.Equal(144, library.Length); Assert.Equal(144, library.Select(x => x.Id).Distinct().Count());
+        Assert.Equal(166, library.Length); Assert.Equal(166, library.Select(x => x.Id).Distinct().Count());
         Assert.Equal(4, library.Select(r => r.Kind).Distinct().Count());
-        Assert.Equal(7, (await installer.GetLibraryAsync(kind: ContentKind.Poem)).Count);
-        Assert.Equal(7, (await installer.GetLibraryAsync(kind: ContentKind.Text)).Count);
-        Assert.Equal(124, (await ReadLibraryAsync(installer, ContentKind.Word, ResourceKind.Learning)).Length);
+        Assert.Equal(11, (await installer.GetLibraryAsync(kind: ContentKind.Poem)).Count);
+        Assert.Equal(10, (await installer.GetLibraryAsync(kind: ContentKind.Text)).Count);
+        Assert.Equal(134, (await ReadLibraryAsync(installer, ContentKind.Word, ResourceKind.Learning)).Length);
         Assert.Equal(3, (await installer.GetLibraryAsync(resourceKind: ResourceKind.Dictionary)).Count);
         Assert.Equal(ResourceDistribution.Bundled, (await new ResourceStateStore(db).GetAsync(BundledResourceCatalog.LearningId))!.Distribution);
     }
@@ -202,6 +202,6 @@ public sealed class BundledCatalogTests
         Assert.Equal("RESOURCE_ID_RESERVED", error.Code);
         Assert.Empty(await installer.GetLibraryAsync());
         await new BundledResourceCatalog(db, installer).EnsureInstalledAsync();
-        Assert.Equal(144, (await ReadLibraryAsync(installer)).Length);
+        Assert.Equal(166, (await ReadLibraryAsync(installer)).Length);
     }
 }

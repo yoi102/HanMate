@@ -79,6 +79,15 @@ public partial class LearningPage : ContentPage
     {
         CatalogStatus.Text = _loadFailed ? _localization["Pinyin.LoadFailed"] : "";
         CatalogStatus.IsVisible = _loadFailed;
+        ReceiveLearningButton.Text = _localization["LanShare.ReceiveTitle"];
+    }
+
+    private async void OnReceiveClicked(object? sender, EventArgs e)
+    {
+        if (_opening || Handler?.MauiContext?.Services is not { } services) return;
+        _opening = true;
+        try { await Navigation.PushAsync(new LanReceivePage(services, _localization)); }
+        finally { _opening = false; }
     }
 
     private void OnCategoriesSizeChanged(object? sender, EventArgs e)

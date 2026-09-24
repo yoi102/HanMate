@@ -387,9 +387,12 @@ public sealed class DictionaryEntryPage : ContentPage
             if (_learningContent)
             {
                 var edit = _language["LearningEdit.Edit"];
-                var action = await DisplayActionSheetAsync(T("More"), _language["Library.Cancel"], null, edit);
+                var share = _language["LanShare.Share"];
+                var action = await DisplayActionSheetAsync(T("More"), _language["Library.Cancel"], null, edit, share);
                 if (_active && action == edit)
                     await LearningEditorNavigation.OpenAsync(this, _document, _language, _services);
+                else if (_active && action == share)
+                    await LearningShareRoomLauncher.OpenAsync(this, _services, _language, _document.Id);
                 return;
             }
             var selection = await DisplayActionSheetAsync(T("More"), _language["Library.Cancel"], null,

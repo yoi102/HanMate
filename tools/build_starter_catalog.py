@@ -1,10 +1,11 @@
 from pathlib import Path
+from argparse import ArgumentParser
 import json,uuid,zipfile,hashlib,io,copy
 from build_pinyin_course import tone
 root=Path(__file__).resolve().parents[1]; out=root/'HanMate.Infrastructure/Catalog';out.mkdir(exist_ok=True)
 ns=uuid.UUID('4713cc55-197f-5f6a-ad2d-7dbca2ed7725')
 VERSION='1.0.1'
-LEARNING_VERSION='1.0.5'
+LEARNING_VERSION='1.0.6'
 definitions={}
 for line in (root/'tools/content/starter-definitions.tsv').read_text(encoding='utf-8').splitlines():
  if line and not line.startswith('#'):
@@ -18,6 +19,7 @@ def enrich(original):
  identity=old['id'] if old else str(uuid.uuid5(ns,d['id']+'/definition'))
  for i,ch in enumerate(text):
   hanzi='\u3400'<=ch<='\u9fff';s=next(syllables) if hanzi else None;p=None
+  assert not hanzi or s is not None,(text,i,ch)
   if s:
    base=s[:-1].replace('v','ü');t=int(s[-1]);p=dict(base=base,tone=t,erhua=False,display=tone(base,t) if t else base)
   tokens.append(dict(id=str(uuid.uuid5(ns,identity+'/token/'+str(i))),start=i,length=1,text=ch,kind='hanzi' if hanzi else 'punctuation',
@@ -34,6 +36,7 @@ def make_unit(identity,role,text,numbered,en,ja):
  syllables=iter(numbered.split());tokens=[]
  for i,ch in enumerate(text):
   hanzi='\u3400'<=ch<='\u9fff';s=next(syllables) if hanzi else None;p=None
+  assert not hanzi or s is not None,(text,i,ch)
   if s:
    base=s[:-1].replace('v','ü');t=int(s[-1]);p=dict(base=base,tone=t,erhua=False,display=tone(base,t) if t else base)
   tokens.append(dict(id=str(uuid.uuid5(ns,identity+'/token/'+str(i))),start=i,length=1,text=ch,kind='hanzi' if hanzi else 'whitespace' if ch.isspace() else 'punctuation',
@@ -88,11 +91,32 @@ def learning_lessons(template):
     unit['segments'].append(dict(id=str(uuid.uuid5(ns,identity+'/layout-after/'+line['key'])),start=start,length=1,text=separator,kind='layout',boundarySource='manual',translations={},tokenIds=[unit['tokens'][start]['id']]))
     start+=1
   d['textUnits']=[unit]
+  reference=lesson.get('reference')
   d['source'].update(sourceId='hanmate-common-lessons',type='imported' if poem else 'original',authorProvider=lesson['author'],
-   reference=('《'+lesson['title']+'》通行古诗文本；' if poem else '')+'tools/content/common-lessons.json',reviewStatus='draft',
+   reference=(reference+'；' if reference else ('《'+lesson['title']+'》通行古诗文本；' if poem else ''))+'tools/content/common-lessons.json',reviewStatus='draft',
    licenseIdentifier='Public-domain-text; original-translation-draft' if poem else 'Project-original-draft',
-   permissionNotes=('Ancient Chinese poem in the public domain. ' if poem else 'Original short learning text. ')+
+   permissionNotes=('Classical Chinese source text; independent source verification pending. ' if lesson['scene']=='classical-prose' else 'Ancient Chinese poem in the public domain. ' if poem else 'Original short learning text. ')+
     'AI-assisted pinyin and original Japanese/English translations; independent text, pronunciation and translation review pending.')
+  result.append(d)
+ return result
+
+def learning_grammar(template):
+ result=[]
+ for item in json.loads((root/'tools/content/common-grammar.json').read_text(encoding='utf-8')):
+  d=copy.deepcopy(template);d['id']=str(uuid.uuid5(ns,'common-grammar/'+item['key']))
+  d.update(kind='grammar',title=item['title'],scenes=[item['scene']],difficulty='basic',schoolStage=None,grade=None,
+   contentRevision=1,annotationRevision=1,metadataRevision=1,createdAtUtc='2026-09-24T00:00:00Z',updatedAtUtc='2026-09-24T00:00:00Z')
+  explanation=item['explanation']
+  units=[make_unit(str(uuid.uuid5(ns,d['id']+'/explanation')),'grammarExplanation',explanation['text'],explanation['pinyin'],explanation['en'],explanation['ja'])]
+  assert len({example['key'] for example in item['examples']})==len(item['examples']),item['key']
+  for example in item['examples']:
+   units.append(make_unit(str(uuid.uuid5(ns,d['id']+'/example/'+example['key'])),'example',example['text'],example['pinyin'],example['en'],example['ja']))
+  d['textUnits']=units
+  d['grammar']={'patternParts':item['patternParts'],'patternTranslations':item['patternTranslations'],
+   'explanationUnitIds':[units[0]['id']],'exampleUnitIds':[u['id'] for u in units[1:]],'noteUnitIds':[],'topicCodes':item['topicCodes']}
+  d['source'].update(sourceId='hanmate-common-grammar',type='original',authorProvider='HanMate AI-assisted draft',
+   reference='tools/content/common-grammar.json',reviewStatus='draft',licenseIdentifier='Project-original-draft',
+   permissionNotes='Original AI-assisted grammar explanations, examples, pinyin and translations; independent review pending.')
   result.append(d)
  return result
 
@@ -124,6 +148,10 @@ def pack(name,docs,template):
    info=zipfile.ZipInfo(k,(2026,9,17,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,v)
  print(name,rid,len(docs),hashlib.sha256((out/(name+'.zip')).read_bytes()).hexdigest())
 all=json.loads((root/'HanMate_Planning_Pack_v3.0/examples/contents.json').read_text(encoding='utf-8'))['contents']
-for name,docs in [('learning',all[:20]+learning_words(all[0])+learning_lessons(all[0])),('dictionary',all[21:24])]:
+parser=ArgumentParser(description='Build the bundled teaching catalog without rewriting unrelated resources.')
+parser.add_argument('--catalog',choices=('learning','dictionary','both'),default='learning')
+selected=parser.parse_args().catalog
+for name,docs in [('learning',all[:20]+learning_words(all[0])+learning_lessons(all[0])+learning_grammar(all[0])),('dictionary',all[21:24])]:
+ if selected!='both' and name!=selected:continue
  with zipfile.ZipFile(root/'HanMate_Planning_Pack_v3.0/examples'/('sample-dictionary.handict' if name=='dictionary' else 'sample-learning.hanresource')) as z:template=json.loads(z.read('resource.json'))
  pack(name,docs,template)

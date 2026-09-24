@@ -13,6 +13,9 @@
                 <controls:NavigationTile Grid.Row="1" Grid.Column="0" Title="{Binding KindGrammar}" Detail="{Binding LearnGrammarHint}" CommandParameter="Grammar" Clicked="OnKindClicked" ActionId="Learning.Grammar" />
                 <controls:NavigationTile Grid.Row="1" Grid.Column="1" Title="{Binding KindPoem}" Detail="{Binding LearnPoemHint}" CommandParameter="Poem" Clicked="OnKindClicked" ActionId="Learning.Poem" />
             </Grid>
+            <Button x:Name="ReceiveLearningButton" Clicked="OnReceiveClicked"
+                    Style="{StaticResource LibrarySecondaryButton}"
+                    HorizontalOptions="End" Padding="14,8" />
             <Label x:Name="CatalogStatus" Style="{StaticResource LibraryMuted}" IsVisible="False" />
         </VerticalStackLayout>
     </ScrollView>

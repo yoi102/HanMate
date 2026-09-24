@@ -18,7 +18,7 @@
 
 - `python tools/build_annotation_lexicon.py`：从固定SHA256的Unicode17缓存生成字音TSV、完整许可证及source manifest，默认无网络。55,328候选中当前解析器接受55,301条，27条特殊形式显式报告；另有24条原创上下文种子，均需复核。此库独立于查询字典；不可把未知/待复核提升为教材确认。
 
-- `python tools/build_starter_catalog.py`：从规划包原样例生成确定性、不同身份的 20 条学习草稿和 3 条字典草稿。更改生成结果后需同步 `BundledResourceCatalog` 的固定哈希，并运行 Infrastructure 测试。
+- `python tools/build_starter_catalog.py`：仅重建随附学习草稿（当前 163 条，包含词语、课文、语法和诗词），不会改写字典包。只有明确传入 `--catalog dictionary` 或 `--catalog both` 才重建字典；更改任一生成包后需同步 `BundledResourceCatalog` 中该包的固定哈希并运行 Infrastructure 测试。新增教学文本、拼音和译文均待独立审校。
 - `python tools/build_pinyin_course.py`：读取 `pinyin-examples.tsv`、`pinyin-definitions.tsv`、`expand_pinyin_course.py`、`content/pinyin-tone-{characters,words}.tsv` 与已缓存录音，离线生成课程、PCM16 WAV、署名与缺口清单。需要构建期 `soundfile==0.14.0` 和 `imageio-ffmpeg`（提供FFmpeg解码器）。
 - 只有显式 `--fetch` 才刷新 Commons 元数据，只有 `--download` 才下载缺失录音。下载串行且有间隔；429 后遵循 Retry-After 的全局冷却，不连续运行重试来规避限制。
 - `--download-limit 12` 限制本次Commons新增下载请求（0—50，默认12）；缓存始终离线处理。

@@ -191,10 +191,12 @@ public sealed class GrammarDetailPage : ContentPage
     private async Task MoreAsync()
     {
         var choice = await DisplayActionSheetAsync(_language["DictionaryDetail.More"], _language["Library.Cancel"], null,
-            _language["LearningEdit.Edit"]);
+            _language["LearningEdit.Edit"], _language["LanShare.Share"]);
         if (!_active) return;
         if (choice == _language["LearningEdit.Edit"])
             await LearningEditorNavigation.OpenAsync(this, _reading.Content, _language, _services);
+        else if (choice == _language["LanShare.Share"])
+            await LearningShareRoomLauncher.OpenAsync(this, _services, _language, _reading.Content.Id);
     }
 
     internal sealed class Block(ReadingPart part, string heading, string? translation, bool pinyin) : INotifyPropertyChanged

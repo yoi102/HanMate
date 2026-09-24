@@ -1,0 +1,90 @@
+[
+  {
+    "key": "have-possession",
+    "title": "“有”表示拥有",
+    "scene": "daily",
+    "topicCodes": ["possession"],
+    "patternParts": [
+      { "kind": "slot", "text": "主语" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "有" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "名词" }
+    ],
+    "patternTranslations": { "en": "Subject + have + noun", "ja": "主語＋有＋名詞" },
+    "explanation": { "text": "“有”表示拥有某人或某物。", "pinyin": "you3 biao3 shi4 yong1 you3 mou3 ren2 huo4 mou3 wu4", "en": "有 expresses having someone or something.", "ja": "「有」は人や物を持っていることを表します。" },
+    "examples": [
+      { "key": "book", "text": "我有一本书。", "pinyin": "wo3 you3 yi4 ben3 shu1", "en": "I have a book.", "ja": "私は本を一冊持っています。" },
+      { "key": "brothers", "text": "她有两个哥哥。", "pinyin": "ta1 you3 liang3 ge4 ge1 ge0", "en": "She has two older brothers.", "ja": "彼女には兄が二人います。" }
+    ]
+  },
+  {
+    "key": "can-learned-ability",
+    "title": "“会”表示学会的能力",
+    "scene": "study",
+    "topicCodes": ["ability"],
+    "patternParts": [
+      { "kind": "slot", "text": "主语" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "会" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "动词" }
+    ],
+    "patternTranslations": { "en": "Subject + can (learned skill) + verb", "ja": "主語＋会＋動詞" },
+    "explanation": { "text": "“会”表示通过学习获得的能力。", "pinyin": "hui4 biao3 shi4 tong1 guo4 xue2 xi2 huo4 de2 de0 neng2 li4", "en": "会 describes an ability gained through learning.", "ja": "「会」は学習によって身につけた能力を表します。" },
+    "examples": [
+      { "key": "chinese", "text": "我会说中文。", "pinyin": "wo3 hui4 shuo1 zhong1 wen2", "en": "I can speak Chinese.", "ja": "私は中国語を話せます。" },
+      { "key": "swim", "text": "他会游泳。", "pinyin": "ta1 hui4 you2 yong3", "en": "He can swim.", "ja": "彼は泳げます。" }
+    ]
+  },
+  {
+    "key": "want-to",
+    "title": "“想”表达愿望",
+    "scene": "daily",
+    "topicCodes": ["intention"],
+    "patternParts": [
+      { "kind": "slot", "text": "主语" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "想" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "动词短语" }
+    ],
+    "patternTranslations": { "en": "Subject + want to + verb phrase", "ja": "主語＋想＋動詞句" },
+    "explanation": { "text": "“想”表示希望做某事。", "pinyin": "xiang3 biao3 shi4 xi1 wang4 zuo4 mou3 shi4", "en": "想 expresses a wish to do something.", "ja": "「想」は何かをしたい気持ちを表します。" },
+    "examples": [
+      { "key": "drink", "text": "我想喝水。", "pinyin": "wo3 xiang3 he1 shui3", "en": "I want to drink water.", "ja": "私は水を飲みたいです。" },
+      { "key": "park", "text": "她想去公园。", "pinyin": "ta1 xiang3 qu4 gong1 yuan2", "en": "She wants to go to the park.", "ja": "彼女は公園へ行きたいです。" }
+    ]
+  },
+  {
+    "key": "because-so",
+    "title": "因为……所以……",
+    "scene": "daily",
+    "topicCodes": ["cause-effect"],
+    "patternParts": [
+      { "kind": "literal", "text": "因为" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "原因" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "所以" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "结果" }
+    ],
+    "patternTranslations": { "en": "Because + reason, therefore + result", "ja": "原因＋なので＋結果" },
+    "explanation": { "text": "“因为”说明原因，“所以”说明结果。", "pinyin": "yin1 wei4 shuo1 ming2 yuan2 yin1 suo3 yi3 shuo1 ming2 jie2 guo3", "en": "因为 introduces a cause; 所以 introduces its result.", "ja": "「因为」は原因を、「所以」は結果を示します。" },
+    "examples": [
+      { "key": "rain", "text": "因为下雨，所以我们在家。", "pinyin": "yin1 wei4 xia4 yu3 suo3 yi3 wo3 men0 zai4 jia1", "en": "Because it is raining, we are staying home.", "ja": "雨が降っているので、私たちは家にいます。" },
+      { "key": "progress", "text": "因为他努力学习，所以进步很快。", "pinyin": "yin1 wei4 ta1 nu3 li4 xue2 xi2 suo3 yi3 jin4 bu4 hen3 kuai4", "en": "Because he studies hard, he is improving quickly.", "ja": "彼は一生懸命勉強しているので、上達が速いです。" }
+    ]
+  },
+  {
+    "key": "while-doing-two-things",
+    "title": "一边……一边……",
+    "scene": "daily",
+    "topicCodes": ["simultaneous-actions"],
+    "patternParts": [
+      { "kind": "slot", "text": "主语" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "一边" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "动作一" }, { "kind": "operator", "text": "+" },
+      { "kind": "literal", "text": "一边" }, { "kind": "operator", "text": "+" },
+      { "kind": "slot", "text": "动作二" }
+    ],
+    "patternTranslations": { "en": "Subject + while doing action 1 + action 2", "ja": "主語＋一边＋動作1＋一边＋動作2" },
+    "explanation": { "text": "“一边……一边……”表示两个动作同时进行。", "pinyin": "yi4 bian1 yi4 bian1 biao3 shi4 liang3 ge4 dong4 zuo4 tong2 shi2 jin4 xing2", "en": "一边……一边…… shows that two actions happen at the same time.", "ja": "「一边……一边……」は二つの動作が同時に進むことを表します。" },
+    "examples": [
+      { "key": "music", "text": "她一边听音乐，一边写字。", "pinyin": "ta1 yi4 bian1 ting1 yin1 yue4 yi4 bian1 xie3 zi4", "en": "She listens to music while writing.", "ja": "彼女は音楽を聴きながら字を書きます。" },
+      { "key": "walk", "text": "我一边走路，一边聊天。", "pinyin": "wo3 yi4 bian1 zou3 lu4 yi4 bian1 liao2 tian1", "en": "I chat while walking.", "ja": "私は歩きながら話します。" }
+    ]
+  }
+]

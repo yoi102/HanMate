@@ -215,6 +215,45 @@
     ]
   },
   {
+    "key": "buying-vegetables-dialogue",
+    "kind": "text",
+    "title": "买菜对话",
+    "author": "HanMate 原创情景对话",
+    "scene": "shopping",
+    "lines": [
+      { "key": "greet", "text": "顾客：您好，西红柿多少钱一斤？", "pinyin": "gu4 ke4 nin2 hao3 xi1 hong2 shi4 duo1 shao0 qian2 yi4 jin1", "en": "Customer: Hello, how much are the tomatoes per jin?", "ja": "客：こんにちは、トマトは一斤いくらですか。" },
+      { "key": "price", "text": "摊主：五元一斤，您要多少？", "pinyin": "tan1 zhu3 wu3 yuan2 yi4 jin1 nin2 yao4 duo1 shao0", "en": "Vendor: Five yuan per jin. How much would you like?", "ja": "店主：一斤五元です。どれくらい要りますか。" },
+      { "key": "amount", "text": "顾客：我要两斤，还要一把青菜。", "pinyin": "gu4 ke4 wo3 yao4 liang3 jin1 hai2 yao4 yi4 ba3 qing1 cai4", "en": "Customer: Two jin, please, and a bunch of greens.", "ja": "客：二斤と、青菜を一束ください。" },
+      { "key": "finish", "text": "摊主：好的，我给您称一下。", "pinyin": "tan1 zhu3 hao3 de0 wo3 gei3 nin2 cheng1 yi2 xia4", "en": "Vendor: Sure, I will weigh them for you.", "ja": "店主：はい、量りますね。" }
+    ]
+  },
+  {
+    "key": "ordering-food-dialogue",
+    "kind": "text",
+    "title": "点餐对话",
+    "author": "HanMate 原创情景对话",
+    "scene": "food",
+    "lines": [
+      { "key": "menu", "text": "服务员：您好，请看菜单。", "pinyin": "fu2 wu4 yuan2 nin2 hao3 qing3 kan4 cai4 dan1", "en": "Server: Hello, please take a look at the menu.", "ja": "店員：こんにちは、メニューをご覧ください。" },
+      { "key": "order", "text": "顾客：我要一碗面条。", "pinyin": "gu4 ke4 wo3 yao4 yi4 wan3 mian4 tiao2", "en": "Customer: I would like a bowl of noodles.", "ja": "客：麺を一杯ください。" },
+      { "key": "drink", "text": "服务员：您要喝什么？", "pinyin": "fu2 wu4 yuan2 nin2 yao4 he1 shen2 me0", "en": "Server: What would you like to drink?", "ja": "店員：お飲み物は何になさいますか。" },
+      { "key": "water", "text": "顾客：一杯水，谢谢。", "pinyin": "gu4 ke4 yi4 bei1 shui3 xie4 xie0", "en": "Customer: A glass of water, thank you.", "ja": "客：水を一杯お願いします。" }
+    ]
+  },
+  {
+    "key": "borrowing-book-dialogue",
+    "kind": "text",
+    "title": "借书对话",
+    "author": "HanMate 原创情景对话",
+    "scene": "study",
+    "lines": [
+      { "key": "ask", "text": "学生：老师，我可以借这本书吗？", "pinyin": "xue2 sheng1 lao3 shi1 wo3 ke3 yi3 jie4 zhe4 ben3 shu1 ma0", "en": "Student: May I borrow this book?", "ja": "学生：先生、この本を借りてもいいですか。" },
+      { "key": "agree", "text": "老师：可以，请先登记。", "pinyin": "lao3 shi1 ke3 yi3 qing3 xian1 deng1 ji4", "en": "Teacher: Yes. Please register it first.", "ja": "先生：いいですよ。先に貸出記録を書いてください。" },
+      { "key": "return", "text": "学生：我什么时候还书？", "pinyin": "xue2 sheng1 wo3 shen2 me0 shi2 hou4 huan2 shu1", "en": "Student: When should I return it?", "ja": "学生：いつ返せばいいですか。" },
+      { "key": "week", "text": "老师：下周五以前还就可以。", "pinyin": "lao3 shi1 xia4 zhou1 wu3 yi3 qian2 huan2 jiu4 ke3 yi3", "en": "Teacher: Please return it by next Friday.", "ja": "先生：来週の金曜日までに返してください。" }
+    ]
+  },
+  {
     "key": "quiet-night-thought",
     "kind": "poem",
     "title": "静夜思",
@@ -434,6 +473,103 @@
         "en": "Fishes alone on the cold river in the snow.",
         "ja": "雪の降る冷たい川で、ひとり釣りをしている。"
       }
+    ]
+  },
+  {
+    "key": "li-sao-excerpt",
+    "kind": "poem",
+    "title": "离骚（节选）",
+    "author": "战国 · 屈原",
+    "scene": "classical-poetry",
+    "reference": "《楚辞·离骚》节选",
+    "lines": [
+      {
+        "key": "sigh",
+        "text": "长太息以掩涕兮，哀民生之多艰。",
+        "pinyin": "chang2 tai4 xi1 yi3 yan3 ti4 xi1 ai1 min2 sheng1 zhi1 duo1 jian1",
+        "en": "I sigh deeply and wipe away my tears, grieving for the many hardships of the people.",
+        "ja": "深くため息をつき涙をぬぐい、人々の苦難の多さを悲しむ。"
+      },
+      {
+        "key": "resolve",
+        "text": "亦余心之所善兮，虽九死其犹未悔。",
+        "pinyin": "yi4 yu2 xin1 zhi1 suo3 shan4 xi1 sui1 jiu3 si3 qi2 you2 wei4 hui3",
+        "en": "This is what my heart holds dear; even if I died nine times, I would not regret it.",
+        "ja": "これは私が心からよしとすること。たとえ幾度死んでも悔いはしない。"
+      },
+      {
+        "key": "search",
+        "text": "路漫漫其修远兮，吾将上下而求索。",
+        "pinyin": "lu4 man4 man4 qi2 xiu1 yuan3 xi1 wu2 jiang1 shang4 xia4 er2 qiu2 suo3",
+        "en": "The road ahead is long and distant; I shall search high and low.",
+        "ja": "道は果てしなく遠いが、私は天地を巡って探し求める。"
+      }
+    ]
+  },
+  {
+    "key": "fish-and-bear-paw",
+    "kind": "poem",
+    "title": "鱼和熊掌不可兼得（《鱼我所欲也》节选）",
+    "author": "战国 · 孟子",
+    "scene": "classical-prose",
+    "reference": "《孟子·告子上·鱼我所欲也》节选（古文）",
+    "lines": [
+      {
+        "key": "fish",
+        "text": "鱼，我所欲也；熊掌，亦我所欲也。",
+        "pinyin": "yu2 wo3 suo3 yu4 ye3 xiong2 zhang3 yi4 wo3 suo3 yu4 ye3",
+        "en": "Fish is something I desire; bear's paw is also something I desire.",
+        "ja": "魚は私の欲するもの、熊の掌もまた私の欲するものである。"
+      },
+      {
+        "key": "choose-bear-paw",
+        "text": "二者不可得兼，舍鱼而取熊掌者也。",
+        "pinyin": "er4 zhe3 bu4 ke3 de2 jian1 she3 yu2 er2 qu3 xiong2 zhang3 zhe3 ye3",
+        "en": "If I cannot have both, I would give up fish and choose bear's paw.",
+        "ja": "両方を得られないなら、魚を捨てて熊の掌を取る。"
+      },
+      {
+        "key": "life-and-righteousness",
+        "text": "生，亦我所欲也；义，亦我所欲也。",
+        "pinyin": "sheng1 yi4 wo3 suo3 yu4 ye3 yi4 yi4 wo3 suo3 yu4 ye3",
+        "en": "Life is something I desire; righteousness is also something I desire.",
+        "ja": "命は私の欲するもの、義もまた私の欲するものである。"
+      },
+      {
+        "key": "choose-righteousness",
+        "text": "二者不可得兼，舍生而取义者也。",
+        "pinyin": "er4 zhe3 bu4 ke3 de2 jian1 she3 sheng1 er2 qu3 yi4 zhe3 ye3",
+        "en": "If I cannot have both, I would give up life and choose righteousness.",
+        "ja": "両方を得られないなら、命を捨てて義を取る。"
+      }
+    ]
+  },
+  {
+    "key": "red-beans",
+    "kind": "poem",
+    "title": "相思",
+    "author": "唐 · 王维",
+    "scene": "classical-poetry",
+    "reference": "《相思》通行古诗文本",
+    "lines": [
+      { "key": "red-beans", "text": "红豆生南国，", "pinyin": "hong2 dou4 sheng1 nan2 guo2", "en": "Red beans grow in the southern land,", "ja": "紅豆は南の地に育ち、" },
+      { "key": "spring", "text": "春来发几枝。", "pinyin": "chun1 lai2 fa1 ji3 zhi1", "en": "How many new branches come with spring?", "ja": "春には幾枝伸びるだろう。" },
+      { "key": "gather", "text": "愿君多采撷，", "pinyin": "yuan4 jun1 duo1 cai3 xie2", "en": "I hope you gather many of them,", "ja": "どうかたくさん摘んでほしい、" },
+      { "key": "longing", "text": "此物最相思。", "pinyin": "ci3 wu4 zui4 xiang1 si1", "en": "For they best carry thoughts of longing.", "ja": "この豆こそ、思いを託すのにふさわしい。" }
+    ]
+  },
+  {
+    "key": "deer-park",
+    "kind": "poem",
+    "title": "鹿柴",
+    "author": "唐 · 王维",
+    "scene": "classical-poetry",
+    "reference": "《鹿柴》通行古诗文本",
+    "lines": [
+      { "key": "empty-mountain", "text": "空山不见人，", "pinyin": "kong1 shan1 bu2 jian4 ren2", "en": "No one is seen in the empty mountains,", "ja": "ひとけのない山に人の姿は見えず、" },
+      { "key": "voices", "text": "但闻人语响。", "pinyin": "dan4 wen2 ren2 yu3 xiang3", "en": "Yet human voices can be heard.", "ja": "ただ人の声だけが響く。" },
+      { "key": "returning-light", "text": "返景入深林，", "pinyin": "fan3 jing3 ru4 shen1 lin2", "en": "The returning sunlight enters the deep woods,", "ja": "夕日の光が奥深い林に差し込み、" },
+      { "key": "moss", "text": "复照青苔上。", "pinyin": "fu4 zhao4 qing1 tai2 shang4", "en": "And shines again upon the green moss.", "ja": "青い苔の上を再び照らす。" }
     ]
   }
 ]

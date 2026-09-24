@@ -52,6 +52,8 @@ public sealed class VoicePackStore
         try { await EnsureBundledAsync(token); var installed = await ValidAsync(_installed, token); return new(installed, installed ? await SelectedAsync(token) : null, Directory.Exists(_installed)); }
         finally { _gate.Release(); }
     }
+    /// <summary>Reads only the saved voice choice; sharing must not unpack or verify a voice model.</summary>
+    public Task<int?> ReadSelectionAsync(CancellationToken token = default) => SelectedAsync(token);
     private async Task<int?> SelectedAsync(CancellationToken token)
     {
         if (!File.Exists(_selection)) return null;

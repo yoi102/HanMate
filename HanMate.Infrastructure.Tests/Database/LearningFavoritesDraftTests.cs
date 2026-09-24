@@ -72,7 +72,7 @@ public sealed class LearningFavoritesDraftTests
         using var dir = new TestDatabaseDirectory(); var db = new HanMateDatabase(dir.DatabasePath); await Seed(db);
         var catalog = new LearningCatalogStore(db);
         var counts = await catalog.GetWordCategoryCountsAsync();
-        Assert.Equal(124, counts.Total);
+        Assert.Equal(134, counts.Total);
         Assert.Equal(0, counts.Counts[WordCategories.Other]);
         foreach (var category in WordCategories.All)
         {
@@ -93,10 +93,25 @@ public sealed class LearningFavoritesDraftTests
         // A withdrawn word disappears from both its category and the total count.
         await Execute(db, $"INSERT INTO resource_entry_override(resource_id,entry_id,removed,updated_at_utc) SELECT resource_id,entry_id,1,'2026-09-21T00:00:00Z' FROM resource_entry WHERE content_id='{weight.Items[0].Id}'");
         counts = await catalog.GetWordCategoryCountsAsync();
-        Assert.Equal(123, counts.Total); Assert.Equal(5, counts.Counts["weight"]);
+        Assert.Equal(133, counts.Total); Assert.Equal(5, counts.Counts["weight"]);
         await Execute(db, "UPDATE installed_resource SET enabled=0 WHERE resource_kind='learning'");
         Assert.Equal(0, (await catalog.GetWordCategoryCountsAsync()).Total);
         Assert.Empty((await catalog.QueryAsync(new(ContentKind.Word, WordCategory: "weight"))).Items);
+    }
+
+    [Fact]
+    public async Task CategoryShareLookupDeduplicatesOverlapsAndStopsAfterPackageLimit()
+    {
+        using var dir = new TestDatabaseDirectory(); var db = new HanMateDatabase(dir.DatabasePath); await Seed(db);
+        var catalog = new LearningCatalogStore(db);
+        var family = await catalog.QueryAsync(new(ContentKind.Word, WordCategory: "family"));
+        var address = await catalog.QueryAsync(new(ContentKind.Word, WordCategory: "address"));
+        var ids = await catalog.GetWordIdsForCategoriesAsync(["family", "address"]);
+        Assert.Equal(family.Items.Select(x => x.Id).Concat(address.Items.Select(x => x.Id)).Distinct().Order(),
+            ids.Order());
+        Assert.Equal(101, (await catalog.GetWordIdsForCategoriesAsync(["all"])).Count);
+        await Assert.ThrowsAsync<ArgumentOutOfRangeException>(() =>
+            catalog.GetWordIdsForCategoriesAsync(["custom-" + Guid.NewGuid().ToString("N")]));
     }
 
     [Fact]
@@ -108,10 +123,11 @@ public sealed class LearningFavoritesDraftTests
         // Simulate older and imported scene metadata without changing document identities.
         await Execute(db, $"UPDATE content SET body_json=json_set(body_json,'$.scenes',json('[\"custom-topic\"]')) WHERE id='{id}'");
         Assert.Equal(id, Assert.Single((await catalog.QueryAsync(new(ContentKind.Word, WordCategory: WordCategories.Other))).Items).Id);
+        Assert.Equal(id, Assert.Single(await catalog.GetWordIdsForCategoriesAsync([WordCategories.Other])));
         Assert.Equal(1, (await catalog.GetWordCategoryCountsAsync()).Counts[WordCategories.Other]);
         await Execute(db, $"UPDATE content SET body_json=json_set(body_json,'$.scenes',json('[\"word-weight\",\"word-weight\",\"word-numbers\"]')) WHERE id='{id}'");
         var counts = await catalog.GetWordCategoryCountsAsync();
-        Assert.Equal(124, counts.Total); Assert.Equal(6, counts.Counts["weight"]); Assert.Equal(15, counts.Counts["numbers"]);
+        Assert.Equal(134, counts.Total); Assert.Equal(6, counts.Counts["weight"]); Assert.Equal(15, counts.Counts["numbers"]);
         Assert.Equal(0, counts.Counts[WordCategories.Other]);
     }
 
@@ -134,13 +150,13 @@ public sealed class LearningFavoritesDraftTests
     {
         using var dir = new TestDatabaseDirectory(); var db = new HanMateDatabase(dir.DatabasePath); await Seed(db);
         var catalog = new LearningCatalogStore(db); var resources = new ResourceManagementStore(db);
-        var initial = await catalog.QueryAsync(new(ContentKind.Word)); Assert.Equal(124, initial.Total);
+        var initial = await catalog.QueryAsync(new(ContentKind.Word)); Assert.Equal(134, initial.Total);
         await Execute(db, "UPDATE installed_resource SET enabled=0 WHERE resource_kind='learning'");
         Assert.Empty((await catalog.QueryAsync(new(ContentKind.Word))).Items);
         await Execute(db, "UPDATE installed_resource SET enabled=1 WHERE resource_kind='learning'");
         var id = initial.Items[0].Id;
         await Execute(db, $"INSERT INTO resource_entry_override(resource_id,entry_id,removed,updated_at_utc) SELECT resource_id,entry_id,1,'2026-09-17T00:00:00Z' FROM resource_entry WHERE content_id='{id}'");
-        Assert.Equal(123, (await catalog.QueryAsync(new(ContentKind.Word))).Total);
+        Assert.Equal(133, (await catalog.QueryAsync(new(ContentKind.Word))).Total);
         var fixture = Fixture(); var content = new SqliteContentDocumentStore(db, new());
         for (var i = 0; i < 53; i++) await content.SaveAsync(Clone(fixture) with { Title = $"personal-{i:000}" }, 0);
         var first = await catalog.QueryAsync(new(ContentKind.Grammar, PersonalOnly: true)); var second = await catalog.QueryAsync(new(ContentKind.Grammar, PersonalOnly: true), 50);
@@ -222,7 +238,7 @@ public sealed class LearningFavoritesDraftTests
         using var cancel = new CancellationTokenSource(); cancel.Cancel();
         await Assert.ThrowsAnyAsync<OperationCanceledException>(() => store.SaveAsync(Guid.NewGuid(), body, 0, cancel.Token));
         Assert.Single(await store.ListAsync()); await store.DeleteAsync(Assert.Single(await store.ListAsync()));
-        Assert.Empty(await store.ListAsync()); Assert.Equal(144L, await Scalar(db, "SELECT count(*) FROM content"));
+        Assert.Empty(await store.ListAsync()); Assert.Equal(166L, await Scalar(db, "SELECT count(*) FROM content"));
     }
     [Fact]
     public async Task ReadingPreferencesPreserveOtherSettingsAndRejectInvalidScale()

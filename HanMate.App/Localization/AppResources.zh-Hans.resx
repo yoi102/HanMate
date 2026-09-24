@@ -678,7 +678,7 @@
   <data name="Speech.Unavailable" xml:space="preserve"><value>未找到可用普通话语音，或系统语音服务未就绪。可在系统设置中检查已安装语音。</value></data>
   <data name="Speech.Available" xml:space="preserve"><value>已发现本机普通话候选。试听成功不代表离线及教学读音已经验收。</value></data>
   <data name="Privacy.Title" xml:space="preserve"><value>本地数据与隐私</value></data>
-  <data name="Privacy.Local" xml:space="preserve"><value>正文、拼音校正、收藏、设置和录音存储在应用私有目录。当前没有账号、广告、统计上报或正文/录音上传接口。麦克风仅在你点击录音并允许权限后启用，退出或进入后台会停止录音并尝试保留草稿。</value></data>
+  <data name="Privacy.Local" xml:space="preserve"><value>正文、拼音校正、收藏、设置和录音存储在应用私有目录。当前没有账号、广告或统计上报。只有你主动选择内容、接收设备并发送时，所选正文和个人录音才会经局域网传给接收设备。麦克风仅在你点击录音并允许权限后启用，退出或进入后台会停止录音并尝试保留草稿。</value></data>
   <data name="Privacy.Speech" xml:space="preserve"><value>选择系统文字转语音后，点击字典或正文会把相应文字交给设备语音提供方。Android 排除声明需要联网的音色；系统语音是否真正离线仍取决于设备。内置 MeloTTS 和 Kokoro 在本机生成声音，正文不会上传。</value></data>
   <data name="Privacy.Export" xml:space="preserve"><value>分享和另存由你选择范围与位置。备份含个人文字、收藏和声音，未加密。云盘位置及分享接收应用按各自规则处理文件。Android 已关闭应用自动备份并排除设备迁移；其他平台的系统备份策略仍由系统决定。请使用应用的完整备份功能主动保管副本。</value></data>
   <data name="Privacy.Delete" xml:space="preserve"><value>移除音轨或放入回收站不等于擦除物理文件。为保护引用和恢复，旧音频、恢复安全副本以及部分临时文件可能继续保留，当前没有自动磁盘回收。生成新分享副本时会清理超过 7 天的旧副本；系统可能提前清理。应用无法删除你已导出到其他位置的副本。</value></data>
@@ -712,7 +712,7 @@
   <data name="Voice.Unsupported" xml:space="preserve"><value>这个平台暂未接入 AI 离线语音引擎。</value></data>
   <data name="Voice.Failed" xml:space="preserve"><value>操作未完成。请检查存储空间或恢复内置语音包；原有学习资料未改动。</value></data>
   <data name="Voice.DownloadTimeout" xml:space="preserve"><value>准备语音包超时，请重试。原有学习资料未改动。</value></data>
-  <data name="Voice.Privacy" xml:space="preserve"><value>两套模型均内置并在本机运行，文字和录音不上传。清除缓存不会删除学习资料。拼音例字、例词及字典字词优先匹配录音，缺少时使用朗读设置中选择的音源；正文也使用所选音源。</value></data>
+  <data name="Voice.Privacy" xml:space="preserve"><value>两套模型均内置并在本机运行，朗读时文字和录音不上传。只有你主动使用局域网分享时，所选内容和个人录音才会发给接收设备。清除缓存不会删除学习资料。拼音例字、例词及字典字词优先匹配录音，缺少时使用朗读设置中选择的音源；正文也使用所选音源。</value></data>
   <data name="Voice.License" xml:space="preserve"><value>MeloTTS：MyShell.ai，MIT。Kokoro：hexgrad，Apache-2.0。引擎：sherpa-onnx，Apache-2.0。声音为合成音频，许可和来源随包保留。</value></data>
 <data name="Voice.ChooseSpeaker" xml:space="preserve"><value>选择音色</value></data>
 <data name="Voice.Sample" xml:space="preserve"><value>试听文字</value></data>
@@ -898,4 +898,83 @@
   <data name="LearningEdit.Invalid" xml:space="preserve"><value>请填写必填内容，并检查句型及文字长度。</value></data>
   <data name="LearningEdit.DeleteHint" xml:space="preserve"><value>将此项目移入回收站？收藏和录音会保留，可恢复。</value></data>
   <data name="LearningEdit.HideBuiltInHint" xml:space="preserve"><value>从学习列表隐藏这个预置项目？可在资源管理中恢复。</value></data>
+  <data name="LanShare.Share" xml:space="preserve"><value>通过 Wi-Fi 分享</value></data>
+  <data name="LanShare.SelectCategories" xml:space="preserve"><value>选择要分享的词语类别</value></data>
+  <data name="LanShare.EmptyCategories" xml:space="preserve"><value>所选类别中没有可分享的词语。</value></data>
+  <data name="LanShare.ChooseCategory" xml:space="preserve"><value>来自“{0}”的词语要放入哪个类别？</value></data>
+  <data name="LanShare.PlaceIn" xml:space="preserve"><value>放入</value></data>
+  <data name="LanShare.CreateCategory" xml:space="preserve"><value>新建类别</value></data>
+  <data name="LanShare.CategoryNameInvalid" xml:space="preserve"><value>请输入不重复且不超过 40 字的类别名称。</value></data>
+  <data name="LanShare.SelectTitle" xml:space="preserve"><value>选择要分享的学习内容</value></data>
+  <data name="LanShare.ReceiveTitle" xml:space="preserve"><value>通过 Wi-Fi 接收</value></data>
+  <data name="LanShare.Hint" xml:space="preserve"><value>最多选择 100 项。拼音、译文以及所选个人录音会一同传输；接收设备会先预览再导入。</value></data>
+  <data name="LanShare.Selected" xml:space="preserve"><value>已选 {0} 项</value></data>
+  <data name="LanShare.SelectPage" xml:space="preserve"><value>选择本页</value></data>
+  <data name="LanShare.CancelSelection" xml:space="preserve"><value>退出选择模式</value></data>
+  <data name="LanShare.Clear" xml:space="preserve"><value>清空选择</value></data>
+  <data name="LanShare.Restricted" xml:space="preserve"><value>来源不允许分享</value></data>
+  <data name="LanShare.Limit" xml:space="preserve"><value>最多选择 100 项。</value></data>
+  <data name="LanShare.IncludeAudio" xml:space="preserve"><value>包含所选个人录音和首选录音设置</value></data>
+  <data name="LanShare.ChooseAudio" xml:space="preserve"><value>选择录音</value></data>
+  <data name="LanShare.WithAudio" xml:space="preserve"><value>附带我的录音</value></data>
+  <data name="LanShare.TextOnly" xml:space="preserve"><value>不含录音</value></data>
+  <data name="LanShare.AudioSummary" xml:space="preserve"><value>已选择 {0}/{1} 条录音</value></data>
+  <data name="LanShare.ConfirmRights" xml:space="preserve"><value>如有需要，我确认有权分享本人添加的文字及译文。</value></data>
+  <data name="LanShare.CreateRoom" xml:space="preserve"><value>准备内容并创建房间</value></data>
+  <data name="LanShare.SelectFirst" xml:space="preserve"><value>请至少选择一项内容。</value></data>
+  <data name="LanShare.Blocked" xml:space="preserve"><value>所选内容中有 {0} 项不能分享，请移除后重试。</value></data>
+  <data name="LanShare.RightsNeeded" xml:space="preserve"><value>请确认个人内容的分享权利。</value></data>
+  <data name="LanShare.Preparing" xml:space="preserve"><value>正在准备内容包…</value></data>
+  <data name="LanShare.Ready" xml:space="preserve"><value>内容包已准备好。</value></data>
+  <data name="LanShare.PackageTooLarge" xml:space="preserve"><value>内容包超过局域网分享的 32 MiB 限制，请少选一些内容或录音。</value></data>
+  <data name="LanShare.Changed" xml:space="preserve"><value>内容发生变化，请检查选择后重试。</value></data>
+  <data name="LanShare.Cancelled" xml:space="preserve"><value>已取消。</value></data>
+  <data name="LanShare.Failed" xml:space="preserve"><value>未能完成，请检查 Wi-Fi 后重试。</value></data>
+  <data name="LanShare.RoomTitle" xml:space="preserve"><value>Wi-Fi 分享房间</value></data>
+  <data name="LanShare.RoomCodeHint" xml:space="preserve"><value>两位房间号（00–99）</value></data>
+  <data name="LanShare.RoomCode" xml:space="preserve"><value>房间号</value></data>
+  <data name="LanShare.DirectAddressOption" xml:space="preserve"><value>找不到房间？输入发送方 IP</value></data>
+  <data name="LanShare.SenderAddressHint" xml:space="preserve"><value>发送方 IP（例如 192.168.1.10）</value></data>
+  <data name="LanShare.InvalidSenderAddress" xml:space="preserve"><value>请输入发送方显示的有效局域网 IPv4 地址。</value></data>
+  <data name="LanShare.InvalidRoomCode" xml:space="preserve"><value>请输入两位数字房间号，例如 07。</value></data>
+  <data name="LanShare.RoomReadyCode" xml:space="preserve"><value>房间 {0} 已开启。请接收方输入相同号码并刷新。</value></data>
+  <data name="LanShare.RefreshDevices" xml:space="preserve"><value>刷新设备</value></data>
+  <data name="LanShare.StartFirst" xml:space="preserve"><value>请先创建房间。</value></data>
+  <data name="LanShare.DevicesFound" xml:space="preserve"><value>当前有 {0} 台设备已加入。</value></data>
+  <data name="LanShare.FindRoom" xml:space="preserve"><value>查找房间</value></data>
+  <data name="LanShare.MatchingRooms" xml:space="preserve"><value>找到的发送设备</value></data>
+  <data name="LanShare.FindFirst" xml:space="preserve"><value>请先刷新查找并选择发送设备。</value></data>
+  <data name="LanShare.FindingRoom" xml:space="preserve"><value>正在局域网中查找房间…</value></data>
+  <data name="LanShare.WaitingForRoom" xml:space="preserve"><value>等待发送方创建房间，正在自动查找…</value></data>
+  <data name="LanShare.NoRooms" xml:space="preserve"><value>暂未找到该房间。确认发送方已创建房间后再刷新。</value></data>
+  <data name="LanShare.ChooseSender" xml:space="preserve"><value>有多个同号房间，请选择正确的发送设备并点击加入。</value></data>
+  <data name="LanShare.SameWifi" xml:space="preserve"><value>两端须处于同一局域网；传输期间请保持本页打开。</value></data>
+  <data name="LanShare.Address" xml:space="preserve"><value>本机局域网地址</value></data>
+  <data name="LanShare.NoWifi" xml:space="preserve"><value>未找到可用局域网地址。连接到局域网后重新打开本页。</value></data>
+  <data name="LanShare.StartRoom" xml:space="preserve"><value>创建房间</value></data>
+  <data name="LanShare.Devices" xml:space="preserve"><value>已加入的设备</value></data>
+  <data name="LanShare.SelectAllDevices" xml:space="preserve"><value>全选设备</value></data>
+  <data name="LanShare.Send" xml:space="preserve"><value>发送到所选设备</value></data>
+  <data name="LanShare.Sending" xml:space="preserve"><value>正在发送；每台设备会分别报告接收进度。</value></data>
+  <data name="LanShare.SendFinished" xml:space="preserve"><value>传输结束，请查看每台设备的结果。</value></data>
+  <data name="LanShare.JoinFailed" xml:space="preserve"><value>有设备加入失败。</value></data>
+  <data name="LanShare.State.Joined" xml:space="preserve"><value>已加入</value></data>
+  <data name="LanShare.State.Sending" xml:space="preserve"><value>发送中</value></data>
+  <data name="LanShare.State.Receiving" xml:space="preserve"><value>接收中</value></data>
+  <data name="LanShare.State.WaitingForImport" xml:space="preserve"><value>等待接收方确认导入</value></data>
+  <data name="LanShare.State.Completed" xml:space="preserve"><value>已导入</value></data>
+  <data name="LanShare.State.Rejected" xml:space="preserve"><value>已拒绝</value></data>
+  <data name="LanShare.State.Failed" xml:space="preserve"><value>连接失败</value></data>
+  <data name="LanShare.Join" xml:space="preserve"><value>加入房间</value></data>
+  <data name="LanShare.Connecting" xml:space="preserve"><value>正在安全连接…</value></data>
+  <data name="LanShare.ConnectTimeout" xml:space="preserve"><value>连接发送方超时。请保持房间打开，并确认两端应用已更新。</value></data>
+  <data name="LanShare.ConnectFailed" xml:space="preserve"><value>无法连接发送方。请确认房间仍在运行，且两端处于同一局域网。</value></data>
+  <data name="LanShare.SecureConnectFailed" xml:space="preserve"><value>安全连接失败。请更新两端应用后重新创建房间。</value></data>
+  <data name="LanShare.WaitingForSender" xml:space="preserve"><value>已加入，等待发送方选择本设备。</value></data>
+  <data name="LanShare.Receiving" xml:space="preserve"><value>已接收 {0:0.0} KiB…</value></data>
+  <data name="LanShare.ImportPreview" xml:space="preserve"><value>新增 {0} 项、复用 {1} 项；内容包内有 {2} 条录音（发送方选择 {3} 条）。发送方朗读引擎：{4}。要导入吗？</value></data>
+  <data name="LanShare.Import" xml:space="preserve"><value>导入</value></data>
+  <data name="LanShare.Imported" xml:space="preserve"><value>已导入 {0} 项、复用 {1} 项；可用的录音及首选录音设置也已导入。</value></data>
+  <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>未能向发送方确认结果，请在发送方查看设备状态。</value></data>
+  <data name="LanShare.InvalidPackage" xml:space="preserve"><value>内容包校验失败，未导入任何内容。</value></data>
 </root>

@@ -7,11 +7,47 @@ using HanMate.Core.Content;
 using HanMate.Infrastructure.Database;
 using HanMate.Infrastructure.Packages;
 using HanMate.Infrastructure.Pinyin;
+using HanMate.Infrastructure.Sharing;
 
 namespace HanMate.Infrastructure.Tests.Database;
 
 public sealed class AudioPackageTests
 {
+    [Fact]
+    public async Task LanShareImportsLearningContentAndPreferredRecording()
+    {
+        using var source = new Area(); using var target = new Area();
+        var document = await Seed(source); var recording = await Record(source, document);
+        using var package = await Export(source, document.Id, recording);
+        var packagePath = Path.Combine(source.Root, "lan.hanpack");
+        await File.WriteAllBytesAsync(packagePath, package.ToArray());
+
+        await using var room = await LanShareRoom.StartAsync("127.0.0.1");
+        await using var receiver = await LanShareReceiver.ConnectAsync(room.Invite, "receiver");
+        using var wait = new CancellationTokenSource(TimeSpan.FromSeconds(5));
+        while (room.Peers.Count == 0) await Task.Delay(20, wait.Token);
+        var peer = Assert.Single(room.Peers);
+        using var receivedBytes = new MemoryStream();
+        var sending = room.SendAsync([peer.Id], packagePath, new("Melo", 1));
+        var received = await receiver.ReceiveAsync(receivedBytes);
+        Assert.Equal(new LanAudioSettings("Melo", 1), received.AudioSettings);
+        receivedBytes.Position = 0;
+        var importer = new ContentPackageImportStore(target.Db);
+        var plan = await importer.PlanAsync(receivedBytes);
+        Assert.Equal(1, plan.Added); Assert.Equal(1, plan.AudioAdded);
+        var result = await importer.CommitAsync(plan);
+        await receiver.CompleteAsync(true);
+        await sending;
+
+        var imported = (await new SqliteContentDocumentStore(target.Db, new()).GetAsync(Assert.Single(result.ContentIds)))!.Document;
+        Assert.Equal(document.Title, imported.Title);
+        var track = Assert.Single(await new LocalAudioStore(target.Db).ListTracksAsync(imported.TextUnits[0].Id));
+        Assert.True(track.Preferred);
+        await using var playback = await new LocalAudioStore(target.Db).OpenPlaybackAsync("target", imported.TextUnits[0].Id);
+        using var audio = new MemoryStream(); await playback.Stream.CopyToAsync(audio);
+        Assert.Equal(Wave(), audio.ToArray());
+    }
+
     [Fact]
     public async Task SelectedRecordingsRoundTripWithDeduplicatedBytesAndRepeatImportReusesMappings()
     {

@@ -80,8 +80,8 @@ public sealed class ReadingAudioTests
                 Assert.All(LessonPresentation.Create(reading, HanMate.Core.Localization.UiLanguage.ChineseSimplified), b => Assert.Null(b.Translation));
                 if (kind == ContentKind.Poem)
                 {
-                    Assert.Equal(4, reading.Targets.Count);
-                    Assert.Equal(3, blocks.SelectMany(b => b.Atoms).Count(a => a.HardBreak));
+                    Assert.InRange(reading.Targets.Count, 3, 4);
+                    Assert.Equal(reading.Targets.Count - 1, blocks.SelectMany(b => b.Atoms).Count(a => a.HardBreak));
                 }
             }
             Assert.Equal(reading.Targets, blocks.Where(b => b.Target is not null).Select(b => b.Target).Distinct());
@@ -98,8 +98,8 @@ public sealed class ReadingAudioTests
         var added = rows.Items.Select(row => System.Text.Json.JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!)
             .Where(d => d.Source.SourceId == "hanmate-common-lessons").Select(d => d.Title).Order().ToArray();
         Assert.Equal((kind == ContentKind.Poem
-            ? new[] { "静夜思", "春晓", "咏鹅", "悯农（其二）", "登鹳雀楼", "江雪" }
-            : new[] { "自我介绍", "我的家", "一天的生活", "在学校", "去买东西", "问路" }).Order(), added);
+            ? new[] { "静夜思", "春晓", "咏鹅", "悯农（其二）", "登鹳雀楼", "江雪", "离骚（节选）", "鱼和熊掌不可兼得（《鱼我所欲也》节选）", "相思", "鹿柴" }
+            : new[] { "自我介绍", "我的家", "一天的生活", "在学校", "去买东西", "问路", "买菜对话", "点餐对话", "借书对话" }).Order(), added);
     }
 
     [Fact]
@@ -109,6 +109,9 @@ public sealed class ReadingAudioTests
         await new HanMate.Infrastructure.Catalog.BundledResourceCatalog(db, new(db)).EnsureInstalledAsync();
         var rows = await new LearningCatalogStore(db).QueryAsync(new(ContentKind.Grammar));
         Assert.NotEmpty(rows.Items);
+        var added = rows.Items.Select(row => System.Text.Json.JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!)
+            .Where(d => d.Source.SourceId == "hanmate-common-grammar").Select(d => d.Title).Order().ToArray();
+        Assert.Equal(new[] { "“有”表示拥有", "“会”表示学会的能力", "“想”表达愿望", "因为……所以……", "一边……一边……" }.Order(), added);
         var audio = new ReadingAudioStore(db);
         foreach (var row in rows.Items)
         {

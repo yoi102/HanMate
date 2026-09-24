@@ -64,6 +64,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<TextResourceInstaller>();
         builder.Services.AddSingleton<ContentShareStore>();
         builder.Services.AddSingleton<ContentPackageImportStore>();
+        builder.Services.AddSingleton<WordCategoryTransferStore>();
         builder.Services.AddSingleton<BackupExportStore>();
         builder.Services.AddSingleton<BackupImportStore>();
         builder.Services.AddSingleton<BackupReplacementStore>();

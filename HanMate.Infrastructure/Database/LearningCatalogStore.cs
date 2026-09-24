@@ -99,6 +99,36 @@ public sealed class LearningCatalogStore(HanMateDatabase database)
         return new(counts["all"], counts);
     }
 
+    /// <summary>One bounded lookup for category sharing; category overlaps produce one content ID.</summary>
+    public async Task<IReadOnlyList<Guid>> GetWordIdsForCategoriesAsync(
+        IReadOnlyCollection<string> categories, CancellationToken token = default)
+    {
+        if (categories.Count == 0) return [];
+        var custom = await new CustomWordCategoryStore(new VersionedLocalStateStore(database)).ListAsync(token);
+        var known = WordCategories.All.Concat(custom.Select(x => x.Id)).ToArray();
+        if (categories.Any(x => x != "all" && x != WordCategories.Other && !known.Contains(x)))
+            throw new ArgumentOutOfRangeException(nameof(categories));
+        await database.InitializeAsync(token);
+        using var connection = await database.OpenConnectionAsync(token);
+        using var command = connection.CreateCommand();
+        command.CommandText = "SELECT DISTINCT c.id " + Joins + " WHERE " + Visible + " AND c.kind='word' AND " + """
+            ($all=1 OR EXISTS(SELECT 1 FROM json_each(c.body_json,'$.scenes') scene
+                JOIN json_each($selectedScenes) chosen ON scene.value=chosen.value) OR
+            ($other=1 AND NOT EXISTS(SELECT 1 FROM json_each(c.body_json,'$.scenes') scene
+                JOIN json_each($knownScenes) known ON scene.value=known.value)))
+            LIMIT 101
+            """;
+        command.Parameters.AddWithValue("$all", categories.Contains("all") ? 1 : 0);
+        command.Parameters.AddWithValue("$other", categories.Contains(WordCategories.Other) ? 1 : 0);
+        command.Parameters.AddWithValue("$selectedScenes", JsonSerializer.Serialize(categories
+            .Where(x => x != "all" && x != WordCategories.Other).Select(WordCategories.Scene)));
+        command.Parameters.AddWithValue("$knownScenes", JsonSerializer.Serialize(known.Select(WordCategories.Scene)));
+        using var reader = await command.ExecuteReaderAsync(token);
+        var ids = new List<Guid>();
+        while (await reader.ReadAsync(token)) ids.Add(Guid.Parse(reader.GetString(0)));
+        return ids;
+    }
+
     public async Task<IReadOnlyList<string>> GetScenesAsync(ContentKind kind, CancellationToken token = default)
     {
         await database.InitializeAsync(token); using var connection = await database.OpenConnectionAsync(token);

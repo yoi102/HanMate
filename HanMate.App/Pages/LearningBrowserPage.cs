@@ -31,6 +31,7 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
     protected override async Task ReloadAsync()
     {
         await ResetWordPlaybackAsync();
+        EnsureMoreMenu();
         Status = LibraryLayout.Status();
         this.SetDynamicResource(StyleProperty, "LibraryPage");
         var result = await Task.Run(() => store.QueryAsync(new(kind, _difficulty, _stage, _grade, _scenes.ToArray(), _personal, wordCategory), _offset));
@@ -38,29 +39,14 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         Title = wordCategory is not null ? wordCategoryName ?? Language["WordCategories." + wordCategory]
             : kind == ContentKind.Grammar ? Language.KindGrammar : Language["Kind." + kind];
         var header = new VerticalStackLayout { Spacing = 10 };
-        if (kind == ContentKind.Word)
-        {
+        if (kind == ContentKind.Word && !_shareSelecting)
             header.Add(LibraryLayout.Muted(Language["LearningWords.Gesture"]));
-            var create = new Button { Text = Language["WordEditor.NewWord"], AutomationId = "Learning.NewWord" };
-            create.Clicked += async (_, _) => await RunAsync(async () =>
-            {
-                if (Handler?.MauiContext?.Services is { } services)
-                    await Navigation.PushAsync(new PersonalWordEditorPage(wordCategory ?? WordCategories.Other, null,
-                        services.GetRequiredService<PersonalWordStore>(), services.GetRequiredService<CustomWordCategoryStore>(), Language));
-            });
-            header.Add(create);
-        }
-        else if (kind is ContentKind.Text or ContentKind.Poem or ContentKind.Grammar)
+        if (_shareSelecting)
         {
-            var create = new Button { Text = Language["LearningEdit.New"], AutomationId = "Learning.NewContent" };
-            create.Clicked += async (_, _) => await RunAsync(async () =>
-            {
-                if (Handler?.MauiContext?.Services is { } services)
-                    await Navigation.PushAsync(new PersonalLearningEditorPage(kind, null,
-                        services.GetRequiredService<PersonalLearningStore>(), Language));
-            });
-            header.Add(create);
+            _shareSelectionLabel = LibraryLayout.Muted(string.Format(Language["LanShare.Selected"], _shareSelected.Count));
+            header.Add(_shareSelectionLabel);
         }
+        else _shareSelectionLabel = null;
         var filters = LibraryLayout.Quiet(Button("Filters", async () => { _expanded = !_expanded; await ReloadAsync(); }));
         filters.AutomationId = "Library.Filters";
         var toolbar = new Grid { ColumnDefinitions = { new(GridLength.Star), new(GridLength.Auto) } };
@@ -116,6 +102,13 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
                         await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language, services)));
                 };
             }))) };
+        var restoreIndex = _restoreSelectionPosition ? Math.Min(_visibleRowIndex, result.Items.Count - 1) : -1;
+        _restoreSelectionPosition = false;
+        if (restoreIndex < 0) _visibleRowIndex = 0;
+        rows.Scrolled += (_, e) => { if (e.FirstVisibleItemIndex >= 0) _visibleRowIndex = e.FirstVisibleItemIndex; };
+        if (restoreIndex >= 0)
+            rows.Loaded += (_, _) => rows.ScrollTo(restoreIndex, position: ScrollToPosition.Start, animate: false);
+        if (_shareSelecting) rows.Footer = new BoxView { HeightRequest = 76, Opacity = 0, InputTransparent = true };
         if (kind == ContentKind.Word)
         {
             var words = await Task.Run(() => result.Items.Select(row =>
@@ -123,18 +116,18 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
                 var document = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
                 return new WordListItem(document, document.TextUnits.Single(u => u.Role == TextUnitRole.Headword));
             }).ToArray());
-            rows.ItemTemplate = new WordCardTemplateSelector(this);
+            rows.ItemTemplate = _shareSelecting ? new DataTemplate(CreateShareSelectionCard) : new WordCardTemplateSelector(this);
             rows.ItemsSource = words;
         }
         else if (kind == ContentKind.Grammar)
         {
-            rows.ItemTemplate = new DataTemplate(CreateGrammarCard);
+            rows.ItemTemplate = new DataTemplate(_shareSelecting ? CreateShareSelectionCard : CreateGrammarCard);
             rows.ItemsSource = await Task.Run(() => result.Items.Select(row =>
                 JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!).ToArray());
         }
         else if (kind is ContentKind.Text or ContentKind.Poem)
         {
-            rows.ItemTemplate = new DataTemplate(CreateLessonCard);
+            rows.ItemTemplate = new DataTemplate(_shareSelecting ? CreateShareSelectionCard : CreateLessonCard);
             rows.ItemsSource = await Task.Run(() => result.Items.Select(row =>
                 JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!).ToArray());
         }
@@ -147,6 +140,8 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         grid.SizeChanged += (_, _) => { if (grid.Height > 0) filterScroll.MaximumHeightRequest = Math.Min(_expanded ? 380 : 220, grid.Height * .4); };
         // The result count must stay outside the deliberately bounded filter viewport.
         grid.Add(filterScroll); grid.Add(Status, 0, 1); grid.Add(rows, 0, 2);
+        if (_shareSelecting) grid.Add(CreateShareFloatingButton(), 0, 2);
+        else { _shareAction = null; _shareCount = null; }
         grid.Add(LibraryLayout.Paging(previous, next, result.Total > 50), 0, 3); Content = grid;
         if (kind == ContentKind.Word)
         {

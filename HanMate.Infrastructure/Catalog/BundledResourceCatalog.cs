@@ -9,7 +9,7 @@ namespace HanMate.Infrastructure.Catalog;
 public sealed class BundledResourceCatalog(HanMateDatabase database, TextResourceInstaller installer)
 {
     public const string Version = "1.0.1";
-    public const string LearningVersion = "1.0.5";
+    public const string LearningVersion = "1.0.6";
     private readonly SemaphoreSlim _gate = new(1, 1);
     public static readonly Guid LearningId = Guid.Parse("48078b10-37d3-5e6c-898b-1c3eda38f629");
     public static readonly Guid DictionaryId = Guid.Parse("623598a5-6f26-52ad-bae5-a06868d8f079");
@@ -28,7 +28,7 @@ public sealed class BundledResourceCatalog(HanMateDatabase database, TextResourc
         await _gate.WaitAsync(cancellationToken).ConfigureAwait(false);
         try
         {
-            await Install("learning", LearningId, LearningVersion, "68e422eff03933b17515b57288005ca27148b78917368c3c2ae655ed652d9361");
+            await Install("learning", LearningId, LearningVersion, "982aacac2174f3c1170fe99390dd9bbf00a9380b7bdcfca7bea0f567625ffe23");
             await Install("dictionary", DictionaryId, Version, "95e7ed1065b1180de7e8671c1d8872d1de7bd3c758e93f75236c06623a04dcaf");
         }
         finally { _gate.Release(); }
