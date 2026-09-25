@@ -1,4 +1,6 @@
-# HanMate 收尾计划
+# HanMate 历史收尾计划
+
+本文记录 2026-09-19—23 的阶段顺序与当时判断，保留作为执行证据索引；其中旧数量、旧设备状态和“下一阶段”不代表当前待办。现在请以 [STATUS](STATUS.md)、[REMAINING_WORK](REMAINING_WORK.md) 和 [后置发布门禁](deferred-release-gates.json) 为准。
 
 2026-09-23更新：用户恢复除iOS以外的剩余工作并要求关闭HM-D019。该问题记为`CLOSED_BY_REQUEST`、根因未知，见[结案记录](evidence/HM-D019-CLOSURE-20260923.md)；W5-01/05/07仍须完成各自平台验收，不因结案自动升为DONE。
 

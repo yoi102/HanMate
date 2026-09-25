@@ -126,7 +126,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 開発状況と資料
 
-現在も開発を継続しています。2026-09-21 のお気に入り画面の遷移修正は、関連する自動テスト 16 件、Windows Release ビルド、Android Debug ビルドに合格しました。この修正の端末操作検証は未実施です。ビルドの成功は製品全体の受け入れ完了や正式公開の承認を意味しません。
+2026-09-26 時点で、Windows / Android の主要機能は実装済みで、[v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) を GitHub の公開プレビューとして配布しています。内部作業の進捗は **45/48** です。残りは実機の性能・アクセシビリティ、P0 全件回帰、リソース・共有・移行の両環境での検証です。適切な Melo 中国語男性音声、教材と音声の最終確認、第三者素材の再配布権、正式署名、ストア公開も未完了です。iOS は延期中です。GitHub プレビューは製品全体の受け入れやストア公開を意味しません。
 
 - [開発状況](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [引き継ぎ](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

@@ -126,7 +126,7 @@ Shared files and backups can contain personal text or recordings. Do not commit 
 
 ## Status and documentation
 
-HanMate is under active development. On 2026-09-21, the favorites navigation change passed 16 related automated tests, a Windows Release build and an Android Debug build; device interaction checks for that change remain outstanding. A successful build is not full product acceptance or release approval.
+As of 2026-09-26, the main Windows and Android features are implemented, and [v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) is a public GitHub preview. The internal work ledger remains at **45/48**: reference-device performance and accessibility, complete P0 regression, and cross-platform resource/sharing/migration checks remain open. A suitable Melo Chinese male voice, final teaching and audio review, third-party redistribution rights, production signing, and Store releases also remain open. iOS is deferred. A GitHub preview is not full product acceptance or a Store release.
 
 - [Development status](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [Handoff](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

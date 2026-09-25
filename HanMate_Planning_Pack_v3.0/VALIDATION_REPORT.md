@@ -1,12 +1,12 @@
 # HanMate v3.0 文档包校验报告
 
-校验时间（UTC）：2026-09-23T10:22:35.180697+00:00。此报告仅覆盖开发文档、契约与工程样例，**不是 MAUI 应用测试报告**。
+校验时间（UTC）：2026-09-25T15:06:14.801842+00:00。此报告仅覆盖开发文档、契约与工程样例，**不是 MAUI 应用测试报告**。
 
 执行命令：`python tools/verify_bundle.py --write-report`
 
 | 项目 | 结果 | 实际检查 |
 |---|---|---|
-| 本地链接与代码围栏 | PASS | 390 local Markdown links exist; fences balanced (excluding archive) |
+| 本地链接与代码围栏 | PASS | 351 local Markdown links exist; fences balanced (excluding archive) |
 | JSON Schema 结构 | PASS | 10 Draft 2020-12 schemas structurally valid |
 | 样例 JSON 与字音引用 | PASS | 15 JSON fixtures; 24 contents; 73 playback targets; ranges, tones, highlighter checked |
 | 内容包清单/哈希 | PASS | content: 3 files, 24 contents, 0 resources, 0 audio assets; fixture structure/hash/references valid |

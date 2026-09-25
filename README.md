@@ -126,7 +126,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 当前状态与资料
 
-本项目处于持续开发阶段。2026-09-21 的收藏详情跳转改动已通过 16 项相关自动测试、Windows Release 和 Android Debug 构建；本次改动尚未完成设备交互验证。构建通过不代表完整产品验收或正式发行。
+截至 2026-09-26，Windows / Android 的主要功能已实现，GitHub [v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) 为公开预览版。内部工作包按既定口径为 **45/48**；剩余 3 项集中在参考设备性能与无障碍、完整 P0 回归，以及学习资源/分享/迁移的跨平台验收。另有 Melo 中文男声来源、教学内容与录音审校、第三方资源分发权利、正式签名和商店上架尚未完成。iOS 依既定决定暂缓。GitHub 预览发布不等于商店发布或正式验收。
 
 - [开发状态](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [交接说明](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

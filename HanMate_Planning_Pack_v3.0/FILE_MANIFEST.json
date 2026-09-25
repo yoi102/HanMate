@@ -13,8 +13,8 @@
   "files": [
     {
       "path": "AGENTS.md",
-      "byteLength": 5441,
-      "sha256": "0198e862756e24b606f4b271d1e5349a2789754ffe3c64532ebe9b85b4cc02b5"
+      "byteLength": 5484,
+      "sha256": "14a9aa2c54d34e83450727c4541358bb7077b43cd20d8e08536e3b0e8fb3998b"
     },
     {
       "path": "archive/HanMate_AI_Development_Spec_v1.0.md",
@@ -118,8 +118,8 @@
     },
     {
       "path": "delivery/README.md",
-      "byteLength": 2192,
-      "sha256": "4d777672d762059d86cb503bc4920db3b58fbc62251f4fc589b888c40e0fd4c4"
+      "byteLength": 2519,
+      "sha256": "62e27f001d08ad19e4926212bcebfb9e96ec30e7afb8b8712f501db90699a445"
     },
     {
       "path": "delivery/RECOVERY.md",
@@ -433,8 +433,8 @@
     },
     {
       "path": "README.md",
-      "byteLength": 8584,
-      "sha256": "410cf4b28a264fb649d7bf4b92ce7bb6a42de1832d231f2a7d4dc32542ce0446"
+      "byteLength": 7897,
+      "sha256": "79b3224aa83ef9b8988e8e78b68eb985e3a4256e7b987f35ea7d6fcebeabbcaf"
     },
     {
       "path": "REVIEW_NOTES.md",
@@ -569,7 +569,7 @@
     {
       "path": "tools/validated-environment.json",
       "byteLength": 279,
-      "sha256": "bcae6cd72091f85269d20d74467d7a02f8b5664db06d9d176c997642188f2914"
+      "sha256": "75c52c3c0c86f190299a81f777235ab619f09bbc45394b87b0ba9247656de8b5"
     },
     {
       "path": "tools/verify_bundle.py",
@@ -598,8 +598,8 @@
     },
     {
       "path": "tracking/COMPLETION_PLAN.md",
-      "byteLength": 16628,
-      "sha256": "0c1396f1ec812cbb851b9f0556558a759f463b345755320a17c301ed62fa8b5f"
+      "byteLength": 16945,
+      "sha256": "061482189d2955f9bad30db4f86c7f3d0e526195a4f7e58f951c59ba2e6f3746"
     },
     {
       "path": "tracking/content-inventory.csv",
@@ -1193,8 +1193,8 @@
     },
     {
       "path": "tracking/HANDOFF.md",
-      "byteLength": 61563,
-      "sha256": "3ac52c976feed39ddd4413577cac92d0eb545668494b00cbac0dba27dbacdd57"
+      "byteLength": 49780,
+      "sha256": "83fdd674d7761b3ff869ce57aa446b95e112acac2cc2d04cf2f9aa2928d2c66d"
     },
     {
       "path": "tracking/internal-delivery-scope.json",
@@ -1203,13 +1203,13 @@
     },
     {
       "path": "tracking/ISSUES.md",
-      "byteLength": 29418,
-      "sha256": "efe5f1a9e31b41180cf7e27e6373e863c818d00c18170474f331be5d53ddb621"
+      "byteLength": 29457,
+      "sha256": "add85b9fe6d33037b07e4a6267107780c6246f1b02f90e246e3554fd996edc41"
     },
     {
       "path": "tracking/REMAINING_WORK.md",
-      "byteLength": 13604,
-      "sha256": "66c7b37c1b6ee1e7f74a98007a4fcd7ea96a92603daae44731327da8e378d7cc"
+      "byteLength": 8586,
+      "sha256": "889f9fde61da1e7ffecba0f82151c864de70bbd7e07c9e9436bd397e5b8e4814"
     },
     {
       "path": "tracking/requirements.csv",
@@ -1263,8 +1263,8 @@
     },
     {
       "path": "tracking/review/README.md",
-      "byteLength": 10902,
-      "sha256": "f2b3eb0009a25906f64ea203dba1c411b41cddfae22e33fca0eee62c7fce9871"
+      "byteLength": 10898,
+      "sha256": "65b4f7e1cabb58d074428325856336a2051edf073f149537814ee9791567aaa0"
     },
     {
       "path": "tracking/review/review-decisions.json",
@@ -1278,8 +1278,8 @@
     },
     {
       "path": "tracking/STATUS.md",
-      "byteLength": 47929,
-      "sha256": "6d00880673d2553d7e829f54f67ff31fb42408b5955811884e13a992120e9922"
+      "byteLength": 39063,
+      "sha256": "bf8be03f86194888db9e138afc100618b544dcd2b60f0ac108895e13df0e4ae9"
     },
     {
       "path": "tracking/TEST_MATRIX.md",
@@ -1294,7 +1294,7 @@
     {
       "path": "VALIDATION_REPORT.md",
       "byteLength": 3398,
-      "sha256": "bf2557d00ea90c54875edfdf0c59e5ea0fede2b81198ed84abcae2d64b022b3b"
+      "sha256": "c0e6e49deb62281144513afbffaff7372d4a9a965219fafc0c99290da131322d"
     }
   ]
 }

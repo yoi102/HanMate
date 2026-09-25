@@ -1,6 +1,6 @@
 # HanMate · 汉语小伴 · 完整规划与开发文档 v3.0
 
-> 更新日期：2026-09-20。正式名称已确认。.NET MAUI · iOS / Android / Windows。
+> 当前状态核对：2026-09-26。正式名称为 HanMate / 汉语小伴；.NET MAUI · Windows / Android，iOS 暂缓。
 > 当前已有应用实现和聚焦运行证据；本规划包记录规格、实际进度与未完成门禁，不代表正式发布完成。
 
 ## 先看什么
@@ -9,13 +9,7 @@
 
 开发AI先读 [AGENTS](AGENTS.md)、[状态](tracking/STATUS.md)、[交接](tracking/HANDOFF.md)，再按 [任务](docs/21_Implementation_Backlog.md) 继续。有现成代码先审计复用，不无授权重建或清库。
 
-D8已完成45/48内部开发交付（ADR-106）：两平台开发构建、源码/哈希、待审内容、隐私/恢复指南见[交付入口](delivery/README.md)与[D8证据](tracking/evidence/STAGE-D8-20260920.md)。新增42个例字组成词，251/256处同字同读音配对并相邻展示。本轮应用测试暂缓、iOS排除；正式审校/签名/商店发布单列后置。
-
-D9已完成584个不同自动用例的回归收口，修复D8新增例词后的测试基线；用户回复“先不调试”，设备/UI验收仍暂停，当前保持45/48。见[D9证据](tracking/evidence/STAGE-D9-20260920.md)。
-
-收藏、学习及设置已完成一轮界面简化；两平台Release构建通过，设备/界面调试按用户要求暂缓，见[界面改动记录](tracking/evidence/UI-CLEANUP-20260920.md)。
-
-历史D5后续以[剩余工作清单](tracking/REMAINING_WORK.md)和[收尾计划](tracking/COMPLETION_PLAN.md)为入口：iOS暂缓；D5已补设置换行、字典展开保位/原文入口及默认库审核工具；测试恢复后先定位原生崩溃、复验字体重建语言切换和Windows UI。简体字典、离线释义注音、例句高亮和拼音显隐保位已实现；内容审核与正式发行仍未完成。
+当前 Windows / Android 主要功能已实现，GitHub `v0.1.3` 已公开为预览版。内部进度仍为 **45/48**：W5-01、W5-05、W5-07 的设备/无障碍、完整 P0 及资源/分享/迁移验收未结项。Melo 中文男声、内容与权利终审、正式签名和商店发布仍另行开放。请先看[当前状态](tracking/STATUS.md)、[剩余工作](tracking/REMAINING_WORK.md)和[交接](tracking/HANDOFF.md)；历史阶段结论与原始证据仍保留在 `tracking/evidence/`，不作为当前完成声明。
 
 ## 版本范围
 

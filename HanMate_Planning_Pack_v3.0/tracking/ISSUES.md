@@ -16,7 +16,7 @@
 | DICTIONARY-AUDIT / R04 | 工具缺口FIXED，终审OPEN | 当前清单1,394对象均待审；1库对象+293批覆盖292,114条并接入发布门禁，0条批次终审 |
 | AUDIO-REVIEW / R06/R11 | OPEN | AI教学听感、394录音确切许可、原录音ong及正式日英/内容审核未关闭 |
 | PLATFORM-ACCEPTANCE / R07—R10 | PARTIAL / NOT RUN | D7实际短录音/权限已验；大字号/读屏、完整音频路由/压力、设备故障与全量回归仍待验 |
-| RELEASE / R12 | BLOCKED | 占位身份/签名和商店资料未定；当前预检6组阻塞；内部交付已完成，正式条件按ADR-106转入RG-01—07，均未通过 |
+| RELEASE / R12 | BLOCKED | GitHub `v0.1.3` 已公开为预览；商店仍未发布。2026-09-23 最近一次预检5组阻塞、Windows publisher PASS；正式签名/升级、商店资料和RG-01—07均未通过 |
 | ENV-02 / R13 | 本轮排除 | 用户明确不管iOS，按ADR-105不参与本轮DONE判断；保留后续延期清单 |
 | HM-D019 | CLOSED_BY_REQUEST / 残余风险记录 | 中间APK长释义滚动Mono原生SIGSEGV；根因未确认、未标FIXED。用户要求结案，后续隔离Android 3+5轮未复现；再现即重开，见[决定与证据](evidence/HM-D019-CLOSURE-20260923.md) |
 | HM-D020 | 修复实施，按设备范围复验 | 字体重建后语言通知被旧页面中断；限制旧页面刷新并逐订阅者隔离，记录无正文诊断 |

@@ -1,17 +1,17 @@
 # 拼音、字典与AI声音审核入口
 
-## 当前范围 · 2026-09-20
+## 当前范围 · 2026-09-26
 
-这是待审核材料，不能当作正式听审/语言审校结论。现有报告包含1444对象：440份学习/拼音内容、882单元、394录音、63教学项、174音色，以及资源/模型/展示注音、75条辅助例句、默认库版本/权利与293审校批次；1444项均待审。课程为417例字词，辅助例句覆盖70字词；这些不同口径不能相加成为“已审词条数”。
+这是待审核材料，不能当作正式听审/语言审校结论。当前 [content-audit.json](content-audit.json) 记录 **1,394 个待审对象**，其中内容 562、音频 395，并单列默认库权利与 293 个词典审核批次；1,222 个文本单元是内容内部结构，不能与对象数相加。课程教学项、例字词、辅助例句和模型音色各有不同统计口径，不应合并为“已审词条数”。
 
 独立chinese-xinhua默认库已纳入发布审核门禁：1个库版本/权利对象和293批内容/拼音对象覆盖全部292,114条，每批最多1000条。扫描实际GZip/SQLite验证哈希与条数，按词频、字头、UUID固定顺序分批；任一成员或版本改变，审核哈希随之改变。[批次清单](dictionary-batch-inventory.csv)和[机器报告](content-audit.json)提供范围，当前**0条完成整批内容与拼音审核，292,114条未完成**。两个Catalog ZIP中的dictionary草稿库不等于该默认词库。
 
 在仓库根目录运行`python tools/dictionary_review_batches.py --batch dictionary-batch:xinhua:0001 --output <temporary-path>/batch-0001.json`导出首批高频词，文件含完整源记录、逐条哈希和`reviewSubjectSha256`。人工批次决策还须填写`allEntriesReviewed: true`与准确`reviewedEntries`，抽样不能整批放行；程序不能证明审核人确实逐条看过，仍需要真实证据。`NOASSERTION`权利状态保持阻塞，不因用户选择本地使用而放行公开分发。
 
-- 当前`content_review_audit.py --check`为派生文件一致性检查；`--release`会在待审/缺录音/许可不明时失败。440 CONTENT_DRAFT、394 LICENSE_VERSION_UNRESOLVED、47 READING_RECHECK、1 DEMO_MISSING、1 DICTIONARY_RIGHTS_UNRESOLVED仍存在；READING_RECHECK不等于已确认错音。
+- `content_review_audit.py --check`为派生文件一致性检查；`--release`会在待审/缺录音/许可不明时失败。当前报告记录 562 个 CONTENT_DRAFT、395 个 LICENSE_VERSION_UNRESOLVED、177 个 READING_RECHECK、1 个 DEMO_MISSING、1 个 DICTIONARY_RIGHTS_UNRESOLVED；READING_RECHECK 不等于已确认错音。
 - 原录音分支缺独立ong；启用已下载AI后可按明确教学音素合成ong，不用dong冒充。教学和可解析字典词头已接明确拼音；普通全文AI与系统TTS仍按正文合成。
-- 当前模型8kHz，174音色非静音验证不等于听审。默认067只是工具预设，不是已审推荐；用户现有选择（曾为088）不因审核而重设。
-- [content-review.html](content-review.html)提供学习正文/注音/译文及394录音的浏览试听。展示注音、辅助例句和默认库审核对象在[content-audit.json](content-audit.json)中；默认库通过上述命令逐批导出，HTML不展示全部29万条。
+- 合成器有声音输出不等于发音准确或已听审；用户的声音选择不因审核而重设。
+- [content-review.html](content-review.html)提供学习正文、注音、译文及随附音频的浏览试听。展示注音、辅助例句和默认库审核对象在[content-audit.json](content-audit.json)中；默认库通过上述命令逐批导出，HTML不展示全部29万条。
 
 在仓库根目录运行`python tools/content_review_audit.py --write --check`更新派生材料，运行`python tools/build_voice_review_inventory.py`重建63教学项和224录音的清单。人工决策在`review-decisions.json`中绑定subjectId、当前sha256、dimension、PASS/FAIL、method=human、真实reviewer、ISO日期和实际evidence；程序只检查记录结构，不验证审核者身份。没有真实审核就保留NOT RUN，不填示例签名。
 
