@@ -10,6 +10,7 @@ namespace HanMate.App.Platforms.Windows;
 public sealed class RootReturningShellItemHandler : ShellItemHandler
 {
     private DispatcherTimer? _holdTimer;
+    private Updates.AppUpdateAvailability? _updates;
     private ShellSection? _pressedSection;
     private uint? _pointerId;
     private global::Windows.Foundation.Point _pressPosition;
@@ -19,6 +20,13 @@ public sealed class RootReturningShellItemHandler : ShellItemHandler
     {
         base.ConnectHandler(platformView);
         if (platformView is not NavigationView view) return;
+        if (VirtualView.Parent is AppShell shell)
+        {
+            _updates = shell.UpdateAvailability;
+            _updates.Changed += UpdateAvailabilityChanged;
+        }
+        view.Loaded += ViewLoaded;
+        ApplyUpdateBadge();
         view.ItemInvoked += ItemInvoked;
         view.AddHandler(UIElement.PointerPressedEvent, new PointerEventHandler(PointerPressed), true);
         view.AddHandler(UIElement.PointerReleasedEvent, new PointerEventHandler(PointerEnded), true);
@@ -36,6 +44,7 @@ public sealed class RootReturningShellItemHandler : ShellItemHandler
         if (platformView is NavigationView view)
         {
             view.ItemInvoked -= ItemInvoked;
+            view.Loaded -= ViewLoaded;
             view.RemoveHandler(UIElement.PointerPressedEvent, new PointerEventHandler(PointerPressed));
             view.RemoveHandler(UIElement.PointerReleasedEvent, new PointerEventHandler(PointerEnded));
             view.RemoveHandler(UIElement.PointerCanceledEvent, new PointerEventHandler(PointerEnded));
@@ -47,7 +56,24 @@ public sealed class RootReturningShellItemHandler : ShellItemHandler
         CancelHold();
         if (_holdTimer is not null) _holdTimer.Tick -= HoldElapsed;
         _holdTimer = null;
+        if (_updates is not null) _updates.Changed -= UpdateAvailabilityChanged;
+        _updates = null;
         base.DisconnectHandler(platformView);
+    }
+
+    private void ViewLoaded(object sender, RoutedEventArgs e) => ApplyUpdateBadge();
+    private void UpdateAvailabilityChanged(object? sender, EventArgs e) =>
+        PlatformView.DispatcherQueue.TryEnqueue(ApplyUpdateBadge);
+    private void ApplyUpdateBadge()
+    {
+        if (_updates is null || PlatformView is not NavigationView view ||
+            view.MenuItemsSource is not System.Collections.IEnumerable models) return;
+        var settingsModel = models.Cast<object>().LastOrDefault();
+        if (settingsModel is null || view.ContainerFromMenuItem(settingsModel) is not NavigationViewItem settingsItem) return;
+        if (_updates.HasUpdate)
+            settingsItem.InfoBadge ??= new InfoBadge
+            { Background = new Microsoft.UI.Xaml.Media.SolidColorBrush(Microsoft.UI.Colors.Red) };
+        else settingsItem.InfoBadge = null;
     }
 
     private ShellSection? SectionFor(NavigationViewItemBase? container)

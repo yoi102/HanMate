@@ -79,6 +79,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<PlaybackCoordinator>();
         builder.Services.AddSingleton<PinyinSpeechService>();
         builder.Services.AddSingleton<LocalizationService>();
+        builder.Services.AddSingleton<HanMate.App.Updates.AppUpdateAvailability>();
         // A reopened Android window has a new MAUI context. Reusing a singleton
         // visual tree also reuses handlers tied to the destroyed window's scope.
         builder.Services.AddTransient<PinyinPage>();

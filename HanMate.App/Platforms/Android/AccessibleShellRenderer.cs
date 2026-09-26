@@ -32,6 +32,7 @@ public sealed class AccessibleShellRenderer(Context context) : ShellRenderer(con
         { _context = context; _item = item; }
 
         private BottomNavigationView? _view;
+        private Updates.AppUpdateAvailability? _updates;
         private ViewTreeObserver? _observer;
         private readonly HashSet<global::Android.Views.View> _tabs = [];
         public override void SetAppearance(BottomNavigationView bottomView, IShellAppearanceElement appearance)
@@ -41,6 +42,11 @@ public sealed class AccessibleShellRenderer(Context context) : ShellRenderer(con
 
         private void Attach(BottomNavigationView view)
         {
+            if (_updates is null && _context.Shell is AppShell shell)
+            {
+                _updates = shell.UpdateAvailability;
+                _updates.Changed += UpdateAvailabilityChanged;
+            }
             if (_view != view)
             {
                 if (_observer?.IsAlive == true) _observer.GlobalLayout -= GlobalLayout;
@@ -49,6 +55,20 @@ public sealed class AccessibleShellRenderer(Context context) : ShellRenderer(con
                 if (_observer is not null) _observer.GlobalLayout += GlobalLayout;
             }
             WrapLabels();
+            ApplyUpdateBadge();
+        }
+        private void UpdateAvailabilityChanged(object? sender, EventArgs e) => MainThread.BeginInvokeOnMainThread(ApplyUpdateBadge);
+        private void ApplyUpdateBadge()
+        {
+            if (_view is not { } view || view.Menu.Size() == 0 || _updates is null) return;
+            var itemId = view.Menu.GetItem(view.Menu.Size() - 1)?.ItemId;
+            if (itemId is null) return;
+            if (_updates.HasUpdate)
+            {
+                var badge = view.GetOrCreateBadge(itemId.Value);
+                badge.BackgroundColor = global::Android.Graphics.Color.ParseColor("#E53935");
+            }
+            else view.RemoveBadge(itemId.Value);
         }
         private void GlobalLayout(object? sender, EventArgs e) => WrapLabels();
         private void WrapLabels()
@@ -143,6 +163,8 @@ public sealed class AccessibleShellRenderer(Context context) : ShellRenderer(con
             if (disposing)
             {
                 if (_observer?.IsAlive == true) _observer.GlobalLayout -= GlobalLayout;
+                if (_updates is not null) _updates.Changed -= UpdateAvailabilityChanged;
+                _updates = null;
                 _observer = null; _view = null;
                 DetachTabs();
             }

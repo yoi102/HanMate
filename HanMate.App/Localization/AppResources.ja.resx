@@ -977,4 +977,15 @@
   <data name="LanShare.Imported" xml:space="preserve"><value>{0} 件を取り込み、{1} 件を再利用しました。利用可能な録音と優先録音の設定も取り込みました。</value></data>
   <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>送信側に結果を通知できませんでした。送信側で端末の状態を確認してください。</value></data>
   <data name="LanShare.InvalidPackage" xml:space="preserve"><value>パッケージ検証に失敗し、何も取り込みませんでした。</value></data>
+  <data name="Update.Group" xml:space="preserve"><value>アプリの更新</value></data>
+  <data name="Update.Check" xml:space="preserve"><value>更新を確認</value></data>
+  <data name="Update.Checking" xml:space="preserve"><value>GitHub のリリースを確認中…</value></data>
+  <data name="Update.Current" xml:space="preserve"><value>利用可能な最新版です（{0}）。</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>新しいバージョン {0} があります。</value></data>
+  <data name="Update.Unavailable" xml:space="preserve"><value>更新を確認できません。通信を確認して再試行してください。</value></data>
+  <data name="Update.Unsupported" xml:space="preserve"><value>この環境では GitHub の更新確認に対応していません。</value></data>
+  <data name="Update.AvailableHint" xml:space="preserve"><value>新しいバージョンがあります</value></data>
+  <data name="Update.OpenFailed" xml:space="preserve"><value>リリースページを開けません。後でもう一度お試しください。</value></data>
+  <data name="Update.ViewRelease" xml:space="preserve"><value>リリースを見る</value></data>
+  <data name="Privacy.Updates" xml:space="preserve"><value>アプリ起動時にバックグラウンドで HanMate の GitHub Releases API を確認します。設定から手動確認もできます。GitHub には通信に必要な IP アドレスとリクエスト情報が渡りますが、本文、録音、お気に入り、設定は送信しません。新版があるときは設定に赤い印だけを表示し、ポップアップは出しません。ダウンロードとインストールは GitHub リリースページとシステム画面で確認します。</value></data>
 </root>

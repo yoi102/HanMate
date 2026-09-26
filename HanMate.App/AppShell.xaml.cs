@@ -3,7 +3,10 @@
 public partial class AppShell : Shell
 {
     private readonly Microsoft.Extensions.Logging.ILogger<AppShell> _logger;
+    private readonly Localization.LocalizationService _localization;
+    internal Updates.AppUpdateAvailability UpdateAvailability { get; }
     private bool _returningToRoot;
+    private bool _startupUpdateCheckStarted;
 
     public AppShell(
         Localization.LocalizationService localization,
@@ -12,10 +15,13 @@ public partial class AppShell : Shell
         Pages.SearchPage searchPage,
         Pages.FavoritesPage favoritesPage,
         Pages.SettingsPage settingsPage,
+        Updates.AppUpdateAvailability updateAvailability,
         HanMate.Core.Audio.PlaybackCoordinator playback,
         Microsoft.Extensions.Logging.ILogger<AppShell> logger)
     {
         _logger = logger;
+        _localization = localization;
+        UpdateAvailability = updateAvailability;
         InitializeComponent();
         BindingContext = localization;
         PinyinContent.Content = pinyinPage;
@@ -23,6 +29,7 @@ public partial class AppShell : Shell
         SearchContent.Content = searchPage;
         FavoritesContent.Content = favoritesPage;
         SettingsContent.Content = settingsPage;
+        Loaded += OnLoaded;
         // Shell tab switches can keep a pushed page alive without its disappearance callback.
         // Stop at the navigation boundary as well as at page/window lifecycle boundaries.
         Navigating += async (_, args) =>
@@ -35,6 +42,27 @@ public partial class AppShell : Shell
         {
             if (CurrentPage == searchPage) await searchPage.RefreshIfChangedAsync();
         };
+    }
+
+    private async void OnLoaded(object? sender, EventArgs e)
+    {
+        if (_startupUpdateCheckStarted) return;
+        _startupUpdateCheckStarted = true;
+        try
+        {
+            await _localization.InitializeAsync();
+            var platform = Updates.AppUpdateChecker.CurrentPlatform;
+            var installedVersion = Updates.AppUpdateChecker.InstalledVersion;
+            if (platform is null || installedVersion is null) return;
+
+            var available = await Updates.AppUpdateChecker.CheckAsync(installedVersion, platform.Value);
+            UpdateAvailability.SetAvailable(available);
+        }
+        catch (Exception exception)
+        {
+            // Startup checks are optional; keep the app usable offline and leave manual retry available.
+            Microsoft.Extensions.Logging.LoggerExtensions.LogDebug(_logger, exception, "Startup update check failed");
+        }
     }
 
     internal async Task ReturnToTabRootAsync(ShellSection section)

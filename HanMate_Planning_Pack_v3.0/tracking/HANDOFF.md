@@ -1,10 +1,10 @@
 # 开发交接 · 2026-09-26
 
-`v0.1.3` 标签对应发布源码提交 `f685b31`，GitHub 发布为公开预览。Windows / Android 主要功能已实现，内部账本为 **45/48**，未结项 W5-01、W5-05、W5-07；iOS 暂缓。请从 [STATUS](STATUS.md) 和 [REMAINING_WORK](REMAINING_WORK.md) 读取当前结论，不把下方旧阶段记录的包哈希、设备状态或数量当作当前值。
+`v0.1.4` 为 GitHub 公开预览版本；发布源码以该标签指向的提交为准。Windows / Android 主要功能已实现，内部账本为 **45/48**，未结项 W5-01、W5-05、W5-07；iOS 暂缓。请从 [STATUS](STATUS.md) 和 [REMAINING_WORK](REMAINING_WORK.md) 读取当前结论，不把下方旧阶段记录的包哈希、设备状态或数量当作当前值。
 
 接续顺序：先在隔离数据和实际 Windows / Android 设备上补性能、读屏、音频路由与资源/分享/迁移回归，再按适用平台逐项完成 P0。保留用户资料，签名冲突时不得通过卸载旧版绕过。HM-D019 为用户要求关闭、根因未知；再次出现同类崩溃须重新登记。
 
-正式发布另按 [RG-01—07](deferred-release-gates.json) 核对内容/权利、eSpeak NG 分发义务、签名升级、商店声明与最终包。Melo 中文男声仍缺合适模型来源。原始平台证据见 [W5 记录](evidence/W5-REGRESSION-20260923.md)，发布预览说明见 [0.1.3 版本说明](../../docs/releases/0.1.3.md)。以下为历史交接记录，仅供追溯。
+正式发布另按 [RG-01—07](deferred-release-gates.json) 核对内容/权利、eSpeak NG 分发义务、签名升级、商店声明与最终包。Melo 中文男声仍缺合适模型来源。原始平台证据见 [W5 记录](evidence/W5-REGRESSION-20260923.md)，发布预览说明见 [0.1.4 版本说明](../../docs/releases/0.1.4.md)。以下为历史交接记录，仅供追溯。
 
 <details>
 <summary>历史阶段记录（仅保留当时结论，不作为当前待办）</summary>

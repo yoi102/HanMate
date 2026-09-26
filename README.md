@@ -4,9 +4,11 @@
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
-**[下载 0.1.3 预览版](https://github.com/yoi102/HanMate/releases/tag/v0.1.3)** · [版本说明](docs/releases/0.1.3.md) · [隐私政策](PRIVACY.md)
+**[下载 0.1.4 预览版](https://github.com/yoi102/HanMate/releases/tag/v0.1.4)** · [版本说明](docs/releases/0.1.4.md) · [隐私政策](PRIVACY.md)
 
 免费，无内购。GitHub 已提供 Windows / Android 预览包；Microsoft Store 与 Google Play 尚未上架。
+
+**检查更新**：每次启动会在后台查询 GitHub Releases（包括预览版）；有新版时在底部“设置”和设置页的“检查更新”处显示红点，不弹窗。点“检查更新”可在页面内查看版本、打开发布页。无需自建服务器。Android 从发布页下载 APK 后由系统确认安装，覆盖更新要求签名一致；Windows 下载 ZIP 后关闭应用，再解压覆盖原程序目录。商店安装版应由商店更新。应用不会自动下载或替换程序，检查请求不包含学习内容。
 
 面向中文学习的离线应用，基于 **.NET 10 / .NET MAUI**，将拼音、词语、课文、语法、诗词、字典和朗读放在一起。界面支持简体中文、日语和英语，教学中文与拼音保持原样。
 
@@ -126,7 +128,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 当前状态与资料
 
-截至 2026-09-26，Windows / Android 的主要功能已实现，GitHub [v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) 为公开预览版。内部工作包按既定口径为 **45/48**；剩余 3 项集中在参考设备性能与无障碍、完整 P0 回归，以及学习资源/分享/迁移的跨平台验收。另有 Melo 中文男声来源、教学内容与录音审校、第三方资源分发权利、正式签名和商店上架尚未完成。iOS 依既定决定暂缓。GitHub 预览发布不等于商店发布或正式验收。
+截至 2026-09-26，Windows / Android 的主要功能已实现，GitHub [v0.1.4](https://github.com/yoi102/HanMate/releases/tag/v0.1.4) 为公开预览版。内部工作包按既定口径为 **45/48**；剩余 3 项集中在参考设备性能与无障碍、完整 P0 回归，以及学习资源/分享/迁移的跨平台验收。另有 Melo 中文男声来源、教学内容与录音审校、第三方资源分发权利、正式签名和商店上架尚未完成。iOS 依既定决定暂缓。GitHub 预览发布不等于商店发布或正式验收。
 
 - [开发状态](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [交接说明](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

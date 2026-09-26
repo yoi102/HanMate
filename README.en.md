@@ -4,9 +4,11 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-**[Download the 0.1.3 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.3)** · [Release notes](docs/releases/0.1.3.md) · [Privacy policy](PRIVACY.md)
+**[Download the 0.1.4 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.4)** · [Release notes](docs/releases/0.1.4.md) · [Privacy policy](PRIVACY.md)
 
 Free, with no in-app purchases. Windows / Android preview builds are available on GitHub; Microsoft Store and Google Play releases are not yet available.
+
+**Check for updates:** The app checks GitHub Releases, including previews, in the background at startup. A newer version shows a red dot on the Settings tab and its Check for updates item, without a popup. Open that item to see the version and release page. No personal server is needed. On Android, download the APK and confirm installation in the system installer; an in-place upgrade requires the same signing key. On Windows, close the app before extracting the ZIP over the existing program folder. Store-installed copies should be updated through their store. The app does not automatically download or replace itself, and the check sends no learning content.
 
 HanMate is an offline Chinese learning app built with **.NET 10 / .NET MAUI**. It brings together pinyin, vocabulary, reading passages, grammar, poetry, a dictionary and read-aloud playback. The interface supports Simplified Chinese, Japanese and English; Chinese learning text and pinyin remain unchanged when switching languages.
 
@@ -126,7 +128,7 @@ Shared files and backups can contain personal text or recordings. Do not commit 
 
 ## Status and documentation
 
-As of 2026-09-26, the main Windows and Android features are implemented, and [v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) is a public GitHub preview. The internal work ledger remains at **45/48**: reference-device performance and accessibility, complete P0 regression, and cross-platform resource/sharing/migration checks remain open. A suitable Melo Chinese male voice, final teaching and audio review, third-party redistribution rights, production signing, and Store releases also remain open. iOS is deferred. A GitHub preview is not full product acceptance or a Store release.
+As of 2026-09-26, the main Windows and Android features are implemented, and [v0.1.4](https://github.com/yoi102/HanMate/releases/tag/v0.1.4) is a public GitHub preview. The internal work ledger remains at **45/48**: reference-device performance and accessibility, complete P0 regression, and cross-platform resource/sharing/migration checks remain open. A suitable Melo Chinese male voice, final teaching and audio review, third-party redistribution rights, production signing, and Store releases also remain open. iOS is deferred. A GitHub preview is not full product acceptance or a Store release.
 
 - [Development status](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [Handoff](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

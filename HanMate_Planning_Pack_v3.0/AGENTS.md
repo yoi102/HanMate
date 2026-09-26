@@ -1,6 +1,6 @@
 # HanMate：AI 开发仓库规则
 
-正式名称为 **HanMate / 汉语小伴**。iOS 按 ADR-105 暂缓，当前开发与验收范围为 Windows / Android。2026-09-26 的内部账本为 **45/48**，W5-01/05/07 仍在进行设备、完整 P0 与资源/分享/迁移验收；正式审校、发行签名和商店发布另列于 `tracking/deferred-release-gates.json`。GitHub `v0.1.3` 为公开预览，不代表正式发布门禁通过。长期需求和历史证据保留。当前实现与验证状态以 `tracking/STATUS.md` 为准；优先复用现有解决方案和工程。
+正式名称为 **HanMate / 汉语小伴**。iOS 按 ADR-105 暂缓，当前开发与验收范围为 Windows / Android。2026-09-26 的内部账本为 **45/48**，W5-01/05/07 仍在进行设备、完整 P0 与资源/分享/迁移验收；正式审校、发行签名和商店发布另列于 `tracking/deferred-release-gates.json`。GitHub `v0.1.4` 为公开预览，不代表正式发布门禁通过。长期需求和历史证据保留。当前实现与验证状态以 `tracking/STATUS.md` 为准；优先复用现有解决方案和工程。
 
 ## 按任务加载资料
 

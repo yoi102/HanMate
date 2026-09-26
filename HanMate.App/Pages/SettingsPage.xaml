@@ -20,6 +20,10 @@
             <Label Text="{Binding SettingsAudioGroup}" Style="{StaticResource LibrarySection}" />
             <controls:NavigationTile Compact="True" Title="{Binding SpeechSettings}" Clicked="OnSpeechClicked" ActionId="Settings.Speech" />
             <controls:NavigationTile Compact="True" Title="{Binding PinyinResources}" Clicked="OnPinyinResourcesClicked" ActionId="Settings.PinyinResources" />
+            <Label Text="{Binding SettingsUpdatesGroup}" Style="{StaticResource LibrarySection}" />
+            <controls:NavigationTile x:Name="UpdateTile" Compact="True" Title="{Binding CheckForUpdates}" Clicked="OnCheckForUpdatesClicked" ActionId="Settings.CheckForUpdates" />
+            <Label x:Name="UpdateStatusLabel" IsVisible="False" Style="{StaticResource LibraryMuted}" />
+            <Button x:Name="ViewReleaseButton" IsVisible="False" Text="{Binding ViewRelease}" Clicked="OnViewReleaseClicked" Style="{StaticResource LibrarySecondaryButton}" />
             <Label Text="{Binding SettingsDataGroup}" Style="{StaticResource LibrarySection}" />
             <controls:NavigationTile Compact="True" Title="{Binding ExportBackup}" Clicked="OnBackupClicked" ActionId="Settings.Backup" />
             <controls:NavigationTile Compact="True" Title="{Binding PrivacyNotice}" Clicked="OnPrivacyClicked" ActionId="Settings.Privacy" />

@@ -977,4 +977,15 @@ Keep {6} old entries.</value></data>
   <data name="LanShare.Imported" xml:space="preserve"><value>Imported {0}; reused {1}. Recordings and preferred-track settings are included where available.</value></data>
   <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>Could not confirm the result to the sender; check this device's status there.</value></data>
   <data name="LanShare.InvalidPackage" xml:space="preserve"><value>Package validation failed; nothing was imported.</value></data>
+  <data name="Update.Group" xml:space="preserve"><value>App updates</value></data>
+  <data name="Update.Check" xml:space="preserve"><value>Check for updates</value></data>
+  <data name="Update.Checking" xml:space="preserve"><value>Checking GitHub releases…</value></data>
+  <data name="Update.Current" xml:space="preserve"><value>You have the latest available preview ({0}).</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>Version {0} is available.</value></data>
+  <data name="Update.Unavailable" xml:space="preserve"><value>Could not check for updates. Check your connection and try again.</value></data>
+  <data name="Update.Unsupported" xml:space="preserve"><value>GitHub update checks are not supported on this platform yet.</value></data>
+  <data name="Update.AvailableHint" xml:space="preserve"><value>New version available</value></data>
+  <data name="Update.OpenFailed" xml:space="preserve"><value>Could not open the release page. Try again later.</value></data>
+  <data name="Update.ViewRelease" xml:space="preserve"><value>View release</value></data>
+  <data name="Privacy.Updates" xml:space="preserve"><value>The app checks HanMate's GitHub Releases API in the background on startup; you can also check manually in Settings. GitHub receives the IP address and request details needed for delivery. The request contains no learning text, recordings, favorites or settings. A new version shows a red dot on Settings without a popup. You confirm any download and installation on the GitHub release page and in the system interface.</value></data>
 </root>

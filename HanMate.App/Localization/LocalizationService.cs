@@ -57,6 +57,9 @@ public sealed class LocalizationService : INotifyPropertyChanged
     public string SettingsContentGroup => this["Settings.ContentGroup"];
     public string SettingsAudioGroup => this["Settings.AudioGroup"];
     public string SettingsDataGroup => this["Settings.DataGroup"];
+    public string SettingsUpdatesGroup => this["Update.Group"];
+    public string CheckForUpdates => this["Update.Check"];
+    public string ViewRelease => this["Update.ViewRelease"];
     public string this[string key] => AppResources.Get(key);
 
     public async Task InitializeAsync(CancellationToken cancellationToken = default)

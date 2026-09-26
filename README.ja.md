@@ -4,9 +4,11 @@
 
 [简体中文](README.md) · [English](README.en.md) · **日本語**
 
-**[0.1.3 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.3)** · [リリースノート](docs/releases/0.1.3.md) · [プライバシーポリシー](PRIVACY.md)
+**[0.1.4 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.4)** · [リリースノート](docs/releases/0.1.4.md) · [プライバシーポリシー](PRIVACY.md)
 
 無料・アプリ内課金なし。Windows / Android のプレビュー版を GitHub で公開しています。Microsoft Store と Google Play ではまだ配信していません。
+
+**更新の確認**：起動時にバックグラウンドで GitHub Releases（プレビュー版を含む）を調べます。新版があると設定タブと「更新を確認」に赤い印を表示し、ポップアップは出しません。この項目から版とリリースページを確認できます。自前のサーバーは不要です。Android は APK を取得してシステム画面でインストールを確認します。上書き更新には同じ署名鍵が必要です。Windows はアプリを終了してから ZIP を元のプログラムフォルダーに展開してください。ストア版は各ストアから更新します。アプリが自動で取得・置換することはなく、確認時に学習内容は送信しません。
 
 HanMate は **.NET 10 / .NET MAUI** で開発している、オフラインで使える中国語学習アプリです。ピンイン、単語、課文、文法、詩、辞書、読み上げを一つのアプリにまとめています。画面の言語は簡体字中国語・日本語・英語に対応し、切り替えても学習用の中国語本文とピンインは変わりません。
 
@@ -126,7 +128,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 開発状況と資料
 
-2026-09-26 時点で、Windows / Android の主要機能は実装済みで、[v0.1.3](https://github.com/yoi102/HanMate/releases/tag/v0.1.3) を GitHub の公開プレビューとして配布しています。内部作業の進捗は **45/48** です。残りは実機の性能・アクセシビリティ、P0 全件回帰、リソース・共有・移行の両環境での検証です。適切な Melo 中国語男性音声、教材と音声の最終確認、第三者素材の再配布権、正式署名、ストア公開も未完了です。iOS は延期中です。GitHub プレビューは製品全体の受け入れやストア公開を意味しません。
+2026-09-26 時点で、Windows / Android の主要機能は実装済みで、[v0.1.4](https://github.com/yoi102/HanMate/releases/tag/v0.1.4) を GitHub の公開プレビューとして配布しています。内部作業の進捗は **45/48** です。残りは実機の性能・アクセシビリティ、P0 全件回帰、リソース・共有・移行の両環境での検証です。適切な Melo 中国語男性音声、教材と音声の最終確認、第三者素材の再配布権、正式署名、ストア公開も未完了です。iOS は延期中です。GitHub プレビューは製品全体の受け入れやストア公開を意味しません。
 
 - [開発状況](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [引き継ぎ](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

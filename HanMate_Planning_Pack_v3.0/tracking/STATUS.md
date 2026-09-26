@@ -1,6 +1,6 @@
 # 开发状态 · 2026-09-26
 
-HanMate 的 Windows / Android 主要功能已实现；GitHub `v0.1.3` 已公开为开发预览版。内部任务表仍为 **45 DONE / 3 IN_PROGRESS / 0 TODO**，不能据此称为完整验收或商店发行。iOS 按 ADR-105 暂缓。
+HanMate 的 Windows / Android 主要功能已实现；GitHub `v0.1.4` 已公开为开发预览版。内部任务表仍为 **45 DONE / 3 IN_PROGRESS / 0 TODO**，不能据此称为完整验收或商店发行。iOS 按 ADR-105 暂缓。
 
 | 当前未结项 | 还需什么证据 |
 | --- | --- |

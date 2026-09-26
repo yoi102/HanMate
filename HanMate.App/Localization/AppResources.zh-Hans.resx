@@ -977,4 +977,15 @@
   <data name="LanShare.Imported" xml:space="preserve"><value>已导入 {0} 项、复用 {1} 项；可用的录音及首选录音设置也已导入。</value></data>
   <data name="LanShare.ReceiptUnknown" xml:space="preserve"><value>未能向发送方确认结果，请在发送方查看设备状态。</value></data>
   <data name="LanShare.InvalidPackage" xml:space="preserve"><value>内容包校验失败，未导入任何内容。</value></data>
+  <data name="Update.Group" xml:space="preserve"><value>应用更新</value></data>
+  <data name="Update.Check" xml:space="preserve"><value>检查更新</value></data>
+  <data name="Update.Checking" xml:space="preserve"><value>正在查询 GitHub 版本…</value></data>
+  <data name="Update.Current" xml:space="preserve"><value>当前已是最新可用预览版（{0}）。</value></data>
+  <data name="Update.Available" xml:space="preserve"><value>发现新版本 {0}。</value></data>
+  <data name="Update.Unavailable" xml:space="preserve"><value>暂时无法检查更新，请检查网络后重试。</value></data>
+  <data name="Update.Unsupported" xml:space="preserve"><value>此平台暂不支持 GitHub 版本检查。</value></data>
+  <data name="Update.AvailableHint" xml:space="preserve"><value>有新版本可用</value></data>
+  <data name="Update.OpenFailed" xml:space="preserve"><value>无法打开发布页，请稍后重试。</value></data>
+  <data name="Update.ViewRelease" xml:space="preserve"><value>查看发布页</value></data>
+  <data name="Privacy.Updates" xml:space="preserve"><value>应用启动时会在后台访问 HanMate 的 GitHub Releases API 检查版本；你也可以在设置中手动检查。GitHub 会收到网络传输所需的 IP 地址和请求信息；请求不包含正文、录音、收藏或设置。发现新版时只显示设置红点，不弹窗；下载与安装由你在 GitHub 发布页及系统界面中确认。</value></data>
 </root>

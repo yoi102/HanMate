@@ -5,12 +5,15 @@ public sealed class NavigationTile : ContentView
 {
     public static readonly BindableProperty TitleProperty = BindableProperty.Create(nameof(Title), typeof(string), typeof(NavigationTile), "", propertyChanged: Changed);
     public static readonly BindableProperty DetailProperty = BindableProperty.Create(nameof(Detail), typeof(string), typeof(NavigationTile), "", propertyChanged: Changed);
+    public static readonly BindableProperty ShowBadgeProperty = BindableProperty.Create(nameof(ShowBadge), typeof(bool), typeof(NavigationTile), false, propertyChanged: Changed);
     private readonly Label _title = new() { FontSize = 22, FontAttributes = FontAttributes.Bold, LineBreakMode = LineBreakMode.WordWrap };
     private readonly Label _detail = new();
+    private readonly BoxView _badge = new() { Color = Color.FromArgb("#E53935"), WidthRequest = 9, HeightRequest = 9, CornerRadius = 5, VerticalOptions = LayoutOptions.Center };
     private readonly PinyinButton _action = new();
     private readonly Grid _copy;
     public string Title { get => (string)GetValue(TitleProperty); set => SetValue(TitleProperty, value); }
     public string Detail { get => (string)GetValue(DetailProperty); set => SetValue(DetailProperty, value); }
+    public bool ShowBadge { get => (bool)GetValue(ShowBadgeProperty); set => SetValue(ShowBadgeProperty, value); }
     public string? ActionId { get => _action.AutomationId; set => _action.AutomationId = value; }
     public object? CommandParameter { get; set; }
     public bool Compact
@@ -32,10 +35,12 @@ public sealed class NavigationTile : ContentView
             ColumnDefinitions = { new(GridLength.Star), new(GridLength.Auto) } };
         var arrow = new Label { Text = "›", FontSize = 24, VerticalOptions = LayoutOptions.Center };
         arrow.SetDynamicResource(StyleProperty, "LibraryMuted");
-        _copy.Add(words); _copy.Add(arrow, 1);
+        var trailing = new HorizontalStackLayout { Spacing = 8, VerticalOptions = LayoutOptions.Center, Children = { _badge, arrow } };
+        _copy.Add(words); _copy.Add(trailing, 1);
         AutomationProperties.SetIsInAccessibleTree(_title, false);
         AutomationProperties.SetIsInAccessibleTree(_detail, false);
         AutomationProperties.SetIsInAccessibleTree(arrow, false);
+        AutomationProperties.SetIsInAccessibleTree(_badge, false);
         var layers = new Grid(); layers.Add(_action); layers.Add(_copy);
         var surface = new Border { Content = layers }; surface.SetDynamicResource(StyleProperty, "LibrarySurface");
         Content = surface;
@@ -46,7 +51,7 @@ public sealed class NavigationTile : ContentView
     private static void Changed(BindableObject sender, object oldValue, object newValue) => ((NavigationTile)sender).UpdateCopy();
     private void UpdateCopy()
     {
-        _title.Text = Title; _detail.Text = Detail; _detail.IsVisible = !string.IsNullOrWhiteSpace(Detail);
+        _title.Text = Title; _detail.Text = Detail; _detail.IsVisible = !string.IsNullOrWhiteSpace(Detail); _badge.IsVisible = ShowBadge;
         SemanticProperties.SetDescription(_action, Title);
         SemanticProperties.SetHint(_action, Detail);
     }
