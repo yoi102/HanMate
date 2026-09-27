@@ -56,7 +56,9 @@ public sealed class WordRecordingCatalog
     {
         if (readings.Count is < 1 or > 32 || readings.Any(p => p is null || p.Erhua || p.Tone is < 0 or > 4 ||
             !PinyinSyllableParser.TryParseDictionarySyllable(p.Base + p.Tone, out var parsed) || parsed.Erhua)) return null;
-        return string.Join(' ', readings.Select(p => p!.Base.Replace("u:", "ü", StringComparison.Ordinal).Replace('v', 'ü').ToLowerInvariant() + p.Tone));
+        return string.Join(' ', readings.Select(p => p is { } reading
+            ? reading.Base.Replace("u:", "ü", StringComparison.Ordinal).Replace('v', 'ü').ToLowerInvariant() + reading.Tone
+            : throw new InvalidDataException("A recording reading is missing.")));
     }
 
     private static bool IsHanzi(string text, int count)

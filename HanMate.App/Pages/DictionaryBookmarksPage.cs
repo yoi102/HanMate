@@ -49,7 +49,7 @@ public sealed class DictionaryBookmarksPage(DictionaryBookmarkStore store, Local
     {
         try
         {
-            var services = Handler!.MauiContext!.Services;
+            if (Handler?.MauiContext?.Services is not { } services) return;
             var document = entry.Provider == DictionaryBookmarkStore.Xinhua
                 ? await services.GetRequiredService<DefaultDictionaryStore>().GetAsync(entry.EntryId)
                 : (await services.GetRequiredService<BundledPronunciationService>().GetCourseAsync()).Data.Contents.FirstOrDefault(d => d.Id == entry.EntryId)

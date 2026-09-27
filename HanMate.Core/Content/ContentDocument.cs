@@ -118,6 +118,10 @@ public static class ContentJson
 {
     public static JsonSerializerOptions Options { get; } = CreateOptions();
 
+    public static ContentDocument DeserializeRequired(string json) =>
+        JsonSerializer.Deserialize<ContentDocument>(json, Options)
+        ?? throw new InvalidDataException("Content document JSON cannot be null.");
+
     private static JsonSerializerOptions CreateOptions()
     {
         var options = new JsonSerializerOptions

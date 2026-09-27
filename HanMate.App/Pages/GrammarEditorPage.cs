@@ -17,8 +17,10 @@ public sealed class GrammarEditorPage : ContentPage
     private Shell? _shell;
     private Label _status = new();
     private string T(string key) => _language["GrammarEdit." + key];
+    private static ContentDocument Annotation(SavedTextDraft draft) => draft.Body.Annotation
+        ?? throw new InvalidOperationException("The grammar draft has no annotation.");
     public GrammarEditorPage(TextDraftStore store, LocalizationService language, SavedTextDraft draft, Action<SavedTextDraft?, bool>? changed = null)
-    { _store = store; _language = language; _draft = draft; _changed = changed; _input = GrammarEditing.From(draft.Body.Annotation!); Render(); }
+    { _store = store; _language = language; _draft = draft; _changed = changed; _input = GrammarEditing.From(Annotation(draft)); Render(); }
 
     private Button Button(string key, Func<Task> action)
     {
@@ -40,14 +42,14 @@ public sealed class GrammarEditorPage : ContentPage
         var body = new VerticalStackLayout { Padding = 16, Spacing = 10 };
         body.Add(new Label { Text = T("Hint") }); body.Add(_status);
         body.Add(Button("Save", async () => { await SaveAsync(); }));
-        body.Add(Button("DiscardChanges", async () => { if (await DisplayAlertAsync(T("DiscardChanges"), T("DiscardHint"), T("DiscardChanges"), _language["Library.Cancel"])) { _input = GrammarEditing.From(_draft.Body.Annotation!); _dirty = false; Render(); } }));
+        body.Add(Button("DiscardChanges", async () => { if (await DisplayAlertAsync(T("DiscardChanges"), T("DiscardHint"), T("DiscardChanges"), _language["Library.Cancel"])) { _input = GrammarEditing.From(Annotation(_draft)); _dirty = false; Render(); } }));
         body.Add(Button("Review", async () =>
         {
             if (!await SaveAsync()) return;
             _navigating = true;
             try { await Navigation.PushAsync(new AnnotationPage(_store, _language, _draft, (updated, finalized) =>
             {
-                if (updated is not null) { _draft = updated; _input = GrammarEditing.From(updated.Body.Annotation!); _dirty = false; Render(); }
+                if (updated is not null) { _draft = updated; _input = GrammarEditing.From(Annotation(updated)); _dirty = false; Render(); }
                 _changed?.Invoke(updated, finalized);
             })); }
             finally { _navigating = false; }
@@ -123,11 +125,12 @@ public sealed class GrammarEditorPage : ContentPage
     private async Task<bool> SaveAsync()
     {
         if (!_dirty) return true;
-        var preview = await Task.Run(() => GrammarEditing.Apply(_draft.Body.Annotation!, _input, BundledAnnotationLexicon.Default.Engine));
+        var preview = await Task.Run(() => GrammarEditing.Apply(Annotation(_draft), _input, BundledAnnotationLexicon.Default.Engine));
         if (preview.UnmappedManualCount > 0 && !await DisplayAlertAsync(T("Save"), string.Format(_language["Library.UnmappedManual"], preview.UnmappedManualCount), T("Save"), _language["Library.Cancel"])) return false;
         var document = preview.Document;
         var body = _draft.Body with { Title = document.Title, Text = EditorCommitStore.PrimaryUnit(document).Text,
-            Pattern = EditorCommitStore.Pattern(document.Grammar!), Example = document.TextUnits.First(u => u.Role == TextUnitRole.Example).Text,
+            Pattern = EditorCommitStore.Pattern(document.Grammar ?? throw new InvalidDataException("The grammar pattern is missing.")),
+            Example = document.TextUnits.First(u => u.Role == TextUnitRole.Example).Text,
             Annotation = document, PreviousAnnotation = _draft.Body.Annotation, StructuredOnly = true };
         _draft = await Task.Run(() => _store.SaveAsync(_draft.Id, body, _draft.Revision)); _input = GrammarEditing.From(document); _dirty = false;
         _changed?.Invoke(_draft, false); Render(); return true;

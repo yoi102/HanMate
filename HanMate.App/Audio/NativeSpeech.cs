@@ -29,7 +29,7 @@ public static class NativeSpeech
                 foreach (var v in (engine.Voices ?? []).Where(v => Mandarin(v.Locale?.ToLanguageTag())))
                     SpeechDiagnostics.Write($"system-voice language={v.Locale?.ToLanguageTag()} network={v.IsNetworkConnectionRequired} missing={v.Features?.Contains("notInstalled") ?? false}");
                 return (IReadOnlyList<LocalVoice>)(engine.Voices ?? []).Where(Eligible)
-                    .Select(v => new LocalVoice(AndroidVoiceId(v), v.Name!, v.Locale!.ToLanguageTag()!))
+                    .Select(v => new LocalVoice(AndroidVoiceId(v), v.Name ?? "", v.Locale?.ToLanguageTag() ?? ""))
                     .DistinctBy(v => v.Id).OrderByDescending(v => v.Language is "zh-CN" or "zh-Hans" or "zh-Hans-CN")
                     .ThenBy(v => v.Id, StringComparer.Ordinal).ToArray();
             }
@@ -109,7 +109,7 @@ public static class NativeSpeech
     });
 
 #if ANDROID
-    private static string AndroidVoiceId(Android.Speech.Tts.Voice voice) => Uri.EscapeDataString(voice.Name ?? "") + "@" + voice.Locale!.ToLanguageTag();
+    private static string AndroidVoiceId(Android.Speech.Tts.Voice voice) => Uri.EscapeDataString(voice.Name ?? "") + "@" + (voice.Locale?.ToLanguageTag() ?? "");
     private static bool Eligible(Android.Speech.Tts.Voice v) => !v.IsNetworkConnectionRequired && Mandarin(v.Locale?.ToLanguageTag())
         && !(v.Features?.Contains("notInstalled") ?? false);
     private static async Task<(Android.Speech.Tts.TextToSpeech, SpeechInit)> OpenAndroidAsync(CancellationToken token)
@@ -132,7 +132,8 @@ public static class NativeSpeech
         // Binder may deliver OnInit after timeout and Shutdown/Dispose. A rehydrated peer
         // must accept that callback without resurrecting a completed operation or UI.
         public SpeechInit(IntPtr handle, Android.Runtime.JniHandleOwnership ownership) : base(handle, ownership) { }
-        public TaskCompletionSource<Android.Speech.Tts.OperationResult> Ready => _ready!;
+        public TaskCompletionSource<Android.Speech.Tts.OperationResult> Ready => _ready
+            ?? throw new InvalidOperationException("The speech initialization listener has no completion source.");
         public void OnInit(Android.Speech.Tts.OperationResult status) => _ready?.TrySetResult(status);
     }
     private sealed class SpeechProgress : Android.Speech.Tts.UtteranceProgressListener
@@ -141,7 +142,8 @@ public static class NativeSpeech
         [System.Diagnostics.CodeAnalysis.DynamicDependency(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors, typeof(SpeechProgress))]
         public SpeechProgress() => _done = new(TaskCreationOptions.RunContinuationsAsynchronously);
         public SpeechProgress(IntPtr handle, Android.Runtime.JniHandleOwnership ownership) : base(handle, ownership) { }
-        public TaskCompletionSource<bool> Done => _done!;
+        public TaskCompletionSource<bool> Done => _done
+            ?? throw new InvalidOperationException("The speech progress listener has no completion source.");
         public override void OnStart(string? utteranceId) { }
         public override void OnDone(string? utteranceId) => _done?.TrySetResult(true);
         [Obsolete("Required by the Android abstract listener; use the error-code callback on current engines.")]

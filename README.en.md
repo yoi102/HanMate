@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-**[Download the 0.1.4 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.4)** · [Release notes](docs/releases/0.1.4.md) · [Privacy policy](PRIVACY.md)
+**[Download the 0.1.5 preview](https://github.com/yoi102/HanMate/releases/tag/v0.1.5)** · [Release notes](docs/releases/0.1.5.md) · [Privacy policy](PRIVACY.md)
 
 Free, with no in-app purchases. Windows / Android preview builds are available on GitHub; Microsoft Store and Google Play releases are not yet available.
 
@@ -128,7 +128,7 @@ Shared files and backups can contain personal text or recordings. Do not commit 
 
 ## Status and documentation
 
-As of 2026-09-26, the main Windows and Android features are implemented, and [v0.1.4](https://github.com/yoi102/HanMate/releases/tag/v0.1.4) is a public GitHub preview. The internal work ledger remains at **45/48**: reference-device performance and accessibility, complete P0 regression, and cross-platform resource/sharing/migration checks remain open. A suitable Melo Chinese male voice, final teaching and audio review, third-party redistribution rights, production signing, and Store releases also remain open. iOS is deferred. A GitHub preview is not full product acceptance or a Store release.
+As of 2026-09-28, the main Windows and Android features are implemented, and [v0.1.5](https://github.com/yoi102/HanMate/releases/tag/v0.1.5) is a public GitHub preview. The internal work ledger remains at **45/48**: reference-device performance and accessibility, complete P0 regression, and cross-platform resource/sharing/migration checks remain open. A suitable Melo Chinese male voice, final teaching and audio review, third-party redistribution rights, production signing, and Store releases also remain open. iOS is deferred. A GitHub preview is not full product acceptance or a Store release.
 
 - [Development status](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [Handoff](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

@@ -98,14 +98,19 @@ public sealed class PinyinPage : ContentPage
             foreach (var item in group)
             {
                 var button = new PinyinButton { Text = item.Display, FontSize = 25, MinimumWidthRequest = 78, MinimumHeightRequest = 62, Margin = new Thickness(3), AutomationId = "Pinyin.Item." + item.Group + "." + item.Display };
+                button.CornerRadius = 10;
+                button.BorderWidth = 1;
+                button.SetAppThemeColor(Button.BackgroundColorProperty, Color.FromArgb("#EEE8F8"), Color.FromArgb("#393143"));
+                button.SetAppThemeColor(Button.TextColorProperty, Color.FromArgb("#321568"), Color.FromArgb("#F0E7FF"));
+                button.SetAppThemeColor(Button.BorderColorProperty, Color.FromArgb("#D9CBF0"), Color.FromArgb("#5C4B78"));
                 SemanticProperties.SetDescription(button, item.Display + ". " + T("Hint"));
                 if (item == _guideItem) _guideTarget = button;
                 button.Clicked += async (_, _) =>
                 {
                     if (!button.ConsumeClick() || (_guide is not null && item != _guideItem)) return;
                     var tour = _tour; var result = await PlayDemoAsync(item);
-                    if (_active && _guide is not null && _tour == tour && result == PlaybackOutcome.Completed)
-                    { tour?.Advance(1); _guide.SetStep(tour!.Step); }
+                    if (_active && _guide is not null && tour is not null && _tour == tour && result == PlaybackOutcome.Completed)
+                    { tour.Advance(1); _guide.SetStep(tour.Step); }
                 };
                 button.ShowExamples += async (_, _) =>
                 {

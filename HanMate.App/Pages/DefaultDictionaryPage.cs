@@ -18,14 +18,16 @@ public sealed class DefaultDictionaryPage : ContentPage
         var initializing = true;
         Loaded += (_, _) =>
         {
-            var store = Handler!.MauiContext!.Services.GetRequiredService<DefaultDictionaryStore>();
+            if (Handler?.MauiContext?.Services is not { } services) return;
+            var store = services.GetRequiredService<DefaultDictionaryStore>();
             toggle.IsToggled = store.IsEnabled; initializing = false;
         };
         toggle.Toggled += (_, e) =>
         {
             if (initializing) return;
+            if (Handler?.MauiContext?.Services is not { } services) return;
             Preferences.Default.Set(DefaultDictionaryStore.PreferenceKey, e.Value);
-            Handler!.MauiContext!.Services.GetRequiredService<DefaultDictionaryStore>().IsEnabled = e.Value;
+            services.GetRequiredService<DefaultDictionaryStore>().IsEnabled = e.Value;
         };
         body.Add(new Label { Text = "pwxcoo / chinese-xinhua · " + DefaultDictionaryStore.Version + "\nhttps://github.com/pwxcoo/chinese-xinhua", FontSize = 14 });
         body.Add(new Label { Text = DefaultDictionaryStore.ReadUsage(), FontSize = 14 });

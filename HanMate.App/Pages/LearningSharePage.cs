@@ -46,7 +46,7 @@ public sealed class LearningSharePage : ContentPage
             var rows = await CurrentRowsAsync();
             foreach (var row in rows.Items.Where(row =>
             {
-                var content = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
+                var content = ContentJson.DeserializeRequired(row.BodyJson);
                 var share = ContentShareStore.Row(content);
                 return share.CanShare || share.CanAttest;
             }).Take(Math.Max(0, 100 - _selected.Count))) _selected.Add(row.Id);
@@ -88,7 +88,7 @@ public sealed class LearningSharePage : ContentPage
             _rows.Clear();
             foreach (var row in result.Items)
             {
-                var content = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
+                var content = ContentJson.DeserializeRequired(row.BodyJson);
                 var check = new CheckBox { IsChecked = _selected.Contains(row.Id), AutomationId = "LearningShare.Select." + row.Id };
                 var label = new Label { Text = row.Title, VerticalTextAlignment = TextAlignment.Center };
                 var shareable = ContentShareStore.Row(content);

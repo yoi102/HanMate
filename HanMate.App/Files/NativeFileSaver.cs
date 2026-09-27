@@ -25,7 +25,8 @@ public static class NativeFileSaver
 #if WINDOWS
         var picker = new global::Windows.Storage.Pickers.FileSavePicker { SuggestedFileName = name };
         picker.FileTypeChoices.Add(Path.GetExtension(name), new List<string> { Path.GetExtension(name) });
-        var window = Application.Current!.Windows[0].Handler!.PlatformView;
+        var window = Application.Current?.Windows.FirstOrDefault()?.Handler?.PlatformView
+            ?? throw new InvalidOperationException("No active window is available for the save dialog.");
         WinRT.Interop.InitializeWithWindow.Initialize(picker, WinRT.Interop.WindowNative.GetWindowHandle(window));
         var file = await picker.PickSaveFileAsync();
         if (file is null) return false;
@@ -45,7 +46,9 @@ public static class NativeFileSaver
         var uri = await activity.CreateDocumentAsync(name, mime);
         if (uri is null) return false;
         await using var input = File.OpenRead(source);
-        await using var output = activity.ContentResolver!.OpenOutputStream(uri, "wt") ?? throw new IOException("Document provider did not open a stream.");
+        var resolver = activity.ContentResolver
+            ?? throw new InvalidOperationException("The Android document resolver is unavailable.");
+        await using var output = resolver.OpenOutputStream(uri, "wt") ?? throw new IOException("Document provider did not open a stream.");
         await input.CopyToAsync(output); await output.FlushAsync();
         return true;
 #elif IOS || MACCATALYST

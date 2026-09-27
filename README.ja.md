@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · [English](README.en.md) · **日本語**
 
-**[0.1.4 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.4)** · [リリースノート](docs/releases/0.1.4.md) · [プライバシーポリシー](PRIVACY.md)
+**[0.1.5 プレビュー版をダウンロード](https://github.com/yoi102/HanMate/releases/tag/v0.1.5)** · [リリースノート](docs/releases/0.1.5.md) · [プライバシーポリシー](PRIVACY.md)
 
 無料・アプリ内課金なし。Windows / Android のプレビュー版を GitHub で公開しています。Microsoft Store と Google Play ではまだ配信していません。
 
@@ -128,7 +128,7 @@ dotnet test HanMate.Infrastructure.Tests/HanMate.Infrastructure.Tests.csproj -p:
 
 ## 開発状況と資料
 
-2026-09-26 時点で、Windows / Android の主要機能は実装済みで、[v0.1.4](https://github.com/yoi102/HanMate/releases/tag/v0.1.4) を GitHub の公開プレビューとして配布しています。内部作業の進捗は **45/48** です。残りは実機の性能・アクセシビリティ、P0 全件回帰、リソース・共有・移行の両環境での検証です。適切な Melo 中国語男性音声、教材と音声の最終確認、第三者素材の再配布権、正式署名、ストア公開も未完了です。iOS は延期中です。GitHub プレビューは製品全体の受け入れやストア公開を意味しません。
+2026-09-28 時点で、Windows / Android の主要機能は実装済みで、[v0.1.5](https://github.com/yoi102/HanMate/releases/tag/v0.1.5) を GitHub の公開プレビューとして配布しています。内部作業の進捗は **45/48** です。残りは実機の性能・アクセシビリティ、P0 全件回帰、リソース・共有・移行の両環境での検証です。適切な Melo 中国語男性音声、教材と音声の最終確認、第三者素材の再配布権、正式署名、ストア公開も未完了です。iOS は延期中です。GitHub プレビューは製品全体の受け入れやストア公開を意味しません。
 
 - [開発状況](HanMate_Planning_Pack_v3.0/tracking/STATUS.md)
 - [引き継ぎ](HanMate_Planning_Pack_v3.0/tracking/HANDOFF.md)

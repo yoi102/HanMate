@@ -45,8 +45,8 @@ public static class LanRoomDiscovery
                 catch (JsonException) { continue; }
                 if (reply is null || reply.Type != "room" || reply.Code != code || reply.Nonce != nonce ||
                     string.IsNullOrWhiteSpace(reply.Name) || reply.Name.Length > 80 ||
-                    !LanInvite.TryParse(reply.Invite, out var invite) ||
-                    invite!.Host != packet.RemoteEndPoint.Address.ToString()) continue;
+                    !LanInvite.TryParse(reply.Invite, out var invite) || invite is null ||
+                    invite.Host != packet.RemoteEndPoint.Address.ToString()) continue;
                 found[reply.Invite] = new(reply.Name.Trim(), invite);
                 if (found.Count == 1) timeout.CancelAfter(TimeSpan.FromMilliseconds(500));
             }
@@ -143,7 +143,8 @@ public static class LanRoomDiscovery
             {
                 using var route = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 route.Connect(remote);
-                var address = ((IPEndPoint)route.LocalEndPoint!).Address;
+                if (route.LocalEndPoint is not IPEndPoint endpoint) return null;
+                var address = endpoint.Address;
                 return LanAddresses.IsPrivate(address) ? address.ToString() : null;
             }
             catch (SocketException) { return null; }

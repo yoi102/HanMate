@@ -198,7 +198,9 @@ internal static class SpeechDiagnostics
         {
             lock (Sync)
             {
-                var path = Path.Combine(Android.App.Application.Context.CacheDir!.AbsolutePath, "speech-diagnostics.log");
+                var cacheDirectory = Android.App.Application.Context.CacheDir?.AbsolutePath;
+                if (cacheDirectory is null) return;
+                var path = Path.Combine(cacheDirectory, "speech-diagnostics.log");
                 if (File.Exists(path) && new FileInfo(path).Length > 65536) File.Delete(path);
                 File.AppendAllText(path, DateTimeOffset.UtcNow.ToString("O") + " " + message + Environment.NewLine);
             }

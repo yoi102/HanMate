@@ -283,7 +283,7 @@ Entries: {3}</value>
     <value>Content preview. Editing and audio playback are not available here yet.</value>
   </data>
   <data name="Pinyin.Title" xml:space="preserve"><value>Pinyin studio</value></data>
-  <data name="Pinyin.Hint" xml:space="preserve"><value>Tap to hear the teaching pronunciation. Hold or right-click for examples.</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>Tap to hear the teaching pronunciation. Hold for examples.</value></data>
   <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} items · {1} offline recordings · development preview</value></data>
   <data name="Pinyin.Stop" xml:space="preserve"><value>Stop</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>Audio sources</value></data>
@@ -689,7 +689,7 @@ Keep {6} old entries.</value></data>
   <data name="Reader.SpeechDisabled" xml:space="preserve"><value>Local audio only is enabled. Allow reading speech in Settings → System voice before using this action.</value></data>
   <data name="Speech.AllowReading" xml:space="preserve"><value>Allow system speech while reading (off by default; confirm each time)</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>Pinyin resources and audio credits</value></data>
-  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>Tap to listen. Hold or right-click for the dictionary definition.</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>Tap to listen. Hold for the dictionary definition.</value></data>
   <data name="Pinyin.AudioMethod" xml:space="preserve"><value>Pinyin example characters and words prefer matching audio-cmn recordings; missing recordings use the provider selected in Reading voice. Melo follows course pinyin; Kokoro and system speech read Chinese text and may not follow edited pinyin. An isolated final without a recording requires support from the selected provider. Audio-cmn states CC BY-SA without a version. Teaching listening review is pending.</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>Offline AI voices</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>Voice packs are bundled. Preview, choose voices or restore their cache. Use this voice also switches the reading provider. Recordings take priority.</value></data>
@@ -784,6 +784,11 @@ Keep {6} old entries.</value></data>
   <data name="Library.More" xml:space="preserve"><value>More actions</value></data>
   <data name="Library.FolderActions" xml:space="preserve"><value>Manage folder</value></data>
   <data name="Settings.LanguageGroup" xml:space="preserve"><value>Language</value></data>
+  <data name="Settings.LanguageSaveFailed" xml:space="preserve"><value>Could not save the interface language. Please try again.</value></data>
+  <data name="Settings.ThemeGroup" xml:space="preserve"><value>Appearance</value></data>
+  <data name="Theme.System" xml:space="preserve"><value>Use system</value></data>
+  <data name="Theme.Light" xml:space="preserve"><value>Light</value></data>
+  <data name="Theme.Dark" xml:space="preserve"><value>Dark</value></data>
   <data name="Settings.ContentGroup" xml:space="preserve"><value>Learning materials</value></data>
   <data name="Settings.AudioGroup" xml:space="preserve"><value>Voice and pronunciation</value></data>
   <data name="Settings.DataGroup" xml:space="preserve"><value>Data and privacy</value></data>
@@ -809,7 +814,7 @@ Keep {6} old entries.</value></data>
   <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>Tap the highlighted “{0}” to hear its pronunciation.</value></data>
   <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>Hold the pinyin for examples</value></data>
   <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>Press and hold “{0}” for about half a second to open its examples.</value></data>
-  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>With a mouse, right-click. With a keyboard, focus the button and press F10.</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>Hold the left mouse button for about half a second, or focus the button and press F10. Right-click to go back.</value></data>
   <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>Skip guide</value></data>
   <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>Tap the character to listen</value></data>
   <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>Tap the highlighted “{0}” to hear its pronunciation.</value></data>
@@ -832,7 +837,7 @@ Keep {6} old entries.</value></data>
   <data name="WordCategories.other" xml:space="preserve"><value>Other words</value></data>
   <data name="WordCategories.address" xml:space="preserve"><value>Forms of address</value></data>
   <data name="WordCategories.greetings" xml:space="preserve"><value>Greetings</value></data>
-  <data name="LearningWords.Gesture" xml:space="preserve"><value>Tap to play, tap again to stop. Hold or right-click for the meaning.</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>Tap to play, tap again to stop. Hold for the meaning.</value></data>
   <data name="LearningWords.Meaning" xml:space="preserve"><value>Word meaning</value></data>
   <data name="LearningWords.NoMeaning" xml:space="preserve"><value>No meaning has been added for this word yet.</value></data>
   <data name="GrammarDetail.Hint" xml:space="preserve"><value>Tap an explanation or example to listen. Tap again to stop.</value></data>

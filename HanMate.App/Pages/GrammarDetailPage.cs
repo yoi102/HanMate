@@ -113,7 +113,7 @@ public sealed class GrammarDetailPage : ContentPage
         _status.Text = "";
         var header = new VerticalStackLayout { Padding = new Thickness(24, 22, 24, 12), Spacing = 14 };
         header.Add(new Label { Text = Title, FontSize = 28, FontAttributes = FontAttributes.Bold });
-        var grammar = _reading.Content.Grammar!;
+        var grammar = _reading.Content.Grammar ?? throw new InvalidDataException("The grammar pattern is missing.");
         var pattern = new VerticalStackLayout { Spacing = 8 };
         pattern.Add(Heading(_language["Grammar.Pattern"]));
         var formatted = new FormattedString();

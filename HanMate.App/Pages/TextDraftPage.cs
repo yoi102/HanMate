@@ -14,9 +14,12 @@ public sealed class DraftsPage(TextDraftStore store, LocalizationService languag
         if (rows.Count == 0 && _offset > 0) { _offset = 0; await ReloadAsync(); return; }
         var body = new VerticalStackLayout { Padding = 16, Spacing = 10 };
         body.Add(Button("NewDraft", async () => await Navigation.PushAsync(new TextDraftPage(store, Language))));
-        body.Add(Button("ContentTransfer", () => Navigation.PushAsync(ContentTransferPage.Create(Handler!.MauiContext!.Services, Language))));
-        body.Add(Button("Trash", () => Navigation.PushAsync(new ContentTrashPage(Handler!.MauiContext!.Services.GetRequiredService<ContentTrashStore>(), Language))));
-        body.Add(Button("RetainedContents", () => Navigation.PushAsync(new RetainedContentPage(Handler!.MauiContext!.Services.GetRequiredService<ResourceManagementStore>(), Language))));
+        body.Add(Button("ContentTransfer", () => Handler?.MauiContext?.Services is { } services
+            ? Navigation.PushAsync(ContentTransferPage.Create(services, Language)) : Task.CompletedTask));
+        body.Add(Button("Trash", () => Handler?.MauiContext?.Services is { } services
+            ? Navigation.PushAsync(new ContentTrashPage(services.GetRequiredService<ContentTrashStore>(), Language)) : Task.CompletedTask));
+        body.Add(Button("RetainedContents", () => Handler?.MauiContext?.Services is { } services
+            ? Navigation.PushAsync(new RetainedContentPage(services.GetRequiredService<ResourceManagementStore>(), Language)) : Task.CompletedTask));
         body.Add(new Label { Text = T("DraftHint") }); body.Add(Button("Refresh", ReloadAsync));
         Status.Text = rows.Count == 0 ? T("EmptyDrafts") : ""; body.Add(Status);
         foreach (var row in rows)

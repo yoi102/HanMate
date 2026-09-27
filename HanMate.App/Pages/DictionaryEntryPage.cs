@@ -200,12 +200,17 @@ public sealed class DictionaryEntryPage : ContentPage
                 BackgroundColor = Colors.Transparent, Aspect = Aspect.AspectFit, AutomationId = "Dictionary.Favorite" };
             _favorite.Clicked += async (_, _) => await ToggleFavoriteAsync();
             row.Add(_favorite, 1); header.Add(row);
-            header.Add(new Label { Text = string.Join(" ", _detail.Headword.Atoms.Where(a => a.Pinyin is not null).Select(a => a.Pinyin)),
-                FontSize = 18, TextColor = Color.FromArgb("#73717A"), AutomationId = "Dictionary.HeadwordPinyin" });
+            var headwordPinyin = LibraryLayout.Muted(string.Join(" ", _detail.Headword.Atoms.Where(a => a.Pinyin is not null).Select(a => a.Pinyin)));
+            headwordPinyin.FontSize = 18;
+            headwordPinyin.AutomationId = "Dictionary.HeadwordPinyin";
+            header.Add(headwordPinyin);
             if (_learningContent) { _headerTranslation = LibraryLayout.Muted(null); header.Add(_headerTranslation); }
             var characterInfo = _detail.Notes.Split('\n').Where(s => s.StartsWith("部首：", StringComparison.Ordinal) || s.StartsWith("笔画：", StringComparison.Ordinal));
             var information = string.Join("   ·   ", characterInfo);
-            if (information.Length > 0) header.Add(new Label { Text = information, FontSize = 13, TextColor = Colors.Gray });
+            if (information.Length > 0)
+            {
+                var note = LibraryLayout.Muted(information); note.FontSize = 13; header.Add(note);
+            }
             _list.Header = header;
         }
         if (_headwordSpeak is not null) SemanticProperties.SetHint(_headwordSpeak, T("Speak"));
@@ -242,16 +247,19 @@ public sealed class DictionaryEntryPage : ContentPage
             if (_list.Footer is null)
             {
                 var footer = new VerticalStackLayout { Padding = new Thickness(24, 16, 24, 24), Spacing = 6 };
-                _footerNoExamples = new Label { FontSize = 13, TextColor = Colors.Gray };
-                _footerAutomatic = new Label { FontSize = 12, TextColor = Colors.Gray };
-                _footerSupplement = new Label { FontSize = 12, TextColor = Colors.Gray };
+                _footerNoExamples = LibraryLayout.Muted(null); _footerNoExamples.FontSize = 13;
+                _footerAutomatic = LibraryLayout.Muted(null); _footerAutomatic.FontSize = 12;
+                _footerSupplement = LibraryLayout.Muted(null); _footerSupplement.FontSize = 12;
                 footer.Add(_footerNoExamples); footer.Add(_footerAutomatic); footer.Add(_footerSupplement);
-                footer.Add(new Label { Text = _document.Source.AuthorProvider, FontSize = 12, TextColor = Colors.Gray });
+                var source = LibraryLayout.Muted(_document.Source.AuthorProvider); source.FontSize = 12; footer.Add(source);
                 _list.Footer = footer;
             }
-            _footerNoExamples!.Text = T("NoExamples"); _footerNoExamples.IsVisible = _detail.Examples.Count == 0;
-            _footerAutomatic!.Text = T("Automatic"); _footerAutomatic.IsVisible = _detail.HasAutomaticPinyin;
-            _footerSupplement!.Text = T("Supplement"); _footerSupplement.IsVisible = _detail.Examples.Any(e => e.Supplement);
+            if (_footerNoExamples is { } noExamples)
+            { noExamples.Text = T("NoExamples"); noExamples.IsVisible = _detail.Examples.Count == 0; }
+            if (_footerAutomatic is { } automatic)
+            { automatic.Text = T("Automatic"); automatic.IsVisible = _detail.HasAutomaticPinyin; }
+            if (_footerSupplement is { } supplement)
+            { supplement.Text = T("Supplement"); supplement.IsVisible = _detail.Examples.Any(e => e.Supplement); }
         }
         if (_learningContent && _blocks.Count == 0)
             _list.EmptyView = new Label { Text = _language["LearningWords.NoMeaning"], Margin = 24 };
@@ -332,7 +340,7 @@ public sealed class DictionaryEntryPage : ContentPage
             {
                 var readings = _detail.Headword.Atoms.Select(a => PinyinSyllableParser.TryParseDictionarySyllable(a.Pinyin ?? "", out var p) ? p : null).ToArray();
                 Func<string>? phonemes = readings.Length is > 0 and <= 32 && readings.All(p => p is not null && !p.Erhua)
-                    ? () => string.Join(' ', readings.Select(p => PinyinVoiceInput.Syllable(p!.Base, p.Tone))) : null;
+                    ? () => string.Join(' ', readings.OfType<PinyinSyllable>().Select(p => PinyinVoiceInput.Syllable(p.Base, p.Tone))) : null;
                 await voice.SpeakAsync(_detail.Headword.Text, readings, phonemes, token);
             }
             catch (SpeechUnavailableException e) { problem = e.SystemVoice ? _language["Speech.Unavailable"] : T("NoVoice"); throw; }
@@ -449,8 +457,8 @@ public sealed class DictionaryEntryPage : ContentPage
                 var defaultFolder = (await store.GetFoldersAsync()).Single(f => f.IsDefault);
                 await store.SetSelectionAsync(_document.Id, _isFavorite ? [] : [defaultFolder.Id], selection.Revision);
             }
-            if (_active && generation == _generation)
-            { await RefreshFavoriteAsync(generation, _lifetime!.Token); _status.IsVisible = false; }
+            if (_active && generation == _generation && _lifetime is { } lifetime)
+            { await RefreshFavoriteAsync(generation, lifetime.Token); _status.IsVisible = false; }
         }
         catch (OperationCanceledException) { }
         catch
@@ -491,14 +499,19 @@ public sealed class DictionaryEntryPage : ContentPage
             {
                 var button = new Button { Text = block.Heading, FontSize = 14, Padding = new Thickness(0, 4),
                     LineBreakMode = LineBreakMode.WordWrap,
-                    BackgroundColor = Colors.Transparent, TextColor = Color.FromArgb("#7452AD"), HorizontalOptions = LayoutOptions.Start,
+                    BackgroundColor = Colors.Transparent, HorizontalOptions = LayoutOptions.Start,
                     AutomationId = "Dictionary.ExpandDefinitions" };
+                button.SetAppThemeColor(Button.TextColorProperty, Color.FromArgb("#7452AD"), Color.FromArgb("#D5C4FF"));
                 button.BindingContext = block;
                 button.SetBinding(Button.TextProperty, Binding.Create(static (Block item) => item.Heading));
                 button.Clicked += (_, _) => expand(); body.Add(button); Content = body; return;
             }
-            if (block.Heading.Length > 0) body.Add(new Label { Text = block.Heading, FontSize = 15,
-                FontAttributes = FontAttributes.Bold, TextColor = Color.FromArgb("#73717A"), Margin = new Thickness(0, 12, 0, 0) });
+            if (block.Heading.Length > 0)
+            {
+                var heading = LibraryLayout.Muted(block.Heading);
+                heading.FontSize = 15; heading.FontAttributes = FontAttributes.Bold;
+                heading.Margin = new Thickness(0, 12, 0, 0); body.Add(heading);
+            }
             var ruby = new RubyTextView(block.Atoms, Pinyin, .74, null, block.Highlight, dictionaryStyle: true);
             if (block.Speech is { } passage)
             {

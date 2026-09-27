@@ -51,7 +51,7 @@ public sealed partial class LearningBrowserPage
             foreach (var row in _renderedResult?.Items ?? [])
             {
                 if (_shareSelected.Count >= 100) break;
-                var document = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
+                var document = ContentJson.DeserializeRequired(row.BodyJson);
                 var rights = ContentShareStore.Row(document);
                 if (rights.CanShare || rights.CanAttest) _shareSelected.Add(document.Id);
             }
@@ -187,7 +187,7 @@ public sealed partial class LearningBrowserPage
         await RunAsync(async () =>
         {
             if (Handler?.MauiContext?.Services is not { } services) return;
-            _shareAction!.IsEnabled = false;
+            if (_shareAction is { } shareAction) shareAction.IsEnabled = false;
             var succeeded = await LearningShareRoomLauncher.OpenAsync(this, services, Language, _shareSelected.ToArray());
             if (succeeded)
             {

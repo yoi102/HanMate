@@ -18,9 +18,13 @@ public sealed class AnnotationPage : ContentPage
     private Shell? _shell;
     private Label _status = new();
     private string? _error;
+    private ContentDocument Annotation => _body.Annotation
+        ?? throw new InvalidOperationException("The draft has no annotation to review.");
     private string T(string key) => _language["Library." + key];
     public AnnotationPage(TextDraftStore store, LocalizationService language, SavedTextDraft draft, Action<SavedTextDraft?, bool>? changed = null)
-    { _store = store; _language = language; _draft = draft; _body = draft.Body; _changed = changed; Render(); }
+    { _store = store; _language = language; _draft = draft; _body = draft.Body; _changed = changed;
+        if (_body.Annotation is null) throw new ArgumentException("The draft has no annotation to review.", nameof(draft));
+        Render(); }
 
     private Button ActionButton(string key, Func<Task> action)
     {
@@ -39,7 +43,7 @@ public sealed class AnnotationPage : ContentPage
     private void Render()
     {
         Title = T("ReviewPinyin"); _status = new Label { Text = _error is null ? (_dirty ? T("Unsaved") : T("SavedDraft")) : T(_error) };
-        var document = _body.Annotation!; var all = document.TextUnits.SelectMany(u => u.Tokens.Select(t => (Unit: u, Token: t))).Where(x => x.Token.Kind == TokenKind.Hanzi).ToArray();
+        var document = Annotation; var all = document.TextUnits.SelectMany(u => u.Tokens.Select(t => (Unit: u, Token: t))).Where(x => x.Token.Kind == TokenKind.Hanzi).ToArray();
         var rows = (_onlyReview ? all.Where(x => x.Token.ReviewState != AnnotationReviewState.Confirmed) : all).ToArray();
         if (_offset >= rows.Length) _offset = Math.Max(0, ((rows.Length - 1) / 48) * 48);
         var layout = new VerticalStackLayout { Padding = 16, Spacing = 10 };
@@ -99,7 +103,7 @@ public sealed class AnnotationPage : ContentPage
         }
         else if (Array.IndexOf(labels, selected) is var index && index >= 0)
         { var p = candidates[index]; input = p.Base + (p.Erhua ? "r" : "") + p.Tone; }
-        SetDocument(DraftAnnotation.Correct(_body.Annotation!, token.Id, input)); await SaveAsync();
+        SetDocument(DraftAnnotation.Correct(Annotation, token.Id, input)); await SaveAsync();
     }
     private void SetDocument(ContentDocument document)
     { _body = _body with { PreviousAnnotation = _body.Annotation, Annotation = document, Title = document.Title, Kind = document.Kind,
@@ -113,13 +117,16 @@ public sealed class AnnotationPage : ContentPage
     private async Task CommitAsync()
     {
         await SaveAsync();
-        var count = _body.Annotation!.TextUnits.SelectMany(u => u.Tokens).Count(t => t.Kind == TokenKind.Hanzi && t.ReviewState != AnnotationReviewState.Confirmed);
+        var count = Annotation.TextUnits.SelectMany(u => u.Tokens).Count(t => t.Kind == TokenKind.Hanzi && t.ReviewState != AnnotationReviewState.Confirmed);
         if (count > 0 && !await DisplayAlertAsync(T("SavePersonal"), string.Format(T("SaveUnreviewed"), count), T("SavePersonal"), T("Cancel"))) return;
-        var store = Handler!.MauiContext!.Services.GetRequiredService<EditorCommitStore>();
+        var services = Handler?.MauiContext?.Services
+            ?? throw new InvalidOperationException("The editor is no longer attached to a window.");
+        var store = services.GetRequiredService<EditorCommitStore>();
         var committed = await Task.Run(() => store.CommitAsync(_draft)); _changed?.Invoke(null, true); _dirty = false; _busy = false;
         // Shell's implicit root can be null in NavigationStack. Keep the Shell
         // navigation owner, not this page's proxy (which detaches on pop).
-        var navigation = Shell.Current.Navigation;
+        var navigation = Shell.Current?.Navigation
+            ?? throw new InvalidOperationException("The editor has no active navigation owner.");
         await navigation.PopToRootAsync(false);
         await navigation.PushAsync(new ReadingPage(new ReadingDocument(committed.Document), _language), false);
     }

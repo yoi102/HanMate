@@ -54,6 +54,10 @@ public sealed class LocalizationService : INotifyPropertyChanged
     public string LearnDraftsTitle => this["Learn.DraftsTitle"];
     public string LearnDraftsHint => this["Learn.DraftsHint"];
     public string SettingsLanguageGroup => this["Settings.LanguageGroup"];
+    public string SettingsThemeGroup => this["Settings.ThemeGroup"];
+    public string ThemeSystem => this["Theme.System"];
+    public string ThemeLight => this["Theme.Light"];
+    public string ThemeDark => this["Theme.Dark"];
     public string SettingsContentGroup => this["Settings.ContentGroup"];
     public string SettingsAudioGroup => this["Settings.AudioGroup"];
     public string SettingsDataGroup => this["Settings.DataGroup"];

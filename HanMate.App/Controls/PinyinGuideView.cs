@@ -78,11 +78,11 @@ public sealed class PinyinGuideView : AbsoluteLayout, IDisposable
     {
         var context = page.Handler?.MauiContext ?? throw new InvalidOperationException("Page is not ready.");
 #if ANDROID
-        if (Platform.CurrentActivity?.Window?.DecorView is Android.Views.ViewGroup decor &&
+        if (Platform.CurrentActivity?.Window?.DecorView is Android.Views.ViewGroup decor && decor.Context is { } decorContext &&
             _target.Handler?.PlatformView is Android.Views.View target)
         {
             var density = decor.Resources?.DisplayMetrics?.Density ?? 1;
-            var host = new SpotlightHost(decor.Context!, this, density);
+            var host = new SpotlightHost(decorContext, this, density);
             host.AddView(this.ToPlatform(context), new Android.Widget.FrameLayout.LayoutParams(-1, -1));
             decor.AddView(host, new Android.Views.ViewGroup.LayoutParams(-1, -1));
             _bounds = () =>
@@ -98,7 +98,7 @@ public sealed class PinyinGuideView : AbsoluteLayout, IDisposable
             {
                 for (var i = 0; i < parent.ChildCount; i++)
                 {
-                    var sibling = parent.GetChildAt(i)!;
+                    if (parent.GetChildAt(i) is not { } sibling) continue;
                     if (sibling == current || sibling == host) continue;
                     excluded.Add((sibling, sibling.ImportantForAccessibility));
                     sibling.ImportantForAccessibility = Android.Views.ImportantForAccessibility.NoHideDescendants;
@@ -139,16 +139,17 @@ public sealed class PinyinGuideView : AbsoluteLayout, IDisposable
                 var point = target.TransformToVisual(platform).TransformPoint(new global::Windows.Foundation.Point());
                 return new Rect(point.X, point.Y, target.ActualWidth, target.ActualHeight);
             };
-            void ArrangeOverlay(object? sender, Microsoft.UI.Xaml.SizeChangedEventArgs args)
+            void ArrangeOverlay()
             {
                 ((IView)this).Measure(panel.ActualWidth, panel.ActualHeight);
                 ((IView)this).Arrange(new Rect(0, 0, panel.ActualWidth, panel.ActualHeight));
             }
-            panel.SizeChanged += ArrangeOverlay;
-            Dispatcher.Dispatch(() => ArrangeOverlay(null, null!));
+            void OnPanelSizeChanged(object? sender, Microsoft.UI.Xaml.SizeChangedEventArgs args) => ArrangeOverlay();
+            panel.SizeChanged += OnPanelSizeChanged;
+            Dispatcher.Dispatch(ArrangeOverlay);
             _detach = () =>
             {
-                panel.SizeChanged -= ArrangeOverlay; panel.Children.Remove(platform);
+                panel.SizeChanged -= OnPanelSizeChanged; panel.Children.Remove(platform);
                 if (wrapped) { window.Content = null; panel.Children.Remove(original); window.Content = original; }
             };
         }

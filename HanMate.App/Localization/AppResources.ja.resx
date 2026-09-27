@@ -283,7 +283,7 @@
     <value>内容プレビュー。このページでの編集・音声再生は未対応です。</value>
   </data>
   <data name="Pinyin.Title" xml:space="preserve"><value>ピンイン練習</value></data>
-  <data name="Pinyin.Hint" xml:space="preserve"><value>タップで基本の発音、長押し・右クリックで例字を表示。</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>タップで基本の発音、長押しで例字を表示。</value></data>
   <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} 項目 · オフライン録音 {1} 件 · 開発プレビュー</value></data>
   <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>音声の出典</value></data>
@@ -689,7 +689,7 @@
   <data name="Reader.SpeechDisabled" xml:space="preserve"><value>現在はローカル音声のみ使用します。設定のシステム音声画面で読み上げを許可してください。</value></data>
   <data name="Speech.AllowReading" xml:space="preserve"><value>閲覧時のシステム音声を許可（既定はオフ、毎回確認）</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>ピンイン教材と音声の出典</value></data>
-  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>タップで発音、長押し・右クリックで辞書の説明を開きます。</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>タップで発音、長押しで辞書の説明を開きます。</value></data>
   <data name="Pinyin.AudioMethod" xml:space="preserve"><value>ピンインの例字・例語は一致する audio-cmn 録音を優先し、不足時は「読み上げ音声」で選んだ音源を使います。Melo は教材のピンインに従いますが、Kokoro とシステム音声は文字を読み、手動ピンインを反映するとは限りません。録音のない単独韻母は選択した音源が対応する場合のみ合成します。audio-cmn の CC BY-SA は版の指定がなく、教材としての聴取確認は未完了です。</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>AIオフライン音声パック</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>音声パックは内蔵です。試聴・音声選択・キャッシュ復元ができます。「この音声を使う」で読み上げ音源も切り替わります。録音を優先します。</value></data>
@@ -784,6 +784,11 @@
   <data name="Library.More" xml:space="preserve"><value>その他の操作</value></data>
   <data name="Library.FolderActions" xml:space="preserve"><value>フォルダーの管理</value></data>
   <data name="Settings.LanguageGroup" xml:space="preserve"><value>表示言語</value></data>
+  <data name="Settings.LanguageSaveFailed" xml:space="preserve"><value>表示言語を保存できませんでした。もう一度お試しください。</value></data>
+  <data name="Settings.ThemeGroup" xml:space="preserve"><value>外観</value></data>
+  <data name="Theme.System" xml:space="preserve"><value>システムに従う</value></data>
+  <data name="Theme.Light" xml:space="preserve"><value>ライト</value></data>
+  <data name="Theme.Dark" xml:space="preserve"><value>ダーク</value></data>
   <data name="Settings.ContentGroup" xml:space="preserve"><value>学習コンテンツ</value></data>
   <data name="Settings.AudioGroup" xml:space="preserve"><value>音声と発音</value></data>
   <data name="Settings.DataGroup" xml:space="preserve"><value>データとプライバシー</value></data>
@@ -809,7 +814,7 @@
   <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>明るく表示された「{0}」をタップして、発音を聞きましょう。</value></data>
   <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>長押しして例字を見る</value></data>
   <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>「{0}」を約0.5秒長押しすると、例字・例語のページに進みます。</value></data>
-  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>マウスでは右クリック、キーボードではボタンにフォーカスして F10 を押します。</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>マウスの左ボタンを約 0.5 秒押し続けるか、ボタンにフォーカスして F10 を押します。右クリックで前のページに戻ります。</value></data>
   <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>ガイドをスキップ</value></data>
   <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>例字をタップして聞く</value></data>
   <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>明るく表示された「{0}」をタップして、発音を聞きましょう。</value></data>
@@ -832,7 +837,7 @@
   <data name="WordCategories.other" xml:space="preserve"><value>その他の単語</value></data>
   <data name="WordCategories.address" xml:space="preserve"><value>呼び方</value></data>
   <data name="WordCategories.greetings" xml:space="preserve"><value>挨拶</value></data>
-  <data name="LearningWords.Gesture" xml:space="preserve"><value>タップで再生、もう一度タップで停止。長押し・右クリックで意味を表示します。</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>タップで再生、もう一度タップで停止。長押しで意味を表示します。</value></data>
   <data name="LearningWords.Meaning" xml:space="preserve"><value>単語の意味</value></data>
   <data name="LearningWords.NoMeaning" xml:space="preserve"><value>この単語にはまだ意味が登録されていません。</value></data>
   <data name="GrammarDetail.Hint" xml:space="preserve"><value>説明や例文をタップして読み上げ、もう一度タップすると停止します。</value></data>

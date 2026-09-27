@@ -45,6 +45,8 @@ public static class PinyinVoiceInput
     {
         if (unit.Tokens.Count is < 1 or > 32 || unit.Tokens.Any(t => t.Kind != TokenKind.Hanzi || t.Pinyin is null || t.Pinyin.Erhua))
             throw new InvalidDataException("Teaching speech requires explicit readings for every character.");
-        return string.Join(' ', unit.Tokens.Select(t => Syllable(t.Pinyin!.Base, t.Pinyin.Tone)));
+        return string.Join(' ', unit.Tokens.Select(t => t.Pinyin is { } pinyin
+            ? Syllable(pinyin.Base, pinyin.Tone)
+            : throw new InvalidDataException("Teaching speech requires explicit readings for every character.")));
     }
 }

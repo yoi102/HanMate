@@ -51,7 +51,7 @@ public sealed partial class LearningBrowserPage
 
     private object CreateWordSurface()
     {
-        // Reuse the native tap/hold surface, including scroll cancellation and Windows right-click/F10.
+        // Reuse the native tap/hold surface, including scroll cancellation and Windows mouse hold/F10.
         var card = new PinyinExampleView { AutomationId = "Learning.WordItem" };
         SemanticProperties.SetHint(card, Language["LearningWords.Gesture"]);
         card.BindingContextChanged += (_, _) =>
@@ -177,8 +177,8 @@ public sealed partial class LearningBrowserPage
 
     private async Task DefineWordAsync(WordListItem item)
     {
-        if (!_wordActive || Busy || Handler?.MauiContext?.Services is not { } services) return;
-        var token = _wordLifetime!.Token;
+        if (!_wordActive || Busy || Handler?.MauiContext?.Services is not { } services || _wordLifetime is not { } lifetime) return;
+        var token = lifetime.Token;
         await RunAsync(async () =>
         {
             try

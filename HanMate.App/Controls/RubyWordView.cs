@@ -23,7 +23,11 @@ public sealed class RubyWordView : FlexLayout
                 {
                     var selected = highlight is not null && highlight.TokenId == token.Id && i >= highlight.PinyinStart && i < highlight.PinyinStart + highlight.PinyinLength;
                     var span = new Span { Text = syllable.Display[offsets[i]..offsets[i + 1]] };
-                    if (selected) { span.TextColor = Color.FromArgb("#B3261E"); span.FontAttributes = FontAttributes.Bold; }
+                    if (selected)
+                    {
+                        span.SetAppThemeColor(Span.TextColorProperty, Color.FromArgb("#B3261E"), Color.FromArgb("#FFA8A1"));
+                        span.FontAttributes = FontAttributes.Bold;
+                    }
                     formatted.Spans.Add(span);
                 }
             }

@@ -27,7 +27,11 @@ public sealed partial class ReadingPage
         actions.Add(_playReading, 0); actions.Add(_stopReading, 1);
         _playReading.Clicked += async (_, _) => await PlayReadingAsync(_targetIndex is { } i ? _document.Targets[i] : null);
         _stopReading.Clicked += async (_, _) => await StopReadingAsync();
-        _speechReading.Clicked += async (_, _) => await Navigation.PushAsync(ActivatorUtilities.CreateInstance<SpeechSettingsPage>(Handler!.MauiContext!.Services));
+        _speechReading.Clicked += async (_, _) =>
+        {
+            if (Services is { } services)
+                await Navigation.PushAsync(ActivatorUtilities.CreateInstance<SpeechSettingsPage>(services));
+        };
         return new VerticalStackLayout { Padding = new Thickness(12, 0, 12, 6), Spacing = 3,
             IsVisible = _allowEditing, Children = { actions, _speechReading, _playbackStatus } };
     }
@@ -67,10 +71,13 @@ public sealed partial class ReadingPage
     }
     private async Task PlayReadingAsync(ReadingTarget? selected, bool allowSpeech = false)
     {
-        if (!_active || !_allowEditing || Player is not { } player) return;
+        if (!_active || !_allowEditing || Player is not { } player || Services is not { } services) return;
         var generation = ++_playGeneration; HighlightAudio(null);
         _playbackStatus.Text = T("PreparingAudio");
-        var store = Handler!.MauiContext!.Services.GetRequiredService<ReadingAudioStore>();
+        var store = services.GetRequiredService<ReadingAudioStore>();
+        var wordSpeech = services.GetRequiredService<Audio.WordSpeechService>();
+        var aiVoice = services.GetRequiredService<Audio.AiVoiceService>();
+        var speechPolicy = services.GetRequiredService<SpeechPolicyStore>();
         ReadingAudioPlan? plan = null; string? problem = null;
         var outcome = await player.PlaySequenceAsync(_playOwner,
             $"reading:{_document.Content.Id}:{selected?.SegmentId ?? selected?.UnitId ?? Guid.Empty}:{allowSpeech}", async token =>
@@ -83,11 +90,11 @@ public sealed partial class ReadingPage
                     plan = await Task.Run(() => store.PlanAsync(_document, selected, token, allowSpeechFallback: true), token);
                     if (_document.Content.Kind == ContentKind.Word)
                     {
-                        var catalog = await Handler!.MauiContext!.Services.GetRequiredService<Audio.WordSpeechService>().GetCatalogAsync().WaitAsync(token);
+                        var catalog = await wordSpeech.GetCatalogAsync().WaitAsync(token);
                         plan = plan.WithWordRecordings(_document, catalog);
                     }
                     var needsSpeech = plan.Steps.Any(s => s.AssetKey.StartsWith("speech:", StringComparison.Ordinal));
-                    var aiSpeaker = !needsSpeech || allowSpeech || systemDefault ? null : await Handler!.MauiContext!.Services.GetRequiredService<Audio.AiVoiceService>().SelectedAsync(token, engine);
+                    var aiSpeaker = !needsSpeech || allowSpeech || systemDefault ? null : await aiVoice.SelectedAsync(token, engine);
                     Audio.LocalVoice? voice = null;
                     if (plan.MissingTargets.Count != 0 && aiSpeaker is null)
                     {
@@ -96,7 +103,7 @@ public sealed partial class ReadingPage
                         else
                         {
                         if (!allowSpeech) { problem = string.Format(T("MissingAudio"), plan.MissingTargets.Count); throw new InvalidDataException("The reading queue has missing audio."); }
-                        if (!await Handler!.MauiContext!.Services.GetRequiredService<SpeechPolicyStore>().IsAllowedAsync(token))
+                        if (!await speechPolicy.IsAllowedAsync(token))
                         { problem = T("SpeechDisabled"); throw new InvalidDataException("System speech is disabled."); }
                         var confirmed = await MainThread.InvokeOnMainThreadAsync(() => DisplayAlertAsync(T("SpeechFallback"), string.Format(T("SpeechConsent"), plan.MissingTargets.Count), T("SpeechFallback"), _language["Library.Cancel"]));
                         token.ThrowIfCancellationRequested(); if (!confirmed) throw new OperationCanceledException();
@@ -111,12 +118,13 @@ public sealed partial class ReadingPage
                     if (plan.Steps.Count == 0) { problem = T("Empty"); throw new InvalidDataException("No speech targets."); }
                     if (aiSpeaker is { } selectedSpeaker)
                     {
-                        var ai = Handler!.MauiContext!.Services.GetRequiredService<Audio.AiVoiceService>();
                         foreach (var step in plan.Steps.Where(s => s.AssetKey.StartsWith("speech:", StringComparison.Ordinal)))
-                            await ai.ValidateAsync(step.Text, selectedSpeaker, token, engine);
+                            await aiVoice.ValidateAsync(step.Text, selectedSpeaker, token, engine);
                     }
+                    if (needsSpeech && aiSpeaker is null && voice is null)
+                    { problem = T("PlaybackFailed"); throw new InvalidDataException("No voice is available for the reading queue."); }
                     return plan.Steps.Select(s => s.AssetKey.StartsWith("speech:", StringComparison.Ordinal)
-                        ? aiSpeaker is { } sid ? $"ai:{engine}:{sid}:{s.AssetKey}" : $"tts:{Uri.EscapeDataString(voice!.Id)}:{s.AssetKey}" : s.AssetKey).ToArray();
+                        ? aiSpeaker is { } sid ? $"ai:{engine}:{sid}:{s.AssetKey}" : $"tts:{Uri.EscapeDataString(voice?.Id ?? throw new InvalidDataException("No voice is available for the reading queue."))}:{s.AssetKey}" : s.AssetKey).ToArray();
                 }
                 catch (UnsupportedVoiceTextException) { problem = _language["Voice.UnsupportedText"]; throw; }
                 catch (Audio.SpeechUnavailableException) { problem = _language["Speech.Unavailable"]; throw; }

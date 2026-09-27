@@ -99,7 +99,7 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
                 {
                     if (open.BindingContext is not LearningRow row || Handler?.MauiContext?.Services is not { } services) return;
                     await RunAsync(async () => await Navigation.PushAsync(await LearningDetailPageFactory.CreateAsync(
-                        await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language, services)));
+                        await Task.Run(() => ContentJson.DeserializeRequired(row.BodyJson)), Language, services)));
                 };
             }))) };
         var restoreIndex = _restoreSelectionPosition ? Math.Min(_visibleRowIndex, result.Items.Count - 1) : -1;
@@ -113,7 +113,7 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         {
             var words = await Task.Run(() => result.Items.Select(row =>
             {
-                var document = JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!;
+                var document = ContentJson.DeserializeRequired(row.BodyJson);
                 return new WordListItem(document, document.TextUnits.Single(u => u.Role == TextUnitRole.Headword));
             }).ToArray());
             rows.ItemTemplate = _shareSelecting ? new DataTemplate(CreateShareSelectionCard) : new WordCardTemplateSelector(this);
@@ -123,13 +123,13 @@ public sealed partial class LearningBrowserPage(LearningCatalogStore store, Loca
         {
             rows.ItemTemplate = new DataTemplate(_shareSelecting ? CreateShareSelectionCard : CreateGrammarCard);
             rows.ItemsSource = await Task.Run(() => result.Items.Select(row =>
-                JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!).ToArray());
+                ContentJson.DeserializeRequired(row.BodyJson)).ToArray());
         }
         else if (kind is ContentKind.Text or ContentKind.Poem)
         {
             rows.ItemTemplate = new DataTemplate(_shareSelecting ? CreateShareSelectionCard : CreateLessonCard);
             rows.ItemsSource = await Task.Run(() => result.Items.Select(row =>
-                JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!).ToArray());
+                ContentJson.DeserializeRequired(row.BodyJson)).ToArray());
         }
         var previous = Button("Previous", async () => { _offset = Math.Max(0, _offset - 50); await ReloadAsync(); }); previous.IsEnabled = _offset > 0;
         var next = Button("Next", async () => { _offset += 50; await ReloadAsync(); }); next.IsEnabled = _offset + 50 < result.Total;

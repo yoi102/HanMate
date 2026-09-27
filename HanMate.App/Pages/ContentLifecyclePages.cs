@@ -21,7 +21,7 @@ public sealed class ContentTrashPage(ContentTrashStore store, LocalizationServic
         foreach (var row in rows)
         {
             body.Add(new Label { Text = row.Title, FontSize = 20 });
-            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language, allowEditing: false))));
+            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(ContentJson.DeserializeRequired(row.BodyJson)), Language, allowEditing: false))));
             body.Add(Button("RestoreContent", async () => { await Task.Run(() => store.RestoreAsync(row)); await ReloadAsync(); }));
         }
         var previous = Button("Previous", async () => { _offset = Math.Max(0, _offset - 50); await ReloadAsync(); }); previous.IsEnabled = _offset > 0;
@@ -43,7 +43,7 @@ public sealed class RetainedContentPage(ResourceManagementStore store, Localizat
         foreach (var row in rows)
         {
             body.Add(new Label { Text = row.Title, FontSize = 20 });
-            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language))));
+            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(ContentJson.DeserializeRequired(row.BodyJson)), Language))));
         }
         var previous = Button("Previous", async () => { _offset = Math.Max(0, _offset - 50); await ReloadAsync(); }); previous.IsEnabled = _offset > 0;
         var next = Button("Next", async () => { _offset += 50; await ReloadAsync(); }); next.IsEnabled = rows.Count == 50;
@@ -66,7 +66,7 @@ public sealed class ResourceEntriesPage(ResourceManagementStore management, Reso
         {
             body.Add(new Label { Text = row.Title, FontSize = 20 });
             body.Add(new Label { Text = Language[row.Removed ? "Library.Hidden" : "Library.Ready"] });
-            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(JsonSerializer.Deserialize<ContentDocument>(row.BodyJson, ContentJson.Options)!), Language))));
+            body.Add(Button("Read", () => Navigation.PushAsync(new ReadingPage(new ReadingDocument(ContentJson.DeserializeRequired(row.BodyJson)), Language))));
             var change = new Button { Text = Language[row.Removed ? "Manage.RestoreEntry" : "Manage.WithdrawEntry"] };
             change.Clicked += async (_, _) => await RunAsync(async () =>
             {

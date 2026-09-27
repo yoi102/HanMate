@@ -23,7 +23,8 @@ public static class LessonPresentation
                 var atoms = part.Atoms.Skip(start).Take(end - start).ToArray();
                 var segment = target is null ? null : reading.Segment(target);
                 var endsSegment = segment is not null && atoms[^1].Start + atoms[^1].Length == segment.Start + segment.Length;
-                blocks.Add(new(atoms, target, endsSegment ? UiLanguagePolicy.SelectAuxiliaryTranslation(segment!.Translations, language) : null));
+                blocks.Add(new(atoms, target, endsSegment && segment is not null
+                    ? UiLanguagePolicy.SelectAuxiliaryTranslation(segment.Translations, language) : null));
                 start = end;
             }
             // A whole-paragraph translation belongs only to the full view, never to one selected sentence.

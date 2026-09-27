@@ -15,9 +15,11 @@ public sealed class PinyinExampleHandler() : ViewHandler<PinyinExampleView, Butt
         new PropertyMapper<PinyinExampleView, PinyinExampleHandler>(ViewMapper)
         {
             [nameof(PinyinExampleView.Content)] = (handler, view) =>
-                handler.PlatformView.Content = view.Content?.ToPlatform(handler.MauiContext!)
+                handler.PlatformView.Content = handler.MauiContext is { } context
+                    ? view.Content?.ToPlatform(context) : null
         };
     private bool _held;
+    private MouseHoldGesture? _mouseHold;
     protected override Button CreatePlatformView() => new()
     {
         Padding = new Thickness(0), BorderThickness = new Thickness(0),
@@ -28,23 +30,25 @@ public sealed class PinyinExampleHandler() : ViewHandler<PinyinExampleView, Butt
     protected override void ConnectHandler(Button view)
     {
         base.ConnectHandler(view);
-        view.Click += Click; view.RightTapped += RightTapped; view.Holding += Holding;
+        view.Click += Click; view.Holding += Holding;
         view.KeyDown += KeyDown; view.PointerPressed += PointerPressed;
+        _mouseHold = new(view, () => _held = false, () =>
+        { _held = true; VirtualView.DefineExample(); });
     }
     protected override void DisconnectHandler(Button view)
     {
-        view.Click -= Click; view.RightTapped -= RightTapped; view.Holding -= Holding;
+        _mouseHold?.Dispose(); _mouseHold = null;
+        view.Click -= Click; view.Holding -= Holding;
         view.KeyDown -= KeyDown; view.PointerPressed -= PointerPressed;
         base.DisconnectHandler(view);
     }
     private void Click(object sender, RoutedEventArgs e)
     { if (!_held) VirtualView.ReadExample(); _held = false; }
     private void PointerPressed(object sender, PointerRoutedEventArgs e) => _held = false;
-    private void RightTapped(object sender, RightTappedRoutedEventArgs e)
-    { e.Handled = true; VirtualView.DefineExample(); }
     private void Holding(object sender, HoldingRoutedEventArgs e)
     {
-        if (e.HoldingState != Microsoft.UI.Input.HoldingState.Started) return;
+        if (e.PointerDeviceType == Microsoft.UI.Input.PointerDeviceType.Mouse ||
+            e.HoldingState != Microsoft.UI.Input.HoldingState.Started) return;
         _held = true; e.Handled = true; VirtualView.DefineExample();
     }
     private void KeyDown(object sender, KeyRoutedEventArgs e)

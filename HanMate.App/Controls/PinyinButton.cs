@@ -5,6 +5,9 @@ public sealed class PinyinButton : Button
 {
     public event EventHandler? ShowExamples;
     private bool _suppressClick;
+#if WINDOWS
+    private Platforms.Windows.MouseHoldGesture? _mouseHold;
+#endif
     public bool ConsumeClick() { var result = !_suppressClick; _suppressClick = false; return result; }
 
     protected override void OnHandlerChanging(HandlerChangingEventArgs args)
@@ -13,8 +16,9 @@ public sealed class PinyinButton : Button
         CancelHold();
         if (args.OldHandler?.PlatformView is Android.Views.View oldView) oldView.Touch -= OnTouch;
 #elif WINDOWS
+        _mouseHold?.Dispose(); _mouseHold = null;
         if (args.OldHandler?.PlatformView is Microsoft.UI.Xaml.FrameworkElement oldView)
-        { oldView.RightTapped -= OnRightTapped; oldView.Holding -= OnHolding; oldView.KeyDown -= OnKeyDown; oldView.PointerPressed -= OnPointerPressed; }
+        { oldView.Holding -= OnHolding; oldView.KeyDown -= OnKeyDown; oldView.PointerPressed -= OnPointerPressed; }
 #elif IOS || MACCATALYST
         if (args.OldHandler?.PlatformView is UIKit.UIControl oldControl) oldControl.TouchDown -= OnTouchDown;
         if (_recognizer is not null && args.OldHandler?.PlatformView is UIKit.UIView oldView) { oldView.RemoveGestureRecognizer(_recognizer); _recognizer.Dispose(); _recognizer = null; }
@@ -29,7 +33,11 @@ public sealed class PinyinButton : Button
         if (Handler?.PlatformView is Android.Views.View view) view.Touch += OnTouch;
 #elif WINDOWS
         if (Handler?.PlatformView is Microsoft.UI.Xaml.FrameworkElement view)
-        { view.RightTapped += OnRightTapped; view.Holding += OnHolding; view.KeyDown += OnKeyDown; view.PointerPressed += OnPointerPressed; }
+        {
+            view.Holding += OnHolding; view.KeyDown += OnKeyDown; view.PointerPressed += OnPointerPressed;
+            _mouseHold = new(view, () => _suppressClick = false, () =>
+            { _suppressClick = true; ShowExamples?.Invoke(this, EventArgs.Empty); });
+        }
 #elif IOS || MACCATALYST
         if (Handler?.PlatformView is UIKit.UIView view)
         {
@@ -75,10 +83,13 @@ public sealed class PinyinButton : Button
         catch (OperationCanceledException) { }
     }
 #elif WINDOWS
-    private void OnRightTapped(object sender, Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs e) { e.Handled = true; ShowExamples?.Invoke(this, EventArgs.Empty); }
     private void OnPointerPressed(object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs e) => _suppressClick = false;
     private void OnHolding(object sender, Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs e)
-    { if (e.HoldingState == Microsoft.UI.Input.HoldingState.Started) { e.Handled = true; _suppressClick = true; ShowExamples?.Invoke(this, EventArgs.Empty); } }
+    {
+        if (e.PointerDeviceType != Microsoft.UI.Input.PointerDeviceType.Mouse &&
+            e.HoldingState == Microsoft.UI.Input.HoldingState.Started)
+        { e.Handled = true; _suppressClick = true; ShowExamples?.Invoke(this, EventArgs.Empty); }
+    }
     private void OnKeyDown(object sender, Microsoft.UI.Xaml.Input.KeyRoutedEventArgs e)
     { if (e.Key == Windows.System.VirtualKey.F10) { e.Handled = true; ShowExamples?.Invoke(this, EventArgs.Empty); } }
 #elif IOS || MACCATALYST

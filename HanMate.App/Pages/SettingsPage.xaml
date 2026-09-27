@@ -9,11 +9,22 @@
         <VerticalStackLayout Padding="20" Spacing="10" MaximumWidthRequest="760">
             <Label Text="{Binding SettingsLanguageGroup}" Style="{StaticResource LibrarySection}" />
             <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
-                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="0" Text="简体中文" Clicked="OnChineseClicked" />
-                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="1" Text="日本語" Clicked="OnJapaneseClicked" />
-                <Button Style="{StaticResource LibrarySecondaryButton}" Grid.Column="2" Text="English" Clicked="OnEnglishClicked" />
+                <Button x:Name="ChineseLanguageButton" Grid.Column="0" AutomationId="Settings.Language.Chinese"
+                        Style="{StaticResource LibrarySecondaryButton}" Text="简体中文" Clicked="OnChineseClicked" />
+                <Button x:Name="JapaneseLanguageButton" Grid.Column="1" AutomationId="Settings.Language.Japanese"
+                        Style="{StaticResource LibrarySecondaryButton}" Text="日本語" Clicked="OnJapaneseClicked" />
+                <Button x:Name="EnglishLanguageButton" Grid.Column="2" AutomationId="Settings.Language.English"
+                        Style="{StaticResource LibrarySecondaryButton}" Text="English" Clicked="OnEnglishClicked" />
             </Grid>
-            <Label x:Name="SaveStatusLabel" IsVisible="False" Style="{StaticResource LibraryMuted}" />
+            <Label Text="{Binding SettingsThemeGroup}" Style="{StaticResource LibrarySection}" />
+            <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+                <Button x:Name="SystemThemeButton" Grid.Column="0" AutomationId="Settings.Theme.System"
+                        Text="{Binding ThemeSystem}" Style="{StaticResource LibrarySecondaryButton}" Clicked="OnSystemThemeClicked" />
+                <Button x:Name="LightThemeButton" Grid.Column="1" AutomationId="Settings.Theme.Light"
+                        Text="{Binding ThemeLight}" Style="{StaticResource LibrarySecondaryButton}" Clicked="OnLightThemeClicked" />
+                <Button x:Name="DarkThemeButton" Grid.Column="2" AutomationId="Settings.Theme.Dark"
+                        Text="{Binding ThemeDark}" Style="{StaticResource LibrarySecondaryButton}" Clicked="OnDarkThemeClicked" />
+            </Grid>
             <Label Text="{Binding SettingsContentGroup}" Style="{StaticResource LibrarySection}" />
             <controls:NavigationTile Compact="True" Title="{Binding ManageResources}" Clicked="OnResourcesClicked" ActionId="Settings.Resources" />
             <controls:NavigationTile Compact="True" Title="{Binding ManageDictionaries}" Clicked="OnDictionariesClicked" ActionId="Settings.Dictionaries" />

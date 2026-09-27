@@ -283,7 +283,7 @@
     <value>内容预览。此页暂不支持编辑和音频播放。</value>
   </data>
   <data name="Pinyin.Title" xml:space="preserve"><value>拼音练习</value></data>
-  <data name="Pinyin.Hint" xml:space="preserve"><value>单击听教学读音，长按或右键查看例字。</value></data>
+  <data name="Pinyin.Hint" xml:space="preserve"><value>单击听教学读音，长按查看例字。</value></data>
   <data name="Pinyin.Coverage" xml:space="preserve"><value>{0} 个项目 · {1} 段离线录音 · 开发预览</value></data>
   <data name="Pinyin.Stop" xml:space="preserve"><value>停止</value></data>
   <data name="Pinyin.Sources" xml:space="preserve"><value>音频来源</value></data>
@@ -689,7 +689,7 @@
   <data name="Reader.SpeechDisabled" xml:space="preserve"><value>当前仅使用本地音频。请先在设置的系统语音页面允许阅读使用系统语音。</value></data>
   <data name="Speech.AllowReading" xml:space="preserve"><value>允许阅读使用系统语音（默认关闭，每次仍需确认）</value></data>
   <data name="Pinyin.Resources" xml:space="preserve"><value>拼音资源与音源署名</value></data>
-  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>单击发音，长按或右键查看字典释义。</value></data>
+  <data name="Pinyin.ExampleGesture" xml:space="preserve"><value>单击发音，长按查看字典释义。</value></data>
   <data name="Pinyin.AudioMethod" xml:space="preserve"><value>拼音例字、例词优先使用匹配的 audio-cmn 录音；缺少时使用“朗读声音”中选定的音源。Melo 按课程拼音合成，Kokoro 和系统语音按文字朗读，不能保证遵循手工拼音。无录音的独立韵母仅在所选音源支持时合成。audio-cmn 声明 CC BY-SA，未指定版本；教学听审仍待完成。</value></data>
   <data name="Voice.Title" xml:space="preserve"><value>AI 离线语音包</value></data>
   <data name="Voice.Hint" xml:space="preserve"><value>语音包随应用提供。可试听、选择音色和恢复缓存；点“使用这个声音朗读”会切换当前朗读音源。已有录音优先。</value></data>
@@ -784,6 +784,11 @@
   <data name="Library.More" xml:space="preserve"><value>更多操作</value></data>
   <data name="Library.FolderActions" xml:space="preserve"><value>管理收藏夹</value></data>
   <data name="Settings.LanguageGroup" xml:space="preserve"><value>界面语言</value></data>
+  <data name="Settings.LanguageSaveFailed" xml:space="preserve"><value>未能保存界面语言，请重试。</value></data>
+  <data name="Settings.ThemeGroup" xml:space="preserve"><value>明暗主题</value></data>
+  <data name="Theme.System" xml:space="preserve"><value>跟随系统</value></data>
+  <data name="Theme.Light" xml:space="preserve"><value>浅色</value></data>
+  <data name="Theme.Dark" xml:space="preserve"><value>深色</value></data>
   <data name="Settings.ContentGroup" xml:space="preserve"><value>学习资料</value></data>
   <data name="Settings.AudioGroup" xml:space="preserve"><value>语音与发音</value></data>
   <data name="Settings.DataGroup" xml:space="preserve"><value>数据与隐私</value></data>
@@ -809,7 +814,7 @@
   <data name="Pinyin.Guide.TapBody" xml:space="preserve"><value>点一下亮着的“{0}”，听它的拼音读音。</value></data>
   <data name="Pinyin.Guide.HoldTitle" xml:space="preserve"><value>长按拼音，看例字</value></data>
   <data name="Pinyin.Guide.HoldBody" xml:space="preserve"><value>按住“{0}”约半秒，进入例字例词页。</value></data>
-  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>鼠标也可以右键；键盘聚焦后按 F10。</value></data>
+  <data name="Pinyin.Guide.Desktop" xml:space="preserve"><value>鼠标左键按住约半秒；键盘聚焦后按 F10。右键返回上一页。</value></data>
   <data name="Pinyin.Guide.Skip" xml:space="preserve"><value>跳过向导</value></data>
   <data name="Pinyin.Guide.ExampleTapTitle" xml:space="preserve"><value>单击例字，听读音</value></data>
   <data name="Pinyin.Guide.ExampleTapBody" xml:space="preserve"><value>点一下亮着的“{0}”，听例字的读音。</value></data>
@@ -832,7 +837,7 @@
   <data name="WordCategories.other" xml:space="preserve"><value>其他词语</value></data>
   <data name="WordCategories.address" xml:space="preserve"><value>称呼</value></data>
   <data name="WordCategories.greetings" xml:space="preserve"><value>招呼</value></data>
-  <data name="LearningWords.Gesture" xml:space="preserve"><value>单击播放，再次单击停止；长按或右键查看释义。</value></data>
+  <data name="LearningWords.Gesture" xml:space="preserve"><value>单击播放，再次单击停止；长按查看释义。</value></data>
   <data name="LearningWords.Meaning" xml:space="preserve"><value>词语释义</value></data>
   <data name="LearningWords.NoMeaning" xml:space="preserve"><value>这个词语暂未添加释义。</value></data>
   <data name="GrammarDetail.Hint" xml:space="preserve"><value>点击说明或例句可朗读，再次点击可停止。</value></data>

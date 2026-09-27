@@ -156,7 +156,17 @@ public sealed class HandwritingSearchView : ContentView
         if (_rowCache.TryGetValue(character, out var cached) && cached.Epoch == epoch) return cached;
         var page = await _store.SearchAsync(character, cancellationToken: token, pageSize: 6);
         var exactIds = page.Items.Where(i => i.MatchTier == SearchMatchTier.HanziExact).Select(i => i.ContentId).ToHashSet();
-        var entries = page.Items.Select(i => new Entry(JsonSerializer.Deserialize<ContentDocument>(i.BodyJson, ContentJson.Options)!, !i.IsReadOnly)).ToList();
+        var entries = new List<Entry>();
+        foreach (var item in page.Items)
+        {
+            try
+            {
+                var document = JsonSerializer.Deserialize<ContentDocument>(item.BodyJson, ContentJson.Options);
+                if (document?.TextUnits.Any(u => u.Role == TextUnitRole.Headword) == true)
+                    entries.Add(new Entry(document, !item.IsReadOnly));
+            }
+            catch (JsonException) { /* Ignore one damaged index row and keep the other matches. */ }
+        }
         var teaching = await teachingTask.Value.WaitAsync(token);
         if (teaching is not null)
         {
@@ -206,19 +216,33 @@ public sealed class HandwritingSearchView : ContentView
         foreach (var example in row.Examples)
         {
             var title = Headword(example.Document).Text;
-            // The label owns text measurement. Android's multiline Button can report
-            // a single-line height after flex shrinking, clipping the next line.
-            var word = new Button { Padding = 0, BorderWidth = 0, CornerRadius = 8,
+            var word = new Button { BorderWidth = 0, CornerRadius = 10,
                 AutomationId = "Handwriting.Word." + row.Character + "." + example.Document.Id,
-                BackgroundColor = Colors.Transparent };
+                MinimumHeightRequest = 48, MinimumWidthRequest = 56 };
+            word.SetAppThemeColor(Button.BackgroundColorProperty, Color.FromArgb("#EEE8F8"), Color.FromArgb("#393143"));
             SemanticProperties.SetDescription(word, title);
             word.Clicked += async (_, _) => await OpenAsync(example, Headword(example.Document).Text, row.Epoch);
+            var area = new Grid { MinimumHeightRequest = 48, MinimumWidthRequest = 56, Margin = new Thickness(2) };
+#if WINDOWS
+            // Native button text makes the whole visible word a hit target on WinUI.
+            word.Text = title;
+            word.FontSize = 18;
+            word.Padding = new Thickness(12, 6);
+            word.LineBreakMode = LineBreakMode.WordWrap;
+            word.SetAppThemeColor(Button.TextColorProperty, Color.FromArgb("#321568"), Color.FromArgb("#F0E7FF"));
+            area.Add(word);
+#else
+            // Android's multiline Button can measure as one line after flex shrinking.
+            // Keep a separate label there to avoid clipping the following word.
+            word.Padding = 0;
             var label = new Label { Text = title, FontSize = 18, LineBreakMode = LineBreakMode.WordWrap,
-                TextColor = Color.FromArgb("#321568"), VerticalOptions = LayoutOptions.Center };
+                VerticalOptions = LayoutOptions.Center };
+            label.SetAppThemeColor(Label.TextColorProperty, Color.FromArgb("#321568"), Color.FromArgb("#F0E7FF"));
             AutomationProperties.SetIsInAccessibleTree(label, false);
-            var textArea = new Grid { Padding = new Thickness(9, 3), InputTransparent = true, CascadeInputTransparent = true };
+            var textArea = new Grid { Padding = new Thickness(12, 6), InputTransparent = true, CascadeInputTransparent = true };
             textArea.Add(label);
-            var area = new Grid { MinimumHeightRequest = 48 }; area.Add(word); area.Add(textArea);
+            area.Add(word); area.Add(textArea);
+#endif
             examples.Children.Add(area);
         }
         group.Add(examples, 1);

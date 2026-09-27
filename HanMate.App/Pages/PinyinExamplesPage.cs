@@ -71,8 +71,8 @@ public sealed class PinyinExamplesPage : ContentPage
                 {
                     if (_guide is not null && card != _guideCard) return;
                     var result = await PlayAsync(example, card);
-                    if (_active && _guide is not null && result == PlaybackOutcome.Completed)
-                    { _tour?.Advance(3); _guide.SetStep(_tour!.Step); }
+                    if (_active && _guide is not null && _tour is { } tour && result == PlaybackOutcome.Completed)
+                    { tour.Advance(3); _guide.SetStep(tour.Step); }
                 };
                 card.Define += async (_, _) =>
                 {

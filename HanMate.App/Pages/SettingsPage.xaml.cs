@@ -1,8 +1,10 @@
+using System.ComponentModel;
 using HanMate.App.Localization;
 using HanMate.Core.Localization;
 using HanMate.Infrastructure.Packages;
 using HanMate.App.Updates;
 using HanMate.Core.Updates;
+using HanMate.App.Appearance;
 
 namespace HanMate.App.Pages;
 
@@ -33,16 +35,24 @@ public partial class SettingsPage : ContentPage
     {
         base.OnAppearing();
         _updates.Changed += OnUpdateChanged;
+        _localization.PropertyChanged += OnLocalizationChanged;
         RefreshUpdateIndicator();
+        RefreshLanguageSelection();
+        RefreshThemeSelection();
     }
 
     protected override void OnDisappearing()
     {
         _updates.Changed -= OnUpdateChanged;
+        _localization.PropertyChanged -= OnLocalizationChanged;
         base.OnDisappearing();
     }
 
     private void OnUpdateChanged(object? sender, EventArgs e) => RefreshUpdateIndicator();
+    private void OnLocalizationChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName == nameof(LocalizationService.CurrentLanguage)) RefreshLanguageSelection();
+    }
 
     private void RefreshUpdateIndicator()
     {
@@ -159,10 +169,48 @@ public partial class SettingsPage : ContentPage
     private async void OnEnglishClicked(object? sender, EventArgs e) =>
         await ChangeLanguageAsync(UiLanguage.English);
 
+    private void OnSystemThemeClicked(object? sender, EventArgs e) => ChangeTheme(AppTheme.Unspecified);
+    private void OnLightThemeClicked(object? sender, EventArgs e) => ChangeTheme(AppTheme.Light);
+    private void OnDarkThemeClicked(object? sender, EventArgs e) => ChangeTheme(AppTheme.Dark);
+
+    private void ChangeTheme(AppTheme theme)
+    {
+        ThemePreferences.Select(theme);
+        RefreshThemeSelection();
+    }
+
+    private void RefreshThemeSelection()
+    {
+        var current = ThemePreferences.Current;
+        SetChoiceButtonAppearance(SystemThemeButton, current == AppTheme.Unspecified);
+        SetChoiceButtonAppearance(LightThemeButton, current == AppTheme.Light);
+        SetChoiceButtonAppearance(DarkThemeButton, current == AppTheme.Dark);
+    }
+
+    private void RefreshLanguageSelection()
+    {
+        var current = _localization.CurrentLanguage;
+        SetChoiceButtonAppearance(ChineseLanguageButton, current == UiLanguage.ChineseSimplified);
+        SetChoiceButtonAppearance(JapaneseLanguageButton, current == UiLanguage.Japanese);
+        SetChoiceButtonAppearance(EnglishLanguageButton, current == UiLanguage.English);
+    }
+
+    private static void SetChoiceButtonAppearance(Button button, bool selected)
+    {
+        button.FontAttributes = selected ? FontAttributes.Bold : FontAttributes.None;
+        button.SetAppThemeColor(Button.BackgroundColorProperty,
+            selected ? Color.FromArgb("#512BD4") : Color.FromArgb("#EEEAF8"),
+            selected ? Color.FromArgb("#6B4AE8") : Color.FromArgb("#302943"));
+        button.SetAppThemeColor(Button.TextColorProperty,
+            selected ? Colors.White : Color.FromArgb("#49358B"),
+            selected ? Colors.White : Color.FromArgb("#DED2FF"));
+    }
+
     private async Task ChangeLanguageAsync(UiLanguage language)
     {
         var saved = await _localization.ChangeLanguageAsync(language);
-        SaveStatusLabel.Text = _localization[saved ? "State.Saved" : "State.Cancelled"];
-        SaveStatusLabel.IsVisible = true;
+        RefreshLanguageSelection();
+        if (!saved) await DisplayAlertAsync(_localization.NavSettings,
+            _localization["Settings.LanguageSaveFailed"], _localization["Library.Cancel"]);
     }
 }

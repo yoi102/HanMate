@@ -31,7 +31,7 @@ public sealed partial class LearningBrowserPage
             if (unit is null) return;
             var segment = unit.Segments.FirstOrDefault(s => s.Kind == SegmentKind.Speech);
             var segmentTranslation = segment is null ? null : UiLanguagePolicy.SelectAuxiliaryTranslation(segment.Translations, Language.CurrentLanguage);
-            var previewText = segmentTranslation is null ? unit.Text : segment!.Text;
+            var previewText = segmentTranslation is not null && segment is not null ? segment.Text : unit.Text;
             // Restrict the preview without splitting a text element or changing the stored content.
             var boundaries = TextElementMap.CreateUtf16Boundaries(previewText);
             var text = TextElementMap.Slice(previewText, boundaries, 0, Math.Min(80, boundaries.Count - 1));

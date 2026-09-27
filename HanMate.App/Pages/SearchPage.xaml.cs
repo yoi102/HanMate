@@ -37,6 +37,7 @@ public partial class SearchPage : ContentPage
     {
         InitializeComponent(); BindingContext = language;
         _language = language; _store = store; _installer = installer; _catalog = catalog;
+        if (DeviceInfo.Idiom == DeviceIdiom.Phone) PlaceModeSwitcherInMobileTitle();
         _management = management; _states = states;
         _handwriting = new(language, store); HandwritingHost.Content = _handwriting;
         Results.ItemTemplate = new DataTemplate(() =>
@@ -54,6 +55,29 @@ public partial class SearchPage : ContentPage
         });
         Results.ItemsSource = _rows;
         RefreshCopy();
+    }
+
+    private void PlaceModeSwitcherInMobileTitle()
+    {
+        SearchLayout.Children.Remove(ModeSwitcher);
+        SearchLayout.RowDefinitions[0].Height = new GridLength(0);
+        SearchLayout.RowSpacing = 0;
+        SearchLayout.Padding = new Thickness(12, 4);
+
+        var title = new Label { FontSize = 20, FontAttributes = FontAttributes.Bold,
+            VerticalOptions = LayoutOptions.Center };
+        title.SetBinding(Label.TextProperty, nameof(LocalizationService.NavSearch));
+        var titleBar = new Grid
+        {
+            ColumnDefinitions = { new(GridLength.Star), new(GridLength.Auto), new(GridLength.Star) },
+            HorizontalOptions = LayoutOptions.Fill,
+            VerticalOptions = LayoutOptions.Center,
+            BindingContext = _language
+        };
+        ModeSwitcher.HorizontalOptions = LayoutOptions.Center;
+        titleBar.Add(title);
+        titleBar.Add(ModeSwitcher, 1);
+        Shell.SetTitleView(this, titleBar);
     }
 
     protected override void OnHandlerChanged()
@@ -98,11 +122,18 @@ public partial class SearchPage : ContentPage
         Sources.Title = T("Sources"); RenderSources(); UpdateStatus();
         TextMode.Text = T("TextMode"); HandwritingMode.Text = T("HandwritingMode");
         TextMode.LineBreakMode = HandwritingMode.LineBreakMode = Manage.LineBreakMode = LineBreakMode.WordWrap;
-        TextMode.BackgroundColor = _handwritingMode ? Color.FromArgb("#EEE6FA") : Color.FromArgb("#512BD4");
-        TextMode.TextColor = _handwritingMode ? Color.FromArgb("#321568") : Colors.White;
-        HandwritingMode.BackgroundColor = _handwritingMode ? Color.FromArgb("#512BD4") : Color.FromArgb("#EEE6FA");
-        HandwritingMode.TextColor = _handwritingMode ? Colors.White : Color.FromArgb("#321568");
+        SetModeAppearance(TextMode, !_handwritingMode);
+        SetModeAppearance(HandwritingMode, _handwritingMode);
         _handwriting.RefreshCopy();
+    }
+    private static void SetModeAppearance(Button button, bool selected)
+    {
+        button.SetAppThemeColor(Button.BackgroundColorProperty,
+            selected ? Color.FromArgb("#512BD4") : Colors.Transparent,
+            selected ? Color.FromArgb("#6B4AE8") : Colors.Transparent);
+        button.SetAppThemeColor(Button.TextColorProperty,
+            selected ? Colors.White : Color.FromArgb("#49358B"),
+            selected ? Colors.White : Color.FromArgb("#E9DFFF"));
     }
     private async void OnTextMode(object? sender, EventArgs e) => await SetModeAsync(false);
     private async void OnHandwritingMode(object? sender, EventArgs e) => await SetModeAsync(true);
@@ -160,7 +191,13 @@ public partial class SearchPage : ContentPage
             if (generation != _generation) return;
             if (result.Epoch != currentEpoch) { await RunQueryAsync(); return; }
             _page = result; _epoch = result.Epoch;
-            foreach (var item in result.Items) if (_loadedIds.Add(item.ContentId)) _rows.Add(ToRow(item));
+            foreach (var item in result.Items)
+            {
+                if (_loadedIds.Contains(item.ContentId)) continue;
+                if (ToRow(item) is not { } row) continue;
+                _loadedIds.Add(item.ContentId);
+                _rows.Add(row);
+            }
             _renderedCulture = _language.CurrentCultureName;
         }
         catch (OperationCanceledException) { }
@@ -174,19 +211,29 @@ public partial class SearchPage : ContentPage
     private void RenderRows()
     {
         if (_renderedCulture == _language.CurrentCultureName) return;
-        for (var i = 0; i < _rows.Count; i++) _rows[i] = ToRow(_rows[i].Item);
+        for (var i = _rows.Count - 1; i >= 0; i--)
+        {
+            if (ToRow(_rows[i].Item) is { } row) _rows[i] = row;
+            else _rows.RemoveAt(i);
+        }
         _renderedCulture = _language.CurrentCultureName;
     }
-    private ResultRow ToRow(WordSearchResult item)
+    private ResultRow? ToRow(WordSearchResult item)
     {
-            var document = JsonSerializer.Deserialize<ContentDocument>(item.BodyJson, ContentJson.Options)!;
-            var headword = document.TextUnits.Single(u => u.Role == TextUnitRole.Headword);
+        try
+        {
+            var document = JsonSerializer.Deserialize<ContentDocument>(item.BodyJson, ContentJson.Options);
+            if (document is null) return null;
+            var headword = document.TextUnits.FirstOrDefault(u => u.Role == TextUnitRole.Headword);
+            if (headword is null) return null;
             var definition = document.TextUnits.FirstOrDefault(u => u.Role == TextUnitRole.Definition);
             var lang = _language.CurrentCultureName;
             var translation = _language.ShowAuxiliaryTranslations
                 ? definition?.Translations.GetValueOrDefault(lang) ?? headword.Translations.GetValueOrDefault(lang) ?? "" : "";
-            return new ResultRow(item, headword.Text, string.Join(' ', headword.Tokens.Where(t => t.Pinyin is not null).Select(t => t.Pinyin!.Display)),
+            return new ResultRow(item, headword.Text, string.Join(' ', headword.Tokens.Select(t => t.Pinyin?.Display).OfType<string>()),
                 definition?.Text ?? "", translation, item.SourceId == "personal" ? T("Personal") : item.SourceName);
+        }
+        catch (JsonException) { return null; }
     }
     private void UpdateStatus()
     {
@@ -203,7 +250,8 @@ public partial class SearchPage : ContentPage
         var generation = _generation;
         try
         {
-            var document = await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(row.Item.BodyJson, ContentJson.Options)!);
+            var document = await Task.Run(() => JsonSerializer.Deserialize<ContentDocument>(row.Item.BodyJson, ContentJson.Options));
+            if (document is null) return;
             if (generation != _generation) return;
             if (await Task.Run(() => _store.GetEpochAsync()) != _epoch) { await RunQueryAsync(); return; }
             if (generation != _generation) return;

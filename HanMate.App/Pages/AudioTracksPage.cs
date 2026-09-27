@@ -105,7 +105,8 @@ public sealed class AudioTracksPage(Guid targetId, LocalAudioStore store, Playba
         foreach (var draft in drafts)
         {
             var card = new VerticalStackLayout { Spacing = 6 };
-            card.Add(new Label { Text = draft.Phase == "ready" ? T("Ready") + $" · {draft.Wave!.DurationMs / 1000.0:0.0}s" : T("Incomplete") });
+            card.Add(new Label { Text = draft.Phase == "ready" && draft.Wave is { } wave
+                ? T("Ready") + $" · {wave.DurationMs / 1000.0:0.0}s" : T("Incomplete") });
             if (draft.Phase == "ready")
             {
                 AddPreview(card, "draft", draft.Id);
@@ -140,7 +141,8 @@ public sealed class AudioTracksPage(Guid targetId, LocalAudioStore store, Playba
             {
                 if (!await DisplayAlertAsync(T("ShareRecording"), T("ShareRecordingHint"), T("ShareRecording"), language["Library.Cancel"])) return;
                 await audio.StopAsync(_owner);
-                var files = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Packages.ShareFileStore>();
+                if (Handler?.MauiContext?.Services is not { } services) return;
+                var files = services.GetRequiredService<HanMate.Infrastructure.Packages.ShareFileStore>();
                 var path = await Task.Run(() => files.CreateAsync(".wav", stream => store.ExportRecordingAsync(target, track.Id, stream)));
                 await Share.Default.RequestAsync(new ShareFileRequest { Title = T("ShareRecording"), File = new ShareFile(path, "audio/wav") });
                 _status.Text = language["Transfer.ShareOpened"];
@@ -148,7 +150,8 @@ public sealed class AudioTracksPage(Guid targetId, LocalAudioStore store, Playba
             if (track.SourceRole == "user") card.Add(Action("SaveFile", async () =>
             {
                 await audio.StopAsync(_owner);
-                var files = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Packages.ShareFileStore>();
+                if (Handler?.MauiContext?.Services is not { } services) return;
+                var files = services.GetRequiredService<HanMate.Infrastructure.Packages.ShareFileStore>();
                 var path = await Task.Run(() => files.CreateAsync(".wav", stream => store.ExportRecordingAsync(target, track.Id, stream)));
                 _status.Text = language[await Files.NativeFileSaver.SaveAsync(path) ? "Transfer.FileSaved" : "Transfer.Cancelled"];
             }, false));
@@ -209,6 +212,7 @@ public sealed class AudioTracksPage(Guid targetId, LocalAudioStore store, Playba
     }
     private async Task ImportAsync()
     {
+        var target = _target ?? throw new InvalidOperationException("The audio target is unavailable.");
         var selected = await FilePicker.Default.PickAsync(new PickOptions { PickerTitle = T("Import"), FileTypes = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
         {
             [DevicePlatform.Android] = ["audio/wav", "audio/x-wav", "audio/wave", "audio/mpeg", "audio/mp4", "audio/x-m4a"],
@@ -220,7 +224,7 @@ public sealed class AudioTracksPage(Guid targetId, LocalAudioStore store, Playba
         Exception? failure = null; _status.Text = T("Decoding");
         var outcome = await audio.PlayOperationAsync(_owner, "audio-import:" + Guid.NewGuid(), async token =>
         {
-            try { await Task.Run(() => AudioFileImport.ImportAsync(store, _target!, input, FileSystem.CacheDirectory, token), token); }
+            try { await Task.Run(() => AudioFileImport.ImportAsync(store, target, input, FileSystem.CacheDirectory, token), token); }
             catch (Exception e) { failure = e; throw; }
         });
         if (failure is not null && failure is not OperationCanceledException) System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(failure).Throw();

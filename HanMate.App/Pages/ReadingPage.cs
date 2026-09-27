@@ -29,6 +29,7 @@ public sealed partial class ReadingPage : ContentPage
     private readonly bool _allowEditing;
     private Shell? _readerShell;
     private UiLanguage? _renderedLanguage;
+    private IServiceProvider? Services => Handler?.MauiContext?.Services;
 
     public ReadingPage(ReadingDocument document, LocalizationService language, int? targetIndex = null, double scale = 1, bool allowEditing = true, bool autoPlay = false)
     {
@@ -69,11 +70,11 @@ public sealed partial class ReadingPage : ContentPage
     { _active = false; _language.PropertyChanged -= OnLanguageChanged; base.OnDisappearing(); await StopReadingAsync(); }
     private async Task LoadPreferencesAsync()
     {
-        if (_loadingPreferences || Handler?.MauiContext is null) return;
+        if (_loadingPreferences || Services is not { } services) return;
         _loadingPreferences = true;
         try
         {
-            var store = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Database.ReadingPreferenceStore>();
+            var store = services.GetRequiredService<HanMate.Infrastructure.Database.ReadingPreferenceStore>();
             var preference = await Task.Run(() => store.GetAsync());
             if (!_active || Handler?.MauiContext is null) return;
             _showPinyin = preference.ShowPinyin;
@@ -84,10 +85,10 @@ public sealed partial class ReadingPage : ContentPage
     }
     private async Task SavePreferenceAsync(bool pinyin, double scale)
     {
-        if (_savingPreference || !_preferencesLoaded) return; _savingPreference = true;
+        if (_savingPreference || !_preferencesLoaded || Services is not { } services) return; _savingPreference = true;
         try
         {
-            var store = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Database.ReadingPreferenceStore>();
+            var store = services.GetRequiredService<HanMate.Infrastructure.Database.ReadingPreferenceStore>();
             await Task.Run(() => store.SaveAsync(new(pinyin, scale))); _showPinyin = pinyin; _scale = scale; Render();
         }
         catch { await DisplayAlertAsync(Title, _language["Library.Failed"], _language["Library.Cancel"]); }
@@ -127,7 +128,8 @@ public sealed partial class ReadingPage : ContentPage
                 if (_opening) return; _opening = true;
                 try
                 {
-                    var store = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Database.FavoriteStore>();
+                    if (Services is not { } services) return;
+                    var store = services.GetRequiredService<HanMate.Infrastructure.Database.FavoriteStore>();
                     await Navigation.PushAsync(new FavoritePickerPage(store, _language, _document.Content.Id));
                 }
                 catch { await DisplayAlertAsync(_language["Library.ChooseFolders"], _language["Library.Failed"], _language["Library.Cancel"]); }
@@ -140,7 +142,11 @@ public sealed partial class ReadingPage : ContentPage
                 share.Clicked += async (_, _) =>
                 {
                     if (_opening) return; _opening = true;
-                    try { await Navigation.PushAsync(ContentTransferPage.Create(Handler!.MauiContext!.Services, _language, _document.Content.Id)); }
+                    try
+                    {
+                        if (Services is not { } services) return;
+                        await Navigation.PushAsync(ContentTransferPage.Create(services, _language, _document.Content.Id));
+                    }
                     finally { _opening = false; }
                 };
                 management.Add(share);
@@ -150,7 +156,7 @@ public sealed partial class ReadingPage : ContentPage
                     if (_opening) return; _opening = true;
                     try
                     {
-                        var services = Handler!.MauiContext!.Services;
+                        if (Services is not { } services) return;
                         var snapshot = await services.GetRequiredService<HanMate.Infrastructure.Database.SqliteContentDocumentStore>().GetAsync(_document.Content.Id);
                         if (snapshot is null) return;
                         var draft = await services.GetRequiredService<HanMate.Infrastructure.Database.EditorCommitStore>().StartAsync(snapshot);
@@ -169,7 +175,8 @@ public sealed partial class ReadingPage : ContentPage
                         if (_opening) return; _opening = true;
                         try
                         {
-                            var store = Handler!.MauiContext!.Services.GetRequiredService<HanMate.Infrastructure.Database.ContentTrashStore>();
+                            if (Services is not { } services) return;
+                            var store = services.GetRequiredService<HanMate.Infrastructure.Database.ContentTrashStore>();
                             var plan = await Task.Run(() => store.PreviewAsync(_document.Content.Id)); var d = plan.Dependencies;
                             if (!await DisplayAlertAsync(trash.Text, string.Format(_language["Library.TrashPreview"], d.Favorites, d.Audio, d.Drafts, d.Other), trash.Text, _language["Library.Cancel"])) return;
                             await Task.Run(() => store.MoveAsync(plan)); await Navigation.PopAsync();
@@ -234,7 +241,9 @@ public sealed partial class ReadingPage : ContentPage
                 if (part.EndsUnit)
                 {
                     var target = _targetIndex is { } i ? _document.Targets[i] : null;
-                    var translations = target is not null && target.SegmentId is not null ? _document.Segment(target)!.Translations : part.Unit.Translations;
+                    var translations = target is not null && target.SegmentId is not null
+                        ? _document.Segment(target)?.Translations ?? part.Unit.Translations
+                        : part.Unit.Translations;
                     // A unit translation must never be mislabeled as a selected segment's translation.
                     AddTranslation(translations);
                 }
@@ -267,7 +276,7 @@ public sealed partial class ReadingPage : ContentPage
             if (_opening) return; _opening = true;
             try
             {
-                var services = Handler!.MauiContext!.Services;
+                if (Services is not { } services) return;
                 await Navigation.PushAsync(new AudioTracksPage(targetId,
                     services.GetRequiredService<HanMate.Infrastructure.Database.LocalAudioStore>(),
                     services.GetRequiredService<HanMate.Core.Audio.PlaybackCoordinator>(),
